@@ -41,7 +41,7 @@ jobs:
           (cd pymapdl; git fetch origin; git checkout main; git reset --hard origin/main; git branch -a)
           pip3 install -U pip setuptools
           pip3 install -r ./requirements.txt
-          curl -o- https://raw.githubusercontent.com/transifex/cli/main/install.sh | bash
+          curl -o- https://raw.githubusercontent.com/transifex/cli/master/install.sh | bash
           mv tx /usr/local/bin/tx
       - name: update
         env:
