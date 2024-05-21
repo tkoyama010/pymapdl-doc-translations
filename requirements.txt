@@ -1,0 +1,2 @@
+-e ./pymapdl[doc]
+sphinx-intl[transifex]==2.2.0
