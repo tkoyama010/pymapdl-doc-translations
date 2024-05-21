@@ -111,7 +111,7 @@ msgstr "**🐞 バグ、問題、またはエラー**: バグレポートはこ�
 
 #: ../../pymapdl/doc/source/getting_started/contribution.rst:67
 msgid "**📖 Documentation issue**: Modifications to the documentation only"
-msgstr "** 📖ドキュメンテーションの問題**: ドキュメントの修正のみ"
+msgstr "**📖 ドキュメンテーションの問題**: ドキュメントの修正のみ"
 
 #: ../../pymapdl/doc/source/getting_started/contribution.rst:68
 msgid "**🎓 Adding an example**: Proposing a new example for the library"
@@ -129,7 +129,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/devcontainer.rst:5
 msgid "Develop on containers"
-msgstr ""
+msgstr "コンテナでの開発"
 
 #: ../../pymapdl/doc/source/getting_started/devcontainer.rst:7
 msgid ""
@@ -141,7 +141,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/devcontainer.rst:14
 msgid "About the MAPDL container"
-msgstr ""
+msgstr "MAPDLコンテナについて"
 
 #: ../../pymapdl/doc/source/getting_started/devcontainer.rst:16
 msgid ""
@@ -297,6 +297,8 @@ msgid ""
 " do either, you must set up the repository on your local machine as per the "
 "explanations in the following sections."
 msgstr ""
+"バグを修正したり、新しい機能を開発したりすることで PyMAPDL "
+"の改善に貢献できます。どちらの場合も、以下のセクションの説明に従ってローカルマシンにリポジトリをセットアップする必要があります。"
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:14
 msgid "Clone the PyMAPDL repository"
@@ -3068,7 +3070,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/getting_started/write_documentation.rst:5
 #: ../../pymapdl/doc/source/getting_started/write_documentation.rst:97
 msgid "Write documentation"
-msgstr ""
+msgstr "ドキュメントを書く"
 
 #: ../../pymapdl/doc/source/getting_started/write_documentation.rst:7
 msgid ""

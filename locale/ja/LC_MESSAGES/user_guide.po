@@ -1215,7 +1215,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/index.rst:5
 msgid "User guide"
-msgstr ""
+msgstr "ユーザーガイド"
 
 #: ../../pymapdl/doc/source/user_guide/index.rst:6
 msgid ""
