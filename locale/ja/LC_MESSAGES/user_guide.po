@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the ansys-mapdl-core package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-21 13:42+0000\n"
+"POT-Creation-Date: 2024-05-21 15:07+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,37 +23,38 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/cli.rst:6
 msgid "PyMAPDL command line interface"
-msgstr ""
+msgstr "PyMAPDL コマンドラインインターフェイス."
 
 #: ../../pymapdl/doc/source/user_guide/cli.rst:8
 msgid ""
 "For your convenience, PyMAPDL package includes a command line interface "
 "which allows you to launch, stop and list local MAPDL instances."
 msgstr ""
+"便利なように、PyMAPDLパッケージには、ローカルのMAPDLインスタンスを起動、停止、一覧表示できるコマンドラインインターフェイスが含まれています。"
 
 #: ../../pymapdl/doc/source/user_guide/cli.rst:13
 msgid "Launch MAPDL instances"
-msgstr ""
+msgstr "MAPDLインスタンスを起動する"
 
 #: ../../pymapdl/doc/source/user_guide/cli.rst:15
 msgid "To start MAPDL, just type on your activated virtual environment:"
-msgstr ""
+msgstr "MAPDLを起動するには、起動した仮想環境上で次のように入力します:"
 
 #: ../../pymapdl/doc/source/user_guide/cli.rst:0
 #: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:0
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: ../../pymapdl/doc/source/user_guide/cli.rst:0
 #: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:0
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #: ../../pymapdl/doc/source/user_guide/cli.rst:36
 msgid ""
 "If you want to specify an argument, for instance the port, then you need to "
 "call `launch_mapdl start`:"
-msgstr ""
+msgstr "引数、例えばポートを指定したい場合は、 `launch_mapdl start` を呼び出す必要があります:"
 
 #: ../../pymapdl/doc/source/user_guide/cli.rst:59
 msgid ""
@@ -66,16 +71,16 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/cli.rst:87
 msgid "Stop MAPDL instances"
-msgstr ""
+msgstr "MAPDLインスタンスを停止する"
 
 #: ../../pymapdl/doc/source/user_guide/cli.rst:88
 msgid ""
 "You can use the ``pymapdl stop`` command to stop MAPDL instances like this:"
-msgstr ""
+msgstr "``pymapdl stop`` コマンドを使えば、次のようにMAPDLインスタンスを停止することができます:"
 
 #: ../../pymapdl/doc/source/user_guide/cli.rst:110
 msgid "By default, the instance running on the port `50052` is stopped."
-msgstr ""
+msgstr "デフォルトでは、ポート `50052` で動作しているインスタンスは停止されます。"
 
 #: ../../pymapdl/doc/source/user_guide/cli.rst:112
 msgid ""
@@ -334,6 +339,8 @@ msgid ""
 "Python functions. This makes the code easier to debug should it be necessary"
 " to insert a ``breakpoint()`` in the script."
 msgstr ""
+"また、 ``*CREATE`` を使用するAPDLマクロはPython関数に置き換えられました。これにより、スクリプト中に "
+"``breakpoint()`` を挿入する必要がある場合、コードのデバッグが容易になります。"
 
 #: ../../pymapdl/doc/source/user_guide/convert.rst:142
 msgid "Example: VM1 - statically indeterminate reaction force analysis"
@@ -356,7 +363,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/user_guide/convert.rst:0
 #: ../../pymapdl/doc/source/user_guide/mapdl.rst:0
 msgid "APDL"
-msgstr ""
+msgstr "APDL"
 
 #: ../../pymapdl/doc/source/user_guide/convert.rst:168
 msgid "Here is the MAPDL code:"

@@ -308,10 +308,11 @@ msgid ""
 "system such as Git. You can this run this code to clone the latest "
 "development version of PyMAPDL:"
 msgstr ""
+"PyMAPDLリポジトリをクローンする前に、Gitのようなバージョン管理システムをインストールする必要があります。次のコードを実行すると、PyMAPDLの最新の開発バージョンをクローンすることができます:。"
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:27
 msgid "Create a Python virtual environment"
-msgstr ""
+msgstr "Pythonの仮想環境を作成する"
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:29
 msgid ""
@@ -323,27 +324,27 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:33
 msgid "Install PyMAPDL in development mode"
-msgstr ""
+msgstr "開発モードでPyMAPDLをインストールする"
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:35
 msgid ""
 "Install the latest version of PyMAPDL in development mode with these "
 "commands:"
-msgstr ""
+msgstr "以下のコマンドを使用して、最新バージョンのPyMAPDLを開発モードでインストールします:"
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:45
 msgid ""
 "If you are going to do testing, you must install the testing dependencies "
 "with this command:"
-msgstr ""
+msgstr "もしテストを行うのであれば、以下のコマンドでテスト用の依存関係をインストールする必要があります:"
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:54
 msgid "Develop PyMAPDL"
-msgstr ""
+msgstr "PyMAPDL を開発する"
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:56
 msgid "*Now it is time to develop PyMAPDL!*"
-msgstr ""
+msgstr "*今こそPyMAPDLを開発する時です！*"
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:58
 msgid ""
@@ -352,6 +353,8 @@ msgid ""
 " collaboration, code management, and tracking changes. Here are the main "
 "guidelines for developing code in a repository:"
 msgstr ""
+"リポジトリでコードを開発する場合、特に Git "
+"のようなバージョン管理システムを使う場合は、効率的な共同作業、コード管理、変更の追跡を確実にするために、一連の重要なガイドラインが必要になります。以下は、リポジトリでコードを開発するための主なガイドラインです:"
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:63
 msgid ""
@@ -359,6 +362,7 @@ msgid ""
 "experiments. This keeps changes isolated and facilitates parallel "
 "development."
 msgstr ""
+"**ブランチを使う**: 異なる機能、バグフィックス、実験のためにブランチを作成しましょう。こうすることで変更を隔離し、並行開発を容易にします。"
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:67
 msgid ""
@@ -366,12 +370,14 @@ msgid ""
 "messages that explain the purpose and context of the changes. Follow a "
 "consistent style."
 msgstr ""
+"**説明的なコミットメッセージを書く**: 変更の目的と背景を説明する、明確で簡潔なコミットメッセージを書きましょう。 "
+"一貫したスタイルに従ってください。"
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:71
 msgid ""
 "**Commit frequently**: Make small, meaningful commits frequently. Avoid "
 "making a large number of unrelated changes in a single commit."
-msgstr ""
+msgstr "**頻繁にコミットする**: 小さくて意味のあるコミットを頻繁に行う。1回のコミットで無関係な変更を大量に行うことは避けましょう。"
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:74
 msgid ""
@@ -379,12 +385,16 @@ msgid ""
 "changes from the remote repository before pushing your own changes to avoid "
 "conflicts."
 msgstr ""
+"**プッシュする前にプルしてください**: "
+"競合を避けるため、自分の変更をプッシュする前に、常にリモートリポジトリの最新の変更でローカルブランチを更新してください。"
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:78
 msgid ""
 "**Use pull requests (PRs)**: Use PRs to submit your changes for review. This"
 " allows for discussion and validation before merging into the main branch."
 msgstr ""
+"**プルリクエスト (PR) を使用してください**: あなたの変更をレビューのために提出するには、PR "
+"を使ってください。こうすることで、メインブランチにマージする前に議論や検証を行うことができます。"
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:81
 msgid ""
@@ -405,6 +415,9 @@ msgid ""
 "issues early and ensure reliable deployments. For more information, see "
 "`Unit testing`_."
 msgstr ""
+"**変更をテストしてください**: "
+"変更が期待通りに動作するよう、徹底的にテストする。該当する場合は、継続的インテグレーション/継続的デプロイメント（CI/CD）パイプラインで実行されるユニットテストを作成または更新して、問題を早期に発見し、信頼性の高いデプロイメントを保証します。詳細については、"
+" `Unit testing`_ を参照してください。"
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:93
 msgid ""
