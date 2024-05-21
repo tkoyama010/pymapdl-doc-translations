@@ -1,0 +1,3938 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) (c) 2024 ANSYS, Inc. All rights reserved
+# This file is distributed under the same license as the ansys-mapdl-core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2024
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-21 15:06+0000\n"
+"PO-Revision-Date: 2024-05-21 13:45+0000\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
+"Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:5
+msgid "Contributing"
+msgstr "貢献"
+
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:16
+msgid "There are several ways to contribute to PyMAPDL."
+msgstr "PyMAPDL に貢献するにはいくつかの方法があります。"
+
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:18
+msgid "`Answer discussions`_"
+msgstr "`議論に回答する`_"
+
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:19
+msgid "`Post issues`_"
+msgstr "`イシューを投稿する`_"
+
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:20
+msgid ":ref:`write_documentation`"
+msgstr ":ref:`write_documentation`"
+
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:21
+msgid ":ref:`developing_pymapdl`"
+msgstr ":ref:`developing_pymapdl`"
+
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:23
+msgid ""
+"Overall guidance on contributing to a PyAnsys library appears in the "
+"`Contributing <dev_guide_contributing_>`_ topic in the *PyAnsys Developer's "
+"Guide*. Ensure that you are thoroughly familiar with it and the `Coding "
+"style <dev_guide_coding_style_>`_ before attempting to contribute to "
+"PyMAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:31
+msgid "Answer discussions"
+msgstr "ディスカッションに回答する"
+
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:33
+msgid ""
+"Answering discussions is an excellent way to contribute to PyMAPDL, and it "
+"does not require any setup, just a GitHub account. It is probably the first "
+"step towards becoming a full PyMAPDL developer, since it helps you deepen "
+"your understanding of the project. Engaging in discussions often requires a "
+"thorough grasp of the project's goals and challenges. Your contributions can"
+" help other users or contributors who may be facing similar issues, making "
+"the repository more welcoming and inclusive. By providing answers or "
+"solutions, you can directly contribute to the project's success, maintain "
+"its health, and encourage a positive, open source ecosystem."
+msgstr ""
+"ディスカッションに答えることはPyMAPDLに貢献する優れた方法であり、GitHubアカウントだけで何の設定も必要ありません。プロジェクトに対する理解を深めることができるので、おそらくPyMAPDLの完全な開発者になるための最初のステップになるでしょう。議論に参加するには、プロジェクトの目標や課題を十分に把握する必要があります。あなたの貢献は、同じような問題に直面しているかもしれない他のユーザーや貢献者を助けることができ、リポジトリをより歓迎された包括的なものにすることができます。回答や解決策を提供することで、プロジェクトの成功に直接貢献し、健全性を維持し、前向きなオープンソースのエコシステムを促進することができます。"
+
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:44
+msgid ""
+"To discover how you can help, see the `PyMAPDL Discussions "
+"<pymapdl_discussions_>`_ page."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:48
+msgid "Post issues"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:50
+msgid ""
+"Posting issues in a repository is a valuable contribution that benefits you,"
+" the repository, and PyMAPDL as a whole. It allows you to voice concerns, "
+"suggest improvements, or report bugs, which can lead to a more robust and "
+"user-friendly project. It also offers an opportunity for you to engage with "
+"the project's community, learn from others, and gain experience in issue "
+"tracking and collaboration. For the repository, issues serve as a structured"
+" way to track and prioritize work, helping maintainers understand the needs "
+"of users and guide the project's development. It's an excellent way to "
+"contribute because it enhances the project's quality, fosters transparency, "
+"and encourages the collective effort of the community to continuously "
+"improve and innovate."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:62
+msgid ""
+"Use the `PyMAPDL Issues <pymapdl_issues_>`_ page to submit questions, report"
+" bugs, and request new features. When possible, use these issue templates:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:66
+msgid "**🐞 Bug, problem, or error**: Fill a bug report here"
+msgstr "**🐞 バグ、問題、またはエラー**: バグレポートはこちらから記入してください"
+
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:67
+msgid "**📖 Documentation issue**: Modifications to the documentation only"
+msgstr "** 📖ドキュメンテーションの問題**: ドキュメントの修正のみ"
+
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:68
+msgid "**🎓 Adding an example**: Proposing a new example for the library"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:69
+msgid "**💡 New feature**: Enhancements to the code"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:72
+msgid ""
+"If your issue does not fit into one of these categories, click `Open a blank"
+" issue <pymapdl_new_blank_issue_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:5
+msgid "Develop on containers"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:7
+msgid ""
+"This guide describes how to develop PyMAPDL features or fix bugs using a "
+"`remote container <vscode_devcontainers_containers_>`_. The files for "
+"setting up the container can be found in the `.devcontainer directory "
+"<pymapdl_devcontainer_directory_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:14
+msgid "About the MAPDL container"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:16
+msgid ""
+"Because MAPDL software is not open source, the GPL license does not allow to"
+" distribute a docker container to users. Having a docker container with "
+"MAPDL installed is a requirement to use any of the development methods "
+"mentioned on this section. If you want to build your own docker image, visit"
+" the following link :ref:`ref_make_container`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:25
+msgid "License"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:27
+msgid ""
+"As mentioned before, you must have a valid license to run MAPDL. When you "
+"launch the container, the file :file:`script.sh` automatically checks if the"
+" environment variable :envvar:`ANSYSLMD_LICENSE_FILE` exists. This "
+"environment variable sets the port and IP address of the license server. If "
+"you do not have set this environment variable before launching the "
+"container, you are prompt to enter your license server port and address."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:34
+msgid ""
+"You can set the :envvar:`ANSYSLMD_LICENSE_FILE` environment variable from "
+"the terminal before launching VS Code. For example, if you have a license "
+"server at the address ``123.45.67.89``, you can set the license using:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:0
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:0
+#: ../../pymapdl/doc/source/getting_started/docker.rst:0
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:0
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:0
+msgid "Windows"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:0
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:0
+#: ../../pymapdl/doc/source/getting_started/docker.rst:0
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:0
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:0
+msgid "Linux"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:58
+msgid "And then open the folder in the container using the `Command palette`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:64
+msgid "Develop on a remote container"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:66
+msgid ""
+"This approach requires you have a Docker image with MAPDL installed. The "
+"Docker image listed in the `repository development container configuration "
+"files <pymapdl_devcontainer_configuration_>`_ is not for public use due to "
+"licensing issues. However, you can `create your own Docker image "
+"<ref_make_container_>` and use this file as a template for setting your own "
+"local development container."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:73
+msgid ""
+"To use a `remote container <vscode_devcontainers_containers_>`_, you must "
+"install this software:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:75
+msgid "`Visual Studio Code <vscode_>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:76
+msgid ""
+"`Docker software <docker_main_>`_ or equivalent. To run Linux Docker "
+"containers, you should use the Windows Subsystem Linux (WSL) backend. For "
+"more information, see `Developing inside a Container - Getting started "
+"<vscode_devcontainers_containers_getting_started_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:80
+msgid ""
+"`Remove Development VS Code extension pack "
+"<vscode_devcontainers_remote_extension_>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:82
+msgid ""
+"As mentioned before, you must have your own Docker image with MAPDL "
+"installed locally available or hosted in an online registry, such as GitHub "
+"`ghcr.io <ghcr_>`_. For the purpose of this document, assume your image is "
+"hosted at ``ghcr.io/myaccount/mapdlimage:mytag``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:87
+msgid ""
+"You must then modify the `docker-compose.yml "
+"<pymapdl_build_docker_compose_>`_ file with your custom image:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:100
+msgid ""
+"You might also need to change some environment variables or Docker options "
+"to adjust to your image configuration. For example, you might need to change"
+" the :envvar:`AWP_ROOT222` environment variable if your MAPDL container does"
+" not have the installation in the default directory. Be careful that you do "
+"not commit those changes in your PRs."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:106
+msgid ""
+"You can now open the current folder (or PyMAPDL repository) using "
+":kbd:`ctr/cmd` + :kbd:`shift` + :kbd:`p` to open the Visual Studio Code "
+"**Command palette**. Then select **Dev Containers: Open Folder in "
+"Container**. When you are prompted to select one of the multiple "
+"devcontainer configurations, select **PyMAPDL-DevContainer (Local)**. "
+"Because the configuration is available in the "
+":file:`.devcontainer/devcontainer-local` directory, Visual Studio Code "
+"automatically launches the MAPDL container with the desired configuration."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:114
+msgid ""
+"The first time that you launch the devcontainer, it might take a long time "
+"before it is ready, This is because the container image must be pulled from "
+"the registry."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:117
+msgid ""
+"You can now work normally, but you would be, in fact, working from inside "
+"the container. Because Visual Studio Code mount the local directory into the"
+" Docker container, you don't lose your changes if you accidentally delete "
+"your container. However, this mounting process might have a significant "
+"impact on the container performance, especially noticeable if you are using "
+"MacOS. You can avoid this by cloning the repository inside the container. "
+"For more information, see `Quick start: Open a Git repository or GitHub PR "
+"in an isolated container volume <vscode_open_a_repository_in_container_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:6
+msgid "Develop code"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:8
+msgid ""
+"You can help improve PyMAPDL by fixing a bug or developing a new feature. To"
+" do either, you must set up the repository on your local machine as per the "
+"explanations in the following sections."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:14
+msgid "Clone the PyMAPDL repository"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:16
+msgid ""
+"Before cloning the PyMAPDL repository, you must install a version control "
+"system such as Git. You can this run this code to clone the latest "
+"development version of PyMAPDL:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:27
+msgid "Create a Python virtual environment"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:29
+msgid ""
+"To avoid dependency conflicts and more easily manage upgrades, you should "
+"install PyMAPDL in its own virtual environment. For detailed information on "
+"how to install Python and create a virtual environment, see `Setting up your"
+" development environment <dev_guide_setup_your_environment_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:33
+msgid "Install PyMAPDL in development mode"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:35
+msgid ""
+"Install the latest version of PyMAPDL in development mode with these "
+"commands:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:45
+msgid ""
+"If you are going to do testing, you must install the testing dependencies "
+"with this command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:54
+msgid "Develop PyMAPDL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:56
+msgid "*Now it is time to develop PyMAPDL!*"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:58
+msgid ""
+"Developing code in a repository, particularly when using version control "
+"systems like Git, involves a set of essential guidelines to ensure efficient"
+" collaboration, code management, and tracking changes. Here are the main "
+"guidelines for developing code in a repository:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:63
+msgid ""
+"**Use branches**: Create branches for different features, bug fixes, or "
+"experiments. This keeps changes isolated and facilitates parallel "
+"development."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:67
+msgid ""
+"**Write descriptive commit messages**: Provide clear and concise commit "
+"messages that explain the purpose and context of the changes. Follow a "
+"consistent style."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:71
+msgid ""
+"**Commit frequently**: Make small, meaningful commits frequently. Avoid "
+"making a large number of unrelated changes in a single commit."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:74
+msgid ""
+"**Pull before you push**: Always update your local branch with the latest "
+"changes from the remote repository before pushing your own changes to avoid "
+"conflicts."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:78
+msgid ""
+"**Use pull requests (PRs)**: Use PRs to submit your changes for review. This"
+" allows for discussion and validation before merging into the main branch."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:81
+msgid ""
+"**Write good documentation**: Maintain clear and up-to-date documentation "
+"for your contribution or changes, including comments in code, and relevant "
+"project documentation in rST or Markdown files. If you implement a new "
+"feature or change the behaviour of the library in any way, remember to "
+"mention it somewhere in the documentation (rST files in :file:`doc\\source` "
+"directory) Follow the `numpydoc <numpydoc_>`_ convention for documenting "
+"code."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:88
+msgid ""
+"**Test your changes**: Thoroughly test your changes to ensure that they work"
+" as expected. If applicable, create or update the unit tests that run on the"
+" continuous integration/continuous deployment (CI/CD) pipelines to catch "
+"issues early and ensure reliable deployments. For more information, see "
+"`Unit testing`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:93
+msgid ""
+"**Respect code style and standards**: Follow code style guidelines and "
+"adhere to coding standards specific to your language or framework."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:97
+msgid ""
+"**Collaborate and communicate**: Communicate with team members, provide "
+"updates on your progress, and resolve any conflicts promptly."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:100
+msgid ""
+"**Ask for help**: To ensure code quality, identify issues, and share "
+"knowledge, ask PyMAPDL developers to assist you and review your code. If you"
+" need help or guidance, mention ``@ansys/pymapdl-maintainers`` in a comment "
+"so they they are notified."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:105
+msgid ""
+"By following these guidelines, you can ensure smooth and organized code "
+"development within a repository, fostering collaboration, code quality, and "
+"feature enhancement."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:112
+msgid "Unit testing"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:114
+msgid ""
+"Unit tests validate the software by testing that the logic implemented "
+"inside a certain method, class, or module is working as expected. They "
+"should be as atomic and independent as possible."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:118
+msgid ""
+"Unit testing is highly important. The tests verify that code changes are "
+"consistent with other parts of the code and verify that these changes are "
+"implemented properly."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:122
+msgid ""
+"In the PyMAPDL repository, `pytest <pytest_>`_ is used to run tests and the "
+"unit tests are in the `tests <pymapdl_tests_>`_ directory in this "
+"repository, along with integration tests. The difference between a unit test"
+" and an integration test is that the latter tests several units of the code "
+"to ensure that they all work together."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:128
+msgid "To run all the unit tests use the following command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:134
+msgid ""
+"If you are running on a **Linux machine without display**, you must install "
+"``xvfb`` OS library and run the preceding command with the ``xvfb-run`` "
+"command as prefix."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:141
+msgid ""
+"In case you want to run only a certain subset of tests, you can use the "
+"``-k`` argument to filter the tests using booleans:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:162
+msgid "Creation of a unit test"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:164
+msgid ""
+"The name of a ``pytest`` file must be in the form ``test_XXX.py``, where "
+"``XXX`` is either the function, method, or class that you are testing or "
+"some other explicative name. In the command line, you can use the ``-k`` "
+"argument to filter the tests to run. For more information, see `pytest usage"
+" <pytest_usage_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:169
+msgid "Here are some guidelines for creating good unit tests:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:171
+msgid "Assign long and descriptive names to tests."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:172
+msgid ""
+"Use the `Codecov <codecov_>`_ tool to ensure that all implemented code is "
+"tested."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:173
+msgid "Check that tests return the same results each time."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:174
+msgid "Verify that tests are independent."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:175
+msgid "Write tests that verify only one part of the code at a time."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:176
+msgid "Make tests as short and fast as possible."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:178
+msgid ""
+"`What makes a good unit test? <article_good_unit_test_>`_ is an exhaustive "
+"list of tips for creating good unit tests."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:181
+msgid ""
+"Most PyMAPDL tests require a connection to a running instance of MAPDL, "
+"which makes them integration tests. If your test requires a running MAPDL "
+"instance, you can use the PyMAPDL `mapdl <mapdl_fixture_>`_ method in your "
+"function signature. It is executed upstream of each test and not within all "
+"tests."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:195
+msgid ""
+"If you do not have MAPDL installed locally but still want to run the unit "
+"testing, you must set up the following environment variables."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:219
+msgid ""
+"These environment variables tell PyMAPDL to attempt to connect to the "
+"existing MAPDL service by default when the ``launch_mapdl`` function is "
+"used."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:222
+msgid ""
+"Additionally, you can use the :envvar:`PYMAPDL_MAPDL_EXEC` and "
+":envvar:`PYMAPDL_MAPDL_VERSION` environment variables to specify the MAPDL "
+"executable path and the version to launch (if multiple versions of MAPDL are"
+" installed)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:227
+msgid "Continuous integration and continuous deployment"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:229
+msgid ""
+"Unit tests and integration tests are part of continuous integration (CI). "
+"The automation of testing, monitoring, and deployment of newly added code "
+"allows continuous deployment (CD) throughout the app lifecycle, providing a "
+"comprehensive CI/CD approach."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:238
+msgid "Example"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:240
+msgid ""
+"The `test_component.py <pymapdl_test_component_>`_ file contains the unit "
+"tests and integration tests for the :class:`ComponentManager "
+"<ansys.mapdl.core.component.ComponentManager>` class. These tests are just "
+"some of the many in the `test directory <pymapdl_tests_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:245
+msgid "Here are some examples of how you use ``pytest``:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:275
+msgid ""
+"For further ``pytest`` configuration details, see the `pytest documentation "
+"<pytest_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:279
+msgid "Code coverage"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:281
+msgid ""
+"To verify that all code is properly tested, you must ensure that every piece"
+" of code is used (covered) in at least one unit test. In this repository, "
+"the `Codecov <codecov_>`_ tool generates a coverage report of the committed "
+"code. It indicates how merging a pull request would impact coverage. The "
+"generation of this report is one of the checks that must run successfully to"
+" merge code changes."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:293
+msgid "Coverage example"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:295
+msgid "To show how the coverage works, assume that you have this library:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:298
+msgid "**Awesome library**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:312
+msgid "**Tests**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:314
+msgid "You can opt to run the tests with this configuration:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:324
+msgid ""
+"Or, if a method is a bit more complex, you can split the case in different "
+"tests:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:340
+msgid ""
+"While the code coverage in either case is 100% for the function, the second "
+"case is more useful for debugging the function."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:343
+msgid ""
+"You can also use `parametrize (pytest.mark.parametrize) "
+"<pytest_parametrize_>`_ to make the code more readable, and easier to reuse."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:363
+msgid "For further explanations, see the `pytest documentation <pytest_>`_ ."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:366
+msgid "Code style"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:368
+msgid ""
+"PyMAPDL follows the PEP8 standard as outlined in the `PyAnsys Development "
+"Guide <dev_guide_pyansys_>`_ and implements style checking using `pre-commit"
+" <precommit_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:372
+msgid ""
+"To ensure your code meets minimum code styling standards, run these "
+"commands:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:379
+msgid ""
+"You can also install this as a pre-commit hook by running this command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:385
+msgid ""
+"Since you have installed ``pre-commit`` as a hook, ``git`` automatically "
+"runs these hooks before committing, failing if it find any format issues and"
+" making or proposing the necessary changes to the commit. If this happens, "
+"you might need to run commit and edit these changes several times before "
+"commit successfully."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:407
+msgid ""
+"This way, it's not possible for you to push code that fails the style "
+"checks. For example:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:430
+msgid ""
+"First time you run ``pre-commit`` (using ``git commit`` or ``pre-commit``), "
+"the command might take a bit of time (2-3 minutes) to download the specified"
+" hooks and install them. After that first time, analysing your commits "
+"should take seconds."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:434
+msgid ""
+"``pre-commit`` hooks can also be updated, added or removed. For more "
+"information, visit `pre-commit <precommit_>`_ website."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:5
+msgid "MAPDL and Docker"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:7
+msgid ""
+"You can run MAPDL within a Docker container on any OS and connect to it via "
+"PyMAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:10
+msgid ""
+"There are several advantages to running MAPDL in a containerized environment"
+" such as Docker (or Singularity):"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:13
+msgid "Consistent environment regardless of the host OS"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:14
+msgid "Portability and ease of install"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:15
+msgid "Large-scale cluster deployment using Kubernetes"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:16
+msgid "Genuine app isolation through containerization"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:18
+msgid ""
+"When running MAPDL in a Docker container, you use your local Python "
+"installation to connect to this instance."
+msgstr ""
+
+#: ../../pymapdl/docker/make_container.rst:16
+#: ../../pymapdl/doc/source/getting_started/docker.rst:23
+msgid "Requirements"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:25
+msgid ""
+"You must have access to a Docker image with MAPDL in it. For more "
+"information on how to create your own Docker image, see "
+":ref:`ref_make_container`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:29
+msgid ""
+"Once you have created and uploaded your Docker image to a registry, you can "
+"start to pull and use the image on other devices."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:34
+msgid ""
+"MAPDL Docker images are not allowed to be shared in public or free-to-access"
+" repositories or registries. Doing so violates Ansys policy."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:41
+msgid "Configure Docker to access a private GitHub registry"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:43
+msgid ""
+"If you have created a Docker image and uploaded it to a GitHub private "
+"repository, you must authorize your Docker installation to access this "
+"private package by using a personal access token."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:48
+msgid ""
+"For information on creating a GitHub personal access token with ``packages "
+"read`` permissions, see GitHub's `Creating a personal access token "
+"<gh_creating_pat_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:51
+msgid "Save that token to a file with this command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:58
+msgid ""
+"This lets you send the token to Docker without leaving the token value in "
+"your history. Next, authorize Docker to access this repository with code "
+"like this:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:71
+msgid "Run an MAPDL Docker image"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:73
+msgid ""
+"You can now launch MAPDL from Docker using the command line, a `docker "
+"compose file <run_an_mapdl_image_using_docker_compose_>`_, or a script that "
+"gather the commands given to the command line."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:77
+msgid ""
+"Your Docker image should have a valid MAPDL license configuration. The "
+"easiest way is to have an environment variable, "
+":envvar:`ANSYSLMD_LICENSE_FILE`, pointing to a valid license server. This "
+"environment variable can be already included in the Docker image. However, "
+"this is not recommended because it could expose the license server if the "
+"Docker image is leaked. The recommended approach is to set that environment "
+"variable when running the container."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:85
+msgid ""
+"To instantiate an MAPDL Docker container from an image hosted at "
+"``ghcr.io/myuser/myrepo/mymapdldockerimage``, use code like in the following"
+" examples."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:112
+msgid ""
+"The first time you instantiate the container, Docker logins into the "
+"registry and pulls the required image. This can take some time, depending on"
+" the size of the image."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:115
+msgid "To rerun it, you should restart the container with this command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:134
+msgid "Or you can delete the container and run it again using these commands:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:155
+msgid ""
+"You can append the Docker flag ``--rm`` to automatically clean up the "
+"container when it exits."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:158
+msgid ""
+"The preceding commands create a log file (``log.txt``) in your current "
+"directory location. However, you can remove ``> log.txt`` if you don't want "
+"to create this file. In this case, the command output is redirected to the "
+"console, which is kept blocked until the Docker image exits. You can detach "
+"the console from the Docker container output by appending ``-d`` to the "
+"`docker run <docker_run_>`_ command. (Always add this before the Docker "
+"image URL.)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:165
+msgid ""
+"If you don't want to block the console, the best approach is to pipe the "
+"output to a file as mentioned earlier so that you can inspect the output of "
+"that file."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:168
+msgid ""
+"Notice that the MAPDL Docker image gRPC port (``50052``) is being mapped to "
+"a different host port (``50053``) to avoid port conflicts with local MAPDL "
+"instances running on the host or other Docker images. You could additionally"
+" launch more Docker containers in different ports if you want to run "
+"multiple simulations at the same time."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:174
+msgid ""
+"The :ref:`ref_pymapdl_pool` module does not work when you are connecting to "
+"a remote MAPDL Docker image. It also does not work when connected to Docker "
+"containers. If you decide to launch multiple MAPDL instances, you must "
+"manage these instances yourself."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:180
+msgid "Ensure that port ``50053`` is open in your local firewall."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:182
+msgid ""
+"You can provide additional MAPDL command line parameters to MAPDL by simply "
+"appending them to the end of the command."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:185
+msgid ""
+"For example, you can increase the number of processors (up to the number "
+"available on the host machine) with the ``-np`` switch:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:205
+msgid ""
+"For additional command line arguments, see the *Notes* section in the "
+"description for the :func:`launch_mapdl() "
+"<ansys.mapdl.core.launcher.launch_mapdl>` function."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:209
+msgid ""
+"You can use a script file (batch ``\".bat\"`` or PowerShell ``\".ps\"``). to"
+" run the preceding commands all at once."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:212
+msgid ""
+"Once you have launched MAPDL, you should see the following content in your "
+"console (or the output file):"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:229
+msgid ""
+"Notice that the port specified in the console is the internal Docker "
+"container port. This port has been mapped to the value specified for the "
+":envvar:`LOCAL_MAPDL_PORT` environment variable."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:237
+msgid "Using ``docker-compose`` to launch MAPDL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:239
+msgid ""
+"You can also use the ``docker-compose`` command to launch MAPDL configured "
+"in a ``docker-compose`` file. This is useful if you want to load an already "
+"configured environment, or if you want to launch multiple instances of MAPDL"
+" or services."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:244
+msgid ""
+"For your convenience, the `docker <pymapdl_docker_dir_>`_ directory contains"
+" configured ``docker-compose`` files that you can use."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:248
+msgid ""
+"Using the `docker-compose.yml <pymapdl_docker_compose_base_>`_ file is "
+"recommended. This is the *base* configuration file for launching an instance"
+" of MAPDL that you can connect to remotely."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:256
+msgid "Connect to the MAPDL container from Python"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:258
+msgid ""
+"You can connect to an MAPDL instance as indicated in "
+":ref:`connect_grpc_madpl_session`. You do not need to specify an IP address "
+"because Docker maps the ports to the local host."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:263
+msgid "Additional considerations"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:266
+msgid "Use ``--restart`` policy with MAPDL products"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:268
+msgid ""
+"By default, MAPDL creates a ``LOCK`` file in the working directory when it "
+"starts, and it deletes this file if it exits normally. The file is used to "
+"avoid overwriting files such as database (DB) files or result (RST) files "
+"when starting MAPDL after an abnormal termination."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:273
+msgid ""
+"Because of this behavior, when using the Docker ``--restart`` flag in the "
+"`docker run <docker_run_>`_ command, you might enter into an infinite loop "
+"after crashing if you specify the Docker image to reboot after an abnormal "
+"termination. When there is an abnormal termination (MAPDL crashes), the "
+":file:`LOCK` file is kept on the working directory. Since MAPDL has exited, "
+"the container also exits."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:279
+msgid ""
+"This triggers the Docker ``restart`` policy, which attempts to restart MAPDL"
+" container and the MAPDL process with it. But because of the presence of the"
+" ``LOCK`` file, MAPDL exits in an attempt to not overwrite the files from "
+"the previous crash. This is the start of an infinite loop, where Docker "
+"keeps restarting the MAPDL container and MAPDL keeps exiting to avoid "
+"overwrite the previous files."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:286
+msgid ""
+"In such cases, you should not use the ``--restart`` option. If you really "
+"need to use this option, you can avoid MAPDL checks and create the ``LOCK`` "
+"file by starting the process with the ``ANSYS_LOCK`` environment variable "
+"set to ``\"OFF\"``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:290
+msgid ""
+"This code shows how to do this in your `docker run <docker_run_>`_ command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:321
+msgid "Get useful files after abnormal termination"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:323
+msgid ""
+"In some cases, the MAPDL container might crash after the MAPDL process "
+"experiences an abnormal termination. In these cases, you can retrieve log "
+"files and output files using the tools that Docker provides."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:327
+msgid "First, get the Docker container name:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:350
+msgid "Then use the ``name`` in this command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:369
+msgid ""
+"This command executes the command shell (``/bin/bash``) of the container and"
+" attaches your current terminal to it (interactive ``-it``)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:390
+msgid ""
+"Now you can enter commands inside the Docker container and navigate inside "
+"it."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:418
+msgid ""
+"You can then take note of the files you want to retrieve. For example, you "
+"would likely want to retrieve the error and output files (``file*.err`` and "
+"``file*.out``)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:420
+msgid "Exit the container terminal using the ``exit`` command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:442
+msgid ""
+"You can then copy the noted files using the `docker cp <docker_cp_>`_ "
+"command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:460
+msgid ""
+"This command copies the files in the current directory. You can specify a "
+"different destination using the second argument."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:463
+msgid ""
+"If you want to retrieve multiple files, the most efficient approach is to "
+"get back inside the Docker container:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:484
+msgid "Create a folder where you are going to copy all the desired files:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:514
+msgid "Then copy the entire folder content at once:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:5
+msgid "Frequently asked questions"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:8
+msgid "How do you report issues?"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:10
+msgid ""
+"If you find an issue, the first place to visit for possible solutions is the"
+" :ref:`troubleshooting section <ref_troubleshooting>`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:12
+msgid ""
+"If you do not find a solution there, you can search for your issue within "
+"the `GitHub repository <pymapdl_repo_>`_. You can use `the search box "
+"<pymapdl_search_issues_pr_>`_ to find related issues or pull requests."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:14
+msgid ""
+"To ask more open-ended questions or seek advice from the community, use the "
+"`PyMAPDL discussions <pymapdl_discussions_>`_ page of the GitHub repository."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:17
+msgid ""
+"To report bugs and documentation errors and to make feature requests, use "
+"the `PyMAPDL issues <pymapdl_issues_>`_ page of the GitHub repository."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:22
+msgid "What are the pros and cons of PyMAPDL versus Ansys ACT?"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:24
+msgid ""
+"The pros and cons depend on your pipeline and software approach. Ansys ACT "
+"is an Ansys Workbench-dependent approach, where extensions are built from "
+"within the ACT App Builder and then run from within Ansys Mechanical. If you"
+" intend to vary parameters, you must then use Ansys optiSLang to vary them "
+"and batch your solutions."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:30
+msgid "The main advantages that PyMAPDL has over Ansys ACT are:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:32
+msgid ""
+"PyMAPDL tightly integrates with Python tools and open source modules to run "
+"alongside Ansys software."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:34
+msgid ""
+"Scripts are written in Python. ACT uses .NET, which means you can call only "
+"IronPython and potentially other tools within Ansys Mechanical."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:36
+msgid ""
+"Being that PyMAPDL is outside of Ansys Mechanical, you can call your app "
+"workflow without opening up a GUI for user interaction. If you want a GUI, "
+"you can create your own with `PyQt <https://pythonpyqt.com/>`_. Or, you can "
+"output plots using `Matplotlib <https://matplotlib.org/>`_ or `VTK "
+"<https://vtk.org/>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:41
+msgid ""
+"PyMAPDL is compatible with modern Python (3), whereas ACT is only compatible"
+" with IronPython (Python 2)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:44
+msgid ""
+"The best approach depends on your workflow needs and how you would like to "
+"develop software."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:49
+msgid ""
+"Has APDL been \"deprecated\" by Ansys? If so, what does that mean for "
+"PyMAPDL?"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:51
+msgid ""
+"APDL isn't going anywhere. In fact, whenever you call Mechanical Workbench, "
+"it's generating an input file (``ds.dat``) that's fed into MAPDL. However, "
+"what's changed over the past several years is where the geometry, meshing, "
+"and postprocessing is occurring. Geometry generation can take place within "
+"SpaceClaim or Design Modeler, and meshing is done using a variety of new and"
+" powerful meshers within Workbench. While these tools are far superior to "
+"the ones in MAPDL, their biggest limitation is that they're difficult to "
+"script (especially externally). As a result, there are still users who "
+"choose to generate the geometry and mesh within MAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:63
+msgid ""
+"What are the main reasons to use PyMAPDL over other Ansys products like "
+"Workbench?"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:64
+msgid ""
+"There are always tasks where it's better to use one over the other. "
+"Workbench is great tool to rapidly prototype, mesh, set boundary conditions,"
+" and solve. Because it is where a ton of development has gone, there are "
+"many features that make it easy to run analyses. However, it's limited by "
+"its IronPython scripting. Additionally, you're unable to call multiple "
+"products at either a granular or high level or use packages such as `NumPy "
+"<https://numpy.org/>`_, `SciPy <https://scipy.org/>`_, `PyTorch "
+"<https://pytorch.org/>`_, and `TensorFlow <https://www.tensorflow.org/>`_. "
+"PyMAPDL ties this in with MAPDL, allowing you to have a fully parametric "
+"workflow that leverages these machine learning tools. It also allows you to "
+"generate advanced plots using `PyVista <pyvista_docs_>`_ or `Matplotlib "
+"<matplotlib_main_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:79
+msgid "How do you end a simulation and restart a script?"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:81
+msgid ""
+"Closing and reopening Python clears the solution within Python. To clear all"
+" previous data such as the mesh, you can use this code:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:91
+msgid ""
+"However, a more efficient way is to clear MAPDL using the :meth:`clear() "
+"<ansys.mapdl.core.Mapdl.clear>` method. You can also exit and restart MAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:97
+msgid ""
+"Why PyMAPDL results are different than the ones shown in the MAPDL GUI?"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:100
+msgid "Listing results"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:102
+msgid ""
+"There might be several reasons why the results shown in the MAPDL GUI differ"
+" from the results obtained using PyMAPDL. The most common reason is that the"
+" MAPDL GUI is using a different graphics configuration than the one used by "
+"PyMAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:107
+msgid ""
+"In the MAPDL GUI, the graphics configuration can change how the results are "
+"shown. Each graphics configuration realizes entity selection and averaging "
+"differently. By default, the graphics configuration is set to ``Power "
+"Graphics``. However, PyMAPDL connects to an MAPDL instance running in batch "
+"mode, which by default uses the ``Full Graphics`` configuration. This "
+"difference in the graphics configuration can affect averaging as well."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:114
+msgid ""
+"You can change the graphics configuration in PyMAPDL using this command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:120
+msgid ""
+"Or, you can change the graphics configuration in the MAPDL GUI using the "
+"``POWRGRPH`` button or this command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:127
+msgid ""
+"How the results are averaged on the nodes can also affect the results. By "
+"default, MAPDL averages the results on the nodes except where material type "
+"discontinuities exists. For more information, see :meth:`avres() "
+"<ansys.mapdl.core.Mapdl.avres>`. Additionally, the command :meth:`efacet() "
+"<ansys.mapdl.core.Mapdl.efacet>` can affect how the results are shown."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:134
+msgid ""
+"You should make sure that the values of the commands :meth:`avres() "
+"<ansys.mapdl.core.Mapdl.avres>` and :meth:`efacet() "
+"<ansys.mapdl.core.Mapdl.efacet>` are the same in both the MAPDL GUI and "
+"PyMAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:139
+msgid ""
+"Finally, depending on the results that you are trying to obtain, you might "
+"be using a different MAPDL command. For example, the command "
+":meth:`post.element_displacement() "
+"<ansys.mapdl.core.post.PostProcessing.element_displacement>` uses a "
+"combination of ``PRETAB`` and ``ETAB`` commands to obtain the results. This "
+"MAPDL command then might show different results than the ones obtained using"
+" the PyMAPDL :meth:`presol() <ansys.mapdl.core.Mapdl.presol>` method. To "
+"make sure you are using the correct command, you should compare the results "
+"obtained using both the MAPLD and PyMAPDL commands."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:148
+msgid ""
+"Further reading on `this discussion "
+"<pymapdl_discussion_differences_mapdl_pymapdl_>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:151
+msgid "Plotting results"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/faq.rst:153
+msgid ""
+"Even in cases where PyMAPDL and MAPDL agree on the result values, there may "
+"still be display differences. For instance, interpolating scalar values at "
+"the nodes of a quadrilateral facet across the whole facet is not "
+"deterministic."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/index.rst:5
+msgid "Getting started"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/index.rst:29
+msgid "To use PyMAPDL you must follow the next three steps:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/index.rst:31
+msgid ":ref:`ref_using_standard_install`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/index.rst:32
+msgid ":ref:`ref_pymapdl_installation`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/index.rst:33
+msgid ":ref:`ref_launch_pymapdl`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_mapdl.rst:9
+msgid "Install MAPDL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_mapdl.rst:12
+msgid ""
+"The PyAnsys ``ansys-mapdl-core`` package (PyMAPDL) requires either a local "
+"or remote instance of MAPDL to communicate with it. This section covers "
+"launching and interfacing with MAPDL from a local instance by launching it "
+"from Python."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_mapdl.rst:17
+msgid ""
+"MAPDL is installed by default from the Ansys standard installer. When "
+"installing Ansys, verify that the **Mechanical Products** checkbox is "
+"selected under the **Structural Mechanics** option. While the standard "
+"installer options can change, see the following figure for reference."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_mapdl.rst:26
+msgid ""
+"If you want to avoid having to install MAPDL locally, you can use Docker. "
+"This is especially convenient if you are using a non-supported platform such"
+" as MacOS. For more information, see :ref:`ref_pymapdl_and_macos`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_mapdl.rst:31
+msgid ""
+"You can also download and try the `Ansys Student Version "
+"<ansys_student_version_>`_. A Student Version is valid during a calendar "
+"year with limited capabilities. For example, there is a limit on the number "
+"of nodes and elements."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_mapdl.rst:35
+msgid ""
+"If you experience problems installing MAPDL on Linux, see "
+":ref:`missing_dependencies_on_linux`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_mapdl.rst:40
+msgid "Ansys software requirements"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_mapdl.rst:42
+msgid ""
+"For the latest features, you must have a copy of Ansys 2021 R1 or later "
+"installed locally. However, PyMAPDL is compatible with Ansys 17.0 and later "
+"on Windows and with Ansys 13.0 on Linux. However, its usage with these older"
+" versions is discouraged."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_mapdl.rst:49
+msgid ""
+"The latest versions of Ansys provide significantly better support and "
+"features. Certain features are not supported on earlier Ansys versions."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_mapdl.rst:53
+msgid "For more information, see :ref:`versions_and_interfaces`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_mapdl.rst:56
+msgid ""
+"For information on installing PyMAPDL, see :ref:`ref_pymapdl_installation`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:7
+#: ../../pymapdl/doc/source/getting_started/macos.rst:8
+msgid "Install PyMAPDL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:10
+msgid "Python module"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:11
+msgid ""
+"The ``ansys.mapdl.core`` package currently supports Python 3.9 through "
+"Python 3.12 on Windows, Mac OS, and Linux."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:14
+msgid ""
+"Install the latest release from `PyPi <pymapdl_pypi_>`_ with this command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:20
+msgid ""
+"Alternatively, install the latest from `PyMAPDL GitHub <pymapdl_issues_>`_ "
+"with this command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:28
+msgid "For a local *development* version, install with these commands:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:36
+msgid ""
+"After installing a development version, you can modify the ``ansys-mapdl-"
+"core`` package locally and have the changes reflected in your setup after "
+"restarting the Python kernel."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:41
+msgid "Offline installation"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:42
+msgid ""
+"If you lack an internet connection on your installation machine, the "
+"recommended way of installing PyMAPDL is downloading the wheelhouse archive "
+"from the `Releases <pymapdl_releases_>`_ page for your corresponding machine"
+" architecture."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:47
+msgid ""
+"Each wheelhouse archive contains all the Python wheels necessary to install "
+"PyMAPDL from scratch on Windows and Linux. You can install this on an "
+"isolated system with a fresh Python installation or on a virtual "
+"environment."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:51
+msgid ""
+"For example, on Linux with Python 3.9, unzip the wheelhouse archive and "
+"install it with these commands:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:59
+msgid ""
+"If you're on Windows with Python 3.9, unzip to a ``wheelhouse`` directory "
+"and install using the preceding command."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:62
+msgid "Consider installing using a `virtual environment <using_venv_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:65
+msgid "Verify your installation"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:68
+msgid ""
+"To use PyMAPDL, you must have a local installation of Ansys. The version of "
+"Ansys installed dictates the interface and features available to you."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:72
+msgid ""
+"For more information on getting a licensed copy of Ansys, visit `Ansys "
+"<ansys_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:76
+msgid ""
+"Check that you have installed the package correctly by importing the module:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:83
+msgid ""
+"For information on launching PyMAPDL and connecting it to an MAPDL instance,"
+" see:ref:`ref_launch_pymapdl`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:7
+msgid "Launch PyMAPDL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:9
+msgid ""
+"PyMAPDL can start MAPDL locally, or it can connect to a session already "
+"running locally or on a remote machine."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:12
+msgid "`Launch PyMAPDL with a local MAPDL instance`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:13
+msgid "`Connect PyMAPDL to a local MAPDL instance`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:14
+msgid "`Connect PyMAPDL to a remote MAPDL instance`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:16
+msgid ""
+"If you have any problem launching PyMAPDL, see :ref:`Launching issues "
+"<ref_launching_issue>`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:20
+msgid "Launch PyMAPDL with a local MAPDL instance"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:22
+msgid ""
+"You can use the :func:`launch_mapdl() "
+"<ansys.mapdl.core.launcher.launch_mapdl>` function to start MAPDL and "
+"automatically connect to it:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:35
+msgid ""
+"While this is the easiest and fastest way to get PyMAPDL up and running. you"
+" must be able to launch MAPDL locally."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:38
+msgid ""
+"If PyMAPDL cannot find your local installation, see `Setting the MAPDL "
+"location in PyMAPDL`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:41
+msgid ""
+"For more information on controlling how MAPDL launches locally, see the "
+"description of the :func:`launch_mapdl() "
+"<ansys.mapdl.core.launcher.launch_mapdl>` function."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:46
+msgid "Connect PyMAPDL to a local MAPDL instance"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:48
+msgid ""
+"Connect to a local MAPDL instance requires two steps: launching a local "
+"MAPDL session and connect to it."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:54
+msgid "Launch a local gRPC MAPDL session"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:56
+msgid "You can start MAPDL from the command line and then connect to it."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:58
+msgid "To launch MAPDL, use this command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:76
+msgid ""
+"When launching MAPDL on Windows, it is assumed that Ansys is installed in "
+"the :file:`C:/Program Files/ANSYS Inc/v241` directory and, on Linux, it is "
+"assumed that Ansys is installed in the :file:`/usr/ansys_inc` directory."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:80
+msgid "This starts MAPDL in gRPC mode. MAPDL should display this output:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:93
+msgid ""
+"You can configure the port that MAPDL starts on with the ``-port`` argument."
+" For example, you can start the server to listen for connections at port "
+"50005 with this command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:114
+msgid ""
+"From version v0.68, you can use a command line interface to launch, stop, "
+"and list local MAPDL instances. For more information, see :ref:`ref_cli`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:121
+msgid "Connect to the local MAPDL instance"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:123
+msgid ""
+"An MAPDL gRPC server can be connected to from the same host by using this "
+"code:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:131
+msgid ""
+"The preceding code assumes that your MAPDL service is running locally on the"
+" default IP address (``127.0.0.1``) and on the default port (``50052``)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:134
+msgid ""
+"You can also use the :func:`launch_mapdl() "
+"<ansys.mapdl.core.launcher.launch_mapdl>` method to connect to an already "
+"launched MAPDL instance by setting the ``start_instance`` argument to "
+"``False``:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:141
+msgid ""
+"If you are connecting to an MAPDL Docker image, the procedure is the same. "
+"Just make sure that you specify the mapped port instead of the internal "
+"MAPDL port. For more information, see :ref:`pymapdl_docker`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:149
+msgid "Connect PyMAPDL to a remote MAPDL instance"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:151
+msgid ""
+"If you want to connect to a **remote** MAPDL instance, you must know the IP "
+"address of that instance. For example, if on your local network at IP "
+"address ``192.168.0.1`` there is a computer running MAPDL on the port "
+"``50052``, you can connect to it with this code:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:160
+msgid "Alternatively, you can use a hostname:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:166
+msgid ""
+"Note that you must have started an MAPDL instance in gRPC mode on the "
+"computer with the referenced IP address and hostname for this to work "
+"because PyMAPDL cannot launch remote instances."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:171
+msgid "Setting the MAPDL location in PyMAPDL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:173
+msgid ""
+"To run, PyMAPDL must know the location of the MAPDL binary. Most of the time"
+" this can be automatically determined, but the location of MAPDL must be "
+"provided for non-standard installations. When running for the first time, "
+"PyMAPDL requests the location of the MAPDL executable if it cannot "
+"automatically find it."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:179
+msgid ""
+"You can test your installation of PyMAPDL and set it up by running the "
+":func:`launch_mapdl() <ansys.mapdl.core.launcher.launch_mapdl>` function:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:188
+msgid ""
+"Python automatically attempts to detect your MAPDL binary based on "
+"environmental variables. You can specify an MAPDL installation using one of "
+"two environment variables:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:193
+msgid ""
+"``AWP_ROOTXXX``, where ``XXX``` is the three-digit version. This environment"
+" variable contains the path of the Ansys installation with the version "
+"matching ``XXX``. For example, ``AWP_ROOT241=/ansys_inc`` contains the path "
+"to an Ansys 2024 R1 installation."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:197
+msgid ""
+"``PYMAPDL_MAPDL_EXEC`` contains the path to the Ansys MAPDL executable file."
+" For example, ``PYMAPDL_MAPDL_EXEC=/ansys_inc/v241/ansys/bin/ansys241``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:200
+msgid ""
+"If PyMAPDL is unable to find a copy of MAPDL, you are prompted for the "
+"location of the MAPDL executable."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:203
+msgid "Here is the prompt with an example response for Windows:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:209
+msgid "Here is the prompt with an example response for Linux:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:215
+msgid ""
+"The settings file is stored locally, which means that you are not prompted "
+"to enter the path again. If you must change the default Ansys path (meaning "
+"change the default version of MAPDL), run this code:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:226
+msgid ""
+"For more information, see the :func:`change_default_ansys_path() "
+"<ansys.mapdl.core.change_default_ansys_path>` method and the "
+":func:`find_ansys() <ansys.mapdl.core.find_ansys>` method."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:228
+msgid ""
+"Additionally, it is possible to specify the executable in each PyMAPDL "
+"script using the ``exec_file`` keyword argument."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:254
+msgid ""
+"You could also specify a custom executable made from a custom MAPDL "
+"compilation by adding the correspondent flag (``-custom``) to the "
+"``additional_switches`` keyword argument:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:5
+msgid "Learning PyMAPDL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:8
+msgid "Introduction"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:11
+msgid ""
+"_PyMAPDL provides Pythonic access to MAPDL, an Ansys finite element solver._"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:12
+msgid ""
+"PyMAPDL touches on different technologies such as Python and finite "
+"elements, to bring them together and offer you a better user experience by "
+"seamlessly connecting this Ansys solver and the Python ecosystem. To learn "
+"how to use this library, you have many resources available:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:16
+msgid ""
+"Complete the :ref:`ref_pymapdl_course` course, which guides you through "
+"PyMAPDL's main functionalities."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:18
+msgid ""
+"Visit the `Examples gallery <pymapdl_examples_gallery_>`_ to learn from "
+"practical examples. The `Static analysis of a corner bracket "
+"<pymapdl_bracket_static_example_>`_ example is a very good starting point."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:21
+msgid ""
+"Become familiar with the Python programming language. There are many online "
+"courses and websites for learning Python. Additionally, Ansys provides a "
+":ref:`ref_python_course` course."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:23
+msgid ""
+"Understand finite element methods (FEMs). Because physical models are solved"
+" using FEMs, you need to know how these methods work to get accurate and "
+"adequate solutions. The `Introduction to Finite Element Methods "
+"<course_fem_track_>`_ course on the Ansys Learning Resources website offers "
+"tracks to help you to get familiar with these methods."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:27
+msgid ""
+"Take the Ansys :ref:`ref_mapdl_course` course. Because PyMAPDL interface "
+"with MAPDL through APDL commands, you should become familiar with MAPDL "
+"commands and workflows."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:34
+msgid "Downloads"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:36
+msgid ""
+"You can try the Student Version of Ansys products. For more information, see"
+" `Ansys Student Versions <ansys_student_version_>`_. These are versions "
+"valid during a year and with limited capabilities regarding number of nodes,"
+" elements, etc."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:41
+msgid ""
+"View and download :download:`PyMAPDL cheatsheet <Cheat_Sheet_PyMAPDL.pdf>` "
+"to help you to learn PyMAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:44
+msgid ""
+"Visit :ref:`ref_examples` to learn how PyMAPDL can be used to solve "
+"different real problems."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:49
+msgid "Courses"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:51
+msgid ""
+"Ansys has prepared high quality courses to guide you through the learning "
+"process."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:57
+msgid "Intro to Python"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:59
+msgid ""
+"The `Intro to Python <course_intro_python_>`_ course teaches you the basis "
+"of the Python programming language."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:64
+#: ../../pymapdl/doc/source/getting_started/learning.rst:90
+#: ../../pymapdl/doc/source/getting_started/learning.rst:108
+msgid "Course content"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:66
+msgid "Prerequisites - Installation of Python"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:67
+msgid "Fundamentals of Python - Lesson 1"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:68
+msgid "Analyzing Radiance Data - Lesson 2"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:69
+msgid "Repeating Actions with Loops - Lesson 3"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:70
+msgid "Storing Multiple Values in Lists - Lesson 4"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:71
+msgid "Making Choices - Lesson 5"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:72
+msgid "Analyzing Data from Multiple Files - Lesson 6"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:73
+msgid "Creating Functions - Lesson 7"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:74
+msgid "Defensive Programming - Lesson 8"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:75
+msgid "Debugging - Lesson 9"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:76
+msgid "Command Line Programs - Lesson 10"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:77
+#: ../../pymapdl/doc/source/getting_started/learning.rst:96
+#: ../../pymapdl/doc/source/getting_started/learning.rst:117
+msgid "Post Completion Survey"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:78
+msgid "Meet the Instructor"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:84
+msgid "Getting started with PyMAPDL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:86
+msgid ""
+"The `Getting started with PyMAPDL <course_getting_started_pymapdl_>`_ course"
+" teaches you about PyMAPDL, the Pythonic way to access Ansys MAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:92
+msgid "Overview of PyMAPDL - Lesson 1"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:93
+msgid "PyMAPDL Language and Usage - Lesson 2"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:94
+msgid "PyMAPDL Categories - Lesson 3"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:95
+msgid "Getting Help - Lesson 4"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:97
+#: ../../pymapdl/doc/source/getting_started/learning.rst:118
+msgid "Meet the Instructors"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:102
+msgid "Intro to Ansys Mechanical APDL scripting"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:104
+msgid ""
+"The `Intro to Ansys Mechanical APDL scripting <course_intro_apdl_>`_ course "
+"teaches you how APDL, the Mechanical solver syntax language, works."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:110
+msgid "Overview of MAPDL (Lesson 1)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:111
+msgid "Basics of APDL Language (Lesson 2)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:112
+msgid "Solid Modeling & Meshing (Lesson 3)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:113
+msgid "Defining Loads, BCs, and Solver Controls (Lesson 4)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:114
+msgid "General Postprocessing (Lesson 5)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:115
+msgid "Selection Logic (Lesson 6)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:116
+msgid "More on Parameters (Arrays, \\*GET) (Lesson 7)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:123
+msgid "Ansys Innovation Space"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:127
+msgid ""
+"You can find more courses for different Ansys product organized in different"
+" categories such as `structures <ansys_innovation_space_structures_>`_, "
+"`fluids <ansys_innovation_space_fluids_>`_, `materials "
+"<ansys_innovation_space_materials_>`_ or `3D design "
+"<ansys_innovation_space_geometry_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:134
+msgid ""
+"You can find all the categories in `https://courses.ansys.com "
+"<ansys_innovation_space_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:136
+#: ../../pymapdl/doc/source/getting_started/learning.rst:172
+msgid ""
+"**NOTE**: You might need to create a free Ansys account to access these "
+"resources."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:139
+msgid "Ansys help"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:141
+msgid ""
+"`Ansys Help <ansys_help_>`_ is the official Ansys website for documentation,"
+" tutorials and videos."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:144
+msgid ""
+"An `MAPDL introductory tutorials guide <ansys_introductory_mapdl_courses_>`_"
+" which cover different topics such as `Structural tutorial "
+"<ansys_introtut_structures_>`_ `Thermal tutorial <ansys_introtut_thermal_>`_"
+" `Electromagnetics tutorial <ansys_introtut_electromag_>`_ `Micro-"
+"Electromechanical System (MEMS) tutorial <ansys_introtut_mems_>`_ `Contact "
+"tutorial <ansys_introtut_contact_>`_ or `Modal tutorial "
+"<ansys_introtut_modal_>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:153
+msgid ""
+"You can find documentation such as the `Command reference guide "
+"<ansys_command_reference_guide_>`_, `Verification manual guide "
+"<ansys_verification_manual_>`_ or `Technology showcase guide "
+"<ansys_techdemo_guide_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:158
+msgid ""
+"The `Technology showcase guide <ansys_techdemo_guide_>`_ is a comprehensive "
+"guide with real-world example problems which present the broad simulation "
+"capabilities of Ansys Mechanical APDL. The problems demonstrate how to use "
+"Mechanical APDL to effectively and accurately solve interdisciplinary "
+"problems from a variety of industries and engineering fields. The problems "
+"are more substantive and complex than examples found in the standard "
+"documentation set. The documentation thoroughly examines the physics "
+"involved with each problem and the considerations necessary for translating "
+"problems into numerical models. You can find some of the technology showcase"
+" examples in PyMAPDL documentation `Technology Showcases <pymapdl_ex_ts_>`. "
+"For a more comprehensive list of showcases, visit `Technology showcase guide"
+" <ansys_techdemo_guide_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:176
+msgid "Additional resources"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:178
+msgid ""
+"Ansys has prepared multiple resources to help you to learn and use PyMAPDL. "
+"You can access them from the `Ansys Learning Resources "
+"<learning_resources_>`_ website. In this website, you can find a summary of "
+"the available resources for MAPDL and PyMAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:184
+msgid "Recommended articles"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:188
+msgid ""
+"Ansys Gets Into Open Source With GitHub. `Link to article in Ansys Blog "
+"<ansys_open_source_article_>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:190
+msgid ""
+"Access the Power of Ansys from the Python World. `Link to article in Ansys "
+"blog <ansys_python_power_article_>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:192
+msgid ""
+"Using Ansys Scripting with pyMAPDL, pyDPF-Post, and More - Part 1 *Running "
+"and Post-Processing an Ansys Model Outside Ansys*. `Link to article in PADT "
+"Inc Blog <padt_post_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:195
+msgid ""
+"ANSYS in a Python Web App, Part 1: Post Processing with PyDPF: *Integrating "
+"PyAnsys with Plotly's Dash and the Dash-VTK component to build an Ansys "
+"structural analysis post-processing web application*. `Link to 'Towards Data"
+" Science' article in Medium <tds_article_web_app_1_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:199
+msgid ""
+"ANSYS in a Python Web App, Part 2: Pre Processing & Solving with PyMAPDL: "
+"*ANSYS in a Python Web App, Part 2: Pre Processing & Solving with PyMAPDL*. "
+"`Link to 'Towards Data Science' article in Medium "
+"<tds_article_web_app_2_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:202
+msgid ""
+"Paraview: Reading ANSYS APDL (RST) results in Paraview. `Link to 'Paraview "
+"Forum' question <paraview_question_read_rst_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:207
+msgid ""
+"Feel free to share any educational or learning resources by `opening an "
+"issue <pymapdl_issues_>`_ or `starting a discussion <pymapdl_discussions_>`_"
+" on GitHub."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/macos.rst:5
+msgid "PyMAPDL and MacOS"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/macos.rst:10
+msgid ""
+"You can install PyMAPDL normally on a MacOS that fulfill PyMAPDL "
+"requirements using this command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/macos.rst:18
+msgid ""
+"While PyMAPDL requires a connection to an MAPDL live instance to function, "
+"MAPDL is not compatible with a MacOS."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/macos.rst:21
+msgid "There are two options:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/macos.rst:23
+msgid ""
+"**Connect to a remote instance**: You can connect to a remote instance "
+"running on a Windows or Linux machine as indicated in "
+":ref:`connect_grpc_madpl_session`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/macos.rst:26
+msgid ""
+"**Launch MAPDL locally using Docker**: You can run MAPDL on a MacOS machine "
+"as indicated in :ref:`launch_mapdl_on_macos`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/macos.rst:33
+msgid "Launch MAPDL on MacOS"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/macos.rst:35
+msgid ""
+"If you do not have an MAPDL Docker image, you can create one on a Linux "
+"machine as indicated in :ref:`ref_make_container`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/macos.rst:39
+msgid ""
+"If you already have an MAPDL Docker image, you can launch MAPDL as indicated"
+" in :ref:`run_an_mapdl_image`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/macos.rst:43
+msgid "Apple Silicon compatibility"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/macos.rst:45
+msgid ""
+"If you are using an Apple Silicon device (for instance M1 or M2), you might "
+"see the following warning:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/macos.rst:52
+msgid ""
+"This is because the Docker image has not been built to run on the Apple "
+"Silicon architecture (arm64). You must add the ``--platform linux/amd64`` "
+"argument to the `docker run <docker_run_>`_ command as shown in this code "
+"example:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/macos.rst:65
+msgid "Connect to an MAPDL container"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/macos.rst:67
+msgid ""
+"You can connect to an MAPDL instance as indicated in "
+":ref:`connect_grpc_madpl_session`."
+msgstr ""
+
+#: ../../pymapdl/docker/make_container.rst:3
+msgid "Create your own MAPDL docker container"
+msgstr ""
+
+#: ../../pymapdl/docker/make_container.rst:5
+msgid ""
+"You need a valid Ansys license and an Ansys account to follow the steps "
+"detailed in this section."
+msgstr ""
+
+#: ../../pymapdl/docker/make_container.rst:8
+msgid ""
+"You can create your own MAPDL docker container following the steps given in "
+"this page. This guide will use a local Ubuntu machine to generate the needed"
+" files for the MAPDL container by installing Ansys products first and then "
+"copy the generated files to the container."
+msgstr ""
+
+#: ../../pymapdl/docker/make_container.rst:18
+msgid ""
+"A linux machine, preferable with Ubuntu 18.04 or later. CentOS Linux "
+"distribution is not supported anymore. This machine needs to have `Docker "
+"<https://www.docker.com>`_ installed."
+msgstr ""
+
+#: ../../pymapdl/docker/make_container.rst:22
+msgid ""
+"A valid Ansys account. Your Ansys reseller should have provide you with one."
+msgstr ""
+
+#: ../../pymapdl/docker/make_container.rst:25
+msgid "The following provided files:"
+msgstr ""
+
+#: ../../pymapdl/docker/make_container.rst:27
+msgid ""
+"`Dockerfile <https://github.com/ansys/pymapdl/tree/main/docker/Dockerfile>`_"
+msgstr ""
+
+#: ../../pymapdl/docker/make_container.rst:28
+msgid ""
+"`.dockerignore "
+"<https://github.com/ansys/pymapdl/tree/main/docker/.dockerignore>`_"
+msgstr ""
+
+#: ../../pymapdl/docker/make_container.rst:32
+msgid "Procedure"
+msgstr ""
+
+#: ../../pymapdl/docker/make_container.rst:35
+msgid "Download Ansys MAPDL installation files"
+msgstr ""
+
+#: ../../pymapdl/docker/make_container.rst:37
+msgid ""
+"Download latest Ansys MAPDL version from the customer portal (`Current "
+"Release <ansys_current_release_>`_). You need to have a valid Ansys account "
+"with access to products downloads."
+msgstr ""
+
+#: ../../pymapdl/docker/make_container.rst:42
+msgid "If you lack of an Ansys account, please contact your IT manager."
+msgstr ""
+
+#: ../../pymapdl/docker/make_container.rst:47
+msgid "Install Ansys MAPDL product"
+msgstr ""
+
+#: ../../pymapdl/docker/make_container.rst:49
+msgid ""
+"To install Ansys MAPDL product on an Ubuntu machine you can follow "
+":ref:`install_mapdl` if you are using the graphical user interface or "
+":ref:`installing_ansys_in_wsl` for the command line interface. The later "
+"approach can be reused with small changes in a continuous integration "
+"workflow."
+msgstr ""
+
+#: ../../pymapdl/docker/make_container.rst:55
+msgid ""
+"To reduce the size of the final image, you might want to install the minimal"
+" files by using:"
+msgstr ""
+
+#: ../../pymapdl/docker/make_container.rst:64
+msgid ""
+"This command install Mechanical MAPDL (``-mechapdl``) and the custom "
+"routines (``-ansyscust``) such as UPF."
+msgstr ""
+
+#: ../../pymapdl/docker/make_container.rst:67
+msgid ""
+"Please take note of where you are installing ANSYS because the directory "
+"path is need in the following section."
+msgstr ""
+
+#: ../../pymapdl/docker/make_container.rst:71
+msgid "Build Docker image"
+msgstr ""
+
+#: ../../pymapdl/docker/make_container.rst:73
+msgid ""
+"To build the Docker image, you need to create a directory and copy all the "
+"files you need in the image."
+msgstr ""
+
+#: ../../pymapdl/docker/make_container.rst:76
+msgid ""
+"The steps to copy those files and build the image are detailed in the "
+"following script, which you should modify to adapt it to your needs."
+msgstr ""
+
+#: ../../pymapdl/docker/make_container.rst:97
+msgid "Please notice that:"
+msgstr ""
+
+#: ../../pymapdl/docker/make_container.rst:99
+msgid "``path-to-pymapdl`` is the path where PyMAPDL repository is located."
+msgstr ""
+
+#: ../../pymapdl/docker/make_container.rst:100
+msgid ""
+"``path_to_mapdl_installation`` is the path to where you have locally "
+"installed ANSYS MAPDL."
+msgstr ""
+
+#: ../../pymapdl/docker/make_container.rst:102
+msgid ""
+"Not all the installation files are copied, in fact, the files ignored during"
+" the copying are detailed in the file `.dockerignore "
+"<https://github.com/ansys/pymapdl/tree/main/docker/.dockerignore>`_."
+msgstr ""
+
+#: ../../pymapdl/docker/make_container.rst:105
+msgid ""
+"The Docker container configuration needed to build the container is detailed"
+" in the `Dockerfile "
+"<https://github.com/ansys/pymapdl/tree/main/docker/Dockerfile>`_."
+msgstr ""
+
+#: ../../pymapdl/docker/make_container.rst:110
+msgid "Summary"
+msgstr ""
+
+#: ../../pymapdl/docker/make_container.rst:113
+msgid ""
+"**Step 1:** Download latest Ansys MAPDL version from the customer portal "
+"(`Current Release <ansys_current_release_>`_)."
+msgstr ""
+
+#: ../../pymapdl/docker/make_container.rst:116
+msgid ""
+"**Step 2:** Install Ansys MAPDL in a known folder. You can reuse your local "
+"installation if it is updated and the machine is running the same Ubuntu "
+"version as the targe Ubuntu docker version."
+msgstr ""
+
+#: ../../pymapdl/docker/make_container.rst:120
+msgid ""
+"**Step 3:** Build the docker image with the provided Docker configuration "
+"files and script."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:4
+msgid "PyMAPDL project"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:8
+msgid "Introduction and purpose"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:9
+msgid ""
+"PyMAPDL is part of the larger `PyAnsys <pyansys_>`_ effort to facilitate the"
+" use of Ansys technologies directly from Python. Its primary package, "
+"``ansys-mapdl-core``, provides:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:13
+msgid ""
+"Scripting of MAPDL through both Python and Ansys Parametric Design Language "
+"(APDL) syntax."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:15
+msgid ""
+"Plotting of MAPDL geometry and meshes using `PyVista <pyvista_docs_>`_ from "
+"within a Python script or an interactive `Jupyter notebook <jupyter_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:18
+msgid ""
+"Access to MAPDL arrays as Python objects (for example, nodes, elements, "
+"solution matrices, and results)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:21
+msgid ""
+"Thanks to an API that looks familiar to APDL and Python users alike, PyMAPDL"
+" makes it is easier than ever to integrate the simulation capabilities of "
+"the Ansys MAPDL multi-physics solver directly into novel applications. The "
+"package presents a Python-friendly interface to drive the software that "
+"manages the submission of low-level APDL commands, while exchanging data "
+"through high-performance gRPC interfaces."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:28
+msgid ""
+"Accelerate the preparation of your simulations using PyMAPDL. Combine the "
+"expressiveness of general-purpose Python code to control the flow in your "
+"input decks with methods that drive the solver. Explore proof of concept "
+"studies or capture knowledge using interactive Jupyter notebooks. Tap the "
+"solver as the physics engine in your next AI app. PyMAPDL is now open "
+"source, so enjoy it. Contributions are welcome."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:37
+msgid "Background"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:38
+msgid ""
+"PyMAPDL, based on `gRPC <grpc_>`_, represents an improvement over its "
+"predecessor based on CORBA. These technologies allow the MAPDL solver to "
+"function as a server, ready to respond to connecting clients."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:43
+msgid ""
+"Google remote procedure calls, or gRPC, are used to establish secure "
+"connections so that a client app can directly call methods on a potentially "
+"remote MAPDL instance as if it were a local object. The use of HTTP/2 makes "
+"it friendly to modern internet infrastructures. This, along with the use of "
+"binary transmission formats, favors higher performance. Using gRPC, PyMAPDL "
+"can convert Python statements into APDL commands that can then be "
+"transmitted to an MAPDL instance running anywhere, while producing network "
+"footprints that are compact and efficient."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:52
+msgid "The following diagram presents a simplified architecture of PyMAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:57
+msgid "PyMAPDL architecture diagram"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:60
+msgid "Quick code"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:61
+msgid "Here's a brief example of how PyMAPDL works:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:72
+msgid ""
+"MAPDL is now active and you can send commands to it as a genuine Python "
+"class. For example, if you wanted to create a surface using key points, you "
+"could run:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:89
+msgid ""
+"MAPDL interactively returns the result of each command, which is stored to "
+"the logging module. The ``print(mapdl.run)`` method can also be used to "
+"immediately print out the result. Errors are caught immediately and "
+"Pythonically."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:95
+msgid "Calling MAPDL Pythonically"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:96
+msgid ""
+"MAPDL functions can be called directly from a :class:`Mapdl "
+"<ansys.mapdl.core.mapdl.MapdlBase>` instance in a Pythonic manner. This is "
+"to simplify calling MAPDL, especially when inputs are variables within "
+"Python. For example, the following two commands are equivalent:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:106
+msgid ""
+"This approach takes care of the string formatting for you. For example, "
+"inputting points from a numpy array:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:118
+msgid "Advanced features"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:119
+msgid ""
+"All features available to command line MAPDL can be used within PyMAPDL, and"
+" there are a variety of new features available through gRPC."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:123
+msgid "For example, view the current mesh status with:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:135
+msgid "Or save it as a VTK file with:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:141
+msgid "You can even plot directly from the Python environment with:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:153
+msgid "Element plot from MAPDL using ``PyMAPDL`` and ``vtk``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:156
+msgid "Documentation and issues"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:157
+msgid ""
+"Documentation for the latest stable release of PyMAPDL is hosted at `PyMAPDL"
+" documentation <https://mapdl.docs.pyansys.com/version/stable/>`_. The same "
+"documentation is also `available as PDF <pymapdl_latest_pdf_doc_>`_ in the "
+"`Assets` section in the `latest GitHub package release "
+"<pymapdl_latest_github_release_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:162
+msgid ""
+"In the upper right corner of the documentation's title bar, there is an "
+"option for switching from viewing the documentation for the latest stable "
+"release to viewing the documentation for the development version or "
+"previously released versions."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:166
+msgid ""
+"You can also `view "
+"<https://cheatsheets.docs.pyansys.com/pymapdl_cheat_sheet.png>`_ or "
+"`download <https://cheatsheets.docs.pyansys.com/pymapdl_cheat_sheet.pdf>`_ "
+"the PyMAPDL cheat sheet. This one-page reference provides syntax rules and "
+"commands for using PyMAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:171
+msgid ""
+"On the `PyMAPDL Issues <https://github.com/ansys/pymapdl/issues>`_ page, you"
+" can create issues to report bugs and request new features. On the `PyMAPDL "
+"Discussions <https://github.com/ansys/pymapdl/discussions>`_ page or the "
+"`Discussions <https://discuss.ansys.com/>`_ page on the Ansys Developer "
+"portal, you can post questions, share ideas, and get community feedback."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:176
+msgid ""
+"To reach the PyAnsys project support team, email `PyAnsys Core team "
+"<pyansys.core@ansys.com>`_. Unfortunately no specific library questions or "
+"issues are answered through this email. Please refer to `PyMAPDL Issues "
+"<pymapdl_issues_>`_, or `PyMAPDL Discussions <pymapdl_discussions_>`_ for "
+"raising issues, request new features, or asking questions."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:184
+msgid "Project index"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/project.rst:186
+msgid ":ref:`genindex`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/using_julia.rst:6
+msgid "Julia and PyMAPDL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/using_julia.rst:8
+msgid ""
+"If you like to work with Julia, you can use Python libraries as if they were"
+" Julia packages."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/using_julia.rst:12
+msgid "Install Julia"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/using_julia.rst:14
+msgid ""
+"To install Julia, go to `their website <julia_>`_ and follow the "
+"instructions given in the **Download** section."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/using_julia.rst:16
+msgid "`Windows <julia_windows_>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/using_julia.rst:17
+msgid "`Linux <julia_linux_and_freebsd_>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/using_julia.rst:18
+msgid "`MacOS <julia_macos_>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/using_julia.rst:21
+msgid "Set the Julia environment"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/using_julia.rst:23
+msgid ""
+"To have access to Python libraries within Julia, you must install the "
+"`PyCall <pycall_>`_ Julia package. To install it, run Julia and switch to "
+"the package manager by pressing the ``\"]\"`` key."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/using_julia.rst:26
+msgid ""
+"If you need to work with different package versions or applications, it is "
+"beneficial to create a virtual environment in Julia. To create a virtual "
+"environment, use the ``activate`` command with the name of the new "
+"environment that you want to create or activate."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/using_julia.rst:35
+msgid ""
+"A message should appear, indicating that the new package (``julia_test``) "
+"has been activated. This environment name now precedes the command line."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/using_julia.rst:41
+msgid "Next install the PyCall package by typing:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/using_julia.rst:48
+msgid ""
+"To use PyCall, press the backspace key to go to the Julia command line. The "
+"command line is then preceded by the name ``Julia``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/using_julia.rst:55
+msgid "Next use the PyCall package with:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/using_julia.rst:62
+msgid ""
+"This should be enough to use packages included in a basic Python "
+"distribution."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/using_julia.rst:65
+msgid "For example:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/using_julia.rst:74
+msgid "Install PyMAPDL in Julia"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/using_julia.rst:76
+msgid ""
+"PyCall includes a lightweight Python environment that uses `Conda <conda_>`_"
+" to manage and access Python packages. This environment, currently based on "
+"Python 3.9.7, includes the standard basic Python libraries. However, because"
+" it is a fully working Python environment, you can still use it from outside"
+" the Julia command line and install Python packages using ``pip``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/using_julia.rst:80
+msgid "To install PyMAPDL, first locate the Python executable with:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/using_julia.rst:87
+msgid ""
+"In Linux, the preceding code prints the following, where ``python3`` is the "
+"default Python3 installation for the operating system."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/using_julia.rst:97
+msgid ""
+"In Linux, there are no specific installation steps. You only need to add the"
+" Julia executable to the path. Hence, Julia's Python installation path can "
+"differ from user to user. For example, if you uncompress the source files in"
+" ``/home/USER/Julia``, Julia's path is ``/home/USER/Julia/julia-1.7.2/bin``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/using_julia.rst:102
+msgid "You would use this Python executable to install PyMAPDL:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/using_julia.rst:108
+msgid "In Linux:, you would install with:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/using_julia.rst:115
+msgid ""
+"Finally, after restarting Julia, you can import PyMAPDL using the same "
+"procedure as described earlier:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/using_julia.rst:129
+msgid ""
+"If you experience errors when using PyCall, you can try to rebuild the "
+"package by pressing ``\"]\"`` to go to the package manager and typing:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/using_julia.rst:137
+msgid "Use PyMAPDL in Julia"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/using_julia.rst:139
+msgid "Here is a simple example of how you use PyMAPDL in Julia:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/using_julia.rst:198
+msgid ""
+"Notice the changes in the strings and the loops. Only ``\"\"`` strings are "
+"allowed."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:5
+msgid "Versions and interfaces"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:7
+msgid ""
+"The PyMAPDL project attempts to maintain compatibility with legacy versions "
+"of MAPDL while allowing for support of faster and better interfaces with the"
+" latest versions of MAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:11
+msgid ""
+"There are three interfaces PyMAPDL can use to connect to MAPDL. You can see "
+"a table with the MAPDL version and the supported interfaces in `Table of "
+"supported versions <table_versions_>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:17
+msgid "gRPC interface"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:19
+msgid ""
+"This is the default and preferred interface to connect to MAPDL. Ansys 2020 "
+"R1 and later support the latest `gRPC interface <grpc_>`_, allowing for "
+"remote management of MAPDL with rapid streaming of mesh, results, and files "
+"from the MAPDL service."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:24
+msgid ""
+"This interface also works with a Docker image. If you have the applicable "
+"license, you can install and use MAPDL within Docker, enabling you to run "
+"and solve even on officially unsupported platforms like Mac OS. For more "
+"information, see :ref:`pymapdl_docker`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:32
+msgid "Legacy interfaces"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:35
+msgid "CORBA interface"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:37
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:62
+msgid "This interface has been deprecated with PyMAPDL 0.68."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:42
+msgid ""
+"Ansys 17.0 supports the legacy CORBA interface, enabled with the "
+"`ansys.mapdl.corba <https://github.com/ansys/pymapdl-corba>`_ module."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:47
+msgid ""
+"This interface allows you to send only text to and from the MAPDL service, "
+"relying on file IO for all other operations. While not as performant as "
+"gRPC, this interface still allows you to control a local instance of MAPDL. "
+"These versions of MAPDL support specific versions of Windows and Linux. For "
+"more information on supported platforms, see `Ansys Platform Support "
+"<ansys_platform_support_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:55
+msgid ""
+"The CORBA interface is an outdate interface, and its usage is not "
+"recommended. The gRPC interface is recommended since it is faster, more "
+"stable, and can run in both local and remote connection configurations."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:60
+msgid "Deprecation of CORBA Interface in PyMAPDL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:64
+msgid ""
+"Started from version v0.67 of PyMAPDL library, the CORBA interface was set "
+"to be deprecated and in version v.68, it has been completely removed from "
+"PyMAPDL. This decision is driven by the CORBA library's lack of support for "
+"Python versions superior to 3.8."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:70
+msgid ""
+"**Action Required:** If you currently rely on the CORBA interface, it is "
+"recommend planning for its replacement as you migrate to PyMAPDL v0.67 or "
+"later versions. Specifying a different mode when launching MAPDL should "
+"suffice. PyMAPDL maintainers understand that this change may impact some "
+"users, and apologize for any inconvenience it may cause."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:77
+msgid ""
+"**Why is this happening?** As the Python ecosystem evolves, maintaining "
+"compatibility with outdated libraries becomes increasingly challenging. By "
+"removing the CORBA interface, PyMAPDL remains compatible with modern Python "
+"environments, enabling the maintainers to provide better features and "
+"support in the future."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:84
+msgid ""
+"**When this happen?** The deprecation process is set to start with version "
+"v0.66 and it should be completed with version v0.68. While the exact "
+"timeline for the removal is yet to be determined, it is essential to prepare"
+" for its eventual deprecation."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:89
+msgid ""
+"**Alternative Solutions:** For users requiring a similar feature, it is "
+"recommended exploring alternative interfaces available in PyMAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:92
+msgid ""
+"PyMAPDL maintainers greatly appreciate your support and understanding during"
+" this transition. If you have any questions or concerns regarding this "
+"change, post them on the `PyMAPDL Discussions <pymapdl_discussions_>`_ page."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:98
+msgid "Console interface"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:100
+msgid ""
+"PyMAPDL project supports Ansys versions as early as 13.0 on Linux using a "
+"console interface. Like CORBA, the console interface allows for the exchange"
+" of text to and from the Ansys instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:104
+msgid ""
+"Because console-specific support is to be depreciated at some point, you "
+"should shift to a modern version of Ansys to continue to use PyMAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:109
+msgid "Compatibility between MAPDL and interfaces"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:111
+msgid ""
+"The following table shows the supported versions of Ansys and the "
+"recommended interface for each one of them in PyMAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:114
+msgid "**Table of supported versions**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:119
+msgid "Ansys Version"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:119
+msgid "Recommended interface"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:119
+msgid "Support"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:121
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:123
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:125
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:127
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:129
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:131
+msgid "gRPC"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:121
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:133
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:135
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:137
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:139
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:141
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:143
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:145
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:147
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:149
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:151
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:153
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:155
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:157
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:159
+msgid "CORBA"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:121
+msgid "Console (Only Linux)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:123
+msgid "Ansys 2023 R1"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:123
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:125
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:127
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:129
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:131
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:133
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:135
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:137
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:139
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:141
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:143
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:145
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:147
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:149
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:151
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:153
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:155
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:157
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:159
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:161
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:163
+msgid "|:heavy_check_mark:|"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:123
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:125
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:127
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:129
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:131
+msgid "|:heavy_minus_sign:|"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:125
+msgid "Ansys 2022 R2"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:127
+msgid "Ansys 2022 R1"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:129
+msgid "Ansys 2021 R2"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:131
+msgid "Ansys 2021 R1"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:133
+msgid "Ansys 2020 R2"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:133
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:135
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:137
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:139
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:141
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:143
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:145
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:147
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:149
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:151
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:153
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:155
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:157
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:159
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:161
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:163
+msgid "|:x:|"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:135
+msgid "Ansys 2020 R1"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:137
+msgid "Ansys 2019 R3"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:139
+msgid "Ansys 2019 R2"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:141
+msgid "Ansys 2019 R1"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:143
+msgid "Ansys 19.2"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:145
+msgid "Ansys 19.1"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:147
+msgid "Ansys 19.0"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:149
+msgid "Ansys 18.2"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:151
+msgid "Ansys 18.1"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:153
+msgid "Ansys 18.0"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:155
+msgid "Ansys 17.2"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:157
+msgid "Ansys 17.1"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:159
+msgid "Ansys 17.0"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:161
+msgid "Ansys 16.2"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:161
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:163
+msgid "Console"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:163
+msgid "Older up to Ansys 13.0"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:166
+msgid "Where:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:168
+msgid ""
+"|:heavy_check_mark:| means that the interface is supported and recommended."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:169
+msgid ""
+"|:heavy_minus_sign:| means that the interface is supported, but not "
+"recommended. Their support might be dropped in the future."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:170
+msgid "|:x:| means that the interface is not supported."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:174
+msgid "MAPDL-supported operative systems"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:176
+msgid ""
+"You can obtain the list of MAPDL-supported operative systems on the "
+"`Platform Support <ansys_platform_support_>`_ page of the Ansys website."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:179
+msgid ""
+"Or, you can `download <ansys_current_supported_os_>`_ the list for the "
+"current release."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:5
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:97
+msgid "Write documentation"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:7
+msgid ""
+"Writing documentation is an excellent way to contribute to a project because"
+" it plays a pivotal role in making the project more accessible and usable. "
+"Clear and comprehensive documentation empowers users and developers to "
+"understand, implement, and troubleshoot the project effectively. It "
+"minimizes barriers to entry, making it easier for newcomers to get involved "
+"and for existing contributors to be more productive."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:14
+msgid ""
+"Good documentation also reduces the burden on maintainers, as it can answer "
+"common questions and help prevent issues. By creating or improving "
+"documentation, you not only enhance the project's quality but also "
+"facilitate knowledge sharing and community growth, making your contribution "
+"invaluable for the project's long-term success."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:21
+msgid "Set up your environment"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:23
+msgid ""
+"To be able to write and build the documentation, you must follow the same "
+"steps described in :ref:`developing_pymapdl`, but in this case, you must "
+"install documentation dependencies with this command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:33
+msgid "Build the documentation"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:35
+msgid ""
+"PyMAPDL documentation is mainly written in reStructuredText format, saved as"
+" RST files in the ``doc/source`` directory. The tool used to  build the "
+"documentation from these reStructuredText files is `Sphinx <sphinx_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:40
+msgid ""
+"Sphinx also build API documentation from source code as well as manages the "
+"cross-referencing between different files, classes, methods, and more. "
+"Additionally, it builds an `examples gallery <pymapdl_examples_gallery_>`_, "
+"where the capabilities of PyMAPDL can be showcased."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:45
+msgid "The documentation can be built as HTML files or a single PDF file."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:47
+msgid ""
+"To build the documentation as HTML files, you only need to run a single "
+"command."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:67
+msgid ""
+"The HTML files for the documentation are written to the ``doc/_build/html`` "
+"directory."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:69
+msgid ""
+"If you want to build the PDF documentation, you must first install a LaTeX "
+"distribution like `MikTeX <miktex_>`_. You can then run this command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:88
+msgid ""
+"Running the command to build either HTML files or a PDF file runs the Python"
+" files in ``./examples`` in the repository root directory to generate the "
+"`examples gallery <pymapdl_examples_gallery_>`_. The result of running these"
+" examples is cached so that the only the changed files are re-run the next "
+"time."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:92
+msgid ""
+"The Sphinx configuration is in the file `conf.py "
+"<https://github.com/ansys/pymapdl/blob/main/doc/source/conf.py>`_ in "
+":file:`doc/source`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:99
+msgid ""
+"Writing good documentation for a GitHub repository is crucial to ensure that"
+" users and contributors can understand, use, and contribute to PyMAPDL "
+"effectively."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:103
+msgid "Here's a short summary of how to write good documentation:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:105
+msgid ""
+"**Use a consistent structure**: Organize your documentation with a clear and"
+" consistent structure. Use headings, subheadings, and a table of contents if"
+" necessary to help users navigate your documentation easily."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:109
+msgid ""
+"**Use Sphinx properly**: Sphinx has multiple features and directives. Before"
+" starting to write documentation, you should get familiar with it. For "
+"guidance, see these Sphinx and DocUtils topics: `Directives "
+"<sphinx_directives_>`_, `reStructuredText Primer <sphinx_basics_>`_ and "
+"`reStructuredText Directives <docutils_directives_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:115
+msgid ""
+"**Explain configuration changes**: If you require configuration changes, "
+"provide clear instructions on how to use this new configuration, along with "
+"examples and explanations of why they are needed."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:119
+msgid ""
+"**Usage Examples**: Include real-world usage examples, code snippets, and "
+"explanations to demonstrate how users can make the most of PyMAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:122
+msgid ""
+"**Document the API and code**: Thoroughly document each function, class, and"
+" method. Include parameter descriptions, return values, and usage examples. "
+"Follow the `numpydoc <numpydoc_>`_ convention for documenting code."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:126
+msgid ""
+"**Tutorials and guides**: Create tutorials or guides to help users achieve "
+"specific tasks or workflows with PyMAPDL. These can be especially helpful "
+"for complex projects."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:130
+msgid ""
+"**Troubleshooting and FAQs**: Anticipate common issues and provide solutions"
+" in a troubleshooting section. Frequently asked questions (FAQs) can also be"
+" helpful for addressing common queries."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:134
+msgid ""
+"**Maintain and update**: Keep your documentation up to date as the project "
+"evolves. New features, changes, and bug fixes should be reflected in the "
+"documentation."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:138
+msgid ""
+"**Solicit Feedback**: Invite users and contributors to provide feedback on "
+"the documentation and be responsive to their suggestions and questions."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:143
+msgid "Vale linting tool"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:145
+msgid ""
+"On the GitHub repository, the CI/CD runs `Vale <vale_>`_, a powerful and "
+"extensible linting tool for checking the writing of each pull request. If "
+"you want to verify locally as well, you must install Vale locally:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:150
+msgid "Installation"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:152
+msgid ""
+"**Install Vale**: Follow the instructions in `Installation "
+"<vale_installation_>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:153
+msgid ""
+"**Verify installation**: To confirm that Vale is installed correctly, run "
+"this command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:159
+msgid "You should see the installed Vale version displayed in the terminal."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:162
+msgid "Usage"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:164
+msgid ""
+"Vale is a versatile tool for linting and style checking your documents, "
+"supporting various file formats and providing a wide range of style guides. "
+"Here's a basic example of how to use Vale in PyMAPDL:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:168
+msgid ""
+"**Sync styles**: The first time you run Vale in a repository, you must sync "
+"the styles specified in the :file:`.vale.ini` file by running this command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:176
+msgid ""
+"**Lint Your Document**: To verify a document, run Vale from the command "
+"line, specifying the file or directory you want to lint. For example:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:183
+msgid ""
+"Vale analyzes your document, and if there are any style guide violations or "
+"linting issues, it provides feedback in the terminal."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:186
+msgid ""
+"Make sure you have no errors or warnings before opening your pull request."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:192
+msgid "Create an example"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:194
+msgid ""
+"Creating an example is also a good way to get familiar with the tool and "
+"contribute to its improvement. `PyMAPDL gallery "
+"<pymapdl_examples_gallery_>`_ contain dozens of examples that demonstrate "
+"PyMAPDL capabilities and features. You can expand this gallery by creating "
+"and sharing your own example."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:201
+msgid ""
+"This `example template <pymapdl_examples_template_>`_ shows how to write and"
+" structure an example."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:204
+msgid "There are three types of examples: dynamic, static, and semi-static."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:206
+msgid "`Dynamic examples`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:207
+msgid "`Static examples`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:208
+msgid "`Semi-dynamic examples`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:212
+msgid "Dynamic examples"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:214
+msgid ""
+"Dynamic examples are based on Python files and must be able to run in under "
+"three minutes. In the PyMAPDL repository, they are in the `examples "
+"<pymapdl_examples_>`_ directory."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:220
+msgid ""
+"One dynamic example is the `MAPDL 2D Plane Stress Concentration Analysis "
+"<pymapdl_2d_plate_with_a_hole_>`_. example. The source code can be found in "
+"this GitHub `2d_plate_with_a_hole.py <pymapdl_2d_plate_with_a_hole_>`_. This"
+" code is then rendered on the `MAPDL 2D Plane Stress Concentration Analysis "
+"<pymapdl_doc_2d_plate_with_a_hole_>`_ page. .. vale on"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:227
+msgid ""
+"Because dynamic examples must run each time the documentation is built, make"
+" sure that they are short. If you need longer runtime or big files for your "
+"example, feel free to use static or semi-static examples."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:234
+msgid "Static examples"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:236
+msgid ""
+"Static examples are based on reStructuredText files and do not have to be "
+"executed or run using Python. In the PyMAPDL repository, they are in the "
+"`doc\\source <pymapdl_doc_source_>`_ directory."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:240
+msgid ""
+"One static example is the `Harmonic analysis using the frequency-sweep "
+"Krylov method <pymapdl_doc_krylov_example_>`_ example. This example shows "
+"how to do an harmonic analysis using the Krylov method. The source code can "
+"be found in the GitHub `krylov_example.rst "
+"<pymapdl_doc_krylov_example_rst_>`_, and it is rendered as HTML on the "
+"`Harmonic analysis using the frequency-sweep Krylov method "
+"<pymapdl_doc_krylov_example_>`_ page."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:247
+msgid "Semi-dynamic examples"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:249
+msgid ""
+"Semi-dynamic examples are static RST files that execute Python code using "
+"this RST directive:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:257
+msgid ""
+"These examples are also located in `doc\\source <pymapdl_doc_source_>`_ "
+"directory. These type of examples allow you to view and interact with the "
+"model."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:260
+msgid ""
+"One semi-dynamic example is the `Friction stir welding (FSW) simulation "
+"<pymapdl_techdemo_28_>`_ example. In this example, you can interactively "
+"explore some of the plots."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:264
+msgid ""
+"The source code can be found in this GitHub `ex_28-tecfricstir.rst "
+"<pymapdl_techdemo_28_rst_>`_, which is then rendered on the `Friction Stir "
+"Welding (FSW) Simulation <pymapdl_techdemo_28_>`_ page."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:5
+msgid "Windows Subsystem for Linux"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:7
+msgid ""
+"This page explains how you use a PyAnsys library, more specifically PyMAPDL,"
+" in the Windows Subsystem for Linux (WSL). WSL is a compatibility layer for "
+"running Linux binary executables natively on Windows 10, Windows 11, and "
+"Windows Server 2019. For more information, see:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:12
+msgid "`Wikipedia WSL <WikipediaWSL_>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:13
+msgid ""
+"Microsoft's `What is the Windows Subsystem for Linux "
+"<What_is_the_Windows_Subsystem_for_Linux_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:15
+msgid ""
+"This page walk you through the installation of WSL on Windows and then show "
+"how to use it together with MAPDL, PyMAPDL, and `Docker "
+"<https://www.docker.com/>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:20
+msgid ""
+"Because WSL is under constant development, keeping this guide updated is "
+"difficult. If you find any issues or have questions related to WSL, feel "
+"free to `open an issue in the GitHub repository <pymapdl_issues_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:25
+msgid "Install WSL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:27
+msgid ""
+"There are two versions of WSL: WSL1 and WSL2. Because WSL2 provides many "
+"improvements over WSL1, you should upgrade to and use WSL2."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:30
+msgid ""
+"Install WSL by following Microsoft's directions at `Microsoft: Install WSL "
+"<install_wsl_microsoft_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:34
+msgid "Install the CentOS7 WSL distribution"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:36
+msgid ""
+"When working with PyAnsys libraries, you should use the CentOS7 WSL "
+"distribution."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:38
+msgid ""
+"You can install this distribution using an unofficial WSL distribution from "
+"`CentOS-WSL <gh_centos_wsl_1_>`_ package or the `CentOS WSL "
+"<gh_centos_wsl_2_>`_ package."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:46
+msgid "Using the Ubuntu WSL distribution"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:50
+msgid ""
+"Ubuntu is a supported operative system for Ansys products. However it has "
+"not been tested yet in the context of WSL. You should proceed with caution."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:55
+msgid "Install Ansys products in WSL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:58
+msgid "Prerequisites"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:59
+msgid ""
+"If you are using CentOS 7, before installing MAPDL, you must install some "
+"required libraries:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:67
+msgid ""
+"If you are using Ubuntu, follow the instructions in `Run MAPDL: Ubuntu "
+"<pymapdl_run_ubuntu_>`_ ."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:73
+msgid "Install Ansys products"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:75
+msgid "To install Ansys products in WSL Linux, perform these steps:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:77
+msgid ""
+"Download the **Ansys Structures** image from the customer portal (`Current "
+"Release <ansys_current_release_>`_)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:80
+msgid ""
+"If you are downloading the image on a Windows machine, you should later copy"
+" the image from your downloads folder to WSL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:83
+msgid ""
+"Extract the compressed source code file (``tar.gz``) with this command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:90
+msgid ""
+"To install MAPDL, go into the folder where the files have been extracted and"
+" run this command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:97
+msgid "where:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:99
+msgid ""
+"``-silent`` : Initiates a silent installation, which means no GUI is shown."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:100
+msgid ""
+"``-install_dir /path/`` : Specifies the directory to install the product or "
+"license manager to. If you want to install to the default location, you can "
+"omit the ``-install_dir`` argument. The default location is ``/ansys_inc`` "
+"if the symbolic link is set. Otherwise, it defaults to ``/usr/ansys_inc``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:104
+msgid ""
+"``-<product_flag>`` : Specifies the one or more products to install. If you "
+"omit this argument, all products are installed. The *Ansys, Inc. "
+"Installation Guides* in the Ansys Help provides a list of valid values for "
+"the ``product_flags`` argument in `Chapter 6 "
+"<https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v241/en/installation/unix_silent.html>`_"
+" of the *Linux Installation Guide* and `Chapter 7 "
+"<https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v241/en/installation/win_silent.html>`_"
+" of the *Windows Installation Guide*."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:113
+msgid ""
+"In the preceding example for MAPDL, you only need to specify the "
+"``-mechapdl`` flag."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:115
+msgid ""
+"After installing MAPDL directly in ``/ansys_inc`` or in ``/usr/ansys_inc``, "
+"you create a symbolic link with this command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:122
+msgid ""
+"By default, PyMAPDL expects the MAPDL executable to be in "
+"``/usr/ansys_inc``. Whether you install it there or not, you should use a "
+"symbolic link to associate that directory with your Ansys installation "
+"directory (``/*/ansys_inc``)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:129
+msgid "Post-installation setup"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:132
+msgid "Open ports for license server communication"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:134
+msgid ""
+"**Theory:** You should open the ports ``1055`` and ``2325`` for license "
+"server communication in the **Windows Control Panel**. For the steps to set "
+"advanced Windows firewall options, see Microsoft's `How to open port in "
+"Windows 10 Firewall <open_port_windows_10_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:139
+msgid ""
+"**Reality:** This works if you want to run a Docker image using WSL Linux "
+"image to host that Docker image. The Docker image successfully communicates "
+"with the Windows license server using these ports if you use the ``'-p'`` "
+"flag when running the Docker image with these ports open."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:144
+msgid ""
+"If you want to run MAPDL in the CentOS 7 image and use the Windows license "
+"server, opening the ports might not work properly because the Windows "
+"firewall seems to block all traffic coming from WSL. For security purposes, "
+"you should still try to open ports ``1055`` and ``2325`` in the firewall and"
+" verify that your MAPDL installation can communicate with the Windows hosts."
+" If you are having problems after setting the firewall rules, you might have"
+" to turn off the Windows firewall for the WSL ethernet virtual interface. "
+"This might pose some unknown side effects and security risk so use it with "
+"caution. For more information, see :ref:`Disable firewall on WSL ethernet "
+"<disable_firewall_on_wsl_ethernet_section>`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:156
+msgid ""
+"Set up an environmental variable in WSL that points to Windows host license "
+"server"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:158
+msgid ""
+"The IP address for the Windows host is given in the WSL ``/etc/hosts`` file "
+"before the name ``host.docker.internal``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:162
+msgid ""
+"This ``host.docker.internal`` definition might not be available if Docker is"
+" not installed."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:166
+msgid "Here is an example of the WSL ``/etc/hosts`` file:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:194
+msgid ""
+"You can add the next lines to your WSL ``=/.bashrc`` file to create an "
+"environment variable with this IP address:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:210
+msgid "Launch MAPDL in WSL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:212
+msgid ""
+"To launch MAPDL in WSL, you must launch the MAPDL process. An example "
+"follows."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:219
+msgid ""
+"This launches an MAPDL instance whose working directory is the current "
+"directory. If you want to change the working directory, you can use the "
+"``-dir`` flag."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:228
+msgid "Launch MAPDL in the Windows host OS"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:230
+msgid ""
+"You can launch an instance of MAPDL using the MAPDL installation from the "
+"Windows host OS. To do that, run this code:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:242
+msgid ""
+"As mentioned in `Open ports for license server communication`_, the Windows "
+"host OS and WSL are connected with a virtual network where they both have "
+"different IP addresses. PyMAPDL does its best to detect the IP address of "
+"the Windows host OS. For that, it parses the output given by the command "
+"``ip route`` in WSL. However, if you find that this IP address is not "
+"correct, you can specify the IP address to connect to like this:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:257
+msgid ""
+"You might need to turn off the Microsoft Firewall completely or at least for"
+" the WSL network connection. To do so, follow :ref:`Disable firewall on WSL "
+"ethernet <disable_firewall_on_wsl_ethernet_section>`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:263
+msgid ""
+"For more information, see the issue `Launching MAPDL from WSL "
+"<wsl_launching_mapdl_>`_ or open a new issue in the `GitHub repository "
+"issues <pymapdl_issues_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:268
+msgid "Connect to an MAPDL instance running in WSL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:270
+msgid ""
+"To connect to the WSL instance that is running the MAPDL instance, you need "
+"to specify the IP address of the WSL instance:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:281
+msgid "Additional information"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:284
+msgid "IP addresses in WSL and the Windows host"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:286
+msgid ""
+"**Theory:** You should be able to access the Windows host using the IP "
+"address specified in the WSL ``/etc/hosts`` file. This IP address is "
+"typically ``127.0.1.1``. This means that the local WSL IP address is "
+"``127.0.0.1``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:290
+msgid ""
+"**Reality:** It is almost impossible to use the IP address ``127.0.1.1`` to "
+"connect to the Windows host. However, it is possible to use the "
+"``host.docker.internal`` hostname in the same WSL ``/etc/hosts`` file. This "
+"is an IP address that is randomly allocated, which is an issue when you "
+"define the license server. However, updating the ``.bashrc`` file as "
+"mentioned `in here <ref_bash_win_ip_>`_ resolves this issue."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:296
+msgid ""
+"The IP address ``127.0.0.1`` is the IP address of WSL CentOS from the WSL "
+"perspective, whereas the IP address for the Windows host is typically "
+"``127.0.1.1``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:299
+msgid ""
+"Docker builds the PyMAPDL images using the WSL distribution as the base. "
+"Hence, PyMAPDL is running on a Linux WSL distribution, which is running on a"
+" Windows host. Because the Docker image shares resources with WSL, it also "
+"shares the internal IP address with the WSL distribution."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:306
+msgid "Ansys installation flags"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:309
+msgid "Obtain help"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:311
+msgid ""
+"To obtain license server information, use one of the following methods to "
+"access the ``INSTALL`` file and then inspect the last few lines."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:315
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:386
+msgid "Method 1"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:322
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:395
+msgid "Method 2"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:330
+msgid "License server information for the client"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:332
+msgid ""
+"The ``-licserverinfo`` argument specifies information that the client for "
+"the license server uses. This argument is valid only in conjunction with a "
+"silent installation (INSTALL)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:336
+msgid "Single license server"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:338
+msgid "The format for a single license server is:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:344
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:359
+msgid "Here is an example:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:351
+msgid "Three license servers"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:353
+msgid "The format for three license servers is:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:367
+msgid "Language for the installation"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:369
+msgid ""
+"The ``-lang`` argument specifies the language that the installation uses."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:373
+msgid "File specifying the products to install"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:374
+msgid ""
+"You can specify an ``options`` file that lists the products that you want to"
+" install. When you do so, you must use the ``-productfile`` argument to "
+"specify the full path to the ``options`` file."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:382
+msgid "Disable firewall on WSL ethernet"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:383
+msgid "There are two methods for disabling the firewall on the WSL ethernet."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:388
+msgid "This method shows a notification:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:397
+msgid "This method does not show a notification:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:404
+msgid ""
+"**Reference:** The information has been obtained from `WSL Windows Toolbar "
+"Launcher repository <WSL_Windows_Toolbar_Launcher_>`_. More specifically "
+"from the *Troubleshooting* section `Firewall rules "
+"<disabling_firewall_on_wsl_>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:409
+msgid "Port forwarding on Windows 10"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:411
+msgid ""
+"You can use Windows PowerShell commands for port forwarding on Windows 10."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:414
+msgid "Link ports between WSL and Windows"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:415
+msgid "This command links ports between WSL and Windows:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:423
+msgid "View all forwards"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:425
+msgid "This command allows you to view all forwards:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:433
+msgid "Delete port forwarding"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:435
+msgid "This command allows you to delete port forwarding:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:442
+msgid "Reset Windows network adapters"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:444
+msgid "You can reset Windows network adapters with this code:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:455
+msgid "Restart the WSL service"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:457
+msgid "You can restart the WSL service with this command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:465
+msgid "Stop all processes with a given name"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:467
+msgid "You can stop all processes with a given name with this command."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:475
+msgid "Install ``xvfb`` in CentOS 7"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:477
+msgid ""
+"If you want to replicate the CI/CD behavior, you must install the ``xvfb`` "
+"package as shown in the following command. For more information, see the "
+"``.ci`` folder."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:486
+msgid ""
+"If you want to replicate the CI/CD behavior or develop from inside a Docker "
+"container, you should use Ubuntu as your base operative system. You can find"
+" instructions to create your own MAPDL Ubuntu container in "
+":ref:`ref_make_container` and how to use it to develop on containers in "
+":ref:`ref_devcontainer`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:492
+msgid "Notes"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:494
+msgid ""
+"PyMAPDL only works for shared-memory parallel (SMP) when running on WSL. "
+"This is why the flag ``-smp`` should be included."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/wsl.rst:497
+msgid ""
+"Because there are some incompatibilities between VPN and INTEL MPI, use the "
+"flag ``-mpi msmpi`` when calling MAPDL. This WSL guidance has not been "
+"written for or tested on VPN. If you are experiencing issues connecting to "
+"the Windows host machine, your license server, or an MAPDL instance, "
+"disconnect the VPN and try again."
+msgstr ""

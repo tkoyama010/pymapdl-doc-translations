@@ -1,0 +1,3633 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) (c) 2024 ANSYS, Inc. All rights reserved
+# This file is distributed under the same license as the ansys-mapdl-core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-21 15:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:6
+msgid "PyMAPDL command line interface"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:8
+msgid "For your convenience, PyMAPDL package includes a command line interface which allows you to launch, stop and list local MAPDL instances."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:13
+msgid "Launch MAPDL instances"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:15
+msgid "To start MAPDL, just type on your activated virtual environment:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:0
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:0
+msgid "Windows"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:0
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:0
+msgid "Linux"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:36
+msgid "If you want to specify an argument, for instance the port, then you need to call `launch_mapdl start`:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:59
+msgid "This ``pymapdl start`` command aims to replicate the function :func:`ansys.mapdl.core.launcher.launch_mapdl`. Hence, you can use some of the arguments which this function allows. For instance, you could specify the working directory:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:83
+msgid "For more information, see :func:`ansys.mapdl.core.launcher.launch_mapdl`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:87
+msgid "Stop MAPDL instances"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:88
+msgid "You can use the ``pymapdl stop`` command to stop MAPDL instances like this:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:110
+msgid "By default, the instance running on the port `50052` is stopped."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:112
+msgid "You can specify the instance running on a different port using `--port` argument:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:134
+msgid "Or an instance with a given process id (PID):"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:156
+msgid "Alternatively, you can stop all the running instances by using:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:179
+msgid "List MAPDL instances and processes"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:181
+msgid "You can also list MAPDL instances and processes. If you want to list MAPDL process, just use the following command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:212
+msgid "If you want, to just list the instances (avoiding listing children MAPDL processes), just type:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:239
+msgid "You can also print other fields like the working directory (using `--cwd`) or the command line (using `-c`). Additionally, you can also print all the available information by using the argument `--long` or `-l`:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:272
+msgid "The converter module has its own command line interface to convert MAPDL files to PyMAPDL. For more information, see :ref:`ref_cli_converter`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:281
+msgid "Convert APDL code"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:283
+msgid "After you have activated and installed the package as described in :ref:`installation`, you can use the converter from your terminal. Here is how you use the ``pymapdl convert`` command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:309
+msgid "To obtain help on converter usage, options, and examples, type this command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:347
+msgid "The ``pymapdl convert`` command uses the :func:`convert_script() <ansys.mapdl.core.convert_script>` function. Hence, this command accepts most of this function's arguments."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/components.rst:6
+msgid "Managing components"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/components.rst:8
+msgid "MAPDL components can be retrieved and set using :attr:`Mapdl.components <ansys.mapdl.core.Mapdl.components>`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/components.rst:12
+msgid "There are several ways to create a component in MAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/components.rst:14
+msgid "You can use the :meth:`Mapdl.cm <ansys.mapdl.core.Mapdl.cm>` method:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/components.rst:25
+msgid "Or use higher level syntax. For instance, to set a component specifying the type and items:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/components.rst:32
+msgid "Set a component without specifying the type, by default it is ``NODE``:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/components.rst:44
+msgid "You can change the default type by changing :attr:`Mapdl.components.default_entity <ansys.mapdl.core.Mapdl.components.default_entity>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/components.rst:54
+msgid "You can also create a component from already selected entities:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/components.rst:64
+msgid "Selecting a component and retrieving it:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/components.rst:73
+msgid "Component selection To being able to access a component through :attr:`Mapdl.components <ansys.mapdl.core.Mapdl.components>`, the component needs to be selected using :meth:`Mapdl.cmsel() <ansys.mapdl.core.Mapdl.cmsel>`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/components.rst:79
+msgid "Component object"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/components.rst:81
+msgid "The `Component object <ansys.mapdl.core.component.Component>` is the object returned by :attr:`Mapdl.components <ansys.mapdl.core.Mapdl.components>` when you query it with a component name. This object has two main attributes: `type <Component.type>` and `items <Component.items>`. The former returns the component type (`\"ELEM\"`, `\"NODE\"`, `\"KP\"`, etc) and the later returns a tuple with the index of the entities which belong to that component."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/components.rst:95
+msgid "It should be noticed that the component object is not linked to the MAPDL component, so any change on it is not reflected in the MAPDL counterpart."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:2
+msgid "Translate scripts"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:4
+msgid "The `ansys-mapdl-core <pymapdl_docs_>`_ library contains a few basic functions to translate existing MAPDL scripts into PyMAPDL scripts. Ideally, all math and variable setting would take place within Python because APDL commands are less transparent and more difficult to debug."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:12
+#: ../../pymapdl/doc/source/user_guide/database.rst:11
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:80
+msgid "Usage"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:14
+msgid "You can call this command from the terminal with different arguments. Here is an example that converts the ``mapdl.dat`` file to a Python file named ``python.py``:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:24
+msgid "The output argument is completely optional. If you don't specify it, the ``py`` extension is used for the file that is outputted:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:33
+msgid "You can use any option from the :func:`convert_script() <ansys.mapdl.core.convert_script>` function."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:36
+msgid "For example, to avoid exiting the MAPDL instance after running the script, you can use ``--auto-exit`` argument:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:45
+msgid "You can skip the imports by setting the ``--add_imports`` option to ``False``:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:55
+msgid "For more information about possible options, use the help command (``pymapdl convert --help``) or the :func:`convert_script() <ansys.mapdl.core.convert_script>` function documentation."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:62
+msgid "Caveats"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:64
+msgid "These examples only show an automatic translation of a verification: file and not optimized code. Should it be necessary to pull parameters or arrays from ansys, use the :func:`Mapdl.get_value() <ansys.mapdl.core.Mapdl.get_value>` function, which is quite similar to the MAPDL :func:`Mapdl.get() <ansys.mapdl.core.Mapdl.get>` command shown here:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:76
+msgid "Alternatively, if a parameter is already defined, you can access it using the :attr:`Mapdl.parameters <ansys.mapdl.core.Mapdl.parameters>` attribute with:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:95
+msgid "Script translation"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:97
+msgid "Existing Ansys scripts can be translated using the :func:`convert_script() <ansys.mapdl.core.convert_script>` function:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:107
+msgid "Or, you can convert code in form of strings for later processing using the :func:`convert_apdl_block() <ansys.mapdl.core.convert_apdl_block>` function:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:123
+msgid "The script conversion functions allow some interesting arguments, which you can see in the respective :func:`convert_script() <ansys.mapdl.core.convert_script>` and :func:`convert_apdl_block() <ansys.mapdl.core.convert_apdl_block>` function documentation. Especially interesting are the ``add_imports``, ``comment_solve``, and ``print_com`` keyword arguments."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:129
+msgid "Of particular note in the following examples is how most of the commands can be called as a method to the Ansys object rather than sending a string as a command. Additionally, take note that some commands require the :attr:`Mapdl.non_interactive <ansys.mapdl.core.Mapdl.non_interactive>` context manager since some commands require and may break the server connection for some interfaces (such as CORBA) or are invalid (as in gRPC)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:136
+msgid "Also note that APDL macros that use ``*CREATE`` have been replaced with Python functions. This makes the code easier to debug should it be necessary to insert a ``breakpoint()`` in the script."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:142
+msgid "Example: VM1 - statically indeterminate reaction force analysis"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:144
+msgid "Ansys MAPDL contains over 200 verification files used for Ansys validation and demonstration. These validation files are used here to demo the use of the PyMAPDL file translator :func:`convert_script() <ansys.mapdl.core.convert_script>` function and are available in:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:155
+msgid "This example translates the verification example ``\"vm1.dat\"``, which can be done with:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:0
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:0
+msgid "APDL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:168
+msgid "Here is the MAPDL code:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:0
+msgid "PyMAPDL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:289
+msgid "Note that some of the commands with ``/`` are not directly translated to functions and are instead run as \"classic\" commands like ``mapdl.run('/COM')``. Also, note that the ``*VWRITE`` command requires a command immediately following it. This normally locks the interface, so it's implemented in the background as an input file using the :attr:`Mapdl.non_interactive <ansys.mapdl.core.Mapdl.non_interactive>` attribute."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:297
+msgid "Here is the obtained result:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:308
+msgid "You can verify the reaction forces with:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:322
+msgid "Example: VM7 - plastic compression of a pipe assembly"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:324
+msgid "Convert the verification file with:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:336
+msgid "Here is the input file from VM7:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/database.rst:2
+msgid "Access MAPDL database"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/database.rst:4
+msgid "This feature is still in beta. To report any errors or suggestions, `open an issue on GitHub <pymapdl_new_issue_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/database.rst:7
+msgid "In PyMAPDL v0.61.2 and later, you can access elements and nodes data from the MAPDL database using the DB module."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/database.rst:13
+msgid "Get the ``elems`` and ``nodes`` objects."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/database.rst:34
+msgid "Obtain the first element."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/database.rst:43
+msgid "Check if the element is selected."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/database.rst:50
+msgid "Return the element information of element 1."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/database.rst:72
+msgid "Return the nodes belonging to the element."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/database.rst:79
+msgid "Return the element data."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/database.rst:86
+msgid "Return the selection status and the coordinates of node 22."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/database.rst:95
+msgid "The coordinates returned by the ``coord`` method contain the following: X, Y, Z, THXY, THYZ, and THZX."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/database.rst:99
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:175
+msgid "Requirements"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/database.rst:101
+msgid "To use the ``DB`` feature, you must meet these requirements:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/database.rst:103
+msgid "``ansys.api.mapdl`` package version should be 0.5.1 or later."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/database.rst:104
+msgid "Ansys MAPDL version should be 2021 R1 or later."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/database.rst:106
+msgid "This feature does not work in the Ansys 2023 R1."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:7
+msgid "High performance computing (HPC)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:9
+msgid "This page provides an overview on how to use PyMAPDL in HPC clusters. While it only considers the SLURM scheduler, many of the assumptions for this scheduler might apply to other schedulers, such as PBS, SGE, or LSF."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:18
+msgid "SLURM HPC cluster"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:21
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:6
+msgid "Introduction"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:23
+msgid "High performance computing (HPC) clusters are powerful systems designed to handle computationally intensive tasks efficiently. SLURM (Simple Linux Utility for Resource Management) is one of the most widely used job schedulers in HPC environments. This page provides an overview of job submission using PyMAPDL and SLURM on HPC clusters."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:31
+msgid "What is SLURM?"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:33
+msgid "SLURM is an open source workload manager and job scheduler designed for Linux clusters of all sizes. It efficiently allocates resources (compute nodes, CPU cores, memory, and GPUs) to jobs submitted by users."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:37
+msgid "For more information on SLURM, see the `SLURM documentation <slurm_docs_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:40
+msgid "Basic terms"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:42
+msgid "Descriptions follow of basic terms."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:44
+msgid "**Nodes**: Individual computing servers within the cluster."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:45
+msgid "**Compute node**: A type of node used only for running processes. It is not accessible from outside the cluster."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:47
+msgid "**Login node**: A type of node used only for login and job submission. No computation should be performed on it. It is sometimes referred to as *virtual desktop infrastructure* (VDI)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:50
+msgid "**Partition**: A logical grouping of nodes with similar characteristics (for example, CPU architecture and memory size)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:52
+msgid "**Job**: A task submitted to SLURM for execution."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:53
+msgid "**Queue**: A waiting area where jobs are held until resources become available."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:54
+msgid "**Scheduler**: The component responsible for deciding which job gets executed and when and where it gets executed."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:59
+msgid "Regular job submission workflow"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:64
+msgid "Log into the cluster"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:66
+msgid "You need access credentials and permissions to log in and submit jobs on the HPC cluster. Depending on the login node configuration, you can log in using Virtual Network Computing (VNC) applications or a terminal."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:70
+msgid "For example, you can log in to a login node using the terminal:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:78
+msgid "Writing a SLURM batch script"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:80
+msgid "A SLURM batch script is a shell script that specifies job parameters and commands to execute. Here's a basic example:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:83
+msgid "**my_script.sh**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:98
+msgid "This script is run using ``srun`` and ``sbatch``. Notice how comments in the file prefixed with ``#SBATCH`` describe the job configuration. For more information on available ``srun`` and ``sbatch`` arguments, see `Slurm Workload Manager - srun <slurm_srun_>`_ and `Slurm Workload Manager - sbatch <slurm_sbatch_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:105
+msgid "Submitting a job"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:106
+msgid "To submit a job, use the ``srun`` command followed by the name of the batch script:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:113
+msgid "If you prefer to submit a batch job, you can use the ``sbatch`` command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:119
+msgid "You can specify each job setting using the command line. For example:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:125
+msgid "**Command line arguments versus in-file arguments**: Command line arguments do **NOT** overwrite the equivalent arguments written in the bash file. Hence, you must ensure that the argument that you want to pass using the command line is not already present in the bash file."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:134
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:249
+msgid "Submit a PyMAPDL job"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:136
+msgid "Using PyMAPDL in an HPC environment managed by SLURM scheduler has certain requirements:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:138
+msgid "**An Ansys installation must be accessible from all the compute nodes**. This normally implies that the ``ANSYS`` installation directory is in a shared drive or directory. Your HPC cluster administrator should provide you with the path to the ``ANSYS`` directory."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:143
+msgid "**A compatible Python installation must be accessible from all the compute nodes**. For compatible Python versions, see :ref:`ref_pymapdl_installation`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:146
+msgid "Additionally, you must perform a few key steps to ensure efficient job execution and resource utilization. Subsequent topics describe these steps."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:150
+msgid "Check the Python installation"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:152
+msgid "The PyMAPDL Python package (``ansys-mapdl-core``) must be installed in a virtual environment that is accessible from the compute nodes."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:155
+msgid "To see where your Python distribution is installed, use this code:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:162
+msgid "To print the version of Python you have available, use this code:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:169
+msgid "You should be aware that your machine might have installed other Python versions. To find out if those installations are already in the ``PATH`` environment variable, you can press the **Tab** key to use autocomplete:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:181
+msgid "You should use a Python version that is compatible with PyMAPDL. For more information, see:ref:`ref_pymapdl_installation`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:184
+msgid "The ``which`` command returns the path where the Python executable is installed. You can use that executable to create your own Python virtual environment in a directory that is accessible from all the compute nodes. For most HPC clusters, the ``/home/$user`` directory is generally available to all nodes. You can then create the virtual environment in the ``/home/user/.venv`` directory:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:194
+msgid "After activating the virtual environment, you can install PyMAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:198
+msgid "Install PyMAPDL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:200
+msgid "To install PyMAPDL on the activated virtual environment, run the following commands:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:214
+msgid "To test if this virtual environment is accessible from the compute nodes, run this ``test.sh`` bash script:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:230
+msgid "then you can run that script using:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:236
+msgid "This command might take a minute or two to complete, depending on the amount of free resources available in the cluster. On the console, you should see this output:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:245
+msgid "If you see an error in the output, see :ref:`ref_hpc_troubleshooting`, especially :ref:`ref_python_venv_not_accesible`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:251
+msgid "To submit a PyMAPDL job, you must create two files:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:253
+msgid "Python script with the PyMAPDL code"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:254
+msgid "Bash script that activates the virtual environment and calls the Python script"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:256
+msgid "**Python script:** ``pymapdl_script.py``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:273
+msgid "**Bash script:** ``job.sh``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:280
+msgid "To start the simulation, you use this code:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:287
+msgid "The bash script allows you to customize the environment before running the Python script. This bash script performs such tasks as creating environment variables, moving to different directories, and printing to ensure your configuration is correct. However, this bash script is not mandatory. You can avoid having the ``job.sh`` bash script if the virtual environment is activated and you pass all the environment variables to the job:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:300
+msgid "The ``--export=ALL`` argument might not be needed, depending on the cluster configuration. Furthermore, you can omit the Python call in the preceding command if you include the Python shebang (``#!/usr/bin/python3``) in the first line of the ``pymapdl_script.py`` script."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:309
+msgid "If you prefer to run the job in the background, you can use the ``sbatch`` command instead of the ``srun`` command. However, in this case, the Bash file is needed:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:317
+msgid "Here is the expected output of the job:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:325
+msgid "Examples"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:327
+msgid "For an example that uses a machine learning genetic algorithm in an HPC system managed by SLURM scheduler, see :ref:`hpc_ml_ga_example`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:332
+msgid "Monitoring jobs"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:335
+msgid "View the job queue"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:337
+msgid "The ``squeue`` command displays information about jobs that are currently queued or running on the system."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:340
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:421
+msgid "**Basic usage:**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:346
+msgid "**To see jobs from a specific user:**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:352
+msgid "**To filter jobs by partition:**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:358
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:409
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:440
+msgid "**Common options:**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:360
+msgid "``-l`` or ``--long``: Displays detailed information about each job."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:361
+msgid "``--start``: Predicts and shows the start times for pending jobs."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:364
+msgid "Control the jobs and configuration"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:366
+msgid "The ``scontrol`` command provides a way to view and modify the SLURM configuration and state. It's a versatile tool for managing jobs, nodes, partitions, and more."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:369
+msgid "**Show information about a job:**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:375
+msgid "**Show information about a node:**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:381
+msgid "**Hold and release jobs:**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:383
+msgid "To hold a job (stop it from starting): ``scontrol hold <jobID>``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:384
+msgid "To release a job on hold: ``scontrol release <jobID>``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:387
+msgid "Cancel jobs"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:389
+msgid "The ``scancel`` command cancels a running or pending job."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:391
+msgid "**Cancel a specific job:**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:397
+msgid "**Cancel all jobs of a specific user:**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:403
+msgid "**Cancel jobs by partition:**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:411
+msgid "``--name=jobname``: Cancels all jobs with a specific name."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:412
+msgid "``--state=pending``: Cancels all jobs in a specific state, such as all pending jobs as shown."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:416
+msgid "Report accounting Information"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:418
+msgid "The ``sacct`` account reports job or job step accounting information about active or completed jobs."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:427
+msgid "**To see information about jobs from a specific user:**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:433
+msgid "**To show information about a specific job or job range:**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:442
+msgid "``--format``: Specifies which fields to display. For example, ``--format=JobID,JobName,State``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:444
+msgid "``-S`` and ``-E``: Sets the start and end times for the report. For example, ``-S 2023-01-01 -E 2023-01-31``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:447
+msgid "For more information, see the SLURM documentation or use the ``man`` command (for example, ``man squeue``) to explore all available options and their usage."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:453
+msgid "Best practices"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:454
+msgid "Optimize resource usage to minimize job wait times and maximize cluster efficiency."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:455
+msgid "Regularly monitor job queues and system resources to identify potential bottlenecks."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:456
+msgid "Follow naming conventions for batch scripts and job names to maintain organization."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:457
+msgid "Keep batch scripts and job submissions concise and well-documented for reproducibility and troubleshooting."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:463
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:466
+msgid "Debugging jobs"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:467
+msgid "Use ``--output`` and ``--error`` directives in batch scripts to capture standard output and error messages."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:470
+msgid "Check SLURM logs for error messages and debugging information."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:476
+msgid "Python virtual environment is not accessible"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:477
+msgid "If there is an error while testing the Python installation, it might mean that the Python environment is not accessible to the compute nodes. For example, in the following output, PyMAPDL could not be found, meaning that the script is not using the virtual environment (``/home/user/.venv``):"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:490
+msgid "This could be for a number of reasons. One of them is that the system Python distribution used to create the virtual environment is not accessible from the compute nodes due to one of these reasons:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:494
+msgid "The virtual environment has been created in a directory that is not accessible from the nodes."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:496
+msgid "The virtual environment has been created from a Python executable that is not available to the compute nodes. Hence, the virtual environment is not activated. For example, you might be creating the virtual environment using Python 3.10, but only Python 3.8 is available from the compute nodes."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:503
+msgid "You can test which Python executable the cluster is using by starting an interactive session in a compute node with this code:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:514
+msgid "Many HPC infrastructures use environment managers to load and unload software packages using modules and environment variables. Hence, you might want to make sure that the correct module is loaded in your script. For information on two of the most common environment managers, see the `Modules documentation <modules_docs_>`_ and `Lmod documentation <lmod_docs_>`_. Check your cluster documentation to know which environment manager is being using and how to load Python with it. If you find any issue, you should contact your cluster administrator."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:523
+msgid "If there is not a suitable Python version accessible from the compute nodes, you might have to request your HPC cluster administrator to have a suitable Python version installed on all compute nodes. If this is not an option, see :ref:`ref_ansys_provided_python`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:532
+msgid "Using the Ansys-provided Python installation"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:534
+msgid "**For development purposes only**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:536
+msgid "In certain HPC environments the possibility of installing a different Python version is limited for security reasons. In such cases, the Python distribution available in the Ansys installation can be used. This Python distribution is a customized Python (CPython) version for Ansys products use only. Its use is **discouraged** except for very advanced users and special use cases."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:543
+msgid "This Python distribution is in the following directory, where ``%MAPDL_VERSION%`` is the three-digit Ansys version:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:550
+msgid "For example, here is the directory for Ansys 2024 R2:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:557
+msgid "In Ansys 2024 R1 and later, the unified installer includes CPython 3.10. Earlier versions include CPython 3.7 (``/commonfiles/CPython/3_7/linx64/Release/python``)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:560
+msgid "Because the Ansys installation must be available to all the compute nodes to run simulations using them, this Python distribution is normally also available to the compute nodes. Hence, you can use it to create your own virtual environment."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:566
+msgid "Due to the particularities of this Python distribution, you must follow these steps to create a virtual environment accessible to the compute nodes:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:570
+msgid "Set the Python path environment variable:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:576
+msgid "For only Ansys 2024 R1 and earlier, patch the ``PATH`` and ``LD_LIBRARY_PATH`` environment variables:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:584
+msgid "On the same terminal, create your own virtual environment and activate it:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:592
+msgid "Install PyMAPDL:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:598
+msgid "Use it to launch simulations, using ``srun``:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:604
+msgid "or ``sbatch``:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:613
+msgid "Advanced configuration"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:615
+msgid "The following topics provide some advanced ideas for you to explore when using PyMAPDL on HPC clusters."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:619
+msgid "Advanced job management"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:622
+msgid "Job dependencies"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:623
+msgid "Specify dependencies between jobs using the ``--dependency`` flag. Jobs can depend on completion, failure, or other criteria of previously submitted jobs."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:627
+msgid "Array jobs"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:629
+msgid "Submit multiple jobs as an array using the ``--array`` flag. Each array element corresponds to a separate job, allowing for parallel execution of similar tasks."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:633
+msgid "Job arrays with dependencies"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:634
+msgid "Combine array jobs with dependencies for complex job scheduling requirements. This allows for parallel execution while maintaining dependencies between individual tasks."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:639
+msgid "Resource allocation and request"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:642
+msgid "Specify resources"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:643
+msgid "Use SLURM directives in batch scripts to specify required resources such as number of nodes, CPU cores, memory, and time limit."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:647
+msgid "Request resources"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:648
+msgid "Use the ``--constraint`` flag to request specific hardware configurations (for example, CPU architecture) or the ``--gres`` flag for requesting generic resources like GPUs."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:653
+msgid "Resource Limits"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:654
+msgid "Set resource limits for individual jobs using directives such as ``--cpus-per-task``, ``--mem``, and ``--time``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/index.rst:5
+msgid "User guide"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/index.rst:6
+msgid "This section provides a general overview of PyMAPDL and how you use it."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/index.rst:36
+msgid "PyMAPDL overview"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/index.rst:37
+msgid "The :func:`launch_mapdl() <ansys.mapdl.core.launcher.launch_mapdl>` function within the ``ansys-mapdl-core`` library creates an instance of the :class:`Mapdl <ansys.mapdl.core.mapdl.MapdlBase>` class in the background and sends commands to that instance. Errors and warnings are processed Pythonically, letting you develop a script in real time, without worrying about it functioning correctly when deployed in batch mode."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/index.rst:45
+msgid "MAPDL can be started from Python in gRPC mode using the :func:`launch_mapdl() <ansys.mapdl.core.launcher.launch_mapdl>` method. This starts MAPDL in a temporary directory by default. You can change this to your current directory with this code:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/index.rst:58
+msgid "MAPDL is now active, and you can send commands to it as a genuine Python class. For example, if you wanted to create a surface using key points, you could run:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/index.rst:75
+msgid "MAPDL interactively returns the result of each command, which is stored to the logging module. Errors are caught immediately. For example, if you input an invalid command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/index.rst:94
+msgid "This ``MapdlRuntimeError`` was caught immediately. This means that you can write your MAPDL scripts in Python, run them interactively, and then run them as a batch without worrying if the script would run correctly if you had instead outputted it to a script file."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/index.rst:99
+msgid "The :class:`Mapdl <ansys.mapdl.core.mapdl.MapdlBase>` class supports much more than just sending text to MAPDL. It includes higher-level wrapping, allowing for better scripting and interaction with MAPDL. For an overview of the various advanced methods to visualize, script, and interact with MAPDL, see :ref:`ref_examples`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/index.rst:107
+msgid "Calling MAPDL Pythonically"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/index.rst:108
+msgid "MAPDL functions can be called directly from an instance of :class:`Mapdl <ansys.mapdl.core.mapdl.MapdlBase>` in a Pythonic manner. This is to simplify calling Ansys, especially when inputs are variables within Python. For example, the following two commands are equivalent:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/index.rst:118
+msgid "This approach has some obvious advantages. Chiefly, it's easier to script because ``ansys-mapdl-core`` takes care of the string formatting for you. For example, you can input points from a numpy array with:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/index.rst:129
+msgid "Additionally, exceptions are caught and handled within Python."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/index.rst:147
+msgid "For longer scripts, instead of sending commands to MAPDL as in the area creation example, you can instead run:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/index.rst:168
+msgid "This approach has some obvious advantages, chiefly that it's a bit easier to script as :class:`Mapdl <ansys.mapdl.core.mapdl.MapdlBase>` takes care of the string formatting for you. For example, inputting points from a numpy array:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/index.rst:182
+msgid "Additionally, each function with the MAPDL class has help associated with it. For example:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/index.rst:226
+msgid "For stability considerations, see :ref:`PyMAPDL stability <ref_pymapdl_stability>`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:3
+msgid "Harmonic analysis using the Krylov method"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:7
+msgid "You can use the frequency-sweep Krylov method for a high-performance solution of forced-frequency simulations in acoustic or single-field structural analyses."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:11
+msgid "Similar to the full harmonic analysis, the frequency-sweep Krylov method uses full system matrices to compute the harmonic response. While the full method solves at every frequency point in the frequency range, the frequency-sweep Krylov method performs the following steps to approximate the response across the frequency range:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:17
+msgid "Builds a Krylov subspace set of vectors at the frequency value in the middle of the requested frequency range"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:19
+msgid "Reduces the system matrices and loading on the entire frequency range"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:20
+msgid "Solves the reduced system"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:21
+msgid "Expands the results back to compute the harmonic response"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:23
+msgid "Mechanical APDL provides the following ways to implement a harmonic analysis using the Krylov method:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:26
+msgid "Mechanical APDL commands"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:27
+msgid "APDL macros as described in `Frequency-Sweep Harmonic Analysis via the Krylov Method <ansys_krylov_sweep_harmonic_analysis_>`_ in the *Structural Analysis* guide for Mechanical APDL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:31
+msgid "PyMAPDL also provides a way to implement a harmonic analysis using the Krylov method. Subsequent sections describe how to use the Krylov method in PyMAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:36
+msgid "**Assumptions**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:37
+msgid "The following assumptions are made when using the Krylov PyMAPDL method to obtain the solution:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:40
+msgid "The stiffness, mass, and damping matrices are assumed to be constant (independent of frequency)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:43
+msgid "The external load vector is linearly ramped over frequency. Ramping assumes that the frequency at which the Krylov subspace is built is in the middle of the frequency range. If you want to apply stepped loading, there is an option to specify that in the inputs for the :func:`KrylovSolver.solve() <ansys.mapdl.core.krylov.KrylovSolver.solve>` method."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:52
+msgid "Krylov method implementation in PyMAPDL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:53
+msgid "The PyMAPDL implementation of the Krylov method gives you customization and flexibility because you can access subspace vectors and reduced solutions using the Python programming language for user-defined routines."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:57
+msgid "If you do not require customization, you can use the Mechanical APDL commands to solve a harmonic analysis with the Krylov method. For more information, including the theory behind this method, see `Frequency-Sweep Harmonic Analysis via the Krylov Method <ansys_krylov_sweep_harmonic_analysis_>`_ in the *Structural Analysis* guide for Mechanical APDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:64
+msgid "For additional theory information and equations for the Krylov method, see the works of Puri [1]_ and Eser [2]_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:67
+msgid "The exposure in PyMAPDL follows the same theory as the Mechanical APDL macros and has the following methods:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:70
+msgid ":func:`KrylovSolver.gensubspace() <ansys.mapdl.core.krylov.KrylovSolver.gensubspace>`: Creates the Krylov subspace."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:72
+msgid ":func:`KrylovSolver.solve() <ansys.mapdl.core.krylov.KrylovSolver.solve>`: Solves the reduced system of equations."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:74
+msgid ":func:`KrylovSolver.expand() <ansys.mapdl.core.krylov.KrylovSolver.expand>`: Expands the Krylov subspace."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:77
+msgid "These methods must be run consecutively."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:81
+msgid "This section shows how to implement an analysis identical to that defined by the Mechanical APDL macros."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:85
+msgid "Generate the FULL file and FEA model"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:86
+msgid "Generate the FULL file for the Krylov method and the FEA model using Mechanical APDL:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:110
+msgid "Create an instance of the Krylov class"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:116
+msgid "Call the :func:`gensubspace <ansys.mapdl.core.krylov.KrylovSolver.gensubspace>` method to create the Krylov subspace and build a subspace of size/dimension 10 at a frequency of 500 Hz:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:126
+msgid "Return the Krylov subspace"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:128
+msgid "Call the :func:`solve <ansys.mapdl.core.krylov.KrylovSolver.solve>` method to reduce the system of equations and solve at each frequency. This code solves from 0 Hz to 1000 Hz with 100 intervals in between, with stepped loading:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:138
+msgid "Return the reduced solution over the frequency range"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:140
+msgid "Call the :func:`expand <ansys.mapdl.core.krylov.KrylovSolver.expand>` method to expand the reduced solution back to the FE space, output the expanded solution, and calculate the residual:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:150
+msgid "The preceding code returns a :class:`numpy array<numpy.ndarray>` if the kwarg ``out_key`` is set to ``True``. Solution vectors are mapped to user order."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:153
+msgid "The :class:`numpy array<numpy.ndarray>` class returned by the :func:`expand <ansys.mapdl.core.krylov.KrylovSolver.expand>` method contains the node number along with the degrees of freedom (dof) solution for each of the calculated frequencies."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:159
+msgid "Get the dof solution at a specific frequency"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:160
+msgid "This code shows how to get the nodal solution at a specific frequency or step:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:170
+msgid "Example"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:172
+msgid "Examples of using the Krylov method in PyMAPDL are available in :ref:`krylov_example`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:177
+msgid "To use the Krylov method in PyMAPDL, you must use Mechanical APDL version 2022 R2 or later."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:179
+msgid "This feature does not support Distributed Ansys. However, you can still run Mechanical APDL Math commands without specifying the ``-smp`` flag when launching Mechanical APDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:184
+msgid "Reference"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:185
+msgid "For more information on the Krylov method, see `Frequency-Sweep Harmonic Analysis via the Krylov Method <ansys_krylov_sweep_harmonic_analysis_>`_ in the *Structural Analysis* guide for Mechanical APDL and these resources:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:189
+msgid "Puri, S. R. (2009). Krylov Subspace Based Direct Projection Techniques for Low Frequency, Fully Coupled, Structural Acoustic Analysis and Optimization. PhD Thesis. Oxford Brookes University, Mechanical Engineering Department. Oxford, UK."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:193
+msgid "Eser, M. C. (2019) Efficient Evaluation of Sound Radiation of an Electric Motor using Model Order Reduction. MSc Thesis. Technical University of Munich, Mechanical Engineering Department. Munich, DE."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:5
+msgid "PyMAPDL language and usage"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:7
+msgid "This page gives you an overview of the PyMAPDL API for the :class:`Mapdl <ansys.mapdl.core.mapdl.MapdlBase>` class. For more information, see :ref:`ref_mapdl_api`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:12
+msgid "Overview"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:13
+msgid "When calling MAPDL commands as functions, each command has been translated from its original MAPDL all CAPS format to a PEP8 compatible format. For example, ``ESEL`` is now the :func:`Mapdl.esel() <ansys.mapdl.core.Mapdl.esel>` method."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:0
+msgid "Python"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:41
+msgid "Additionally, MAPDL commands containing a ``/`` or ``*`` have had those characters removed, unless this causes a conflict with an existing name. Most notable is ``/SOLU``, which would conflict with ``SOLU``. Therefore, ``/SOLU`` is renamed to the :func:`Mapdl.slashsolu() <ansys.mapdl.core.Mapdl.slashsolu>` method to differentiate it from ``solu``. Out of the 1500 MAPDL commands, about 15 start with ``slash (/)`` and 8 start with ``star (*)``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:71
+msgid "MAPDL commands that can accept an empty space as argument, such as ``ESEL,S,TYPE,,1``, should include an empty string when called by Python, or, these commands can be called using keyword arguments:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:93
+msgid "None of these restrictions apply to commands run with the :func:`Mapdl.run() <ansys.mapdl.core.Mapdl.run>` method. It might be easier to run some of these commands, such as ``\"/SOLU\"``:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:118
+#: ../../pymapdl/doc/source/user_guide/post.rst:81
+msgid "Selecting entities"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:119
+msgid "You can select entities such as nodes or lines using these methods:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:121
+msgid ":func:`Mapdl.nsel() <ansys.mapdl.core.Mapdl.nsel>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:122
+msgid ":func:`Mapdl.esel() <ansys.mapdl.core.Mapdl.esel>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:123
+msgid ":func:`Mapdl.ksel() <ansys.mapdl.core.Mapdl.ksel>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:124
+msgid ":func:`Mapdl.lsel() <ansys.mapdl.core.Mapdl.lsel>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:125
+msgid ":func:`Mapdl.asel() <ansys.mapdl.core.Mapdl.asel>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:126
+msgid ":func:`Mapdl.vsel() <ansys.mapdl.core.Mapdl.vsel>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:128
+msgid "The preceding methods return the IDs of the selected entities. For example:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:143
+msgid "Running in non-interactive mode"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:145
+msgid "Some commands can only be run non-interactively from within a script. PyMAPDL gets around this restriction by writing the commands to a temporary input file and then reading the input file. To run a group of commands that must be run non-interactively, set the :class:`Mapdl <ansys.mapdl.core.mapdl.MapdlBase>` class to run a series of commands as an input file by using the :func:`Mapdl.non_interactive() <ansys.mapdl.core.Mapdl.non_interactive>` method. Here is an example:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:161
+msgid "You can then view the final response of the non-interactive context with the :attr:`Mapdl.last_response <ansys.mapdl.core.Mapdl.last_response>` attribute."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:164
+msgid "Using the :meth:`Mapdl.non_interactive() <ansys.mapdl.core.Mapdl.non_interactive>` method can also be useful to run commands on the server side without the interaction of Python. This can speed up things greatly, but you should be aware of how APDL works. An interesting discussion about speed comparison between PyMAPDL and APDL can be found in `Speed comparison between PyMAPDL and APDL <pymapdl_discussion_speed_pymapdl_mapdl_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:170
+msgid "You should use the :meth:`Mapdl.non_interactive() <ansys.mapdl.core.Mapdl.non_interactive>` method with caution."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:174
+msgid "How the non-interactive context manager works"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:176
+msgid "The :meth:`Mapdl.non_interactive() <ansys.mapdl.core.Mapdl.non_interactive>` method is implemented as a `context manager <python_context_manager_>`_, which means that there are some actions happening when entering and exit the context. When entering the context, the :class:`Mapdl <ansys.mapdl.core.mapdl._MapdlCore>` instance stops sending any APDL command to the MAPDL instance. Instead, it allocates a buffer for those APDL commands. For each PyMAPDL command inside that context, PyMAPDL stores the equivalent MAPDL command inside that buffer. Right before exiting the context, PyMAPDL creates a text file with all these APDL commands, sends it to the MAPDL instance, and runs it using the :meth:`Mapdl.input() <ansys.mapdl.core.Mapdl.input>` method."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:189
+msgid "For instance, this example code uses the :meth:`non_interactive context <ansys.mapdl.core.Mapdl.non_interactive>` method to generate input for MAPDL:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:197
+msgid "The preceding code generates this input for MAPDL:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:204
+msgid "This MAPLD input is executed with a :meth:`Mapdl.input() <ansys.mapdl.core.Mapdl.input>` method call."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:206
+msgid "Because of the non-interactive context not running all the commands until the end, you might find issues interacting inside it, with Python for instance. For example, running Python commands such as the :meth:`Mapdl.get_array() <ansys.mapdl.core.Mapdl.get_array>` method inside the context can give you out-of-sync responses. The following code snippet is a demonstration of this kind of problem:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:229
+msgid "In the preceding script, the values obtained by the :meth:`Mapdl.get_array() <ansys.mapdl.core.Mapdl.get_array>` method are different:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:239
+msgid "This is because the first :meth:`Mapdl.get_array() <ansys.mapdl.core.Mapdl.get_array>` method call is executed *before* the :meth:`Mapdl.k() <ansys.mapdl.core.Mapdl.k>` method call."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:242
+msgid "You should not retrieve any data in a Pythonic way from the MAPDL instance while using the :meth:`non_interactive context <ansys.mapdl.core.Mapdl.non_interactive>` method. Being aware of this kind of behavior and how the :meth:`non_interactive context <ansys.mapdl.core.Mapdl.non_interactive>` method works is crucial for advanced usage of PyMAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:249
+msgid "MAPDL macros"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:250
+msgid "Note that macros created within PyMAPDL (rather than loaded from a file) do not appear to run correctly. For example, here is the ``DISP`` macro created using the ``*CREATE`` command within APDL and within PyMAPDL:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:312
+msgid "If you have an existing input file with a macro, you can convert it using the :func:`convert_script() <ansys.mapdl.core.convert_script>` method, setting``macros_as_functions=True``:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:324
+msgid "Additional options when running commands"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:325
+msgid "Commands can be run in ``mute`` or ``verbose`` mode, which allows you to suppress or print the output as it is being run for any MAPDL command. This can be especially helpful for long-running commands like ``SOLVE``. This works for the Pythonic wrapping of all commands and when using the :func:`Mapdl.run() <ansys.mapdl.core.Mapdl.run>` method."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:331
+msgid "Run a command and suppress its output:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:338
+msgid "Run a command and stream its output while it is being run:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:346
+msgid "The ``verbose`` and ``mute`` features are only available when running MAPDL in gRPC mode."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:351
+msgid "Running several commands or an input file"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:352
+msgid "You can run several MAPDL commands as a unified block using the :func:`Mapdl.input_strings() <ansys.mapdl.core.Mapdl.input_strings>` method. This is useful when using PyMAPDL with older MAPDL scripts. For example:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:406
+msgid "Alternatively, you can simply write the commands to a file and then run the file using the :func:`Mapdl.input() <ansys.mapdl.core.Mapdl.input>` method. For example, if you have a ``\"ds.dat\"`` file generated from Ansys Mechanical, you can run that with:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:417
+msgid "Conditional statements and loops"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:418
+msgid "APDL conditional statements such as ``*IF`` must be either implemented Pythonically or by using the :attr:`Mapdl.non_interactive <ansys.mapdl.core.Mapdl.non_interactive>` attribute. For example:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:0
+msgid "Python-Non interactive"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:490
+msgid "The values of ``ARGX`` parameters are not retrieved from the MAPDL instance. Hence you cannot use those arguments in Python code unless you use the following commands:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:500
+msgid "APDL loops using ``*DO`` or ``*DOWHILE`` should also be implemented using the :attr:`Mapdl.non_interactive <ansys.mapdl.core.Mapdl.non_interactive>` attribute or implemented Pythonically."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:506
+msgid "Warnings and errors"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:507
+msgid "Errors are handled Pythonically. For example:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:517
+msgid "Commands that are ignored within MAPDL are flagged as errors. This is different than MAPDL's default behavior where commands that are ignored are treated as warnings. For example, in ``ansys-mapdl-core`` running a command in the wrong session raises an error:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:534
+msgid "You can change this behavior so ignored commands can be logged as warnings and not raised as exceptions by using the :func:`Mapdl.ignore_errors() <ansys.mapdl.core.Mapdl.ignore_errors>` function. For example:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:546
+msgid "Prompts"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:547
+msgid "Prompts from MAPDL automatically continued as if MAPDL is in batch mode. Commands requiring user input, such as the :meth:`Mapdl.vwrite() <ansys.mapdl.core.Mapdl.vwrite>` method, fail and must be entered in non-interactively."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:554
+msgid "APDL command logging"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:555
+msgid "While ``ansys-mapdl-core`` is designed to make it easier to control an APDL session by calling it using Python, it might be necessary to call MAPDL again using an input file generated from a PyMAPDL script. This is automatically enabled with the ``log_apdl='apdl.log'`` parameter. Enabling this parameter causes the :class:`Mapdl <ansys.mapdl.core.mapdl.MapdlBase>` class to write each command run into a log file named ``\"apdl.log\"`` in the active :attr:`Mapdl.directory <ansys.mapdl.core.Mapdl.directory>`. For example:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:576
+msgid "This code writes the following to the ``\"apdl.log\"`` file:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:586
+msgid "This allows for the translation of a Python script to an APDL script except for conditional statements, loops, or functions."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:590
+msgid "Use the ``lgwrite`` method"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:591
+msgid "Alternatively, if you only want the database command output, you can use the :func:`Mapdl.lgwrite <Mapdl.ansys.mapdl.core.Mapdl.lgwrite>` method to write the entire database command log to a file."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:597
+msgid "Interactive breakpoint"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:598
+msgid "In most circumstances, it is necessary or preferable to open up the MAPDL GUI. The :class:`Mapdl <ansys.mapdl.core.mapdl.MapdlBase>` class has the :func:`Mapdl.open_gui() <ansys.mapdl.core.Mapdl.open_gui>` method, which allows you to seamlessly open up the GUI without losing work or having to restart your session. For example:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:609
+msgid "Create a square area using keypoints"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:624
+msgid "Open up the GUI"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:630
+msgid "Resume where you left off"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:638
+msgid "This approach avoids the hassle of having to switch back and forth between an interactive session and a scripting session. Instead, you can have one scripting session and open up a GUI from the scripting session without losing work or progress. Additionally, none of the changes made in the GUI affect the script. You can experiment in the GUI, and the script is left unaffected."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:647
+msgid "Run a batch job"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:648
+msgid "Instead of running a MAPDL batch by calling MAPDL with an input file, you can instead define a function that runs MAPDL. This example runs a mesh convergence study based on the maximum stress of a cylinder with torsional loading."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:771
+msgid "Here is the output from the script:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:793
+msgid "Chain commands in MAPDL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:795
+msgid "MAPDL permits several commands on one line by using the separation character ``\"$\"``. This can be utilized within PyMAPDL to effectively chain several commands together and send them to MAPDL for execution rather than executing them individually. Chaining commands can be helpful when you need to execute thousands of commands in a Python loop and don't need the individual results for each command. For example, if you want to create 1000 key points along the X axis, you would run:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:811
+msgid "However, because each command executes individually and returns a response, it is much faster to send the commands to be executed by MAPDL in groups and have the :class:`Mapdl <ansys.mapdl.core.mapdl.MapdlBase>` class handle grouping the commands by using the :attr:`Mapdl.chain_commands <ansys.mapdl.core.Mapdl.chain_commands>` attribute."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:824
+msgid "The execution time using this approach is generally 4 to 10 times faster than running each command individually. You can then view the final response of the chained commands with the :attr:`Mapdl.last_response <ansys.mapdl.core.Mapdl.last_response>` attribute."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:830
+msgid "Command chaining is not supported in distributed MAPDL.  To improve performances, use the ``mute=True`` or :attr:`Mapdl.non_interactive <ansys.mapdl.core.Mapdl.non_interactive>` context manager."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:837
+msgid "Sending arrays to MAPDL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:838
+msgid "You can send ``numpy`` arrays or Python lists directly to MAPDL using the :attr:`Mapdl.Parameters <ansys.mapdl.core.Mapdl.parameters>` attribute. This is far more efficient than individually sending parameters to MAPDL through Python with the :func:`Mapdl.run() <ansys.mapdl.core.Mapdl.run>` method because it uses the :func:`Mapdl.vread() <ansys.mapdl.core._commands.ParameterDefinition>` method behind the scenes."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:854
+msgid "Verify that the data has been properly loaded to MAPDL by indexing the :attr:`Mapdl.Parameters <ansys.mapdl.core.Mapdl.parameters>` attribute as if it was a Python dictionary:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:870
+msgid "Download a remote MAPDL file"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:871
+msgid "When running MAPDL in gRPC mode, remote MAPDL files can be listed and downloaded using the :class:`Mapdl <ansys.mapdl.core.mapdl.MapdlBase>` class with the :func:`Mapdl.download() <ansys.mapdl.core.mapdl_grpc.MapdlGrpc.download>` function. For example, the following code lists the remote files and downloads one of them:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:888
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:935
+msgid "This feature is only available in MAPDL 2021 R1 and later."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:890
+msgid "Alternatively, you can download several files at once using the glob pattern or a list of file names in the :func:`Mapdl.download() <ansys.mapdl.core.mapdl_grpc.MapdlGrpc.download>` method:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:902
+msgid "You can also download all files in the MAPDL working directory (:func:`Mapdl.directory <ansys.mapdl.core.Mapdl.directory>`) using this function:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:910
+msgid "Or, filter by extensions as shown in this example:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:920
+msgid "Upload a local MAPDL file"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:921
+msgid "You can upload a local MAPDL file as the remote MAPDL instance with the :func:`Mapdl.upload() <ansys.mapdl.core.mapdl_grpc.MapdlGrpc.upload>` method:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:939
+msgid "Unsupported MAPDL commands and other considerations"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:940
+msgid "Most MAPDL commands have been mapped Pythonically into their equivalent methods. Some commands, however, are not supported because either they are not applicable to an interactive session or they require additional commands that are incompatible with the way inputs are handled on the MAPDL server."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:950
+msgid "Unavailable commands"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:951
+msgid "Some commands are unavailable in PyMAPDL for a variety of reasons."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:953
+msgid "Some of these commands do not make sense in a Python context. Here are some examples:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:956
+msgid "The ``*ASK`` command can be replaced with a Python ``input``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:957
+msgid "The ``*IF`` command can be replaced with a Python ``if`` statement."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:958
+msgid "The ``*CREATE`` and ``*USE`` commands can be replaced with calls to another Python function or module."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:960
+msgid "Other commands do not make sense in a non-GUI session. For example, the ``/ERASE`` and ``ERASE`` commands that clear the graphics screen are not needed in a non-GUI session."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:963
+msgid "Other commands are quietly ignored by MAPDL, but you can still use them. For example, the ``/BATCH`` command can be run using the :func:`mapdl.run(\"/BATCH\") <ansys.mapdl.core.Mapdl.run>` method, which returns the following warning:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:976
+msgid "Table-1_ Comprehensive information on commands that are unavailable"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:980
+msgid "**Table 1. Non-available commands.**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:986
+msgid "MAPDL command"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:986
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1080
+msgid "Interactive"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:986
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1080
+msgid "Non-interactive"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:986
+msgid "Direct run"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:986
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1080
+msgid "Notes"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:988
+msgid "**GUI commands**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:988
+msgid "``*ASK``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:988
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:990
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:992
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:994
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:996
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:998
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1000
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1002
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1004
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1006
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1008
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1010
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1012
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1014
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1016
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1018
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1020
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1022
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1024
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1026
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1028
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1082
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1084
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1086
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1088
+msgid "|:x:| Not available"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:988
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:992
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1000
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1002
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1004
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1006
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1008
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1010
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1012
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1014
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1016
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1018
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1020
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1022
+msgid "|:heavy_check_mark:| Works"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:988
+msgid "When used in :func:`mapdl.run() <ansys.mapdl.core.Mapdl.run>` it automatically assumes the user input is 0. Use Python ``input`` instead."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:990
+msgid "``*VEDIT``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:990
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:994
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1028
+msgid "|:heavy_minus_sign:| MAPDL shows a warning"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:990
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:996
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:998
+msgid "It requires a GUI session to work."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:992
+msgid "``/ERASE``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:992
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:994
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1000
+msgid "It does not make sense in a non-GUI session."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:994
+msgid "``ERASE``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:996
+msgid "``HELP``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:996
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:998
+msgid "|:heavy_minus_sign:| Ignored by MAPDL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:998
+msgid "``HELPDISP``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1000
+msgid "``NOERASE``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1002
+msgid "**Control flow commands**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1002
+msgid "``*CYCLE``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1002
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1016
+msgid "It is recommended to use Python control flow keywords, in this case ``continue``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1004
+msgid "``*DO``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1004
+msgid "It is recommended to use Python control flow keywords, in this case ``for``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1006
+msgid "``*DOWHILE``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1006
+msgid "It is recommended to use Python control flow keywords, in this case ``while``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1008
+msgid "``*ELSE``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1008
+msgid "It is recommended to use Python control flow keywords, in this case ``else``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1010
+msgid "``*ELSEIF``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1010
+msgid "It is recommended to use Python control flow keywords, in this case ``elif``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1012
+msgid "``*ENDDO``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1012
+msgid "It is recommended to use Python control flow keywords."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1014
+msgid "``*GO``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1014
+msgid "It is recommended to use Python control flow keywords, such as ``if`` or functions."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1016
+msgid "``*IF``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1018
+msgid "``*REPEAT``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1018
+msgid "It is recommended to use Python control flow keywords such as ``for`` or ``while``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1020
+msgid "``*RETURN``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1020
+msgid "It is recommended to use Python control flow keywords such as ``break``, ``continue`` or ``return``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1022
+msgid "**Others commands**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1022
+msgid "``*DEL``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1022
+msgid "It is recommended to use Python variables (use Python memory) instead of MAPDL variables."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1024
+msgid "``/BATCH``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1024
+msgid "|:heavy_minus_sign:| Ignored by MAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1024
+msgid "It does not make sense in a PyMAPDL session."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1026
+msgid "``/EOF``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1026
+msgid "|:x:| PyMAPDL shows an exception"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1026
+msgid "To stop the server, use :func:`mapdl.exit() <ansys.mapdl.core.Mapdl.exit>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1028
+msgid "``UNDO``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1028
+msgid "It does not undo any command."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1033
+msgid "**Interactive** means there is a method in MAPDL, such as the :func:`Mapdl.prep7() <ansys.mapdl.core.Mapdl.prep7>` method."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1035
+msgid "**Non-interactive** means it is run inside a :attr:`Mapdl.non_interactive <ansys.mapdl.core.Mapdl.non_interactive>` context block, the :func:`Mapdl.input() <ansys.mapdl.core.Mapdl.input>` method, or the :func:`Mapdl.input_strings() <ansys.mapdl.core.Mapdl.input_strings>` method. For example:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1046
+msgid "**Direct run** means that the :func:`mapdl.run() <ansys.mapdl.core.Mapdl.run>` method is used to run the MAPDL command. An example is the :func:`mapdl.run(\"/PREP7\") <ansys.mapdl.core.Mapdl.run>` method."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1051
+msgid "Note that running these commands with the :func:`mapdl.run() <ansys.mapdl.core.Mapdl.run>` method does not cause MAPDL to exit. However, it might raise exceptions."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1055
+msgid "These MAPDL commands can also be executed using the :func:`mapdl.input() <ansys.mapdl.core.Mapdl.input>` method or the :func:`mapdl.input_strings() <ansys.mapdl.core.Mapdl.input_strings>` method. The results should be same as running them in a normal batch MAPDL session."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1065
+msgid "Unsupported \"interactive\" commands"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1067
+msgid "The following commands can be only run in non-interactive mode (inside a :attr:`Mapdl.non_interactive <ansys.mapdl.core.Mapdl.non_interactive>` block or using the :func:`mapdl.input() <ansys.mapdl.core.Mapdl.input>` method)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1071
+msgid "Table-2_ provides comprehensive information on the \"interactive\" commands that are unsupported."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1077
+msgid "**Table 2. Non-interactive only commands.**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1080
+msgid "Direct Run"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1082
+msgid "``*CREATE``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1082
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1084
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1086
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1088
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1090
+msgid "|:heavy_check_mark:| Available"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1082
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1084
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1086
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1088
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1090
+msgid "|:heavy_minus_sign:| Only in :attr:`Mapdl.non_interactive <ansys.mapdl.core.Mapdl.non_interactive>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1082
+msgid "It is recommended to create Python functions instead."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1084
+msgid "``CFOPEN``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1084
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1086
+msgid "It is recommended to use Python functions such as ``open``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1086
+msgid "``CFCLOSE``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1088
+msgid "``*VWRITE``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1088
+msgid "If you are working in a local session, it is recommended you use Python function such as ``open``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1090
+msgid "``LSWRITE``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1090
+msgid "|:heavy_check_mark:| Available (Internally running in :attr:`Mapdl.non_interactive <ansys.mapdl.core.Mapdl.non_interactive>`)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1095
+msgid "Environment variables"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1097
+msgid "There are several PyMAPDL-specific environment variables that can be used to control the behavior or launching of PyMAPDL and MAPDL. These are described in the following table:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1102
+msgid ":envvar:`PYMAPDL_START_INSTANCE`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1102
+msgid "Override the behavior of the :func:`ansys.mapdl.core.launcher.launch_mapdl` function to only attempt to connect to existing instances of PyMAPDL. Generally used in combination with ``PYMAPDL_PORT``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1108
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1117
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1126
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1141
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1151
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1161
+msgid "**Example:**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1115
+msgid ":envvar:`PYMAPDL_PORT`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1115
+msgid "Default port for PyMAPDL to connect to."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1124
+msgid ":envvar:`PYMAPDL_IP`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1124
+msgid "Default IP for PyMAPDL to connect to."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1133
+msgid ":envvar:`ANSYSLMD_LICENSE_FILE`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1133
+msgid "License file or IP address with port in the format ``PORT@IP``. Do not confuse with the ``IP`` and ``PORT`` where the MAPDL instance is running, which are specified using :envvar:`PYMAPDL_IP` and :envvar:`PYMAPDL_PORT`. This is helpful for supplying licensing for Docker."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1148
+msgid ":envvar:`PYMAPDL_MAPDL_EXEC`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1148
+msgid "Executable path from where to launch MAPDL instances."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1158
+msgid ":envvar:`PYMAPDL_MAPDL_VERSION`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1158
+msgid "Default MAPDL version to launch in case there are several versions availables."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1168
+msgid ":envvar:`PYMAPDL_MAX_MESSAGE_LENGTH`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1168
+msgid "Maximum gRPC message length. If your connection terminates when running PRNSOL or NLIST, raise this. In bytes, defaults to 256 MB."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1173
+msgid "Only for developing purposes."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/math.rst:4
+msgid "PyAnsys Math overview"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/math.rst:5
+msgid "`PyAnsys Math <pyansys_math_>`_ provides the ability to access and manipulate large sparse matrices and solve a variety of eigenproblems in a similar manner to the popular `numpy <numpy_docs_>`_ and `scipy <scipy_docs_>`_ libraries."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/math.rst:11
+msgid "PyMAPDL and PyAnsys Math"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/math.rst:12
+msgid "This example demonstrates how to take advantage of the `ansys-math-core` package with PyMAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/math.rst:15
+msgid "It illustrates how to send an MAPDL Math matrix from MAPDL to Python and then send it back to be solved. While this example runs the :func:`mm.eigs() <ansys.math.core.math.AnsMath.eigs>` method on mass and stiffness matrices generated from MAPDL, you could instead use mass and stiffness matrices generated from an external FEM tool or even modify the mass and stiffness matrices within Python."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/math.rst:22
+msgid "First, solve the first 10 modes of a ``1 x 1 x 1`` steel meter cube in MAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/math.rst:53
+msgid "You now have solved for the first 10 modes of the cube:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/math.rst:59
+msgid "Next, load the mass and stiffness matrices that are stored by default in the :file:`<jobname>.full` file. First, create an instance of the :class:`MapdlMath <ansys.math.core.math.AnsMath>` class as ``mm``:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/math.rst:80
+msgid "After running the :func:`mapdl.clear() <ansys.mapdl.core.Mapdl.clear>` method, these matrices are stored solely within Python."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/math.rst:93
+msgid "To call PyAnsys Math directly from PyMAPDL, you can run this command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/math.rst:101
+msgid "The final step is to send these matrices back to MAPDL to be solved. While you have cleared MAPDL, you could have shut down MAPDL or even transferred the matrices to a different MAPDL session to be solved:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/math.rst:116
+msgid "As expected, the natural frequencies obtained from the :func:`mm.eigs() <ansys.math.core.math.AnsMath.eigs>` method is identical to the result from the :func:`mapdl.solve() <ansys.mapdl.core.Mapdl.solve>` method within MAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/math.rst:126
+msgid "If you want to obtain the eigenvectors as well as the eigenvalues, initialize a matrix ``eigvec`` and send that to the :func:`mm.eigs() <ansys.math.core.math.AnsMath.eigs>` method:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/math.rst:136
+msgid "The AnsMath matrix ``eigvec`` now contains the eigenvectors for the solution."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/math.rst:140
+msgid "PyAnsys Math reference"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/math.rst:141
+msgid "For more information, see the `PyAnsys Math API reference <pyansys_math_api_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:30
+msgid "Mesh and geometry"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:31
+msgid "The :class:`Mapdl <ansys.mapdl.core.mapdl.MapdlBase>` class allows you to access the mesh and geometry without writing to an intermediate file or interpreting the text output from various MAPDL commands. For example, to access the nodes and elements of a model, normally you would list the nodes within MAPDL using the :func:`Mapdl.nlist() <ansys.mapdl.core.Mapdl.nlist>` method. However, this generates a string. Array access requires either cumbersome MAPDL GET commands or that the nodes be written to an archive file and then read in with other software:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:54
+msgid "However, with the :attr:`Mapdl.mesh <ansys.mapdl.core.mesh_grpc.MeshGrpc>` class, you can interface with a current instance of the :class:`Mapdl <ansys.mapdl.core.mapdl.MapdlBase>` class and access the current nodes coordinates with this code:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:70
+msgid "Both the :attr:`Mapdl.geometry <ansys.mapdl.core.mapdl_geometry.Geometry>` and :attr:`Mapdl.mesh <ansys.mapdl.core.mesh_grpc.MeshGrpc>` attributes support additional, lower-level access to MAPDL data. You can use this code to access them:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:80
+msgid "To view the current mesh status, you can use this code:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:94
+msgid "Geometry"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:96
+msgid "In PyMAPDL 0.66.0 and later, by default, all geometry entities are returned as a |pv-multiblock|  object."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:99
+msgid "**Example 1**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:110
+msgid "**Example 2**:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:121
+msgid "As you can see, you do not need to call the entities in the new API."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:123
+msgid "For more differences between the new Geometry API and the old one, see :ref:`migration_geometry_api_066`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:127
+msgid "The selection now is easier."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:129
+msgid "You can use indexing:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:144
+msgid "You can use the entity name:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:159
+msgid "You can plot different entities by calling the :meth:`plot() <ansys.mapdl.core.mapdl_geometry.Geometry.keypoints.plot>` method:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:169
+msgid "You can plot a single entity:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:179
+msgid "You can plot multiple entities using slices:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:190
+msgid "Furthermore, the following methods are provided to return the geometry entities as other Python objects:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:194
+msgid "**Table 1. Get_ENTITY methods.**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:197
+msgid "**Default output**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:197
+msgid ":py:`return_as_list=True`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:197
+msgid ":py:`return_as_array=True`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:197
+msgid ":py:`return_ids_in_array=True`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:199
+msgid "|get_keypoints|"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:199
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:201
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:203
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:205
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:265
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:267
+msgid "|pv-polydata|"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:199
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:201
+msgid "|list-pv-polydata|"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:199
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:263
+msgid "|np-array|"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:201
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:285
+msgid "|get_lines|"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:201
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:203
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:205
+msgid "**Not Applicable**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:203
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:287
+msgid "|get_areas|"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:203
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:205
+msgid "|list-pv-unstruc|"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:205
+msgid "|get_volumes|"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:211
+msgid "Migration to the new Geometry API"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:213
+msgid "Several changes must be addressed in older scripts to update them from the old API to the new API."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:216
+msgid "One of the most important is that you no longer need to call the entities like you did in the old API."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:218
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:281
+msgid "**Old API**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:241
+msgid "**New API**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:252
+msgid "In addition, the type of entities returned by those methods are different. This table compares the objects returned by the old and new APIs:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:257
+msgid "**Table 2. Comparison between objects returned by both APIs.**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:260
+msgid "**Function**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:260
+msgid "**Old API** (Function based - Must be called)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:260
+msgid "**New API** (Property based - Doesn't need to be called)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:263
+msgid "|geo-key|"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:263
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:265
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:267
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:269
+msgid "|pv-multiblock|"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:265
+msgid "|geo-lines|"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:267
+msgid "|geo-areas|"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:269
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:289
+msgid "|geo-volumes|"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:269
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:289
+msgid "**Not existent**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:273
+msgid "This table shows the equivalence between the old and new APIs:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:278
+msgid "**Table 3. Equivalence between both API methods.**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:281
+msgid "**New API** equivalent"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:283
+msgid "|leggeo-keypoints|"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:283
+msgid "|get_keypoints-return_as_array|"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:285
+msgid "|leggeo-lines|"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:287
+msgid "|leggeo-areas|"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:294
+msgid "MAPDL geometry commands"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:295
+msgid "For additional MAPDL commands for creating geometries, see the :ref:`ref_prep_commands` commands."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:300
+msgid "API reference"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:301
+msgid "For a full description of the ``Mesh`` and ``Geometry`` classes, see :ref:`ref_mesh_api` and :ref:`ref_geometry_api`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:5
+msgid "Setting and retrieving parameters"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:7
+msgid "MAPDL parameters can be retrieved from an instance of :class:`Mapdl <ansys.mapdl.core.mapdl.MapdlBase>` using the :attr:`Mapdl.parameters <ansys.mapdl.core.Mapdl.parameters>`. For example, if you want to use MAPDL's :func:`Mapdl.get() <ansys.mapdl.core.Mapdl.get>` method to populate a parameter, you can then access the parameter with code:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:21
+msgid "You can also set both scalar and array parameters from Python objects using :attr:`Mapdl.parameters <ansys.mapdl.core.Mapdl.parameters>` with:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:36
+msgid "You can also access some built-in parameters normally accessed through the :func:`Mapdl.get() <ansys.mapdl.core.Mapdl.get>` method. For example, instead of getting the current routine with ``\\*GET, ACTIVE, 0, ROUT``, you can access it with this code:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:47
+msgid "For a full list of the methods and attributes available to the ``Parameters`` class, see :ref:`ref_parameters_api`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:50
+msgid "For additional information on PyMAPDL array limitations, see :ref:`Issues when importing and exporting numpy arrays in MAPDL <ref_issues_np_mapdl>`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:56
+msgid "Specially named parameters"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:59
+msgid "Parameters with leading underscores"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:61
+msgid "Parameters starting with an underscore (``'_'``) are reserved parameters for MAPDL macros and routines. Their use is discouraged, and in PyMAPDL you cannot set them directly."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:65
+msgid "If you need to set one of these parameters, you can use the :attr:`Mapdl._run <ansys.mapdl.core.Mapdl._run>` attribute to avoid PyMAPDL parameter name checks:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:75
+msgid "By default, this type of parameter cannot be seen when issuing the :attr:`Mapdl.parameters <ansys.mapdl.core.Mapdl.parameters>` attribute. However, you can change this by setting the :attr:`Mapdl.parameters.show_leading_underscore_parameters <ansys.mapdl.core.Mapdl.parameters.show_leading_underscore_parameters>` to ``True``:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:95
+msgid "Parameters with trailing underscores"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:97
+msgid "Parameters ending with an underscore are recommended for user routines and macros. You can set this type of parameter in PyMAPDL, but by default, they cannot be seen in the :attr:`Mapdl.parameters <ansys.mapdl.core.Mapdl.parameters>` attribute unless the :attr:`Mapdl.parameters.show_trailing_underscore_parameters <ansys.mapdl.core.Mapdl.parameters.show_trailing_underscore_parameters>` attribute is set to ``True``:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:120
+msgid "Parameters with leading and trailing underscores"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:122
+msgid "Parameters with both leading and trailing underscores are a special type. These parameters **CANNOT** be seen in the :attr:`Mapdl.parameters <ansys.mapdl.core.Mapdl.parameters>` attribute under any circumstances. Their use is not recommended."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:126
+msgid "You can still retrieve these special parameters using any of the normal methods for retrieving parameters. However, you must know the parameter name:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:3
+msgid "Interactive plotting"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:4
+msgid "When generating geometry from scratch within MAPDL, it is often necessary to plot the geometry, such as key points, lines, areas, and volumes. PyMAPDL supports plotting basic CAD using VTK. The :class:`Mapdl <ansys.mapdl.core.mapdl.MapdlBase>` class leverages the existing MAPDL commands by providing the following functions, which transfer the geometry to Python to visualize it:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:11
+msgid ":func:`Mapdl.kplot() <ansys.mapdl.core.Mapdl.kplot>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:12
+msgid ":func:`Mapdl.vplot() <ansys.mapdl.core.Mapdl.vplot>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:13
+msgid ":func:`Mapdl.eplot() <ansys.mapdl.core.Mapdl.eplot>`)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:15
+msgid "These methods rely on the :func:`ansys.mapdl.core.plotting.general_plotter` method. Combined with the MAPDL geometry commands, you can generate and visualize geometry from scratch without opening the GUI using the :func:`open_gui() <ansys.mapdl.core.Mapdl.open_gui>` method."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:22
+msgid "Line plotting"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:23
+msgid "You plot lines within Python using the :func:`Mapdl.lplot() <ansys.mapdl.core.Mapdl.lplot>` method:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:49
+msgid "Line plot from MAPDL using PyMAPDL and `PyVista <pyvista_docs_>`__"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:53
+msgid "Area and volume plotting"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:54
+msgid "You can using Boolean operations to obtain more complex geometry and visualize them using the :func:`Mapdl.vplot() <ansys.mapdl.core.Mapdl.vplot>` method. This example cuts the initial area with the eight circles and then extrudes it."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:72
+msgid "Volume Plot from MAPDL using PyMAPDL and `PyVista <pyvista_docs_>`__"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:76
+msgid "Node and element plotting"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:77
+msgid "You can plot nodes and elements directly from the instance of the :class:`Mapdl <ansys.mapdl.core.mapdl.MapdlBase>` class. This code defines some element types, performs meshing, and then displays the mesh:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:91
+msgid "Element Plot from MAPDL using PyMAPDL and `PyVista <pyvista_docs_>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:95
+msgid "Plotting non-interactively using MAPDL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:96
+msgid "You can also plot using MAPDL's native plotting tools. To use the native tools, pass ``vtk=False`` when running plotting commands such as the :func:`Mapdl.aplot <ansys.mapdl.core.Mapdl.aplot>` and :func:`Mapdl.eplot <ansys.mapdl.core.Mapdl.eplot>` methods. Plots are generated within MAPDL and then shown using `Matplotlib <matplotlib_main_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:104
+msgid "Start PyMAPDL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:111
+msgid "Create a square area using key points"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:126
+msgid "Set the view to \"isometric\""
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:134
+msgid "Each of these creates a Matplotlib figure and pause execution."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:146
+msgid "Area Plot from MAPDL displayed using `Matplotlib <matplotlib_main_>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:150
+msgid "For more information on plotting functions, see :ref:`ref_plotting_api`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:154
+msgid "Plotting keyword options"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:155
+msgid "When ``vtk=True``, which is the default, all MAPDL plotting methods allow you to enter in additional keyword arguments to better control the plot. For example, you can automatically generate a screenshot of an area plot or element plot with this code:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:165
+msgid "You can also control the camera position with ``cpos`` when you want to view from a standard viewing direction. This code shows how to view the XY plane with ``cpos='xy'``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:173
+msgid "For all general plotting options, see the :func:`ansys.mapdl.core.plotting.general_plotter` method."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:178
+msgid "Plotting boundary conditions"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:181
+msgid "This feature is beta so its functionalities and stability are limited. See the documentation regarding the allowed boundary conditions and targets."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:185
+msgid "It is possible to plot the boundary conditions applied on the model by specifying ``plot_bc=True`` in plotting functions. For example, this code specifies ``plot_bc=True`` for the :func:`Mapdl.nplot() <ansys.mapdl.core.Mapdl.nplot>` method:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:200
+msgid "**Mechanical boundary conditions** Forces (arrows) and displacements (cones)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:204
+msgid "Because boundary conditions can only target nodes, you can only use ``plot_bc`` as an argument in the :func:`Mapdl.nplot() <ansys.mapdl.core.Mapdl.nplot>` method."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:213
+msgid "**Boundary conditions demonstration**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/pool.rst:4
+msgid "Create a pool of MAPDL instances"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/pool.rst:6
+msgid "PyMAPDL contains the :class:`MapdlPool <ansys.mapdl.core.pool.MapdlPool>` class to simplify creating multiple local instances of the :class:`Mapdl <ansys.mapdl.core.mapdl._MapdlCore>` class for batch processing. This can be used for the batch processing of a set of input files, convergence analysis, or other batch related processes."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/pool.rst:13
+msgid "This code creates a pool:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/pool.rst:22
+msgid "You can supply additional keyword arguments when creating the pool. This code creates several instances with one CPU each running at the current directory within their own isolated directories:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/pool.rst:33
+msgid "Additionally, you can group already running MAPDL instances into an :class:`MapdlPool <ansys.mapdl.core.pool.MapdlPool>` instance by specifying their ports when creating the pool."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/pool.rst:44
+msgid "You can also specify a list of IP addresses to connect to:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/pool.rst:51
+msgid "You can access each individual MAPDL instance with this code:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/pool.rst:58
+msgid "Note that this is a self-healing pool. If an instance of MAPDL dies during a batch process, that instance is automatically restarted. You can turn off this behavior by setting ``restart_failed=False`` when creating the pool."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/pool.rst:64
+msgid "Run a set of input files"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/pool.rst:66
+msgid "You can use the pool to run a set of pre-generated input files using the :meth:`MapdlPool.run_batch <ansys.mapdl.core.MapdlPool.run_batch>` method. For example, this code would run the first set of 20 verification files:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/pool.rst:80
+msgid "Run a user function"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/pool.rst:82
+msgid "You can use the pool to run a custom user function on each MAPDL instance over a set of inputs. As in the example for the :meth:`MapdlPool.run_batch <ansys.mapdl.core.MapdlPool.run_batch>` method, the following code uses a set of verification files. However, it implements it as a function and outputs the final routine instead of the text output from MAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/pool.rst:121
+msgid "Using next available instances"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/pool.rst:123
+msgid "When working with many multiple instances, it might be more convenient to use the :class:`MapdlPool <ansys.mapdl.core.pool.MapdlPool>` class within a context manager. This can be accomplished using the :meth:`MapdlPool.next() <ansys.mapdl.core.MapdlPool.next>` method as follows:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/pool.rst:134
+msgid "This context manager makes sure to set the instance as busy or locked while code is executing the block. Once the execution exits the context manager, the instance is set free or unlocked. This context manager is particularly interesting when using it with threads."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/pool.rst:202
+msgid "You can also use the :meth:`MapdlPool.next_available() <ansys.mapdl.core.MapdlPool.next_available>` method to obtain an available :class:`Mapdl <ansys.mapdl.core.mapdl._MapdlCore>` instance, but in that case, you must manage the lock with the :meth:`Mapdl.locked <ansys.mapdl.core.mapdl._MapdlCore.locked>` method."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/pool.rst:222
+msgid "Close the PyMAPDL pool"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/pool.rst:224
+msgid "You can close the PyMAPDL pool with the :meth:`MapdlPool.exit() <ansys.mapdl.core.MapdlPool.exit>` command."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/pool.rst:233
+msgid "API description"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/pool.rst:235
+msgid "For a comprehensive description, see :ref:`ref_pool_api`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:4
+msgid "Postprocessing"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:5
+msgid "In an active MAPDL session, you can postprocess using the :class:`Mapdl.post_processing <ansys.mapdl.core.post.PostProcessing>` class, an attribute of an instance of :class:`Mapdl <ansys.mapdl.core.mapdl.MapdlBase>`. One advantage of this approach is that it integrates well with existing MAPDL scripting or automation. This approach can also be used on result files generated from other programs, including ANSYS Mechanical."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:12
+msgid "One of the biggest advantages of gRPC-based postprocessing is that it can be done remotely without any file exchange. Multi gigabyte result files can remain remote, with only the necessary data being streamed back to the client for review or visualization."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:19
+msgid "You are encouraged to use the Data Processing Framework (DPF) modules at `DPF-Core <dpf_core_gh_>`_ and `DPF-Post <dpf_post_gh_>`_ because they provide a modern interface to Ansys result files using a client-server interface. They use the same software that is used within Ansys Workbench but via a Python client."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:27
+msgid "You would typically request nodal results from MAPDL using the ``PRNSOL`` command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:57
+msgid "However, using an instance of the :class:`Mapdl <ansys.mapdl.core.mapdl.MapdlBase>` class, you can instead request the nodal displacement:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:67
+msgid "You could also plot the nodal displacement with this code:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:77
+msgid "Normalized Displacement of a Cylinder from MAPDL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:83
+msgid "The MAPDL database processes some results independently if nodes or elements are selected. If you have subselected a certain component and want to also limit the result of a certain output (:func:`nodal_displacement() <ansys.mapdl.core.post.PostProcessing.nodal_displacement>`), use the :attr:`selected_nodes <ansys.mapdl.core.post.PostProcessing.selected_nodes>` attribute to get a mask of the currently selected nodes:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:98
+msgid "Postprocessing object methods"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:100
+msgid "For a list of all postprocessing methods, see :ref:`post_processing_api`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:105
+msgid "Enriched command output"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:107
+msgid "All :class:`Mapdl <ansys.mapdl.core.mapdl.MapdlBase>` class commands output a string object that can be parsed to obtain specific data from it."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:110
+msgid "In certain :class:`Mapdl <ansys.mapdl.core.mapdl.MapdlBase>` class commands the returned string contains some methods to process the output. These commands are listed in Table-1_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:116
+msgid "**Table 1. Commands with extra processing methods in the output**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:119
+msgid "Category"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:119
+msgid "Extra methods available"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:119
+msgid "MAPDL commands"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:121
+msgid "**Listing**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:121
+msgid ":class:`cmd.to_list() <ansys.mapdl.core.commands.CommandListingOutput>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:122
+msgid ":class:`cmd.to_array() <ansys.mapdl.core.commands.CommandListingOutput>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:123
+msgid ":class:`cmd.to_dataframe() <ansys.mapdl.core.commands.CommandListingOutput>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:121
+msgid "**Results listing**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:123
+msgid ":func:`Mapdl.prcint() <ansys.mapdl.core.Mapdl.prcint>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:124
+msgid ":func:`Mapdl.prenergy() <ansys.mapdl.core.Mapdl.prenergy>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:125
+msgid ":func:`Mapdl.prerr() <ansys.mapdl.core.Mapdl.prerr>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:126
+msgid ":func:`Mapdl.presol() <ansys.mapdl.core.Mapdl.presol>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:127
+msgid ":func:`Mapdl.pretab() <ansys.mapdl.core.Mapdl.pretab>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:128
+msgid ":func:`Mapdl.print() <ansys.mapdl.core.Mapdl.print>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:129
+msgid ":func:`Mapdl.priter() <ansys.mapdl.core.Mapdl.priter>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:130
+msgid ":func:`Mapdl.prjsol() <ansys.mapdl.core.Mapdl.prjsol>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:131
+msgid ":func:`Mapdl.prnld() <ansys.mapdl.core.Mapdl.prnld>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:132
+msgid ":func:`Mapdl.prnsol() <ansys.mapdl.core.Mapdl.prnsol>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:133
+msgid ":func:`Mapdl.prorb() <ansys.mapdl.core.Mapdl.prorb>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:134
+msgid ":func:`Mapdl.prpath() <ansys.mapdl.core.Mapdl.prpath>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:135
+msgid ":func:`Mapdl.prrfor() <ansys.mapdl.core.Mapdl.prrfor>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:136
+msgid ":func:`Mapdl.prrsol() <ansys.mapdl.core.Mapdl.prrsol>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:137
+msgid ":func:`Mapdl.prsect() <ansys.mapdl.core.Mapdl.prsect>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:138
+msgid ":func:`Mapdl.prvect() <ansys.mapdl.core.Mapdl.prvect>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:139
+msgid ":func:`Mapdl.swlist() <ansys.mapdl.core.Mapdl.swlist>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:141
+msgid "**Other Listing**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:143
+msgid ":func:`Mapdl.set(\"LIST\") <ansys.mapdl.core.Mapdl.set>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:144
+msgid ":func:`Mapdl.nlist() <ansys.mapdl.core.Mapdl.nlist>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:147
+msgid "**Boundary** **Conditions** **Listing**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:147
+msgid ":func:`cmd.to_list() <ansys.mapdl.core.commands.BoundaryConditionsListingOutput>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:148
+msgid ":func:`cmd.to_dataframe() <ansys.mapdl.core.commands.BoundaryConditionsListingOutput>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:147
+msgid ":func:`Mapdl.dlist() <ansys.mapdl.core.Mapdl.dlist>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:148
+msgid ":func:`Mapdl.flist() <ansys.mapdl.core.Mapdl.flist>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:152
+msgid "If you use methods like :func:`Mapdl.nlist() <ansys.mapdl.core.Mapdl.nlist>` , you might obtain a lower precision than using :class:`Mesh <ansys.mapdl.core.mesh_grpc.MeshGrpc>` methods."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/post.rst:155
+msgid "Here's a simple example that demonstrates usage:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:5
+msgid "Troubleshooting PyMAPDL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:8
+msgid "To help you resolve any problems that you might have when using PyMAPDL, some of the most common problems and frequently asked questions are posted here."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:13
+msgid "Debug in PyMAPDL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:15
+msgid "If you are having trouble with PyMAPDL, you can record some internal logs into a file using a logger. This file can be examined to help to identify any issue."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:19
+msgid "You can set the logger output file to be ``mylog.log`` by running the following commands in a Python terminal or at the beginning of your script:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:34
+msgid "You can attach this file to a bug report in the PyMAPDL GitHub repository for further investigation. If you are not able to identify the issue, you can open a discussion on the `PyMAPDL Discussions page <pymapdl_discussions_>`_. If you believe you have found a bug, create an issue on the `PyMAPDL Issues page <pymapdl_issues_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:43
+msgid "Launching issues"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:45
+msgid "There are several issues that can cause MAPDL not to launch, including:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:47
+msgid "`Connection timeout`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:48
+msgid "`Testing MAPDL launching`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:49
+msgid "`Licensing issues`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:50
+msgid "`Virtual private network (VPN) issues`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:51
+msgid "`Missing dependencies on Linux`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:52
+msgid "`Conflicts with student version`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:53
+msgid "`Incorrect environment variables`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:54
+msgid "`Using a proxy server`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:55
+msgid "`Firewall settings`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:57
+msgid "If you cannot find your issue, see `More help needed?`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:61
+msgid "Connection timeout"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:63
+msgid "In some networks, MAPDL might take longer than expected to connect to the license server or to the remote instance. In those cases, you might see this message:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:72
+msgid "First try increasing the starting timeout using this code:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:80
+msgid "Or if you are connecting to a remote instance you can use:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:90
+msgid "Testing MAPDL launching"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:92
+msgid "In some cases, it may be necessary to run the launch command manually from the command line."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:100
+msgid "Open up a command prompt and run the version-dependent command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:106
+msgid "PowerShell users can run the preceding command without quotes."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:111
+msgid "Run the version-dependent command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:118
+msgid "You should start MAPDL in a temporary working directory because MAPDL creates several temporary files."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:121
+msgid "You can specify a directory by launching MAPDL from the temporary directory:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:135
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:152
+msgid "Or, you can specify the directory using the ``-dir`` flag:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:160
+msgid "If this command doesn't launch MAPDL, look at the command output:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:193
+msgid "Licensing issues"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:195
+msgid "Incorrect license server configuration can prevent MAPDL from being able to get a valid license. In such cases, you might see output **similar** to:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:241
+msgid "PADT has a great blog regarding ANSYS issues, and licensing is always a common issue. For example, see `Changes to Licensing at ANSYS 2020R1 <padt_licensing_>`_. If you are responsible for maintaining Ansys licensing or have a personal install of Ansys, see the online `Ansys Installation and Licensing documentation <ansys_installation_and_licensing_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:246
+msgid "For more comprehensive information, download the :download:`ANSYS Licensing Guide <lic_guide.pdf>`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:249
+msgid "Incorrect licensing environment variables"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:251
+msgid "The license server can be also specified using the environment variable :envvar:`ANSYSLMD_LICENSE_FILE`. The following code examples show how you can see the value of this environment variable on either Windows or Linux."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:278
+msgid "Virtual private network (VPN) issues"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:280
+msgid "From ANSYS 2022 R2 to ANSYS 2021 R1, MAPDL has issues launching when VPN software is running. One issue stems from MPI communication and can be solved by either passing the ``-smp`` option to set the execution mode to \"Shared Memory Parallel\" which disables the default \"Distributed Memory Parallel\". Or using a different MPI compilation, for example, if you are using Windows, you can pass ``-mpi msmpi`` to use the Microsoft MPI library instead of the default Intel MPI library. This issue does not affect the Linux version of MAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:288
+msgid "In you are using Windows in any of the versions from ANSYS 2022 R2 to ANSYS 2021 R1, the default compiler is Microsoft MPI when the MAPDL instance is launched by PyMAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:296
+msgid "While this approach has the disadvantage of using the potentially slower shared memory parallel mode, you'll at least be able to run MAPDL. For more information on shared versus distributed memory, see `High-Performance Computing for Mechanical Simulations using ANSYS <ansys_parallel_computing_guide_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:302
+msgid "In addition, if your device is inside a VPN, MAPDL might not be able to correctly resolve the IP of the license server. Verify that the hostname or IP address of the license server is correct."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:306
+msgid "On Windows, you can find the license configuration file that points to the license server in ``C:\\Program Files\\ANSYS Inc\\Shared Files\\Licensing\\ansyslmd.ini``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:312
+msgid "Missing dependencies on Linux"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:314
+msgid "Some Linux installations might be missing required dependencies. If you get errors like ``libXp.so.6: cannot open shared object file: No such file or directory``, you are likely missing some necessary dependencies."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:0
+msgid "CentOS 7"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:324
+msgid "On CentOS 7, you can install missing dependencies with:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:0
+msgid "Ubuntu 22.04"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:332
+msgid "On Ubuntu 22.04, use this code to install the needed dependencies:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:346
+msgid "The preceding code takes care of everything except for ``libxp6``, which you must install using this code:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:0
+msgid "Ubuntu 20.04 through 18.04"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:360
+msgid "If you are using Ubuntu 20.04 through 18.04, you can install missing dependencies with:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:375
+msgid "The preceding code takes care of everything except for ``libxp6``, which you must manually download and install."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:378
+msgid "Because ``libxpl6`` pre-depends on ``multiarch-support``, which is also outdated, it must be removed. Otherwise you'll have a broken package configuration. The following code downloads and modifies the ``libxp6`` package to remove the ``multiarch-support`` dependency and then installs it via the ``dpkg`` package."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:0
+msgid "Ubuntu 16.04 and older"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:398
+msgid "If you are using Ubuntu 16.04, you can install missing dependencies with:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:417
+msgid "Conflicts with student version"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:419
+msgid "Although you can install Ansys together with other Ansys products or versions, on Windows, you should not install a student version of an Ansys product together with its non-student version. For example, installing both the Ansys MAPDL 2022 R2 Student Version and Ansys MAPDL 2022 R2 might cause license conflicts due to overwriting of environment variables. Having different versions, for example the Ansys MAPDL 2022 R2 Student Version and Ansys MAPDL 2021 R1, is fine."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:426
+msgid "If you experience issues, you should edit these environment variables to remove any reference to the student version: ``ANSYSXXX_DIR``, ``AWP_ROOTXXX``, and ``CADOE_LIBDIRXXX``. Visit `Incorrect environment variables`_ for information on how to set these environment variables to the correct location."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:432
+msgid "Launching MAPDL Student Version By default if a student version is detected, PyMAPDL launches the MAPDL instance in ``SMP`` mode, unless another MPI option is specified."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:437
+msgid "Incorrect environment variables"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:439
+msgid "If you are using a non-standard install, you might need to manually set the environment variables ``ANSYSXXX_DIR``, ``AWP_ROOTXXX``, and ``CADOE_LIBDIRXXX`` to the correct location. The three-digit MAPDL version appears where ``XXX`` is shown. For Ansys MAPDL 2022 R2, ``222`` appears where ``XXX`` is shown."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:472
+msgid "Using a proxy server"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:474
+msgid "In some rare cases, you might experience some problems to connect to the MAPDL instance if you are using a proxy. When `gRPC <grpc_>`_ is used in a proxy environment, if a local address is specified (that is ``127.0.0.1``) as the connection destination, the gRPC implementation refers automatically to the proxy address. In this case, the local address cannot be referred, resulting in a connection error. As a workaround, you can set the environment variable ``NO_PROXY`` to your local address ``127.0.0.1``, and then run :func:`launch_mapdl() <ansys.mapdl.core.launcher.launch_mapdl>` to connect to MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:485
+msgid "Firewall settings"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:487
+msgid "MAPDL and Python should have the correct firewall settings to allow communication between the two. If you are using a firewall, you should allow MAPDL to receive inbound connections to the following ports:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:490
+msgid "50052 (TCP) for gRPC connection."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:491
+msgid "50053+ (TCP) for extra gRPC connection."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:492
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:501
+msgid "50055 (TCP) for gRPC connection to the MAPDL database."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:494
+msgid "Python process must be allowed to connect to the mentioned ports (outbound connections)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:496
+msgid "Normally most of the firewall rules focus on the inbound connections, so you should not need to configure the outbound connections. However, if you are experiencing problems, you should make sure that the firewall is not blocking the outbound connections on the following ports:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:500
+msgid "5005X (TCP) for gRPC connections."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:502
+msgid "1055 (TCP) for licensing connections."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:503
+msgid "2325 (TCP) for licensing connections."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:505
+msgid "For more information on how to **configure your firewall on Windows**, please refer to the following link in `Ansys forum-Licensing 2022 R2 Linux Ubuntu (and also Windows) <af_licensing_windows_ubuntu_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:508
+msgid "For more information on how to **configure your firewall on Ubuntu Linux**, please refer to the following link `Security-Firewall | Ubuntu <ubuntu_firewall_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:513
+msgid "Location of the executable file"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:516
+msgid "Manually set the location of the executable file"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:518
+msgid "If you have a non-standard install, PyMAPDL might be unable find your MAPDL installation. If this is the case, provide the location of MAPDL as the first parameter to the :func:`launch_mapdl() <ansys.mapdl.core.launcher.launch_mapdl>` method."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:523
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:547
+msgid "**On Windows**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:531
+msgid "**On Linux**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:542
+msgid "Default location of the executable file"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:544
+msgid "The first time that you run PyMAPDL, it detects the available Ansys installations."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:549
+msgid "Ansys installations are normally under:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:568
+msgid "Or under:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:575
+msgid "By default, Ansys installer uses the former one (``/usr/ansys_inc``) but also creates a symbolic to later one (``/ansys_inc``)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:577
+msgid "If PyMAPDL finds a valid Ansys installation, it caches its path in the configuration file, ``config.txt``. The path for this file is shown in this code:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:588
+msgid "In certain cases, this configuration file might become obsolete. For example, when a new Ansys version is installed and an earlier installation is removed."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:591
+msgid "To update this configuration file with the latest path, use:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:599
+msgid "If you want to see which Ansys installations PyMAPDL has detected, use:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:609
+msgid "Student versions are provided as **negative** versions because the Python dictionary does not accept two equal keys. The result of the :func:`get_available_ansys_installations() <ansys.mapdl.core.get_available_ansys_installations>` method lists higher versions first and student versions last."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:615
+msgid "You should not have the same Ansys product version and student version installed. For more information, see :ref:`conflicts_student_version`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:620
+msgid "PyMAPDL usage issues"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:625
+msgid "Issues when importing and exporting NumPy arrays in MAPDL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:627
+msgid "Because of the way MAPDL is designed, there is no way to store an array where one or more dimensions are zero. This can happens in NumPy arrays, where its first dimension can be set to zero. For example:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:642
+msgid "These types of array dimensions are always converted to ``1``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:644
+msgid "For example:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:657
+msgid "This means that when you pass two arrays, one with the second axis equal to zero (for example, ``my_array``) and another one with the second axis equal to one, have the same shape if later retrieved."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:682
+msgid "PyMAPDL stability"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:685
+msgid "Recommendations"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:687
+msgid "When connecting to an instance of MAPDL using gRPC (default), there are some cases where the MAPDL server might exit unexpectedly. There are several ways to improve MADPL performance and stability:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:692
+msgid "Use ``mute`` to improve stability"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:694
+msgid "When possible, pass ``mute=True`` to individual MAPDL commands or set it globally with the :func:`Mapdl.mute <ansys.mapdl.core.mapdl_grpc.MapdlGrpc>` method. This disables streaming back the response from MAPDL for each command and marginally improves performance and stability. Consider having a debug flag in your program or script so that you can turn on and off logging and verbosity as needed."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:703
+msgid "Known Issues"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:705
+msgid "MAPDL 2021 R1 has a stability issue with the : :func:`Mapdl.input() <ansys.mapdl.core.Mapdl.input>` method. Avoid using input files if possible. Attempt to use the :func:`Mapdl.upload() <ansys.mapdl.core.Mapdl.upload>` method to upload nodes and elements and read them in via the :func:`Mapdl.nread() <ansys.mapdl.core.Mapdl.nread>` and :func:`Mapdl.eread() <ansys.mapdl.core.Mapdl.eread>` methods."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:716
+msgid "More help needed?"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:722
+msgid "*\"What do I do if an issue is not listed here?\"*"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:726
+msgid "To see if your issue is already posted, search the `PyMAPDL Issues <pymapdl_issues_>`_ page. If not, do one of the following:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:728
+msgid "If you are not sure of the cause or would like some explanation about the usage of the function or its documentation, create a discussion on the `PyMAPDL Discussions <pymapdl_discussions_>`_ page."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:732
+msgid "If you believe you have found a bug or want to create a feature request, create an issue on the `PyMAPDL Issues <pymapdl_issues_>`_ page."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:735
+msgid "For more complex issues or queries, contact the `PyAnsys Core team <pyansys_core_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:5
+msgid "Using Python to code UPF subroutines"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:7
+msgid "As an alternative to compiled languages like C and Fortran, you can use the Python language to code user programmable subroutines. A subset of the documented UPF subroutines support the Python UPF capability. For more information, see `Supported UPF subroutines`_)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:12
+msgid "You must install a Python distribution before using this feature. Python 3.9 through Python 3.12 are supported."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:15
+msgid "Python UPFs are only supported on Linux."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:17
+msgid "You are strongly advised to start your code based on one of the examples in `Python UPF examples`_.  In your Python code, you can make use of standard Python libraries like NumPy."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:21
+msgid "These topics are available:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:23
+msgid "`Supported UPF subroutines`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:24
+msgid "`Python UPF methodology`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:25
+msgid "`Accessing the database from the Python code`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:26
+msgid "`Python UPF limitations`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:27
+msgid "`Python UPF examples`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:31
+msgid "Supported UPF subroutines"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:33
+msgid "A subset of the entire set of available UPF subroutines supports Python coding. The following table lists those that are supported."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:36
+msgid "**Table 1: Python support for subroutines**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:40
+msgid "**Subroutine**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:40
+msgid "**Fortran description**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:42
+msgid "**Material behavior**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:44
+msgid "``UserMat``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:44
+msgid "Subroutine ``UserMat`` (Creating Your Own Material Model)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:46
+msgid "``UserMatTh``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:46
+msgid "Subroutine ``UserMatTh`` (Creating Your Own Thermal Material Model)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:48
+msgid "``UserHyper``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:48
+msgid "Subroutine ``UserHyper`` (Writing Your Own Isotropic Hyperelasticity Laws)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:50
+msgid "``UserCreep``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:50
+msgid "Subroutine ``UserCreep`` (Defining Creep Material Behavior)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:52
+msgid "**Modifying and Monitoring Elements**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:54
+msgid "``UsrShift``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:54
+msgid "Subroutine ``UsrShift`` (Calculating Pseudotime Time Increment)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:56
+msgid "``UTimeInc``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:56
+msgid "Subroutine ``UTimeInc`` (Overriding the Program-Determined Time Step)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:58
+msgid "``UCnvrg``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:58
+msgid "Subroutine ``UCnvrg`` (Overriding the Program-Determined Convergence)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:60
+msgid "**Customizing loads**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:62
+msgid "``usrefl``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:62
+msgid "Subroutine ``usrefl`` (Changing Scalar Fields to User-Defined Values)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:64
+msgid "``userpr``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:64
+msgid "Subroutine ``userpr`` (Changing Element Pressure Information)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:66
+msgid "``usercv``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:66
+msgid "Subroutine ``usercv`` (Changing Element Face Convection Surface Information)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:68
+msgid "``userfx``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:68
+msgid "Subroutine ``userfx`` (Changing Element Face Heat Flux Surface Information)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:70
+msgid "**Accessing subroutines**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:72
+msgid "``UanBeg`` / ``UanFin``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:74
+msgid "``USolBeg`` / ``USolFin``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:76
+msgid "``ULdBeg`` / ``ULdFin``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:78
+msgid "``UItBeg`` / ``UItFin``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:80
+msgid "``USsBeg`` / ``USsFin``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:72
+msgid "Access at the beginning and end of various operations"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:85
+msgid "Python UPF methodology"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:87
+msgid "Coding a Python UPF is different from using a compiled language like C/C++ or Fortran, mainly in terms of the API. Because the `gRPC technology <grpc_>`_ is used to handle the communication and the exchange of data between the Python process and the Mechanical APDL process, you need to understand the way this feature handles the serialization and deserialization of data."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:93
+msgid "The main difference is in the subroutine arguments. Instead of having a full list of arguments as described for each of the subroutines, there are only two: the request object (for inputs), and the response object (for outputs). If an argument is both input and output of the subroutine, it is part of both objects."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:98
+msgid "The description of the request object and the response object can be found in the ``MapdlUser.proto`` file stored in this installation directory:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:106
+msgid "Where ``XXX`` is the version of Mechanical APDL you are using. For example ``222`` for Mechanical APDL 2022R2."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:109
+msgid "First, create a Python file starting from this template:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:112
+msgid "**my\\_upf.py**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:136
+msgid "Note that Mechanical APDL automatically installs a Mechanical APDL Python package (a set of Python functions) to handle the connection between Mechanical APDL and the Python environment. Each Python UPF must be imported:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:146
+msgid "The preceding example redefines the `UAnBeg` routine and prints a customized banner. This file must be in the same directory as the input file."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:149
+msgid "To use this Python UPF, you must add the Mechanical APDL ``/UPF`` command to your input file (``my\\_inp.dat``)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:161
+msgid "This command is trapped by the Mechanical APDL Launcher so that a Python gRPC server is up and running when the Mechanical APDL process starts."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:164
+msgid "When launching Mechanical APDL using this input file, you see the following printout to indicate Mechanical APDL detected the Python UPF instructions and has launched a Python server:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:184
+msgid "During the Mechanical APDL process, you see this Python printout:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:195
+msgid "At the very end of the process, the Python server is automatically shut down:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:213
+msgid "Accessing the database from the Python code"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:215
+msgid "Within your UPF routine, you might need to access the Mechanical APDL database in read/write mode."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:218
+msgid "In the Python code, you can create a connection with the DB server. This command must be called only once, so that you can protect the call based on the value of a static variable:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:246
+msgid "Once the DB connection has been initialized, you can access the database of the Mechanical APDL instance in read/write mode."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:249
+msgid "Of the functions documented in accessing the Mechanical APDL Database, a subset has been exposed so that they can be called from the Python code. The following table describes the exposed functions."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:253
+msgid "**Table 2. Supported database access functions**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:256
+msgid "**Supported database access functions**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:258
+msgid "``db.start()``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:258
+msgid "Initializes the connection with a running Mechanical APDL instance. The DB Server is automatically started in Mechanical APDL if a **/UPF** command with a Python file has been detected."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:260
+msgid "``db.stop()``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:260
+msgid "Closes the connection with the DB Server."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:262
+msgid "``db.ndnext(next)``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:262
+msgid "Equivalent to the function described in function ``ndnext`` (Getting the Next Node Number)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:264
+msgid "``db.ndinqr(ind, key)``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:264
+msgid "Equivalent to the function described in function ``ndinqr`` (Getting Information About a Node)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:266
+msgid "``db.getnod(inod)``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:266
+msgid "Equivalent to the function described in function ``getnod`` (Getting a Nodal Point)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:268
+msgid "``db.putnod(inod, x, y, z)``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:268
+msgid "Equivalent to the function described in function ``putnod`` (Storing a Node)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:270
+msgid "``db.elnext(ielm)``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:270
+msgid "Equivalent to the function described in function ``elnext`` (Getting the Number of the Next Element)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:272
+msgid "``db.getelem(ielm)``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:272
+msgid "Equivalent to the function described in function ``elmget`` (Getting an Element's Attributes and Nodes)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:274
+msgid "``db.get_ElmInfo(inquire)``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:274
+msgid "Equivalent to the function ``get\\_ElmInfo`` described in accessing Solution and Material Data"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:276
+msgid "``db.get_ElmData(kchar, elemId, kMatRecPt, ncomp, vect)``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:276
+msgid "Equivalent to the function ``get\\_ElmData`` described in accessing Solution and Material Data"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:278
+msgid "``db.putElmData(inquire, elemId, kIntg, nvect, vect)``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:278
+msgid "Equivalent to the function ``put\\_ElmData`` described in accessing Solution and Material Data"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:283
+msgid "Python UPF limitations"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:285
+msgid "The Python UPF capability has these limitations:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:287
+msgid "Currently, Distributed Ansys is not supported. You must specify the ``-smp`` option on the command line to make sure Mechanical APDL is running in shared-memory processing mode."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:288
+msgid "Python UPFs are only available on Linux platforms."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:293
+msgid "Python UPF examples"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:295
+msgid "The following Python UPF examples are available in :ref:`python_upf_examples`:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:297
+msgid "Python `UserMat` subroutine"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:298
+msgid "Python `UsrShift` subroutine"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/upf.rst:299
+msgid "Python `UserHyper` subroutine"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/xpl.rst:4
+msgid "File explorer overview"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/xpl.rst:5
+msgid "A specific property under the ``Mapdl`` class is dedicated for XPL. It's based on the APDL Math ``*XPL`` command and can be used to explore binary files generated from APDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/xpl.rst:9
+msgid "All APDL files are organized the same way, as a tree or records. For example, a binary result file has the structure outlined in the :ref:`ref_rst_structure` figure."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/xpl.rst:18
+msgid "Structure of an APDL Result"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/xpl.rst:20
+msgid "You can find a detailed example of the APDL file explorer in :ref:`ref_xpl_example`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/xpl.rst:23
+msgid "For more information, see :ref:`ref_xpl_api`."
+msgstr ""
