@@ -1,4 +1,4 @@
-# translated docs for pymapdl official document
+# Translated docs for pymapdl official document
 
 <p align="center">
    <picture>
