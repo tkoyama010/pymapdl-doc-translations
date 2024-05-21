@@ -367,11 +367,11 @@ msgstr "APDL"
 
 #: ../../pymapdl/doc/source/user_guide/convert.rst:168
 msgid "Here is the MAPDL code:"
-msgstr ""
+msgstr "以下はMAPDLコードです:"
 
 #: ../../pymapdl/doc/source/user_guide/convert.rst:0
 msgid "PyMAPDL"
-msgstr ""
+msgstr "PyMAPDL"
 
 #: ../../pymapdl/doc/source/user_guide/convert.rst:289
 msgid ""
@@ -386,11 +386,11 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/convert.rst:297
 msgid "Here is the obtained result:"
-msgstr ""
+msgstr "以下はその結果です:"
 
 #: ../../pymapdl/doc/source/user_guide/convert.rst:308
 msgid "You can verify the reaction forces with:"
-msgstr ""
+msgstr "反力は次のようにして確認できます:"
 
 #: ../../pymapdl/doc/source/user_guide/convert.rst:322
 msgid "Example: VM7 - plastic compression of a pipe assembly"
@@ -426,23 +426,23 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/database.rst:34
 msgid "Obtain the first element."
-msgstr ""
+msgstr "最初の要素を取得します。"
 
 #: ../../pymapdl/doc/source/user_guide/database.rst:43
 msgid "Check if the element is selected."
-msgstr ""
+msgstr "要素が選択されているかどうかをチェックします。"
 
 #: ../../pymapdl/doc/source/user_guide/database.rst:50
 msgid "Return the element information of element 1."
-msgstr ""
+msgstr "要素1の要素情報を返します。"
 
 #: ../../pymapdl/doc/source/user_guide/database.rst:72
 msgid "Return the nodes belonging to the element."
-msgstr ""
+msgstr "要素に属するノードを返します。"
 
 #: ../../pymapdl/doc/source/user_guide/database.rst:79
 msgid "Return the element data."
-msgstr ""
+msgstr "要素データを返します。"
 
 #: ../../pymapdl/doc/source/user_guide/database.rst:86
 msgid "Return the selection status and the coordinates of node 22."
