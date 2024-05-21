@@ -24,8 +24,8 @@ join the translation team on Transifex.
 There is a [pymapdl translation page](https://app.transifex.com/tkoyama010/pymapdl-doc) for pymapdl (main) documentation.
 
 1. Login to [Transifex](https://app.transifex.com/) service.
-1. Go to `pymapdl translation page`_.
-1. Click ``Request language`` and fill form.
+1. Go to `pymapdl translation page`\_.
+1. Click `Request language` and fill form.
 1. Wait for acceptance by Transifex pymapdl translation maintainers.
 1. (After acceptance) Translate on Transifex.
 
