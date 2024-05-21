@@ -18,10 +18,10 @@ This repository is inspired by [sphinx-doc/sphinx-doc-translations](https://gith
 
 ## Documentation pages for each language
 
-| Language | URL |
-| ---- | ---- |
-|  español |  Coming Soon  |
-| 日本語 | https://tkoyama010.github.io/pymapdl-docs-dev-ja/  |
+| Language | URL                                               |
+| -------- | ------------------------------------------------- |
+| español  | Coming Soon                                       |
+| 日本語   | https://tkoyama010.github.io/pymapdl-docs-dev-ja/ |
 
 ## Contributing to pymapdl documentation translation
 
@@ -37,7 +37,6 @@ There is a [pymapdl translation page](https://app.transifex.com/tkoyama010/pymap
 1. (After acceptance) Translate on Transifex.
 
 Detail is here: https://docs.transifex.com/getting-started-1/translators
-
 
 ## How to update po files
 
