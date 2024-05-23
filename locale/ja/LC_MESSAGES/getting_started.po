@@ -77,6 +77,8 @@ msgid ""
 "To discover how you can help, see the `PyMAPDL Discussions "
 "<pymapdl_discussions_>`_ page."
 msgstr ""
+"どのように支援できるかを知るために、 `PyMAPDL Discussions <pymapdl_discussions_>`_ \n"
+"ページを見てください。"
 
 #: ../../pymapdl/doc/source/getting_started/contribution.rst:48
 msgid "Post issues"
@@ -151,10 +153,13 @@ msgid ""
 "mentioned on this section. If you want to build your own docker image, visit"
 " the following link :ref:`ref_make_container`."
 msgstr ""
+"MAPDL ソフトウェアはオープンソースではないため、GPL ライセンスでは docker コンテナをユーザーに配布することはできません。MAPDL "
+"がインストールされた docker コンテナがあることが、このセクションで紹介する開発方法を利用するための必須条件です。独自の docker "
+"イメージを構築したい場合は、以下のリンクを参照してください :ref:`ref_make_container` 。"
 
 #: ../../pymapdl/doc/source/getting_started/devcontainer.rst:25
 msgid "License"
-msgstr ""
+msgstr "ライセンス"
 
 #: ../../pymapdl/doc/source/getting_started/devcontainer.rst:27
 msgid ""
@@ -217,7 +222,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/devcontainer.rst:75
 msgid "`Visual Studio Code <vscode_>`_"
-msgstr ""
+msgstr "`Visual Studio Code <vscode_>`_"
 
 #: ../../pymapdl/doc/source/getting_started/devcontainer.rst:76
 msgid ""
@@ -274,6 +279,7 @@ msgid ""
 "before it is ready, This is because the container image must be pulled from "
 "the registry."
 msgstr ""
+"初めてdevcontainerを起動したときは、準備が整うまで時間がかかるかもしれません。これは、コンテナ・イメージをレジストリから取得する必要があるためです。"
 
 #: ../../pymapdl/doc/source/getting_started/devcontainer.rst:117
 msgid ""
@@ -289,7 +295,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:6
 msgid "Develop code"
-msgstr ""
+msgstr "コードを開発する"
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:8
 msgid ""
@@ -525,7 +531,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:174
 msgid "Verify that tests are independent."
-msgstr ""
+msgstr "テストが独立していることを確認する。"
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:175
 msgid "Write tests that verify only one part of the code at a time."
@@ -941,6 +947,8 @@ msgid ""
 "configured environment, or if you want to launch multiple instances of MAPDL"
 " or services."
 msgstr ""
+"また、 ``docker-compose`` コマンドを使って、 ``docker-compose`` "
+"ファイルに設定されたMAPDLを起動することもできます。これは既に設定されている環境をロードしたい場合や、MAPDLやサービスの複数のインスタンスを起動したい場合に便利です。"
 
 #: ../../pymapdl/doc/source/getting_started/docker.rst:244
 msgid ""
@@ -1311,7 +1319,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/index.rst:5
 msgid "Getting started"
-msgstr ""
+msgstr "使い始める"
 
 #: ../../pymapdl/doc/source/getting_started/index.rst:29
 msgid "To use PyMAPDL you must follow the next three steps:"
@@ -1340,6 +1348,8 @@ msgid ""
 "launching and interfacing with MAPDL from a local instance by launching it "
 "from Python."
 msgstr ""
+"PyAnsys の ``ansys-mapdl-core`` パッケージ（PyMAPDL）と通信するには、ローカルまたはリモートの MAPDL "
+"インスタンスが必要です。このセクションでは、ローカルインスタンスからMAPDLを起動し、PythonからMAPDLを起動してインターフェイスする方法について説明します。"
 
 #: ../../pymapdl/doc/source/getting_started/install_mapdl.rst:17
 msgid ""
@@ -1355,6 +1365,8 @@ msgid ""
 "This is especially convenient if you are using a non-supported platform such"
 " as MacOS. For more information, see :ref:`ref_pymapdl_and_macos`."
 msgstr ""
+"MAPDLをローカルにインストールする手間を省きたい場合は、Dockerを使うことができる。これはMacOSのようなサポートされていないプラットフォームを使っている場合に特に便利です。詳細は"
+" :ref:`ref_pymapdl_and_macos` を参照してください。"
 
 #: ../../pymapdl/doc/source/getting_started/install_mapdl.rst:31
 msgid ""
@@ -1363,16 +1375,20 @@ msgid ""
 "year with limited capabilities. For example, there is a limit on the number "
 "of nodes and elements."
 msgstr ""
+"また、 `Ansys Student Version <ansys_student_version_>`_ をダウンロードして試すこともできます。 "
+"学生版は、暦年の間有効で、機能に制限があります。例えば、ノードやエレメントの数に制限があります。"
 
 #: ../../pymapdl/doc/source/getting_started/install_mapdl.rst:35
 msgid ""
 "If you experience problems installing MAPDL on Linux, see "
 ":ref:`missing_dependencies_on_linux`."
 msgstr ""
+"Linux上でMAPDLのインストールに問題が発生した場合は、 :ref:`missing_dependencies_on_linux` "
+"を参照してください。"
 
 #: ../../pymapdl/doc/source/getting_started/install_mapdl.rst:40
 msgid "Ansys software requirements"
-msgstr ""
+msgstr "Ansysソフトウェアの要件"
 
 #: ../../pymapdl/doc/source/getting_started/install_mapdl.rst:42
 msgid ""
@@ -1381,26 +1397,29 @@ msgid ""
 "on Windows and with Ansys 13.0 on Linux. However, its usage with these older"
 " versions is discouraged."
 msgstr ""
+"最新の機能を使用するには、Ansys 2021 R1以降をローカルにインストールする必要があります。ただし、PyMAPDLはWindowsではAnsys"
+" 17.0以降、LinuxではAnsys 13.0と互換性があります。ただし、これらの古いバージョンでの使用は推奨されていません。"
 
 #: ../../pymapdl/doc/source/getting_started/install_mapdl.rst:49
 msgid ""
 "The latest versions of Ansys provide significantly better support and "
 "features. Certain features are not supported on earlier Ansys versions."
 msgstr ""
+"Ansys の最新バージョンでは、サポートと機能が大幅に向上しています。一部の機能は、以前のバージョンの Ansys ではサポートされていません。"
 
 #: ../../pymapdl/doc/source/getting_started/install_mapdl.rst:53
 msgid "For more information, see :ref:`versions_and_interfaces`."
-msgstr ""
+msgstr "詳細は :ref:`versions_and_interfaces` を参照。"
 
 #: ../../pymapdl/doc/source/getting_started/install_mapdl.rst:56
 msgid ""
 "For information on installing PyMAPDL, see :ref:`ref_pymapdl_installation`."
-msgstr ""
+msgstr "PyMAPDLのインストールについては :ref:`ref_pymapdl_installation` を参照してください。"
 
 #: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:7
 #: ../../pymapdl/doc/source/getting_started/macos.rst:8
 msgid "Install PyMAPDL"
-msgstr ""
+msgstr "PyMAPDLをインストールする."
 
 #: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:10
 msgid "Python module"
@@ -1415,7 +1434,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:14
 msgid ""
 "Install the latest release from `PyPi <pymapdl_pypi_>`_ with this command:"
-msgstr ""
+msgstr "以下のコマンドで `PyPi <pymapdl_pypi_>`_ から最新リリースをインストールします:"
 
 #: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:20
 msgid ""
@@ -1899,7 +1918,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/learning.rst:84
 msgid "Getting started with PyMAPDL"
-msgstr ""
+msgstr "PyMAPDLを使い始める"
 
 #: ../../pymapdl/doc/source/getting_started/learning.rst:86
 msgid ""

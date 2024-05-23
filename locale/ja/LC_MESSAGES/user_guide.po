@@ -3038,7 +3038,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:300
 msgid "API reference"
-msgstr ""
+msgstr "APIリファレンス"
 
 #: ../../pymapdl/doc/source/user_guide/mesh_geometry.rst:301
 msgid ""

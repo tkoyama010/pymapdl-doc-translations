@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the ansys-mapdl-core package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-21 13:42+0000\n"
+"POT-Creation-Date: 2024-05-21 15:07+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +24,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/examples/devportal.rst:3
 #: ../../pymapdl/doc/source/examples/devportal.rst:5
 msgid "PyMAPDL Developer Portal articles"
-msgstr ""
+msgstr "PyMAPDL Developer Portalの記事"
 
 #: ../../pymapdl/doc/source/examples/devportal.rst:5
 #: ../../pymapdl/doc/source/examples/devportal.rst:7
@@ -41,24 +45,26 @@ msgid ""
 "products, if you have questions or suggestions, you can go there to connect "
 "to Ansys experts and the growing Ansys developer community."
 msgstr ""
+"開発者ポータルは、ANSYS 製品に関連するあらゆることのハブであるため、質問や提案がある場合は、そこにアクセスして、ANSYS "
+"のエキスパートや成長する Ansys 開発者コミュニティに接続することができます。"
 
 #: ../../pymapdl/doc/source/examples/devportal.rst:22
 #: ../../pymapdl/doc/source/examples/devportal.rst:24
 msgid "Biomedical catheter design analysis"
-msgstr ""
+msgstr "医療用カテーテルの設計解析"
 
 #: ../../pymapdl/doc/source/examples/devportal.rst:28
 #: ../../pymapdl/doc/source/examples/devportal.rst:30
 msgid ""
 "Analyzing biomedical catheter flexibility using PyMAPDL scripting to assess "
 "its flexural rigidity in various designs."
-msgstr ""
+msgstr "PyMAPDLスクリプトを用いて生体用カテーテルの柔軟性を解析し、様々なデザインにおける曲げ剛性を評価します。"
 
 #: ../../pymapdl/doc/source/examples/devportal.rst:32
 #: ../../pymapdl/doc/source/examples/devportal.rst:34
 msgid ""
 "Postprocessing of simplified bolted connections with the help of PyAnsys"
-msgstr ""
+msgstr "PyAnsysを用いた簡略化したボルト接合部のポスト処理"
 
 #: ../../pymapdl/doc/source/examples/devportal.rst:38
 #: ../../pymapdl/doc/source/examples/devportal.rst:40
@@ -2215,7 +2221,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/acoustic_analysis.rst:25
 msgid "3D Acoustic Analysis"
-msgstr ""
+msgstr "3D音響解析"
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/acoustic_analysis.rst:27
 msgid ""
@@ -8150,7 +8156,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/examples/index.rst:17
 msgid "Examples"
-msgstr ""
+msgstr "使用例"
 
 #: ../../pymapdl/doc/source/examples/index.rst:20
 msgid ""
