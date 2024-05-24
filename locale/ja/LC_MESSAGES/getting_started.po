@@ -170,6 +170,9 @@ msgid ""
 "you do not have set this environment variable before launching the "
 "container, you are prompt to enter your license server port and address."
 msgstr ""
+"前述のように、MAPDL を実行するには有効なライセンスが必要です。コンテナを起動すると、 :file:`script.sh` ファイルが環境変数 "
+":envvar:`ANSYSLMD_LICENSE_FILE` "
+"が存在するかどうかを自動的にチェックします。この環境変数はライセンスサーバーのポートとIPアドレスを設定します。コンテナを起動する前にこの環境変数を設定していない場合は、ライセンスサーバーのポートとアドレスを入力するプロンプトが表示されます。"
 
 #: ../../pymapdl/doc/source/getting_started/devcontainer.rst:34
 msgid ""
@@ -260,6 +263,8 @@ msgid ""
 " not have the installation in the default directory. Be careful that you do "
 "not commit those changes in your PRs."
 msgstr ""
+"また、イメージの構成に合わせて環境変数やDockerオプションを変更する必要があるかもしれません。例えば、MAPDLコンテナがデフォルトのディレクトリにインストールされていない場合、環境変数"
+" :envvar:`AWP_ROOT222` を変更する必要があるかもしれません。このような変更をPRでコミットしないように注意してください。"
 
 #: ../../pymapdl/doc/source/getting_started/devcontainer.rst:106
 msgid ""
@@ -560,7 +565,7 @@ msgstr ""
 msgid ""
 "If you do not have MAPDL installed locally but still want to run the unit "
 "testing, you must set up the following environment variables."
-msgstr ""
+msgstr "MAPDLがローカルにインストールされていなくてもユニットテストを実行したい場合は、以下の環境変数を設定する必要があります。"
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:219
 msgid ""
@@ -1097,13 +1102,15 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/faq.rst:8
 msgid "How do you report issues?"
-msgstr ""
+msgstr "どのように問題を報告しますか？"
 
 #: ../../pymapdl/doc/source/getting_started/faq.rst:10
 msgid ""
 "If you find an issue, the first place to visit for possible solutions is the"
 " :ref:`troubleshooting section <ref_troubleshooting>`."
 msgstr ""
+"問題が見つかった場合、解決策を探すために最初に訪れるべき場所は :ref:`トラブルシューティングセクション "
+"<ref_troubleshooting>` です。"
 
 #: ../../pymapdl/doc/source/getting_started/faq.rst:12
 msgid ""
@@ -1217,7 +1224,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/faq.rst:79
 msgid "How do you end a simulation and restart a script?"
-msgstr ""
+msgstr "シミュレーションを終了し、スクリプトを再開するにはどうすればよいですか？"
 
 #: ../../pymapdl/doc/source/getting_started/faq.rst:81
 msgid ""
@@ -1323,7 +1330,7 @@ msgstr "使い始める"
 
 #: ../../pymapdl/doc/source/getting_started/index.rst:29
 msgid "To use PyMAPDL you must follow the next three steps:"
-msgstr ""
+msgstr "PyMAPDLを使用するには、次の3つのステップに従う必要があります:"
 
 #: ../../pymapdl/doc/source/getting_started/index.rst:31
 msgid ":ref:`ref_using_standard_install`"
@@ -1331,7 +1338,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/index.rst:32
 msgid ":ref:`ref_pymapdl_installation`"
-msgstr ""
+msgstr ":ref:`ref_pymapdl_installation`"
 
 #: ../../pymapdl/doc/source/getting_started/index.rst:33
 msgid ":ref:`ref_launch_pymapdl`"
@@ -1339,7 +1346,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/install_mapdl.rst:9
 msgid "Install MAPDL"
-msgstr ""
+msgstr "MAPDLをインストールする."
 
 #: ../../pymapdl/doc/source/getting_started/install_mapdl.rst:12
 msgid ""
@@ -1358,6 +1365,9 @@ msgid ""
 "selected under the **Structural Mechanics** option. While the standard "
 "installer options can change, see the following figure for reference."
 msgstr ""
+"MAPDLは、Ansysの標準インストーラからデフォルトでインストールされます。Ansys のインストール時に、 **Structural "
+"Mechanics** オプションの下にある **Mechanical Products** "
+"チェックボックスが選択されていることを確認してください。標準インストーラのオプションは変更可能ですが、参考のために次の図を参照してください。"
 
 #: ../../pymapdl/doc/source/getting_started/install_mapdl.rst:26
 msgid ""
@@ -1441,6 +1451,7 @@ msgid ""
 "Alternatively, install the latest from `PyMAPDL GitHub <pymapdl_issues_>`_ "
 "with this command:"
 msgstr ""
+"あるいは、以下のコマンドで PyMAPDL GitHub <pymapdl_issues_>`_ から最新のものをインストールしてください:"
 
 #: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:28
 msgid "For a local *development* version, install with these commands:"
@@ -1452,6 +1463,8 @@ msgid ""
 "core`` package locally and have the changes reflected in your setup after "
 "restarting the Python kernel."
 msgstr ""
+"開発版をインストールした後、ローカルで ``ansys-mapdl-core`` パッケージを変更し、Python "
+"カーネルを再起動すると変更がセットアップに反映されます。"
 
 #: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:41
 msgid "Offline installation"
@@ -1472,6 +1485,8 @@ msgid ""
 "isolated system with a fresh Python installation or on a virtual "
 "environment."
 msgstr ""
+"各 wheelhouse アーカイブには、Windows と Linux に PyMAPDL をゼロからインストールするために必要な Python "
+"wheel がすべて含まれています。新しいPythonがインストールされた隔離されたシステムや仮想環境にインストールすることができます。"
 
 #: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:51
 msgid ""
@@ -1498,17 +1513,18 @@ msgid ""
 "To use PyMAPDL, you must have a local installation of Ansys. The version of "
 "Ansys installed dictates the interface and features available to you."
 msgstr ""
+"PyMAPDLを使用するには、Ansysがローカルにインストールされている必要があります。インストールされているAnsysのバージョンによって、使用できるインターフェイスや機能が異なります。"
 
 #: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:72
 msgid ""
 "For more information on getting a licensed copy of Ansys, visit `Ansys "
 "<ansys_>`_."
-msgstr ""
+msgstr "ANSYSのライセンスコピーの入手に関する詳細は、 `Ansys <ansys_>`_ をご覧ください。"
 
 #: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:76
 msgid ""
 "Check that you have installed the package correctly by importing the module:"
-msgstr ""
+msgstr "モジュールをインポートして、パッケージが正しくインストールされていることを確認してください:"
 
 #: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:83
 msgid ""
@@ -1518,7 +1534,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/launcher.rst:7
 msgid "Launch PyMAPDL"
-msgstr ""
+msgstr "PyMAPDL を起動する"
 
 #: ../../pymapdl/doc/source/getting_started/launcher.rst:9
 msgid ""
@@ -1532,7 +1548,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/launcher.rst:13
 msgid "`Connect PyMAPDL to a local MAPDL instance`_"
-msgstr ""
+msgstr "`Connect PyMAPDL to a local MAPDL instance`_"
 
 #: ../../pymapdl/doc/source/getting_started/launcher.rst:14
 msgid "`Connect PyMAPDL to a remote MAPDL instance`_"
@@ -1546,7 +1562,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/launcher.rst:20
 msgid "Launch PyMAPDL with a local MAPDL instance"
-msgstr ""
+msgstr "ローカルのMAPDLインスタンスでPyMAPDLを起動する"
 
 #: ../../pymapdl/doc/source/getting_started/launcher.rst:22
 msgid ""
@@ -1559,13 +1575,15 @@ msgstr ""
 msgid ""
 "While this is the easiest and fastest way to get PyMAPDL up and running. you"
 " must be able to launch MAPDL locally."
-msgstr ""
+msgstr "これはPyMAPDLを起動して実行する最も簡単で速い方法ですが、MAPDLをローカルで起動できなければなりません。"
 
 #: ../../pymapdl/doc/source/getting_started/launcher.rst:38
 msgid ""
 "If PyMAPDL cannot find your local installation, see `Setting the MAPDL "
 "location in PyMAPDL`_."
 msgstr ""
+"PyMAPDL がローカルのインストールを見つけられない場合は、 `Setting MAPDL location in PyMAPDL`_ "
+"を参照してください。"
 
 #: ../../pymapdl/doc/source/getting_started/launcher.rst:41
 msgid ""
@@ -1573,28 +1591,31 @@ msgid ""
 "description of the :func:`launch_mapdl() "
 "<ansys.mapdl.core.launcher.launch_mapdl>` function."
 msgstr ""
+"MAPDLをローカルで起動する方法の詳細については、 :func:`launch_mapdl() "
+"<ansys.mapdl.core.launcher.launch_mapdl>` 関数の説明を参照してください。"
 
 #: ../../pymapdl/doc/source/getting_started/launcher.rst:46
 msgid "Connect PyMAPDL to a local MAPDL instance"
-msgstr ""
+msgstr "PyMAPDL をローカルの MAPDL インスタンスに接続する"
 
 #: ../../pymapdl/doc/source/getting_started/launcher.rst:48
 msgid ""
 "Connect to a local MAPDL instance requires two steps: launching a local "
 "MAPDL session and connect to it."
 msgstr ""
+"ローカルのMAPDLインスタンスに接続するには、ローカルのMAPDLセッションを起動し、そのインスタンスに接続するという2つのステップが必要です。"
 
 #: ../../pymapdl/doc/source/getting_started/launcher.rst:54
 msgid "Launch a local gRPC MAPDL session"
-msgstr ""
+msgstr "ローカルのgRPC MAPDLセッションを起動する"
 
 #: ../../pymapdl/doc/source/getting_started/launcher.rst:56
 msgid "You can start MAPDL from the command line and then connect to it."
-msgstr ""
+msgstr "コマンドラインからMAPDLを起動し、接続することができる。"
 
 #: ../../pymapdl/doc/source/getting_started/launcher.rst:58
 msgid "To launch MAPDL, use this command:"
-msgstr ""
+msgstr "MAPDLを起動するには、次のコマンドを使用する:"
 
 #: ../../pymapdl/doc/source/getting_started/launcher.rst:76
 msgid ""
@@ -1602,6 +1623,8 @@ msgid ""
 "the :file:`C:/Program Files/ANSYS Inc/v241` directory and, on Linux, it is "
 "assumed that Ansys is installed in the :file:`/usr/ansys_inc` directory."
 msgstr ""
+"Windows で MAPDL を起動する場合、ANSYS が :file:`C:/Program Files/ANSYS Inc/v241` "
+"ディレクトリに、Linux では :file:`/usr/ansys_inc` ディレクトリにインストールされているものとします。"
 
 #: ../../pymapdl/doc/source/getting_started/launcher.rst:80
 msgid "This starts MAPDL in gRPC mode. MAPDL should display this output:"
@@ -1757,16 +1780,16 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/learning.rst:5
 msgid "Learning PyMAPDL"
-msgstr ""
+msgstr "PyMAPDLを学ぶ"
 
 #: ../../pymapdl/doc/source/getting_started/learning.rst:8
 msgid "Introduction"
-msgstr ""
+msgstr "イントロダクション"
 
 #: ../../pymapdl/doc/source/getting_started/learning.rst:11
 msgid ""
 "_PyMAPDL provides Pythonic access to MAPDL, an Ansys finite element solver._"
-msgstr ""
+msgstr "_PyMAPDLは、Ansysの有限要素ソルバーであるMAPDLへのPythonicなアクセスを提供する_"
 
 #: ../../pymapdl/doc/source/getting_started/learning.rst:12
 msgid ""
@@ -1775,12 +1798,13 @@ msgid ""
 "seamlessly connecting this Ansys solver and the Python ecosystem. To learn "
 "how to use this library, you have many resources available:"
 msgstr ""
+"PyMAPDLは、Pythonや有限要素などの異なる技術に触れ、それらを統合し、このAnsysソルバーとPythonエコシステムをシームレスに接続することで、より優れたユーザーエクスペリエンスを提供します。このライブラリの使用方法を学ぶには、多くのリソースが利用可能です。"
 
 #: ../../pymapdl/doc/source/getting_started/learning.rst:16
 msgid ""
 "Complete the :ref:`ref_pymapdl_course` course, which guides you through "
 "PyMAPDL's main functionalities."
-msgstr ""
+msgstr ":ref:`ref_pymapdl_course` コースを完了します。このコースでは PyMAPDL の主な機能について説明します。"
 
 #: ../../pymapdl/doc/source/getting_started/learning.rst:18
 msgid ""
@@ -1788,6 +1812,8 @@ msgid ""
 "practical examples. The `Static analysis of a corner bracket "
 "<pymapdl_bracket_static_example_>`_ example is a very good starting point."
 msgstr ""
+"実践的な例から学ぶには `ギャラリー例 <pymapdl_examples_gallery_>`_ をご覧ください。 `コーナーブラケットの静解析 "
+"<pymapdl_bracket_static_example_>`_ の例は非常に良い出発点です。"
 
 #: ../../pymapdl/doc/source/getting_started/learning.rst:21
 msgid ""
@@ -1795,6 +1821,8 @@ msgid ""
 "courses and websites for learning Python. Additionally, Ansys provides a "
 ":ref:`ref_python_course` course."
 msgstr ""
+"プログラミング言語Pythonに慣れる。Pythonを学ぶためのオンラインコースやウェブサイトはたくさんあります。さらに、Ansysは "
+":ref:`ref_python_course` コースを提供しています。"
 
 #: ../../pymapdl/doc/source/getting_started/learning.rst:23
 msgid ""
@@ -1804,6 +1832,10 @@ msgid ""
 "<course_fem_track_>`_ course on the Ansys Learning Resources website offers "
 "tracks to help you to get familiar with these methods."
 msgstr ""
+"有限要素法(FEM)を理解する。物理モデルは FEM "
+"を使用して解かれるため、正確で適切な解を得るためには、これらの手法がどのように機能するかを知る必要があります。Ansys Learning "
+"Resources Web サイトの `有限要素法の概要 <course_fem_track_>`_ "
+"コースでは、これらのメソッドに精通するためのトラックを提供しています。"
 
 #: ../../pymapdl/doc/source/getting_started/learning.rst:27
 msgid ""
@@ -2568,39 +2600,41 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/using_julia.rst:6
 msgid "Julia and PyMAPDL"
-msgstr ""
+msgstr "JuliaとPyMAPDL"
 
 #: ../../pymapdl/doc/source/getting_started/using_julia.rst:8
 msgid ""
 "If you like to work with Julia, you can use Python libraries as if they were"
 " Julia packages."
-msgstr ""
+msgstr "もしJuliaと一緒に作業するのが好きなら、PythonのライブラリをJuliaのパッケージのように使うことができます。"
 
 #: ../../pymapdl/doc/source/getting_started/using_julia.rst:12
 msgid "Install Julia"
-msgstr ""
+msgstr "Juliaのインストール"
 
 #: ../../pymapdl/doc/source/getting_started/using_julia.rst:14
 msgid ""
 "To install Julia, go to `their website <julia_>`_ and follow the "
 "instructions given in the **Download** section."
 msgstr ""
+"Julia をインストールするには、 `彼らのWebサイト <julia_>`_ にアクセスし、 **ダウンロード** "
+"セクションの指示に従ってください。"
 
 #: ../../pymapdl/doc/source/getting_started/using_julia.rst:16
 msgid "`Windows <julia_windows_>`_"
-msgstr ""
+msgstr "`Windows <julia_windows_>`_"
 
 #: ../../pymapdl/doc/source/getting_started/using_julia.rst:17
 msgid "`Linux <julia_linux_and_freebsd_>`_"
-msgstr ""
+msgstr "`Linux <julia_linux_and_freebsd_>`_"
 
 #: ../../pymapdl/doc/source/getting_started/using_julia.rst:18
 msgid "`MacOS <julia_macos_>`_"
-msgstr ""
+msgstr "`MacOS <julia_macos_>`_"
 
 #: ../../pymapdl/doc/source/getting_started/using_julia.rst:21
 msgid "Set the Julia environment"
-msgstr ""
+msgstr "Juliaの環境を設定する "
 
 #: ../../pymapdl/doc/source/getting_started/using_julia.rst:23
 msgid ""
@@ -2608,6 +2642,8 @@ msgid ""
 "`PyCall <pycall_>`_ Julia package. To install it, run Julia and switch to "
 "the package manager by pressing the ``\"]\"`` key."
 msgstr ""
+"JuliaでPythonライブラリを利用するには、 `PyCall <pycall_>`_ "
+"をインストールする必要があります。インストールするには、Juliaを起動し、 ``\"]\"`` キーを押してパッケージマネージャに切り替えてください。"
 
 #: ../../pymapdl/doc/source/getting_started/using_julia.rst:26
 msgid ""
@@ -3560,7 +3596,7 @@ msgstr ""
 msgid ""
 "To install MAPDL, go into the folder where the files have been extracted and"
 " run this command:"
-msgstr ""
+msgstr "MAPDLをインストールするには、ファイルを解凍したフォルダに入り、次のコマンドを実行します: "
 
 #: ../../pymapdl/doc/source/getting_started/wsl.rst:97
 msgid "where:"
@@ -3602,6 +3638,8 @@ msgid ""
 "After installing MAPDL directly in ``/ansys_inc`` or in ``/usr/ansys_inc``, "
 "you create a symbolic link with this command:"
 msgstr ""
+"MAPDL を ``/ansys_inc`` または ``/usr/ansys_inc`` "
+"に直接インストールした後、次のコマンドでシンボリックリンクを作成します:。"
 
 #: ../../pymapdl/doc/source/getting_started/wsl.rst:122
 msgid ""
@@ -3648,6 +3686,13 @@ msgid ""
 "caution. For more information, see :ref:`Disable firewall on WSL ethernet "
 "<disable_firewall_on_wsl_ethernet_section>`."
 msgstr ""
+"CentOS 7 イメージで MAPDL を実行し、Windows ライセンスサーバーを使用する場合、 Windows ファイアウォールが WSL "
+"から来るすべてのトラフィックをブロックするため、ポートを開 いても正しく動作しない可能性があります。セキュリティのため、ファイアウォールでポート "
+"``1055`` と ``2325`` を開き、MAPDL インストールが Windows "
+"ホストと通信できることを確認してください。ファイアウォールのルールを設定しても問題がある場合は、WSLイーサネットバーチャ "
+"ルインターフェイスのWindowsファイアウォールをオフにする必要があるかもしれない。これは、未知の副作用とセキュリティリスクをもたらすかもしれないので、注意して使用してください。詳しくは"
+" :ref:`Disable firewall on WSL ethernet "
+"<disable_firewall_on_wsl_ethernet_section>` を参照してください。"
 
 #: ../../pymapdl/doc/source/getting_started/wsl.rst:156
 msgid ""
@@ -3702,7 +3747,7 @@ msgstr ""
 msgid ""
 "You can launch an instance of MAPDL using the MAPDL installation from the "
 "Windows host OS. To do that, run this code:"
-msgstr ""
+msgstr "WindowsホストOSからMAPDLインストールを使用してMAPDLのインスタンスを起動できます。そのためには、次のコードを実行します:"
 
 #: ../../pymapdl/doc/source/getting_started/wsl.rst:242
 msgid ""

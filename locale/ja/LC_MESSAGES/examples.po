@@ -72,7 +72,7 @@ msgid ""
 "Illustrating PyMAPDL's GUI possibilities for pre-tensioned bolted "
 "connections, adhering to industry standards, and data extraction to Excel "
 "for analysis."
-msgstr ""
+msgstr "PyMAPDLのGUIによるプレテンションボルト接合、業界標準への準拠、分析のためのExcelへのデータ抽出の可能性を説明します。"
 
 #: ../../pymapdl/doc/source/examples/extended_examples/Krylov/krylov_example.rst:6
 msgid "Harmonic analysis using the frequency-sweep Krylov method"
