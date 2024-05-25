@@ -3689,7 +3689,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:5
 msgid "Troubleshooting PyMAPDL"
-msgstr ""
+msgstr "PyMAPDLのトラブルシューティング"
 
 #: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:8
 msgid ""

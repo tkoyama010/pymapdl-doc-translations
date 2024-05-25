@@ -201,7 +201,7 @@ msgstr "Linux"
 
 #: ../../pymapdl/doc/source/getting_started/devcontainer.rst:58
 msgid "And then open the folder in the container using the `Command palette`."
-msgstr ""
+msgstr "そして `Command palette` を使ってコンテナ内のフォルダを開きます。"
 
 #: ../../pymapdl/doc/source/getting_started/devcontainer.rst:64
 msgid "Develop on a remote container"
@@ -2393,7 +2393,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/project.rst:4
 msgid "PyMAPDL project"
-msgstr ""
+msgstr "PyMAPDL プロジェクト"
 
 #: ../../pymapdl/doc/source/getting_started/project.rst:8
 msgid "Introduction and purpose"
@@ -2405,6 +2405,8 @@ msgid ""
 " use of Ansys technologies directly from Python. Its primary package, "
 "``ansys-mapdl-core``, provides:"
 msgstr ""
+"PyMAPDLは、Pythonから直接ANSYSの技術を使用することを容易にするための、より大きな `PyAnsys <pyansys_>`_ "
+"努力の一部です。主なパッケージである ``ansys-mapdl-core`` は以下のものを提供します:"
 
 #: ../../pymapdl/doc/source/getting_started/project.rst:13
 msgid ""

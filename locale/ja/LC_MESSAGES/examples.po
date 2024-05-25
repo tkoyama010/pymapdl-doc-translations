@@ -46,7 +46,7 @@ msgid ""
 "to Ansys experts and the growing Ansys developer community."
 msgstr ""
 "開発者ポータルは、ANSYS 製品に関連するあらゆることのハブであるため、質問や提案がある場合は、そこにアクセスして、ANSYS "
-"のエキスパートや成長する Ansys 開発者コミュニティに接続することができます。"
+"のエキスパートや成長する Ansys 開発者コミュニティとつながることができます。"
 
 #: ../../pymapdl/doc/source/examples/devportal.rst:22
 #: ../../pymapdl/doc/source/examples/devportal.rst:24
