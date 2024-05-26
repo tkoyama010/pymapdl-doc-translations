@@ -239,7 +239,7 @@ msgstr ""
 msgid ""
 "`Remove Development VS Code extension pack "
 "<vscode_devcontainers_remote_extension_>`_"
-msgstr ""
+msgstr "`開発用 VS Code 拡張パックの削除 <vscode_devcontainers_remote_extension_>`_"
 
 #: ../../pymapdl/doc/source/getting_started/devcontainer.rst:82
 msgid ""
@@ -461,7 +461,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:112
 msgid "Unit testing"
-msgstr ""
+msgstr "ユニットテスト"
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:114
 msgid ""
@@ -522,7 +522,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:171
 msgid "Assign long and descriptive names to tests."
-msgstr ""
+msgstr "テストに長くて分かりやすい名前を付ける。"
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:172
 msgid ""
