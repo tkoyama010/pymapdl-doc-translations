@@ -1220,11 +1220,11 @@ msgstr "ユーザーガイド"
 #: ../../pymapdl/doc/source/user_guide/index.rst:6
 msgid ""
 "This section provides a general overview of PyMAPDL and how you use it."
-msgstr ""
+msgstr "このセクションでは、PyMAPDLの概要とその使用方法について説明します。"
 
 #: ../../pymapdl/doc/source/user_guide/index.rst:36
 msgid "PyMAPDL overview"
-msgstr ""
+msgstr "PyMAPDLの概要"
 
 #: ../../pymapdl/doc/source/user_guide/index.rst:37
 msgid ""

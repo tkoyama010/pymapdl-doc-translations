@@ -764,7 +764,7 @@ msgstr ""
 #: ../../pymapdl/docker/make_container.rst:16
 #: ../../pymapdl/doc/source/getting_started/docker.rst:23
 msgid "Requirements"
-msgstr ""
+msgstr "必要条件"
 
 #: ../../pymapdl/doc/source/getting_started/docker.rst:25
 msgid ""
@@ -1098,7 +1098,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/faq.rst:5
 msgid "Frequently asked questions"
-msgstr ""
+msgstr "よくあるご質問"
 
 #: ../../pymapdl/doc/source/getting_started/faq.rst:8
 msgid "How do you report issues?"
@@ -2231,13 +2231,13 @@ msgstr ""
 
 #: ../../pymapdl/docker/make_container.rst:3
 msgid "Create your own MAPDL docker container"
-msgstr ""
+msgstr "独自のMAPDL dockerコンテナを作成する"
 
 #: ../../pymapdl/docker/make_container.rst:5
 msgid ""
 "You need a valid Ansys license and an Ansys account to follow the steps "
 "detailed in this section."
-msgstr ""
+msgstr "このセクションで説明する手順を実行するには、有効な Ansys ライセンスと Ansys アカウントが必要です。"
 
 #: ../../pymapdl/docker/make_container.rst:8
 msgid ""
@@ -2246,6 +2246,8 @@ msgid ""
 " files for the MAPDL container by installing Ansys products first and then "
 "copy the generated files to the container."
 msgstr ""
+"このページに記載されている手順に従って、独自の MAPDL docker コンテナを作成することができます。このガイドでは、ローカルの Ubuntu "
+"マシンを使用して、最初に Ansys 製品をインストールして MAPDL コンテナに必要なファイルを生成し、生成されたファイルをコンテナにコピーします。"
 
 #: ../../pymapdl/docker/make_container.rst:18
 msgid ""
@@ -2397,7 +2399,7 @@ msgstr "PyMAPDL プロジェクト"
 
 #: ../../pymapdl/doc/source/getting_started/project.rst:8
 msgid "Introduction and purpose"
-msgstr ""
+msgstr "イントロダクションと目的"
 
 #: ../../pymapdl/doc/source/getting_started/project.rst:9
 msgid ""
