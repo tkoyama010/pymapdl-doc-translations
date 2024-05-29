@@ -457,7 +457,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/user_guide/database.rst:99
 #: ../../pymapdl/doc/source/user_guide/krylov.rst:175
 msgid "Requirements"
-msgstr ""
+msgstr "必要条件"
 
 #: ../../pymapdl/doc/source/user_guide/database.rst:101
 msgid "To use the ``DB`` feature, you must meet these requirements:"

@@ -597,7 +597,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/examples/extended_examples/ex_01-gmsh_example/ex_01-gmsh_example.rst:27
 msgid "Requirements"
-msgstr ""
+msgstr "必要条件"
 
 #: ../../pymapdl/doc/source/examples/extended_examples/ex_01-gmsh_example/ex_01-gmsh_example.rst:28
 msgid "You must have Gmsh installed. You can install it using ``pip``:"

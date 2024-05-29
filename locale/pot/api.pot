@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-21 15:07+0000\n"
+"POT-Creation-Date: 2024-05-29 00:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4508,7 +4508,7 @@ msgid ":py:obj:`__init__ <ansys.mapdl.core.logging.Logger.__init__>`\\ \\(\\[lev
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.logging.Logger.rst:27:<autosummary>:1
-msgid ":py:obj:`add_child_logger <ansys.mapdl.core.logging.Logger.add_child_logger>`\\ \\(sufix\\[\\, level\\]\\)"
+msgid ":py:obj:`add_child_logger <ansys.mapdl.core.logging.Logger.add_child_logger>`\\ \\(logger\\_name\\[\\, level\\]\\)"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.logging.Logger.rst:27:<autosummary>:1

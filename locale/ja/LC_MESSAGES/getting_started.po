@@ -2160,7 +2160,7 @@ msgstr ""
 msgid ""
 "You can install PyMAPDL normally on a MacOS that fulfill PyMAPDL "
 "requirements using this command:"
-msgstr ""
+msgstr "PyMAPDLの要件を満たすMacOSには、次のコマンドを使ってPyMAPDLを普通にインストールできます:"
 
 #: ../../pymapdl/doc/source/getting_started/macos.rst:18
 msgid ""
