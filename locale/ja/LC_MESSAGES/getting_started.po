@@ -596,7 +596,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:238
 msgid "Example"
-msgstr ""
+msgstr "例"
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:240
 msgid ""
@@ -644,7 +644,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:312
 msgid "**Tests**"
-msgstr ""
+msgstr "**テスト**"
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:314
 msgid "You can opt to run the tests with this configuration:"
@@ -1334,7 +1334,7 @@ msgstr "PyMAPDLを使用するには、次の3つのステップに従う必要�
 
 #: ../../pymapdl/doc/source/getting_started/index.rst:31
 msgid ":ref:`ref_using_standard_install`"
-msgstr ""
+msgstr ":ref:`ref_using_standard_install`"
 
 #: ../../pymapdl/doc/source/getting_started/index.rst:32
 msgid ":ref:`ref_pymapdl_installation`"
@@ -1342,7 +1342,7 @@ msgstr ":ref:`ref_pymapdl_installation`"
 
 #: ../../pymapdl/doc/source/getting_started/index.rst:33
 msgid ":ref:`ref_launch_pymapdl`"
-msgstr ""
+msgstr ":ref:`ref_launch_pymapdl`"
 
 #: ../../pymapdl/doc/source/getting_started/install_mapdl.rst:9
 msgid "Install MAPDL"
@@ -1846,7 +1846,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/learning.rst:34
 msgid "Downloads"
-msgstr ""
+msgstr "ダウンロード"
 
 #: ../../pymapdl/doc/source/getting_started/learning.rst:36
 msgid ""
@@ -1870,7 +1870,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/learning.rst:49
 msgid "Courses"
-msgstr ""
+msgstr "コース"
 
 #: ../../pymapdl/doc/source/getting_started/learning.rst:51
 msgid ""
@@ -2278,11 +2278,11 @@ msgstr ""
 
 #: ../../pymapdl/docker/make_container.rst:32
 msgid "Procedure"
-msgstr ""
+msgstr "プロシージャー"
 
 #: ../../pymapdl/docker/make_container.rst:35
 msgid "Download Ansys MAPDL installation files"
-msgstr ""
+msgstr "Ansys MAPDLインストールファイルのダウンロード"
 
 #: ../../pymapdl/docker/make_container.rst:37
 msgid ""
@@ -2293,7 +2293,7 @@ msgstr ""
 
 #: ../../pymapdl/docker/make_container.rst:42
 msgid "If you lack of an Ansys account, please contact your IT manager."
-msgstr ""
+msgstr "Ansysのアカウントがない場合は、IT管理者にお問い合わせください。"
 
 #: ../../pymapdl/docker/make_container.rst:47
 msgid "Install Ansys MAPDL product"
