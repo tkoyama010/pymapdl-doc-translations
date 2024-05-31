@@ -725,7 +725,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/docker.rst:5
 msgid "MAPDL and Docker"
-msgstr ""
+msgstr "MAPDLとDocker"
 
 #: ../../pymapdl/doc/source/getting_started/docker.rst:7
 msgid ""
@@ -1789,7 +1789,7 @@ msgstr "イントロダクション"
 #: ../../pymapdl/doc/source/getting_started/learning.rst:11
 msgid ""
 "_PyMAPDL provides Pythonic access to MAPDL, an Ansys finite element solver._"
-msgstr "_PyMAPDLは、Ansysの有限要素ソルバーであるMAPDLへのPythonicなアクセスを提供する_"
+msgstr "_PyMAPDLは、Ansysの有限要素ソルバーであるMAPDLへのPythonicなアクセスを提供します。_"
 
 #: ../../pymapdl/doc/source/getting_started/learning.rst:12
 msgid ""
@@ -2154,7 +2154,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/macos.rst:5
 msgid "PyMAPDL and MacOS"
-msgstr ""
+msgstr "PyMAPDL と MacOS."
 
 #: ../../pymapdl/doc/source/getting_started/macos.rst:10
 msgid ""
@@ -2754,7 +2754,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:5
 msgid "Versions and interfaces"
-msgstr ""
+msgstr "バージョンとインターフェース"
 
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:7
 msgid ""
@@ -2762,6 +2762,7 @@ msgid ""
 "of MAPDL while allowing for support of faster and better interfaces with the"
 " latest versions of MAPDL."
 msgstr ""
+"PyMAPDLプロジェクトは、レガシーバージョンのMAPDLとの互換性を維持しながら、最新バージョンのMAPDLでより高速で優れたインターフェースをサポートすることを試みています。"
 
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:11
 msgid ""
@@ -3474,7 +3475,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/wsl.rst:5
 msgid "Windows Subsystem for Linux"
-msgstr ""
+msgstr "Linux用Windowsサブシステム"
 
 #: ../../pymapdl/doc/source/getting_started/wsl.rst:7
 msgid ""
@@ -3483,6 +3484,9 @@ msgid ""
 "running Linux binary executables natively on Windows 10, Windows 11, and "
 "Windows Server 2019. For more information, see:"
 msgstr ""
+"このページでは、PyAnsysライブラリ、具体的にはPyMAPDLをWindows Subsystem for "
+"Linux（WSL）で使用する方法について説明します。WSLは、Windows 10、Windows 11、およびWindows Server "
+"2019上でLinuxバイナリ実行可能ファイルをネイティブに実行するための互換性レイヤーです。詳細については、 を参照してください。"
 
 #: ../../pymapdl/doc/source/getting_started/wsl.rst:12
 msgid "`Wikipedia WSL <WikipediaWSL_>`_"
