@@ -233,12 +233,12 @@ msgstr "python:str"
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
 #: ansys.mapdl.core.mapdl_core._MapdlCore.open_apdl_log:8
 msgid "Filename of the log."
-msgstr ""
+msgstr "ログのファイル名 。"
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
 #: ansys.mapdl.core.mapdl_core._MapdlCore.add_file_handler:11
 msgid "**append** : :ref:`bool <python:bltin-boolean-values>`"
-msgstr ""
+msgstr "**append** : :ref:`bool <python:bltin-boolean-values>`"
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl:189
@@ -251,7 +251,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
 #: ansys.mapdl.core.mapdl_core._MapdlCore.run:25
 msgid "bool"
-msgstr ""
+msgstr "bool"
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
 #: ansys.mapdl.core.mapdl_core._MapdlCore.add_file_handler:12
@@ -950,7 +950,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.Mapdl.chain_commands:8
 msgid "``mapdl.run(\"/PREP7$K,1,1,2,3\")``"
-msgstr ""
+msgstr "``mapdl.run(\"/PREP7$K,1,1,2,3\")``"
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.Mapdl.chain_commands:10
@@ -4298,7 +4298,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/convert.pydocstring of
 #: ansys.mapdl.core.convert.convert_script:74
 msgid "use_vtk"
-msgstr ""
+msgstr "use_vtk"
 
 #: ../../pymapdl/src/ansys/mapdl/core/convert.pydocstring of
 #: ansys.mapdl.core.convert.convert_script:75
@@ -4310,7 +4310,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/convert.pydocstring of
 #: ansys.mapdl.core.convert.convert_script:78
 msgid "clear_at_start"
-msgstr ""
+msgstr "clear_at_start"
 
 #: ../../pymapdl/src/ansys/mapdl/core/convert.pydocstring of
 #: ansys.mapdl.core.convert.convert_script:79
@@ -4798,7 +4798,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
 #: ansys.mapdl.core.pool.MapdlPool:8
 msgid "python:int"
-msgstr ""
+msgstr "python:int"
 
 #: ../../pymapdl/src/ansys/mapdl/core/inline_functions/selection_queries.pydocstring
 #: of
@@ -4825,7 +4825,7 @@ msgstr ""
 #: of
 #: ansys.mapdl.core.inline_functions.selection_queries._SelectionStatusQueries.vsel:20
 msgid ":obj:`mapdl.ansys.core.inline_functions.SelectionStatus`"
-msgstr ""
+msgstr ":obj:`mapdl.ansys.core.inline_functions.SelectionStatus`"
 
 #: ../../pymapdl/src/ansys/mapdl/core/inline_functions/selection_queries.pydocstring
 #: of
@@ -4991,7 +4991,7 @@ msgstr ""
 #: of
 #: ansys.mapdl.core.inline_functions.line_queries._LineFractionSlopeQueries.lsz:32
 msgid ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`float\\``"
-msgstr ""
+msgstr ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`float\\``"
 
 #: ../../pymapdl/src/ansys/mapdl/core/inline_functions/component_queries.pydocstring
 #: of
@@ -5152,7 +5152,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
 #: ansys.mapdl.core.launcher.get_default_ansys:11
 msgid "python:float"
-msgstr ""
+msgstr "python:float"
 
 #: ../../pymapdl/src/ansys/mapdl/core/inline_functions/component_queries.pydocstring
 #: of
@@ -5206,7 +5206,7 @@ msgstr ""
 #: of
 #: ansys.mapdl.core.inline_functions.component_queries._InverseGetComponentQueries.node:22
 msgid ":class:`python:int`"
-msgstr ""
+msgstr ":class:`python:int`"
 
 #: ../../pymapdl/src/ansys/mapdl/core/inline_functions/component_queries.pydocstring
 #: of
@@ -5224,7 +5224,7 @@ msgstr ""
 #: of
 #: ansys.mapdl.core.inline_functions.component_queries._InverseGetComponentQueries.node:34
 msgid ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`int\\``"
-msgstr ""
+msgstr ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`int\\``"
 
 #: ../../pymapdl/src/ansys/mapdl/core/inline_functions/component_queries.pydocstring
 #: of
@@ -6513,12 +6513,12 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl:38
 msgid "``'grpc'``"
-msgstr ""
+msgstr "``'grpc'``"
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl:39
 msgid "``'console'``"
-msgstr ""
+msgstr "``'console'``"
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl:41
@@ -6566,7 +6566,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl:62
 msgid "``additional_switches=\"-aa_r\"``"
-msgstr ""
+msgstr "``additional_switches=\"-aa_r\"``"
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl:64
@@ -6930,7 +6930,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl:234
 msgid "\\-amfg"
-msgstr ""
+msgstr "\\-amfg"
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl:235
@@ -6981,7 +6981,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl:256
 msgid "\\-dis"
-msgstr ""
+msgstr "\\-dis"
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl:257
@@ -6993,7 +6993,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl:260
 msgid "\\-dvt"
-msgstr ""
+msgstr "\\-dvt"
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl:261
@@ -7123,7 +7123,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl:318
 msgid "\\-smp"
-msgstr ""
+msgstr "\\-smp"
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl:319
@@ -7181,7 +7181,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.logging.Logger.rst:2
 msgid "ansys.mapdl.core.logging.Logger"
-msgstr ""
+msgstr "ansys.mapdl.core.logging.Logger"
 
 #: ../../pymapdl/doc/source/api/logging.rst:36:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/logging.pydocstring of
@@ -8145,12 +8145,12 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.upload:6
 msgid "file_name"
-msgstr ""
+msgstr "file_name"
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.upload-1
 msgid "str"
-msgstr ""
+msgstr "str"
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.upload:7
@@ -8160,7 +8160,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.upload:9
 msgid "progress_bar"
-msgstr ""
+msgstr "progress_bar"
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.upload:10
@@ -8183,7 +8183,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mesh_grpc.MeshGrpc.rst:2
 msgid "ansys.mapdl.core.mesh\\_grpc.MeshGrpc"
-msgstr ""
+msgstr "ansys.mapdl.core.mesh\\_grpc.MeshGrpc"
 
 #: ../../pymapdl/doc/source/api/mesh.rst:12:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/mesh_grpc.pydocstring of
@@ -8719,7 +8719,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.parameters.Parameters.rst:2
 msgid "ansys.mapdl.core.parameters.Parameters"
-msgstr ""
+msgstr "ansys.mapdl.core.parameters.Parameters"
 
 #: ../../pymapdl/src/ansys/mapdl/core/parameters.pydocstring of
 #: ansys.mapdl.core.parameters.Parameters:16
@@ -8886,7 +8886,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.ALLOWED_TARGETS.rst:2
 msgid "ansys.mapdl.core.plotting.ALLOWED\\_TARGETS"
-msgstr ""
+msgstr "ansys.mapdl.core.plotting.ALLOWED\\_TARGETS"
 
 #: ../../pymapdl/doc/source/api/mapdl.rst:51:<autosummary>:1 ../docstring of
 #: ansys.mapdl.core.plotting.ALLOWED_TARGETS:2 ../docstring of
@@ -8903,11 +8903,11 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.BCS.rst:2
 msgid "ansys.mapdl.core.plotting.BCS"
-msgstr ""
+msgstr "ansys.mapdl.core.plotting.BCS"
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:2
 msgid "ansys.mapdl.core.plotting.MapdlTheme"
-msgstr ""
+msgstr "ansys.mapdl.core.plotting.MapdlTheme"
 
 #: ../../pymapdl/doc/source/api/plotting.rst:20:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/theme.pydocstring of
@@ -9566,7 +9566,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.general_plotter.rst:2
 msgid "ansys.mapdl.core.plotting.general\\_plotter"
-msgstr ""
+msgstr "ansys.mapdl.core.plotting.general\\_plotter"
 
 #: ../../pymapdl/doc/source/api/plotting.rst:20:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/plotting.pydocstring of
@@ -9606,37 +9606,37 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/plotting.pydocstring of
 #: ansys.mapdl.core.plotting.general_plotter:14
 msgid "``\"xy\"``"
-msgstr ""
+msgstr "``\"xy\"``"
 
 #: ../../pymapdl/src/ansys/mapdl/core/plotting.pydocstring of
 #: ansys.mapdl.core.plotting.general_plotter:15
 msgid "``\"xz\"``"
-msgstr ""
+msgstr "``\"xz\"``"
 
 #: ../../pymapdl/src/ansys/mapdl/core/plotting.pydocstring of
 #: ansys.mapdl.core.plotting.general_plotter:16
 msgid "``\"yz\"``"
-msgstr ""
+msgstr "``\"yz\"``"
 
 #: ../../pymapdl/src/ansys/mapdl/core/plotting.pydocstring of
 #: ansys.mapdl.core.plotting.general_plotter:17
 msgid "``\"yx\"``"
-msgstr ""
+msgstr "``\"yx\"``"
 
 #: ../../pymapdl/src/ansys/mapdl/core/plotting.pydocstring of
 #: ansys.mapdl.core.plotting.general_plotter:18
 msgid "``\"zx\"``"
-msgstr ""
+msgstr "``\"zx\"``"
 
 #: ../../pymapdl/src/ansys/mapdl/core/plotting.pydocstring of
 #: ansys.mapdl.core.plotting.general_plotter:19
 msgid "``\"zy\"``"
-msgstr ""
+msgstr "``\"zy\"``"
 
 #: ../../pymapdl/src/ansys/mapdl/core/plotting.pydocstring of
 #: ansys.mapdl.core.plotting.general_plotter:20
 msgid "``\"iso\"``"
-msgstr ""
+msgstr "``\"iso\"``"
 
 #: ../../pymapdl/src/ansys/mapdl/core/plotting.pydocstring of
 #: ansys.mapdl.core.plotting.general_plotter:22
@@ -10022,7 +10022,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/plotting.pydocstring of
 #: ansys.mapdl.core.plotting.general_plotter:202
 msgid "List[python:dict]"
-msgstr ""
+msgstr "List[python:dict]"
 
 #: ../../pymapdl/src/ansys/mapdl/core/plotting.pydocstring of
 #: ansys.mapdl.core.plotting.general_plotter:190
@@ -10072,7 +10072,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/plotting.pydocstring of
 #: ansys.mapdl.core.plotting.general_plotter:209
 msgid "python:dict"
-msgstr ""
+msgstr "python:dict"
 
 #: ../../pymapdl/src/ansys/mapdl/core/plotting.pydocstring of
 #: ansys.mapdl.core.plotting.general_plotter:211

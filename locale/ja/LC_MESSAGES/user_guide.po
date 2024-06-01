@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-21 15:07+0000\n"
+"POT-Creation-Date: 2024-06-01 00:15+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -1753,7 +1753,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/mapdl.rst:204
 msgid ""
-"This MAPLD input is executed with a :meth:`Mapdl.input() "
+"This MAPDL input is executed with a :meth:`Mapdl.input() "
 "<ansys.mapdl.core.Mapdl.input>` method call."
 msgstr ""
 
