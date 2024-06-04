@@ -11736,7 +11736,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:2
 msgid "ansys.mapdl.core.xpl.ansXpl"
-msgstr ""
+msgstr "ansys.mapdl.core.xpl.ansXpl"
 
 #: ../../pymapdl/doc/source/api/xpl.rst:11:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/xpl.pydocstring of
