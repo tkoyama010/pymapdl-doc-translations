@@ -2372,7 +2372,7 @@ msgstr ""
 
 #: ../../pymapdl/docker/make_container.rst:110
 msgid "Summary"
-msgstr ""
+msgstr "まとめ"
 
 #: ../../pymapdl/docker/make_container.rst:113
 msgid ""
@@ -2450,7 +2450,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/project.rst:37
 msgid "Background"
-msgstr ""
+msgstr "背景"
 
 #: ../../pymapdl/doc/source/getting_started/project.rst:38
 msgid ""
