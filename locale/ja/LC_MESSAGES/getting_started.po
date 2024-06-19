@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-21 15:07+0000\n"
+"POT-Creation-Date: 2024-06-19 00:15+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -54,11 +54,19 @@ msgid ""
 "PyMAPDL."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/contribution.rst:31
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:29
+msgid ""
+"In order to have a nice :ref:`ref_release_notes` section, it is important to"
+" follow the branch and commit names conventions as described in the *PyAnsys"
+" Developer's Guide* `branch <dev_guide_branch_names_>`_ and `commit "
+"<dev_guide_commit_names_>`_ naming sections."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:36
 msgid "Answer discussions"
 msgstr "ディスカッションに回答する"
 
-#: ../../pymapdl/doc/source/getting_started/contribution.rst:33
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:38
 msgid ""
 "Answering discussions is an excellent way to contribute to PyMAPDL, and it "
 "does not require any setup, just a GitHub account. It is probably the first "
@@ -72,7 +80,7 @@ msgid ""
 msgstr ""
 "ディスカッションに答えることはPyMAPDLに貢献する優れた方法であり、GitHubアカウントだけで何の設定も必要ありません。プロジェクトに対する理解を深めることができるので、おそらくPyMAPDLの完全な開発者になるための最初のステップになるでしょう。議論に参加するには、プロジェクトの目標や課題を十分に把握する必要があります。あなたの貢献は、同じような問題に直面しているかもしれない他のユーザーや貢献者を助けることができ、リポジトリをより歓迎された包括的なものにすることができます。回答や解決策を提供することで、プロジェクトの成功に直接貢献し、健全性を維持し、前向きなオープンソースのエコシステムを促進することができます。"
 
-#: ../../pymapdl/doc/source/getting_started/contribution.rst:44
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:49
 msgid ""
 "To discover how you can help, see the `PyMAPDL Discussions "
 "<pymapdl_discussions_>`_ page."
@@ -80,11 +88,11 @@ msgstr ""
 "どのように支援できるかを知るために、 `PyMAPDL Discussions <pymapdl_discussions_>`_ \n"
 "ページを見てください。"
 
-#: ../../pymapdl/doc/source/getting_started/contribution.rst:48
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:53
 msgid "Post issues"
 msgstr "イシューを投稿する"
 
-#: ../../pymapdl/doc/source/getting_started/contribution.rst:50
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:55
 msgid ""
 "Posting issues in a repository is a valuable contribution that benefits you,"
 " the repository, and PyMAPDL as a whole. It allows you to voice concerns, "
@@ -101,29 +109,29 @@ msgstr ""
 "リポジトリに イシュー を投稿することは、あなた、リポジトリ、PyMAPDL "
 "全体にとって有益な貢献です。懸念を表明したり、改善を提案したり、バグを報告することで、より堅牢で使いやすいプロジェクトにすることができます。また、プロジェクトのコミュニティと関わり、他の人から学び、課題の追跡や共同作業の経験を積む機会にもなります。リポジトリにとって、課題は作業を追跡し、優先順位をつけるための構造化された方法であり、メンテナがユーザーのニーズを理解し、プロジェクトの開発を導くのに役立ちます。プロジェクトの品質を高め、透明性を育み、継続的な改善と革新のためにコミュニティの集合的な努力を促すので、これは貢献する優れた方法です。"
 
-#: ../../pymapdl/doc/source/getting_started/contribution.rst:62
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:67
 msgid ""
 "Use the `PyMAPDL Issues <pymapdl_issues_>`_ page to submit questions, report"
 " bugs, and request new features. When possible, use these issue templates:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/contribution.rst:66
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:71
 msgid "**🐞 Bug, problem, or error**: Fill a bug report here"
 msgstr "**🐞 バグ、問題、またはエラー**: バグレポートはこちらから記入してください"
 
-#: ../../pymapdl/doc/source/getting_started/contribution.rst:67
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:72
 msgid "**📖 Documentation issue**: Modifications to the documentation only"
 msgstr "**📖 ドキュメンテーションの問題**: ドキュメントの修正のみ"
 
-#: ../../pymapdl/doc/source/getting_started/contribution.rst:68
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:73
 msgid "**🎓 Adding an example**: Proposing a new example for the library"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/contribution.rst:69
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:74
 msgid "**💡 New feature**: Enhancements to the code"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/contribution.rst:72
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:77
 msgid ""
 "If your issue does not fit into one of these categories, click `Open a blank"
 " issue <pymapdl_new_blank_issue_>`_."
@@ -968,26 +976,30 @@ msgid ""
 " of MAPDL that you can connect to remotely."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/docker.rst:256
+#: ../../pymapdl/doc/source/getting_started/docker.rst:252
+msgid "you can use the following command to launch MAPDL:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:262
 msgid "Connect to the MAPDL container from Python"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/docker.rst:258
+#: ../../pymapdl/doc/source/getting_started/docker.rst:264
 msgid ""
 "You can connect to an MAPDL instance as indicated in "
 ":ref:`connect_grpc_madpl_session`. You do not need to specify an IP address "
 "because Docker maps the ports to the local host."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/docker.rst:263
+#: ../../pymapdl/doc/source/getting_started/docker.rst:269
 msgid "Additional considerations"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/docker.rst:266
+#: ../../pymapdl/doc/source/getting_started/docker.rst:272
 msgid "Use ``--restart`` policy with MAPDL products"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/docker.rst:268
+#: ../../pymapdl/doc/source/getting_started/docker.rst:274
 msgid ""
 "By default, MAPDL creates a ``LOCK`` file in the working directory when it "
 "starts, and it deletes this file if it exits normally. The file is used to "
@@ -995,7 +1007,7 @@ msgid ""
 "when starting MAPDL after an abnormal termination."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/docker.rst:273
+#: ../../pymapdl/doc/source/getting_started/docker.rst:279
 msgid ""
 "Because of this behavior, when using the Docker ``--restart`` flag in the "
 "`docker run <docker_run_>`_ command, you might enter into an infinite loop "
@@ -1005,7 +1017,7 @@ msgid ""
 "the container also exits."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/docker.rst:279
+#: ../../pymapdl/doc/source/getting_started/docker.rst:285
 msgid ""
 "This triggers the Docker ``restart`` policy, which attempts to restart MAPDL"
 " container and the MAPDL process with it. But because of the presence of the"
@@ -1015,7 +1027,7 @@ msgid ""
 "overwrite the previous files."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/docker.rst:286
+#: ../../pymapdl/doc/source/getting_started/docker.rst:292
 msgid ""
 "In such cases, you should not use the ``--restart`` option. If you really "
 "need to use this option, you can avoid MAPDL checks and create the ``LOCK`` "
@@ -1023,76 +1035,76 @@ msgid ""
 "set to ``\"OFF\"``."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/docker.rst:290
+#: ../../pymapdl/doc/source/getting_started/docker.rst:296
 msgid ""
 "This code shows how to do this in your `docker run <docker_run_>`_ command:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/docker.rst:321
+#: ../../pymapdl/doc/source/getting_started/docker.rst:327
 msgid "Get useful files after abnormal termination"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/docker.rst:323
+#: ../../pymapdl/doc/source/getting_started/docker.rst:329
 msgid ""
 "In some cases, the MAPDL container might crash after the MAPDL process "
 "experiences an abnormal termination. In these cases, you can retrieve log "
 "files and output files using the tools that Docker provides."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/docker.rst:327
+#: ../../pymapdl/doc/source/getting_started/docker.rst:333
 msgid "First, get the Docker container name:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/docker.rst:350
+#: ../../pymapdl/doc/source/getting_started/docker.rst:356
 msgid "Then use the ``name`` in this command:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/docker.rst:369
+#: ../../pymapdl/doc/source/getting_started/docker.rst:375
 msgid ""
 "This command executes the command shell (``/bin/bash``) of the container and"
 " attaches your current terminal to it (interactive ``-it``)."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/docker.rst:390
+#: ../../pymapdl/doc/source/getting_started/docker.rst:396
 msgid ""
 "Now you can enter commands inside the Docker container and navigate inside "
 "it."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/docker.rst:418
+#: ../../pymapdl/doc/source/getting_started/docker.rst:424
 msgid ""
 "You can then take note of the files you want to retrieve. For example, you "
 "would likely want to retrieve the error and output files (``file*.err`` and "
 "``file*.out``)."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/docker.rst:420
+#: ../../pymapdl/doc/source/getting_started/docker.rst:426
 msgid "Exit the container terminal using the ``exit`` command:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/docker.rst:442
+#: ../../pymapdl/doc/source/getting_started/docker.rst:448
 msgid ""
 "You can then copy the noted files using the `docker cp <docker_cp_>`_ "
 "command:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/docker.rst:460
+#: ../../pymapdl/doc/source/getting_started/docker.rst:466
 msgid ""
 "This command copies the files in the current directory. You can specify a "
 "different destination using the second argument."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/docker.rst:463
+#: ../../pymapdl/doc/source/getting_started/docker.rst:469
 msgid ""
 "If you want to retrieve multiple files, the most efficient approach is to "
 "get back inside the Docker container:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/docker.rst:484
+#: ../../pymapdl/doc/source/getting_started/docker.rst:490
 msgid "Create a folder where you are going to copy all the desired files:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/docker.rst:514
+#: ../../pymapdl/doc/source/getting_started/docker.rst:520
 msgid "Then copy the entire folder content at once:"
 msgstr ""
 
