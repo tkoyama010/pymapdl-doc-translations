@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-29 00:15+0000\n"
+"POT-Creation-Date: 2024-06-19 00:15+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -453,7 +453,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/plotting.pydocstring of
 #: ansys.mapdl.core.plotting.general_plotter:248
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:69
+#: ansys.mapdl.core.pool.MapdlPool:97
 #: ../../pymapdl/src/ansys/mapdl/core/post.pydocstring of
 #: ansys.mapdl.core.post.PostProcessing:17
 #: ../../pymapdl/src/ansys/mapdl/core/solution.pydocstring of
@@ -538,7 +538,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/plotting.pydocstring of
 #: ansys.mapdl.core.plotting.general_plotter:83
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:22
+#: ansys.mapdl.core.pool.MapdlPool:8
 msgid "python:int, optional"
 msgstr ""
 
@@ -789,17 +789,15 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/plotting.pydocstring of
 #: ansys.mapdl.core.plotting.general_plotter:135
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:11
+#: ansys.mapdl.core.pool.MapdlPool:13
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:14
+#: ansys.mapdl.core.pool.MapdlPool:44
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:25
+#: ansys.mapdl.core.pool.MapdlPool:48
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:29
+#: ansys.mapdl.core.pool.MapdlPool:51
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:32
-#: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:47
+#: ansys.mapdl.core.pool.MapdlPool:71
 msgid "bool, optional"
 msgstr ""
 
@@ -1431,7 +1429,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/plotting.pydocstring of
 #: ansys.mapdl.core.plotting.general_plotter:42
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:18
+#: ansys.mapdl.core.pool.MapdlPool:17
 msgid "python:str, optional"
 msgstr ""
 
@@ -3303,7 +3301,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
 #: ansys.mapdl.core.mapdl_core._MapdlCore.run:16
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:52
+#: ansys.mapdl.core.pool.MapdlPool:80
 msgid "python:dict, optional"
 msgstr ""
 
@@ -4747,8 +4745,6 @@ msgstr ""
 #: ansys.mapdl.core.inline_functions.selection_queries._SelectionStatusQueries.vsel:14
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl:70
-#: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:8
 msgid "python:int"
 msgstr ""
 
@@ -6400,7 +6396,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl:21
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:19
+#: ansys.mapdl.core.pool.MapdlPool:18
 msgid "**run_location** : :class:`python:str`, :obj:`optional`"
 msgstr ""
 
@@ -6559,7 +6555,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl:82
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:48
+#: ansys.mapdl.core.pool.MapdlPool:72
 msgid ""
 "**start_instance** : :ref:`bool <python:bltin-boolean-values>`, "
 ":obj:`optional`"
@@ -6627,7 +6623,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl:112
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:33
+#: ansys.mapdl.core.pool.MapdlPool:52
 msgid ""
 "**remove_temp_files** : :ref:`bool <python:bltin-boolean-values>`, "
 ":obj:`optional`"
@@ -7830,7 +7826,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.download:30
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:26
+#: ansys.mapdl.core.pool.MapdlPool:45
 msgid ""
 "**progress_bar** : :ref:`bool <python:bltin-boolean-values>`, "
 ":obj:`optional`"
@@ -9944,73 +9940,112 @@ msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
 #: ansys.mapdl.core.pool.MapdlPool:9
-msgid "**n_instance** : :class:`python:int`"
+msgid "**n_instances** : :class:`python:int`, :obj:`optional`"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
 #: ansys.mapdl.core.pool.MapdlPool:10
-msgid "Number of instances to create."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:12
-#: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:30
 msgid ""
-"**restart_failed** : :ref:`bool <python:bltin-boolean-values>`, "
-":obj:`optional`"
+"Number of instances to create. This argument can be optional if the number "
+"of instances can be inferred from the ``ip`` and/or ``port`` arguments. See "
+"these arguments documentation for more information."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:13
-msgid "Restarts failed instances.  Defaults to ``True``."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:15
+#: ansys.mapdl.core.pool.MapdlPool:14
 msgid "**wait** : :ref:`bool <python:bltin-boolean-values>`, :obj:`optional`"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:16
+#: ansys.mapdl.core.pool.MapdlPool:15
 msgid ""
 "Wait for pool to be initialized.  Otherwise, pool will start in the "
 "background and all resources may not be available instantly."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:20
+#: ansys.mapdl.core.pool.MapdlPool:19
 msgid ""
 "Base directory to create additional directories for each MAPDL instance.  "
 "Defaults to a temporary working directory."
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc:11
+#: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
+#: ansys.mapdl.core.pool.MapdlPool:22
+msgid ""
+"**ip** : :class:`python:str`, :class:`python:list`\\[:class:`python:str`], "
+":obj:`optional`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
+#: ansys.mapdl.core.pool.MapdlPool:21
+msgid "python:str, python:list[python:str], optional"
+msgstr ""
+
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
 #: ansys.mapdl.core.pool.MapdlPool:23
-msgid "**port** : :class:`python:int`, :obj:`optional`"
+msgid ""
+"IP address(es) to connect to where the MAPDL instances are running. You can "
+"use one IP, if you have multiple instances running on it, but in that case "
+"you must specify all the ports using the argument `port`. If using a list of"
+" IPs, the number of ports in 'port' argument should match the number of IPs."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:24
-msgid "Starting port for the MAPDL instances.  Defaults to 50052."
+#: ansys.mapdl.core.pool.MapdlPool:29
+msgid ""
+"**port** : :class:`python:int`, :class:`python:list`\\[:class:`python:int`],"
+" :obj:`optional`"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:27
+#: ansys.mapdl.core.pool.MapdlPool:28
+msgid "python:int, python:list[python:int], optional"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
+#: ansys.mapdl.core.pool.MapdlPool:30
+msgid ""
+"The ports where the MAPDL instances are started on or can be connected to. "
+"If you are connecting to a single remote instance (only one IP in ``ip`` "
+"argument), you must specify a number of ports equal to the number of "
+"instances you want to connect to. If you are connecting to multiple "
+"instances (multiple IPs in ``ip`` argument), the amount of ports, should "
+"match the number of IPs."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
+#: ansys.mapdl.core.pool.MapdlPool:37
+msgid ""
+"If only one port is specified and you are starting the MAPDL instances "
+"locally (``start_instance`` is ``True``), this port is the port for the "
+"first instance. The rest of the instances ports are unitarian increments of "
+"port, as long as these ports are free from other processes usage. If you are"
+" not starting the MAPDL instances local, PyMAPDL does not check whether "
+"these ports are busy or not. Defaults to 50052."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
+#: ansys.mapdl.core.pool.MapdlPool:46
 msgid ""
 "Show a progress bar when starting the pool.  Defaults to ``True``.  Will not"
 " be shown when ``wait=False``."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:31
-msgid "Restarts any failed instances in the pool."
+#: ansys.mapdl.core.pool.MapdlPool:49
+msgid ""
+"**restart_failed** : :ref:`bool <python:bltin-boolean-values>`, "
+":obj:`optional`"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:34
+#: ansys.mapdl.core.pool.MapdlPool:50
+msgid "Restarts any failed instances in the pool. Defaults to ``True``."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
+#: ansys.mapdl.core.pool.MapdlPool:53
 msgid ""
 "This launcher creates a new MAPDL working directory for each instance of "
 "MAPDL within the temporary user directory, obtainable with "
@@ -10019,17 +10054,17 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:40
+#: ansys.mapdl.core.pool.MapdlPool:59
 msgid "**names** : :class:`python:str`, :obj:`Callable`, :obj:`optional`"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:39
+#: ansys.mapdl.core.pool.MapdlPool:58
 msgid "python:str, Callable, optional"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:41
+#: ansys.mapdl.core.pool.MapdlPool:60
 msgid ""
 "You can specify the names of the directories where the instances are "
 "created. A string or a function (callable) that accepts an integer and "
@@ -10039,7 +10074,19 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:49
+#: ansys.mapdl.core.pool.MapdlPool:67
+msgid "**override: bool, optional**"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
+#: ansys.mapdl.core.pool.MapdlPool:68
+msgid ""
+"Attempts to delete the lock file at the run_location. Useful when a prior "
+"MAPDL session has exited prematurely and the lock file has not been deleted."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
+#: ansys.mapdl.core.pool.MapdlPool:73
 msgid ""
 "Set it to ``False`` to make PyMAPDL to connect to remote instances instead "
 "of launching them. In that case, you need to supply the MAPDL instances "
@@ -10047,38 +10094,56 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:53
+#: ansys.mapdl.core.pool.MapdlPool:77
+msgid "**exec_file: str, optional**"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
+#: ansys.mapdl.core.pool.MapdlPool:78
+msgid ""
+"The location of the MAPDL executable.  Will use the cached location when "
+"left at the default ``None``."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
+#: ansys.mapdl.core.pool.MapdlPool:81
 msgid "**\\*\\*kwargs** : :class:`python:dict`, :obj:`optional`"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:54
+#: ansys.mapdl.core.pool.MapdlPool:82
 msgid ""
 "Additional keyword arguments. For a complete listing, see the description "
 "for the :func:`ansys.mapdl.core.launcher.launch_mapdl` method."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:70
+#: ansys.mapdl.core.pool.MapdlPool:98
 msgid ""
 "Simply create a pool of 10 instances to run in the temporary directory."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:77
+#: ansys.mapdl.core.pool.MapdlPool:105
 msgid ""
 "Create several instances with 1 CPU each running at the current directory "
 "within their own isolated directories."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:85
+#: ansys.mapdl.core.pool.MapdlPool:113
 msgid "Create a pool while specifying the MAPDL executable in Windows."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:91
+#: ansys.mapdl.core.pool.MapdlPool:119
 msgid "Create a pool while specifying the MAPDL executable in Linux."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
+#: ansys.mapdl.core.pool.MapdlPool:125
+msgid ""
+"Create a pool of instances in multiple instances and with different ports:"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:21:<autosummary>:1
@@ -12444,6 +12509,11 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc:9
 msgid "IP address to connect to the server.  The default is 'localhost'."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc:11
+msgid "**port** : :class:`python:int`, :obj:`optional`"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
