@@ -102,7 +102,7 @@ msgstr ""
 msgid ""
 "The model is a cylindrical acoustic duct with pressure load on one end and "
 "output impedance on the other end."
-msgstr ""
+msgstr "モデルは、一端に圧力負荷、他端に出力インピーダンスを持つ円筒形の音響ダクトです。"
 
 #: ../../pymapdl/doc/source/examples/extended_examples/Krylov/krylov_example.rst:24
 msgid "These are the main steps required:"
