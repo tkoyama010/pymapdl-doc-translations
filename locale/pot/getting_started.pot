@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-02 00:15+0000\n"
+"POT-Creation-Date: 2024-07-10 00:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -474,95 +474,95 @@ msgstr ""
 msgid "Unit tests and integration tests are part of continuous integration (CI). The automation of testing, monitoring, and deployment of newly added code allows continuous deployment (CD) throughout the app lifecycle, providing a comprehensive CI/CD approach."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:282
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:288
 msgid "Example"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:284
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:290
 msgid "The `test_component.py <pymapdl_test_component_>`_ file contains the unit tests and integration tests for the :class:`ComponentManager <ansys.mapdl.core.component.ComponentManager>` class. These tests are just some of the many in the `test directory <pymapdl_tests_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:289
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:295
 msgid "Here are some examples of how you use ``pytest``:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:319
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:325
 msgid "For further ``pytest`` configuration details, see the `pytest documentation <pytest_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:323
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:329
 msgid "Code coverage"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:325
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:331
 msgid "To verify that all code is properly tested, you must ensure that every piece of code is used (covered) in at least one unit test. In this repository, the `Codecov <codecov_>`_ tool generates a coverage report of the committed code. It indicates how merging a pull request would impact coverage. The generation of this report is one of the checks that must run successfully to merge code changes."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:337
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:343
 msgid "Coverage example"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:339
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:345
 msgid "To show how the coverage works, assume that you have this library:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:342
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:348
 msgid "**Awesome library**"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:356
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:362
 msgid "**Tests**"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:358
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:364
 msgid "You can opt to run the tests with this configuration:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:368
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:374
 msgid "Or, if a method is a bit more complex, you can split the case in different tests:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:384
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:390
 msgid "While the code coverage in either case is 100% for the function, the second case is more useful for debugging the function."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:387
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:393
 msgid "You can also use `parametrize (pytest.mark.parametrize) <pytest_parametrize_>`_ to make the code more readable, and easier to reuse."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:407
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:413
 msgid "For further explanations, see the `pytest documentation <pytest_>`_ ."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:410
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:416
 msgid "Code style"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:412
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:418
 msgid "PyMAPDL follows the PEP8 standard as outlined in the `PyAnsys Development Guide <dev_guide_pyansys_>`_ and implements style checking using `pre-commit <precommit_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:416
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:422
 msgid "To ensure your code meets minimum code styling standards, run these commands:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:423
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:429
 msgid "You can also install this as a pre-commit hook by running this command:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:429
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:435
 msgid "Since you have installed ``pre-commit`` as a hook, ``git`` automatically runs these hooks before committing, failing if it find any format issues and making or proposing the necessary changes to the commit. If this happens, you might need to run commit and edit these changes several times before commit successfully."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:451
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:457
 msgid "This way, it's not possible for you to push code that fails the style checks. For example:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:474
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:480
 msgid "First time you run ``pre-commit`` (using ``git commit`` or ``pre-commit``), the command might take a bit of time (2-3 minutes) to download the specified hooks and install them. After that first time, analysing your commits should take seconds."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:478
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:484
 msgid "``pre-commit`` hooks can also be updated, added or removed. For more information, visit `pre-commit <precommit_>`_ website."
 msgstr ""
 
@@ -1265,7 +1265,7 @@ msgid "Introduction"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/learning.rst:11
-msgid "_PyMAPDL provides Pythonic access to MAPDL, an Ansys finite element solver._"
+msgid "PyMAPDL provides Pythonic access to MAPDL, an Ansys finite element solver."
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/learning.rst:12
@@ -1746,91 +1746,94 @@ msgstr ""
 msgid "The following diagram presents a simplified architecture of PyMAPDL."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/project.rst:57
+#: ../../pymapdl/doc/source/getting_started/project.rst:54
+#: ../../pymapdl/doc/source/getting_started/project.rst:59
+#: ../../pymapdl/doc/source/getting_started/project.rst:62
+#: ../../pymapdl/doc/source/getting_started/project.rst:67
 msgid "PyMAPDL architecture diagram"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/project.rst:60
+#: ../../pymapdl/doc/source/getting_started/project.rst:71
 msgid "Quick code"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/project.rst:61
+#: ../../pymapdl/doc/source/getting_started/project.rst:72
 msgid "Here's a brief example of how PyMAPDL works:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/project.rst:72
+#: ../../pymapdl/doc/source/getting_started/project.rst:83
 msgid "MAPDL is now active and you can send commands to it as a genuine Python class. For example, if you wanted to create a surface using key points, you could run:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/project.rst:89
+#: ../../pymapdl/doc/source/getting_started/project.rst:100
 msgid "MAPDL interactively returns the result of each command, which is stored to the logging module. The ``print(mapdl.run)`` method can also be used to immediately print out the result. Errors are caught immediately and Pythonically."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/project.rst:95
+#: ../../pymapdl/doc/source/getting_started/project.rst:106
 msgid "Calling MAPDL Pythonically"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/project.rst:96
+#: ../../pymapdl/doc/source/getting_started/project.rst:107
 msgid "MAPDL functions can be called directly from a :class:`Mapdl <ansys.mapdl.core.mapdl.MapdlBase>` instance in a Pythonic manner. This is to simplify calling MAPDL, especially when inputs are variables within Python. For example, the following two commands are equivalent:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/project.rst:106
+#: ../../pymapdl/doc/source/getting_started/project.rst:117
 msgid "This approach takes care of the string formatting for you. For example, inputting points from a numpy array:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/project.rst:118
+#: ../../pymapdl/doc/source/getting_started/project.rst:129
 msgid "Advanced features"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/project.rst:119
+#: ../../pymapdl/doc/source/getting_started/project.rst:130
 msgid "All features available to command line MAPDL can be used within PyMAPDL, and there are a variety of new features available through gRPC."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/project.rst:123
+#: ../../pymapdl/doc/source/getting_started/project.rst:134
 msgid "For example, view the current mesh status with:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/project.rst:135
+#: ../../pymapdl/doc/source/getting_started/project.rst:146
 msgid "Or save it as a VTK file with:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/project.rst:141
+#: ../../pymapdl/doc/source/getting_started/project.rst:152
 msgid "You can even plot directly from the Python environment with:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/project.rst:153
+#: ../../pymapdl/doc/source/getting_started/project.rst:164
 msgid "Element plot from MAPDL using ``PyMAPDL`` and ``vtk``"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/project.rst:156
+#: ../../pymapdl/doc/source/getting_started/project.rst:167
 msgid "Documentation and issues"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/project.rst:157
+#: ../../pymapdl/doc/source/getting_started/project.rst:168
 msgid "Documentation for the latest stable release of PyMAPDL is hosted at `PyMAPDL documentation <https://mapdl.docs.pyansys.com/version/stable/>`_. The same documentation is also `available as PDF <pymapdl_latest_pdf_doc_>`_ in the `Assets` section in the `latest GitHub package release <pymapdl_latest_github_release_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/project.rst:162
+#: ../../pymapdl/doc/source/getting_started/project.rst:173
 msgid "In the upper right corner of the documentation's title bar, there is an option for switching from viewing the documentation for the latest stable release to viewing the documentation for the development version or previously released versions."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/project.rst:166
+#: ../../pymapdl/doc/source/getting_started/project.rst:177
 msgid "You can also `view <https://cheatsheets.docs.pyansys.com/pymapdl_cheat_sheet.png>`_ or `download <https://cheatsheets.docs.pyansys.com/pymapdl_cheat_sheet.pdf>`_ the PyMAPDL cheat sheet. This one-page reference provides syntax rules and commands for using PyMAPDL."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/project.rst:171
+#: ../../pymapdl/doc/source/getting_started/project.rst:182
 msgid "On the `PyMAPDL Issues <https://github.com/ansys/pymapdl/issues>`_ page, you can create issues to report bugs and request new features. On the `PyMAPDL Discussions <https://github.com/ansys/pymapdl/discussions>`_ page or the `Discussions <https://discuss.ansys.com/>`_ page on the Ansys Developer portal, you can post questions, share ideas, and get community feedback."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/project.rst:176
+#: ../../pymapdl/doc/source/getting_started/project.rst:187
 msgid "To reach the PyAnsys project support team, email `PyAnsys Core team <pyansys.core@ansys.com>`_. Unfortunately no specific library questions or issues are answered through this email. Please refer to `PyMAPDL Issues <pymapdl_issues_>`_, or `PyMAPDL Discussions <pymapdl_discussions_>`_ for raising issues, request new features, or asking questions."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/project.rst:184
+#: ../../pymapdl/doc/source/getting_started/project.rst:195
 msgid "Project index"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/project.rst:186
+#: ../../pymapdl/doc/source/getting_started/project.rst:197
 msgid ":ref:`genindex`"
 msgstr ""
 
@@ -2115,7 +2118,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:159
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:161
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:163
-msgid "|:heavy_check_mark:|"
+msgid "|:white_check_mark:|"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:123
@@ -2123,7 +2126,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:127
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:129
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:131
-msgid "|:heavy_minus_sign:|"
+msgid "|:exclamation:|"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:125
@@ -2235,11 +2238,11 @@ msgid "Where:"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:168
-msgid "|:heavy_check_mark:| means that the interface is supported and recommended."
+msgid "|:white_check_mark:| means that the interface is supported and recommended."
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:169
-msgid "|:heavy_minus_sign:| means that the interface is supported, but not recommended. Their support might be dropped in the future."
+msgid "|:exclamation:| means that the interface is supported, but not recommended. Their support might be dropped in the future."
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:170

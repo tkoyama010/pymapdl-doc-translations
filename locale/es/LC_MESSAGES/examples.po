@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-21 15:07+0000\n"
+"POT-Creation-Date: 2024-07-10 00:16+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -1552,7 +1552,7 @@ msgid "Solve the magnetostatic analysis."
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:305
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:337
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:347
 msgid "Postprocessing"
 msgstr ""
 
@@ -1924,7 +1924,7 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_pressure_vessel.rst:37
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:48
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:58
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/exhaust_manifold_thermal_stress.rst:40
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/modal_beam.rst:39
 msgid "Procedure"
@@ -3322,73 +3322,75 @@ msgstr ""
 msgid "Problem figure"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:41
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:42
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:50
 msgid "DCB experimental test setup"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:45
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:47
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:55
 msgid "**Source**: https://www.wikiwand.com/en/Delamination"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:49
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:59
 msgid "Launch the MAPDL instance."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:50
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:60
 msgid "Set up the model."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:51
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:61
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:337
 msgid "Solve the model."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:52
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:62
 msgid "Plot results using PyMAPDL."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:53
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:63
 msgid "Plot results using PyDPF."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:54
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:64
 msgid "Plot reaction force."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:57
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:67
 msgid "Additional packages"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:58
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:68
 msgid ""
 "These additional packages are imported for use: * - `Matplotlib "
 "<https://matplotlib.org>`_ for plotting * - `Pandas "
 "<https://pandas.pydata.org/>`_ for data analysis and manipulation"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:65
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:75
 msgid "Start MAPDL as a service"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:66
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:76
 msgid ""
 "This example begins by importing the required packages and then launching "
 "Ansys Mechanical APDL."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:90
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:100
 msgid "Set geometrical inputs"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:91
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:101
 msgid "Set geometrical inputs for the model."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:109
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:119
 msgid "Set up the model"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:110
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:120
 msgid ""
 "Set up the model by choosing the units system and the element types for the "
 "simulations. Because a fully 3D approach is chosen for this example, "
@@ -3397,31 +3399,31 @@ msgid ""
 "surfaces."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:118
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:128
 msgid "Define material parameters"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:119
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:129
 msgid ""
 "Composite plates are modelled using homogeneous linear elastic orthotropic "
 "properties, whereas a bilinear cohesive law is used for cohesive elements."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:152
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:162
 msgid "Create the geometry in the model and meshing"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:153
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:163
 msgid ""
 "The two plates are generated as two parallelepipeds. Composite material "
 "properties and the three-dimensional elements are then assigned."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:178
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:188
 msgid "Generate cohesive elements in between the contact surfaces"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:179
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:189
 msgid ""
 "The generation of cohesive elements is the most delicate part of the "
 "modelling approach. First, the two contact surfaces are identified and "
@@ -3433,11 +3435,11 @@ msgid ""
 " `cm_2`."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:253
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:263
 msgid "Generate boundary conditions"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:254
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:264
 msgid ""
 "Assign boundary conditions to replicate the real test conditions. One end of"
 " the two composite plates is fixed against translation along the x, y, and z"
@@ -3449,25 +3451,25 @@ msgid ""
 " of nodes for a faster identification of the nodes bearing reaction forces."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:304
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:314
 msgid "Solve the non-linear static analysis"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:306
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:316
 msgid ""
 "Run a non-linear static analysis. To have smooth crack opening progression "
 "and facilitate convergency for the static solver, request 100 substeps."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:338
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:348
 msgid "Use PyMAPDL and PyDPF for postprocessing."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:342
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:352
 msgid "Postprocess results using PyMAPDL"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:343
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:353
 msgid ""
 "This section shows how to use PyMAPDL to postprocess results. Because "
 "measuring the delamination length is important, plot the cohesive damage "
@@ -3479,43 +3481,43 @@ msgid ""
 "table (or an array)."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:383
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:393
 msgid "Postprocessing results using PyDPF"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:384
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:394
 msgid ""
 "Use PyDPF to visualize the crack opening throughout the simulation as an "
 "animation."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:490
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:500
 msgid "Plot the reaction force at the bottom nodes"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:526
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:536
 msgid "Animate results using PyDPF with .animate() method"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:527
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:537
 msgid ""
 "Use PyDPF method :func:`FieldsContainer.animate() "
 "<ansys.dpf.core.fields_container.FieldsContainer.animate>` to visualize the "
 "crack opening throughout the simulation as an animation."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:545
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:555
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/cyclic_static.rst:148
 msgid "Exit MAPDL"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:567
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:577
 msgid ""
 ":download:`Download Jupyter notebook: composite_dcb.ipynb "
 "<composite_dcb.ipynb>`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:571
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:581
 msgid ""
 ":download:`Download Python source code: composite_dcb.py <composite_dcb.py>`"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-01 00:15+0000\n"
+"POT-Creation-Date: 2024-07-10 00:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1618,7 +1618,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/user_guide/mapdl.rst:1018
 #: ../../pymapdl/doc/source/user_guide/mapdl.rst:1020
 #: ../../pymapdl/doc/source/user_guide/mapdl.rst:1022
-msgid "|:heavy_check_mark:| Works"
+msgid "|:white_check_mark:| Works"
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/mapdl.rst:988
@@ -1632,7 +1632,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/user_guide/mapdl.rst:990
 #: ../../pymapdl/doc/source/user_guide/mapdl.rst:994
 #: ../../pymapdl/doc/source/user_guide/mapdl.rst:1028
-msgid "|:heavy_minus_sign:| MAPDL shows a warning"
+msgid "|:exclamation:| MAPDL shows a warning"
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/mapdl.rst:990
@@ -1661,7 +1661,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/mapdl.rst:996
 #: ../../pymapdl/doc/source/user_guide/mapdl.rst:998
-msgid "|:heavy_minus_sign:| Ignored by MAPDL"
+msgid "|:exclamation:| Ignored by MAPDL"
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/mapdl.rst:998
@@ -1770,7 +1770,7 @@ msgid "``/BATCH``"
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/mapdl.rst:1024
-msgid "|:heavy_minus_sign:| Ignored by MAPDL."
+msgid "|:exclamation:| Ignored by MAPDL."
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/mapdl.rst:1024
@@ -1846,7 +1846,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/user_guide/mapdl.rst:1086
 #: ../../pymapdl/doc/source/user_guide/mapdl.rst:1088
 #: ../../pymapdl/doc/source/user_guide/mapdl.rst:1090
-msgid "|:heavy_check_mark:| Available"
+msgid "|:white_check_mark:| Available"
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/mapdl.rst:1082
@@ -1854,7 +1854,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/user_guide/mapdl.rst:1086
 #: ../../pymapdl/doc/source/user_guide/mapdl.rst:1088
 #: ../../pymapdl/doc/source/user_guide/mapdl.rst:1090
-msgid "|:heavy_minus_sign:| Only in :attr:`Mapdl.non_interactive <ansys.mapdl.core.Mapdl.non_interactive>`"
+msgid "|:exclamation:| Only in :attr:`Mapdl.non_interactive <ansys.mapdl.core.Mapdl.non_interactive>`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/mapdl.rst:1082
@@ -1887,7 +1887,7 @@ msgid "``LSWRITE``"
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/mapdl.rst:1090
-msgid "|:heavy_check_mark:| Available (Internally running in :attr:`Mapdl.non_interactive <ansys.mapdl.core.Mapdl.non_interactive>`)"
+msgid "|:white_check_mark:| Available (Internally running in :attr:`Mapdl.non_interactive <ansys.mapdl.core.Mapdl.non_interactive>`)"
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/mapdl.rst:1095
@@ -2943,7 +2943,7 @@ msgid "Some Linux installations might be missing required dependencies. If you g
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:0
-msgid "CentOS 7"
+msgid "CentOS 7 and Rocky 8"
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:324
@@ -2998,8 +2998,8 @@ msgstr ""
 msgid "If you experience issues, you should edit these environment variables to remove any reference to the student version: ``ANSYSXXX_DIR``, ``AWP_ROOTXXX``, and ``CADOE_LIBDIRXXX``. Visit `Incorrect environment variables`_ for information on how to set these environment variables to the correct location."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:432
-msgid "Launching MAPDL Student Version By default if a student version is detected, PyMAPDL launches the MAPDL instance in ``SMP`` mode, unless another MPI option is specified."
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:433
+msgid "By default if a student version is detected, PyMAPDL launches the MAPDL instance in ``SMP`` mode, unless another MPI option is specified."
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:437
@@ -3007,204 +3007,219 @@ msgid "Incorrect environment variables"
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:439
-msgid "If you are using a non-standard install, you might need to manually set the environment variables ``ANSYSXXX_DIR``, ``AWP_ROOTXXX``, and ``CADOE_LIBDIRXXX`` to the correct location. The three-digit MAPDL version appears where ``XXX`` is shown. For Ansys MAPDL 2022 R2, ``222`` appears where ``XXX`` is shown."
+msgid "If you are using a non-standard install, you might need to manually set the environment variables ``ANSYSXXX_DIR``, ``AWP_ROOTXXX``, and ``CADOE_LIBDIRXXX`` to the correct location. The three-digit MAPDL version appears where ``XXX`` is shown. For Ansys MAPDL 2024 R2, ``242`` appears where ``XXX`` is shown."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:472
-msgid "Using a proxy server"
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:0
+msgid "AWP_ROOT242"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:474
-msgid "In some rare cases, you might experience some problems to connect to the MAPDL instance if you are using a proxy. When `gRPC <grpc_>`_ is used in a proxy environment, if a local address is specified (that is ``127.0.0.1``) as the connection destination, the gRPC implementation refers automatically to the proxy address. In this case, the local address cannot be referred, resulting in a connection error. As a workaround, you can set the environment variable ``NO_PROXY`` to your local address ``127.0.0.1``, and then run :func:`launch_mapdl() <ansys.mapdl.core.launcher.launch_mapdl>` to connect to MAPDL instance."
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:0
+msgid "ANSYS242_DIR"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:485
-msgid "Firewall settings"
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:0
+msgid "CADOE_LIBDIR242"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:487
-msgid "MAPDL and Python should have the correct firewall settings to allow communication between the two. If you are using a firewall, you should allow MAPDL to receive inbound connections to the following ports:"
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:490
-msgid "50052 (TCP) for gRPC connection."
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:491
-msgid "50053+ (TCP) for extra gRPC connection."
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:492
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:501
-msgid "50055 (TCP) for gRPC connection to the MAPDL database."
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:494
-msgid "Python process must be allowed to connect to the mentioned ports (outbound connections)."
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:496
-msgid "Normally most of the firewall rules focus on the inbound connections, so you should not need to configure the outbound connections. However, if you are experiencing problems, you should make sure that the firewall is not blocking the outbound connections on the following ports:"
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:500
-msgid "5005X (TCP) for gRPC connections."
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:502
-msgid "1055 (TCP) for licensing connections."
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:503
-msgid "2325 (TCP) for licensing connections."
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:505
-msgid "For more information on how to **configure your firewall on Windows**, please refer to the following link in `Ansys forum-Licensing 2022 R2 Linux Ubuntu (and also Windows) <af_licensing_windows_ubuntu_>`_."
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:476
+msgid "Set these environment variables to custom values for the terminal session:"
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:508
+msgid "If you want these changes to be permanent then:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:543
+msgid "Using a proxy server"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:545
+msgid "In some rare cases, you might experience some problems to connect to the MAPDL instance if you are using a proxy. When `gRPC <grpc_>`_ is used in a proxy environment, if a local address is specified (that is ``127.0.0.1``) as the connection destination, the gRPC implementation refers automatically to the proxy address. In this case, the local address cannot be referred, resulting in a connection error. As a workaround, you can set the environment variable ``NO_PROXY`` to your local address ``127.0.0.1``, and then run :func:`launch_mapdl() <ansys.mapdl.core.launcher.launch_mapdl>` to connect to MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:556
+msgid "Firewall settings"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:558
+msgid "MAPDL and Python should have the correct firewall settings to allow communication between the two. If you are using a firewall, you should allow MAPDL to receive inbound connections to the following ports:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:561
+msgid "``50052`` (TCP) for gRPC connection."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:562
+msgid "``50053+`` (TCP) for extra gRPC connection."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:563
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:572
+msgid "``50055`` (TCP) for gRPC connection to the MAPDL database."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:565
+msgid "Python process must be allowed to connect to the mentioned ports (outbound connections)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:567
+msgid "Normally most of the firewall rules focus on the inbound connections, so you should not need to configure the outbound connections. However, if you are experiencing problems, you should make sure that the firewall is not blocking the outbound connections on the following ports:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:571
+msgid "``5005X`` (TCP) for gRPC connections."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:573
+msgid "``1055`` (TCP) for licensing connections."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:574
+msgid "``2325`` (TCP) for licensing connections."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:576
+msgid "For more information on how to **configure your firewall on Windows**, please refer to the following link in `Ansys forum-Licensing 2022 R2 Linux Ubuntu (and also Windows) <af_licensing_windows_ubuntu_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:579
 msgid "For more information on how to **configure your firewall on Ubuntu Linux**, please refer to the following link `Security-Firewall | Ubuntu <ubuntu_firewall_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:513
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:584
 msgid "Location of the executable file"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:516
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:587
 msgid "Manually set the location of the executable file"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:518
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:589
 msgid "If you have a non-standard install, PyMAPDL might be unable find your MAPDL installation. If this is the case, provide the location of MAPDL as the first parameter to the :func:`launch_mapdl() <ansys.mapdl.core.launcher.launch_mapdl>` method."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:523
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:547
-msgid "**On Windows**"
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:531
-msgid "**On Linux**"
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:542
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:617
 msgid "Default location of the executable file"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:544
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:619
 msgid "The first time that you run PyMAPDL, it detects the available Ansys installations."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:549
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:622
+msgid "**On Windows**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:624
 msgid "Ansys installations are normally under:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:568
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:643
 msgid "Or under:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:575
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:650
 msgid "By default, Ansys installer uses the former one (``/usr/ansys_inc``) but also creates a symbolic to later one (``/ansys_inc``)."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:577
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:652
 msgid "If PyMAPDL finds a valid Ansys installation, it caches its path in the configuration file, ``config.txt``. The path for this file is shown in this code:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:588
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:663
 msgid "In certain cases, this configuration file might become obsolete. For example, when a new Ansys version is installed and an earlier installation is removed."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:591
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:666
 msgid "To update this configuration file with the latest path, use:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:599
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:674
 msgid "If you want to see which Ansys installations PyMAPDL has detected, use:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:609
-msgid "Student versions are provided as **negative** versions because the Python dictionary does not accept two equal keys. The result of the :func:`get_available_ansys_installations() <ansys.mapdl.core.get_available_ansys_installations>` method lists higher versions first and student versions last."
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:684
+msgid "Student versions are provided as **negative** versions because the Python dictionary does not accept two equal keys. The result of the :func:`get_available_ansys_installations() <ansys.tools.path.get_available_ansys_installations>` method lists higher versions first and student versions last."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:615
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:690
 msgid "You should not have the same Ansys product version and student version installed. For more information, see :ref:`conflicts_student_version`."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:620
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:695
 msgid "PyMAPDL usage issues"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:625
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:700
 msgid "Issues when importing and exporting NumPy arrays in MAPDL"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:627
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:702
 msgid "Because of the way MAPDL is designed, there is no way to store an array where one or more dimensions are zero. This can happens in NumPy arrays, where its first dimension can be set to zero. For example:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:642
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:717
 msgid "These types of array dimensions are always converted to ``1``."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:644
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:719
 msgid "For example:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:657
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:732
 msgid "This means that when you pass two arrays, one with the second axis equal to zero (for example, ``my_array``) and another one with the second axis equal to one, have the same shape if later retrieved."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:682
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:757
 msgid "PyMAPDL stability"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:685
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:760
 msgid "Recommendations"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:687
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:762
 msgid "When connecting to an instance of MAPDL using gRPC (default), there are some cases where the MAPDL server might exit unexpectedly. There are several ways to improve MADPL performance and stability:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:692
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:767
 msgid "Use ``mute`` to improve stability"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:694
-msgid "When possible, pass ``mute=True`` to individual MAPDL commands or set it globally with the :func:`Mapdl.mute <ansys.mapdl.core.mapdl_grpc.MapdlGrpc>` method. This disables streaming back the response from MAPDL for each command and marginally improves performance and stability. Consider having a debug flag in your program or script so that you can turn on and off logging and verbosity as needed."
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:769
+msgid "When possible, pass ``mute=True`` to individual MAPDL commands or set it globally with the :func:`Mapdl.mute <ansys.mapdl.core.mapdl_grpc.MapdlGrpc.mute>` method. This disables streaming back the response from MAPDL for each command and marginally improves performance and stability. Consider having a debug flag in your program or script so that you can turn on and off logging and verbosity as needed."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:703
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:778
 msgid "Known Issues"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:705
-msgid "MAPDL 2021 R1 has a stability issue with the : :func:`Mapdl.input() <ansys.mapdl.core.Mapdl.input>` method. Avoid using input files if possible. Attempt to use the :func:`Mapdl.upload() <ansys.mapdl.core.Mapdl.upload>` method to upload nodes and elements and read them in via the :func:`Mapdl.nread() <ansys.mapdl.core.Mapdl.nread>` and :func:`Mapdl.eread() <ansys.mapdl.core.Mapdl.eread>` methods."
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:780
+msgid "MAPDL 2021 R1 has a stability issue with the : :func:`Mapdl.input() <ansys.mapdl.core.Mapdl.input>` method. Avoid using input files if possible. Attempt to use the :func:`Mapdl.upload() <ansys.mapdl.core.mapdl_grpc.MapdlGrpc.upload>` method to upload nodes and elements and read them in via the :func:`Mapdl.nread() <ansys.mapdl.core.Mapdl.nread>` and :func:`Mapdl.eread() <ansys.mapdl.core.Mapdl.eread>` methods."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:716
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:791
 msgid "More help needed?"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:722
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:797
 msgid "*\"What do I do if an issue is not listed here?\"*"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:726
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:801
 msgid "To see if your issue is already posted, search the `PyMAPDL Issues <pymapdl_issues_>`_ page. If not, do one of the following:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:728
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:803
 msgid "If you are not sure of the cause or would like some explanation about the usage of the function or its documentation, create a discussion on the `PyMAPDL Discussions <pymapdl_discussions_>`_ page."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:732
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:807
 msgid "If you believe you have found a bug or want to create a feature request, create an issue on the `PyMAPDL Issues <pymapdl_issues_>`_ page."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:735
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:810
 msgid "For more complex issues or queries, contact the `PyAnsys Core team <pyansys_core_>`_."
 msgstr ""
 
