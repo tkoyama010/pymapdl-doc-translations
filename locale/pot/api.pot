@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-19 00:15+0000\n"
+"POT-Creation-Date: 2024-07-11 00:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -8902,7 +8902,7 @@ msgid ":py:obj:`Mapdl.vplot <ansys.mapdl.core.Mapdl.vplot>`\\ \\(\\[nv1\\, nv2\\
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/pool.rst:4
-msgid "Local MAPDL pool"
+msgid "MAPDL pool"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/pool.rst:12:<autosummary>:1
