@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 23:18+0000\n"
+"POT-Creation-Date: 2024-07-17 00:16+0000\n"
 "PO-Revision-Date: 2024-06-19 00:18+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -31,270 +31,516 @@ msgstr "このドキュメントには、プロジェクトのリリースノー
 
 #: ../../pymapdl/doc/source/changelog.rst:13
 msgid ""
-"`0.68.3 <https://github.com/ansys/pymapdl/releases/tag/v0.68.3>`_ - "
-"2024-06-21"
+"`0.68.4 <https://github.com/ansys/pymapdl/releases/tag/v0.68.4>`_ - "
+"2024-07-15"
 msgstr ""
-"`0.68.3 <https://github.com/ansys/pymapdl/releases/tag/v0.68.3>`_ - "
-"2024-06-21"
 
 #: ../../pymapdl/doc/source/changelog.rst:16
-#: ../../pymapdl/doc/source/changelog.rst:25
+#: ../../pymapdl/doc/source/changelog.rst:91
+#: ../../pymapdl/doc/source/changelog.rst:99
 msgid "Added"
 msgstr "追加"
 
-#: ../../pymapdl/doc/source/changelog.rst:18
-msgid ""
-"feat: Add an inprocess backend to pymapdl `#3198 "
-"<https://github.com/ansys/pymapdl/pull/3198>`_"
-msgstr ""
-"feat: Add an inprocess backend to pymapdl `#3198 "
-"<https://github.com/ansys/pymapdl/pull/3198>`_"
-
-#: ../../pymapdl/doc/source/changelog.rst:22
-msgid ""
-"`0.68.2 <https://github.com/ansys/pymapdl/releases/tag/v0.68.2>`_ - "
-"2024-06-18"
-msgstr ""
-"`0.68.2 <https://github.com/ansys/pymapdl/releases/tag/v0.68.2>`_ - "
-"2024-06-18"
-
-#: ../../pymapdl/doc/source/changelog.rst:27
-msgid ""
-"feat: add a MAPDL version section in for bug issues `#2982 "
-"<https://github.com/ansys/pymapdl/pull/2982>`_"
-msgstr ""
-"feat: add a MAPDL version section in for bug issues `#2982 "
-"<https://github.com/ansys/pymapdl/pull/2982>`_"
-
-#: ../../pymapdl/doc/source/changelog.rst:28
-msgid ""
-"feat: adding some env var print to report `#2999 "
-"<https://github.com/ansys/pymapdl/pull/2999>`_"
-msgstr ""
-"feat: adding some env var print to report `#2999 "
-"<https://github.com/ansys/pymapdl/pull/2999>`_"
-
-#: ../../pymapdl/doc/source/changelog.rst:29
-msgid ""
-"feat: adding ``cycexpand`` command `#3023 "
-"<https://github.com/ansys/pymapdl/pull/3023>`_"
-msgstr ""
-"feat: adding ``cycexpand`` command `#3023 "
-"<https://github.com/ansys/pymapdl/pull/3023>`_"
-
-#: ../../pymapdl/doc/source/changelog.rst:30
-msgid ""
-"feat: update ``vfquery`` `#3037 "
-"<https://github.com/ansys/pymapdl/pull/3037>`_"
-msgstr ""
-"feat: update ``vfquery`` `#3037 "
-"<https://github.com/ansys/pymapdl/pull/3037>`_"
-
-#: ../../pymapdl/doc/source/changelog.rst:31
-msgid ""
-"feat: add argument to disable run_at_connect in `MapdlGrpc` `#3047 "
-"<https://github.com/ansys/pymapdl/pull/3047>`_"
-msgstr ""
-"feat: add argument to disable run_at_connect in `MapdlGrpc` `#3047 "
-"<https://github.com/ansys/pymapdl/pull/3047>`_"
-
-#: ../../pymapdl/doc/source/changelog.rst:32
-msgid ""
-"feat: allowing passing IP to ``MapdlPool`` `#3048 "
-"<https://github.com/ansys/pymapdl/pull/3048>`_"
-msgstr ""
-"feat: allowing passing IP to ``MapdlPool`` `#3048 "
-"<https://github.com/ansys/pymapdl/pull/3048>`_"
-
-#: ../../pymapdl/doc/source/changelog.rst:33
-msgid ""
-"feat: add argument to disable run_at_connect in MapdlGrpc `#3049 "
-"<https://github.com/ansys/pymapdl/pull/3049>`_"
-msgstr ""
-"feat: add argument to disable run_at_connect in MapdlGrpc `#3049 "
-"<https://github.com/ansys/pymapdl/pull/3049>`_"
-
-#: ../../pymapdl/doc/source/changelog.rst:34
-msgid ""
-"feat: converting chained APDL commands to PyMAPDL context manager `#3154 "
-"<https://github.com/ansys/pymapdl/pull/3154>`_"
-msgstr ""
-"feat: converting chained APDL commands to PyMAPDL context manager `#3154 "
-"<https://github.com/ansys/pymapdl/pull/3154>`_"
-
-#: ../../pymapdl/doc/source/changelog.rst:35
-msgid ""
-"feat: allowing multiple IPs for remote connection on ``MapdlPool`` `#3166 "
-"<https://github.com/ansys/pymapdl/pull/3166>`_"
-msgstr ""
-"feat: allowing multiple IPs for remote connection on ``MapdlPool`` `#3166 "
-"<https://github.com/ansys/pymapdl/pull/3166>`_"
-
-#: ../../pymapdl/doc/source/changelog.rst:36
-msgid ""
-"feat: implementing ``ansys/actions/changelogs`` and adding release note in "
-"documentation `#3019 <https://github.com/ansys/pymapdl/pull/3019>`_"
-msgstr ""
-"feat: implementing ``ansys/actions/changelogs`` and adding release note in "
-"documentation `#3019 <https://github.com/ansys/pymapdl/pull/3019>`_"
-
-#: ../../pymapdl/doc/source/changelog.rst:37
-msgid ""
-"feat: adding option to ``_ctrl`` command `#3002 "
-"<https://github.com/ansys/pymapdl/pull/3002>`_"
-msgstr ""
-"feat: adding option to ``_ctrl`` command `#3002 "
-"<https://github.com/ansys/pymapdl/pull/3002>`_"
-
-#: ../../pymapdl/doc/source/changelog.rst:38
-msgid ""
-"feat: making old API function discoverable when Click is not installed "
-"`#3086 <https://github.com/ansys/pymapdl/pull/3086>`_"
-msgstr ""
-"feat: making old API function discoverable when Click is not installed "
-"`#3086 <https://github.com/ansys/pymapdl/pull/3086>`_"
-
-#: ../../pymapdl/doc/source/changelog.rst:42
-msgid "Changed"
-msgstr "変更"
-
-#: ../../pymapdl/doc/source/changelog.rst:44
-msgid ""
-"refactor: refactoring CLI `#2960 "
-"<https://github.com/ansys/pymapdl/pull/2960>`_"
-msgstr ""
-"refactor: refactoring CLI `#2960 "
-"<https://github.com/ansys/pymapdl/pull/2960>`_"
-
-#: ../../pymapdl/doc/source/changelog.rst:48
+#: ../../pymapdl/doc/source/changelog.rst:20
+#: ../../pymapdl/doc/source/changelog.rst:122
 msgid "Fixed"
 msgstr "修正"
 
-#: ../../pymapdl/doc/source/changelog.rst:50
+#: ../../pymapdl/doc/source/changelog.rst:22
 msgid ""
-"fix: avoiding future sphinx warning `#3035 "
-"<https://github.com/ansys/pymapdl/pull/3035>`_"
+"fix: missing arguments on ``OCDATA`` command `#3226 "
+"<https://github.com/ansys/pymapdl/pull/3226>`_"
 msgstr ""
-"fix: avoiding future sphinx warning `#3035 "
-"<https://github.com/ansys/pymapdl/pull/3035>`_"
 
-#: ../../pymapdl/doc/source/changelog.rst:51
+#: ../../pymapdl/doc/source/changelog.rst:23
 msgid ""
-"fix: update the general files to align with PyAnsys standards `#3151 "
-"<https://github.com/ansys/pymapdl/pull/3151>`_"
+"fix: Raising `ValueError` when using ips within pool library `#3240 "
+"<https://github.com/ansys/pymapdl/pull/3240>`_"
 msgstr ""
-"fix: update the general files to align with PyAnsys standards `#3151 "
-"<https://github.com/ansys/pymapdl/pull/3151>`_"
 
-#: ../../pymapdl/doc/source/changelog.rst:52
+#: ../../pymapdl/doc/source/changelog.rst:24
+msgid "fix: pool issues `#3266 <https://github.com/ansys/pymapdl/pull/3266>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/changelog.rst:25
 msgid ""
-"fix: combine the ``docker-compose`` files `#3169 "
-"<https://github.com/ansys/pymapdl/pull/3169>`_"
+"fix: using same labels everywhere `#3188 "
+"<https://github.com/ansys/pymapdl/pull/3188>`_"
 msgstr ""
-"fix: combine the ``docker-compose`` files `#3169 "
-"<https://github.com/ansys/pymapdl/pull/3169>`_"
 
-#: ../../pymapdl/doc/source/changelog.rst:56
+#: ../../pymapdl/doc/source/changelog.rst:26
+msgid ""
+"fix: avoid inspecting suspended processes `#3227 "
+"<https://github.com/ansys/pymapdl/pull/3227>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/changelog.rst:27
+msgid ""
+"fix: not deleting temporary file when ``remove_temp_dir_on_exit`` =True "
+"`#3247 <https://github.com/ansys/pymapdl/pull/3247>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/changelog.rst:28
+msgid ""
+"fix: local tests always running as student `#3251 "
+"<https://github.com/ansys/pymapdl/pull/3251>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/changelog.rst:29
+msgid ""
+"fix: incorrect env vars section `#3252 "
+"<https://github.com/ansys/pymapdl/pull/3252>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/changelog.rst:33
+#: ../../pymapdl/doc/source/changelog.rst:130
 msgid "Documentation"
 msgstr "ドキュメンテーション"
 
-#: ../../pymapdl/doc/source/changelog.rst:58
+#: ../../pymapdl/doc/source/changelog.rst:35
 msgid ""
-"docs: adding previous changes in ``changelog.d`` repository `#3182 "
-"<https://github.com/ansys/pymapdl/pull/3182>`_"
+"docs: adapt static images to dark/light themes `#3249 "
+"<https://github.com/ansys/pymapdl/pull/3249>`_"
 msgstr ""
-"docs: adding previous changes in ``changelog.d`` repository `#3182 "
-"<https://github.com/ansys/pymapdl/pull/3182>`_"
 
-#: ../../pymapdl/doc/source/changelog.rst:59
+#: ../../pymapdl/doc/source/changelog.rst:36
 msgid ""
-"docs: clarifying MAPDL commands API section `#3071 "
-"<https://github.com/ansys/pymapdl/pull/3071>`_"
+"docs: documenting new naming conventions for commits, branches and PRs. "
+"`#3228 <https://github.com/ansys/pymapdl/pull/3228>`_"
 msgstr ""
-"docs: clarifying MAPDL commands API section `#3071 "
-"<https://github.com/ansys/pymapdl/pull/3071>`_"
 
-#: ../../pymapdl/doc/source/changelog.rst:60
-msgid ""
-"docs: HPC documentation `#2966 "
-"<https://github.com/ansys/pymapdl/pull/2966>`_"
-msgstr ""
-"docs: HPC documentation `#2966 "
-"<https://github.com/ansys/pymapdl/pull/2966>`_"
-
-#: ../../pymapdl/doc/source/changelog.rst:61
-msgid ""
-"docs: adding ML-Genetic Algorithm example `#2981 "
-"<https://github.com/ansys/pymapdl/pull/2981>`_"
-msgstr ""
-"docs: adding ML-Genetic Algorithm example `#2981 "
-"<https://github.com/ansys/pymapdl/pull/2981>`_"
-
-#: ../../pymapdl/doc/source/changelog.rst:62
-msgid ""
-"docs: customize agent for linkchecker `#2998 "
-"<https://github.com/ansys/pymapdl/pull/2998>`_"
-msgstr ""
-"docs: customize agent for linkchecker `#2998 "
-"<https://github.com/ansys/pymapdl/pull/2998>`_"
-
-#: ../../pymapdl/doc/source/changelog.rst:63
-msgid ""
-"docs: setting docs version to v241 `#3024 "
-"<https://github.com/ansys/pymapdl/pull/3024>`_"
-msgstr ""
-"docs: setting docs version to v241 `#3024 "
-"<https://github.com/ansys/pymapdl/pull/3024>`_"
-
-#: ../../pymapdl/doc/source/changelog.rst:64
-msgid ""
-"docs: adding documentation about remote mapdl pool `#3046 "
-"<https://github.com/ansys/pymapdl/pull/3046>`_"
-msgstr ""
-"docs: adding documentation about remote mapdl pool `#3046 "
-"<https://github.com/ansys/pymapdl/pull/3046>`_"
-
-#: ../../pymapdl/doc/source/changelog.rst:65
-msgid ""
-"docs: update a minor typo in `mapdl.rst` `#3140 "
-"<https://github.com/ansys/pymapdl/pull/3140>`_"
-msgstr ""
-"docs: update a minor typo in `mapdl.rst` `#3140 "
-"<https://github.com/ansys/pymapdl/pull/3140>`_"
-
-#: ../../pymapdl/doc/source/changelog.rst:69
+#: ../../pymapdl/doc/source/changelog.rst:40
+#: ../../pymapdl/doc/source/changelog.rst:143
 msgid "Dependencies"
 msgstr "依存関係"
 
+#: ../../pymapdl/doc/source/changelog.rst:42
+msgid ""
+"build: bump grpcio from 1.64.1 to 1.65.0 in the grpc-deps group `#3270 "
+"<https://github.com/ansys/pymapdl/pull/3270>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/changelog.rst:43
+msgid ""
+"build: bump zipp from 3.17.0 to 3.19.1 in "
+"/doc/source/examples/extended_examples/hpc `#3261 "
+"<https://github.com/ansys/pymapdl/pull/3261>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/changelog.rst:44
+msgid ""
+"build: bump the minimal group across 1 directory with 2 updates `#3197 "
+"<https://github.com/ansys/pymapdl/pull/3197>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/changelog.rst:45
+msgid ""
+"build: bump importlib-metadata from 7.2.0 to 7.2.1 in the minimal group "
+"`#3212 <https://github.com/ansys/pymapdl/pull/3212>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/changelog.rst:46
+msgid ""
+"build: bump scipy from 1.13.1 to 1.14.0 in the core group `#3213 "
+"<https://github.com/ansys/pymapdl/pull/3213>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/changelog.rst:47
+msgid ""
+"build: bump the documentation group with 2 updates `#3214 "
+"<https://github.com/ansys/pymapdl/pull/3214>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/changelog.rst:48
+msgid ""
+"build: bump autopep8 from 2.3.0 to 2.3.1 in the testing group `#3215 "
+"<https://github.com/ansys/pymapdl/pull/3215>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/changelog.rst:49
+msgid ""
+"build: update requirements in devcontainer directory `#3217 "
+"<https://github.com/ansys/pymapdl/pull/3217>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/changelog.rst:50
+msgid ""
+"build: removing reredirect sphinx extension `#3224 "
+"<https://github.com/ansys/pymapdl/pull/3224>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/changelog.rst:51
+msgid ""
+"build: bump importlib-metadata from 7.2.1 to 8.0.0 in the minimal group "
+"`#3229 <https://github.com/ansys/pymapdl/pull/3229>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/changelog.rst:52
+msgid ""
+"build: bump the core group with 2 updates `#3241 "
+"<https://github.com/ansys/pymapdl/pull/3241>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/changelog.rst:53
+msgid ""
+"build: update ansys-api-mapdl to 0.5.2 `#3255 "
+"<https://github.com/ansys/pymapdl/pull/3255>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/changelog.rst:54
+msgid ""
+"build: bump certifi from 2024.2.2 to 2024.7.4 in "
+"/doc/source/examples/extended_examples/hpc `#3242 "
+"<https://github.com/ansys/pymapdl/pull/3242>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/changelog.rst:58
+msgid "Tests"
+msgstr ""
+
+#: ../../pymapdl/doc/source/changelog.rst:60
+msgid "test: skip test `#3259 <https://github.com/ansys/pymapdl/pull/3259>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/changelog.rst:64
+msgid "Maintenance"
+msgstr ""
+
+#: ../../pymapdl/doc/source/changelog.rst:66
+msgid ""
+"[pre-commit.ci] pre-commit autoupdate `#3238 "
+"<https://github.com/ansys/pymapdl/pull/3238>`_, `#3253 "
+"<https://github.com/ansys/pymapdl/pull/3253>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/changelog.rst:67
+msgid ""
+"ci: Fix missing labels format in dependabot file `#3204 "
+"<https://github.com/ansys/pymapdl/pull/3204>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/changelog.rst:68
+msgid ""
+"ci: wrong tagging on the coverage artifacts `#3225 "
+"<https://github.com/ansys/pymapdl/pull/3225>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/changelog.rst:69
+msgid ""
+"ci: Adding v251 CentOS based image to testing `#3210 "
+"<https://github.com/ansys/pymapdl/pull/3210>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/changelog.rst:70
+msgid ""
+"ci: [pre-commit.ci] pre-commit autoupdate `#3206 "
+"<https://github.com/ansys/pymapdl/pull/3206>`_"
+msgstr ""
+
 #: ../../pymapdl/doc/source/changelog.rst:71
 msgid ""
-"build: bump autopep8 from 2.2.0 to 2.3.0 in the testing group `#3179 "
-"<https://github.com/ansys/pymapdl/pull/3179>`_"
+"ci: Use CICD only on ``v*`` tags. `#3186 "
+"<https://github.com/ansys/pymapdl/pull/3186>`_"
 msgstr ""
-"build: bump autopep8 from 2.2.0 to 2.3.0 in the testing group `#3179 "
-"<https://github.com/ansys/pymapdl/pull/3179>`_"
 
 #: ../../pymapdl/doc/source/changelog.rst:72
 msgid ""
-"build: bump pyvista[trame] from 0.43.9 to 0.43.10 `#3180 "
-"<https://github.com/ansys/pymapdl/pull/3180>`_"
+"ci: checking documentation style in ``Examples`` directory too `#3191 "
+"<https://github.com/ansys/pymapdl/pull/3191>`_"
 msgstr ""
-"build: bump pyvista[trame] from 0.43.9 to 0.43.10 `#3180 "
-"<https://github.com/ansys/pymapdl/pull/3180>`_"
 
 #: ../../pymapdl/doc/source/changelog.rst:73
 msgid ""
-"build: bump ansys-sphinx-theme from 0.16.5 to 0.16.6 in the core group "
-"across 1 directory `#3181 <https://github.com/ansys/pymapdl/pull/3181>`_"
+"chore: update CHANGELOG for v0.68.3 `#3201 "
+"<https://github.com/ansys/pymapdl/pull/3201>`_"
 msgstr ""
-"build: bump ansys-sphinx-theme from 0.16.5 to 0.16.6 in the core group "
-"across 1 directory `#3181 <https://github.com/ansys/pymapdl/pull/3181>`_"
+
+#: ../../pymapdl/doc/source/changelog.rst:74
+msgid ""
+"ci: Update julia testing `#3211 "
+"<https://github.com/ansys/pymapdl/pull/3211>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/changelog.rst:75
+msgid ""
+"ci: improving if to match also schedule and workflow_dispatch `#3223 "
+"<https://github.com/ansys/pymapdl/pull/3223>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/changelog.rst:76
+msgid ""
+"ci: Using a dynamically generated matrix for testing job setup `#3232 "
+"<https://github.com/ansys/pymapdl/pull/3232>`_"
+msgstr ""
 
 #: ../../pymapdl/doc/source/changelog.rst:77
+msgid ""
+"ci: increase the files checked for changes before load docs cache `#3237 "
+"<https://github.com/ansys/pymapdl/pull/3237>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/changelog.rst:78
+msgid ""
+"ci: run extended array based on the person who open the PR `#3256 "
+"<https://github.com/ansys/pymapdl/pull/3256>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/changelog.rst:82
+#: ../../pymapdl/doc/source/changelog.rst:151
 msgid "Miscellaneous"
 msgstr "その他"
 
-#: ../../pymapdl/doc/source/changelog.rst:79
+#: ../../pymapdl/doc/source/changelog.rst:84
+msgid ""
+"chore: update CHANGELOG for v0.68.2 `#3183 "
+"<https://github.com/ansys/pymapdl/pull/3183>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/changelog.rst:88
+msgid ""
+"`0.68.3 <https://github.com/ansys/pymapdl/releases/tag/v0.68.3>`_ - "
+"2024-06-21"
+msgstr ""
+"`0.68.3 <https://github.com/ansys/pymapdl/releases/tag/v0.68.3>`_ - "
+"2024-06-21"
+
+#: ../../pymapdl/doc/source/changelog.rst:93
+msgid ""
+"feat: Add an inprocess backend to pymapdl `#3198 "
+"<https://github.com/ansys/pymapdl/pull/3198>`_"
+msgstr ""
+"feat: Add an inprocess backend to pymapdl `#3198 "
+"<https://github.com/ansys/pymapdl/pull/3198>`_"
+
+#: ../../pymapdl/doc/source/changelog.rst:96
+msgid ""
+"`0.68.2 <https://github.com/ansys/pymapdl/releases/tag/v0.68.2>`_ - "
+"2024-06-18"
+msgstr ""
+"`0.68.2 <https://github.com/ansys/pymapdl/releases/tag/v0.68.2>`_ - "
+"2024-06-18"
+
+#: ../../pymapdl/doc/source/changelog.rst:101
+msgid ""
+"feat: add a MAPDL version section in for bug issues `#2982 "
+"<https://github.com/ansys/pymapdl/pull/2982>`_"
+msgstr ""
+"feat: add a MAPDL version section in for bug issues `#2982 "
+"<https://github.com/ansys/pymapdl/pull/2982>`_"
+
+#: ../../pymapdl/doc/source/changelog.rst:102
+msgid ""
+"feat: adding some env var print to report `#2999 "
+"<https://github.com/ansys/pymapdl/pull/2999>`_"
+msgstr ""
+"feat: adding some env var print to report `#2999 "
+"<https://github.com/ansys/pymapdl/pull/2999>`_"
+
+#: ../../pymapdl/doc/source/changelog.rst:103
+msgid ""
+"feat: adding ``cycexpand`` command `#3023 "
+"<https://github.com/ansys/pymapdl/pull/3023>`_"
+msgstr ""
+"feat: adding ``cycexpand`` command `#3023 "
+"<https://github.com/ansys/pymapdl/pull/3023>`_"
+
+#: ../../pymapdl/doc/source/changelog.rst:104
+msgid ""
+"feat: update ``vfquery`` `#3037 "
+"<https://github.com/ansys/pymapdl/pull/3037>`_"
+msgstr ""
+"feat: update ``vfquery`` `#3037 "
+"<https://github.com/ansys/pymapdl/pull/3037>`_"
+
+#: ../../pymapdl/doc/source/changelog.rst:105
+msgid ""
+"feat: add argument to disable run_at_connect in `MapdlGrpc` `#3047 "
+"<https://github.com/ansys/pymapdl/pull/3047>`_"
+msgstr ""
+"feat: add argument to disable run_at_connect in `MapdlGrpc` `#3047 "
+"<https://github.com/ansys/pymapdl/pull/3047>`_"
+
+#: ../../pymapdl/doc/source/changelog.rst:106
+msgid ""
+"feat: allowing passing IP to ``MapdlPool`` `#3048 "
+"<https://github.com/ansys/pymapdl/pull/3048>`_"
+msgstr ""
+"feat: allowing passing IP to ``MapdlPool`` `#3048 "
+"<https://github.com/ansys/pymapdl/pull/3048>`_"
+
+#: ../../pymapdl/doc/source/changelog.rst:107
+msgid ""
+"feat: add argument to disable run_at_connect in MapdlGrpc `#3049 "
+"<https://github.com/ansys/pymapdl/pull/3049>`_"
+msgstr ""
+"feat: add argument to disable run_at_connect in MapdlGrpc `#3049 "
+"<https://github.com/ansys/pymapdl/pull/3049>`_"
+
+#: ../../pymapdl/doc/source/changelog.rst:108
+msgid ""
+"feat: converting chained APDL commands to PyMAPDL context manager `#3154 "
+"<https://github.com/ansys/pymapdl/pull/3154>`_"
+msgstr ""
+"feat: converting chained APDL commands to PyMAPDL context manager `#3154 "
+"<https://github.com/ansys/pymapdl/pull/3154>`_"
+
+#: ../../pymapdl/doc/source/changelog.rst:109
+msgid ""
+"feat: allowing multiple IPs for remote connection on ``MapdlPool`` `#3166 "
+"<https://github.com/ansys/pymapdl/pull/3166>`_"
+msgstr ""
+"feat: allowing multiple IPs for remote connection on ``MapdlPool`` `#3166 "
+"<https://github.com/ansys/pymapdl/pull/3166>`_"
+
+#: ../../pymapdl/doc/source/changelog.rst:110
+msgid ""
+"feat: implementing ``ansys/actions/changelogs`` and adding release note in "
+"documentation `#3019 <https://github.com/ansys/pymapdl/pull/3019>`_"
+msgstr ""
+"feat: implementing ``ansys/actions/changelogs`` and adding release note in "
+"documentation `#3019 <https://github.com/ansys/pymapdl/pull/3019>`_"
+
+#: ../../pymapdl/doc/source/changelog.rst:111
+msgid ""
+"feat: adding option to ``_ctrl`` command `#3002 "
+"<https://github.com/ansys/pymapdl/pull/3002>`_"
+msgstr ""
+"feat: adding option to ``_ctrl`` command `#3002 "
+"<https://github.com/ansys/pymapdl/pull/3002>`_"
+
+#: ../../pymapdl/doc/source/changelog.rst:112
+msgid ""
+"feat: making old API function discoverable when Click is not installed "
+"`#3086 <https://github.com/ansys/pymapdl/pull/3086>`_"
+msgstr ""
+"feat: making old API function discoverable when Click is not installed "
+"`#3086 <https://github.com/ansys/pymapdl/pull/3086>`_"
+
+#: ../../pymapdl/doc/source/changelog.rst:116
+msgid "Changed"
+msgstr "変更"
+
+#: ../../pymapdl/doc/source/changelog.rst:118
+msgid ""
+"refactor: refactoring CLI `#2960 "
+"<https://github.com/ansys/pymapdl/pull/2960>`_"
+msgstr ""
+"refactor: refactoring CLI `#2960 "
+"<https://github.com/ansys/pymapdl/pull/2960>`_"
+
+#: ../../pymapdl/doc/source/changelog.rst:124
+msgid ""
+"fix: avoiding future sphinx warning `#3035 "
+"<https://github.com/ansys/pymapdl/pull/3035>`_"
+msgstr ""
+"fix: avoiding future sphinx warning `#3035 "
+"<https://github.com/ansys/pymapdl/pull/3035>`_"
+
+#: ../../pymapdl/doc/source/changelog.rst:125
+msgid ""
+"fix: update the general files to align with PyAnsys standards `#3151 "
+"<https://github.com/ansys/pymapdl/pull/3151>`_"
+msgstr ""
+"fix: update the general files to align with PyAnsys standards `#3151 "
+"<https://github.com/ansys/pymapdl/pull/3151>`_"
+
+#: ../../pymapdl/doc/source/changelog.rst:126
+msgid ""
+"fix: combine the ``docker-compose`` files `#3169 "
+"<https://github.com/ansys/pymapdl/pull/3169>`_"
+msgstr ""
+"fix: combine the ``docker-compose`` files `#3169 "
+"<https://github.com/ansys/pymapdl/pull/3169>`_"
+
+#: ../../pymapdl/doc/source/changelog.rst:132
+msgid ""
+"docs: adding previous changes in ``changelog.d`` repository `#3182 "
+"<https://github.com/ansys/pymapdl/pull/3182>`_"
+msgstr ""
+"docs: adding previous changes in ``changelog.d`` repository `#3182 "
+"<https://github.com/ansys/pymapdl/pull/3182>`_"
+
+#: ../../pymapdl/doc/source/changelog.rst:133
+msgid ""
+"docs: clarifying MAPDL commands API section `#3071 "
+"<https://github.com/ansys/pymapdl/pull/3071>`_"
+msgstr ""
+"docs: clarifying MAPDL commands API section `#3071 "
+"<https://github.com/ansys/pymapdl/pull/3071>`_"
+
+#: ../../pymapdl/doc/source/changelog.rst:134
+msgid ""
+"docs: HPC documentation `#2966 "
+"<https://github.com/ansys/pymapdl/pull/2966>`_"
+msgstr ""
+"docs: HPC documentation `#2966 "
+"<https://github.com/ansys/pymapdl/pull/2966>`_"
+
+#: ../../pymapdl/doc/source/changelog.rst:135
+msgid ""
+"docs: adding ML-Genetic Algorithm example `#2981 "
+"<https://github.com/ansys/pymapdl/pull/2981>`_"
+msgstr ""
+"docs: adding ML-Genetic Algorithm example `#2981 "
+"<https://github.com/ansys/pymapdl/pull/2981>`_"
+
+#: ../../pymapdl/doc/source/changelog.rst:136
+msgid ""
+"docs: customize agent for linkchecker `#2998 "
+"<https://github.com/ansys/pymapdl/pull/2998>`_"
+msgstr ""
+"docs: customize agent for linkchecker `#2998 "
+"<https://github.com/ansys/pymapdl/pull/2998>`_"
+
+#: ../../pymapdl/doc/source/changelog.rst:137
+msgid ""
+"docs: setting docs version to v241 `#3024 "
+"<https://github.com/ansys/pymapdl/pull/3024>`_"
+msgstr ""
+"docs: setting docs version to v241 `#3024 "
+"<https://github.com/ansys/pymapdl/pull/3024>`_"
+
+#: ../../pymapdl/doc/source/changelog.rst:138
+msgid ""
+"docs: adding documentation about remote mapdl pool `#3046 "
+"<https://github.com/ansys/pymapdl/pull/3046>`_"
+msgstr ""
+"docs: adding documentation about remote mapdl pool `#3046 "
+"<https://github.com/ansys/pymapdl/pull/3046>`_"
+
+#: ../../pymapdl/doc/source/changelog.rst:139
+msgid ""
+"docs: update a minor typo in `mapdl.rst` `#3140 "
+"<https://github.com/ansys/pymapdl/pull/3140>`_"
+msgstr ""
+"docs: update a minor typo in `mapdl.rst` `#3140 "
+"<https://github.com/ansys/pymapdl/pull/3140>`_"
+
+#: ../../pymapdl/doc/source/changelog.rst:145
+msgid ""
+"build: bump autopep8 from 2.2.0 to 2.3.0 in the testing group `#3179 "
+"<https://github.com/ansys/pymapdl/pull/3179>`_"
+msgstr ""
+"build: bump autopep8 from 2.2.0 to 2.3.0 in the testing group `#3179 "
+"<https://github.com/ansys/pymapdl/pull/3179>`_"
+
+#: ../../pymapdl/doc/source/changelog.rst:146
+msgid ""
+"build: bump pyvista[trame] from 0.43.9 to 0.43.10 `#3180 "
+"<https://github.com/ansys/pymapdl/pull/3180>`_"
+msgstr ""
+"build: bump pyvista[trame] from 0.43.9 to 0.43.10 `#3180 "
+"<https://github.com/ansys/pymapdl/pull/3180>`_"
+
+#: ../../pymapdl/doc/source/changelog.rst:147
+msgid ""
+"build: bump ansys-sphinx-theme from 0.16.5 to 0.16.6 in the core group "
+"across 1 directory `#3181 <https://github.com/ansys/pymapdl/pull/3181>`_"
+msgstr ""
+"build: bump ansys-sphinx-theme from 0.16.5 to 0.16.6 in the core group "
+"across 1 directory `#3181 <https://github.com/ansys/pymapdl/pull/3181>`_"
+
+#: ../../pymapdl/doc/source/changelog.rst:153
 msgid ""
 "chore: removing cdb files `#3036 "
 "<https://github.com/ansys/pymapdl/pull/3036>`_"
@@ -302,7 +548,7 @@ msgstr ""
 "chore: removing cdb files `#3036 "
 "<https://github.com/ansys/pymapdl/pull/3036>`_"
 
-#: ../../pymapdl/doc/source/changelog.rst:80
+#: ../../pymapdl/doc/source/changelog.rst:154
 msgid ""
 "ci: having only one set of Dependabot rules `#3107 "
 "<https://github.com/ansys/pymapdl/pull/3107>`_"
@@ -310,7 +556,7 @@ msgstr ""
 "ci: having only one set of Dependabot rules `#3107 "
 "<https://github.com/ansys/pymapdl/pull/3107>`_"
 
-#: ../../pymapdl/doc/source/changelog.rst:81
+#: ../../pymapdl/doc/source/changelog.rst:155
 msgid ""
 "ci: adding tag for doc review `#3118 "
 "<https://github.com/ansys/pymapdl/pull/3118>`_"
@@ -318,7 +564,7 @@ msgstr ""
 "ci: adding tag for doc review `#3118 "
 "<https://github.com/ansys/pymapdl/pull/3118>`_"
 
-#: ../../pymapdl/doc/source/changelog.rst:82
+#: ../../pymapdl/doc/source/changelog.rst:156
 msgid ""
 "ci: remove OS package duplicate `#3147 "
 "<https://github.com/ansys/pymapdl/pull/3147>`_"
@@ -326,7 +572,7 @@ msgstr ""
 "ci: remove OS package duplicate `#3147 "
 "<https://github.com/ansys/pymapdl/pull/3147>`_"
 
-#: ../../pymapdl/doc/source/changelog.rst:83
+#: ../../pymapdl/doc/source/changelog.rst:157
 msgid ""
 "ci: using trusted publisher release process `#3171 "
 "<https://github.com/ansys/pymapdl/pull/3171>`_"

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-10 00:16+0000\n"
+"POT-Creation-Date: 2024-07-17 00:16+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -3179,10 +3179,11 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/plotting.rst:15
 msgid ""
-"These methods rely on the :func:`ansys.mapdl.core.plotting.general_plotter` "
-"method. Combined with the MAPDL geometry commands, you can generate and "
-"visualize geometry from scratch without opening the GUI using the "
-":func:`open_gui() <ansys.mapdl.core.Mapdl.open_gui>` method."
+"These methods rely on the "
+":class:`ansys.mapdl.core.plotting.visualizer.MapdlPlotter` method. Combined "
+"with the MAPDL geometry commands, you can generate and visualize geometry "
+"from scratch without opening the GUI using the :func:`open_gui() "
+"<ansys.mapdl.core.Mapdl.open_gui>` method."
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/plotting.rst:22
@@ -3290,7 +3291,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/user_guide/plotting.rst:173
 msgid ""
 "For all general plotting options, see the "
-":func:`ansys.mapdl.core.plotting.general_plotter` method."
+":class:`ansys.mapdl.core.plotting.visualizer.MapdlPlotter` class."
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/plotting.rst:178

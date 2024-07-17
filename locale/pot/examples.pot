@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-10 00:16+0000\n"
+"POT-Creation-Date: 2024-07-17 00:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -747,7 +747,7 @@ msgid "Add a PyVista plotting frame in the window"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:163
-msgid "Start by importing the `QtInteractor <https://qtdocs.pyvista.org/api_reference.html#qtinteractor>`_ class from the ``pyvistaqt`` package and the :class:`MapdlTheme <ansys.mapdl.core.theme.MapdlTheme>` class from the ``ansys-mapdl-core`` package:"
+msgid "Start by importing the `QtInteractor <https://qtdocs.pyvista.org/api_reference.html#qtinteractor>`_ class from the ``pyvistaqt`` package and the :class:`MapdlTheme <ansys.mapdl.core.plotting.theme.MapdlTheme>` class from the ``ansys-mapdl-core`` package:"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:172
@@ -1346,7 +1346,7 @@ msgid "Element Type and Material Properties"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:49
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:128
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:118
 msgid "This example will use PLANE183 elements as a thin plate can be modeled with plane elements provided that KEYOPTION 3 is set to 3 and a thickness is provided."
 msgstr ""
 
@@ -1355,7 +1355,7 @@ msgid "This example will use SI units."
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:79
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:52
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:51
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/modal_beam.rst:43
 msgid "Geometry"
 msgstr ""
@@ -1365,17 +1365,17 @@ msgid "Create a rectangular area with the hole in the middle.  To correctly appr
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:116
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:127
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:117
 msgid "Meshing"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:117
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:132
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:122
 msgid "Mesh the plate using a higher density near the hole and a lower density for the remainder of the plate by setting ``LESIZE`` for the lines nearby the hole and ``ESIZE`` for the mesh global size."
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:121
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:136
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:126
 msgid "Line numbers can be identified through inspection using ``lplot``"
 msgstr ""
 
@@ -1387,22 +1387,22 @@ msgid "Boundary Conditions"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:157
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:182
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:172
 msgid "Fix the left-hand side of the plate in the X direction and set a force of 1 kN in the positive X direction."
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:202
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:237
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:227
 msgid "Solve the Static Problem"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:203
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:238
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:228
 msgid "Solve the static analysis"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:219
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:254
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:244
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/pressure_vessel.rst:145
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/transient_thermal.rst:222
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/03-using_inline_functions_and_Query.rst:127
@@ -1410,72 +1410,72 @@ msgid "Post-Processing"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:220
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:255
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:245
 msgid "The static result can be post-processed both within MAPDL and outside of MAPDL using ``pyansys``.  This example shows how to extract the von Mises stress and plot it using the ``pyansys`` result reader."
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:252
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:288
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:278
 msgid "Compute the Stress Concentration"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:253
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:289
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:279
 msgid "The stress concentration :math:`K_t` is the ratio of the maximum stress at the hole to the far-field stress, or the mean cross sectional stress at a point far from the hole.  Analytically, this can be computed with:"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:258
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:294
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:284
 msgid ":math:`\\sigma_{nom} = \\frac{F}{wt}`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:260
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:296
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:286
 msgid "Where"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:262
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:298
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:288
 msgid ":math:`F` is the force"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:263
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:299
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:289
 msgid ":math:`w` is the width of the plate"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:264
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:300
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:290
 msgid ":math:`t` is the thickness of the plate."
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:266
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:302
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:292
 msgid "Experimentally, this is computed by taking the mean of the nodes at the right-most side of the plate."
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:283
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:320
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:310
 msgid "Since the expected nominal stress across the cross section of the hole will increase as the size of the hole increases, regardless of the stress concentration, the stress must be adjusted to arrive at the correct stress.  This stress is adjusted by the ratio of the width over the modified cross section width."
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:306
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:343
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:333
 msgid "Batch Analysis"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:307
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:344
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:334
 msgid "The above script can be placed within a function to compute the stress concentration for a variety of hole diameters.  For each batch, MAPDL is reset and the geometry is generated from scratch."
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:431
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:475
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:465
 msgid "Run the batch and record the stress concentration"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:450
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:578
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:568
 msgid "Analytical Comparison"
 msgstr ""
 
@@ -1488,7 +1488,7 @@ msgid ":math:`k_t = 3 - 3.14\\frac{d}{h} + 3.667\\left(\\frac{d}{h}\\right)^2 - 
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:458
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:518
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:508
 msgid "Where:"
 msgstr ""
 
@@ -1510,10 +1510,10 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:488
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_pressure_vessel.rst:276
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:600
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:590
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_plate_thermal.rst:135
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/contact_elements.rst:119
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:255
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:256
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/mapdl_3d_beam.rst:129
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/mapdl_beam.rst:159
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/path_operations.rst:257
@@ -1670,35 +1670,35 @@ msgstr ""
 msgid "First, start MAPDL as a service and disable all but error messages."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:53
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:52
 msgid "Create a rectangular area with two notches at the top and bottom."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:181
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:171
 msgid "Material Properties and Boundary Conditions"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:349
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:339
 msgid "This section has been disabled to reduce the execution time of this example. Enable it by setting ``RUN_BATCH = TRUE``"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:496
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:486
 msgid "Analytical Solution"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:497
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:487
 msgid "Stress concentrations are often obtained by referencing tabular results or polynominal fits for a variety of geometries.  According to *Roark’s Formulas for Stress and Strain* (Warren C. Young and Richard G. Budynas, Seventh Edition, McGraw-Hill) the analytical equation for two U notches in a thin plate in uniaxial tension:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:503
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:493
 msgid "K_t = C_1 + C_2 \\left(\\dfrac{2h}{D}\\right) + C_3 \\left(\\dfrac{2h}{D}\\right)^2 + C_4 \\left(\\dfrac{2h}{D}\\right)^3"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:507
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:497
 msgid "where:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:509
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:499
 msgid "\\begin{array}{c|c|c}\n"
 "    & 0.1 \\leq h/r \\leq 2.0                 & 2.0 \\leq h/r \\leq 50.0 \\\\ \\hline\n"
 "C_1 & 0.85 + 2.628 \\sqrt{h/r} - 0.413 h/r   & 0.833 + 2.069 \\sqrt{h/r} - 0.009 h/r \\\\\n"
@@ -1710,43 +1710,43 @@ msgid "\\begin{array}{c|c|c}\n"
 ""
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:520
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:510
 msgid ":math:`K_t` is the stress concentration"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:521
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:511
 msgid ":math:`r` is the radius of the notch"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:522
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:512
 msgid ":math:`h` is the notch depth"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:523
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:513
 msgid ":math:`D` is the width of the plate"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:525
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:515
 msgid "In this example the ratio is given as :math:`2h/D`."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:527
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:517
 msgid "These formulas are converted in the following function:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:558
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:548
 msgid "which is used later to calculate the concentration factor for the given ratios:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:580
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:570
 msgid "As shown in the following plot, MAPDL matches the known tabular result for this geometry remarkably well using PLANE183 elements. The fit to the results may vary depending on the ratio between the height and width of the plate."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:618
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:608
 msgid ":download:`Download Jupyter notebook: 3d_notch.ipynb <3d_notch.ipynb>`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:622
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:612
 msgid ":download:`Download Python source code: 3d_notch.py <3d_notch.py>`"
 msgstr ""
 
@@ -3139,71 +3139,71 @@ msgstr ""
 msgid "This example also demonstrates some of the more advanced features of PyMAPDL including direct mesh access through VTK."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:52
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:53
 msgid "Load Geometry"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:53
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:54
 msgid "Here we download a simple example bracket IGES file and load it into MAPDL.  Since ``igesin`` must be in the AUX15 process"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:74
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:75
 msgid "Plotting"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:75
-msgid "PyMAPDL uses VTK and pyvista as a plotting backend to enable remotable (with 2021R1 and newer) interactive plotting.  The common plotting methods (``kplot``, ``lplot``, ``aplot``, ``eplot``, etc.) all have compatible commands that use the :func:`ansys.mapdl.core.plotting.general_plotter` function.  You can configure this method with a variety of keyword arguments.  For example:"
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:76
+msgid "PyMAPDL uses VTK and pyvista as a plotting backend to enable remotable (with 2021R1 and newer) interactive plotting.  The common plotting methods (``kplot``, ``lplot``, ``aplot``, ``eplot``, etc.) all have compatible commands that use the :class:`ansys.mapdl.core.plotting.visualizer.MapdlPlotter` class.  You can configure this method with a variety of keyword arguments.  For example:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:102
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:103
 msgid "You can also configure a theme to enable consistent plotting across multiple plots.  These theme parameters override any unset keyword arguments.  For example:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:124
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:125
 msgid "Accessesing Element and Nodes Pythonically"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:125
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:126
 msgid "PyMAPDL also supports element and nodal plotting using ``eplot`` and ``nplot``.  First, mesh the bracket using SOLID187 elements.  These are well suited to this geometry and the static structural analyses."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:147
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:148
 msgid "You can access the underlying finite element mesh as a VTK grid through the ``mesh.grid`` attribute."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:162
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:163
 msgid "This UnstructuredGrid contains a powerful API, including the ability to access the nodes, elements, original node numbers, all with the ability to plot the mesh and add new attributes and data to the grid."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:178
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:179
 msgid "cell representation in VTK format"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:191
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:192
 msgid "Obtain node numbers of the grid"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:204
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:205
 msgid "Save arbitrary data to the grid"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:219
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:220
 msgid "Plot this mesh with scalars of your choosing.  You can apply the same MapdlTheme when plotting as it's compatible with the grid plotter."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:243
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:244
 msgid "This grid can be also saved to disk in the compact cross-platform VTK format and loaded again with ``pyvista`` or ParaView."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:246
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:247
 msgid "..code:: pycon"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:273
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:274
 msgid ":download:`Download Jupyter notebook: geometry.ipynb <geometry.ipynb>`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:277
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:278
 msgid ":download:`Download Python source code: geometry.py <geometry.py>`"
 msgstr ""
 
