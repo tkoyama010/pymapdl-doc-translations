@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-17 00:16+0000\n"
+"POT-Creation-Date: 2024-07-18 00:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2522,7 +2522,7 @@ msgid "You can use the pool to run a set of pre-generated input files using the 
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/pool.rst:80
-msgid "Run a user function"
+msgid "Run an user function"
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/pool.rst:82
