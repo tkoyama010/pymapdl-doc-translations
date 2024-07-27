@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-17 00:16+0000\n"
+"POT-Creation-Date: 2024-07-27 00:15+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -1635,6 +1635,12 @@ msgid ""
 "BodyFlux_Averaging.py <2d_magnetostatic_solenoid-BodyFlux_Averaging.py>`"
 msgstr ""
 
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:486
+msgid ""
+":download:`Download zipped: 2d_magnetostatic_solenoid-BodyFlux_Averaging.zip"
+" <2d_magnetostatic_solenoid-BodyFlux_Averaging.zip>`"
+msgstr ""
+
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:13
 msgid ""
 ":ref:`Go to the end <sphx_glr_download_examples_gallery_examples_00-mapdl-"
@@ -1899,6 +1905,12 @@ msgid ""
 "<2d_plate_with_a_hole.py>`"
 msgstr ""
 
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:514
+msgid ""
+":download:`Download zipped: 2d_plate_with_a_hole.zip "
+"<2d_plate_with_a_hole.zip>`"
+msgstr ""
+
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_pressure_vessel.rst:13
 msgid ""
 ":ref:`Go to the end <sphx_glr_download_examples_gallery_examples_00-mapdl-"
@@ -2023,6 +2035,11 @@ msgid ""
 "<2d_pressure_vessel.py>`"
 msgstr ""
 
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_pressure_vessel.rst:302
+msgid ""
+":download:`Download zipped: 2d_pressure_vessel.zip <2d_pressure_vessel.zip>`"
+msgstr ""
+
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:13
 msgid ""
 ":ref:`Go to the end <sphx_glr_download_examples_gallery_examples_00-mapdl-"
@@ -2142,6 +2159,10 @@ msgstr ""
 msgid ":download:`Download Python source code: 3d_notch.py <3d_notch.py>`"
 msgstr ""
 
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:616
+msgid ":download:`Download zipped: 3d_notch.zip <3d_notch.zip>`"
+msgstr ""
+
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_plate_thermal.rst:13
 msgid ""
 ":ref:`Go to the end <sphx_glr_download_examples_gallery_examples_00-mapdl-"
@@ -2205,6 +2226,11 @@ msgstr ""
 msgid ""
 ":download:`Download Python source code: 3d_plate_thermal.py "
 "<3d_plate_thermal.py>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_plate_thermal.rst:161
+msgid ""
+":download:`Download zipped: 3d_plate_thermal.zip <3d_plate_thermal.zip>`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/acoustic_analysis.rst:13
@@ -2305,6 +2331,11 @@ msgstr ""
 msgid ""
 ":download:`Download Python source code: acoustic_analysis.py "
 "<acoustic_analysis.py>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/acoustic_analysis.rst:251
+msgid ""
+":download:`Download zipped: acoustic_analysis.zip <acoustic_analysis.zip>`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/basic_dpf_example.rst:13
@@ -2469,6 +2500,11 @@ msgstr ""
 msgid ""
 ":download:`Download Python source code: basic_dpf_example.py "
 "<basic_dpf_example.py>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/basic_dpf_example.rst:254
+msgid ""
+":download:`Download zipped: basic_dpf_example.zip <basic_dpf_example.zip>`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:13
@@ -3295,6 +3331,10 @@ msgid ""
 "<bracket_static.py>`"
 msgstr ""
 
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:1081
+msgid ":download:`Download zipped: bracket_static.zip <bracket_static.zip>`"
+msgstr ""
+
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:13
 msgid ""
 ":ref:`Go to the end <sphx_glr_download_examples_gallery_examples_00-mapdl-"
@@ -3522,6 +3562,10 @@ msgid ""
 ":download:`Download Python source code: composite_dcb.py <composite_dcb.py>`"
 msgstr ""
 
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:585
+msgid ":download:`Download zipped: composite_dcb.zip <composite_dcb.zip>`"
+msgstr ""
+
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/contact_elements.rst:13
 msgid ""
 ":ref:`Go to the end <sphx_glr_download_examples_gallery_examples_00-mapdl-"
@@ -3587,6 +3631,11 @@ msgstr ""
 msgid ""
 ":download:`Download Python source code: contact_elements.py "
 "<contact_elements.py>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/contact_elements.rst:145
+msgid ""
+":download:`Download zipped: contact_elements.zip <contact_elements.zip>`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/cyclic_analysis.rst:13
@@ -3773,6 +3822,10 @@ msgid ""
 "<cyclic_analysis.py>`"
 msgstr ""
 
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/cyclic_analysis.rst:436
+msgid ":download:`Download zipped: cyclic_analysis.zip <cyclic_analysis.zip>`"
+msgstr ""
+
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/cyclic_static.rst:13
 msgid ""
 ":ref:`Go to the end <sphx_glr_download_examples_gallery_examples_00-mapdl-"
@@ -3850,6 +3903,10 @@ msgstr ""
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/cyclic_static.rst:170
 msgid ""
 ":download:`Download Python source code: cyclic_static.py <cyclic_static.py>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/cyclic_static.rst:174
+msgid ":download:`Download zipped: cyclic_static.zip <cyclic_static.zip>`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/exhaust_manifold_thermal_stress.rst:13
@@ -3961,6 +4018,12 @@ msgstr ""
 msgid ""
 ":download:`Download Python source code: exhaust_manifold_thermal_stress.py "
 "<exhaust_manifold_thermal_stress.py>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/exhaust_manifold_thermal_stress.rst:247
+msgid ""
+":download:`Download zipped: exhaust_manifold_thermal_stress.zip "
+"<exhaust_manifold_thermal_stress.zip>`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:13
@@ -4079,6 +4142,10 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:278
 msgid ":download:`Download Python source code: geometry.py <geometry.py>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/geometry.rst:282
+msgid ":download:`Download zipped: geometry.zip <geometry.zip>`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:17
@@ -4551,6 +4618,10 @@ msgid ""
 ":download:`Download Python source code: lathe_cutter.py <lathe_cutter.py>`"
 msgstr ""
 
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:692
+msgid ":download:`Download zipped: lathe_cutter.zip <lathe_cutter.zip>`"
+msgstr ""
+
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/mapdl_3d_beam.rst:13
 msgid ""
 ":ref:`Go to the end <sphx_glr_download_examples_gallery_examples_00-mapdl-"
@@ -4598,6 +4669,10 @@ msgstr ""
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/mapdl_3d_beam.rst:151
 msgid ""
 ":download:`Download Python source code: mapdl_3d_beam.py <mapdl_3d_beam.py>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/mapdl_3d_beam.rst:155
+msgid ":download:`Download zipped: mapdl_3d_beam.zip <mapdl_3d_beam.zip>`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/mapdl_beam.rst:13
@@ -4657,6 +4732,10 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/mapdl_beam.rst:181
 msgid ":download:`Download Python source code: mapdl_beam.py <mapdl_beam.py>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/mapdl_beam.rst:185
+msgid ":download:`Download zipped: mapdl_beam.zip <mapdl_beam.zip>`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/modal_beam.rst:13
@@ -4744,6 +4823,10 @@ msgstr ""
 msgid ":download:`Download Python source code: modal_beam.py <modal_beam.py>`"
 msgstr ""
 
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/modal_beam.rst:244
+msgid ":download:`Download zipped: modal_beam.zip <modal_beam.zip>`"
+msgstr ""
+
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/path_operations.rst:13
 msgid ""
 ":ref:`Go to the end <sphx_glr_download_examples_gallery_examples_00-mapdl-"
@@ -4824,6 +4907,10 @@ msgid ""
 "<path_operations.py>`"
 msgstr ""
 
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/path_operations.rst:283
+msgid ":download:`Download zipped: path_operations.zip <path_operations.zip>`"
+msgstr ""
+
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/pressure_vessel.rst:13
 msgid ""
 ":ref:`Go to the end <sphx_glr_download_examples_gallery_examples_00-mapdl-"
@@ -4894,6 +4981,10 @@ msgid ""
 "<pressure_vessel.py>`"
 msgstr ""
 
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/pressure_vessel.rst:272
+msgid ":download:`Download zipped: pressure_vessel.zip <pressure_vessel.zip>`"
+msgstr ""
+
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/pyvista_mesh.rst:13
 msgid ""
 ":ref:`Go to the end <sphx_glr_download_examples_gallery_examples_00-mapdl-"
@@ -4939,6 +5030,10 @@ msgstr ""
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/pyvista_mesh.rst:166
 msgid ""
 ":download:`Download Python source code: pyvista_mesh.py <pyvista_mesh.py>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/pyvista_mesh.rst:170
+msgid ":download:`Download zipped: pyvista_mesh.zip <pyvista_mesh.zip>`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:8
@@ -5281,6 +5376,12 @@ msgid ""
 "<slashmap_cfx_mapping.py>`"
 msgstr ""
 
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/slashmap_cfx_mapping.rst:206
+msgid ""
+":download:`Download zipped: slashmap_cfx_mapping.zip "
+"<slashmap_cfx_mapping.zip>`"
+msgstr ""
+
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/spotweld.rst:13
 msgid ""
 ":ref:`Go to the end <sphx_glr_download_examples_gallery_examples_00-mapdl-"
@@ -5341,6 +5442,10 @@ msgstr ""
 msgid ":download:`Download Python source code: spotweld.py <spotweld.py>`"
 msgstr ""
 
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/spotweld.rst:166
+msgid ":download:`Download zipped: spotweld.zip <spotweld.zip>`"
+msgstr ""
+
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/torsional_load.rst:13
 msgid ""
 ":ref:`Go to the end <sphx_glr_download_examples_gallery_examples_00-mapdl-"
@@ -5395,6 +5500,10 @@ msgstr ""
 msgid ""
 ":download:`Download Python source code: torsional_load.py "
 "<torsional_load.py>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/torsional_load.rst:278
+msgid ":download:`Download zipped: torsional_load.zip <torsional_load.zip>`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/transient_thermal.rst:13
@@ -5580,6 +5689,11 @@ msgid ""
 "<transient_thermal.py>`"
 msgstr ""
 
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/transient_thermal.rst:395
+msgid ""
+":download:`Download zipped: transient_thermal.zip <transient_thermal.zip>`"
+msgstr ""
+
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/00-keypoints.rst:13
 msgid ""
 ":ref:`Go to the end "
@@ -5747,6 +5861,10 @@ msgstr ""
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/00-keypoints.rst:298
 msgid ""
 ":download:`Download Python source code: 00-keypoints.py <00-keypoints.py>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/00-keypoints.rst:302
+msgid ":download:`Download zipped: 00-keypoints.zip <00-keypoints.zip>`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/01-lines.rst:13
@@ -5949,6 +6067,10 @@ msgstr ""
 msgid ":download:`Download Python source code: 01-lines.py <01-lines.py>`"
 msgstr ""
 
+#: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/01-lines.rst:508
+msgid ":download:`Download zipped: 01-lines.zip <01-lines.zip>`"
+msgstr ""
+
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/02-areas.rst:13
 msgid ""
 ":ref:`Go to the end "
@@ -6124,6 +6246,10 @@ msgstr ""
 msgid ":download:`Download Python source code: 02-areas.py <02-areas.py>`"
 msgstr ""
 
+#: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/02-areas.rst:329
+msgid ":download:`Download zipped: 02-areas.zip <02-areas.zip>`"
+msgstr ""
+
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/03-volumes.rst:13
 msgid ""
 ":ref:`Go to the end "
@@ -6278,6 +6404,10 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/03-volumes.rst:440
 msgid ":download:`Download Python source code: 03-volumes.py <03-volumes.py>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/03-volumes.rst:444
+msgid ":download:`Download zipped: 03-volumes.zip <03-volumes.zip>`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/04-primitives.rst:13
@@ -6532,6 +6662,10 @@ msgstr ""
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/04-primitives.rst:445
 msgid ""
 ":download:`Download Python source code: 04-primitives.py <04-primitives.py>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/04-primitives.rst:449
+msgid ":download:`Download zipped: 04-primitives.zip <04-primitives.zip>`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:460
@@ -6888,6 +7022,12 @@ msgid ""
 "template.py>`"
 msgstr ""
 
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/00-example-template.rst:364
+msgid ""
+":download:`Download zipped: 00-example-template.zip <00-example-"
+"template.zip>`"
+msgstr ""
+
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/01-smoothing-element-size-transitions.rst:13
 msgid ""
 ":ref:`Go to the end <sphx_glr_download_examples_gallery_examples_02-tips-n-"
@@ -6992,6 +7132,12 @@ msgstr ""
 msgid ""
 ":download:`Download Python source code: 01-smoothing-element-size-"
 "transitions.py <01-smoothing-element-size-transitions.py>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/01-smoothing-element-size-transitions.rst:190
+msgid ""
+":download:`Download zipped: 01-smoothing-element-size-transitions.zip "
+"<01-smoothing-element-size-transitions.zip>`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/03-using_inline_functions_and_Query.rst:13
@@ -7138,6 +7284,12 @@ msgid ""
 "<03-using_inline_functions_and_Query.py>`"
 msgstr ""
 
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/03-using_inline_functions_and_Query.rst:205
+msgid ""
+":download:`Download zipped: 03-using_inline_functions_and_Query.zip "
+"<03-using_inline_functions_and_Query.zip>`"
+msgstr ""
+
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/04-rotational-displacement.rst:13
 msgid ""
 ":ref:`Go to the end <sphx_glr_download_examples_gallery_examples_02-tips-n-"
@@ -7275,6 +7427,12 @@ msgid ""
 "<04-rotational-displacement.py>`"
 msgstr ""
 
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/04-rotational-displacement.rst:204
+msgid ""
+":download:`Download zipped: 04-rotational-displacement.zip <04-rotational-"
+"displacement.zip>`"
+msgstr ""
+
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/05-explore_mapdl_files.rst:13
 msgid ""
 ":ref:`Go to the end <sphx_glr_download_examples_gallery_examples_02-tips-n-"
@@ -7377,6 +7535,12 @@ msgstr ""
 msgid ""
 ":download:`Download Python source code: 05-explore_mapdl_files.py "
 "<05-explore_mapdl_files.py>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/05-explore_mapdl_files.rst:234
+msgid ""
+":download:`Download zipped: 05-explore_mapdl_files.zip "
+"<05-explore_mapdl_files.zip>`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:563
@@ -8096,6 +8260,12 @@ msgstr ""
 msgid ""
 ":download:`Download Python source code: 00-how_finite_element_works.py "
 "<00-how_finite_element_works.py>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/03-general-fea/00-how_finite_element_works.rst:1148
+msgid ""
+":download:`Download zipped: 00-how_finite_element_works.zip "
+"<00-how_finite_element_works.zip>`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:666
