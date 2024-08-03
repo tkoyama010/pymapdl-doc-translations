@@ -34,6 +34,8 @@ msgid ""
 "`0.68.4 <https://github.com/ansys/pymapdl/releases/tag/v0.68.4>`_ - "
 "2024-07-15"
 msgstr ""
+"`0.68.4 <https://github.com/ansys/pymapdl/releases/tag/v0.68.4>`_ - "
+"2024-07-15"
 
 #: ../../pymapdl/doc/source/changelog.rst:16
 #: ../../pymapdl/doc/source/changelog.rst:91
@@ -51,6 +53,8 @@ msgid ""
 "fix: missing arguments on ``OCDATA`` command `#3226 "
 "<https://github.com/ansys/pymapdl/pull/3226>`_"
 msgstr ""
+"fix: missing arguments on ``OCDATA`` command `#3226 "
+"<https://github.com/ansys/pymapdl/pull/3226>`_"
 
 #: ../../pymapdl/doc/source/changelog.rst:23
 msgid ""
@@ -85,6 +89,8 @@ msgid ""
 "fix: local tests always running as student `#3251 "
 "<https://github.com/ansys/pymapdl/pull/3251>`_"
 msgstr ""
+"fix: local tests always running as student `#3251 "
+"<https://github.com/ansys/pymapdl/pull/3251>`_"
 
 #: ../../pymapdl/doc/source/changelog.rst:29
 msgid ""
