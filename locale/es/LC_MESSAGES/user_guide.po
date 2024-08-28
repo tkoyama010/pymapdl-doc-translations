@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-29 23:06+0000\n"
+"POT-Creation-Date: 2024-08-28 00:16+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -2649,16 +2649,26 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/mapdl.rst:1170
-msgid ":envvar:`PYMAPDL_MAX_MESSAGE_LENGTH`"
+msgid ":envvar:`PYMAPDL_ON_SLURM`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/mapdl.rst:1170
+msgid ""
+"With this environment variable set to ``FALSE``, you can avoid PyMAPDL from "
+"detecting that it is running on a SLURM HPC cluster."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1173
+msgid ":envvar:`PYMAPDL_MAX_MESSAGE_LENGTH`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1173
 msgid ""
 "Maximum gRPC message length. If your connection terminates when running "
 "PRNSOL or NLIST, raise this. In bytes, defaults to 256 MB."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1175
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1178
 msgid "Only for developing purposes."
 msgstr ""
 
