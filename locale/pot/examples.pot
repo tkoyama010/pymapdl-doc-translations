@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-27 00:15+0000\n"
+"POT-Creation-Date: 2024-08-29 00:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -956,62 +956,74 @@ msgid "Once the model is set, use the ``run()`` method to start the simulation:"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:192
-msgid "Plot convergence"
+msgid "Plot fitness and genes values"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:201
-msgid "Model storage"
+#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:194
+msgid "You can plot the solution fitness across generations and the evolution of gene values using the following code:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:203
-msgid "You can store the model in a file for later reuse:"
+#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:205
+msgid "Fitness at each generation plot"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:210
+msgid "Evolution of genes values"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:214
+msgid "Model storage"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:216
+msgid "You can store the model in a file for later reuse:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:223
 msgid "Load the model:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:219
+#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:232
 msgid "Simulation on an HPC cluster using SLURM"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:221
+#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:234
 msgid "The previous steps create the PyMAPDL script. To see the file, you can click this link :download:`ml_ga_beam.py <ml_ga_beam.py>`."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:225
+#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:238
 msgid "To run the preceding script in an HPC environment, you must create a Python environment, install the packages, and then run this script."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:229
+#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:242
 msgid "Log into your HPC cluster. For more information, see :ref:`ref_hpc_login`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:232
+#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:245
 msgid "Create a virtual environment that is accessible from the compute nodes."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:239
+#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:252
 msgid "If you have problems when creating the virtual environment or accessing it from the compute nodes, see :ref:`ref_hpc_pymapdl_job`."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:243
+#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:256
 msgid "Install the requirements for this example from the :download:`requirements.txt <requirements.txt>` file."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:246
+#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:259
 msgid "Create the bash script ``job.sh``:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:264
+#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:277
 msgid "Remember to replace ``%your_partition_name%`` with your cluster partition."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:267
+#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:280
 msgid "Run the bash script using the `sbatch <slurm_sbatch_>`_ command:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:273
+#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:286
 msgid "The preceding command allocates 10 cores for the job. For optimal performance, this value should be higher than the number of MAPDL instances that the :class:`~ansys.mapdl.core.pool.MapdlPool` instance is creating."
 msgstr ""
 

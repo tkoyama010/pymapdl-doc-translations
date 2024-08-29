@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-28 00:16+0000\n"
+"POT-Creation-Date: 2024-08-29 00:16+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -1138,76 +1138,78 @@ msgstr ""
 #: ../../pymapdl/doc/source/user_guide/hpc.rst:615
 msgid ""
 "The following topics provide some advanced ideas for you to explore when "
-"using PyMAPDL on HPC clusters."
+"using PyMAPDL on HPC clusters. In this section, these topics are just "
+"briefly described so you can use online resources such as `SLURM "
+"documentation <slurm_docs_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc.rst:619
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:621
 msgid "Advanced job management"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc.rst:622
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:624
 msgid "Job dependencies"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc.rst:623
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:625
 msgid ""
 "Specify dependencies between jobs using the ``--dependency`` flag. Jobs can "
 "depend on completion, failure, or other criteria of previously submitted "
 "jobs."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc.rst:627
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:629
 msgid "Array jobs"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc.rst:629
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:631
 msgid ""
 "Submit multiple jobs as an array using the ``--array`` flag. Each array "
 "element corresponds to a separate job, allowing for parallel execution of "
 "similar tasks."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc.rst:633
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:635
 msgid "Job arrays with dependencies"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc.rst:634
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:636
 msgid ""
 "Combine array jobs with dependencies for complex job scheduling "
 "requirements. This allows for parallel execution while maintaining "
 "dependencies between individual tasks."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc.rst:639
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:641
 msgid "Resource allocation and request"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc.rst:642
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:644
 msgid "Specify resources"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc.rst:643
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:645
 msgid ""
 "Use SLURM directives in batch scripts to specify required resources such as "
 "number of nodes, CPU cores, memory, and time limit."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc.rst:647
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:649
 msgid "Request resources"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc.rst:648
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:650
 msgid ""
 "Use the ``--constraint`` flag to request specific hardware configurations "
 "(for example, CPU architecture) or the ``--gres`` flag for requesting "
 "generic resources like GPUs."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc.rst:653
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:655
 msgid "Resource Limits"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc.rst:654
+#: ../../pymapdl/doc/source/user_guide/hpc.rst:656
 msgid ""
 "Set resource limits for individual jobs using directives such as ``--cpus-"
 "per-task``, ``--mem``, and ``--time``."
