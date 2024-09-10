@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-21 15:07+0000\n"
+"POT-Creation-Date: 2024-09-10 00:17+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../pymapdl/doc/source/_templates/layout.html:32
+#: ../../pymapdl/doc/source/_templates/layout.html:17
 msgid ""
 "Built with the\n"
 "          <a href=\"https://sphinxdocs.ansys.com/version/stable/index.html\">Ansys Sphinx Theme</a>\n"
@@ -31,6 +31,6 @@ msgstr ""
 "          <a href=\"https://sphinxdocs.ansys.com/version/stable/index.html\">Ansys Sphinx Theme</a>\n"
 "          %(ansys_sphinx_theme_version)s."
 
-#: ../../pymapdl/doc/source/_templates/layout.html:35
+#: ../../pymapdl/doc/source/_templates/layout.html:20
 msgid " <a href=\"https://www.sphinx-doc.org/\">Sphinx</a> %(sphinx_version)s."
 msgstr " <a href=\"https://www.sphinx-doc.org/\">Sphinx</a> %(sphinx_version)s."
