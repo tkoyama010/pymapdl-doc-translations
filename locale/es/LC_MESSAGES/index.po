@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-12 00:17+0000\n"
+"POT-Creation-Date: 2024-09-18 00:17+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -29,11 +29,11 @@ msgstr ""
 msgid "**What do you want to do? I want to...**"
 msgstr ""
 
-#: ../../pymapdl/doc/source/index.rst:46
+#: ../../pymapdl/doc/source/index.rst:47
 msgid "Know what is PyMAPDL"
 msgstr ""
 
-#: ../../pymapdl/doc/source/index.rst:50
+#: ../../pymapdl/doc/source/index.rst:51
 msgid ""
 "Check our project page :ref:`ref_project_page` where a quick project "
 "overview can be found. Learn what this project is about!"
@@ -49,68 +49,68 @@ msgid ""
 ":ref:`ref_pymapdl_course` course."
 msgstr ""
 
-#: ../../pymapdl/doc/source/index.rst:64
+#: ../../pymapdl/doc/source/index.rst:63
 msgid "Learn how to get started"
 msgstr ""
 
-#: ../../pymapdl/doc/source/index.rst:68
+#: ../../pymapdl/doc/source/index.rst:67
 msgid ""
 "Check our :ref:`ref_getting_started` section to learn to "
 ":ref:`ref_using_standard_install`, :ref:`ref_pymapdl_installation`, and "
 ":ref:`ref_launch_pymapdl`."
 msgstr ""
 
-#: ../../pymapdl/doc/source/index.rst:73
+#: ../../pymapdl/doc/source/index.rst:71
 msgid "See some PyMAPDL usage examples"
 msgstr ""
 
-#: ../../pymapdl/doc/source/index.rst:77
+#: ../../pymapdl/doc/source/index.rst:75
 msgid ""
 "In our :ref:`ref_examples` section, you can find a great collection of "
 "PyMAPDL user cases."
 msgstr ""
 
-#: ../../pymapdl/doc/source/index.rst:82
+#: ../../pymapdl/doc/source/index.rst:79
 msgid "Use the different library modules"
 msgstr ""
 
-#: ../../pymapdl/doc/source/index.rst:86
+#: ../../pymapdl/doc/source/index.rst:83
 msgid ""
 "Check our :ref:`ref_user_guide` chapter. Don't miss the right side bar with "
 "the table content."
 msgstr ""
 
-#: ../../pymapdl/doc/source/index.rst:90
+#: ../../pymapdl/doc/source/index.rst:86
 msgid "Help with PyMAPDL"
 msgstr ""
 
-#: ../../pymapdl/doc/source/index.rst:94
+#: ../../pymapdl/doc/source/index.rst:90
 msgid ""
 "Check our :ref:`ref_troubleshooting` section. Additionally, there are some "
 "helpful resources in :ref:`faq`."
 msgstr ""
 
-#: ../../pymapdl/doc/source/index.rst:99
+#: ../../pymapdl/doc/source/index.rst:94
 msgid "Contribute to PyMAPDL project"
 msgstr ""
 
-#: ../../pymapdl/doc/source/index.rst:103
+#: ../../pymapdl/doc/source/index.rst:98
 msgid "Great!! Check our :ref:`ref_contributing` section to start contribute."
 msgstr ""
 
-#: ../../pymapdl/doc/source/index.rst:107
+#: ../../pymapdl/doc/source/index.rst:101
 msgid "Document or create an example for PyMAPDL"
 msgstr ""
 
-#: ../../pymapdl/doc/source/index.rst:111
+#: ../../pymapdl/doc/source/index.rst:105
 msgid "Check our :ref:`write_documentation` section."
 msgstr ""
 
-#: ../../pymapdl/doc/source/index.rst:114
+#: ../../pymapdl/doc/source/index.rst:107
 msgid "Develop PyMAPDL"
 msgstr ""
 
-#: ../../pymapdl/doc/source/index.rst:118
+#: ../../pymapdl/doc/source/index.rst:111
 msgid ""
 "Check our :ref:`developing_pymapdl` section to get guidance about setting "
 "the project for development."
