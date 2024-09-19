@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-28 00:16+0000\n"
+"POT-Creation-Date: 2024-09-19 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -223,7 +223,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/post.py:docstring of ansys.mapdl.core.post.PostProcessing:19
 #: ../../pymapdl/src/ansys/mapdl/core/solution.py:docstring of ansys.mapdl.core.solution.Solution:24
 #: ../../pymapdl/src/ansys/mapdl/core/xpl.py:docstring of ansys.mapdl.core.xpl.ansXpl:19
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.get_available_ansys_installations:31
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.15/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.get_available_ansys_installations:31
 msgid "Examples"
 msgstr ""
 
@@ -518,7 +518,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.py:docstring of ansys.mapdl.core.Mapdl.parameters:17
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.py:docstring of ansys.mapdl.core.mapdl_grpc.MapdlGrpc.download:48
 #: ../../pymapdl/src/ansys/mapdl/core/parameters.py:docstring of ansys.mapdl.core.parameters.Parameters:17
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.get_available_ansys_installations:23
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.15/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.get_available_ansys_installations:23
 msgid "Notes"
 msgstr ""
 
@@ -911,7 +911,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.py:docstring of ansys.mapdl.core.mapdl_grpc.MapdlGrpc.list_files:0
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.py:docstring of ansys.mapdl.core.mapdl_grpc.MapdlGrpc.mute:0
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.py:docstring of ansys.mapdl.core.mapdl_grpc.MapdlGrpc.upload:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.get_available_ansys_installations:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.15/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.get_available_ansys_installations:0
 msgid "Returns"
 msgstr ""
 
@@ -1214,7 +1214,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.py:docstring of ansys.mapdl.core.mapdl_core._MapdlCore.run:44
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.py:docstring of ansys.mapdl.core.mapdl_extended._MapdlExtended.modal_analysis:133
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.py:docstring of ansys.mapdl.core.mapdl_grpc.MapdlGrpc.upload:4
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.save_ansys_path:19
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.15/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.save_ansys_path:19
 msgid ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`str\\``"
 msgstr ""
 
@@ -1789,7 +1789,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.close_all_local_instances:25
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.py:docstring of ansys.mapdl.core.mapdl_core._MapdlCore.open_apdl_log:26
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.py:docstring of ansys.mapdl.core.mapdl_core._MapdlCore.set_log_level:22
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.change_default_ansys_path:19
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.15/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.change_default_ansys_path:19
 msgid ":sphinx_autodoc_typehints_type:`\\:py\\:obj\\:\\`None\\``"
 msgstr ""
 
@@ -7604,7 +7604,7 @@ msgid "ansys.tools.path.change\\_default\\_ansys\\_path"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/launcher.rst:33:<autosummary>:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.change_default_ansys_path:2
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.15/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.change_default_ansys_path:2
 msgid "Deprecated, use `change_default_mapdl_path` instead"
 msgstr ""
 
@@ -7613,11 +7613,11 @@ msgid "ansys.tools.path.find\\_ansys"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/launcher.rst:33:<autosummary>:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.find_ansys:2
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.15/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.find_ansys:2
 msgid "Obsolete method, use find_mapdl."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.find_ansys:19
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.15/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.find_ansys:19
 msgid ":sphinx_autodoc_typehints_type:`\\:py\\:data\\:\\`\\~typing.Union\\`\\\\ \\\\\\[\\:py\\:data\\:\\`\\~typing.Tuple\\`\\\\ \\\\\\[\\:py\\:class\\:\\`str\\`\\, \\:py\\:class\\:\\`float\\`\\]\\, \\:py\\:data\\:\\`\\~typing.Tuple\\`\\\\ \\\\\\[\\:py\\:data\\:\\`\\~typing.Literal\\`\\\\ \\\\\\[\\`\\`\\'\\'\\`\\`\\]\\, \\:py\\:data\\:\\`\\~typing.Literal\\`\\\\ \\\\\\[\\`\\`\\'\\'\\`\\`\\]\\]\\]`"
 msgstr ""
 
@@ -7626,31 +7626,31 @@ msgid "ansys.tools.path.get\\_available\\_ansys\\_installations"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/launcher.rst:33:<autosummary>:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.get_available_ansys_installations:2
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.15/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.get_available_ansys_installations:2
 msgid "Return a dictionary of available Ansys unified installation versions with their base paths."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.get_available_ansys_installations:10
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.15/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.get_available_ansys_installations:10
 msgid ":class:`python:dict`\\[int: :class:`python:str`]"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.get_available_ansys_installations:11
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.15/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.get_available_ansys_installations:11
 msgid "Return all Ansys unified installations paths in Windows."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.get_available_ansys_installations:20
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.15/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.get_available_ansys_installations:20
 msgid ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~typing.Dict\\`\\\\ \\\\\\[\\:py\\:class\\:\\`int\\`\\, \\:py\\:class\\:\\`str\\`\\]`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.get_available_ansys_installations:24
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.15/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.get_available_ansys_installations:24
 msgid "On Windows, It uses the environment variable ``AWP_ROOTXXX``."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.get_available_ansys_installations:26
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.15/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.get_available_ansys_installations:26
 msgid "The student versions are returned at the end of the dict and with negative value for the version."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.get_available_ansys_installations:38
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.15/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.get_available_ansys_installations:38
 msgid "Return all installed Ansys paths in Linux."
 msgstr ""
 
@@ -7659,7 +7659,7 @@ msgid "ansys.tools.path.save\\_ansys\\_path"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/launcher.rst:33:<autosummary>:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.save_ansys_path:2
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.15/x64/lib/python3.10/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.save_ansys_path:2
 msgid "Deprecated, use `save_mapdl_path` instead"
 msgstr ""
 
