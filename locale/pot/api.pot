@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-19 00:17+0000\n"
+"POT-Creation-Date: 2024-09-28 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2232,7 +2232,7 @@ msgid "Collection of MAPDL components."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/component.py:docstring of ansys.mapdl.core.component.ComponentManager:18
-msgid "**Components need to be selected** using :attr:`Mapdl.cmsel() <ansys.mapdl.core.Mapdl.cmsel>` before being listed in :attr:`Mapdl.components <ansys.mapdl.core.Mapdl.components>`"
+msgid "**Components need to be selected** using :attr:`Mapdl.cmsel() <ansys.mapdl.core.Mapdl.cmsel>` before being listed in :class:`Mapdl.components <ansys.mapdl.core.component.ComponentManager>`"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/component.py:docstring of ansys.mapdl.core.component.ComponentManager:25

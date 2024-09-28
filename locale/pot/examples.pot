@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-29 00:16+0000\n"
+"POT-Creation-Date: 2024-09-28 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,37 +16,30 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../pymapdl/doc/source/examples/devportal.rst:3
 #: ../../pymapdl/doc/source/examples/devportal.rst:5
 msgid "PyMAPDL Developer Portal articles"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/devportal.rst:5
 #: ../../pymapdl/doc/source/examples/devportal.rst:7
 msgid "In this section, you'll find informative and insightful blog articles crafted by the expert developers at Ansys and published in the `Developer Portal <developer_portal_>`_. Whether you're a seasoned pro or just getting started with PyMAPDL, the blog articles cover a wide range of topics, from best practices and tips to in-depth tutorials and real-world use cases. The aim is to provide you with a valuable resource that can help you harness the full potential of PyMAPDL for your engineering and simulation needs."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/devportal.rst:14
 #: ../../pymapdl/doc/source/examples/devportal.rst:16
 msgid "Because the Developer Portal is your hub for all things related to Ansys products, if you have questions or suggestions, you can go there to connect to Ansys experts and the growing Ansys developer community."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/devportal.rst:22
 #: ../../pymapdl/doc/source/examples/devportal.rst:24
 msgid "Biomedical catheter design analysis"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/devportal.rst:28
 #: ../../pymapdl/doc/source/examples/devportal.rst:30
 msgid "Analyzing biomedical catheter flexibility using PyMAPDL scripting to assess its flexural rigidity in various designs."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/devportal.rst:32
 #: ../../pymapdl/doc/source/examples/devportal.rst:34
 msgid "Postprocessing of simplified bolted connections with the help of PyAnsys"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/devportal.rst:38
 #: ../../pymapdl/doc/source/examples/devportal.rst:40
 msgid "Illustrating PyMAPDL's GUI possibilities for pre-tensioned bolted connections, adhering to industry standards, and data extraction to Excel for analysis."
 msgstr ""
@@ -1031,102 +1024,83 @@ msgstr ""
 msgid "Cart-Pole Simulation"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:2
 #: ../../pymapdl/doc/source/examples/extended_examples/index.rst:4
+#: ../../pymapdl/doc/source/examples/index.rst:45
 msgid "Extended examples"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:4
 #: ../../pymapdl/doc/source/examples/extended_examples/index.rst:6
 msgid "These extended examples explain concepts such as interoperability with other programs, libraries, and features in development."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:8
 #: ../../pymapdl/doc/source/examples/extended_examples/index.rst:10
 msgid "**Name**"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:8
 #: ../../pymapdl/doc/source/examples/extended_examples/index.rst:10
 msgid "**Description**"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:10
 #: ../../pymapdl/doc/source/examples/extended_examples/index.rst:12
 msgid "`Cart Pole Simulation <cartpole_example_notebook_>`_"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:10
 #: ../../pymapdl/doc/source/examples/extended_examples/index.rst:12
 msgid "Demonstrates a reinforcement machine learning example using MAPDL through PyMAPDL."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:12
 #: ../../pymapdl/doc/source/examples/extended_examples/index.rst:14
 msgid ":ref:`extended_example01`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:12
 #: ../../pymapdl/doc/source/examples/extended_examples/index.rst:14
 msgid "Demonstrates the interoperability between PyMAPDL and the `Gmsh <gmsh_>`_ meshing library."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:14
 #: ../../pymapdl/doc/source/examples/extended_examples/index.rst:16
 msgid ":ref:`python_upf_examples`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:14
 #: ../../pymapdl/doc/source/examples/extended_examples/index.rst:16
 msgid "Demonstrates the interoperability between user-programmable functions in MAPDL and Python."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:16
 #: ../../pymapdl/doc/source/examples/extended_examples/index.rst:18
 msgid ":ref:`krylov_example`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:16
 #: ../../pymapdl/doc/source/examples/extended_examples/index.rst:18
 msgid "Demonstrates the usage of the Krylov method for solving a customized harmonic analysis."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:18
 #: ../../pymapdl/doc/source/examples/extended_examples/index.rst:20
 msgid ":ref:`dash_example`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:18
 #: ../../pymapdl/doc/source/examples/extended_examples/index.rst:20
 msgid "Demonstrates the use of PyMAPDL with Dash."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:20
 #: ../../pymapdl/doc/source/examples/extended_examples/index.rst:22
 msgid ":ref:`executable_example`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:20
 #: ../../pymapdl/doc/source/examples/extended_examples/index.rst:22
 msgid "Demonstrates how to create your own Python app with a command-line interface."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:22
 #: ../../pymapdl/doc/source/examples/extended_examples/index.rst:24
 msgid ":ref:`gui_example`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:22
 #: ../../pymapdl/doc/source/examples/extended_examples/index.rst:24
 msgid "Demonstrates how to create your own GUI app with Python and PySide6."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:24
 #: ../../pymapdl/doc/source/examples/extended_examples/index.rst:26
 msgid ":ref:`hpc_ml_ga_example`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:24
 #: ../../pymapdl/doc/source/examples/extended_examples/index.rst:26
 msgid "Demonstrates how to use PyMAPDL in a high-performance computing system managed by SLURM."
 msgstr ""
@@ -3275,137 +3249,112 @@ msgstr ""
 msgid ":download:`Download zipped: geometry.zip <geometry.zip>`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:17
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:6
+#: ../../pymapdl/doc/source/examples/index.rst:31
 msgid "Full examples using PyMAPDL"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:18
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:7
+#: ../../pymapdl/doc/source/examples/index.rst:36
 msgid "These examples demonstrate full examples using the PyMAPDL module."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:37
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:26
 msgid ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_2d_magnetostatic_solenoid-BodyFlux_Averaging.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:54
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:43
 msgid ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_2d_plate_with_a_hole.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:71
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:60
 msgid ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_2d_pressure_vessel.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:88
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:77
 msgid ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_3d_notch.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:105
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:94
 msgid ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_3d_plate_thermal.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:122
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:111
 msgid ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_acoustic_analysis.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:139
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:128
 msgid ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_basic_dpf_example.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:156
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:145
 msgid ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_bracket_static.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:173
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:162
 msgid ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_composite_dcb.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:190
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:179
 msgid ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_contact_elements.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:207
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:196
 msgid ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_cyclic_analysis.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:224
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:213
 msgid ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_cyclic_static.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:241
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:230
 msgid ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_exhaust_manifold_thermal_stress.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:258
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:247
 msgid ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_geometry.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:275
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:264
 msgid ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_lathe_cutter.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:292
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:281
 msgid ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_mapdl_3d_beam.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:309
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:298
 msgid ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_mapdl_beam.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:326
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:315
 msgid ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_modal_beam.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:343
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:332
 msgid ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_path_operations.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:360
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:349
 msgid ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_pressure_vessel.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:377
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:366
 msgid ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_pyvista_mesh.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:394
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:383
 msgid ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_slashmap_cfx_mapping.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:411
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:400
 msgid ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_spotweld.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:428
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:417
 msgid ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_torsional_load.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:445
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:434
 msgid ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_transient_thermal.py`"
 msgstr ""
@@ -5344,37 +5293,32 @@ msgstr ""
 msgid ":download:`Download zipped: 04-primitives.zip <04-primitives.zip>`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:460
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/index.rst:6
+#: ../../pymapdl/doc/source/examples/index.rst:38
 msgid "Geometry examples"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:461
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/index.rst:7
+#: ../../pymapdl/doc/source/examples/index.rst:43
 msgid "These examples demonstrate using PyMAPDL to create basic geometry."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:480
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/index.rst:26
 msgid ":ref:`sphx_glr_examples_gallery_examples_01-geometry_00-keypoints.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:497
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/index.rst:43
 msgid ":ref:`sphx_glr_examples_gallery_examples_01-geometry_01-lines.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:514
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/index.rst:60
 msgid ":ref:`sphx_glr_examples_gallery_examples_01-geometry_02-areas.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:531
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/index.rst:77
 msgid ":ref:`sphx_glr_examples_gallery_examples_01-geometry_03-volumes.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:548
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/index.rst:94
 msgid ":ref:`sphx_glr_examples_gallery_examples_01-geometry_04-primitives.py`"
 msgstr ""
@@ -6031,37 +5975,32 @@ msgstr ""
 msgid ":download:`Download zipped: 05-explore_mapdl_files.zip <05-explore_mapdl_files.zip>`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:563
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/index.rst:6
+#: ../../pymapdl/doc/source/examples/index.rst:52
 msgid "Miscellaneous examples"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:564
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/index.rst:7
+#: ../../pymapdl/doc/source/examples/index.rst:57
 msgid "These examples demonstrate miscellaneous tips and tricks for using PyMAPDL."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:583
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/index.rst:26
 msgid ":ref:`sphx_glr_examples_gallery_examples_02-tips-n-tricks_00-example-template.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:600
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/index.rst:43
 msgid ":ref:`sphx_glr_examples_gallery_examples_02-tips-n-tricks_01-smoothing-element-size-transitions.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:617
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/index.rst:60
 msgid ":ref:`sphx_glr_examples_gallery_examples_02-tips-n-tricks_03-using_inline_functions_and_Query.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:634
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/index.rst:77
 msgid ":ref:`sphx_glr_examples_gallery_examples_02-tips-n-tricks_04-rotational-displacement.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:651
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/index.rst:94
 msgid ":ref:`sphx_glr_examples_gallery_examples_02-tips-n-tricks_05-explore_mapdl_files.py`"
 msgstr ""
@@ -6584,17 +6523,15 @@ msgstr ""
 msgid ":download:`Download zipped: 00-how_finite_element_works.zip <00-how_finite_element_works.zip>`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:666
 #: ../../pymapdl/doc/source/examples/gallery_examples/03-general-fea/index.rst:6
+#: ../../pymapdl/doc/source/examples/index.rst:60
 msgid "Academic finite element examples"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:667
 #: ../../pymapdl/doc/source/examples/gallery_examples/03-general-fea/index.rst:7
 msgid "These examples demonstrate finite element method as applicable to Python and MAPDL while emphasising Python libraries such as `matplotlib <https://matplotlib.org/>`_"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/index.rst:688
 #: ../../pymapdl/doc/source/examples/gallery_examples/03-general-fea/index.rst:28
 msgid ":ref:`sphx_glr_examples_gallery_examples_03-general-fea_00-how_finite_element_works.py`"
 msgstr ""
@@ -6622,84 +6559,58 @@ msgid "Verification Manual"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/index.rst:3
+#: ../../pymapdl/doc/source/examples/index.rst:81
 msgid "Technology Showcases"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/index.rst:17
+#: ../../pymapdl/doc/source/examples/index.rst:21
 msgid "Examples"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/index.rst:20
+#: ../../pymapdl/doc/source/examples/index.rst:24
 msgid "Here are a series of examples using MAPDL with the ``ansys-mapdl-core`` library."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/pymapdl_examples_repo/index.rst:2
-#: ../../pymapdl/doc/source/examples/pymapdl_examples_repo/index.rst:4
-msgid "PyMAPDL examples repository"
+#: ../../pymapdl/doc/source/examples/index.rst:50
+msgid "These extended examples explain advanced concepts."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/pymapdl_examples_repo/index.rst:5
-#: ../../pymapdl/doc/source/examples/pymapdl_examples_repo/index.rst:7
-msgid "The Verification Manual examples and the Technology Showcase examples are hosted in the  `PyMAPDL Examples repository <pymapdl_ex_repo_>`_."
+#: ../../pymapdl/doc/source/examples/index.rst:65
+msgid "Demonstrate finite element method for academic and teaching purposes."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/pymapdl_examples_repo/index.rst:8
-#: ../../pymapdl/doc/source/examples/pymapdl_examples_repo/index.rst:10
-msgid "The documentation to these examples can be found in the `PyMAPDL Examples documentation <pymapdl_ex_doc_>`_."
+#: ../../pymapdl/doc/source/examples/index.rst:67
+msgid "Developer portal examples"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/pymapdl_examples_repo/index.rst:14
-#: ../../pymapdl/doc/source/examples/pymapdl_examples_repo/index.rst:16
+#: ../../pymapdl/doc/source/examples/index.rst:72
+msgid "Informative and insightful blog articles published in the `Developer Portal <developer_portal_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/index.rst:74
 msgid "Verification manual examples"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/pymapdl_examples_repo/index.rst:16
-#: ../../pymapdl/doc/source/examples/pymapdl_examples_repo/index.rst:18
-msgid "The Verification Manual examples demonstrate a range of Mechanical APDL elements and capabilities in straightforward problems which have \"classical\" or readily obtainable theoretical solutions using PyMAPDL."
+#: ../../pymapdl/doc/source/examples/index.rst:78
+msgid "Demonstrates a range of Mechanical APDL elements and capabilities using PyMAPDL."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/pymapdl_examples_repo/index.rst:20
-#: ../../pymapdl/doc/source/examples/pymapdl_examples_repo/index.rst:22
-msgid "These problems may then serve as the basis for additional validation and qualification of Mechanical APDL capabilities for specific applications that may be of interest."
+#: ../../pymapdl/doc/source/examples/index.rst:85
+msgid "Examples coming from the APDL Technology Showcase Manual."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/pymapdl_examples_repo/index.rst:24
-#: ../../pymapdl/doc/source/examples/pymapdl_examples_repo/index.rst:26
-msgid "The documentation to these examples can be found in the `Verification Manual <pymapdl_ex_vm_>`_ section."
-msgstr ""
-
-#: ../../pymapdl/doc/source/examples/pymapdl_examples_repo/index.rst:31
-#: ../../pymapdl/doc/source/examples/pymapdl_examples_repo/index.rst:33
-msgid "Technology showcase examples"
-msgstr ""
-
-#: ../../pymapdl/doc/source/examples/pymapdl_examples_repo/index.rst:33
-#: ../../pymapdl/doc/source/examples/pymapdl_examples_repo/index.rst:35
-msgid "The PyMAPDL technology showcase examples are more complex test cases than the ones preceding. They demonstrate how to use PyMAPDL to effectively and accurately solve interdisciplinary problems from a variety of industries and engineering fields."
-msgstr ""
-
-#: ../../pymapdl/doc/source/examples/pymapdl_examples_repo/index.rst:38
-#: ../../pymapdl/doc/source/examples/pymapdl_examples_repo/index.rst:40
-msgid "The examples initially come from the `APDL Technology Showcase Manual <ansys_techdemo_guide_>`_ and are modeled with MAPDL files. Some of them have been reproduced in Python files using PyMAPDL with the ``ansys-mapdl-core`` library."
-msgstr ""
-
-#: ../../pymapdl/doc/source/examples/pymapdl_examples_repo/index.rst:43
-#: ../../pymapdl/doc/source/examples/pymapdl_examples_repo/index.rst:45
-msgid "The documentation to these examples can be found in the `Technology Showcases <pymapdl_ex_ts_>`_ section."
-msgstr ""
-
-#: ../../pymapdl/doc/source/examples/index.rst:55
+#: ../../pymapdl/doc/source/examples/index.rst:94
 msgid "Download example files"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/index.rst:57
+#: ../../pymapdl/doc/source/examples/index.rst:96
 msgid "Each example should contain all the necessary resources to run the example. However in some cases, external files are needed. A link to those files is available at each example page. These links refers to the following GitHub repository where you can find all of them:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/index.rst:62
+#: ../../pymapdl/doc/source/examples/index.rst:101
 msgid "`GitHub Example Data Repository <example_data_repo_>`_"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/index.rst:64
+#: ../../pymapdl/doc/source/examples/index.rst:103
 msgid "If you find a missing or broken link, open an issue in GitHub (`PyMAPDL Issues <pymapdl_issues_>`_)."
 msgstr ""
