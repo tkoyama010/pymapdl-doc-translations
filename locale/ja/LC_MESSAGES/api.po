@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-28 00:17+0000\n"
+"POT-Creation-Date: 2024-10-04 00:17+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -411,7 +411,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
 #: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.eplot:90
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.lplot:51
+#: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.lplot:54
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
 #: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.nplot:93
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
@@ -719,6 +719,8 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
 #: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.lplot:22
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
+#: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.lplot:25
+#: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
 #: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.nplot:20
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
 #: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.nplot:25
@@ -858,7 +860,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
 #: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.eplot:73
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.lplot:26
+#: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.lplot:29
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
 #: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.vplot:42
 msgid "**\\*\\*kwargs**"
@@ -867,7 +869,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
 #: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.aplot:62
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.lplot:27
+#: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.lplot:30
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
 #: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.vplot:43
 msgid ""
@@ -937,7 +939,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
 #: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.kplot:42
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.lplot:42
+#: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.lplot:45
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
 #: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:56
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
@@ -2242,7 +2244,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
 #: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.kplot:43
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.lplot:47
+#: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.lplot:50
 msgid "This command is valid in any processor."
 msgstr ""
 
@@ -2486,7 +2488,18 @@ msgid "Number keypoints.  Only valid when ``show_keypoints=True``"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.lplot:43
+#: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.lplot:26
+msgid ""
+"**color_lines** : :ref:`bool <python:bltin-boolean-values>`, :obj:`optional`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
+#: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.lplot:27
+msgid "Color each line with a different color."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
+#: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.lplot:46
 msgid ""
 "Mesh divisions on plotted lines are controlled by the ``ldiv`` option of the"
 " ``psymb`` command when ``vtk=False``. Otherwise, line divisions are "
@@ -8948,7 +8961,7 @@ msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/plotting/theme.pydocstring of
 #: ansys.mapdl.core.plotting.theme.MapdlTheme:6
-msgid "``'jet'`` for the (rainbow) colormap."
+msgid "PyMAPDL colormap as default colormap."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/plotting/theme.pydocstring of
@@ -8968,12 +8981,12 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/plotting/theme.pydocstring of
-#: ansys.mapdl.core.plotting.theme.MapdlTheme:34
+#: ansys.mapdl.core.plotting.theme.MapdlTheme:33
 msgid "Apply this theme to element plotting."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/plotting/theme.pydocstring of
-#: ansys.mapdl.core.plotting.theme.MapdlTheme:38
+#: ansys.mapdl.core.plotting.theme.MapdlTheme:37
 msgid "Apply this theme to area plotting."
 msgstr ""
 
