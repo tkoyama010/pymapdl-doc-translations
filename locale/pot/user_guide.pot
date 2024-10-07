@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-04 00:17+0000\n"
+"POT-Creation-Date: 2024-10-07 21:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -334,6 +334,7 @@ msgid "The coordinates returned by the ``coord`` method contain the following: X
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/database.rst:99
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:8
 #: ../../pymapdl/doc/source/user_guide/krylov.rst:175
 msgid "Requirements"
 msgstr ""
@@ -352,6 +353,14 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/database.rst:106
 msgid "This feature does not work in the Ansys 2023 R1."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/examples.rst:3
+msgid "Examples"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/examples.rst:5
+msgid "For an example that uses a machine learning genetic algorithm in an HPC system managed by SLURM scheduler, see :ref:`hpc_ml_ga_example`."
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/hpc/introduction.rst:6
@@ -674,128 +683,123 @@ msgid "PyMAPDL on SLURM HPC clusters"
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:11
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:126
 msgid "Submit a PyMAPDL job"
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:13
-msgid "Using PyMAPDL in an HPC environment managed by SLURM scheduler has certain requirements:"
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:15
-msgid "**An Ansys installation must be accessible from all the compute nodes**. This normally implies that the ``ANSYS`` installation directory is in a shared drive or directory. Your HPC cluster administrator should provide you with the path to the ``ANSYS`` directory."
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:20
-msgid "**A compatible Python installation must be accessible from all the compute nodes**. For compatible Python versions, see :ref:`ref_pymapdl_installation`."
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:23
-msgid "Additionally, you must perform a few key steps to ensure efficient job execution and resource utilization. Subsequent topics describe these steps."
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:27
-msgid "Check the Python installation"
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:29
-msgid "The PyMAPDL Python package (``ansys-mapdl-core``) must be installed in a virtual environment that is accessible from the compute nodes."
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:32
-msgid "To see where your Python distribution is installed, use this code:"
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:39
-msgid "To print the version of Python you have available, use this code:"
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:46
-msgid "You should be aware that your machine might have installed other Python versions. To find out if those installations are already in the ``PATH`` environment variable, you can press the **Tab** key to use autocomplete:"
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:58
-msgid "You should use a Python version that is compatible with PyMAPDL. For more information, see :ref:`ref_pymapdl_installation`."
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:61
-msgid "The ``which`` command returns the path where the Python executable is installed. You can use that executable to create your own Python virtual environment in a directory that is accessible from all the compute nodes. For most HPC clusters, the ``/home/$user`` directory is generally available to all nodes. You can then create the virtual environment in the ``/home/user/.venv`` directory:"
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:71
-msgid "After activating the virtual environment, you can install PyMAPDL."
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:75
-msgid "Install PyMAPDL"
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:77
-msgid "To install PyMAPDL on the activated virtual environment, run the following commands:"
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:91
-msgid "To test if this virtual environment is accessible from the compute nodes, run this ``test.sh`` bash script:"
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:107
-msgid "then you can run that script using:"
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:113
-msgid "This command might take a minute or two to complete, depending on the amount of free resources available in the cluster. On the console, you should see this output:"
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:122
-msgid "If you see an error in the output, see :ref:`ref_hpc_troubleshooting`, especially :ref:`ref_python_venv_not_accesible`."
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:128
 msgid "To submit a PyMAPDL job, you must create two files:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:130
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:15
 msgid "Python script with the PyMAPDL code"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:131
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:16
 msgid "Bash script that activates the virtual environment and calls the Python script"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:133
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:18
 msgid "**Python script:** ``pymapdl_script.py``"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:150
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:35
 msgid "**Bash script:** ``job.sh``"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:157
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:42
 msgid "To start the simulation, you use this code:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:164
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:49
 msgid "The bash script allows you to customize the environment before running the Python script. This bash script performs such tasks as creating environment variables, moving to different directories, and printing to ensure your configuration is correct. However, this bash script is not mandatory. You can avoid having the ``job.sh`` bash script if the virtual environment is activated and you pass all the environment variables to the job:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:177
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:62
 msgid "The ``--export=ALL`` argument might not be needed, depending on the cluster configuration. Furthermore, you can omit the Python call in the preceding command if you include the Python shebang (``#!/usr/bin/python3``) in the first line of the ``pymapdl_script.py`` script."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:186
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:71
 msgid "If you prefer to run the job in the background, you can use the ``sbatch`` command instead of the ``srun`` command. However, in this case, the Bash file is needed:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:194
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:79
 msgid "Here is the expected output of the job:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:202
-msgid "Examples"
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:5
+msgid "Setting PyMAPDL"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:204
-msgid "For an example that uses a machine learning genetic algorithm in an HPC system managed by SLURM scheduler, see :ref:`hpc_ml_ga_example`."
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:10
+msgid "Using PyMAPDL in an HPC environment managed by SLURM scheduler has certain requirements:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:12
+msgid "**An Ansys installation must be accessible from all the compute nodes**. This normally implies that the ``ANSYS`` installation directory is in a shared drive or directory. Your HPC cluster administrator should provide you with the path to the ``ANSYS`` directory."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:17
+msgid "**A compatible Python installation must be accessible from all the compute nodes**. For compatible Python versions, see :ref:`ref_pymapdl_installation`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:20
+msgid "Additionally, you must perform a few key steps to ensure efficient job execution and resource utilization. Subsequent topics describe these steps."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:24
+msgid "Check the Python installation"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:26
+msgid "The PyMAPDL Python package (``ansys-mapdl-core``) must be installed in a virtual environment that is accessible from the compute nodes."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:29
+msgid "To see where your Python distribution is installed, use this code:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:36
+msgid "To print the version of Python you have available, use this code:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:43
+msgid "You should be aware that your machine might have installed other Python versions. To find out if those installations are already in the ``PATH`` environment variable, you can press the **Tab** key to use autocomplete:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:55
+msgid "You should use a Python version that is compatible with PyMAPDL. For more information, see :ref:`ref_pymapdl_installation`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:58
+msgid "The ``which`` command returns the path where the Python executable is installed. You can use that executable to create your own Python virtual environment in a directory that is accessible from all the compute nodes. For most HPC clusters, the ``/home/$user`` directory is generally available to all nodes. You can then create the virtual environment in the ``/home/user/.venv`` directory:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:68
+msgid "After activating the virtual environment, you can install PyMAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:72
+msgid "Install PyMAPDL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:74
+msgid "To install PyMAPDL on the activated virtual environment, run the following commands:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:88
+msgid "To test if this virtual environment is accessible from the compute nodes, run this ``test.sh`` bash script:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:104
+msgid "then you can run that script using:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:110
+msgid "This command might take a minute or two to complete, depending on the amount of free resources available in the cluster. On the console, you should see this output:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:119
+msgid "If you see an error in the output, see :ref:`ref_hpc_troubleshooting`, especially :ref:`ref_python_venv_not_accesible`."
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:6
@@ -926,63 +930,63 @@ msgstr ""
 msgid "This section provides a general overview of PyMAPDL and how you use it."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:59
+#: ../../pymapdl/doc/source/user_guide/index.rst:61
 msgid "PyMAPDL overview"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:60
+#: ../../pymapdl/doc/source/user_guide/index.rst:62
 msgid "The :func:`launch_mapdl() <ansys.mapdl.core.launcher.launch_mapdl>` function within the ``ansys-mapdl-core`` library creates an instance of the :class:`Mapdl <ansys.mapdl.core.mapdl.MapdlBase>` class in the background and sends commands to that instance. Errors and warnings are processed Pythonically, letting you develop a script in real time, without worrying about it functioning correctly when deployed in batch mode."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:68
+#: ../../pymapdl/doc/source/user_guide/index.rst:70
 msgid "MAPDL can be started from Python in gRPC mode using the :func:`launch_mapdl() <ansys.mapdl.core.launcher.launch_mapdl>` method. This starts MAPDL in a temporary directory by default. You can change this to your current directory with this code:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:81
+#: ../../pymapdl/doc/source/user_guide/index.rst:83
 msgid "MAPDL is now active, and you can send commands to it as a genuine Python class. For example, if you wanted to create a surface using key points, you could run:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:98
+#: ../../pymapdl/doc/source/user_guide/index.rst:100
 msgid "MAPDL interactively returns the result of each command, which is stored to the logging module. Errors are caught immediately. For example, if you input an invalid command:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:117
+#: ../../pymapdl/doc/source/user_guide/index.rst:119
 msgid "This ``MapdlRuntimeError`` was caught immediately. This means that you can write your MAPDL scripts in Python, run them interactively, and then run them as a batch without worrying if the script would run correctly if you had instead outputted it to a script file."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:122
+#: ../../pymapdl/doc/source/user_guide/index.rst:124
 msgid "The :class:`Mapdl <ansys.mapdl.core.mapdl.MapdlBase>` class supports much more than just sending text to MAPDL. It includes higher-level wrapping, allowing for better scripting and interaction with MAPDL. For an overview of the various advanced methods to visualize, script, and interact with MAPDL, see :ref:`ref_examples`."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:130
+#: ../../pymapdl/doc/source/user_guide/index.rst:132
 msgid "Calling MAPDL Pythonically"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:131
+#: ../../pymapdl/doc/source/user_guide/index.rst:133
 msgid "MAPDL functions can be called directly from an instance of :class:`Mapdl <ansys.mapdl.core.mapdl.MapdlBase>` in a Pythonic manner. This is to simplify calling Ansys, especially when inputs are variables within Python. For example, the following two commands are equivalent:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:141
+#: ../../pymapdl/doc/source/user_guide/index.rst:143
 msgid "This approach has some obvious advantages. Chiefly, it's easier to script because ``ansys-mapdl-core`` takes care of the string formatting for you. For example, you can input points from a numpy array with:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:152
+#: ../../pymapdl/doc/source/user_guide/index.rst:154
 msgid "Additionally, exceptions are caught and handled within Python."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:170
+#: ../../pymapdl/doc/source/user_guide/index.rst:172
 msgid "For longer scripts, instead of sending commands to MAPDL as in the area creation example, you can instead run:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:191
+#: ../../pymapdl/doc/source/user_guide/index.rst:193
 msgid "This approach has some obvious advantages, chiefly that it's a bit easier to script as :class:`Mapdl <ansys.mapdl.core.mapdl.MapdlBase>` takes care of the string formatting for you. For example, inputting points from a numpy array:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:205
+#: ../../pymapdl/doc/source/user_guide/index.rst:207
 msgid "Additionally, each function with the MAPDL class has help associated with it. For example:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:249
+#: ../../pymapdl/doc/source/user_guide/index.rst:251
 msgid "For stability considerations, see :ref:`PyMAPDL stability <ref_pymapdl_stability>`."
 msgstr ""
 

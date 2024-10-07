@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-04 00:17+0000\n"
+"POT-Creation-Date: 2024-10-07 21:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -407,7 +407,7 @@ msgid "bool, optional"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.py:docstring of ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.aplot:34
-msgid "Plot the currently selected areas using ``pyvista``.  As this creates a temporary surface mesh, this may have a long execution time for large meshes."
+msgid "Plot the currently selected areas using ``ansys-tools-visualization_interface``. As this creates a temporary surface mesh, this may have a long execution time for large meshes."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.py:docstring of ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.aplot:38
@@ -566,7 +566,7 @@ msgid "APDL Command: EPLOT"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.py:docstring of ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.eplot:13
-msgid "Plot the currently selected elements using ``pyvista``. Defaults to current ``use_vtk`` setting."
+msgid "Plot the currently selected elements using ``ansys-tools-visualization_interface``. Defaults to current ``use_vtk`` setting."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.py:docstring of ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.eplot:16
@@ -1276,7 +1276,7 @@ msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.py:docstring of ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.kplot:26
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.py:docstring of ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.lplot:18
-msgid "Plot the currently selected lines using ``pyvista``."
+msgid "Plot the currently selected lines using ``ansys-tools-visualization_interface``."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.py:docstring of ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.kplot:28
@@ -2090,7 +2090,7 @@ msgid "Scale factor for the size of the degeneracy-marker star.  The scale is th
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.py:docstring of ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.vplot:31
-msgid "Plot the currently selected volumes using ``pyvista``.  As this creates a temporary surface mesh, this may have a long execution time for large meshes."
+msgid "Plot the currently selected volumes using ``ansys-tools-visualization_interface``. As this creates a temporary surface mesh, this may have a long execution time for large meshes."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.py:docstring of ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.vplot:36
