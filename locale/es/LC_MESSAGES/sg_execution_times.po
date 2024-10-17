@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-21 15:07+0000\n"
+"POT-Creation-Date: 2024-10-17 00:18+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/sg_execution_times.rst:9
 msgid ""
-"**00:00.000** total execution time for 36 files **from all galleries**:"
+"**00:00.000** total execution time for 35 files **from all galleries**:"
 msgstr ""
 
 #: ../../pymapdl/doc/source/sg_execution_times.rst:32
@@ -81,7 +81,6 @@ msgstr ""
 #: ../../pymapdl/doc/source/sg_execution_times.rst:132
 #: ../../pymapdl/doc/source/sg_execution_times.rst:135
 #: ../../pymapdl/doc/source/sg_execution_times.rst:138
-#: ../../pymapdl/doc/source/sg_execution_times.rst:141
 msgid "00:00.000"
 msgstr ""
 
@@ -120,7 +119,6 @@ msgstr ""
 #: ../../pymapdl/doc/source/sg_execution_times.rst:133
 #: ../../pymapdl/doc/source/sg_execution_times.rst:136
 #: ../../pymapdl/doc/source/sg_execution_times.rst:139
-#: ../../pymapdl/doc/source/sg_execution_times.rst:142
 msgid "0.0"
 msgstr ""
 
@@ -174,179 +172,173 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/sg_execution_times.rst:59
 msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_composite_dcb.py`"
-" (``../../examples/00-mapdl-examples/composite_dcb.py``)"
-msgstr ""
-
-#: ../../pymapdl/doc/source/sg_execution_times.rst:62
-msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_contact_elements.py` (``../../examples/00-mapdl-"
 "examples/contact_elements.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/sg_execution_times.rst:65
+#: ../../pymapdl/doc/source/sg_execution_times.rst:62
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_cyclic_analysis.py` (``../../examples/00-mapdl-"
 "examples/cyclic_analysis.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/sg_execution_times.rst:68
+#: ../../pymapdl/doc/source/sg_execution_times.rst:65
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_cyclic_static.py`"
 " (``../../examples/00-mapdl-examples/cyclic_static.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/sg_execution_times.rst:71
+#: ../../pymapdl/doc/source/sg_execution_times.rst:68
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_exhaust_manifold_thermal_stress.py` (``../../examples/00-mapdl-"
 "examples/exhaust_manifold_thermal_stress.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/sg_execution_times.rst:74
+#: ../../pymapdl/doc/source/sg_execution_times.rst:71
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_geometry.py` "
 "(``../../examples/00-mapdl-examples/geometry.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/sg_execution_times.rst:77
+#: ../../pymapdl/doc/source/sg_execution_times.rst:74
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_lathe_cutter.py` "
 "(``../../examples/00-mapdl-examples/lathe_cutter.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/sg_execution_times.rst:80
+#: ../../pymapdl/doc/source/sg_execution_times.rst:77
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_mapdl_3d_beam.py`"
 " (``../../examples/00-mapdl-examples/mapdl_3d_beam.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/sg_execution_times.rst:83
+#: ../../pymapdl/doc/source/sg_execution_times.rst:80
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_mapdl_beam.py` "
 "(``../../examples/00-mapdl-examples/mapdl_beam.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/sg_execution_times.rst:86
+#: ../../pymapdl/doc/source/sg_execution_times.rst:83
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_modal_beam.py` "
 "(``../../examples/00-mapdl-examples/modal_beam.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/sg_execution_times.rst:89
+#: ../../pymapdl/doc/source/sg_execution_times.rst:86
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_path_operations.py` (``../../examples/00-mapdl-"
 "examples/path_operations.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/sg_execution_times.rst:92
+#: ../../pymapdl/doc/source/sg_execution_times.rst:89
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_pressure_vessel.py` (``../../examples/00-mapdl-"
 "examples/pressure_vessel.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/sg_execution_times.rst:95
+#: ../../pymapdl/doc/source/sg_execution_times.rst:92
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_pyvista_mesh.py` "
 "(``../../examples/00-mapdl-examples/pyvista_mesh.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/sg_execution_times.rst:98
+#: ../../pymapdl/doc/source/sg_execution_times.rst:95
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_slashmap_cfx_mapping.py` (``../../examples/00-mapdl-"
 "examples/slashmap_cfx_mapping.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/sg_execution_times.rst:101
+#: ../../pymapdl/doc/source/sg_execution_times.rst:98
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_spotweld.py` "
 "(``../../examples/00-mapdl-examples/spotweld.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/sg_execution_times.rst:104
+#: ../../pymapdl/doc/source/sg_execution_times.rst:101
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_torsional_load.py` (``../../examples/00-mapdl-"
 "examples/torsional_load.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/sg_execution_times.rst:107
+#: ../../pymapdl/doc/source/sg_execution_times.rst:104
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_transient_thermal.py` (``../../examples/00-mapdl-"
 "examples/transient_thermal.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/sg_execution_times.rst:110
+#: ../../pymapdl/doc/source/sg_execution_times.rst:107
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_01-geometry_00-keypoints.py` "
 "(``../../examples/01-geometry/00-keypoints.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/sg_execution_times.rst:113
+#: ../../pymapdl/doc/source/sg_execution_times.rst:110
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_01-geometry_01-lines.py` "
 "(``../../examples/01-geometry/01-lines.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/sg_execution_times.rst:116
+#: ../../pymapdl/doc/source/sg_execution_times.rst:113
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_01-geometry_02-areas.py` "
 "(``../../examples/01-geometry/02-areas.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/sg_execution_times.rst:119
+#: ../../pymapdl/doc/source/sg_execution_times.rst:116
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_01-geometry_03-volumes.py` "
 "(``../../examples/01-geometry/03-volumes.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/sg_execution_times.rst:122
+#: ../../pymapdl/doc/source/sg_execution_times.rst:119
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_01-geometry_04-primitives.py` "
 "(``../../examples/01-geometry/04-primitives.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/sg_execution_times.rst:125
+#: ../../pymapdl/doc/source/sg_execution_times.rst:122
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_02-tips-n-tricks_00-example-"
 "template.py` (``../../examples/02-tips-n-tricks/00-example-template.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/sg_execution_times.rst:128
+#: ../../pymapdl/doc/source/sg_execution_times.rst:125
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_02-tips-n-tricks_01-smoothing-"
 "element-size-transitions.py` (``../../examples/02-tips-n-"
 "tricks/01-smoothing-element-size-transitions.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/sg_execution_times.rst:131
+#: ../../pymapdl/doc/source/sg_execution_times.rst:128
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_02-tips-n-"
 "tricks_03-using_inline_functions_and_Query.py` (``../../examples/02-tips-n-"
 "tricks/03-using_inline_functions_and_Query.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/sg_execution_times.rst:134
+#: ../../pymapdl/doc/source/sg_execution_times.rst:131
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_02-tips-n-tricks_04-rotational-"
 "displacement.py` (``../../examples/02-tips-n-tricks/04-rotational-"
 "displacement.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/sg_execution_times.rst:137
+#: ../../pymapdl/doc/source/sg_execution_times.rst:134
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_02-tips-n-"
 "tricks_05-explore_mapdl_files.py` (``../../examples/02-tips-n-"
 "tricks/05-explore_mapdl_files.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/sg_execution_times.rst:140
+#: ../../pymapdl/doc/source/sg_execution_times.rst:137
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_03-general-"
 "fea_00-how_finite_element_works.py` (``../../examples/03-general-"
