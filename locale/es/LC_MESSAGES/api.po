@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-17 00:18+0000\n"
+"POT-Creation-Date: 2024-10-18 00:17+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -4477,6 +4477,250 @@ msgstr ""
 msgid "Return the maximum node number."
 msgstr ""
 
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.aux_capabilities.rst:2
+msgid "ansys.mapdl.core.information.Information.aux\\_capabilities"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.aux_capabilities:2
+msgid "Retrieve the aux capabilities from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.boundary_condition_information.rst:2
+msgid ""
+"ansys.mapdl.core.information.Information.boundary\\_condition\\_information"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.boundary_condition_information:2
+msgid "Retrieve the boundary condition information from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.config_values.rst:2
+msgid "ansys.mapdl.core.information.Information.config\\_values"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.config_values:2
+msgid "Retrieve the config values from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.database_status.rst:2
+msgid "ansys.mapdl.core.information.Information.database\\_status"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.database_status:2
+msgid "Retrieve the database status from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.global_status.rst:2
+msgid "ansys.mapdl.core.information.Information.global\\_status"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.global_status:2
+msgid "Retrieve the global status from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.job_information.rst:2
+msgid "ansys.mapdl.core.information.Information.job\\_information"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.job_information:2
+msgid "Retrieve the job information from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.load_step_options.rst:2
+msgid "ansys.mapdl.core.information.Information.load\\_step\\_options"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.load_step_options:2
+msgid "Retrieve the load step options from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.mapdl_version.rst:2
+msgid "ansys.mapdl.core.information.Information.mapdl\\_version"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.mapdl_version:2
+msgid "Retrieve the MAPDL version from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.model_information.rst:2
+msgid "ansys.mapdl.core.information.Information.model\\_information"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.model_information:2
+msgid "Retrieve the model information from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.post_capabilities.rst:2
+msgid "ansys.mapdl.core.information.Information.post\\_capabilities"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.post_capabilities:2
+msgid "Retrieve the post capabilities from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.preprocessing_capabilities.rst:2
+msgid "ansys.mapdl.core.information.Information.preprocessing\\_capabilities"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.preprocessing_capabilities:2
+msgid "Retrieve the preprocessing capabilities from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.product.rst:2
+msgid "ansys.mapdl.core.information.Information.product"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.product:2
+msgid "Retrieve the product from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.products.rst:2
+msgid "ansys.mapdl.core.information.Information.products"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.products:2
+msgid "Retrieve the products from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.pymapdl_version.rst:2
+msgid "ansys.mapdl.core.information.Information.pymapdl\\_version"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.pymapdl_version:2
+msgid "Retrieve the PyMAPDL version from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.routine_information.rst:2
+msgid "ansys.mapdl.core.information.Information.routine\\_information"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.routine_information:2
+msgid "Retrieve the routine information from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.scratch_memory_status.rst:2
+msgid "ansys.mapdl.core.information.Information.scratch\\_memory\\_status"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.scratch_memory_status:2
+msgid "Retrieve the scratch memory status from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.solution_options.rst:2
+msgid "ansys.mapdl.core.information.Information.solution\\_options"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.solution_options:2
+msgid "Retrieve the solution options from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.solution_options_configuration.rst:2
+msgid ""
+"ansys.mapdl.core.information.Information.solution\\_options\\_configuration"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.solution_options_configuration:2
+msgid "Retrieve the solution options configuration from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.stitles.rst:2
+msgid "ansys.mapdl.core.information.Information.stitles"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.stitles:2
+msgid "Retrieve or set the value for the MAPDL stitle (subtitles)."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.stitles:4
+msgid ""
+"If 'stitle' includes newline characters (`\\n`), then each line is assigned "
+"to one STITLE."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.stitles:7
+msgid "If 'stitle' is equals ``None``, the stitles are reset."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.stitles:9
+msgid "If ``i`` is supplied, only set the stitle number i."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.stitles:11
+msgid "Starting from 0 up to 3 (Python indexing)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.title.rst:2
+msgid "ansys.mapdl.core.information.Information.title"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.title:2
+msgid "Retrieve and set the title from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.titles.rst:2
+msgid "ansys.mapdl.core.information.Information.titles"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.titles:2
+msgid "Retrieve the titles from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.units.rst:2
+msgid "ansys.mapdl.core.information.Information.units"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.units:2
+msgid "Retrieve the units from the MAPDL instance."
+msgstr ""
+
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.inline_functions.Query.asel.rst:2
 msgid "ansys.mapdl.core.inline\\_functions.Query.asel"
 msgstr ""
@@ -8115,248 +8359,6 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mesh_grpc.MeshGrpc.rst:54:<autosummary>:1
 msgid "Dict with the mapping between element type and element shape."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.misc.Information.aux_capabilities.rst:2
-msgid "ansys.mapdl.core.misc.Information.aux\\_capabilities"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
-#: ansys.mapdl.core.misc.Information.aux_capabilities:2
-msgid "Retrieve the aux capabilities from the MAPDL instance."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.misc.Information.boundary_condition_information.rst:2
-msgid "ansys.mapdl.core.misc.Information.boundary\\_condition\\_information"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
-#: ansys.mapdl.core.misc.Information.boundary_condition_information:2
-msgid "Retrieve the boundary condition information from the MAPDL instance."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.misc.Information.config_values.rst:2
-msgid "ansys.mapdl.core.misc.Information.config\\_values"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
-#: ansys.mapdl.core.misc.Information.config_values:2
-msgid "Retrieve the config values from the MAPDL instance."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.misc.Information.database_status.rst:2
-msgid "ansys.mapdl.core.misc.Information.database\\_status"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
-#: ansys.mapdl.core.misc.Information.database_status:2
-msgid "Retrieve the database status from the MAPDL instance."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.misc.Information.global_status.rst:2
-msgid "ansys.mapdl.core.misc.Information.global\\_status"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
-#: ansys.mapdl.core.misc.Information.global_status:2
-msgid "Retrieve the global status from the MAPDL instance."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.misc.Information.job_information.rst:2
-msgid "ansys.mapdl.core.misc.Information.job\\_information"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
-#: ansys.mapdl.core.misc.Information.job_information:2
-msgid "Retrieve the job information from the MAPDL instance."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.misc.Information.load_step_options.rst:2
-msgid "ansys.mapdl.core.misc.Information.load\\_step\\_options"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
-#: ansys.mapdl.core.misc.Information.load_step_options:2
-msgid "Retrieve the load step options from the MAPDL instance."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.misc.Information.mapdl_version.rst:2
-msgid "ansys.mapdl.core.misc.Information.mapdl\\_version"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
-#: ansys.mapdl.core.misc.Information.mapdl_version:2
-msgid "Retrieve the MAPDL version from the MAPDL instance."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.misc.Information.model_information.rst:2
-msgid "ansys.mapdl.core.misc.Information.model\\_information"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
-#: ansys.mapdl.core.misc.Information.model_information:2
-msgid "Retrieve the model information from the MAPDL instance."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.misc.Information.post_capabilities.rst:2
-msgid "ansys.mapdl.core.misc.Information.post\\_capabilities"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
-#: ansys.mapdl.core.misc.Information.post_capabilities:2
-msgid "Retrieve the post capabilities from the MAPDL instance."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.misc.Information.preprocessing_capabilities.rst:2
-msgid "ansys.mapdl.core.misc.Information.preprocessing\\_capabilities"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
-#: ansys.mapdl.core.misc.Information.preprocessing_capabilities:2
-msgid "Retrieve the preprocessing capabilities from the MAPDL instance."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.misc.Information.product.rst:2
-msgid "ansys.mapdl.core.misc.Information.product"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
-#: ansys.mapdl.core.misc.Information.product:2
-msgid "Retrieve the product from the MAPDL instance."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.misc.Information.products.rst:2
-msgid "ansys.mapdl.core.misc.Information.products"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
-#: ansys.mapdl.core.misc.Information.products:2
-msgid "Retrieve the products from the MAPDL instance."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.misc.Information.pymapdl_version.rst:2
-msgid "ansys.mapdl.core.misc.Information.pymapdl\\_version"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
-#: ansys.mapdl.core.misc.Information.pymapdl_version:2
-msgid "Retrieve the PyMAPDL version from the MAPDL instance."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.misc.Information.routine_information.rst:2
-msgid "ansys.mapdl.core.misc.Information.routine\\_information"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
-#: ansys.mapdl.core.misc.Information.routine_information:2
-msgid "Retrieve the routine information from the MAPDL instance."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.misc.Information.scratch_memory_status.rst:2
-msgid "ansys.mapdl.core.misc.Information.scratch\\_memory\\_status"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
-#: ansys.mapdl.core.misc.Information.scratch_memory_status:2
-msgid "Retrieve the scratch memory status from the MAPDL instance."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.misc.Information.solution_options.rst:2
-msgid "ansys.mapdl.core.misc.Information.solution\\_options"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
-#: ansys.mapdl.core.misc.Information.solution_options:2
-msgid "Retrieve the solution options from the MAPDL instance."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.misc.Information.solution_options_configuration.rst:2
-msgid "ansys.mapdl.core.misc.Information.solution\\_options\\_configuration"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
-#: ansys.mapdl.core.misc.Information.solution_options_configuration:2
-msgid "Retrieve the solution options configuration from the MAPDL instance."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.misc.Information.stitles.rst:2
-msgid "ansys.mapdl.core.misc.Information.stitles"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
-#: ansys.mapdl.core.misc.Information.stitles:2
-msgid "Retrieve or set the value for the MAPDL stitle (subtitles)."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
-#: ansys.mapdl.core.misc.Information.stitles:4
-msgid ""
-"If 'stitle' includes newline characters (`\\n`), then each line is assigned "
-"to one STITLE."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
-#: ansys.mapdl.core.misc.Information.stitles:7
-msgid "If 'stitle' is equals ``None``, the stitles are reset."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
-#: ansys.mapdl.core.misc.Information.stitles:9
-msgid "If ``i`` is supplied, only set the stitle number i."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
-#: ansys.mapdl.core.misc.Information.stitles:11
-msgid "Starting from 0 up to 3 (Python indexing)."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.misc.Information.title.rst:2
-msgid "ansys.mapdl.core.misc.Information.title"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
-#: ansys.mapdl.core.misc.Information.title:2
-msgid "Retrieve and set the title from the MAPDL instance."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.misc.Information.titles.rst:2
-msgid "ansys.mapdl.core.misc.Information.titles"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
-#: ansys.mapdl.core.misc.Information.titles:2
-msgid "Retrieve the titles from the MAPDL instance."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.misc.Information.units.rst:2
-msgid "ansys.mapdl.core.misc.Information.units"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
-#: ansys.mapdl.core.misc.Information.units:2
-msgid "Retrieve the units from the MAPDL instance."
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.parameters.Parameters.rst:2
@@ -12123,127 +12125,134 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
 msgid ""
-":py:obj:`Information.product <ansys.mapdl.core.misc.Information.product>`\\"
+":py:obj:`Information.product "
+"<ansys.mapdl.core.information.Information.product>`\\"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
 msgid ""
 ":py:obj:`Information.mapdl_version "
-"<ansys.mapdl.core.misc.Information.mapdl_version>`\\"
+"<ansys.mapdl.core.information.Information.mapdl_version>`\\"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
 msgid ""
 ":py:obj:`Information.pymapdl_version "
-"<ansys.mapdl.core.misc.Information.pymapdl_version>`\\"
+"<ansys.mapdl.core.information.Information.pymapdl_version>`\\"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
 msgid ""
 ":py:obj:`Information.products "
-"<ansys.mapdl.core.misc.Information.products>`\\"
+"<ansys.mapdl.core.information.Information.products>`\\"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
 msgid ""
 ":py:obj:`Information.preprocessing_capabilities "
-"<ansys.mapdl.core.misc.Information.preprocessing_capabilities>`\\"
+"<ansys.mapdl.core.information.Information.preprocessing_capabilities>`\\"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
 msgid ""
 ":py:obj:`Information.aux_capabilities "
-"<ansys.mapdl.core.misc.Information.aux_capabilities>`\\"
+"<ansys.mapdl.core.information.Information.aux_capabilities>`\\"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
 msgid ""
 ":py:obj:`Information.solution_options "
-"<ansys.mapdl.core.misc.Information.solution_options>`\\"
+"<ansys.mapdl.core.information.Information.solution_options>`\\"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
 msgid ""
 ":py:obj:`Information.post_capabilities "
-"<ansys.mapdl.core.misc.Information.post_capabilities>`\\"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
-msgid ":py:obj:`Information.title <ansys.mapdl.core.misc.Information.title>`\\"
+"<ansys.mapdl.core.information.Information.post_capabilities>`\\"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
 msgid ""
-":py:obj:`Information.titles <ansys.mapdl.core.misc.Information.titles>`\\"
+":py:obj:`Information.title "
+"<ansys.mapdl.core.information.Information.title>`\\"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
 msgid ""
-":py:obj:`Information.stitles <ansys.mapdl.core.misc.Information.stitles>`\\"
+":py:obj:`Information.titles "
+"<ansys.mapdl.core.information.Information.titles>`\\"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
-msgid ":py:obj:`Information.units <ansys.mapdl.core.misc.Information.units>`\\"
+msgid ""
+":py:obj:`Information.stitles "
+"<ansys.mapdl.core.information.Information.stitles>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
+msgid ""
+":py:obj:`Information.units "
+"<ansys.mapdl.core.information.Information.units>`\\"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
 msgid ""
 ":py:obj:`Information.scratch_memory_status "
-"<ansys.mapdl.core.misc.Information.scratch_memory_status>`\\"
+"<ansys.mapdl.core.information.Information.scratch_memory_status>`\\"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
 msgid ""
 ":py:obj:`Information.database_status "
-"<ansys.mapdl.core.misc.Information.database_status>`\\"
+"<ansys.mapdl.core.information.Information.database_status>`\\"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
 msgid ""
 ":py:obj:`Information.config_values "
-"<ansys.mapdl.core.misc.Information.config_values>`\\"
+"<ansys.mapdl.core.information.Information.config_values>`\\"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
 msgid ""
 ":py:obj:`Information.global_status "
-"<ansys.mapdl.core.misc.Information.global_status>`\\"
+"<ansys.mapdl.core.information.Information.global_status>`\\"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
 msgid ""
 ":py:obj:`Information.job_information "
-"<ansys.mapdl.core.misc.Information.job_information>`\\"
+"<ansys.mapdl.core.information.Information.job_information>`\\"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
 msgid ""
 ":py:obj:`Information.model_information "
-"<ansys.mapdl.core.misc.Information.model_information>`\\"
+"<ansys.mapdl.core.information.Information.model_information>`\\"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
 msgid ""
 ":py:obj:`Information.boundary_condition_information "
-"<ansys.mapdl.core.misc.Information.boundary_condition_information>`\\"
+"<ansys.mapdl.core.information.Information.boundary_condition_information>`\\"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
 msgid ""
 ":py:obj:`Information.routine_information "
-"<ansys.mapdl.core.misc.Information.routine_information>`\\"
+"<ansys.mapdl.core.information.Information.routine_information>`\\"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
 msgid ""
 ":py:obj:`Information.solution_options_configuration "
-"<ansys.mapdl.core.misc.Information.solution_options_configuration>`\\"
+"<ansys.mapdl.core.information.Information.solution_options_configuration>`\\"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/mapdl.rst:97:<autosummary>:1
 msgid ""
 ":py:obj:`Information.load_step_options "
-"<ansys.mapdl.core.misc.Information.load_step_options>`\\"
+"<ansys.mapdl.core.information.Information.load_step_options>`\\"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/mesh.rst:4
