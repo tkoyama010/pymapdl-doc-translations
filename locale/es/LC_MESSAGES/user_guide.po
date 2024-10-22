@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-07 21:10+0000\n"
+"POT-Creation-Date: 2024-10-22 00:17+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -876,66 +876,159 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:6
-msgid "PyMAPDL on SLURM HPC clusters"
+msgid "PyMAPDL on HPC Clusters"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:11
-msgid "Submit a PyMAPDL job"
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:10
+#: ../../pymapdl/doc/source/user_guide/krylov.rst:6
+msgid "Introduction"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:13
-msgid "To submit a PyMAPDL job, you must create two files:"
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:15
-msgid "Python script with the PyMAPDL code"
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:16
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:12
 msgid ""
-"Bash script that activates the virtual environment and calls the Python "
-"script"
+"PyMAPDL communicates with MAPDL using the gRPC protocol. This protocol "
+"offers many advantages and features, for more information see "
+":ref:`ref_project_page`. One of these features is that it is not required to"
+" have both, PyMAPDL and MAPDL processes, running on the same machine. This "
+"possibility open the door to many configurations, depending on whether you "
+"run them both or not on the HPC compute nodes. Additionally, you might to be"
+" able interact with them (``interactive`` mode) or not (``batch`` mode)."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:18
-msgid "**Python script:** ``pymapdl_script.py``"
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:22
+msgid "Currently, the supported configurations are:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:35
-msgid "**Bash script:** ``job.sh``"
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:24
+msgid ":ref:`ref_pymapdl_batch_in_cluster_hpc`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:27
+msgid ""
+"Since v0.68.5, PyMAPDL can take advantage of the tight integration between "
+"the scheduler and MAPDL to read the job configuration and launch an MAPDL "
+"instance that can use all the resources allocated to that job. For instance,"
+" if a SLURM job has allocated 8 nodes with 4 cores each, then PyMAPDL "
+"launches an MAPDL instance which uses 32 cores spawning across those 8 "
+"nodes. This behaviour can turn off if passing the environment variable "
+":envvar:`PYMAPDL_ON_SLURM` or passing the argument `detect_HPC=False` to "
+":func:`launch_mapdl() <ansys.mapdl.core.launcher.launch_mapdl>`."
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:42
+msgid "Submit a PyMAPDL batch job to the cluster from the entrypoint node"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:44
+msgid ""
+"Many HPC clusters allow their users to login in a machine using ``ssh``, "
+"``vnc``, ``rdp``, or similar technologies and submit a job to the cluster "
+"from there. This entrypoint machine, sometimes known as *head node* or "
+"*entrypoint node*, might be a virtual machine (VDI/VM)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:50
+msgid ""
+"In such cases, once the Python virtual environment with PyMAPDL is already "
+"set and is accessible to all the compute nodes, launching a PyMAPDL job from"
+" the entrypoint is very easy to do using ``sbatch`` command. Using "
+"``sbatch`` command, the PyMAPDL runs and launches an MAPDL instance in the "
+"compute nodes. No changes are needed on a PyMAPDL script to run it on an "
+"SLURM cluster."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:57
+msgid ""
+"First the virtual environment must be activated in the current terminal."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:64
+msgid ""
+"Once the virtual environment has been activated, you can launch any Python "
+"script if they do have the proper Python shebang (``#!/usr/bin/env "
+"python3``)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:67
+msgid "For instance, to launch the following Python script ``main.py``:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:69
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:129
+msgid "main.py"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:83
+msgid "You can just run in your console:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:89
+msgid ""
+"Alternatively, you can remove the shebang from the python file and use a "
+"Python executable call:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:96
+msgid ""
+"Additionally, you can change the amount of cores used in your job, by "
+"setting the :envvar:`PYMAPDL_NPROC` to the desired value."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:103
+msgid "You can also add ``sbatch`` options to the command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:110
+msgid ""
+"For instance, to launch a PyMAPDL job which start a four cores MAPDL "
+"instance on a 10 CPU SLURM job, you can use:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:119
+msgid "Using a submission script"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:121
+msgid ""
+"In case you need to customize more your job, you can create a SLURM "
+"submission script to submit a PyMAPDL job. In this case, you must create two"
+" files:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:125
+msgid "Python script with the PyMAPDL code"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:126
+msgid ""
+"Bash script that activates the virtual environment and calls the Python "
+"script."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:145
+msgid "job.sh"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:164
 msgid "To start the simulation, you use this code:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:49
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:170
+msgid ""
+"In this case, the Python virtual environment does not need to be activated "
+"before submission since it is activated later in the script."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:173
+msgid "The expected output of the job is"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:180
 msgid ""
 "The bash script allows you to customize the environment before running the "
-"Python script. This bash script performs such tasks as creating environment "
-"variables, moving to different directories, and printing to ensure your "
-"configuration is correct. However, this bash script is not mandatory. You "
-"can avoid having the ``job.sh`` bash script if the virtual environment is "
-"activated and you pass all the environment variables to the job:"
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:62
-msgid ""
-"The ``--export=ALL`` argument might not be needed, depending on the cluster "
-"configuration. Furthermore, you can omit the Python call in the preceding "
-"command if you include the Python shebang (``#!/usr/bin/python3``) in the "
-"first line of the ``pymapdl_script.py`` script."
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:71
-msgid ""
-"If you prefer to run the job in the background, you can use the ``sbatch`` "
-"command instead of the ``srun`` command. However, in this case, the Bash "
-"file is needed:"
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/hpc/pymapdl.rst:79
-msgid "Here is the expected output of the job:"
+"Python script. This bash script performs tasks such as creating environment "
+"variables, moving files to different directories, and printing to ensure "
+"your configuration is correct."
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:5
@@ -948,7 +1041,7 @@ msgid ""
 "requirements:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:12
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:13
 msgid ""
 "**An Ansys installation must be accessible from all the compute nodes**. "
 "This normally implies that the ``ANSYS`` installation directory is in a "
@@ -956,51 +1049,57 @@ msgid ""
 " with the path to the ``ANSYS`` directory."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:17
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:18
 msgid ""
 "**A compatible Python installation must be accessible from all the compute "
 "nodes**. For compatible Python versions, see "
 ":ref:`ref_pymapdl_installation`."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:20
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:22
 msgid ""
 "Additionally, you must perform a few key steps to ensure efficient job "
 "execution and resource utilization. Subsequent topics describe these steps."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:24
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:26
 msgid "Check the Python installation"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:26
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:28
 msgid ""
 "The PyMAPDL Python package (``ansys-mapdl-core``) must be installed in a "
 "virtual environment that is accessible from the compute nodes."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:29
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:31
 msgid "To see where your Python distribution is installed, use this code:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:36
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:38
 msgid "To print the version of Python you have available, use this code:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:43
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:45
 msgid ""
-"You should be aware that your machine might have installed other Python "
-"versions. To find out if those installations are already in the ``PATH`` "
+"You should be aware that your machine might have other Python versions "
+"installed. To find out if those installations are already in the ``PATH`` "
 "environment variable, you can press the **Tab** key to use autocomplete:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:55
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:58
 msgid ""
 "You should use a Python version that is compatible with PyMAPDL. For more "
 "information, see :ref:`ref_pymapdl_installation`."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:58
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:63
+msgid ""
+"Contact your cluster administrator if you cannot find a Python version "
+"compatible with PyMAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:67
 msgid ""
 "The ``which`` command returns the path where the Python executable is "
 "installed. You can use that executable to create your own Python virtual "
@@ -1010,38 +1109,38 @@ msgid ""
 "``/home/user/.venv`` directory:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:68
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:80
 msgid "After activating the virtual environment, you can install PyMAPDL."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:72
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:85
 msgid "Install PyMAPDL"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:74
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:87
 msgid ""
 "To install PyMAPDL on the activated virtual environment, run the following "
 "commands:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:88
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:102
 msgid ""
 "To test if this virtual environment is accessible from the compute nodes, "
 "run this ``test.sh`` bash script:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:104
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:118
 msgid "then you can run that script using:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:110
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:124
 msgid ""
 "This command might take a minute or two to complete, depending on the amount"
 " of free resources available in the cluster. On the console, you should see "
 "this output:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:119
+#: ../../pymapdl/doc/source/user_guide/hpc/settings.rst:133
 msgid ""
 "If you see an error in the output, see :ref:`ref_hpc_troubleshooting`, "
 "especially :ref:`ref_python_venv_not_accesible`."
@@ -1057,66 +1156,131 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:10
 msgid ""
-"Use ``--output`` and ``--error`` directives in batch scripts to capture "
-"standard output and error messages."
+"Use ``--output`` and ``--error`` directives in batch scripts to captures "
+"standard output and error messages to specific files."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:13
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:24
 msgid "Check SLURM logs for error messages and debugging information."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:19
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:25
+msgid ""
+"It is also good idea to print the environment variables in your bash script,"
+" using ``printenv``. Additionally, you can filter them using ``grep``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:41
+msgid ""
+"Use PyMAPDL logging to printout valuable information. To activate this, see "
+":ref:`ref_debug_pymapdl`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:44
+msgid "In case you need more help, visit :ref:`ref_troubleshooting`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:50
 msgid "Python virtual environment is not accessible"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:20
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:51
 msgid ""
 "If there is an error while testing the Python installation, it might mean "
 "that the Python environment is not accessible to the compute nodes. For "
-"example, in the following output, PyMAPDL could not be found, meaning that "
-"the script is not using the virtual environment (``/home/user/.venv``):"
+"example, given the following *bash* script `test.sh`:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:33
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:60
+msgid "The following output is shown after running in the terminal:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:71
+msgid "As the output shows, PyMAPDL could not be found, meaning that either:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:73
 msgid ""
-"This could be for a number of reasons. One of them is that the system Python"
-" distribution used to create the virtual environment is not accessible from "
-"the compute nodes due to one of these reasons:"
+"The virtual environment does not have PyMAPDL installed. See "
+":ref:`ref_install_pymapdl_on_hpc`."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:37
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:76
+msgid ""
+"Or the script did not activate properly the virtual environment "
+"(``/home/user/.venv``)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:79
+msgid ""
+"For the second reason, there could be a number of reasons. One of them is "
+"that the system Python distribution used to create the virtual environment "
+"is not accessible from the compute nodes due to one of these reasons:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:84
 msgid ""
 "The virtual environment has been created in a directory that is not "
-"accessible from the nodes."
+"accessible from the nodes. In this case, your terminal might also show that "
+"the ``activate`` file could not be found."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:39
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:94
+msgid ""
+"Depending on your terminal configuration, the preceding error might be "
+"sufficient to exit the terminal process, or not. If not, the execution "
+"continues, and the subsequent ``python`` call is executed using the default "
+"python executable. It is very likely that the default ``python`` executable "
+"does not have PyMAPDL installed, hence the ``ImportError`` error showed "
+"preceding might appear too."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:102
 msgid ""
 "The virtual environment has been created from a Python executable that is "
 "not available to the compute nodes. Hence, the virtual environment is not "
-"activated. For example, you might be creating the virtual environment using "
-"Python 3.10, but only Python 3.8 is available from the compute nodes."
+"activated. For example, you might be creating the virtual environment Using "
+"Python 3.10, but only Python 3.8 is available from the compute nodes. You "
+"can test which Python executable the cluster is using by starting an "
+"interactive session in a compute node with this code to list all commands "
+"which starts with ``python``:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:46
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:119
 msgid ""
-"You can test which Python executable the cluster is using by starting an "
-"interactive session in a compute node with this code:"
+"It should be noticed the preceding approach assumes that all the nodes have "
+"similar configuration, hence all of them should have the same Python "
+"installations available."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:57
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:123
+msgid ""
+"It is also convenient to be aware that environment variable modules can be "
+"used to activate Python installations. For more information, see "
+":ref:`ref_envvar_modules_on_hpc`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:131
+msgid "Using modules to load Python"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:133
 msgid ""
 "Many HPC infrastructures use environment managers to load and unload "
 "software packages using modules and environment variables. Hence, you might "
-"want to make sure that the correct module is loaded in your script. For "
-"information on two of the most common environment managers, see the `Modules"
-" documentation <modules_docs_>`_ and `Lmod documentation <lmod_docs_>`_. "
-"Check your cluster documentation to know which environment manager is being "
-"using and how to load Python with it. If you find any issue, you should "
-"contact your cluster administrator."
+"want to make sure that the correct module is loaded in your script."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:66
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:138
+msgid ""
+"For information on two of the most common environment managers, see the "
+"`Modules documentation <modules_docs_>`_ and `Lmod documentation "
+"<lmod_docs_>`_. Check your cluster documentation to know which environment "
+"manager is being using and how to load Python with it. If you find any "
+"issue, you should contact your cluster administrator."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:144
 msgid ""
 "If there is not a suitable Python version accessible from the compute nodes,"
 " you might have to request your HPC cluster administrator to have a suitable"
@@ -1124,15 +1288,15 @@ msgid ""
 "see :ref:`ref_ansys_provided_python`."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:75
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:153
 msgid "Using the Ansys-provided Python installation"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:77
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:155
 msgid "**For development purposes only**"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:79
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:157
 msgid ""
 "In certain HPC environments the possibility of installing a different Python"
 " version is limited for security reasons. In such cases, the Python "
@@ -1142,24 +1306,24 @@ msgid ""
 " use cases."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:86
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:166
 msgid ""
 "This Python distribution is in the following directory, where "
 "``%MAPDL_VERSION%`` is the three-digit Ansys version:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:93
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:173
 msgid "For example, here is the directory for Ansys 2024 R2:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:100
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:180
 msgid ""
 "In Ansys 2024 R1 and later, the unified installer includes CPython 3.10. "
 "Earlier versions include CPython 3.7 "
 "(``/commonfiles/CPython/3_7/linx64/Release/python``)."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:103
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:184
 msgid ""
 "Because the Ansys installation must be available to all the compute nodes to"
 " run simulations using them, this Python distribution is normally also "
@@ -1167,36 +1331,42 @@ msgid ""
 "virtual environment."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:109
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:190
 msgid ""
 "Due to the particularities of this Python distribution, you must follow "
 "these steps to create a virtual environment accessible to the compute nodes:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:113
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:194
 msgid "Set the Python path environment variable:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:119
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:200
+msgid ""
+"This path needs to be adapted to where Ansys is installed and also which "
+"version is used."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:202
 msgid ""
 "For only Ansys 2024 R1 and earlier, patch the ``PATH`` and "
 "``LD_LIBRARY_PATH`` environment variables:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:127
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:210
 msgid ""
 "On the same terminal, create your own virtual environment and activate it:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:135
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:218
 msgid "Install PyMAPDL:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:141
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:224
 msgid "Use it to launch simulations, using ``srun``:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:147
+#: ../../pymapdl/doc/source/user_guide/hpc/troubleshooting.rst:230
 msgid "or ``sbatch``:"
 msgstr ""
 
@@ -1329,10 +1499,6 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/krylov.rst:3
 msgid "Harmonic analysis using the Krylov method"
-msgstr ""
-
-#: ../../pymapdl/doc/source/user_guide/krylov.rst:6
-msgid "Introduction"
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/krylov.rst:7
@@ -2592,51 +2758,76 @@ msgstr ""
 #: ../../pymapdl/doc/source/user_guide/mapdl.rst:1099
 msgid ""
 "There are several PyMAPDL-specific environment variables that can be used to"
-" control the behavior or launching of PyMAPDL and MAPDL. These are described"
-" in the following table:"
+" control the default behavior of PyMAPDL or launching MAPDL."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1104
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1102
+msgid ""
+"It should be mentioned that these environment variables do not have priority"
+" over the arguments given in the corresponding functions. For instance:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1111
+msgid ""
+"The preceding command launches an MAPDL instance on the port 60053, because "
+"the argument ``port`` has priority over the environment variable "
+":envvar:`PYMAPDL_PORT`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1115
+msgid "These are described in the following table:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1118
 msgid ":envvar:`PYMAPDL_START_INSTANCE`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1104
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1118
 msgid ""
 "Override the behavior of the :func:`ansys.mapdl.core.launcher.launch_mapdl` "
 "function to only attempt to connect to existing instances of PyMAPDL. "
 "Generally used in combination with ``PYMAPDL_PORT``."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1110
-#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1119
-#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1128
-#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1143
-#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1153
-#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1163
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1124
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1133
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1142
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1151
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1166
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1176
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1186
 msgid "**Example:**"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1117
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1131
 msgid ":envvar:`PYMAPDL_PORT`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1117
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1131
 msgid "Default port for PyMAPDL to connect to."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1126
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1140
 msgid ":envvar:`PYMAPDL_IP`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1126
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1140
 msgid "Default IP for PyMAPDL to connect to."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1135
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1149
+msgid ":envvar:`PYMAPDL_NPROC`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1149
+msgid "Default number of cores for MAPDL to use."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1158
 msgid ":envvar:`ANSYSLMD_LICENSE_FILE`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1135
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1158
 msgid ""
 "License file or IP address with port in the format ``PORT@IP``. Do not "
 "confuse with the ``IP`` and ``PORT`` where the MAPDL instance is running, "
@@ -2644,45 +2835,45 @@ msgid ""
 "This is helpful for supplying licensing for Docker."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1150
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1173
 msgid ":envvar:`PYMAPDL_MAPDL_EXEC`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1150
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1173
 msgid "Executable path from where to launch MAPDL instances."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1160
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1183
 msgid ":envvar:`PYMAPDL_MAPDL_VERSION`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1160
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1183
 msgid ""
 "Default MAPDL version to launch in case there are several versions "
 "availables."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1170
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1193
 msgid ":envvar:`PYMAPDL_ON_SLURM`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1170
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1193
 msgid ""
 "With this environment variable set to ``FALSE``, you can avoid PyMAPDL from "
 "detecting that it is running on a SLURM HPC cluster."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1173
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1196
 msgid ":envvar:`PYMAPDL_MAX_MESSAGE_LENGTH`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1173
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1196
 msgid ""
 "Maximum gRPC message length. If your connection terminates when running "
 "PRNSOL or NLIST, raise this. In bytes, defaults to 256 MB."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1178
+#: ../../pymapdl/doc/source/user_guide/mapdl.rst:1201
 msgid "Only for developing purposes."
 msgstr ""
 
@@ -3724,24 +3915,24 @@ msgid ""
 "here."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:13
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:14
 msgid "Debug in PyMAPDL"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:15
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:16
 msgid ""
 "If you are having trouble with PyMAPDL, you can record some internal logs "
 "into a file using a logger. This file can be examined to help to identify "
 "any issue."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:19
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:20
 msgid ""
 "You can set the logger output file to be ``mylog.log`` by running the "
 "following commands in a Python terminal or at the beginning of your script:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:34
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:35
 msgid ""
 "You can attach this file to a bug report in the PyMAPDL GitHub repository "
 "for further investigation. If you are not able to identify the issue, you "
@@ -3750,127 +3941,127 @@ msgid ""
 "issue on the `PyMAPDL Issues page <pymapdl_issues_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:43
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:44
 msgid "Launching issues"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:45
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:46
 msgid ""
 "There are several issues that can cause MAPDL not to launch, including:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:47
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:48
 msgid "`Connection timeout`_"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:48
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:49
 msgid "`Testing MAPDL launching`_"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:49
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:50
 msgid "`Licensing issues`_"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:50
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:51
 msgid "`Virtual private network (VPN) issues`_"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:51
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:52
 msgid "`Missing dependencies on Linux`_"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:52
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:53
 msgid "`Conflicts with student version`_"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:53
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:54
 msgid "`Incorrect environment variables`_"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:54
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:55
 msgid "`Using a proxy server`_"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:55
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:56
 msgid "`Firewall settings`_"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:57
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:58
 msgid "If you cannot find your issue, see `More help needed?`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:61
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:62
 msgid "Connection timeout"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:63
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:64
 msgid ""
 "In some networks, MAPDL might take longer than expected to connect to the "
 "license server or to the remote instance. In those cases, you might see this"
 " message:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:72
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:73
 msgid "First try increasing the starting timeout using this code:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:80
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:81
 msgid "Or if you are connecting to a remote instance you can use:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:90
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:91
 msgid "Testing MAPDL launching"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:92
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:93
 msgid ""
 "In some cases, it may be necessary to run the launch command manually from "
 "the command line."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:100
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:101
 msgid "Open up a command prompt and run the version-dependent command:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:106
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:107
 msgid "PowerShell users can run the preceding command without quotes."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:111
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:112
 msgid "Run the version-dependent command:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:118
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:119
 msgid ""
 "You should start MAPDL in a temporary working directory because MAPDL "
 "creates several temporary files."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:121
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:122
 msgid ""
 "You can specify a directory by launching MAPDL from the temporary directory:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:135
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:152
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:136
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:153
 msgid "Or, you can specify the directory using the ``-dir`` flag:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:160
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:161
 msgid "If this command doesn't launch MAPDL, look at the command output:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:193
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:194
 msgid "Licensing issues"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:195
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:196
 msgid ""
 "Incorrect license server configuration can prevent MAPDL from being able to "
 "get a valid license. In such cases, you might see output **similar** to:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:241
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:242
 msgid ""
 "PADT has a great blog regarding ANSYS issues, and licensing is always a "
 "common issue. For example, see `Changes to Licensing at ANSYS 2020R1 "
@@ -3879,28 +4070,28 @@ msgid ""
 "Licensing documentation <ansys_installation_and_licensing_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:246
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:247
 msgid ""
 "For more comprehensive information, download the :download:`ANSYS Licensing "
 "Guide <lic_guide.pdf>`."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:249
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:250
 msgid "Incorrect licensing environment variables"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:251
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:252
 msgid ""
 "The license server can be also specified using the environment variable "
 ":envvar:`ANSYSLMD_LICENSE_FILE`. The following code examples show how you "
 "can see the value of this environment variable on either Windows or Linux."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:278
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:279
 msgid "Virtual private network (VPN) issues"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:280
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:281
 msgid ""
 "From ANSYS 2022 R2 to ANSYS 2021 R1, MAPDL has issues launching when VPN "
 "software is running. One issue stems from MPI communication and can be "
@@ -3912,14 +4103,14 @@ msgid ""
 "Linux version of MAPDL."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:288
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:289
 msgid ""
 "In you are using Windows in any of the versions from ANSYS 2022 R2 to ANSYS "
 "2021 R1, the default compiler is Microsoft MPI when the MAPDL instance is "
 "launched by PyMAPDL."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:296
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:297
 msgid ""
 "While this approach has the disadvantage of using the potentially slower "
 "shared memory parallel mode, you'll at least be able to run MAPDL. For more "
@@ -3928,25 +4119,25 @@ msgid ""
 "<ansys_parallel_computing_guide_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:302
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:303
 msgid ""
 "In addition, if your device is inside a VPN, MAPDL might not be able to "
 "correctly resolve the IP of the license server. Verify that the hostname or "
 "IP address of the license server is correct."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:306
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:307
 msgid ""
 "On Windows, you can find the license configuration file that points to the "
 "license server in ``C:\\Program Files\\ANSYS Inc\\Shared "
 "Files\\Licensing\\ansyslmd.ini``."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:312
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:313
 msgid "Missing dependencies on Linux"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:314
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:315
 msgid ""
 "Some Linux installations might be missing required dependencies. If you get "
 "errors like ``libXp.so.6: cannot open shared object file: No such file or "
@@ -3957,7 +4148,7 @@ msgstr ""
 msgid "CentOS 7 and Rocky 8"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:324
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:325
 msgid "On CentOS 7, you can install missing dependencies with:"
 msgstr ""
 
@@ -3965,11 +4156,11 @@ msgstr ""
 msgid "Ubuntu 22.04"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:332
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:333
 msgid "On Ubuntu 22.04, use this code to install the needed dependencies:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:346
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:347
 msgid ""
 "The preceding code takes care of everything except for ``libxp6``, which you"
 " must install using this code:"
@@ -3979,19 +4170,19 @@ msgstr ""
 msgid "Ubuntu 20.04 through 18.04"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:360
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:361
 msgid ""
 "If you are using Ubuntu 20.04 through 18.04, you can install missing "
 "dependencies with:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:375
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:376
 msgid ""
 "The preceding code takes care of everything except for ``libxp6``, which you"
 " must manually download and install."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:378
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:379
 msgid ""
 "Because ``libxpl6`` pre-depends on ``multiarch-support``, which is also "
 "outdated, it must be removed. Otherwise you'll have a broken package "
@@ -4004,16 +4195,16 @@ msgstr ""
 msgid "Ubuntu 16.04 and older"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:398
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:399
 msgid ""
 "If you are using Ubuntu 16.04, you can install missing dependencies with:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:417
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:418
 msgid "Conflicts with student version"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:419
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:420
 msgid ""
 "Although you can install Ansys together with other Ansys products or "
 "versions, on Windows, you should not install a student version of an Ansys "
@@ -4024,7 +4215,7 @@ msgid ""
 "Ansys MAPDL 2021 R1, is fine."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:426
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:427
 msgid ""
 "If you experience issues, you should edit these environment variables to "
 "remove any reference to the student version: ``ANSYSXXX_DIR``, "
@@ -4033,17 +4224,17 @@ msgid ""
 " correct location."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:433
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:434
 msgid ""
 "By default if a student version is detected, PyMAPDL launches the MAPDL "
 "instance in ``SMP`` mode, unless another MPI option is specified."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:437
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:438
 msgid "Incorrect environment variables"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:439
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:440
 msgid ""
 "If you are using a non-standard install, you might need to manually set the "
 "environment variables ``ANSYSXXX_DIR``, ``AWP_ROOTXXX``, and "
@@ -4064,20 +4255,20 @@ msgstr ""
 msgid "CADOE_LIBDIR242"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:476
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:477
 msgid ""
 "Set these environment variables to custom values for the terminal session:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:508
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:509
 msgid "If you want these changes to be permanent then:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:543
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:544
 msgid "Using a proxy server"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:545
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:546
 msgid ""
 "In some rare cases, you might experience some problems to connect to the "
 "MAPDL instance if you are using a proxy. When `gRPC <grpc_>`_ is used in a "
@@ -4090,37 +4281,37 @@ msgid ""
 "connect to MAPDL instance."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:556
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:557
 msgid "Firewall settings"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:558
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:559
 msgid ""
 "MAPDL and Python should have the correct firewall settings to allow "
 "communication between the two. If you are using a firewall, you should allow"
 " MAPDL to receive inbound connections to the following ports:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:561
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:562
 msgid "``50052`` (TCP) for gRPC connection."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:562
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:563
 msgid "``50053+`` (TCP) for extra gRPC connection."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:563
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:572
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:564
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:573
 msgid "``50055`` (TCP) for gRPC connection to the MAPDL database."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:565
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:566
 msgid ""
 "Python process must be allowed to connect to the mentioned ports (outbound "
 "connections)."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:567
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:568
 msgid ""
 "Normally most of the firewall rules focus on the inbound connections, so you"
 " should not need to configure the outbound connections. However, if you are "
@@ -4128,41 +4319,41 @@ msgid ""
 "blocking the outbound connections on the following ports:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:571
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:572
 msgid "``5005X`` (TCP) for gRPC connections."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:573
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:574
 msgid "``1055`` (TCP) for licensing connections."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:574
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:575
 msgid "``2325`` (TCP) for licensing connections."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:576
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:577
 msgid ""
 "For more information on how to **configure your firewall on Windows**, "
 "please refer to the following link in `Ansys forum-Licensing 2022 R2 Linux "
 "Ubuntu (and also Windows) <af_licensing_windows_ubuntu_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:579
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:580
 msgid ""
 "For more information on how to **configure your firewall on Ubuntu Linux**, "
 "please refer to the following link `Security-Firewall | Ubuntu "
 "<ubuntu_firewall_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:584
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:585
 msgid "Location of the executable file"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:587
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:588
 msgid "Manually set the location of the executable file"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:589
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:590
 msgid ""
 "If you have a non-standard install, PyMAPDL might be unable find your MAPDL "
 "installation. If this is the case, provide the location of MAPDL as the "
@@ -4170,58 +4361,58 @@ msgid ""
 "<ansys.mapdl.core.launcher.launch_mapdl>` method."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:617
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:618
 msgid "Default location of the executable file"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:619
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:620
 msgid ""
 "The first time that you run PyMAPDL, it detects the available Ansys "
 "installations."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:622
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:623
 msgid "**On Windows**"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:624
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:625
 msgid "Ansys installations are normally under:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:643
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:644
 msgid "Or under:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:650
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:651
 msgid ""
 "By default, Ansys installer uses the former one (``/usr/ansys_inc``) but "
 "also creates a symbolic to later one (``/ansys_inc``)."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:652
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:653
 msgid ""
 "If PyMAPDL finds a valid Ansys installation, it caches its path in the "
 "configuration file, ``config.txt``. The path for this file is shown in this "
 "code:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:663
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:664
 msgid ""
 "In certain cases, this configuration file might become obsolete. For "
 "example, when a new Ansys version is installed and an earlier installation "
 "is removed."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:666
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:667
 msgid "To update this configuration file with the latest path, use:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:674
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:675
 msgid ""
 "If you want to see which Ansys installations PyMAPDL has detected, use:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:684
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:685
 msgid ""
 "Student versions are provided as **negative** versions because the Python "
 "dictionary does not accept two equal keys. The result of the "
@@ -4230,62 +4421,62 @@ msgid ""
 "versions first and student versions last."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:690
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:691
 msgid ""
 "You should not have the same Ansys product version and student version "
 "installed. For more information, see :ref:`conflicts_student_version`."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:695
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:696
 msgid "PyMAPDL usage issues"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:700
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:701
 msgid "Issues when importing and exporting NumPy arrays in MAPDL"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:702
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:703
 msgid ""
 "Because of the way MAPDL is designed, there is no way to store an array "
 "where one or more dimensions are zero. This can happens in NumPy arrays, "
 "where its first dimension can be set to zero. For example:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:717
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:718
 msgid "These types of array dimensions are always converted to ``1``."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:719
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:720
 msgid "For example:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:732
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:733
 msgid ""
 "This means that when you pass two arrays, one with the second axis equal to "
 "zero (for example, ``my_array``) and another one with the second axis equal "
 "to one, have the same shape if later retrieved."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:757
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:758
 msgid "PyMAPDL stability"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:760
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:761
 msgid "Recommendations"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:762
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:763
 msgid ""
 "When connecting to an instance of MAPDL using gRPC (default), there are some"
 " cases where the MAPDL server might exit unexpectedly. There are several "
 "ways to improve MADPL performance and stability:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:767
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:768
 msgid "Use ``mute`` to improve stability"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:769
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:770
 msgid ""
 "When possible, pass ``mute=True`` to individual MAPDL commands or set it "
 "globally with the :func:`Mapdl.mute "
@@ -4296,11 +4487,11 @@ msgid ""
 "needed."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:778
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:779
 msgid "Known Issues"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:780
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:781
 msgid ""
 "MAPDL 2021 R1 has a stability issue with the : :func:`Mapdl.input() "
 "<ansys.mapdl.core.Mapdl.input>` method. Avoid using input files if possible."
@@ -4311,34 +4502,34 @@ msgid ""
 "<ansys.mapdl.core.Mapdl.eread>` methods."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:791
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:792
 msgid "More help needed?"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:797
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:798
 msgid "*\"What do I do if an issue is not listed here?\"*"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:801
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:802
 msgid ""
 "To see if your issue is already posted, search the `PyMAPDL Issues "
 "<pymapdl_issues_>`_ page. If not, do one of the following:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:803
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:804
 msgid ""
 "If you are not sure of the cause or would like some explanation about the "
 "usage of the function or its documentation, create a discussion on the "
 "`PyMAPDL Discussions <pymapdl_discussions_>`_ page."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:807
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:808
 msgid ""
 "If you believe you have found a bug or want to create a feature request, "
 "create an issue on the `PyMAPDL Issues <pymapdl_issues_>`_ page."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:810
+#: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:811
 msgid ""
 "For more complex issues or queries, contact the `PyAnsys Core team "
 "<pyansys_core_>`_."

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-17 00:18+0000\n"
+"POT-Creation-Date: 2024-10-22 00:17+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -1244,7 +1244,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:252
 msgid ""
 "If you have problems when creating the virtual environment or accessing it "
-"from the compute nodes, see :ref:`ref_hpc_pymapdl_job`."
+"from the compute nodes, see :ref:`ref_hpc_troubleshooting`."
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:256
