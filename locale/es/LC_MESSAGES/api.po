@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-22 00:17+0000\n"
+"POT-Creation-Date: 2024-10-24 00:17+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -6849,17 +6849,17 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl:171
 msgid ""
-"Whether detect if PyMAPDL is running on an HPC cluster or not. Currently "
-"only SLURM clusters are supported. By detaul, it is set to true. This option"
-" can be bypassed if the environment variable ``PYMAPDL_ON_SLURM`` is set to "
-"\"true\". For more information visit :ref:`ref_hpc_slurm`."
+"Whether detect if PyMAPDL is running on an HPC cluster. Currently only SLURM"
+" clusters are supported. By default, it is set to true. This option can be "
+"bypassed if the ``PYMAPDL_ON_SLURM`` environment variable is set to "
+"\"true\". For more information, see :ref:`ref_hpc_slurm`."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl:178
 msgid ""
-"These keyword arguments are interface specific or for development purposes. "
-"See Notes for more details."
+"These keyword arguments are interface-specific or for development purposes. "
+"For more information, see Notes."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
