@@ -1384,6 +1384,9 @@ msgid ""
 "examples_2d_magnetostatic_solenoid-BodyFlux_Averaging.py>` to download the "
 "full example code."
 msgstr ""
+"完全なサンプル・コードをダウンロードするには、 :ref:`最後に進んでください "
+"<sphx_glr_download_examples_gallery_examples_00-mapdl-"
+"examples_2d_magnetostatic_solenoid-BodyFlux_Averaging.py>` 。"
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:25
 msgid "Analysis of a 2D magnetostatic solenoid"
@@ -3914,7 +3917,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:6
 #: ../../pymapdl/doc/source/examples/index.rst:31
 msgid "Full examples using PyMAPDL"
-msgstr ""
+msgstr "PyMAPDL を使用した完全な例"
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:7
 #: ../../pymapdl/doc/source/examples/index.rst:36

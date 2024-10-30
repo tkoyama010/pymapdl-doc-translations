@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-03 00:17+0000\n"
+"POT-Creation-Date: 2024-10-30 00:18+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -65,66 +65,62 @@ msgstr "始め方についてはこちらをご覧ください"
 
 #: ../../pymapdl/doc/source/index.rst:74
 msgid ""
-"Check our :ref:`ref_getting_started` section to learn to "
-":ref:`ref_using_standard_install`, :ref:`ref_pymapdl_installation`, and "
-":ref:`ref_launch_pymapdl`."
+"Check our :ref:`ref_getting_started` section to learn to install MAPDL, "
+"install PyMAPDL or launch PyMAPDL."
 msgstr ""
-":ref:`ref_using_standard_install`, :ref:`ref_pymapdl_installation` そして "
-":ref:`ref_launch_pymapdl` については、 :ref:`ref_getting_started` セクションを参照してください。"
 
-#: ../../pymapdl/doc/source/index.rst:78
+#: ../../pymapdl/doc/source/index.rst:77
 msgid "See some PyMAPDL usage examples"
 msgstr "PyMAPDL の使用例を見る"
 
-#: ../../pymapdl/doc/source/index.rst:82
+#: ../../pymapdl/doc/source/index.rst:81
 msgid ""
 "In our :ref:`ref_examples` section, you can find a great collection of "
 "PyMAPDL user cases."
 msgstr ""
 "私たちの :ref:`ref_examples` セクションでは、PyMAPDL のユーザーケースの素晴らしいコレクションを見ることができます。"
 
-#: ../../pymapdl/doc/source/index.rst:86
+#: ../../pymapdl/doc/source/index.rst:85
 msgid "Use the different library modules"
 msgstr "さまざまなライブラリモジュールを使用する"
 
-#: ../../pymapdl/doc/source/index.rst:90
+#: ../../pymapdl/doc/source/index.rst:89
 msgid ""
 "Check our :ref:`ref_user_guide` chapter. Don't miss the right side bar with "
 "the table content."
 msgstr ":ref:`ref_user_guide` の章をチェックしてください。テーブルの内容が書かれた右サイドバーをお見逃しなく。"
 
-#: ../../pymapdl/doc/source/index.rst:93
+#: ../../pymapdl/doc/source/index.rst:92
 msgid "Help with PyMAPDL"
 msgstr "PyMAPDL のヘルプ."
 
-#: ../../pymapdl/doc/source/index.rst:97
+#: ../../pymapdl/doc/source/index.rst:96
 msgid ""
 "Check our :ref:`ref_troubleshooting` section. Additionally, there are some "
-"helpful resources in :ref:`faq`."
+"helpful resources in like frequently asked questions."
 msgstr ""
-":ref:`ref_troubleshooting` のセクションを確認してください。さらに、 :ref:`faq` にも役立つリソースがあります。"
 
-#: ../../pymapdl/doc/source/index.rst:101
+#: ../../pymapdl/doc/source/index.rst:100
 msgid "Contribute to PyMAPDL project"
 msgstr "PyMAPDLプロジェクトに貢献する"
 
-#: ../../pymapdl/doc/source/index.rst:105
+#: ../../pymapdl/doc/source/index.rst:104
 msgid "Great!! Check our :ref:`ref_contributing` section to start contribute."
 msgstr "素晴らしい! 貢献を始めるには :ref:`ref_contributing` セクションをチェックしてください。"
 
-#: ../../pymapdl/doc/source/index.rst:108
+#: ../../pymapdl/doc/source/index.rst:107
 msgid "Document or create an example for PyMAPDL"
 msgstr "PyMAPDL 用のサンプルを文書化または作成する"
 
-#: ../../pymapdl/doc/source/index.rst:112
+#: ../../pymapdl/doc/source/index.rst:111
 msgid "Check our :ref:`write_documentation` section."
 msgstr ":ref:`write_documentation` セクションをチェックしてください。"
 
-#: ../../pymapdl/doc/source/index.rst:114
+#: ../../pymapdl/doc/source/index.rst:113
 msgid "Develop PyMAPDL"
 msgstr "PyMAPDL を開発する"
 
-#: ../../pymapdl/doc/source/index.rst:118
+#: ../../pymapdl/doc/source/index.rst:117
 msgid ""
 "Check our :ref:`developing_pymapdl` section to get guidance about setting "
 "the project for development."
