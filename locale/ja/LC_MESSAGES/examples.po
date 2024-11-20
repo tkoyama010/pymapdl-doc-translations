@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-22 00:17+0000\n"
+"POT-Creation-Date: 2024-11-20 00:18+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -853,7 +853,7 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/extended_examples/executable/executable.rst:238
-#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:258
+#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:153
 msgid "Additional files"
 msgstr ""
 
@@ -880,73 +880,111 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:10
-msgid "Simulation setup"
+msgid "Application layout"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:12
-msgid "The following script launches a graphical app using PySide6:"
+msgid ""
+"The :download:`gui_app.py <gui_app.py>` script launches a graphical app "
+"using PySide6."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:155
+#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:14
 msgid ""
 "The **Preprocessing** tab contains input fields for Poisson's ratio, Young "
 "modulus, beam length, and a number of simulation nodes."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:161
-msgid "Add a PyVista plotting frame in the window"
+#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:18
+msgid "The **Postprocessing** tab shows the deformation plot."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:163
+#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:24
+msgid "Add a PyVista plotting frame to the window"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:26
 msgid ""
 "Start by importing the `QtInteractor "
 "<https://qtdocs.pyvista.org/api_reference.html#qtinteractor>`_ class from "
-"the ``pyvistaqt`` package and the :class:`MapdlTheme "
-"<ansys.mapdl.core.plotting.theme.MapdlTheme>` class from the ``ansys-mapdl-"
-"core`` package:"
+"the `pyvistaqt <https://github.com/pyvista/pyvistaqt>`_ package and the "
+":class:`MapdlTheme <ansys.mapdl.core.plotting.theme.MapdlTheme>` class from "
+"the `ansys-mapdl-core <pymapdl_repo_>`_ package:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:172
+#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:36
 msgid "Then, add a plotter on the first tab:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:188
+#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:50
 msgid "Add another plotter on the second tab:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:200
+#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:59
+msgid "The plotter can be updated with a PyMAPDL plotter object as follow:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:73
 msgid ""
 "Finally, make sure to correctly close the VTK widgets when closing the app:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:210
+#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:83
 msgid "Launch an MAPDL instance in your window"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:212
+#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:85
 msgid ""
-"Add an attribute to your MainWindow for the MAPDL instance and import the "
-"``launch_mapdl`` package."
+"In this example, the MAPDL instance is launched outside the ``MainWindow`` "
+"object, and it passed to it as an argument."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:218
+#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:97
+msgid ""
+"The ``MainWindow`` object stores the :class:`Mapdl "
+"<ansys.mapdl.core.mapdl.MapdlBase>` object internally:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:109
+msgid "Simulation setup"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:111
+msgid "The model is built in ``build_model`` method:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:116
+msgid "And solved in ``run_solver``:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:123
 msgid "Develop the logic"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:220
+#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:125
 msgid "Connect each button to a function that contains the logic:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:246
-msgid "You can now write the related functions:"
+#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:143
+msgid "Run the app"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:260
-msgid "The example files can be downloaded using these links:"
+#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:145
+msgid "You can run the app as a normal python script:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:262
-msgid "Original :download:`gui_app.py <gui_app.py>` script"
+#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:155
+msgid "The example files can be downloaded using this link:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:157
+msgid ":download:`gui_app.py <gui_app.py>`: Complete Python script."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:158
+msgid ""
+":download:`requirements.txt <requirements.txt>`: Python libraries "
+"requirements."
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:5
