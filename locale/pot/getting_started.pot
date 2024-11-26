@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-23 00:18+0000\n"
+"POT-Creation-Date: 2024-11-26 00:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -455,114 +455,114 @@ msgid "Most PyMAPDL tests require a connection to a running instance of MAPDL, w
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:239
-msgid "If you do not have MAPDL installed locally but still want to run the unit testing, you must set up the following environment variables."
+msgid "Passing the ``cleared`` fixture is also useful since it clears up the MAPDL database and configuration before performing the test. If you do not have MAPDL installed locally but still want to run the unit testing, you must set up the following environment variables."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:263
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:265
 msgid "These environment variables tell PyMAPDL to attempt to connect to the existing MAPDL service by default when the ``launch_mapdl`` function is used."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:266
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:268
 msgid "Additionally, you can use the :envvar:`PYMAPDL_MAPDL_EXEC` and :envvar:`PYMAPDL_MAPDL_VERSION` environment variables to specify the MAPDL executable path and the version to launch (if multiple versions of MAPDL are installed)."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:271
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:273
 msgid "Continuous integration and continuous deployment"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:273
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:275
 msgid "Unit tests and integration tests are part of continuous integration (CI). The automation of testing, monitoring, and deployment of newly added code allows continuous deployment (CD) throughout the app lifecycle, providing a comprehensive CI/CD approach."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:288
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:290
 msgid "Example"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:290
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:292
 msgid "The `test_component.py <pymapdl_test_component_>`_ file contains the unit tests and integration tests for the :class:`ComponentManager <ansys.mapdl.core.component.ComponentManager>` class. These tests are just some of the many in the `test directory <pymapdl_tests_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:295
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:297
 msgid "Here are some examples of how you use ``pytest``:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:325
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:327
 msgid "For further ``pytest`` configuration details, see the `pytest documentation <pytest_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:329
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:331
 msgid "Code coverage"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:331
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:333
 msgid "To verify that all code is properly tested, you must ensure that every piece of code is used (covered) in at least one unit test. In this repository, the `Codecov <codecov_>`_ tool generates a coverage report of the committed code. It indicates how merging a pull request would impact coverage. The generation of this report is one of the checks that must run successfully to merge code changes."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:343
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:345
 msgid "Coverage example"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:345
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:347
 msgid "To show how the coverage works, assume that you have this library:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:348
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:350
 msgid "**Awesome library**"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:362
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:364
 msgid "**Tests**"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:364
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:366
 msgid "You can opt to run the tests with this configuration:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:374
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:376
 msgid "Or, if a method is a bit more complex, you can split the case in different tests:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:390
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:392
 msgid "While the code coverage in either case is 100% for the function, the second case is more useful for debugging the function."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:393
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:395
 msgid "You can also use `parametrize (pytest.mark.parametrize) <pytest_parametrize_>`_ to make the code more readable, and easier to reuse."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:413
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:415
 msgid "For further explanations, see the `pytest documentation <pytest_>`_ ."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:416
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:418
 msgid "Code style"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:418
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:420
 msgid "PyMAPDL follows the PEP8 standard as outlined in the `PyAnsys Development Guide <dev_guide_pyansys_>`_ and implements style checking using `pre-commit <precommit_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:422
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:424
 msgid "To ensure your code meets minimum code styling standards, run these commands:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:429
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:431
 msgid "You can also install this as a pre-commit hook by running this command:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:435
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:437
 msgid "Since you have installed ``pre-commit`` as a hook, ``git`` automatically runs these hooks before committing, failing if it find any format issues and making or proposing the necessary changes to the commit. If this happens, you might need to run commit and edit these changes several times before commit successfully."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:457
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:459
 msgid "This way, it's not possible for you to push code that fails the style checks. For example:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:480
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:482
 msgid "First time you run ``pre-commit`` (using ``git commit`` or ``pre-commit``), the command might take a bit of time (2-3 minutes) to download the specified hooks and install them. After that first time, analysing your commits should take seconds."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:484
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:486
 msgid "``pre-commit`` hooks can also be updated, added or removed. For more information, visit `pre-commit <precommit_>`_ website."
 msgstr ""
 
@@ -1038,7 +1038,7 @@ msgid "Python module"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:11
-msgid "The ``ansys.mapdl.core`` package currently supports Python 3.9 through Python 3.12 on Windows, Mac OS, and Linux."
+msgid "The ``ansys.mapdl.core`` package currently supports Python 3.10 through Python 3.12 on Windows, Mac OS, and Linux."
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:14
@@ -1070,11 +1070,11 @@ msgid "Each wheelhouse archive contains all the Python wheels necessary to insta
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:51
-msgid "For example, on Linux with Python 3.9, unzip the wheelhouse archive and install it with these commands:"
+msgid "For example, on Linux with Python 3.10, unzip the wheelhouse archive and install it with these commands:"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:59
-msgid "If you're on Windows with Python 3.9, unzip to a ``wheelhouse`` directory and install using the preceding command."
+msgid "If you're on Windows with Python 3.10, unzip to a ``wheelhouse`` directory and install using the preceding command."
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:62
