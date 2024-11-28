@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-26 00:18+0000\n"
+"POT-Creation-Date: 2024-11-28 00:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1600,7 +1600,7 @@ msgid "You can create your own MAPDL docker container following the steps given 
 msgstr ""
 
 #: ../../pymapdl/docker/make_container.rst:18
-msgid "A linux machine, preferable with Ubuntu 18.04 or later. CentOS Linux distribution is not supported anymore. This machine needs to have `Docker <https://www.docker.com>`_ installed."
+msgid "A linux machine, preferable with Ubuntu 20.04 or later. CentOS Linux distribution is not supported anymore. This machine needs to have `Docker <https://www.docker.com>`_ installed."
 msgstr ""
 
 #: ../../pymapdl/docker/make_container.rst:22
