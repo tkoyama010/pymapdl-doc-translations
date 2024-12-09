@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-23 00:18+0000\n"
+"POT-Creation-Date: 2024-12-09 00:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1195,7 +1195,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.py:docstring of ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_esol:54
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.py:docstring of ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_nsol:41
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.py:docstring of ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:38
-msgid ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~numpy.ndarray\\`\\\\ \\\\\\[\\:py\\:data\\:\\`\\~typing.Any\\`\\, \\:py\\:class\\:\\`\\~numpy.dtype\\`\\\\ \\\\\\[\\:py\\:class\\:\\`\\~numpy.float64\\`\\]\\]`"
+msgid ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~numpy.ndarray\\`\\\\ \\\\\\[\\:py\\:class\\:\\`tuple\\`\\\\ \\\\\\[\\:py\\:class\\:\\`int\\`\\, \\:py\\:data\\:\\`...\\<Ellipsis\\>\\`\\]\\, \\:py\\:class\\:\\`\\~numpy.dtype\\`\\\\ \\\\\\[\\:py\\:class\\:\\`\\~numpy.float64\\`\\]\\]`"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.py:docstring of ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:57
