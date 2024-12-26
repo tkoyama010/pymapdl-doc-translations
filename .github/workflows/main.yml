@@ -9,11 +9,11 @@ on:
     branches:
       - main
 jobs:
-  permissions:
-    pull-requests: write
-    issues: write
-    repository-projects: write
   script:
+    permissions:
+      pull-requests: write
+      issues: write
+      repository-projects: write
     runs-on: ubuntu-latest
     steps:
       - name: Setup Python
