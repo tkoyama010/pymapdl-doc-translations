@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-01 00:20+0000\n"
+"POT-Creation-Date: 2025-01-08 00:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2029,7 +2029,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/api/mapdl.rst:80:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.py:docstring of ansys.mapdl.core.Mapdl.locked:2
-msgid "Instance is in use within a pool"
+msgid "Instance is in use within a pool."
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.Mapdl.logger.rst:2
@@ -2612,7 +2612,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/api/mapdl.rst:80:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.py:docstring of ansys.mapdl.core.Mapdl.thermal_result:2
-msgid "The thermal result object"
+msgid "The thermal result object."
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.Mapdl.use_vtk.rst:2
