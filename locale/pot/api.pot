@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-09 00:17+0000\n"
+"POT-Creation-Date: 2025-01-18 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -6545,19 +6545,27 @@ msgstr ""
 msgid "Switches the backend scene to the given plotter."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:37:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:38:<autosummary>:1
+msgid ":py:obj:`backend <ansys.mapdl.core.plotting.MapdlPlotter.backend>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:38:<autosummary>:1
+msgid "Return the base plotter object."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:38:<autosummary>:1
 msgid ":py:obj:`meshes <ansys.mapdl.core.plotting.MapdlPlotter.meshes>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:37:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:38:<autosummary>:1
 msgid "Return the meshes."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:37:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:38:<autosummary>:1
 msgid ":py:obj:`scene <ansys.mapdl.core.plotting.MapdlPlotter.scene>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:37:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:38:<autosummary>:1
 msgid "Return the scene."
 msgstr ""
 
