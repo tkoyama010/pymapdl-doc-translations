@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-01 00:20+0000\n"
+"POT-Creation-Date: 2025-01-24 00:17+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -1002,6 +1002,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:15
 #: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:81
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:11
 msgid "Introduction"
 msgstr ""
 
@@ -1317,7 +1318,7 @@ msgid ""
 "that the :class:`~ansys.mapdl.core.pool.MapdlPool` instance is creating."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:30
+#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:32
 msgid "Cart-Pole Simulation"
 msgstr ""
 
@@ -1414,6 +1415,784 @@ msgstr ""
 msgid ""
 "Demonstrates how to use PyMAPDL in a high-performance computing system "
 "managed by SLURM."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:28
+msgid ":ref:`stochastic_fem_example`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:28
+msgid ""
+"Demonstrates using PyMAPDL for stochastic FEA using Monte Carlo simulation."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:4
+msgid "Stochastic finite element method with PyMAPDL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:6
+msgid ""
+"This example leverages PyMAPDL for stochastic finite element method (SFEM) "
+"analysis using the Monte Carlo simulation. This extended example "
+"demonstrates numerous advantages and workflow possibilities that PyMAPDL "
+"provides. It explains important theoretical concepts before presenting the "
+"example."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:12
+msgid ""
+"Often in a mechanical system, system parameters (such as geometry, "
+"materials, and loads) and response parameters (such as displacement, strain,"
+" and stress) are taken to be deterministic. This simplification, while "
+"sufficient for a wide range of engineering applications, results in a crude "
+"approximation of actual system behavior."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:16
+msgid ""
+"To obtain a more accurate representation of a physical system, it is "
+"essential to consider the randomness in system parameters and loading "
+"conditions, along with the uncertainty in their estimation and their spatial"
+" variability. The finite element method is undoubtedly the most widely used "
+"tool for solving deterministic physical problems today. To account for "
+"randomness and uncertainty in the modeling of engineering systems, the SFEM "
+"was introduced."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:22
+msgid ""
+"SFEM extends the classical deterministic finite element approach to a "
+"stochastic framework, offering various techniques for calculating response "
+"variability. Among these, Monte Carlo simulation (MCS) stands out as the "
+"most prominent method. Renowned for its versatility and ease of "
+"implementation, MCS can be applied to virtually any type of problem in "
+"stochastic analysis."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:28
+msgid "Random variables versus stochastic processes"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:29
+msgid ""
+"This section explains how random variables and stochastic processes differ. "
+"Because these concepts are used for modeling the system randomness, "
+"explaining them is important. Random variables are easier to understand from"
+" elementary probability theory, which isn't the case for stochastic "
+"processes. If the following explanations are too brief, consult books on "
+"SFEM. Both [1]_ and [2]_ are recommended resources."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:35
+msgid "Random variables"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:36
+msgid ""
+"**Definition:** A random variable is a rule for assigning to every possible "
+"outcome :math:`\\theta` of an experiment a number :math:`X(\\theta)`. For "
+"notational convenience, the dependence on :math:`\\theta` is usually dropped"
+" and the random variable is written as :math:`X`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:41
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:71
+msgid "Practical example"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:42
+msgid ""
+"Imagine a beam with a concentrated load :math:`P` applied at a specific "
+"point. The value of :math:`P` is uncertain. It could vary due to "
+"manufacturing tolerances, loading conditions, or measurement errors. Here is"
+" a mathematical representation:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:45
+msgid ""
+"P : \\Theta \\longrightarrow \\mathbb{R}\n"
+"\n"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:47
+msgid ""
+"In the preceding equation, :math:`\\Theta` is the sample space of all "
+"possible loading scenarios, and :math:`\\mathbb{R}` represents the set of "
+"possible load magnitudes. For example, :math:`P` could be modeled as a "
+"random variable with a probability density function (PDF):"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:51
+msgid ""
+"f_P(p) = \\frac{1}{\\sqrt{2\\pi\\sigma^2}}e^{-\\frac{(p-\\mu)^2}{2\\sigma^2}},\n"
+"\n"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:53
+msgid "Here :math:`\\mu` is the mean load, and :math:`\\sigma^2` is its variance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:56
+msgid "Stochastic processes"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:57
+msgid ""
+"**Definition:** Recall that a random variable is defined as a rule that "
+"assigns a number :math:`X` to every outcome :math:`\\theta` of an "
+"experiment. However, in some applications, the experiment evolves with "
+"respect to a deterministic parameter :math:`t`, which belongs to an interval"
+" :math:`I`. For example, this occurs in an engineering system subjected to "
+"random dynamic loads over a time interval :math:`I \\subseteq "
+"\\mathbb{R}^+`. In such cases, the system's response at a specific material "
+"point is described not by a single random variable but by a collection of "
+"random variables :math:`\\{X(t)\\}` indexed by :math:`t \\in I`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:64
+msgid ""
+"This `infinite` collection of random variables over the interval :math:`I` "
+"is called a stochastic process and is denoted as :math:`\\{X(t), t \\in "
+"I\\}` or simply :math:`X`. In this way, a stochastic process generalizes the"
+" concept of a random variable as it assigns to each outcome :math:`\\theta` "
+"of the experiment a function :math:`X(t, \\theta)`, known as a realization "
+"or sample function. Lastly, if :math:`X` is indexed by some spatial "
+"coordinate :math:`s \\in D \\subseteq \\mathbb{R}^n` rather than time "
+":math:`t`, then :math:`\\{X(s), s \\in D\\}` is called a random field."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:72
+msgid ""
+"Consider the material property of the beam, such as Young's modulus "
+":math:`E(x)`, which may vary randomly along the length of the beam "
+":math:`x`.  Instead of being a single random value, :math:`E(x)` is a random"
+" field. Its value is uncertain at each point along the domain, and it "
+"changes continuously across the beam. Mathematically, :math:`E(x)` is a "
+"random field:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:77
+msgid ""
+"E(x) : x \\in [0,L] \\longrightarrow \\mathbb{R}\n"
+"\n"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:79
+msgid "Here:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:81
+msgid ""
+":math:`x` is the spatial coordinate along the length of the beam (:math:`x "
+"\\in [0,L]`)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:82
+msgid ""
+":math:`E(x)` is a random variable at each point :math:`x`, and its "
+"randomness is described by a covariance function or an autocorrelation "
+"function."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:85
+msgid ""
+"For example, :math:`E(x)` could be a Gaussian random field, in which case it"
+" has the stationarity property, making its statistics completely defined by "
+"its mean (:math:`\\mu_E`), standard deviation (:math:`\\sigma_E`), and "
+"covariance function :math:`C_E(x_i,x_j)`. This `stationarity` simply means "
+"that the mean and standard deviation of every random variable :math:`E(x)` "
+"is constant and equal to :math:`\\mu_E` and :math:`\\sigma_E` respectively. "
+":math:`C_E(x_i,x_j)` describes how random variables :math:`E(x_i)` and "
+":math:`E(x_j)` are related. For a zero-mean Gaussian random field, the "
+"covariance function is given by this equation:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:93
+msgid ""
+"C_E(x_i,x_j) = \\sigma_E^2e^{-\\frac{\\lvert x_i-x_j \\rvert}{\\ell}}\n"
+"\n"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:95
+msgid ""
+"Here :math:`\\sigma_E^2` is the variance, and :math:`\\ell` is the "
+"correlation length parameter."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:97
+msgid ""
+"To aid understanding, the figure following diagram depicts two equivalent "
+"ways of visualizing a stochastic process or random field, that is, as an "
+"infinite collection of random variables or as a realization or sample "
+"function assigned to each outcome of an experiment."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:103
+msgid ""
+"A random field :math:`E(x)` viewed as a collection of random variables or as"
+" realizations."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:106
+msgid ""
+"The concepts in the preceding topics generalize to more dimensions, for "
+"example, a random vector instead of a random variable, or an "
+":math:`\\mathbb{R}^d`-valued stochastic process. A detailed discussion of "
+"these generalizations can be found in [1]_ and [2]_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:111
+msgid "Series expansion of stochastic processes"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:112
+msgid ""
+"Since a stochastic process involves an infinite number of random variables, "
+"most engineering applications involving stochastic processes are "
+"mathematically and computationally intractable if there isn't a way of "
+"approximating them with a series of a finite number of random variables. The"
+" next topic explains the series expansion method used in this example."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:118
+msgid "Karhunen-Loève (K-L) series expansion for a Gaussian process"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:119
+msgid ""
+"The K-L expansion of any process is based on a spectral decomposition of its"
+" covariance function. Analytical solutions are possible in a few cases, and "
+"such is the case of a Gaussian process."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:122
+msgid ""
+"For a zero-mean stationary Gaussian process, :math:`X(t)`, with covariance "
+"function :math:`C_X(t_i,t_j)=\\sigma_X^2e^{-\\frac{\\lvert t_i-t_j "
+"\\rvert}{b}}` defined on a symmetric domain :math:`\\mathbb{D}=[-a,a]`, the "
+"K-L series expansion is given by this equation:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:126
+msgid ""
+"X(t) = \\sum_{n=1}^\\infty \\sqrt{\\lambda_{c,n}}\\cdot\\varphi_{c,n}(t)\\cdot\\xi_{c,n} + \\sum_{n=1}^\\infty \\sqrt{\\lambda_{s,n}}\\cdot\\varphi_{s,n}(t)\\cdot\\xi_{s,n},\\quad t\\in\\mathbb{D}\n"
+"\n"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:129
+msgid "The terms in the first summation are given by"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:131
+msgid ""
+"\\lambda_{c,n} = \\frac{2b}{1+\\omega_{c,n}^2\\cdot b^2},\\quad \\varphi_{c,n}(t) = k_{c,n}\\cos(\\omega_{c,n}\\cdot t)\n"
+"\n"
+"k_{c,n} = \\frac{1}{\\sqrt{a+\\frac{\\sin(2\\omega_{c,n}\\cdot a)}{2\\omega_{c,n}}}}"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:138
+msgid ""
+"In the preceding terms, :math:`\\omega_{c,n}` is obtained as the solution of"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:140
+msgid ""
+"\\frac{1}{b} - \\omega_{c,n}\\cdot\\tan(\\omega_{c,n}\\cdot a) = 0 \\quad \\text{in the range} \\quad \\biggl[(n-1)\\frac{\\pi}{a}, (n-\\frac{1}{2})\\frac{\\pi}{a}\\biggr]\n"
+"\n"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:143
+msgid "The terms in the second summation are given by"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:145
+msgid ""
+"\\lambda_{s,n} = \\frac{2b}{1+\\omega_{s,n}^2\\cdot b^2},\\quad \\varphi_{s,n}(t) = k_{s,n}\\sin(\\omega_{s,n}\\cdot t)\n"
+"\n"
+"k_{s,n} = \\frac{1}{\\sqrt{a-\\frac{\\sin(2\\omega_{s,n}\\cdot a)}{2\\omega_{s,n}}}}"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:152
+msgid ""
+"In the preceding terms, :math:`\\omega_{s,n}` is obtained as the solution of"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:154
+msgid ""
+"\\frac{1}{b}\\cdot\\tan(\\omega_{s,n}\\cdot a) + \\omega_{s,n} = 0 \\quad \\text{in the range} \\quad \\biggl[(n-\\frac{1}{2})\\frac{\\pi}{a}, n\\frac{\\pi}{a}\\biggr]\n"
+"\n"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:157
+msgid ""
+"It is worth mentioning that :math:`\\lambda` and :math:`\\omega` in the "
+"series expansion are referred to as eigenvalue and frequency respectively."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:160
+msgid ""
+"In the case of an asymmetric domain, such as "
+":math:`\\mathbb{D}=[-t_{min},t_{max}]`, a shift parameter :math:`T = "
+"(t_{min}+t_{max})/2` is required and the corresponding symmetric domain "
+"becomes defined by this equation:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:163
+msgid ""
+"D' = D - T = \\biggl[\\frac{t_{min}-t_{max}}{2}, \\frac{t_{max}-t_{min}}{2} \\biggr]\n"
+"\n"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:165
+msgid "The series expansion is then defined by this equation:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:167
+msgid ""
+"X(t) = \\sum_{n=1}^\\infty \\sqrt{\\lambda_{c,n}}\\cdot\\varphi_{c,n}(t-T)\\cdot\\xi_{c,n} + \\sum_{n=1}^\\infty \\sqrt{\\lambda_{s,n}}\\cdot\\varphi_{s,n}(t-T)\\cdot\\xi_{s,n},\\quad t\\in\\mathbb{D}\n"
+"\n"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:169
+msgid ""
+"The K-L expansion of a Gaussian process has the property that "
+":math:`\\xi_{c,n}` and :math:`\\xi_{s,n}` are independent standard normal "
+"variables, that is they follow the :math:`\\mathcal{N}(0,1)` distribution. "
+"Another property is that :math:`\\lambda_{c,n}` and :math:`\\lambda_{s,n}` "
+"converge to zero fast (in the mean square sense). For practical "
+"implementation, this means that the infinite series of the K-L expansion is "
+"truncated after a finite number of terms, giving the approximation:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:174
+msgid ""
+"X(t) \\approx \\hat{X}(t) = \\sum_{n=1}^P \\sqrt{\\lambda_{c,n}}\\cdot\\varphi_{c,n}(t)\\cdot\\xi_{c,n} + \\sum_{n=1}^Q \\sqrt{\\lambda_{s,n}}\\cdot\\varphi_{s,n}(t)\\cdot\\xi_{s,n}\n"
+"\n"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:177
+msgid ""
+"Equation :math:numref:`approximation` is computationally feasible to handle."
+" A summary of how to use it to generate realizations of :math:`X(t)` "
+"follows:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:179
+msgid ""
+"To generate the j-th realization, draw a random value for each "
+":math:`\\xi_{c,n}, n=1,\\dots ,P, \\quad \\xi_{s,n}, n=1,\\dots ,Q` from the"
+" standard normal distribution :math:`\\mathcal{N}(0,1)` and obtain "
+":math:`\\xi_{c,1}^j,\\dots ,\\xi_{c,P}^j, \\quad \\xi_{s,1}^j,\\dots "
+",\\xi_{s,P}^j`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:182
+msgid ""
+"Insert these values into equation :math:numref:`approximation` in other to "
+"obtain the j-th realization:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:184
+msgid ""
+"\\hat{X}^j(t) = \\sum_{n=1}^P \\sqrt{\\lambda_{c,n}}\\cdot\\varphi_{c,n}(t)\\cdot\\xi_{c,n}^j + \\sum_{n=1}^Q \\sqrt{\\lambda_{s,n}}\\cdot\\varphi_{s,n}(t)\\cdot\\xi_{s,n}^j\n"
+"\n"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:186
+msgid ""
+"To generate additional realizations, simply draw new random values for "
+":math:`\\xi_{c,n}, n=1,\\dots ,P, \\quad \\xi_{s,n}, n=1,\\dots ,Q` each "
+"from :math:`\\mathcal{N}(0,1)`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:189
+msgid ""
+"In this case of a field, the preceding discussion applies as the only "
+"difference is a change in notation (for example :math:`t` to :math:`x`)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:192
+msgid "Monte Carlo simulation"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:193
+msgid ""
+"For linear static problems in the context of FEM, the system equations that "
+"must be solved change. The well-known deterministic equation defined by:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:195
+msgid ""
+"\\pmb{K}\\pmb{U} = \\pmb{F}\n"
+"\n"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:197
+msgid "changes to"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:199
+msgid ""
+"\\pmb{K}(\\pmb{\\xi})\\pmb{U}(\\pmb{\\xi}) = \\pmb{F}(\\pmb{\\xi})\n"
+"\n"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:201
+msgid ""
+"Here :math:`\\pmb{\\xi}` collects sources of system randomness. The Monte "
+"Carlo simulation for solving the preceding equation consists of generating a"
+" large number of :math:`N_{sim}` of samples :math:`\\pmb{\\xi}, i=1,\\dots "
+",N_{sim}` from their probability distribution and for each of these samples "
+"solving the deterministic problem:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:205
+msgid ""
+"\\pmb{K}(\\pmb{\\xi}_{(i)})\\pmb{U}(\\pmb{\\xi}_{(i)}) = \\pmb{F}(\\pmb{\\xi}_{(i)})\n"
+"\n"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:207
+msgid ""
+"The next step is to collect the :math:`N_{sim}` response vectors "
+":math:`\\pmb{U} := \\pmb{U}(\\pmb{\\xi}_{(i)})` and perform a statistical "
+"postprocessing to extract useful information such as mean value, variance, "
+"histogram, and empirical PDF."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:213
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:56
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/00-example-template.rst:86
+msgid "Problem description"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:214
+msgid ""
+"The following plane stress problem shows a two-dimensional cantilever "
+"structure under a point load."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:218
+msgid "A two-dimensional cantilever structure under a point load."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:220
+msgid ""
+":math:`P` is a random variable following the Gaussian distribution "
+":math:`\\mathcal{N}(0,1)` (kN), and the modulus of elasticity is a random "
+"field given by this expression:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:223
+msgid ""
+"E(x) = 10^5(1+0.10f(x)) (kN/m^2)\n"
+"\n"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:225
+msgid ""
+"Here :math:`f(x)` is a zero mean stationary Gaussian field with unit "
+"variance. The covariance function for :math:`f` is "
+":math:`C_f(x_r,x_s)=e^{-\\frac{\\lvert x_r-x_s \\rvert}{3}}`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:227
+msgid ""
+"Using the K-L series expansion, generate 5000 realizations for :math:`E(x)` "
+"and perform Monte Carlo simulation to determine the PDF of the response "
+":math:`u`, at the bottom right corner of the cantilever."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:231
+msgid ""
+"If some design code stipulates that the displacement :math:`u` must not "
+"exceed :math:`0.2 \\: m`, how confident can you be that the structure meets "
+"this requirement?"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:235
+msgid ""
+"This example strongly emphasizes how PyMAPDL can help to supercharge "
+"workflows. At a very high level, subsequent topics use Python libraries to "
+"handle computations related to the stochasticity of the problem and use "
+"MAPDL to run the necessary simulations all within the comfort of a Python "
+"environment."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:240
+msgid "Evaluating the Young's modulus"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:241
+msgid ""
+"Code that allows representation of the zero-mean Gaussian field :math:`f` is"
+" implemented. This simply means solving the :math:numref:`cosine equation` "
+"and :math:numref:`sine equation` and then substituting calculated values "
+"into :math:numref:`cosine terms` and :math:numref:`sine terms` to obtain the"
+" constant terms in those equations. The number of retained terms :math:`P` "
+"and :math:`Q` in :math:numref:`approximation` can be automatically "
+"determined by structuring the code to stop computing values when "
+":math:`\\lambda_{c,n}, \\lambda_{s,n}` become lower than a desired accuracy "
+"level. The implementation follows:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:252
+msgid ""
+"The next step is to put this all together in a function that expresses the "
+":math:`f` using the :math:numref:`approximation` equation:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:258
+msgid ""
+"The function for evaluating the Young's modulus itself is straight forward:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:265
+msgid "Realizations of the Young's modulus"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:266
+msgid ""
+"You can now generate sample realizations of the Young's modulus to see what "
+"they look like:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:274
+msgid ""
+"10 realizations of the Young's modulus depict randomness from one "
+"realization to another."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:277
+msgid "Verification of the implementation"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:278
+msgid ""
+"You can compute the theoretical mean and variance of the Young's modulus and"
+" then use them to verify the correctness of the implemented code."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:281
+msgid "For the mean:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:283
+msgid ""
+"\\mathbb{E}(E) = \\mathbb{E}(10^5(1+0.10f))\n"
+"\n"
+"\\mathbb{E}(E) = 10^5(1 + 0.1\\mathbb{E}(f))\n"
+"\n"
+"\\mathbb{E}(E) = 10^5(1 + 0.1(0)) = 10^5 \\: kN/m^2"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:293
+msgid "For the variance:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:295
+msgid ""
+"Var(E) = \\mathbb{E}(E^2) - [\\mathbb{E}(E)]^2\n"
+"\n"
+"Var(E) = \\mathbb{E}[10^{10}(1 + 0.2f + 0.01f^2)] - 10^{10}\n"
+"\n"
+"Var(E) = 10^{10}[1 + 0.2\\mathbb{E}(f) + 0.01\\mathbb{E}(f^2)] - 10^{10}\n"
+"\n"
+"Var(E) = 10^{10}[0.2(0) + 0.01(1)]\n"
+"\n"
+"Var(E) = 10^8 \\: {kN}^2/m^4"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:308
+msgid ""
+"It is expected that as the number of realizations increase indefinitely, the"
+" ensemble mean and variance should converge towards theoretical values "
+"calculated in :math:numref:`theoretical mean` and :math:numref:`theoretical "
+"variance`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:311
+msgid ""
+"Firstly, several realizations are generated. 5000 is enough, which is the "
+"same as the number of simulations to be run later on. Statistical processing"
+" is then performed on these realizations."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:318
+msgid "You can generate a plot of the mean versus the number of realizations:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:326
+msgid ""
+"The mean converges to the true value as the number of realizations is "
+"increased."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:328
+msgid ""
+"You can also generate a plot of the variance versus the number of "
+"realizations:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:336
+msgid ""
+"The variance converges to the true value as the number of realizations is "
+"increased."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:338
+msgid ""
+"The preceding plots confirm that the implementation is correct. If you "
+"desire more accuracy, you can further decrease the minimum eigenvalue, but "
+"the value already chosen is sufficient."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:341
+msgid "Running the simulations"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:342
+msgid ""
+"Focus now shifts to the PyMAPDL part of this example. Remember that the "
+"problem requires running 5000 simulations. Therefore, you must write a "
+"workflow that performs these actions:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:345
+msgid "Create the geometry of the cantilever model."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:347
+msgid ""
+"Mesh the model. The following code uses the four-node PLANE182 elements."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:349
+msgid ""
+"For each simulation, generate one realization of :math:`E` and one sample of"
+" :math:`P`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:351
+msgid ""
+"For each simulation, loop through the elements and for each element, use the"
+" generated realization to assign the value of the Young's modulus. Also "
+"assign the load for each simulation."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:354
+msgid "Solve the model and store :math:`u` for each simulation."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:357
+msgid ""
+"One realization continuously varies with :math:`x`, but a plane stress "
+"element like PLANE182 can only have a constant Young's modulus assigned. "
+"Therefore, for an element whose :math:`x`-coordinates are between "
+":math:`x_1` and :math:`x_2`, you can simply assign the average value of "
+":math:`E` between these two values or assign the value of :math:`E` at the "
+"centroid. The later is chosen for this implementation. The method chosen "
+"becomes insignificant with a finer mesh as both methods should produce "
+"similar results."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:363
+msgid "This function implements the preceding steps:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:369
+msgid ""
+"You can pass the required arguments to the defined function to run the "
+"simulations:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:376
+msgid "Answering problem questions"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:377
+msgid ""
+"To determine the PDF of the response :math:`u`, you can perform a "
+"statistical postprocessing of simulation results:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:386
+msgid "The PDF of response :math:`u`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:388
+msgid ""
+"To determine whether the structure meets the requirement of the design code,"
+" simply evaluate the probability that the response :math:`u` is less than "
+":math:`0.2 \\: m`:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:396
+msgid ""
+"The computed probability is approximately 99%, which is a measure of how "
+"well the structure satisfies the design requirement."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:400
+msgid ""
+"Splitting the overall implementation of this example into several functions "
+"lets you modify practically any aspect of the problem statement with minimal"
+" edits to the code for testing out other scenarios. For example, you can use"
+" a different structural geometry, mesh size, or loading condition."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:404
+msgid "Improve simulation speed using multi-threading"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:405
+msgid ""
+"One of the main drawbacks of MCS is the number of simulations required. In "
+"this example, 5000 simulations can take quite some time to run on a single "
+"MAPDL instance. To speed things up, you can use the "
+":class:`~ansys.mapdl.core.pool.MapdlPool` class to run simulations across "
+"multiple MAPDL instances:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:414
+msgid ""
+"To run simulations over 10 MAPDL instances, call the preceding function with"
+" appropriate arguments:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:420
+msgid "The simulations are completed much faster."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:423
+msgid ""
+"In a local test, using the ``MapdlPool`` approach (with 10 MAPDL instances) "
+"takes about 38 minutes to run, while a single instance runs for about 3 "
+"hours. The simulation speed depends on a multitude of factors, but this "
+"comparison provides an idea of the speed gain to expect when using multiple "
+"instances."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:428
+msgid ""
+"Ensure there are enough licenses available to run multiple MAPDL instances "
+"concurrently."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:431
+msgid "References"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:432
+msgid ""
+"Ioannis Kalogeris, \"Advanced surrogate modeling and machine learning "
+"methods in computational stochastic mechanics,\" PhD Dissertation"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:433
+msgid ""
+"Dimitris G. Giovanis and Vissarion Papadopoulos, \"Stochastic Finite Element"
+" Methods : An Introduction\""
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:13
@@ -2625,11 +3404,6 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:51
 msgid "Structural Static Analysis and `PLANE183 <elem_plane183_>`_"
-msgstr ""
-
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:56
-#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/00-example-template.rst:86
-msgid "Problem description"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:58
