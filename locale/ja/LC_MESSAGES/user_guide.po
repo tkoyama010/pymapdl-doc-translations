@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-01 00:20+0000\n"
+"POT-Creation-Date: 2025-01-28 00:17+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -246,25 +246,25 @@ msgid ""
 "``python.py``:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/convert.rst:24
+#: ../../pymapdl/doc/source/user_guide/convert.rst:23
 msgid ""
-"The output argument is completely optional. If you don't specify it, the "
-"``py`` extension is used for the file that is outputted:"
+"The output argument is optional. If you don't specify it, the converted code"
+" is shown on the terminal:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/convert.rst:33
+#: ../../pymapdl/doc/source/user_guide/convert.rst:37
 msgid ""
 "You can use any option from the :func:`convert_script() "
 "<ansys.mapdl.core.convert_script>` function."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/convert.rst:36
+#: ../../pymapdl/doc/source/user_guide/convert.rst:40
 msgid ""
 "For example, to avoid exiting the MAPDL instance after running the script, "
 "you can use ``--auto-exit`` argument:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/convert.rst:45
+#: ../../pymapdl/doc/source/user_guide/convert.rst:47
 msgid ""
 "You can skip the imports by setting the ``--add_imports`` option to "
 "``False``:"
@@ -272,16 +272,24 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/convert.rst:55
 msgid ""
+"You can also skip adding the import, the "
+":func:`ansys.mapdl.core.launcher.launch_mapdl` call, and the "
+":meth:`mapdl.exit() <ansys.mapdl.core.Mapdl.exit>` call by using the "
+"argument ``--only-code`` (``-oc``):"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/convert.rst:66
+msgid ""
 "For more information about possible options, use the help command (``pymapdl"
 " convert --help``) or the :func:`convert_script() "
 "<ansys.mapdl.core.convert_script>` function documentation."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/convert.rst:62
+#: ../../pymapdl/doc/source/user_guide/convert.rst:73
 msgid "Caveats"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/convert.rst:64
+#: ../../pymapdl/doc/source/user_guide/convert.rst:75
 msgid ""
 "These examples only show an automatic translation of a verification: file "
 "and not optimized code. Should it be necessary to pull parameters or arrays "
@@ -290,30 +298,30 @@ msgid ""
 "MAPDL :func:`Mapdl.get() <ansys.mapdl.core.Mapdl.get>` command shown here:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/convert.rst:76
+#: ../../pymapdl/doc/source/user_guide/convert.rst:87
 msgid ""
 "Alternatively, if a parameter is already defined, you can access it using "
 "the :attr:`Mapdl.parameters <ansys.mapdl.core.Mapdl.parameters>` attribute "
 "with:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/convert.rst:95
+#: ../../pymapdl/doc/source/user_guide/convert.rst:106
 msgid "Script translation"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/convert.rst:97
+#: ../../pymapdl/doc/source/user_guide/convert.rst:108
 msgid ""
 "Existing Ansys scripts can be translated using the :func:`convert_script() "
 "<ansys.mapdl.core.convert_script>` function:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/convert.rst:107
+#: ../../pymapdl/doc/source/user_guide/convert.rst:118
 msgid ""
 "Or, you can convert code in form of strings for later processing using the "
 ":func:`convert_apdl_block() <ansys.mapdl.core.convert_apdl_block>` function:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/convert.rst:123
+#: ../../pymapdl/doc/source/user_guide/convert.rst:134
 msgid ""
 "The script conversion functions allow some interesting arguments, which you "
 "can see in the respective :func:`convert_script() "
@@ -323,7 +331,7 @@ msgid ""
 "keyword arguments."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/convert.rst:129
+#: ../../pymapdl/doc/source/user_guide/convert.rst:140
 msgid ""
 "Of particular note in the following examples is how most of the commands can"
 " be called as a method to the Ansys object rather than sending a string as a"
@@ -333,7 +341,7 @@ msgid ""
 "connection for some interfaces (such as CORBA) or are invalid (as in gRPC)."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/convert.rst:136
+#: ../../pymapdl/doc/source/user_guide/convert.rst:147
 msgid ""
 "Also note that APDL macros that use ``*CREATE`` have been replaced with "
 "Python functions. This makes the code easier to debug should it be necessary"
@@ -342,11 +350,11 @@ msgstr ""
 "また、 ``*CREATE`` を使用するAPDLマクロはPython関数に置き換えられました。これにより、スクリプト中に "
 "``breakpoint()`` を挿入する必要がある場合、コードのデバッグが容易になります。"
 
-#: ../../pymapdl/doc/source/user_guide/convert.rst:142
+#: ../../pymapdl/doc/source/user_guide/convert.rst:153
 msgid "Example: VM1 - statically indeterminate reaction force analysis"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/convert.rst:144
+#: ../../pymapdl/doc/source/user_guide/convert.rst:155
 msgid ""
 "Ansys MAPDL contains over 200 verification files used for Ansys validation "
 "and demonstration. These validation files are used here to demo the use of "
@@ -354,7 +362,7 @@ msgid ""
 "<ansys.mapdl.core.convert_script>` function and are available in:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/convert.rst:155
+#: ../../pymapdl/doc/source/user_guide/convert.rst:166
 msgid ""
 "This example translates the verification example ``\"vm1.dat\"``, which can "
 "be done with:"
@@ -365,7 +373,7 @@ msgstr ""
 msgid "APDL"
 msgstr "APDL"
 
-#: ../../pymapdl/doc/source/user_guide/convert.rst:168
+#: ../../pymapdl/doc/source/user_guide/convert.rst:179
 msgid "Here is the MAPDL code:"
 msgstr "以下はMAPDLコードです:"
 
@@ -373,7 +381,7 @@ msgstr "以下はMAPDLコードです:"
 msgid "PyMAPDL"
 msgstr "PyMAPDL"
 
-#: ../../pymapdl/doc/source/user_guide/convert.rst:289
+#: ../../pymapdl/doc/source/user_guide/convert.rst:300
 msgid ""
 "Note that some of the commands with ``/`` are not directly translated to "
 "functions and are instead run as \"classic\" commands like "
@@ -384,23 +392,23 @@ msgid ""
 "<ansys.mapdl.core.Mapdl.non_interactive>` attribute."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/convert.rst:297
+#: ../../pymapdl/doc/source/user_guide/convert.rst:308
 msgid "Here is the obtained result:"
 msgstr "以下はその結果です:"
 
-#: ../../pymapdl/doc/source/user_guide/convert.rst:308
+#: ../../pymapdl/doc/source/user_guide/convert.rst:319
 msgid "You can verify the reaction forces with:"
 msgstr "反力は次のようにして確認できます:"
 
-#: ../../pymapdl/doc/source/user_guide/convert.rst:322
+#: ../../pymapdl/doc/source/user_guide/convert.rst:333
 msgid "Example: VM7 - plastic compression of a pipe assembly"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/convert.rst:324
+#: ../../pymapdl/doc/source/user_guide/convert.rst:335
 msgid "Convert the verification file with:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/convert.rst:336
+#: ../../pymapdl/doc/source/user_guide/convert.rst:347
 msgid "Here is the input file from VM7:"
 msgstr ""
 
