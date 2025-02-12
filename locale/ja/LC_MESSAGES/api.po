@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-18 00:17+0000\n"
+"POT-Creation-Date: 2025-02-12 00:17+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -4379,6 +4379,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:29
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.post.PostProcessing.rst:85
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.solution.Solution.rst:23
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:39
 msgid "Attributes"
 msgstr ""
 
@@ -12246,33 +12247,33 @@ msgstr ""
 msgid "Open a mode file and extract a vector."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/xpl.pydocstring of
 #: ansys.mapdl.core.xpl.ansXpl.__init__:2
 msgid "Initialize the class."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid ":py:obj:`__init__ <ansys.mapdl.core.xpl.ansXpl.__init__>`\\ \\(mapdl\\)"
 msgstr ":py:obj:`__init__ <ansys.mapdl.core.xpl.ansXpl.__init__>`\\ \\(mapdl\\)"
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid ":py:obj:`close <ansys.mapdl.core.xpl.ansXpl.close>`\\ \\(\\)"
 msgstr ":py:obj:`close <ansys.mapdl.core.xpl.ansXpl.close>`\\ \\(\\)"
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid "Close the MAPDL file after opening."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid ":py:obj:`copy <ansys.mapdl.core.xpl.ansXpl.copy>`\\ \\(newfile\\[\\, option\\]\\)"
 msgstr ":py:obj:`copy <ansys.mapdl.core.xpl.ansXpl.copy>`\\ \\(newfile\\[\\, option\\]\\)"
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid "Copy the current opened as a new file."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid ""
 ":py:obj:`extract <ansys.mapdl.core.xpl.ansXpl.extract>`\\ "
 "\\(recordname\\[\\, sets\\, asarray\\]\\)"
@@ -12280,69 +12281,69 @@ msgstr ""
 ":py:obj:`extract <ansys.mapdl.core.xpl.ansXpl.extract>`\\ "
 "\\(recordname\\[\\, sets\\, asarray\\]\\)"
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid "Import a Matrix/Vector from a MAPDL result file."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid ":py:obj:`goto <ansys.mapdl.core.xpl.ansXpl.goto>`\\ \\(path\\)"
 msgstr ":py:obj:`goto <ansys.mapdl.core.xpl.ansXpl.goto>`\\ \\(path\\)"
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid "Go directly to a new location in the file."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid ":py:obj:`help <ansys.mapdl.core.xpl.ansXpl.help>`\\ \\(\\)"
 msgstr ":py:obj:`help <ansys.mapdl.core.xpl.ansXpl.help>`\\ \\(\\)"
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid "XPL help message."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid ":py:obj:`info <ansys.mapdl.core.xpl.ansXpl.info>`\\ \\(recname\\[\\, option\\]\\)"
 msgstr ":py:obj:`info <ansys.mapdl.core.xpl.ansXpl.info>`\\ \\(recname\\[\\, option\\]\\)"
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid "Gives details on a specific record, or all records (using ``\"*\"``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid ":py:obj:`json <ansys.mapdl.core.xpl.ansXpl.json>`\\ \\(\\)"
 msgstr ":py:obj:`json <ansys.mapdl.core.xpl.ansXpl.json>`\\ \\(\\)"
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid "Return a JSON representation of the tree or records."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid ":py:obj:`list <ansys.mapdl.core.xpl.ansXpl.list>`\\ \\(\\[nlev\\]\\)"
 msgstr ":py:obj:`list <ansys.mapdl.core.xpl.ansXpl.list>`\\ \\(\\[nlev\\]\\)"
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid "List the records at the current level."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid ":py:obj:`open <ansys.mapdl.core.xpl.ansXpl.open>`\\ \\(filename\\[\\, option\\]\\)"
 msgstr ""
 ":py:obj:`open <ansys.mapdl.core.xpl.ansXpl.open>`\\ \\(filename\\[\\, "
 "option\\]\\)"
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid "Open an MAPDL file to explore."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid ":py:obj:`print <ansys.mapdl.core.xpl.ansXpl.print>`\\ \\(recname\\)"
 msgstr ":py:obj:`print <ansys.mapdl.core.xpl.ansXpl.print>`\\ \\(recname\\)"
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid "Print values of a given records, or all records (using ``\"*\"``)."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid ""
 ":py:obj:`read <ansys.mapdl.core.xpl.ansXpl.read>`\\ \\(recordname\\[\\, "
 "asarray\\]\\)"
@@ -12350,44 +12351,44 @@ msgstr ""
 ":py:obj:`read <ansys.mapdl.core.xpl.ansXpl.read>`\\ \\(recordname\\[\\, "
 "asarray\\]\\)"
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid ""
 "Read a record and return either an APDL math matrix or an APDL math vector."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid ":py:obj:`save <ansys.mapdl.core.xpl.ansXpl.save>`\\ \\(\\)"
 msgstr ":py:obj:`save <ansys.mapdl.core.xpl.ansXpl.save>`\\ \\(\\)"
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid "Save the current file, ignoring the marked records."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid ":py:obj:`step <ansys.mapdl.core.xpl.ansXpl.step>`\\ \\(where\\)"
 msgstr ":py:obj:`step <ansys.mapdl.core.xpl.ansXpl.step>`\\ \\(where\\)"
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid "Go down in the tree of records"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid ":py:obj:`up <ansys.mapdl.core.xpl.ansXpl.up>`\\ \\(\\[nlev\\]\\)"
 msgstr ":py:obj:`up <ansys.mapdl.core.xpl.ansXpl.up>`\\ \\(\\[nlev\\]\\)"
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid "Go up in the tree."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid ":py:obj:`where <ansys.mapdl.core.xpl.ansXpl.where>`\\ \\(\\)"
 msgstr ":py:obj:`where <ansys.mapdl.core.xpl.ansXpl.where>`\\ \\(\\)"
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid "Returns the current location in the MAPDL file."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid ""
 ":py:obj:`write <ansys.mapdl.core.xpl.ansXpl.write>`\\ \\(recordname\\, "
 "vecname\\)"
@@ -12395,8 +12396,16 @@ msgstr ""
 ":py:obj:`write <ansys.mapdl.core.xpl.ansXpl.write>`\\ \\(recordname\\, "
 "vecname\\)"
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
 msgid "Write a given record back to an MAPDL file."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:42:<autosummary>:1
+msgid ":py:obj:`opened <ansys.mapdl.core.xpl.ansXpl.opened>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:42:<autosummary>:1
+msgid "Check if a file is currently open."
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.tools.path.change_default_ansys_path.rst:2
