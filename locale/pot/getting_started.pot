@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-13 00:17+0000\n"
+"POT-Creation-Date: 2025-04-19 14:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -474,6 +474,10 @@ msgstr ""
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:159
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:161
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:163
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:165
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:167
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:169
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:171
 msgid "|:white_check_mark:|"
 msgstr ""
 
@@ -487,10 +491,6 @@ msgstr ""
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:198
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:200
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:202
-#: ../../pymapdl/doc/source/getting_started/versioning.rst:133
-#: ../../pymapdl/doc/source/getting_started/versioning.rst:135
-#: ../../pymapdl/doc/source/getting_started/versioning.rst:137
-#: ../../pymapdl/doc/source/getting_started/versioning.rst:139
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:141
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:143
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:145
@@ -503,6 +503,10 @@ msgstr ""
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:159
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:161
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:163
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:165
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:167
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:169
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:171
 msgid "|:x:|"
 msgstr ""
 
@@ -563,7 +567,7 @@ msgid "`testing`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:206
-#: ../../pymapdl/doc/source/getting_started/versioning.rst:166
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:174
 msgid "Where:"
 msgstr ""
 
@@ -2266,14 +2270,14 @@ msgstr ""
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:127
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:129
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:131
-msgid "gRPC"
-msgstr ""
-
-#: ../../pymapdl/doc/source/getting_started/versioning.rst:121
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:133
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:135
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:137
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:139
+msgid "gRPC"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:121
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:141
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:143
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:145
@@ -2284,6 +2288,10 @@ msgstr ""
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:155
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:157
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:159
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:161
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:163
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:165
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:167
 msgid "CORBA"
 msgstr ""
 
@@ -2292,7 +2300,7 @@ msgid "Console (Only Linux)"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:123
-msgid "Ansys 2023 R1"
+msgid "Ansys 2025 R1"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:123
@@ -2300,115 +2308,135 @@ msgstr ""
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:127
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:129
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:131
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:133
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:135
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:137
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:139
 msgid "|:exclamation:|"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:125
-msgid "Ansys 2022 R2"
+msgid "Ansys 2024 R2"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:127
-msgid "Ansys 2022 R1"
+msgid "Ansys 2024 R1"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:129
-msgid "Ansys 2021 R2"
+msgid "Ansys 2023 R2"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:131
-msgid "Ansys 2021 R1"
+msgid "Ansys 2023 R1"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:133
-msgid "Ansys 2020 R2"
+msgid "Ansys 2022 R2"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:135
-msgid "Ansys 2020 R1"
+msgid "Ansys 2022 R1"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:137
-msgid "Ansys 2019 R3"
+msgid "Ansys 2021 R2"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:139
-msgid "Ansys 2019 R2"
+msgid "Ansys 2021 R1"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:141
-msgid "Ansys 2019 R1"
+msgid "Ansys 2020 R2"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:143
-msgid "Ansys 19.2"
+msgid "Ansys 2020 R1"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:145
-msgid "Ansys 19.1"
+msgid "Ansys 2019 R3"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:147
-msgid "Ansys 19.0"
+msgid "Ansys 2019 R2"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:149
-msgid "Ansys 18.2"
+msgid "Ansys 2019 R1"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:151
-msgid "Ansys 18.1"
+msgid "Ansys 19.2"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:153
-msgid "Ansys 18.0"
+msgid "Ansys 19.1"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:155
-msgid "Ansys 17.2"
+msgid "Ansys 19.0"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:157
-msgid "Ansys 17.1"
+msgid "Ansys 18.2"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/versioning.rst:159
+msgid "Ansys 18.1"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:161
+msgid "Ansys 18.0"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:163
+msgid "Ansys 17.2"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:165
+msgid "Ansys 17.1"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:167
 msgid "Ansys 17.0"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/versioning.rst:161
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:169
 msgid "Ansys 16.2"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/versioning.rst:161
-#: ../../pymapdl/doc/source/getting_started/versioning.rst:163
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:169
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:171
 msgid "Console"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/versioning.rst:163
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:171
 msgid "Older up to Ansys 13.0"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/versioning.rst:168
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:176
 msgid "|:white_check_mark:| means that the interface is supported and recommended."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/versioning.rst:169
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:177
 msgid "|:exclamation:| means that the interface is supported, but not recommended. Their support might be dropped in the future."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/versioning.rst:170
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:178
 msgid "|:x:| means that the interface is not supported."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/versioning.rst:174
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:182
 msgid "MAPDL-supported operative systems"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/versioning.rst:176
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:184
 msgid "You can obtain the list of MAPDL-supported operative systems on the `Platform Support <ansys_platform_support_>`_ page of the Ansys website."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/versioning.rst:179
+#: ../../pymapdl/doc/source/getting_started/versioning.rst:187
 msgid "Or, you can `download <ansys_current_supported_os_>`_ the list for the current release."
 msgstr ""
 

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-29 00:17+0000\n"
+"POT-Creation-Date: 2025-04-17 23:40+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -2261,7 +2261,7 @@ msgid "**Figure 1: Solenoid geometry description.**"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:63
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:265
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:266
 msgid "Loads and boundary conditions"
 msgstr ""
 
@@ -2283,75 +2283,75 @@ msgid ""
 "Power Graphics style plot is then set up via PyVista."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:91
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:92
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/slashmap_cfx_mapping.rst:74
 msgid "Launch MAPDL service"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:108
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:109
 msgid "Set up the FE model"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:110
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:111
 msgid ""
 "Define parameter values for geometry, loading, and mesh sizing. The model is"
 " built in centimeters and is then scaled to meters."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:113
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:114
 msgid "The element type 'Plane233' is used for 2D magnetostatic analysis."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:128
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:129
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/cyclic_static.rst:78
 msgid "Set material properties"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:130
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:131
 msgid "Units are in the international unit system."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:146
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:147
 msgid "Set parameters"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:148
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:149
 msgid "Set parameters for geometry design."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:179
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:180
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/modal_beam.rst:90
 msgid "Create geometry"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:181
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:182
 msgid "Create the model geometry."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:203
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:231
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:204
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:232
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:656
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/00-example-template.rst:90
 msgid "Mesh"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:205
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:206
 msgid "Set the model mesh."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:246
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:247
 msgid "Scale mesh to meters"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:248
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:249
 msgid "Scale the model to be one meter in size."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:267
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:268
 msgid "Define loads and boundary conditions."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:288
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:289
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/acoustic_analysis.rst:147
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/modal_beam.rst:150
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/03-using_inline_functions_and_Query.rst:109
@@ -2359,41 +2359,41 @@ msgstr ""
 msgid "Solve the model"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:290
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:291
 msgid "Solve the magnetostatic analysis."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:305
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:306
 msgid "Postprocessing"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:307
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:308
 msgid "Open the result file and read in the last set of results"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:321
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:322
 msgid "Print the nodal values"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:335
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:336
 msgid "Create an MAPDL Power Graphics plot of the X-direction magnetic flux"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:337
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:338
 msgid ""
 "The MAPDL colors are reversed via the ``rgb`` command so that the background"
 " is white with black text and element edges."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:362
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:363
 msgid "Obtain grid and scalar data"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:364
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:365
 msgid "First, obtain the set of unique material IDs in the model"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:377
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:378
 msgid ""
 "For each unique material ID, the elements and their nodes are selected. The "
 "``grids`` list is appended with the mesh information of just those elements,"
@@ -2401,52 +2401,52 @@ msgid ""
 "flux."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:399
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:400
 msgid ""
 "If interested print the grids list and perhaps compare to a print of "
 "mapdl.mesh.grid"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:415
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:416
 msgid "Color map and result plot"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:417
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:418
 msgid ""
 "Because some of the MAPDL contour colors do not have an exact match in the "
 "standard Matplotlib color library, an attempt is made to match the color and"
 " use the Hex RGBA number value."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:421
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:422
 msgid ""
 "For each item in the grids list the grid is added to the plot and 9 contour "
 "colors requested using the prior define color map and the same contour "
 "legend."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:425
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:426
 msgid "The plot is then shown and it recreates the native plot quite well."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:460
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:461
 msgid "Exiting MAPDL"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:478
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:479
 msgid ""
 ":download:`Download Jupyter notebook: 2d_magnetostatic_solenoid-"
 "BodyFlux_Averaging.ipynb <2d_magnetostatic_solenoid-"
 "BodyFlux_Averaging.ipynb>`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:482
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:483
 msgid ""
 ":download:`Download Python source code: 2d_magnetostatic_solenoid-"
 "BodyFlux_Averaging.py <2d_magnetostatic_solenoid-BodyFlux_Averaging.py>`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:486
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:487
 msgid ""
 ":download:`Download zipped: 2d_magnetostatic_solenoid-BodyFlux_Averaging.zip"
 " <2d_magnetostatic_solenoid-BodyFlux_Averaging.zip>`"
@@ -2522,31 +2522,31 @@ msgstr ""
 msgid "Line numbers can be identified through inspection using ``lplot``"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:156
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:155
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_plate_thermal.rst:65
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/acoustic_analysis.rst:127
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/exhaust_manifold_thermal_stress.rst:54
 msgid "Boundary Conditions"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:157
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:156
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:172
 msgid ""
 "Fix the left-hand side of the plate in the X direction and set a force of 1 "
 "kN in the positive X direction."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:202
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:201
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:227
 msgid "Solve the Static Problem"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:203
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:202
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:228
 msgid "Solve the static analysis"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:219
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:218
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:244
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/pressure_vessel.rst:145
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/transient_thermal.rst:222
@@ -2554,7 +2554,7 @@ msgstr ""
 msgid "Post-Processing"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:220
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:219
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:245
 msgid ""
 "The static result can be post-processed both within MAPDL and outside of "
@@ -2562,12 +2562,12 @@ msgid ""
 "stress and plot it using the ``pyansys`` result reader."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:252
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:251
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:278
 msgid "Compute the Stress Concentration"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:253
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:252
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:279
 msgid ""
 "The stress concentration :math:`K_t` is the ratio of the maximum stress at "
@@ -2575,39 +2575,39 @@ msgid ""
 "point far from the hole.  Analytically, this can be computed with:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:258
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:257
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:284
 msgid ":math:`\\sigma_{nom} = \\frac{F}{wt}`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:260
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:259
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:286
 msgid "Where"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:262
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:261
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:288
 msgid ":math:`F` is the force"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:263
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:262
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:289
 msgid ":math:`w` is the width of the plate"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:264
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:263
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:290
 msgid ":math:`t` is the thickness of the plate."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:266
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:265
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:292
 msgid ""
 "Experimentally, this is computed by taking the mean of the nodes at the "
 "right-most side of the plate."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:283
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:282
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:310
 msgid ""
 "Since the expected nominal stress across the cross section of the hole will "
@@ -2617,12 +2617,12 @@ msgid ""
 "section width."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:306
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:305
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:333
 msgid "Batch Analysis"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:307
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:306
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:334
 msgid ""
 "The above script can be placed within a function to compute the stress "
@@ -2630,17 +2630,17 @@ msgid ""
 "reset and the geometry is generated from scratch."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:431
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:430
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:465
 msgid "Run the batch and record the stress concentration"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:450
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:449
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:568
 msgid "Analytical Comparison"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:451
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:450
 msgid ""
 "Stress concentrations are often obtained by referencing tablular results or "
 "polynominal fits for a variety of geometries.  According to Peterson's "
@@ -2648,30 +2648,30 @@ msgid ""
 "a hole in a thin plate in uniaxial tension:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:456
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:455
 msgid ""
 ":math:`k_t = 3 - 3.14\\frac{d}{h} + 3.667\\left(\\frac{d}{h}\\right)^2 - "
 "1.527\\left(\\frac{d}{h}\\right)^3`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:458
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:457
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:508
 msgid "Where:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:460
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:459
 msgid ":math:`k_t` is the stress concentration"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:461
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:460
 msgid ":math:`d` is the diameter of the circle"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:462
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:461
 msgid ":math:`h` is the height of the plate"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:464
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:463
 msgid ""
 "As shown in the following plot, ANSYS matches the known tabular result for "
 "this geometry remarkably well using PLANE183 elements. The fit to the "
@@ -2679,7 +2679,7 @@ msgid ""
 "plate."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:488
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:487
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_pressure_vessel.rst:276
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:590
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_plate_thermal.rst:135
@@ -2704,19 +2704,19 @@ msgstr ""
 msgid "Stop mapdl"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:506
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:505
 msgid ""
 ":download:`Download Jupyter notebook: 2d_plate_with_a_hole.ipynb "
 "<2d_plate_with_a_hole.ipynb>`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:510
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:509
 msgid ""
 ":download:`Download Python source code: 2d_plate_with_a_hole.py "
 "<2d_plate_with_a_hole.py>`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:514
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:513
 msgid ""
 ":download:`Download zipped: 2d_plate_with_a_hole.zip "
 "<2d_plate_with_a_hole.zip>`"
@@ -3886,13 +3886,13 @@ msgid ""
 "command to see the mesh."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:692
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:691
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/modal_beam.rst:45
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/00-example-template.rst:91
 msgid "Boundary conditions"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:694
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:693
 msgid ""
 "Loading is considered part of the :meth:`mapdl.solu() "
 "<ansys.mapdl.core.Mapdl.solu>` command or the solution processor in APDL. "
@@ -3900,7 +3900,7 @@ msgid ""
 "<ansys.mapdl.core.Mapdl.prep7>` command."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:699
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:698
 msgid ""
 "You can activate the solution processor by calling the "
 ":class:`mapdl.solution() <ansys.mapdl.core.solution.Solution>` class, by "
@@ -3909,24 +3909,24 @@ msgid ""
 "<ansys.mapdl.core.Mapdl.run>` to call the APDL ``/SOLU`` command."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:717
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:716
 msgid ""
 "Set the analysis type with the :meth:`mapdl.antype() "
 "<ansys.mapdl.core.Mapdl.antype>` command."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:731
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:730
 msgid "Apply displacement constraints"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:732
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:731
 msgid ""
 "This is where you add boundary conditions to the model. First, you want to "
 "fix the model by setting a zero displacement at the first pin hole. You can "
 "apply displacement constraints directly to lines."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:736
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:735
 msgid ""
 "To do this without the graphical interface, you would need to replot the "
 "lines. Or you can use Booleans and generate the lines from the pin hole "
@@ -3934,30 +3934,30 @@ msgid ""
 " can select the lines and fix one end of the bracket."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:742
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:741
 msgid ""
 "Pick the four lines around the left-hand hole using the :meth:`mapdl.lsel() "
 "<ansys.mapdl.core.Mapdl.lsel>` command and the ``pinehole1`` parameters."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:760
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:759
 msgid ""
 "Then for loading, select and apply the boundary condition to the nodes "
 "attached to those lines using the :meth:`mapdl.nsll() "
 "<ansys.mapdl.core.Mapdl.nsll>` command."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:774
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:773
 msgid ""
 "Next use the :meth:`mapdl.d() <ansys.mapdl.core.Mapdl.d>` command to set the"
 " displacement to zero (fixed constraint)."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:793
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:792
 msgid "Apply pressure load"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:795
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:794
 msgid ""
 "Apply the tapered pressure load to the bottom-right pin hole. In this case, "
 "tapered means varying linearly. When a circle is created in Mechanical APDL,"
@@ -3968,13 +3968,13 @@ msgid ""
 "tapering values for each line."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:815
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:814
 msgid ""
 "The Mechanical APDL convention for pressure loading is that a positive load "
 "value represents pressure into the surface (compressive)."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:818
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:817
 msgid ""
 "To pick the line, use the same :meth:`mapdl.lsel() "
 "<ansys.mapdl.core.Mapdl.lsel>` command used in the previous cell block and "
@@ -3982,37 +3982,37 @@ msgid ""
 "<ansys.mapdl.core.Mapdl.nsel>` command."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:823
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:822
 msgid ""
 "Note we have a slightly more complicated picking procedure for the two "
 "quarters of the full circle. A method to select the lines would be to select"
 " the lower half of the second pinhole circle."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:838
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:837
 msgid ""
 "Now repick from that selection the lines that are less than the X center of "
 "that pin hole."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:852
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:851
 msgid ""
 "Once you have the correct line, use the :meth:`mapdl.sf() "
 "<ansys.mapdl.core.Mapdl.sf>` command to load the line with the varying "
 "surface load."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:869
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:868
 msgid "Repeat the procedure for the second pin hole."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:893
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:891
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/torsional_load.rst:146
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/00-example-template.rst:92
 msgid "Solution"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:895
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:893
 msgid ""
 "To solve an Ansys FE analysis, the solution processor must be activated, "
 "using the :class:`mapdl.solution() <ansys.mapdl.core.solution.Solution>` "
@@ -4020,13 +4020,13 @@ msgid ""
 "command. This was done a few steps earlier."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:900
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:898
 msgid ""
 "The model is ready to be solved using the :meth:`mapdl.solve() "
 "<ansys.mapdl.core.Mapdl.solve>` command."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:916
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:914
 msgid ""
 "Mechanical APDL stores the results of this single-load-step problem in the "
 "database and in the results file, :file:`Jobname.RST` (or "
@@ -4036,79 +4036,79 @@ msgid ""
 " the final solution in the database."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:923
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:921
 msgid "Mechanical APDL stores all solutions in the results file."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:926
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:924
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/00-example-template.rst:93
 msgid "Review the results"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:928
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:926
 msgid "This step represents the beginning of the postprocessing phase."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:930
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:928
 msgid ""
 "The results you see may vary slightly from what is shown due to variations "
 "in the mesh."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:933
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:931
 msgid "Enter the postprocessor"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:934
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:932
 msgid ""
 "The Ansys APDL postprocessor is a separate processor called with the "
 ":meth:`mapdl.post1() <ansys.mapdl.core.Mapdl.post1>` command."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:949
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:947
 msgid "Plot the deformed shape"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:950
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:948
 msgid ""
 "Here :class:`mapdl.result <ansys.mapdl.core.Mapdl.result>` is used to "
 "retrieve the results and for plotting."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:975
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:973
 msgid "Plot the von Mises equivalent stress"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:977
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:975
 msgid ""
 "You can also generate stress plots using the "
 ":meth:`mapdl.plot_principal_nodal_stress() "
 "<ansys.mapdl.core.Mapdl.plot_principal_nodal_stress>` command."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:1000
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:998
 msgid "Obtain von Mises stresses."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:1018
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:1016
 msgid "List reaction solution"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:1020
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:1018
 msgid ""
 "To list the FY reactions forces use the APDL :meth:`mapdl.prrsol() "
 "<ansys.mapdl.core.Mapdl.prrsol>` command which print the constrained node "
 "reaction solution."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:1024
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:1022
 msgid ""
 "You can use the :meth:`to_dataframe "
 "<ansys.mapdl.core.commands.CommandListingOutput>` command to convert the "
 "output to a dataframe for more static print:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:1039
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:1037
 msgid ""
 "The values shown are representative and may vary from the values that you "
 "obtain. Many other options are available for reviewing results in the "
@@ -4116,27 +4116,27 @@ msgid ""
 "tutorials, such. as the `Ansys tutorial guide <ansys_tutorials_guide_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:1047
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:1045
 msgid "Exit Mechanical APDL"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:1048
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:1046
 msgid "Exit Mechanical APDL once you have finished."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:1073
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:1071
 msgid ""
 ":download:`Download Jupyter notebook: bracket_static.ipynb "
 "<bracket_static.ipynb>`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:1077
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:1075
 msgid ""
 ":download:`Download Python source code: bracket_static.py "
 "<bracket_static.py>`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:1081
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:1079
 msgid ":download:`Download zipped: bracket_static.zip <bracket_static.zip>`"
 msgstr ""
 
@@ -4468,7 +4468,7 @@ msgid "Exit MAPDL"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/cyclic_static.rst:149
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:667
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:668
 msgid "Finally, exit MAPDL."
 msgstr ""
 
@@ -4995,7 +4995,7 @@ msgstr ""
 msgid "Define variables and launch MAPDL."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:108
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:109
 msgid ""
 "Often used MAPDL command line options are exposed as Pythonic parameter "
 "names in :func:`ansys.mapdl.core.launcher.launch_mapdl`. For example, "
@@ -5003,122 +5003,123 @@ msgid ""
 "specify the MAPDL run location. For example:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:117
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:118
 msgid ""
 "Otherwise, the MAPDL working directory is stored in ``mapdl.directory``. In "
 "this directory, MAPDL will create some of the images we will show later."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:120
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:121
 msgid ""
 "Options without a Pythonic version can be accessed by the "
 "``additional_switches`` parameter. Here ``-smp`` is used only to keep the "
 "number of solver files to a minimum."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:135
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:136
 msgid "Step 2: Geometry, mesh, and MAPDL parameters"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:137
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:138
 msgid "Import geometry and inspect for MAPDL parameters."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:138
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:139
 msgid "Define material and mesh, and then create boundary conditions."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:152
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:153
 msgid "Import the geometry file and list any MAPDL parameters."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:166
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:167
 msgid "Use pressure area per length in the load definition."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:179
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:180
 msgid "Change the units and title."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:191
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:192
 msgid "Set material properties."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:204
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:205
 msgid ""
 "The MAPDL element type ``SOLID285`` is used for demonstration purposes. "
 "Consider using an appropriate element type or mesh density for your actual "
 "application."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:227
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:228
 msgid "Step 3: Coordinate system and load"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:229
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:230
 msgid ""
 "Create a local Coordinate System (CS) for the applied pressure as a function"
 " of local X."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:232
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:233
 msgid "Local CS ID is 11"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:253
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:254
 msgid ""
 "VTK plots do not show MAPDL plot symbols. However, to use MAPDL plotting "
-"capabilities, you can set the keyword option ``vtk`` to ``False``."
+"capabilities, you can set the keyword option ``backend`` to "
+"``GraphicsBackend.MAPDL``."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:268
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:269
 msgid "Step 4: Pressure load"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:270
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:271
 msgid ""
 "Create a pressure load, load it into MAPDL as a table array, verify the "
 "load, and solve."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:291
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:292
 msgid ""
 "``length_x`` and ``press`` are vectors. To combine them into the correct "
 "form needed to define the MAPDL table array, you can use `numpy.stack "
 "<https://numpy.org/doc/stable/reference/generated/numpy.stack.html>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:311
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:312
 msgid "You can open the MAPDL GUI to check the model."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:321
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:322
 msgid "Set up the solution."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:337
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:338
 msgid "Solve the model."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:352
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:353
 msgid "Step 5: Plotting"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:370
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:371
 msgid "Plotting - Part of Model"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:390
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:391
 msgid "Plotting - Legend Options"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:418
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:419
 msgid ""
 "Let's try out some scalar bar options from the `PyVista documentation "
 "<pyvista_docs_>`_. For example, let's set black text on a beige background."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:422
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:423
 msgid ""
 "The scalar bar keywords defined as a Python dictionary are an alternate "
 "method to using {key:value}'s. You can use the click-and drag method to "
@@ -5126,43 +5127,43 @@ msgid ""
 " while moving the mouse."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:463
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:464
 msgid "Step 6: Postprocessing"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:466
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:467
 msgid "Results List"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:468
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:469
 msgid "Get all principal nodal stresses."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:479
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:480
 msgid "Get the principal nodal stresses of the node subset."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:499
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:500
 msgid "Results as lists, arrays, and DataFrames"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:500
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:501
 msgid "Using :meth:`mapdl.prnsol` to check"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:511
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:512
 msgid "Use this command to obtain the data as a list."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:523
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:524
 msgid "Use this command to obtain the data as an array:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:535
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:536
 msgid "or as a DataFrame:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:547
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:548
 msgid ""
 "Use this command to obtain the data as a DataFrame, which is a. `Pandas data"
 " type "
@@ -5171,45 +5172,45 @@ msgid ""
 "example, you can write principal stresses to a file."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:565
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:566
 msgid "Step 7: Advanced plotting"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:579
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:580
 msgid "Load this result into the VTK grid."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:598
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:599
 msgid "Generate a single horizontal slice along the XY plane."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:601
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:602
 msgid ""
 "PyVista's ``eye_dome_lighting`` method is used here to enhance the plots of "
 "the slices. For more information, see`Eye Dome Lighting "
 "<pyvista_eye_dome_lighting_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:624
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:625
 msgid "Generate a plot with three slice planes."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:645
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:646
 msgid "Generate a grid with multiple slices in the same plane."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:684
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:685
 msgid ""
 ":download:`Download Jupyter notebook: lathe_cutter.ipynb "
 "<lathe_cutter.ipynb>`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:688
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:689
 msgid ""
 ":download:`Download Python source code: lathe_cutter.py <lathe_cutter.py>`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:692
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:693
 msgid ":download:`Download zipped: lathe_cutter.zip <lathe_cutter.zip>`"
 msgstr ""
 

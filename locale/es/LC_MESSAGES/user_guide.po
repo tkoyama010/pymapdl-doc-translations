@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-28 00:17+0000\n"
+"POT-Creation-Date: 2025-04-17 23:40+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -3743,10 +3743,11 @@ msgstr ""
 #: ../../pymapdl/doc/source/user_guide/plotting.rst:93
 msgid ""
 "You can also plot using MAPDL's native plotting tools. To use the native "
-"tools, pass ``vtk=False`` when running plotting commands such as the "
-":func:`Mapdl.aplot <ansys.mapdl.core.Mapdl.aplot>` and :func:`Mapdl.eplot "
-"<ansys.mapdl.core.Mapdl.eplot>` methods. Plots are generated within MAPDL "
-"and then shown using `Matplotlib <matplotlib_main_>`_."
+"tools, pass ``graphics_backend=GraphicsBackend.MAPDL`` when running plotting"
+" commands such as the :func:`Mapdl.aplot <ansys.mapdl.core.Mapdl.aplot>` and"
+" :func:`Mapdl.eplot <ansys.mapdl.core.Mapdl.eplot>` methods. Plots are "
+"generated within MAPDL and then shown using `Matplotlib "
+"<matplotlib_main_>`_."
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/plotting.rst:101
@@ -3765,51 +3766,51 @@ msgstr ""
 msgid "Each of these creates a Matplotlib figure and pause execution."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/plotting.rst:143
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:144
 msgid "Area Plot from MAPDL displayed using `Matplotlib <matplotlib_main_>`_"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/plotting.rst:147
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:148
 msgid ""
 "For more information on plotting functions, see :ref:`ref_plotting_api`."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/plotting.rst:151
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:152
 msgid "Plotting keyword options"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/plotting.rst:152
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:153
 msgid ""
-"When ``vtk=True``, which is the default, all MAPDL plotting methods allow "
-"you to enter in additional keyword arguments to better control the plot. For"
-" example, you can automatically generate a screenshot of an area plot or "
-"element plot with this code:"
+"When ``graphics_backend=GraphicsBackend.PYVISTA``, which is the default, all"
+" MAPDL plotting methods allow you to enter in additional keyword arguments "
+"to better control the plot. For example, you can automatically generate a "
+"screenshot of an area plot or element plot with this code:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/plotting.rst:162
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:163
 msgid ""
 "You can also control the camera position with ``cpos`` when you want to view"
 " from a standard viewing direction. This code shows how to view the XY plane"
 " with ``cpos='xy'``."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/plotting.rst:170
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:171
 msgid ""
 "For all general plotting options, see the "
 ":class:`ansys.mapdl.core.plotting.visualizer.MapdlPlotter` class."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/plotting.rst:175
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:176
 msgid "Plotting boundary conditions"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/plotting.rst:178
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:179
 msgid ""
 "This feature is beta so its functionalities and stability are limited. See "
 "the documentation regarding the allowed boundary conditions and targets."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/plotting.rst:182
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:183
 msgid ""
 "It is possible to plot the boundary conditions applied on the model by "
 "specifying ``plot_bc=True`` in plotting functions. For example, this code "
@@ -3817,19 +3818,19 @@ msgid ""
 "<ansys.mapdl.core.Mapdl.nplot>` method:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/plotting.rst:197
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:198
 msgid ""
 "**Mechanical boundary conditions** Forces (arrows) and displacements (cones)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/plotting.rst:201
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:202
 msgid ""
 "Because boundary conditions can only target nodes, you can only use "
 "``plot_bc`` as an argument in the :func:`Mapdl.nplot() "
 "<ansys.mapdl.core.Mapdl.nplot>` method."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/plotting.rst:210
+#: ../../pymapdl/doc/source/user_guide/plotting.rst:211
 msgid "**Boundary conditions demonstration**"
 msgstr ""
 
