@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-17 23:40+0000\n"
+"POT-Creation-Date: 2025-04-21 18:05+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -5659,6 +5659,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/sg_execution_times.rst:42
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/sg_execution_times.rst:45
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/sg_execution_times.rst:48
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/sg_execution_times.rst:51
 #: ../../pymapdl/doc/source/examples/gallery_examples/03-general-fea/sg_execution_times.rst:36
 msgid "00:00.000"
 msgstr ""
@@ -5697,6 +5698,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/sg_execution_times.rst:43
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/sg_execution_times.rst:46
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/sg_execution_times.rst:49
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/sg_execution_times.rst:52
 #: ../../pymapdl/doc/source/examples/gallery_examples/03-general-fea/sg_execution_times.rst:37
 msgid "0.0"
 msgstr ""
@@ -8074,6 +8076,139 @@ msgid ""
 "<05-explore_mapdl_files.zip>`"
 msgstr ""
 
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/06-convert-apdl-to-pymapdl.rst:13
+msgid ""
+":ref:`Go to the end <sphx_glr_download_examples_gallery_examples_02-tips-n-"
+"tricks_06-convert-apdl-to-pymapdl.py>` to download the full example code."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/06-convert-apdl-to-pymapdl.rst:25
+msgid "Converting APDL scripts to PyMAPDL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/06-convert-apdl-to-pymapdl.rst:27
+msgid ""
+"PyMAPDL offers two functions for converting APDL scripts to PyMAPDL scripts,"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/06-convert-apdl-to-pymapdl.rst:29
+msgid "``convert_apdl_block()``, which works with strings"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/06-convert-apdl-to-pymapdl.rst:30
+msgid "``convert_script()``, which works with files"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/06-convert-apdl-to-pymapdl.rst:32
+msgid ""
+"This example converts a modified version of the APDL verification example "
+"45."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/06-convert-apdl-to-pymapdl.rst:96
+msgid "Convert a string inline"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/06-convert-apdl-to-pymapdl.rst:97
+msgid ""
+"Calling the ``convert_apdl_block()`` function converts the supplied string "
+"to a list of translated lines of code."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/06-convert-apdl-to-pymapdl.rst:113
+msgid "Quality of Life kwargs"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/06-convert-apdl-to-pymapdl.rst:114
+msgid ""
+"This function also includes several kwargs that cover common use cases when "
+"converting from APDL to PyMAPDL, such as adding the necessary Python imports"
+" when ``add_imports`` is set to ``True`` or adding the ``mapdl.exit()`` "
+"command to the end when ``auto_exit`` is set to ``True``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/06-convert-apdl-to-pymapdl.rst:119
+msgid "Some of the most useful kwargs follow."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/06-convert-apdl-to-pymapdl.rst:121
+msgid ""
+"``only_commands``: Convert the commands without adding any boilerplate such "
+"as ``mapdl=launch...`` or ``mapdl.exit``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/06-convert-apdl-to-pymapdl.rst:122
+msgid "``print_com``: Change ``/COM`` commands to ``print()`` commands."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/06-convert-apdl-to-pymapdl.rst:123
+msgid ""
+"``clear_at_start``: Call the ``mapdl.clear()`` method after the "
+"`launch_mapdl`` function."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/06-convert-apdl-to-pymapdl.rst:124
+msgid "``add_imports`` Add Python import lines at the start of the script."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/06-convert-apdl-to-pymapdl.rst:125
+msgid ""
+"``auto_exit``:  If ``True``, append the ``mapdl.exit()`` method to the end "
+"of the file."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/06-convert-apdl-to-pymapdl.rst:126
+msgid ""
+"``cleanup_output``: If ``True``, format output using ``autopep8`` (if you "
+"have this Python package installed)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/06-convert-apdl-to-pymapdl.rst:143
+msgid "Convert from a file"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/06-convert-apdl-to-pymapdl.rst:144
+msgid ""
+"The ``convert_script`` function provides all the same functionality but "
+"converts from a file to a list of translated strings. Additionally, it "
+"provides an option for saving the result to a file automatically, which the "
+"``convert_apdl_block()`` function does not provide."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/06-convert-apdl-to-pymapdl.rst:168
+msgid "Command-line interface"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/06-convert-apdl-to-pymapdl.rst:169
+msgid ""
+"You can access the ``convert_script`` function in the terminal using a CLI "
+"(command-line interface). Assuming a virtual environment is activated, you "
+"can use the following command to convert a file named ``mapdl.in`` to a "
+"``mapdl.out`` file."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/06-convert-apdl-to-pymapdl.rst:178
+msgid "You can even build the input on the fly using the ``echo`` command:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/06-convert-apdl-to-pymapdl.rst:196
+msgid ""
+":download:`Download Jupyter notebook: 06-convert-apdl-to-pymapdl.ipynb "
+"<06-convert-apdl-to-pymapdl.ipynb>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/06-convert-apdl-to-pymapdl.rst:200
+msgid ""
+":download:`Download Python source code: 06-convert-apdl-to-pymapdl.py "
+"<06-convert-apdl-to-pymapdl.py>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/06-convert-apdl-to-pymapdl.rst:204
+msgid ""
+":download:`Download zipped: 06-convert-apdl-to-pymapdl.zip <06-convert-apdl-"
+"to-pymapdl.zip>`"
+msgstr ""
+
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/index.rst:6
 #: ../../pymapdl/doc/source/examples/index.rst:52
 msgid "Miscellaneous examples"
@@ -8115,9 +8250,15 @@ msgid ""
 "tricks_05-explore_mapdl_files.py`"
 msgstr ""
 
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/index.rst:111
+msgid ""
+":ref:`sphx_glr_examples_gallery_examples_02-tips-n-tricks_06-convert-apdl-"
+"to-pymapdl.py`"
+msgstr ""
+
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/sg_execution_times.rst:9
 msgid ""
-"**00:00.000** total execution time for 5 files **from "
+"**00:00.000** total execution time for 6 files **from "
 "examples/gallery_examples/02-tips-n-tricks**:"
 msgstr ""
 
@@ -8150,6 +8291,12 @@ msgstr ""
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_02-tips-n-"
 "tricks_05-explore_mapdl_files.py` (``05-explore_mapdl_files.py``)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/sg_execution_times.rst:50
+msgid ""
+":ref:`sphx_glr_examples_gallery_examples_02-tips-n-tricks_06-convert-apdl-"
+"to-pymapdl.py` (``06-convert-apdl-to-pymapdl.py``)"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/03-general-fea/00-how_finite_element_works.rst:13

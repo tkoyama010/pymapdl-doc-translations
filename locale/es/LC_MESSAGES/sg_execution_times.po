@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-01 00:20+0000\n"
+"POT-Creation-Date: 2025-04-21 18:05+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/sg_execution_times.rst:9
 msgid ""
-"**00:00.000** total execution time for 35 files **from all galleries**:"
+"**00:00.000** total execution time for 36 files **from all galleries**:"
 msgstr ""
 
 #: ../../pymapdl/doc/source/sg_execution_times.rst:32
@@ -81,6 +81,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/sg_execution_times.rst:132
 #: ../../pymapdl/doc/source/sg_execution_times.rst:135
 #: ../../pymapdl/doc/source/sg_execution_times.rst:138
+#: ../../pymapdl/doc/source/sg_execution_times.rst:141
 msgid "00:00.000"
 msgstr ""
 
@@ -119,6 +120,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/sg_execution_times.rst:133
 #: ../../pymapdl/doc/source/sg_execution_times.rst:136
 #: ../../pymapdl/doc/source/sg_execution_times.rst:139
+#: ../../pymapdl/doc/source/sg_execution_times.rst:142
 msgid "0.0"
 msgstr ""
 
@@ -339,6 +341,13 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/doc/source/sg_execution_times.rst:137
+msgid ""
+":ref:`sphx_glr_examples_gallery_examples_02-tips-n-tricks_06-convert-apdl-"
+"to-pymapdl.py` (``../../examples/02-tips-n-tricks/06-convert-apdl-to-"
+"pymapdl.py``)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/sg_execution_times.rst:140
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_03-general-"
 "fea_00-how_finite_element_works.py` (``../../examples/03-general-"
