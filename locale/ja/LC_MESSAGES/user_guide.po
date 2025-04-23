@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-17 23:40+0000\n"
+"POT-Creation-Date: 2025-04-23 00:19+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -3577,13 +3577,36 @@ msgid ""
 "a parameter, you can then access the parameter with code:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/parameters.rst:21
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:22
+msgid ""
+"Alternatively, you could use the :meth:`Mapdl.parameters.get_value() "
+"<ansys.mapdl.core.Mapdl.parameters.get_value>` method. This method is a "
+"wrapper around the MAPDL :meth:`Mapdl.get() <ansys.mapdl.core.Mapdl.get>` "
+"method and allows you to retrieve the value of a parameter without having to"
+" store the parameter in an intermediate MAPDL variable. For example, if you "
+"want to retrieve the value of a parameter directly, you can use:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:37
+msgid ""
+"You can also follow a similar approach to get array parameters from the "
+"MAPDL `*VGET` command. For example, if you want to store the value of the "
+"displacement of all nodes in the Y direction, you can use the following "
+"code:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:48
+msgid ""
+"Or, if you want to retrieve the value of the array directly, you can use:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:55
 msgid ""
 "You can also set both scalar and array parameters from Python objects using "
 ":attr:`Mapdl.parameters <ansys.mapdl.core.Mapdl.parameters>` with:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/parameters.rst:36
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:70
 msgid ""
 "You can also access some built-in parameters normally accessed through the "
 ":func:`Mapdl.get() <ansys.mapdl.core.Mapdl.get>` method. For example, "
@@ -3591,41 +3614,41 @@ msgid ""
 " can access it with this code:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/parameters.rst:47
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:81
 msgid ""
 "For a full list of the methods and attributes available to the "
 "``Parameters`` class, see :ref:`ref_parameters_api`."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/parameters.rst:50
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:84
 msgid ""
 "For additional information on PyMAPDL array limitations, see :ref:`Issues "
 "when importing and exporting numpy arrays in MAPDL <ref_issues_np_mapdl>`."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/parameters.rst:56
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:90
 msgid "Specially named parameters"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/parameters.rst:59
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:93
 msgid "Parameters with leading underscores"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/parameters.rst:61
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:95
 msgid ""
 "Parameters starting with an underscore (``'_'``) are reserved parameters for"
 " MAPDL macros and routines. Their use is discouraged, and in PyMAPDL you "
 "cannot set them directly."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/parameters.rst:65
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:99
 msgid ""
 "If you need to set one of these parameters, you can use the "
 ":attr:`Mapdl._run <ansys.mapdl.core.Mapdl._run>` attribute to avoid PyMAPDL "
 "parameter name checks:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/parameters.rst:75
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:109
 msgid ""
 "By default, this type of parameter cannot be seen when issuing the "
 ":attr:`Mapdl.parameters <ansys.mapdl.core.Mapdl.parameters>` attribute. "
@@ -3635,11 +3658,11 @@ msgid ""
 "``True``:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/parameters.rst:95
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:129
 msgid "Parameters with trailing underscores"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/parameters.rst:97
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:131
 msgid ""
 "Parameters ending with an underscore are recommended for user routines and "
 "macros. You can set this type of parameter in PyMAPDL, but by default, they "
@@ -3650,11 +3673,11 @@ msgid ""
 "attribute is set to ``True``:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/parameters.rst:120
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:154
 msgid "Parameters with leading and trailing underscores"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/parameters.rst:122
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:156
 msgid ""
 "Parameters with both leading and trailing underscores are a special type. "
 "These parameters **CANNOT** be seen in the :attr:`Mapdl.parameters "
@@ -3662,7 +3685,7 @@ msgid ""
 "Their use is not recommended."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/parameters.rst:126
+#: ../../pymapdl/doc/source/user_guide/parameters.rst:160
 msgid ""
 "You can still retrieve these special parameters using any of the normal "
 "methods for retrieving parameters. However, you must know the parameter "

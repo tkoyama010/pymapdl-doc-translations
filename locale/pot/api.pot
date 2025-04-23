@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-19 14:31+0000\n"
+"POT-Creation-Date: 2025-04-23 00:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -141,8 +141,8 @@ msgstr ""
 msgid "**append** : :ref:`bool <python:bltin-boolean-values>`"
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:197
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:202
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:249
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:254
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.py:docstring of ansys.mapdl.core.mapdl_core._MapdlCore.add_file_handler:10
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.py:docstring of ansys.mapdl.core.mapdl_core._MapdlCore.run:20
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.py:docstring of ansys.mapdl.core.mapdl_core._MapdlCore.run:25
@@ -205,7 +205,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.get_default_ansys:27
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.get_default_ansys_path:24
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.get_default_ansys_version:24
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:342
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:394
 #: ../../pymapdl/src/ansys/mapdl/core/logging.py:docstring of ansys.mapdl.core.logging.Logger:37
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.py:docstring of ansys.mapdl.core.mapdl_core._MapdlCore.add_file_handler:31
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.py:docstring of ansys.mapdl.core.mapdl_core._MapdlCore.input_strings:32
@@ -309,7 +309,7 @@ msgstr ""
 msgid "**na1** : :class:`python:int`, :obj:`optional`"
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:25
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:131
 #: ../../pymapdl/src/ansys/mapdl/core/logging.py:docstring of ansys.mapdl.core.logging.Logger:8
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.py:docstring of ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.aplot:14
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.py:docstring of ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.aplot:17
@@ -355,9 +355,9 @@ msgstr ""
 msgid "**scale** : :class:`python:float`, :obj:`optional`"
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:30
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:69
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:158
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:161
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:218
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:223
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.py:docstring of ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.aplot:26
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.py:docstring of ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.eplot:63
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.py:docstring of ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.eplot:68
@@ -420,13 +420,13 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/convert.py:docstring of ansys.mapdl.core.convert.convert_apdl_block:73
 #: ../../pymapdl/src/ansys/mapdl/core/convert.py:docstring of ansys.mapdl.core.convert.convert_apdl_block:77
 #: ../../pymapdl/src/ansys/mapdl/core/convert.py:docstring of ansys.mapdl.core.convert.convert_script:-1
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:48
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:81
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:85
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:107
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:119
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:128
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:141
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:45
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:50
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:78
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:137
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:157
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:168
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:203
 #: ../../pymapdl/src/ansys/mapdl/core/logging.py:docstring of ansys.mapdl.core.logging.Logger:12
 #: ../../pymapdl/src/ansys/mapdl/core/logging.py:docstring of ansys.mapdl.core.logging.Logger:15
 #: ../../pymapdl/src/ansys/mapdl/core/logging.py:docstring of ansys.mapdl.core.logging.Logger.__init__:9
@@ -564,7 +564,7 @@ msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/component.py:docstring of ansys.mapdl.core.component.ComponentManager:17
 #: ../../pymapdl/src/ansys/mapdl/core/krylov.py:docstring of ansys.mapdl.core.krylov.KrylovSolver:17
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:228
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:280
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.py:docstring of ansys.mapdl.core.mapdl_core._MapdlCore.run:47
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.py:docstring of ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.file:31
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.py:docstring of ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.kplot:42
@@ -841,15 +841,15 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/convert.py:docstring of ansys.mapdl.core.convert.convert_apdl_block:9
 #: ../../pymapdl/src/ansys/mapdl/core/convert.py:docstring of ansys.mapdl.core.convert.convert_apdl_block:16
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:6
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:18
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:15
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:22
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:36
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:53
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:59
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:94
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:112
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:132
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:185
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:33
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:55
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:83
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:93
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:103
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:110
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:118
 #: ../../pymapdl/src/ansys/mapdl/core/logging.py:docstring of ansys.mapdl.core.logging.Logger:19
 #: ../../pymapdl/src/ansys/mapdl/core/logging.py:docstring of ansys.mapdl.core.logging.Logger.__init__:16
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.py:docstring of ansys.mapdl.core.mapdl_core._MapdlCore.open_apdl_log:9
@@ -1262,7 +1262,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/inline_functions/selection_queries.py:docstring of ansys.mapdl.core.inline_functions.selection_queries._SelectionStatusQueries.lsel:11
 #: ../../pymapdl/src/ansys/mapdl/core/inline_functions/selection_queries.py:docstring of ansys.mapdl.core.inline_functions.selection_queries._SelectionStatusQueries.nsel:11
 #: ../../pymapdl/src/ansys/mapdl/core/inline_functions/selection_queries.py:docstring of ansys.mapdl.core.inline_functions.selection_queries._SelectionStatusQueries.vsel:14
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:73
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:144
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.py:docstring of ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_esol:7
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.py:docstring of ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_esol:10
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.py:docstring of ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_nsol:6
@@ -2266,7 +2266,7 @@ msgstr ""
 msgid "**filename** : :class:`python:str`"
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:37
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:119
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.py:docstring of ansys.mapdl.core.mapdl_core._MapdlCore.open_apdl_log:10
 msgid "**mode** : :class:`python:str`, :obj:`optional`"
 msgstr ""
@@ -2415,8 +2415,8 @@ msgstr ""
 msgid "**kwargs** : :class:`python:dict`, :obj:`optional`"
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:145
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:151
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:25
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:177
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.py:docstring of ansys.mapdl.core.mapdl_core._MapdlCore.run:16
 #: ../../pymapdl/src/ansys/mapdl/core/pool.py:docstring of ansys.mapdl.core.pool.MapdlPool:82
 msgid "python:dict, optional"
@@ -3002,7 +3002,7 @@ msgid "APDL strings or list of strings to convert."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/convert.py:docstring of ansys.mapdl.core.convert.convert_apdl_block:10
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:54
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:104
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.py:docstring of ansys.mapdl.core.mapdl_grpc.MapdlGrpc:17
 msgid "**loglevel** : :class:`python:str`, :obj:`optional`"
 msgstr ""
@@ -3094,7 +3094,7 @@ msgid "If ``True``, the default header is written in the first line of the outpu
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/convert.py:docstring of ansys.mapdl.core.convert.convert_apdl_block:60
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:142
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:158
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.py:docstring of ansys.mapdl.core.mapdl_grpc.MapdlGrpc:40
 msgid "**print_com** : :ref:`bool <python:bltin-boolean-values>`, :obj:`optional`"
 msgstr ""
@@ -4727,20 +4727,16 @@ msgid "**exec_file** : :class:`python:str`, :obj:`optional`"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:8
-msgid "The location of the MAPDL executable.  Will use the cached location when left at the default :class:`None` and no environment variable is set."
+msgid "The location of the MAPDL executable. By default (:class:`None`), it Will use the cached location unless the environment variable :envvar:`PYMAPDL_MAPDL_EXEC` is set."
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:12
-msgid "The executable path can be also set through the environment variable :envvar:`PYMAPDL_MAPDL_EXEC`. For example:"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:19
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:16
 #: ../../pymapdl/src/ansys/mapdl/core/pool.py:docstring of ansys.mapdl.core.pool.MapdlPool:18
 msgid "**run_location** : :class:`python:str`, :obj:`optional`"
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:20
-msgid "MAPDL working directory.  Defaults to a temporary working directory.  If directory doesn't exist, one is created."
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:17
+msgid "MAPDL working directory. If directory doesn't exist, one is created. Defaults to a temporary working directory created in the directory obtained by :func:`tempfile.gettempdir` and starting with name ``'ansys_'`` and a random string.  The temporary directory is removed when MAPDL exits if ``cleanup_on_exit`` is :class:`True`."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:23
@@ -4752,438 +4748,466 @@ msgid "MAPDL jobname.  Defaults to ``'file'``."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:26
-msgid "**nproc** : :class:`python:int`, :obj:`optional`"
+msgid "**add_env_vars** : :class:`python:dict`, :obj:`optional`"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:27
-msgid "Number of processors.  Defaults to ``2``. If running on an HPC cluster, this value is adjusted to the number of CPUs allocated to the job, unless the argument ``running_on_hpc`` is set to ``\"false\"``."
+msgid "The provided dictionary will be used to extend the MAPDL process environment variables. If you want to control all of the environment variables, use the argument ``replace_env_vars`` to inject only some specific environment variables. Defaults to :class:`None`, which means no additional environment variables are set."
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:31
-msgid "**ram** : :class:`python:float`, :obj:`optional`"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:32
-msgid "Total size in megabytes of the workspace (memory) used for the initial allocation. The default is :class:`None`, in which case 2 GB (2048 MB) is used. To force a fixed size throughout the run, specify a negative number."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:38
-msgid "Mode to launch MAPDL.  Must be one of the following:"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:40
-msgid "``'grpc'``"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:41
-msgid "``'console'``"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:43
-msgid "The ``'grpc'`` mode is available on ANSYS 2021R1 or newer and provides the best performance and stability. The ``'console'`` mode is for legacy use only Linux only prior to 2020R2. This console mode is pending depreciation. Visit :ref:`versions_and_interfaces` for more information."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:49
-msgid "**override** : :ref:`bool <python:bltin-boolean-values>`, :obj:`optional`"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:50
-msgid "Attempts to delete the lock file at the ``run_location``. Useful when a prior MAPDL session has exited prematurely and the lock file has not been deleted."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:55
-msgid "Sets which messages are printed to the console.  ``'INFO'`` prints out all ANSYS messages, ``'WARNING'`` prints only messages containing ANSYS warnings, and ``'ERROR'`` logs only error messages."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:60
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:34
 msgid "**additional_switches** : :class:`python:str`, :obj:`optional`"
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:61
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:35
 msgid "Additional switches for MAPDL, for example ``'aa_r'``, the academic research license, would be added with:"
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:64
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:38
 msgid "``additional_switches=\"-aa_r\"``"
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:66
-msgid "Avoid adding switches like ``-i``, ``-o`` or ``-b`` as these are already included to start up the MAPDL server.  See the notes section for additional details."
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:40
+msgid "Avoid adding switches like ``-i``, ``-o`` or ``-b`` as these are already included to start up the MAPDL server.  See the notes section for additional details. Defaults to :class:`None`, which means no additional switches are added."
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:70
-msgid "**start_timeout** : :class:`python:float`, :obj:`optional`"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:71
-msgid "Maximum allowable time to connect to the MAPDL server. By default it is 45 seconds, however, it is increased to 90 seconds if running on HPC."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:74
-msgid "**port** : :class:`python:int`"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:75
-msgid "Port to launch MAPDL gRPC on.  Final port will be the first port available after (or including) this port.  Defaults to ``50052``. You can also provide this value through the environment variable :envvar:`PYMAPDL_PORT`. For instance ``PYMAPDL_PORT=50053``. However the argument (if specified) has precedence over the environment variable. If this environment variable is empty, it is as it is not set."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:82
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:46
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.py:docstring of ansys.mapdl.core.mapdl_grpc.MapdlGrpc:23
 msgid "**cleanup_on_exit** : :ref:`bool <python:bltin-boolean-values>`, :obj:`optional`"
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:83
-msgid "Exit MAPDL when python exits or the mapdl Python instance is garbage collected."
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:47
+msgid "Exit MAPDL when python exits or the mapdl Python instance is garbage collected. Defaults to :class:`True`."
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:86
-#: ../../pymapdl/src/ansys/mapdl/core/pool.py:docstring of ansys.mapdl.core.pool.MapdlPool:74
-msgid "**start_instance** : :ref:`bool <python:bltin-boolean-values>`, :obj:`optional`"
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:51
+msgid "**clear_on_connect** : :ref:`bool <python:bltin-boolean-values>`, :obj:`optional`"
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:87
-msgid "When :class:`False`, connect to an existing MAPDL instance at ``ip`` and ``port``, which default to ip ``'127.0.0.1'`` at port ``50052``. Otherwise, launch a local instance of MAPDL. You can also provide this value through the environment variable :envvar:`PYMAPDL_START_INSTANCE`. However the argument (if specified) has precedence over the environment variable. If this environment variable is empty, it is as it is not set."
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:52
+msgid "Defaults to :class:`True`, giving you a fresh environment when connecting to MAPDL. When if ``start_instance`` is specified it defaults to :class:`False`, otherwise it defaults to :class:`True`."
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:95
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:56
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.py:docstring of ansys.mapdl.core.mapdl_grpc.MapdlGrpc:8
 msgid "**ip** : :class:`python:str`, :obj:`optional`"
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:96
-msgid "Specify the IP address of the MAPDL instance to connect to. You can also provide a hostname as an alternative to an IP address. Defaults to ``'127.0.0.1'``. Used only when ``start_instance`` is :class:`False`. If this argument is provided, and ``start_instance`` (or its correspondent environment variable :envvar:`PYMAPDL_START_INSTANCE`) is :class:`True` then, an exception is raised. You can also provide this value through the environment variable :envvar:`PYMAPDL_IP`. For instance ``PYMAPDL_IP=123.45.67.89``. However the argument (if specified) has precedence over the environment variable. If this environment variable is empty, it is as it is not set."
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:57
+msgid "Specify the IP address of the MAPDL instance to connect to. You can also provide a hostname as an alternative to an IP address. Used only when ``start_instance`` is :class:`False`. If this argument is provided, and ``start_instance`` (or its correspondent environment variable :envvar:`PYMAPDL_START_INSTANCE`) is :class:`True` then, an exception is raised. You can also provide this value through the environment variable :envvar:`PYMAPDL_IP`. For instance ``PYMAPDL_IP=123.45.67.89``. However the argument (if specified) has precedence over the environment variable. If this environment variable is empty, it is as it is not set. Defaults to ``'127.0.0.1'`` (connect to a local instance)."
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:108
-msgid "**clear_on_connect** : :ref:`bool <python:bltin-boolean-values>`, :obj:`optional`"
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:69
+msgid "**launch_on_hpc** : :ref:`bool <python:bltin-boolean-values>`, :obj:`Optional`"
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:109
-msgid "Defaults to :class:`True`, giving you a fresh environment when connecting to MAPDL. When if ``start_instance`` is specified it defaults to :class:`False`."
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:68
+msgid "bool, Optional"
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:113
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:70
+msgid "If :class:`True`, it uses the implemented scheduler (SLURM only) to launch an MAPDL instance on the HPC. In this case you can pass the '`scheduler_options`' argument to :func:`launch_mapdl() <ansys.mapdl.core.launcher.launch_mapdl>` to specify the scheduler arguments as a string or as a dictionary. If :class:`False`, these scheduler options are ignored. For more information, see :ref:`ref_hpc_slurm`. Defaults to :class:`False`."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:79
+msgid "**license_server_check** : :ref:`bool <python:bltin-boolean-values>`, :obj:`optional`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:80
+msgid "Check if the license server is available if MAPDL fails to start.  Only available on ``mode='grpc'``. Defaults :class:`False`."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:84
+msgid "**license_type** : :class:`python:str`, :obj:`optional`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:85
+msgid "Enable license type selection. You can input a string for its license name (for example ``'meba'`` or ``'ansys'``) or its description (\"enterprise solver\" or \"enterprise\" respectively). You can also use legacy licenses (for example ``'aa_t_a'``) but it will also raise a warning. By default, it is not especified (:class:`None`), which means that no specific license will be requested, being up to the license server to provide a specific license."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:94
 msgid "**log_apdl** : :class:`python:str`, :obj:`optional`"
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:114
-msgid "Enables logging every APDL command to the local disk.  This can be used to \"record\" all the commands that are sent to MAPDL via PyMAPDL so a script can be run within MAPDL without PyMAPDL. This argument is the path of the output file (e.g. ``log_apdl='pymapdl_log.txt'``). By default this is disabled."
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:95
+msgid "Enables logging every APDL command to a file.  This can be used to \"record\" all the commands that are sent to MAPDL via PyMAPDL so a script can be run within MAPDL without PyMAPDL. This argument is the path of the output file (e.g. ``log_apdl='pymapdl_log.txt'``), or a boolean value. If it is :class:`True`, the file will be created in the current working directory with the name ``\"apdl.log\"``. By default this is disabled, `log_apdl` is :class:`None`."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:105
+msgid "Sets which messages from the PyMAPDL Logger are printed to the console. ``'DEBUG'`` prints out all the PyMAPDL logs, ``'INFO'`` prints out only informational messages, ``'WARNING'`` prints only messages containing ANSYS warnings, and ``'ERROR'`` logs only error messages. Defaults to ``'ERROR'``, only error messages are printed to the console."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:111
+msgid "**mapdl_output** : :class:`python:str`, :obj:`optional`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:112
+msgid "Redirect the MAPDL console output to a file. This is useful to check the MAPDL output in case of errors. The file is created in the working directory unless the path is included in the filename. If the file already exists, it will be overwritten. For example, ``mapdl_output='my/path/to/my_mapdl_output.txt'``. Defaults to :class:`None`, in which case the output is not redirected."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:120
+msgid "Mode to launch MAPDL.  Must be one of the following:"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:122
+msgid "``'grpc'``"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:123
+msgid "``'console'``"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:125
+msgid "The ``'grpc'`` mode is available on ANSYS 2021R1 or newer and provides the best performance and stability. This is the recommended mode to interact with MAPDL. The ``'console'`` mode is for legacy use (before ANSYS MAPDL 2020R2) and only can be used on Linux. This console mode is not recommended. Visit :ref:`versions_and_interfaces` for more information."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:132
+msgid "**nproc** : :class:`python:int`, :obj:`optional`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:133
+msgid "Number of processors. If running on an HPC cluster, this value is adjusted to the number of CPUs allocated to the job, unless the argument ``running_on_hpc`` is set to ``\"false\"``. Defaults to ``2`` CPUs."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:138
+msgid "**override** : :ref:`bool <python:bltin-boolean-values>`, :obj:`optional`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:139
+msgid "Attempts to delete the lock file at the ``run_location``. Useful when a prior MAPDL session has exited prematurely and the lock file has not been deleted. Defaults to :class:`False`, which means that the lock file is not deleted."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:145
+msgid "**port** : :class:`python:int`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:146
+msgid "Port to launch MAPDL gRPC on. You can also provide this value through the environment variable :envvar:`PYMAPDL_PORT`."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:154
+msgid "However the argument (if specified) has precedence over the environment variable. If this environment variable is empty, it is as it is not set. Defaults to ``50052``."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:159
+msgid "Print the command ``/COM`` arguments to the standard output. Defaults to :class:`False`."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:162
+msgid "**ram** : :class:`python:float`, :obj:`optional`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:163
+msgid "Total size in megabytes of the workspace (memory) used for the initial allocation. To force a fixed size throughout the run, specify a negative number. The default is :class:`None`, in which case 2 GB (2048 MB) is used."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:169
 #: ../../pymapdl/src/ansys/mapdl/core/pool.py:docstring of ansys.mapdl.core.pool.MapdlPool:52
 msgid "**remove_temp_dir_on_exit** : :ref:`bool <python:bltin-boolean-values>`, :obj:`optional`"
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:121
-msgid "When ``run_location`` is :class:`None`, this launcher creates a new MAPDL working directory within the user temporary directory, obtainable with ``tempfile.gettempdir()``. When this parameter is :class:`True`, this directory will be deleted when MAPDL is exited. Default to :class:`False`. If you change the working directory, PyMAPDL does not delete the original working directory nor the new one."
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:170
+msgid "When this parameter is :class:`True`, the directory created to launch MAPDL on temporary location will be deleted when MAPDL is exited. If you change the working directory, PyMAPDL does not delete the original working directory nor the new one. Defaults to :class:`False`."
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:129
-msgid "**license_server_check** : :ref:`bool <python:bltin-boolean-values>`, :obj:`optional`"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:130
-msgid "Check if the license server is available if MAPDL fails to start.  Only available on ``mode='grpc'``. Defaults :class:`False`."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:133
-msgid "**license_type** : :class:`python:str`, :obj:`optional`"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:134
-msgid "Enable license type selection. You can input a string for its license name (for example ``'meba'`` or ``'ansys'``) or its description (\"enterprise solver\" or \"enterprise\" respectively). You can also use legacy licenses (for example ``'aa_t_a'``) but it will also raise a warning. If it is not used (:class:`None`), no specific license will be requested, being up to the license server to provide a specific license type. Default is :class:`None`."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:143
-msgid "Print the command ``/COM`` arguments to the standard output. Default :class:`False`."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:146
-msgid "**add_env_vars** : :class:`python:dict`, :obj:`optional`"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:147
-msgid "The provided dictionary will be used to extend the MAPDL process environment variables. If you want to control all of the environment variables, use the argument ``replace_env_vars``. Defaults to :class:`None`."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:152
-msgid "**replace_env_vars** : :class:`python:dict`, :obj:`optional`"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:153
-msgid "The provided dictionary will be used to replace all the MAPDL process environment variables. It replace the system environment variables which otherwise would be used in the process. To just add some environment variables to the MAPDL process, use ``add_env_vars``. Defaults to :class:`None`."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:159
-msgid "**version** : :class:`python:float`, :obj:`optional`"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:160
-msgid "Version of MAPDL to launch. If :class:`None`, the latest version is used. Versions can be provided as integers (i.e. ``version=222``) or floats (i.e. ``version=22.2``). To retrieve the available installed versions, use the function :meth:`ansys.tools.path.path.get_available_ansys_installations`. You can also provide this value through the environment variable :envvar:`PYMAPDL_MAPDL_VERSION`. For instance ``PYMAPDL_MAPDL_VERSION=22.2``. However the argument (if specified) has precedence over the environment variable. If this environment variable is empty, it is as it is not set."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:171
-msgid "**running_on_hpc: bool, optional**"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:172
-msgid "Whether detect if PyMAPDL is running on an HPC cluster. Currently only SLURM clusters are supported. By default, it is set to true. This option can be bypassed if the :envvar:`PYMAPDL_RUNNING_ON_HPC` environment variable is set to :class:`True`. For more information, see :ref:`ref_hpc_slurm`."
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:176
+msgid "This option is not available when running on HPC."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:178
-msgid "**launch_on_hpc** : :ref:`bool <python:bltin-boolean-values>`, :obj:`Optional`"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:177
-msgid "bool, Optional"
+msgid "**replace_env_vars** : :class:`python:dict`, :obj:`optional`"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:179
-msgid "If :class:`True`, it uses the implemented scheduler (SLURM only) to launch an MAPDL instance on the HPC. In this case you can pass the '`scheduler_options`' argument to :func:`launch_mapdl() <ansys.mapdl.core.launcher.launch_mapdl>` to specify the scheduler arguments as a string or as a dictionary. For more information, see :ref:`ref_hpc_slurm`."
+msgid "The provided dictionary will be used to replace all the MAPDL process environment variables with the values in the dictionary."
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:186
-msgid "**mapdl_output** : :class:`python:str`, :obj:`optional`"
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:182
+msgid "Use with caution. It also replaces all the system environment variables, for instance MPI and license related environment variables. You should take care of inject them manually using this argument."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:187
-msgid "Redirect the MAPDL console output to a given file."
+msgid "To just add some environment variables to the MAPDL process, use ``add_env_vars`` argument. Defaults to :class:`None` which means no environment variables are replaced."
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:189
-msgid "**kwargs** : :class:`python:dict`, :obj:`Optional`"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:188
-msgid "python:dict, Optional"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:190
-msgid "These keyword arguments are interface-specific or for development purposes. For more information, see Notes."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:193
-msgid "scheduler_options : :class:`str`, :class:`dict`"
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:191
+msgid "**running_on_hpc: bool, optional**"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:192
-msgid "str, dict"
+msgid "Whether detect if PyMAPDL is running on an HPC cluster. Currently only SLURM clusters are supported. This option can be bypassed if the :envvar:`PYMAPDL_RUNNING_ON_HPC` environment variable is set to :class:`True`."
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:194
-msgid "Use it to specify options to the scheduler run command. It can be a string or a dictionary with arguments and its values (both as strings). For more information visit :ref:`ref_hpc_slurm`."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:198
-msgid "set_no_abort : :class:`bool`"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:199
-msgid "*(Development use only)* Sets MAPDL to not abort at the first error within /BATCH mode. Defaults to :class:`True`."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:203
-msgid "force_intel : :class:`bool`"
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:201
+msgid "For more information, see :ref:`ref_hpc_slurm`. Defaults to :class:`True`."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:204
-msgid "*(Development use only)* Forces the use of Intel message pass interface (MPI) in versions between Ansys 2021R0 and 2022R2, where because of VPNs issues this MPI is deactivated by default. See :ref:`vpn_issues_troubleshooting` for more information. Defaults to :class:`False`."
+#: ../../pymapdl/src/ansys/mapdl/core/pool.py:docstring of ansys.mapdl.core.pool.MapdlPool:74
+msgid "**start_instance** : :ref:`bool <python:bltin-boolean-values>`, :obj:`optional`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:205
+msgid "When :class:`False`, connect to an existing MAPDL instance at ``ip`` and ``port``, which default to ip ``'127.0.0.1'`` at port ``50052``. Otherwise, launch a local instance of MAPDL. You can also provide this value through the environment variable :envvar:`PYMAPDL_START_INSTANCE`."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:215
-msgid ":obj:`Union`\\[:obj:`MapdlGrpc`, :obj:`MapdlConsole`]"
+msgid "However the argument (if specified) has precedence over the environment variable. If this environment variable is empty, it is as it is not set. Defaults to start locally (:class:`True`)."
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:216
-msgid "An instance of Mapdl.  Type depends on the selected ``mode``."
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:219
+msgid "**start_timeout** : :class:`python:float`, :obj:`optional`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:220
+msgid "Maximum allowable time to connect to the MAPDL server. By default it is 45 seconds, however, it is increased to 90 seconds if running on HPC."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:224
+msgid "**version** : :class:`python:float`, :obj:`optional`"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:225
-msgid ":sphinx_autodoc_typehints_type:`\\:py\\:data\\:\\`\\~typing.Union\\`\\\\ \\\\\\[\\:py\\:class\\:\\`\\~ansys.mapdl.core.mapdl\\_grpc.MapdlGrpc\\`\\, \\:py\\:class\\:\\`\\~ansys.mapdl.core.mapdl\\_console.MapdlConsole\\`\\]`"
+msgid "Version of MAPDL to launch. Versions can be provided as integers (i.e. ``version=222``) or floats (i.e. ``version=22.2``). To retrieve the available installed versions, use the function :func:`ansys.tools.path.get_available_ansys_installations`. You can also provide this value through the environment variable :envvar:`PYMAPDL_MAPDL_VERSION`. For instance:"
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:229
-msgid "**Ansys Student Version**"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:231
-msgid "If an Ansys Student version is detected, PyMAPDL will launch MAPDL in shared-memory parallelism (SMP) mode unless another option is specified."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:234
-msgid "**Additional switches**"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:236
-msgid "These are the MAPDL switch options as of 2020R2 applicable for running MAPDL as a service via gRPC.  Excluded switches not applicable or are set via keyword arguments such as ``\"-j\"`` ."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:240
-msgid "\\-acc <device>"
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:237
+msgid "However the argument (if specified) has precedence over the environment variable. If this environment variable is empty, it is as it is not set. Defaults to latest available version (:class:`None`)."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:241
-msgid "Enables the use of GPU hardware.  See GPU Accelerator Capability in the Parallel Processing Guide for more information."
+msgid "**kwargs** : :class:`python:dict`, :obj:`Optional`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:240
+msgid "python:dict, Optional"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:242
+msgid "These keyword arguments are interface-specific or for development purposes. For more information, see Notes."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:245
-msgid "\\-amfg"
+msgid "scheduler_options : :class:`str`, :class:`dict`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:244
+msgid "str, dict"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:246
-msgid "Enables the additive manufacturing capability.  Requires an additive manufacturing license. For general information about this feature, see AM Process Simulation in ANSYS Workbench."
+msgid "Use it to specify options to the scheduler run command. It can be a string or a dictionary with arguments and its values (both as strings). For more information visit :ref:`ref_hpc_slurm`."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:250
-msgid "\\-ansexe <executable>"
+msgid "set_no_abort : :class:`bool`"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:251
-msgid "Activates a custom mechanical APDL executable. In the ANSYS Workbench environment, activates a custom Mechanical APDL executable."
+msgid "*(Development use only)* Sets MAPDL to not abort at the first error within /BATCH mode. Defaults to :class:`True`."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:255
-msgid "\\-custom <executable>"
+msgid "force_intel : :class:`bool`"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:256
-msgid "Calls a custom Mechanical APDL executable See Running Your Custom Executable in the Programmer's Reference for more information."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:260
-msgid "\\-db value"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:261
-msgid "Initial memory allocation Defines the portion of workspace (memory) to be used as the initial allocation for the database. The default is 1024 MB. Specify a negative number to force a fixed size throughout the run; useful on small memory systems."
+msgid "*(Development use only)* Forces the use of Intel message pass interface (MPI) in versions between Ansys 2021R0 and 2022R2, where because of VPNs issues this MPI is deactivated by default. See :ref:`vpn_issues_troubleshooting` for more information. Defaults to :class:`False`."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:267
-msgid "\\-dis"
+msgid ":obj:`Union`\\[:obj:`MapdlGrpc`, :obj:`MapdlConsole`]"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:268
-msgid "Enables Distributed ANSYS See the Parallel Processing Guide for more information."
+msgid "An instance of Mapdl.  Type depends on the selected ``mode``."
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:271
-msgid "\\-dvt"
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:277
+msgid ":sphinx_autodoc_typehints_type:`\\:py\\:data\\:\\`\\~typing.Union\\`\\\\ \\\\\\[\\:py\\:class\\:\\`\\~ansys.mapdl.core.mapdl\\_grpc.MapdlGrpc\\`\\, \\:py\\:class\\:\\`\\~ansys.mapdl.core.mapdl\\_console.MapdlConsole\\`\\]`"
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:272
-msgid "Enables ANSYS DesignXplorer advanced task (add-on). Requires DesignXplorer."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:275
-msgid "\\-l <language>"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:276
-msgid "Specifies a language file to use other than English This option is valid only if you have a translated message file in an appropriately named subdirectory in ``/ansys_inc/v201/ansys/docu`` or ``Program Files\\ANSYS\\Inc\\V201\\ANSYS\\docu``"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:282
-msgid "\\-m <workspace>"
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:281
+msgid "**Ansys Student Version**"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:283
-msgid "Specifies the total size of the workspace Workspace (memory) in megabytes used for the initial allocation. If you omit the ``-m`` option, the default is 2 GB (2048 MB). Specify a negative number to force a fixed size throughout the run."
+msgid "If an Ansys Student version is detected, PyMAPDL will launch MAPDL in shared-memory parallelism (SMP) mode unless another option is specified."
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:289
-msgid "\\-machines <IP>"
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:286
+msgid "**Additional switches**"
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:290
-msgid "Specifies the distributed machines Machines on which to run a Distributed ANSYS analysis. See Starting Distributed ANSYS in the Parallel Processing Guide for more information."
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:288
+msgid "These are the MAPDL switch options as of 2020R2 applicable for running MAPDL as a service via gRPC.  Excluded switches not applicable or are set via keyword arguments such as ``\"-j\"`` ."
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:295
-msgid "\\-mpi <value>"
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:292
+msgid "\\-acc <device>"
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:296
-msgid "Specifies the type of MPI to use. See the Parallel Processing Guide for more information."
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:293
+msgid "Enables the use of GPU hardware.  See GPU Accelerator Capability in the Parallel Processing Guide for more information."
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:299
-msgid "\\-mpifile <appfile>"
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:297
+msgid "\\-amfg"
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:300
-msgid "Specifies an existing MPI file Specifies an existing MPI file (appfile) to be used in a Distributed ANSYS run. See Using MPI Files in the Parallel Processing Guide for more information."
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:298
+msgid "Enables the additive manufacturing capability.  Requires an additive manufacturing license. For general information about this feature, see AM Process Simulation in ANSYS Workbench."
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:305
-msgid "\\-na <value>"
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:302
+msgid "\\-ansexe <executable>"
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:306
-msgid "Specifies the number of GPU accelerator devices Number of GPU devices per machine or compute node when running with the GPU accelerator feature. See GPU Accelerator Capability in the Parallel Processing Guide for more information."
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:303
+msgid "Activates a custom mechanical APDL executable. In the ANSYS Workbench environment, activates a custom Mechanical APDL executable."
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:311
-msgid "\\-name <value>"
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:307
+msgid "\\-custom <executable>"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:308
+msgid "Calls a custom Mechanical APDL executable See Running Your Custom Executable in the Programmer's Reference for more information."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:312
-msgid "Defines Mechanical APDL parameters Set mechanical APDL parameters at program start-up. The parameter name must be at least two characters long. For details about parameters, see the ANSYS Parametric Design Language Guide."
+msgid "\\-db value"
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:317
-msgid "\\-p <productname>"
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:313
+msgid "Initial memory allocation Defines the portion of workspace (memory) to be used as the initial allocation for the database. The default is 1024 MB. Specify a negative number to force a fixed size throughout the run; useful on small memory systems."
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:318
-msgid "ANSYS session product Defines the ANSYS session product that will run during the session. For more detailed information about the ``-p`` option, see Selecting an ANSYS Product via the Command Line."
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:319
+msgid "\\-dis"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:320
+msgid "Enables Distributed ANSYS See the Parallel Processing Guide for more information."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:323
-msgid "\\-ppf <license feature name>"
+msgid "\\-dvt"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:324
-msgid "HPC license Specifies which HPC license to use during a parallel processing run. See HPC Licensing in the Parallel Processing Guide for more information."
+msgid "Enables ANSYS DesignXplorer advanced task (add-on). Requires DesignXplorer."
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:329
-msgid "\\-smp"
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:327
+msgid "\\-l <language>"
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:330
-msgid "Enables shared-memory parallelism. See the Parallel Processing Guide for more information."
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:328
+msgid "Specifies a language file to use other than English This option is valid only if you have a translated message file in an appropriately named subdirectory in ``/ansys_inc/v201/ansys/docu`` or ``Program Files\\ANSYS\\Inc\\V201\\ANSYS\\docu``"
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:333
-msgid "**PyPIM**"
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:334
+msgid "\\-m <workspace>"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:335
-msgid "If the environment is configured to use `PyPIM <https://pypim.docs.pyansys.com>`_ and ``start_instance`` is :class:`True`, then starting the instance will be delegated to PyPIM. In this event, most of the options will be ignored and the server side configuration will be used."
+msgid "Specifies the total size of the workspace Workspace (memory) in megabytes used for the initial allocation. If you omit the ``-m`` option, the default is 2 GB (2048 MB). Specify a negative number to force a fixed size throughout the run."
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:343
-msgid "Launch MAPDL using the best protocol."
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:341
+msgid "\\-machines <IP>"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:342
+msgid "Specifies the distributed machines Machines on which to run a Distributed ANSYS analysis. See Starting Distributed ANSYS in the Parallel Processing Guide for more information."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:347
+msgid "\\-mpi <value>"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:348
+msgid "Specifies the type of MPI to use. See the Parallel Processing Guide for more information."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:351
+msgid "\\-mpifile <appfile>"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:352
+msgid "Specifies an existing MPI file Specifies an existing MPI file (appfile) to be used in a Distributed ANSYS run. See Using MPI Files in the Parallel Processing Guide for more information."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:357
+msgid "\\-na <value>"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:358
+msgid "Specifies the number of GPU accelerator devices Number of GPU devices per machine or compute node when running with the GPU accelerator feature. See GPU Accelerator Capability in the Parallel Processing Guide for more information."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:363
+msgid "\\-name <value>"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:364
+msgid "Defines Mechanical APDL parameters Set mechanical APDL parameters at program start-up. The parameter name must be at least two characters long. For details about parameters, see the ANSYS Parametric Design Language Guide."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:369
+msgid "\\-p <productname>"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:370
+msgid "ANSYS session product Defines the ANSYS session product that will run during the session. For more detailed information about the ``-p`` option, see Selecting an ANSYS Product via the Command Line."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:375
+msgid "\\-ppf <license feature name>"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:376
+msgid "HPC license Specifies which HPC license to use during a parallel processing run. See HPC Licensing in the Parallel Processing Guide for more information."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:381
+msgid "\\-smp"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:382
+msgid "Enables shared-memory parallelism. See the Parallel Processing Guide for more information."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:385
+msgid "**PyPIM**"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:387
+msgid "If the environment is configured to use `PyPIM <https://pypim.docs.pyansys.com>`_ and ``start_instance`` is :class:`True`, then starting the instance will be delegated to PyPIM. In this event, most of the options will be ignored and the server side configuration will be used."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:395
+msgid "Launch MAPDL using the best protocol."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:400
 msgid "Run MAPDL with shared memory parallel and specify the location of the Ansys binary."
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:354
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:406
 msgid "Connect to an existing instance of MAPDL at IP 192.168.1.30 and port 50001.  This is only available using the latest ``'grpc'`` mode."
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:361
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:413
 msgid "Run MAPDL using the console mode (not recommended, and available only on Linux)."
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:366
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:418
 msgid "Run MAPDL with additional environment variables."
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:371
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:423
 msgid "Run MAPDL with our own set of environment variables. It replace the system environment variables which otherwise would be used in the process."
 msgstr ""
 
