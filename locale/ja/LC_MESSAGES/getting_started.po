@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-17 23:40+0000\n"
+"POT-Creation-Date: 2025-05-07 00:20+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -1791,7 +1791,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:11
 msgid ""
 "The ``ansys.mapdl.core`` package currently supports Python 3.10 through "
-"Python 3.12 on Windows, Mac OS, and Linux."
+"Python 3.13 on Windows, macOS, and Linux."
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:14

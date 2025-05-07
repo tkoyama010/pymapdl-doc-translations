@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-23 00:19+0000\n"
+"POT-Creation-Date: 2025-05-07 00:20+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -4868,8 +4868,8 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/upf.rst:12
 msgid ""
-"You must install a Python distribution before using this feature. Python 3.9"
-" through Python 3.12 are supported."
+"You must install a Python distribution before using this feature. Python "
+"3.10 through Python 3.13 are supported."
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/upf.rst:15
