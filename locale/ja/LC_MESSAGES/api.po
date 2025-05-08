@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-23 00:19+0000\n"
+"POT-Creation-Date: 2025-05-08 00:20+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -4370,8 +4370,8 @@ msgstr ""
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mapdl_geometry.LegacyGeometry.rst:13
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mesh_grpc.MeshGrpc.rst:13
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.parameters.Parameters.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:13
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:13
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:13
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.post.PostProcessing.rst:13
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.solution.Solution.rst:13
@@ -4422,8 +4422,8 @@ msgstr ""
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mapdl_geometry.LegacyGeometry.rst:36
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mesh_grpc.MeshGrpc.rst:25
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.parameters.Parameters.rst:27
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:33
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:28
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:33
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:30
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.post.PostProcessing.rst:85
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.solution.Solution.rst:23
@@ -9850,188 +9850,6 @@ msgstr ""
 msgid "ansys.mapdl.core.plotting.BCS"
 msgstr "ansys.mapdl.core.plotting.BCS"
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:2
-msgid "ansys.mapdl.core.plotting.MapdlPlotter"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/plotting.rst:20:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/plotting/visualizer.pydocstring of
-#: ansys.mapdl.core.plotting.visualizer.MapdlPlotter:2
-msgid "Plotter class for PyMAPDL."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/plotting/visualizer.pydocstring of
-#: ansys.mapdl.core.plotting.visualizer.MapdlPlotter:4
-msgid ""
-"This class is an implementation of the ``PlotterInterface`` class from the "
-"`Visualization Interface Tool <https://github.com/ansys/ansys-tools-"
-"visualization-interface>`_. The picker is implemented in PyMAPDL-specific "
-"classes due to the characteristics of the library."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/plotting/visualizer.pydocstring of
-#: ansys.mapdl.core.plotting.visualizer.MapdlPlotter:9
-msgid ""
-"**use_trame** : :ref:`bool <python:bltin-boolean-values>`, :obj:`optional`"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/plotting/visualizer.pydocstring of
-#: ansys.mapdl.core.plotting.visualizer.MapdlPlotter:10
-msgid "Whether to use the Trame visualizer. The default is ``False``."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/plotting/visualizer.pydocstring of
-#: ansys.mapdl.core.plotting.visualizer.MapdlPlotter:12
-msgid "**theme** : :obj:`pv.DefaultTheme`, :obj:`optional`"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/plotting/visualizer.pydocstring of
-#: ansys.mapdl.core.plotting.visualizer.MapdlPlotter:11
-msgid "pv.DefaultTheme, optional"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/plotting/visualizer.pydocstring of
-#: ansys.mapdl.core.plotting.visualizer.MapdlPlotter:13
-msgid "Theme to use for the plotter. The default is ``None``."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:31:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/plotting/visualizer.pydocstring of
-#: ansys.mapdl.core.plotting.visualizer.MapdlPlotter.__init__:2
-msgid "Initialize the ``MapdlPlotter`` class."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:31:<autosummary>:1
-msgid ""
-":py:obj:`__init__ <ansys.mapdl.core.plotting.MapdlPlotter.__init__>`\\ "
-"\\(\\[use\\_trame\\, theme\\]\\)"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:31:<autosummary>:1
-msgid ""
-":py:obj:`add_labels <ansys.mapdl.core.plotting.MapdlPlotter.add_labels>`\\ "
-"\\(points\\, labels\\, \\*\\*plotting\\_options\\)"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:31:<autosummary>:1
-msgid "Add labels to the plotter."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:31:<autosummary>:1
-msgid ""
-":py:obj:`add_mesh <ansys.mapdl.core.plotting.MapdlPlotter.add_mesh>`\\ "
-"\\(\\[meshes\\, points\\, labels\\, cpos\\, ...\\]\\)"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:31:<autosummary>:1
-msgid "Adds a mesh to the plotter."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:31:<autosummary>:1
-msgid ""
-":py:obj:`add_points <ansys.mapdl.core.plotting.MapdlPlotter.add_points>`\\ "
-"\\(points\\, \\*\\*plotting\\_options\\)"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:31:<autosummary>:1
-msgid "Add points to the plotter."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:31:<autosummary>:1
-msgid ""
-":py:obj:`bc_nodes_plot "
-"<ansys.mapdl.core.plotting.MapdlPlotter.bc_nodes_plot>`\\ \\(mapdl\\, "
-"bc\\_labels\\[\\, ...\\]\\)"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:31:<autosummary>:1
-msgid "Plot nodes BC given a list of labels."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:31:<autosummary>:1
-msgid ""
-":py:obj:`bc_plot <ansys.mapdl.core.plotting.MapdlPlotter.bc_plot>`\\ "
-"\\(\\[mapdl\\, bc\\_labels\\, bc\\_target\\, ...\\]\\)"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:31:<autosummary>:1
-msgid "Plot boundary conditions."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:31:<autosummary>:1
-msgid ""
-":py:obj:`get_meshes_from_plotter "
-"<ansys.mapdl.core.plotting.MapdlPlotter.get_meshes_from_plotter>`\\ \\(\\)"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:31:<autosummary>:1
-msgid "Get the meshes plotted in the plotter."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:31:<autosummary>:1
-msgid ""
-":py:obj:`plot <ansys.mapdl.core.plotting.MapdlPlotter.plot>`\\ "
-"\\(\\[meshes\\, points\\, labels\\, title\\, cpos\\, ...\\]\\)"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:31:<autosummary>:1
-msgid "Add an object to the plotter."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:31:<autosummary>:1
-msgid ""
-":py:obj:`plot_iter <ansys.mapdl.core.plotting.MapdlPlotter.plot_iter>`\\ "
-"\\(plotting\\_list\\[\\, name\\_filter\\]\\)"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:31:<autosummary>:1
-msgid "Add a list of objects to the plotter."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:31:<autosummary>:1
-msgid ""
-":py:obj:`show <ansys.mapdl.core.plotting.MapdlPlotter.show>`\\ "
-"\\(\\[window\\_size\\, return\\_plotter\\, ...\\]\\)"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:31:<autosummary>:1
-msgid "Show the plotter."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:31:<autosummary>:1
-msgid ""
-":py:obj:`switch_scene "
-"<ansys.mapdl.core.plotting.MapdlPlotter.switch_scene>`\\ \\(pl\\)"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:31:<autosummary>:1
-msgid "Switches the backend scene to the given plotter."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:38:<autosummary>:1
-msgid ":py:obj:`backend <ansys.mapdl.core.plotting.MapdlPlotter.backend>`\\"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:38:<autosummary>:1
-msgid "Return the base plotter object."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:38:<autosummary>:1
-msgid ":py:obj:`meshes <ansys.mapdl.core.plotting.MapdlPlotter.meshes>`\\"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:38:<autosummary>:1
-msgid "Return the meshes."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:38:<autosummary>:1
-msgid ":py:obj:`scene <ansys.mapdl.core.plotting.MapdlPlotter.scene>`\\"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlPlotter.rst:38:<autosummary>:1
-msgid "Return the scene."
-msgstr ""
-
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:2
 msgid "ansys.mapdl.core.plotting.MapdlTheme"
 msgstr "ansys.mapdl.core.plotting.MapdlTheme"
@@ -10720,6 +10538,210 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
 msgid "Return or set the default render window size."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:2
+msgid "ansys.mapdl.core.plotting.visualizer.MapdlPlotter"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/plotting.rst:20:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/plotting/visualizer.pydocstring of
+#: ansys.mapdl.core.plotting.visualizer.MapdlPlotter:2
+msgid "Plotter class for PyMAPDL."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/plotting/visualizer.pydocstring of
+#: ansys.mapdl.core.plotting.visualizer.MapdlPlotter:4
+msgid ""
+"This class is an implementation of the ``PlotterInterface`` class from the "
+"`Visualization Interface Tool <https://github.com/ansys/ansys-tools-"
+"visualization-interface>`_. The picker is implemented in PyMAPDL-specific "
+"classes due to the characteristics of the library."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/plotting/visualizer.pydocstring of
+#: ansys.mapdl.core.plotting.visualizer.MapdlPlotter:9
+msgid ""
+"**use_trame** : :ref:`bool <python:bltin-boolean-values>`, :obj:`optional`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/plotting/visualizer.pydocstring of
+#: ansys.mapdl.core.plotting.visualizer.MapdlPlotter:10
+msgid "Whether to use the Trame visualizer. The default is ``False``."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/plotting/visualizer.pydocstring of
+#: ansys.mapdl.core.plotting.visualizer.MapdlPlotter:12
+msgid "**theme** : :obj:`pv.DefaultTheme`, :obj:`optional`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/plotting/visualizer.pydocstring of
+#: ansys.mapdl.core.plotting.visualizer.MapdlPlotter:11
+msgid "pv.DefaultTheme, optional"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/plotting/visualizer.pydocstring of
+#: ansys.mapdl.core.plotting.visualizer.MapdlPlotter:13
+msgid "Theme to use for the plotter. The default is ``None``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:31:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/plotting/visualizer.pydocstring of
+#: ansys.mapdl.core.plotting.visualizer.MapdlPlotter.__init__:2
+msgid "Initialize the ``MapdlPlotter`` class."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:31:<autosummary>:1
+msgid ""
+":py:obj:`__init__ "
+"<ansys.mapdl.core.plotting.visualizer.MapdlPlotter.__init__>`\\ "
+"\\(\\[use\\_trame\\, theme\\]\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:31:<autosummary>:1
+msgid ""
+":py:obj:`add_labels "
+"<ansys.mapdl.core.plotting.visualizer.MapdlPlotter.add_labels>`\\ "
+"\\(points\\, labels\\, \\*\\*plotting\\_options\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:31:<autosummary>:1
+msgid "Add labels to the plotter."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:31:<autosummary>:1
+msgid ""
+":py:obj:`add_mesh "
+"<ansys.mapdl.core.plotting.visualizer.MapdlPlotter.add_mesh>`\\ "
+"\\(\\[meshes\\, points\\, labels\\, cpos\\, ...\\]\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:31:<autosummary>:1
+msgid "Adds a mesh to the plotter."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:31:<autosummary>:1
+msgid ""
+":py:obj:`add_points "
+"<ansys.mapdl.core.plotting.visualizer.MapdlPlotter.add_points>`\\ "
+"\\(points\\, \\*\\*plotting\\_options\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:31:<autosummary>:1
+msgid "Add points to the plotter."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:31:<autosummary>:1
+msgid ""
+":py:obj:`bc_nodes_plot "
+"<ansys.mapdl.core.plotting.visualizer.MapdlPlotter.bc_nodes_plot>`\\ "
+"\\(mapdl\\, bc\\_labels\\[\\, ...\\]\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:31:<autosummary>:1
+msgid "Plot nodes BC given a list of labels."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:31:<autosummary>:1
+msgid ""
+":py:obj:`bc_plot "
+"<ansys.mapdl.core.plotting.visualizer.MapdlPlotter.bc_plot>`\\ "
+"\\(\\[mapdl\\, bc\\_labels\\, bc\\_target\\, ...\\]\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:31:<autosummary>:1
+msgid "Plot boundary conditions."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:31:<autosummary>:1
+msgid ""
+":py:obj:`get_meshes_from_plotter "
+"<ansys.mapdl.core.plotting.visualizer.MapdlPlotter.get_meshes_from_plotter>`\\"
+" \\(\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:31:<autosummary>:1
+msgid "Get the meshes plotted in the plotter."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:31:<autosummary>:1
+msgid ""
+":py:obj:`plot <ansys.mapdl.core.plotting.visualizer.MapdlPlotter.plot>`\\ "
+"\\(\\[meshes\\, points\\, labels\\, title\\, cpos\\, ...\\]\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:31:<autosummary>:1
+msgid "Add an object to the plotter."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:31:<autosummary>:1
+msgid ""
+":py:obj:`plot_iter "
+"<ansys.mapdl.core.plotting.visualizer.MapdlPlotter.plot_iter>`\\ "
+"\\(plotting\\_list\\[\\, name\\_filter\\]\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:31:<autosummary>:1
+msgid "Add a list of objects to the plotter."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:31:<autosummary>:1
+msgid ""
+":py:obj:`show <ansys.mapdl.core.plotting.visualizer.MapdlPlotter.show>`\\ "
+"\\(\\[window\\_size\\, return\\_plotter\\, ...\\]\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:31:<autosummary>:1
+msgid "Show the plotter."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:31:<autosummary>:1
+msgid ""
+":py:obj:`switch_scene "
+"<ansys.mapdl.core.plotting.visualizer.MapdlPlotter.switch_scene>`\\ \\(pl\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:31:<autosummary>:1
+msgid "Switches the backend scene to the given plotter."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:39:<autosummary>:1
+msgid ""
+":py:obj:`backend "
+"<ansys.mapdl.core.plotting.visualizer.MapdlPlotter.backend>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:39:<autosummary>:1
+msgid "Return the base plotter object."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:39:<autosummary>:1
+msgid ""
+":py:obj:`bc_settings "
+"<ansys.mapdl.core.plotting.visualizer.MapdlPlotter.bc_settings>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:39:<autosummary>:1
+msgid "Get the boundary condition settings object."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:39:<autosummary>:1
+msgid ""
+":py:obj:`meshes "
+"<ansys.mapdl.core.plotting.visualizer.MapdlPlotter.meshes>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:39:<autosummary>:1
+msgid "Return the meshes."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:39:<autosummary>:1
+msgid ""
+":py:obj:`scene <ansys.mapdl.core.plotting.visualizer.MapdlPlotter.scene>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:39:<autosummary>:1
+msgid "Return the scene."
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:2
@@ -14347,8 +14369,8 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/api/plotting.rst:20:<autosummary>:1
 msgid ""
-":py:obj:`plotting.MapdlPlotter <ansys.mapdl.core.plotting.MapdlPlotter>`\\ "
-"\\(\\[use\\_trame\\, theme\\]\\)"
+":py:obj:`plotting.visualizer.MapdlPlotter "
+"<ansys.mapdl.core.plotting.visualizer.MapdlPlotter>`\\ \\(\\[...\\]\\)"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/plotting.rst:20:<autosummary>:1
