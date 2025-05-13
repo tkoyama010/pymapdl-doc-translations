@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.70.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-10 00:19+0000\n"
+"POT-Creation-Date: 2025-05-13 00:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1263,31 +1263,31 @@ msgstr ""
 msgid "Calling MAPDL Pythonically"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:133
+#: ../../pymapdl/doc/source/user_guide/index.rst:134
 msgid "MAPDL functions can be called directly from an instance of :class:`Mapdl <ansys.mapdl.core.mapdl.MapdlBase>` in a Pythonic manner. This is to simplify calling Ansys, especially when inputs are variables within Python. For example, the following two commands are equivalent:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:143
+#: ../../pymapdl/doc/source/user_guide/index.rst:144
 msgid "This approach has some obvious advantages. Chiefly, it's easier to script because ``ansys-mapdl-core`` takes care of the string formatting for you. For example, you can input points from a numpy array with:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:154
+#: ../../pymapdl/doc/source/user_guide/index.rst:155
 msgid "Additionally, exceptions are caught and handled within Python."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:172
+#: ../../pymapdl/doc/source/user_guide/index.rst:173
 msgid "For longer scripts, instead of sending commands to MAPDL as in the area creation example, you can instead run:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:193
+#: ../../pymapdl/doc/source/user_guide/index.rst:194
 msgid "This approach has some obvious advantages, chiefly that it's a bit easier to script as :class:`Mapdl <ansys.mapdl.core.mapdl.MapdlBase>` takes care of the string formatting for you. For example, inputting points from a numpy array:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:207
+#: ../../pymapdl/doc/source/user_guide/index.rst:208
 msgid "Additionally, each function with the MAPDL class has help associated with it. For example:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:251
+#: ../../pymapdl/doc/source/user_guide/index.rst:252
 msgid "For stability considerations, see :ref:`PyMAPDL stability <ref_pymapdl_stability>`."
 msgstr ""
 
