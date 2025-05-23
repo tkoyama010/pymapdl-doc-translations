@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.70.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-10 00:19+0000\n"
+"POT-Creation-Date: 2025-05-23 00:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -202,7 +202,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/inline_functions/selection_queries.py:docstring of ansys.mapdl.core.inline_functions.selection_queries._SelectionStatusQueries.vsel:35
 #: ../../pymapdl/src/ansys/mapdl/core/krylov.py:docstring of ansys.mapdl.core.krylov.KrylovSolver:32
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.close_all_local_instances:28
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.get_default_ansys:27
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.get_default_ansys:29
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.get_default_ansys_path:24
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.get_default_ansys_version:24
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:394
@@ -1186,6 +1186,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.inline_functions.Query.uy.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.inline_functions.Query.uz.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.close_all_local_instances.rst:0
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.get_default_ansys.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.launch_mapdl.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mapdl_grpc.MapdlGrpc.download_project.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mapdl_grpc.MapdlGrpc.download_result.rst:0
@@ -4681,14 +4682,19 @@ msgstr ""
 msgid "Version float.  For example, 21.1 corresponds to 2021R1."
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.get_default_ansys:28
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.get_default_ansys:26
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.find_mapdl:37
+msgid ":sphinx_autodoc_typehints_type:`\\:py\\:data\\:\\`\\~typing.Union\\`\\\\ \\\\\\[\\:py\\:data\\:\\`\\~typing.Tuple\\`\\\\ \\\\\\[\\:py\\:class\\:\\`str\\`\\, \\:py\\:class\\:\\`float\\`\\]\\, \\:py\\:data\\:\\`\\~typing.Tuple\\`\\\\ \\\\\\[\\:py\\:data\\:\\`\\~typing.Literal\\`\\\\ \\\\\\[\\`\\`\\'\\'\\`\\`\\]\\, \\:py\\:data\\:\\`\\~typing.Literal\\`\\\\ \\\\\\[\\`\\`\\'\\'\\`\\`\\]\\]\\]`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.get_default_ansys:30
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.get_default_ansys_path:25
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.get_default_ansys_version:25
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.find_mapdl:41
 msgid "Within Windows"
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.get_default_ansys:34
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.get_default_ansys:36
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.get_default_ansys_path:31
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.get_default_ansys_version:31
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.find_mapdl:47
@@ -5024,7 +5030,7 @@ msgid "An instance of Mapdl.  Type depends on the selected ``mode``."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:277
-msgid ":sphinx_autodoc_typehints_type:`\\:py\\:data\\:\\`\\~typing.Union\\`\\\\ \\\\\\[\\:py\\:class\\:\\`\\~ansys.mapdl.core.mapdl\\_grpc.MapdlGrpc\\`\\, \\:py\\:class\\:\\`\\~ansys.mapdl.core.mapdl\\_console.MapdlConsole\\`\\]`"
+msgid ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~ansys.mapdl.core.mapdl\\_grpc.MapdlGrpc\\` \\| \\:py\\:class\\:\\`\\~ansys.mapdl.core.mapdl\\_console.MapdlConsole\\` \\| \\:py\\:class\\:\\`list\\`\\\\ \\\\\\[\\:py\\:data\\:\\`\\~typing.Any\\`\\]`"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.py:docstring of ansys.mapdl.core.launcher.launch_mapdl:281
@@ -8464,10 +8470,6 @@ msgstr ""
 msgid "Version of Ansys MAPDL to search for. If using ``int``, it should follow the convention ``XXY``, where ``XX`` is the major version, and ``Y`` is the minor. If using ``float``, it should follow the convention ``XX.Y``, where ``XX`` is the major version, and ``Y`` is the minor. If ``None``, use latest available version on the machine."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/ansys/tools/path/path.py:docstring of ansys.tools.path.path.find_mapdl:37
-msgid ":sphinx_autodoc_typehints_type:`\\:py\\:data\\:\\`\\~typing.Union\\`\\\\ \\\\\\[\\:py\\:data\\:\\`\\~typing.Tuple\\`\\\\ \\\\\\[\\:py\\:class\\:\\`str\\`\\, \\:py\\:class\\:\\`float\\`\\]\\, \\:py\\:data\\:\\`\\~typing.Tuple\\`\\\\ \\\\\\[\\:py\\:data\\:\\`\\~typing.Literal\\`\\\\ \\\\\\[\\`\\`\\'\\'\\`\\`\\]\\, \\:py\\:data\\:\\`\\~typing.Literal\\`\\\\ \\\\\\[\\`\\`\\'\\'\\`\\`\\]\\]\\]`"
-msgstr ""
-
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.tools.path.get_available_ansys_installations.rst:2
 msgid "ansys.tools.path.get\\_available\\_ansys\\_installations"
 msgstr ""
@@ -8598,7 +8600,7 @@ msgid ":py:obj:`BoundaryConditionsListingOutput.to_list <ansys.mapdl.core.comman
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/commands.rst:34:<autosummary>:1
-msgid ":py:obj:`BoundaryConditionsListingOutput.to_dataframe <ansys.mapdl.core.commands.BoundaryConditionsListingOutput.to_dataframe>`\\ \\(\\)"
+msgid ":py:obj:`BoundaryConditionsListingOutput.to_dataframe <ansys.mapdl.core.commands.BoundaryConditionsListingOutput.to_dataframe>`\\ \\(\\[...\\]\\)"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/commands.rst:34:<autosummary>:1

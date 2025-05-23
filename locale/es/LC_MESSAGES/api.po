@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: ansys-mapdl-core 0.69.dev0\n"
+"Project-Id-Version: ansys-mapdl-core 0.70.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-08 00:20+0000\n"
+"POT-Creation-Date: 2025-05-23 00:20+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -419,7 +419,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
 #: ansys.mapdl.core.launcher.close_all_local_instances:28
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
-#: ansys.mapdl.core.launcher.get_default_ansys:27
+#: ansys.mapdl.core.launcher.get_default_ansys:29
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
 #: ansys.mapdl.core.launcher.get_default_ansys_path:24
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
@@ -2100,6 +2100,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.inline_functions.Query.uy.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.inline_functions.Query.uz.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.close_all_local_instances.rst:0
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.get_default_ansys.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.launch_mapdl.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mapdl_grpc.MapdlGrpc.download_project.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mapdl_grpc.MapdlGrpc.download_result.rst:0
@@ -7187,7 +7188,21 @@ msgid "Version float.  For example, 21.1 corresponds to 2021R1."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
-#: ansys.mapdl.core.launcher.get_default_ansys:28
+#: ansys.mapdl.core.launcher.get_default_ansys:26
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/ansys/tools/path/path.pydocstring
+#: of ansys.tools.path.path.find_mapdl:37
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:py\\:data\\:\\`\\~typing.Union\\`\\\\ "
+"\\\\\\[\\:py\\:data\\:\\`\\~typing.Tuple\\`\\\\ "
+"\\\\\\[\\:py\\:class\\:\\`str\\`\\, \\:py\\:class\\:\\`float\\`\\]\\, "
+"\\:py\\:data\\:\\`\\~typing.Tuple\\`\\\\ "
+"\\\\\\[\\:py\\:data\\:\\`\\~typing.Literal\\`\\\\ "
+"\\\\\\[\\`\\`\\'\\'\\`\\`\\]\\, \\:py\\:data\\:\\`\\~typing.Literal\\`\\\\ "
+"\\\\\\[\\`\\`\\'\\'\\`\\`\\]\\]\\]`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
+#: ansys.mapdl.core.launcher.get_default_ansys:30
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
 #: ansys.mapdl.core.launcher.get_default_ansys_path:25
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
@@ -7198,7 +7213,7 @@ msgid "Within Windows"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
-#: ansys.mapdl.core.launcher.get_default_ansys:34
+#: ansys.mapdl.core.launcher.get_default_ansys:36
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
 #: ansys.mapdl.core.launcher.get_default_ansys_path:31
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
@@ -7774,9 +7789,10 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl:277
 msgid ""
-":sphinx_autodoc_typehints_type:`\\:py\\:data\\:\\`\\~typing.Union\\`\\\\ "
-"\\\\\\[\\:py\\:class\\:\\`\\~ansys.mapdl.core.mapdl\\_grpc.MapdlGrpc\\`\\, "
-"\\:py\\:class\\:\\`\\~ansys.mapdl.core.mapdl\\_console.MapdlConsole\\`\\]`"
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~ansys.mapdl.core.mapdl\\_grpc.MapdlGrpc\\`"
+" \\| \\:py\\:class\\:\\`\\~ansys.mapdl.core.mapdl\\_console.MapdlConsole\\` "
+"\\| \\:py\\:class\\:\\`list\\`\\\\ "
+"\\\\\\[\\:py\\:data\\:\\`\\~typing.Any\\`\\]`"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
@@ -12130,18 +12146,6 @@ msgid ""
 " available version on the machine."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/ansys/tools/path/path.pydocstring
-#: of ansys.tools.path.path.find_mapdl:37
-msgid ""
-":sphinx_autodoc_typehints_type:`\\:py\\:data\\:\\`\\~typing.Union\\`\\\\ "
-"\\\\\\[\\:py\\:data\\:\\`\\~typing.Tuple\\`\\\\ "
-"\\\\\\[\\:py\\:class\\:\\`str\\`\\, \\:py\\:class\\:\\`float\\`\\]\\, "
-"\\:py\\:data\\:\\`\\~typing.Tuple\\`\\\\ "
-"\\\\\\[\\:py\\:data\\:\\`\\~typing.Literal\\`\\\\ "
-"\\\\\\[\\`\\`\\'\\'\\`\\`\\]\\, \\:py\\:data\\:\\`\\~typing.Literal\\`\\\\ "
-"\\\\\\[\\`\\`\\'\\'\\`\\`\\]\\]\\]`"
-msgstr ""
-
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.tools.path.get_available_ansys_installations.rst:2
 msgid "ansys.tools.path.get\\_available\\_ansys\\_installations"
 msgstr ""
@@ -12332,7 +12336,7 @@ msgstr ""
 msgid ""
 ":py:obj:`BoundaryConditionsListingOutput.to_dataframe "
 "<ansys.mapdl.core.commands.BoundaryConditionsListingOutput.to_dataframe>`\\ "
-"\\(\\)"
+"\\(\\[...\\]\\)"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/commands.rst:34:<autosummary>:1
