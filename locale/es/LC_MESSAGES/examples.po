@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.70.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-10 00:19+0000\n"
+"POT-Creation-Date: 2025-05-27 14:10+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -2670,7 +2670,7 @@ msgid ""
 "plate."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:487
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:499
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_pressure_vessel.rst:276
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_notch.rst:590
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/3d_plate_thermal.rst:135
@@ -2695,19 +2695,19 @@ msgstr ""
 msgid "Stop mapdl"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:505
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:517
 msgid ""
 ":download:`Download Jupyter notebook: 2d_plate_with_a_hole.ipynb "
 "<2d_plate_with_a_hole.ipynb>`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:509
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:521
 msgid ""
 ":download:`Download Python source code: 2d_plate_with_a_hole.py "
 "<2d_plate_with_a_hole.py>`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:513
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole.rst:525
 msgid ""
 ":download:`Download zipped: 2d_plate_with_a_hole.zip "
 "<2d_plate_with_a_hole.zip>`"
