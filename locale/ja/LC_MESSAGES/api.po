@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.70.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-08 00:23+0000\n"
+"POT-Creation-Date: 2025-06-14 00:20+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -7245,8 +7245,6 @@ msgstr ""
 #: ansys.mapdl.core.launcher.get_default_ansys:15
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
 #: ansys.mapdl.core.launcher.get_default_ansys_version:12
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/ansys/tools/path/path.pydocstring
-#: of ansys.tools.path.path.find_mapdl:26
 msgid "Version float.  For example, 21.1 corresponds to 2021R1."
 msgstr ""
 
@@ -12625,6 +12623,11 @@ msgid ""
 "minor. If using ``float``, it should follow the convention ``XX.Y``, where "
 "``XX`` is the major version, and ``Y`` is the minor. If ``None``, use latest"
 " available version on the machine."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/ansys/tools/path/path.pydocstring
+#: of ansys.tools.path.path.find_mapdl:26
+msgid "Version float.  For example, 25.1 corresponds to 2025R1."
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.tools.path.get_available_ansys_installations.rst:2
