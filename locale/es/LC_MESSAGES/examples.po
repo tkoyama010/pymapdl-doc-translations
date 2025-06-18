@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.70.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-17 00:21+0000\n"
+"POT-Creation-Date: 2025-06-18 00:21+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -531,6 +531,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/examples/extended_examples/ex_01-gmsh_example/ex_01-gmsh_example.rst:8
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_pressure_vessel.rst:30
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:34
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/exhaust_manifold_thermal_stress.rst:30
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:30
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/modal_beam.rst:32
@@ -546,6 +547,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/examples/extended_examples/ex_01-gmsh_example/ex_01-gmsh_example.rst:13
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:33
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:31
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/slashmap_cfx_mapping.rst:31
 msgid "Description"
 msgstr ""
@@ -1312,7 +1314,7 @@ msgid ""
 "that the :class:`~ansys.mapdl.core.pool.MapdlPool` instance is creating."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:32
+#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:35
 msgid "Cart-Pole Simulation"
 msgstr ""
 
@@ -1418,6 +1420,16 @@ msgstr ""
 #: ../../pymapdl/doc/source/examples/extended_examples/index.rst:28
 msgid ""
 "Demonstrates using PyMAPDL for stochastic FEA using Monte Carlo simulation."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:30
+msgid ":ref:`static_rom_data_generation`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:30
+msgid ""
+"Demonstrates using PyMAPDL and PyDPF to generate training data for an Ansys "
+"Twin Builder static reduced order model (ROM)."
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:4
@@ -2189,6 +2201,323 @@ msgid ""
 " Methods : An Introduction\""
 msgstr ""
 
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:5
+msgid "Create training data for a 3D static reduced order model (ROM)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:7
+msgid ""
+"This example shows how to run a parametric sweep on an MAPDL model and "
+"export the output displacement and stress data into the format required to "
+"build a static ROM with Ansys Twin Builder."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:11
+msgid ""
+"The general data structure for the ROM building is shown in the following "
+"figure."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:15
+msgid "**Organization of files and directories for static ROM creation.**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:17
+msgid "Here are the specific files outputted by the example::"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:44
+msgid "MAPDL notch model"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:45
+msgid ""
+"This example uses the model created in "
+":ref:`ref_3d_plane_stress_concentration` as a base. This example was "
+"modified to add a nodal component, ``load_node``, to which the force is "
+"applied. This makes is simple to retrieve and modify the force scoping for "
+"parametric runs."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:49
+msgid ""
+"The model, which uses load force in Newtons as the input, is parametrically "
+"varied."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:53
+msgid "Additional packages used"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:55
+msgid ""
+"In addition to PyMAPDL, the example requires that the following packages are"
+" installed and running:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:58
+msgid "`NumPy <https://numpy.org>`_, which is used for using NumPy arrays"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:59
+msgid ""
+"`PyDPF <dpf_core_docs_>`_, which is used to efficiently manipulate result "
+"data"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:60
+msgid ""
+"`PyTwin <pytwin_docs_>`_, which is used to convert result data to binary "
+"snapshots"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:64
+msgid "Core functions"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:67
+msgid "Solve the MAPDL parametric variations"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:68
+msgid ""
+"The :func:`run_mapdl_variations` function solves the MAPDL model for a set "
+"of parameter variations. It loads a saved MAPDL database and loops through a"
+" list of force values. For each value, it applies that force to a nodal "
+"component, solves the model, and records the location of the result file, "
+"along with the parameter names and values."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:78
+msgid "Export ROM data for the solved variations"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:79
+msgid ""
+"The :func:`export_static_ROM_data` function exports the ROM data from a set "
+"of solved parametric variations. The function loads each results file into "
+"DPF and gets the scoping. It then calls the "
+":func:`export_static_ROM_variation` function to export the ROM data for that"
+" result file. The ``new_metadata`` Boolean is set to ``True`` on the first "
+"loop to trigger the creation of the ``points.bin`` and ``settings.json`` "
+"files and a new ``doe.csv`` file."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:85
+msgid ""
+"The :func:`pytwin.write_binary` function writes the result field data to a "
+"ROM binary file."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:94
+msgid "Export ROM data for a specific variation"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:95
+msgid ""
+"The :func:`export_static_ROM_variation` function exports ROM snapshot data "
+"for a specific parametric variation. The function exports a snapshot for "
+"``displacement`` and for ``stress`` to correspondingly named folders and "
+"records the snapshot name and parameter data to the ``doe.csv`` file in that"
+" folder."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:100
+msgid ""
+"The results are sorted by the scoping IDs to ensure consistent ordering of "
+"results and points."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:102
+msgid ""
+"The ``new_metadata`` Boolean controls the creation of the ``points.bin`` and"
+" ``settings.json`` files and a new ``doe.csv`` file. If it is ``False``, the"
+" first two files are not written, and parameter data is appended to the "
+"existing ``doe.csv`` file."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:112
+msgid "Additional functions"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:115
+msgid "Set the export scope"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:116
+msgid ""
+"The ROM data is exported on all nodes connected to elements. The "
+":func:`get_scoping` function gets the nodes that are connected to all the "
+"elements in the mesh. This avoids including any unconnected nodes, which "
+"have null values, in the scoping."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:120
+msgid ""
+"The returned scoping initially contains duplicate node IDs because a node "
+"can be connected to multiple elements and is included once for each one. "
+"Creating a Python :type:`set` of node IDs removes the duplicates."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:129
+msgid "Write points coordinates file"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:130
+msgid ""
+"The :func:`write_points` function writes the x, y, z coordinates of the "
+"scoped nodes to the ROM ``points.bin`` file using the "
+":func:`pytwin.write_binary` function."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:138
+msgid "Write ROM settings"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:139
+msgid ""
+"The :func:`write_settings` function writes the ROM ``settings.json`` file. "
+"This records information such as the field dimensionality (scalar, vector, "
+"tensor), result name, unit, and whether it represent a deformation. The full"
+" file specification is available in the Twin Builder Static ROM Builder "
+"documentation."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:144
+msgid ""
+"The original node numbers from export scoping are compressed and stored in "
+"the ``ids`` field."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:151
+msgid "Compress ID list"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:152
+msgid ""
+"The ``settings.json`` specification supports storing lists of consecutive "
+"integers in a compressed fashion. The :func:`compress_id_list` function "
+"implements this compression."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:155
+msgid ""
+"Runs of three or more incrementally increasing values are replaced by a "
+"sequence of ``start, -1, end``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:164
+msgid "Run the script"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:166
+msgid ""
+"To run the script, install PyMAPDL and the additional dependencies listed in"
+" `Additional packages used`_. Then download and run "
+":download:`static_rom_data_generation.py <static_rom_data_generation.py>`. "
+"The ROM data is stored in a folder named ``ansys_pymadl_Static_ROM`` in the "
+"system temporary folder."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:173
+msgid "Script assumptions and modification ideas"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:176
+msgid "Local execution"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:177
+msgid ""
+"The scripts assume that both the MAPDL solving and DPF export are performed "
+"locally on the same machine as the Python script execution."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:180
+msgid "For potential modification options, see :ref:`ref_dpf_basic_example`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:183
+msgid "Additional result types"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:184
+msgid ""
+"The script exports ``stress`` and ``displacement`` results. You can include "
+"or exclude additional result types by modifying the "
+":func:`export_static_ROM_variation` function."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:188
+msgid ""
+"For example, you can add elastic strain by making these changes to the "
+":func:`export_static_ROM_variation` function from line 181:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:207
+msgid "Modify result scoping"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:208
+msgid ""
+"The script exports results on all nodes that are connected to elements. This"
+" does not account for nodes that are connected to elements but do not have "
+"results associated with them. For example, MPC184 pilot nodes would not "
+"usually have a stress result."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:212
+msgid "The script also does not allow scoping to components."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:214
+msgid ""
+"You could modify the :func:`get_scoping` function to allow broader scoping "
+"options."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:217
+msgid "Modify settings"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:218
+msgid ""
+"The ``settings.json`` files generated by the :func:`write_settings` function"
+" implicitly assume SI units. (``unitFactor`` is a scaling factor from SI "
+"units.) These files do not include any information about unit dimensions."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:222
+msgid "Here is an example for displacement:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:228
+msgid "Here is an example for stress:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:234
+msgid ""
+"You can add logic to check the model units and change the ``unitDimension`` "
+"and ``unitFactor`` fields accordingly. While this information is not used to"
+" build the ROM, it can be used when consuming the ROM in downstream "
+"applications."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:238
+msgid ""
+"If results are included on nodal components, you can reference them in the "
+"``namedSelections`` field. Each entry consists of a name and the indices of "
+"the scoped nodes in the overall scoping (not node IDs). You can use the "
+":func:`compress_id_list` function to compress long lists of nodes."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/static_rom/static_rom_data_generation.rst:243
+msgid ""
+"For example, to add a named selection called ``first_nodes`` on the first "
+"one hundred scoped nodes and another called ``second_nodes`` to the fiftieth"
+" to one hundred and fiftieth nodes, you would add this:"
+msgstr ""
+
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:13
 msgid ""
 ":ref:`Go to the end <sphx_glr_download_examples_gallery_examples_00-mapdl-"
@@ -2355,6 +2684,7 @@ msgid "Solve the magnetostatic analysis."
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:306
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:357
 msgid "Postprocessing"
 msgstr ""
 
@@ -2738,6 +3068,7 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_pressure_vessel.rst:37
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:58
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/exhaust_manifold_thermal_stress.rst:40
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/modal_beam.rst:39
 msgid "Procedure"
@@ -4131,6 +4462,237 @@ msgstr ""
 msgid ":download:`Download zipped: bracket_static.zip <bracket_static.zip>`"
 msgstr ""
 
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:13
+msgid ""
+":ref:`Go to the end <sphx_glr_download_examples_gallery_examples_00-mapdl-"
+"examples_composite_dcb.py>` to download the full example code."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:25
+msgid "Static simulation of double cantilever beam test via cohesive elements"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:27
+msgid ""
+"This example is a classic double cantilever beam test commonly used to study"
+" mode I interfacial delamination of composite plates."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:36
+msgid ""
+"This example shows how to use PyMAPDL to simulate delamination in composite "
+"materials. PyDPF modules are also used for the postprocessing of the "
+"results."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:40
+msgid "Problem figure"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:42
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:50
+msgid "DCB experimental test setup"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:47
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:55
+msgid "**Source**: https://www.wikiwand.com/en/Delamination"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:59
+msgid "Launch the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:60
+msgid "Set up the model."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:61
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:338
+msgid "Solve the model."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:62
+msgid "Plot results using PyMAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:63
+msgid "Plot results using PyDPF."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:64
+msgid "Plot reaction force."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:67
+msgid "Additional packages"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:68
+msgid ""
+"These additional packages are imported for use: * - `Matplotlib "
+"<https://matplotlib.org>`_ for plotting * - `Pandas "
+"<https://pandas.pydata.org/>`_ for data analysis and manipulation"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:75
+msgid "Start MAPDL as a service"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:76
+msgid ""
+"This example begins by importing the required packages and then launching "
+"Ansys Mechanical APDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:100
+msgid "Set geometrical inputs"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:101
+msgid "Set geometrical inputs for the model."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:119
+msgid "Set up the model"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:120
+msgid ""
+"Set up the model by choosing the units system and the element types for the "
+"simulations. Because a fully 3D approach is chosen for this example, "
+"``SOLID186`` elements are used for meshing volumes, and ``TARGE170`` and "
+"``CONTA174`` are used for modelling cohesive elements in between contact "
+"surfaces."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:128
+msgid "Define material parameters"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:129
+msgid ""
+"Composite plates are modelled using homogeneous linear elastic orthotropic "
+"properties, whereas a bilinear cohesive law is used for cohesive elements."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:162
+msgid "Create the geometry in the model and meshing"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:163
+msgid ""
+"The two plates are generated as two parallelepipeds. Composite material "
+"properties and the three-dimensional elements are then assigned."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:190
+msgid "Generate cohesive elements in between the contact surfaces"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:191
+msgid ""
+"The generation of cohesive elements is the most delicate part of the "
+"modelling approach. First, the two contact surfaces are identified and "
+"defined as a components (in this case `cm_1` and `cm_2` respectively). Then,"
+" the real constants for the ``CONTA174`` and ``TARGE170`` elements and their"
+" key options are set to capture the correct behavior. Descriptions for each "
+"of these parameters can be found in the Ansys element documentation. "
+"Finally, elements are generated on top of the respective surfaces `cm_1` and"
+" `cm_2`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:263
+msgid "Generate boundary conditions"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:264
+msgid ""
+"Assign boundary conditions to replicate the real test conditions. One end of"
+" the two composite plates is fixed against translation along the x, y, and z"
+" axis. On the opposite side of the plate, displacement conditions are "
+"applied to simulate the interfacial crack opening. These conditions are "
+"applied to the top and bottom nodes corresponding to the geometrical edges "
+"located respectively at these (x, y, z) coordinates:, ``(0.0, `y`, 0.0)`` "
+"and ``(0.0, `y`, 3.4)``. Two different components are assigned to these sets"
+" of nodes for a faster identification of the nodes bearing reaction forces."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:324
+msgid "Solve the non-linear static analysis"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:326
+msgid ""
+"Run a non-linear static analysis. To have smooth crack opening progression "
+"and facilitate convergency for the static solver, request 100 substeps."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:358
+msgid "Use PyMAPDL and PyDPF for postprocessing."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:362
+msgid "Postprocess results using PyMAPDL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:363
+msgid ""
+"This section shows how to use PyMAPDL to postprocess results. Because "
+"measuring the delamination length is important, plot the cohesive damage "
+"parameter. Although the damage parameter is an element parameter, the result"
+" is provided in terms of a nodal result. Thus, the result for just one of "
+"the four-noded cohesive element ``NMISC = 70`` is presented. The result for "
+"the other nodes are present at ``NMISC = 71,72,73``. You can retrieve the "
+"actual damage parameter nodal values from the solved model in form of a "
+"table (or an array)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:403
+msgid "Postprocessing results using PyDPF"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:404
+msgid ""
+"Use PyDPF to visualize the crack opening throughout the simulation as an "
+"animation."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:517
+msgid "Plot the reaction force at the bottom nodes"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:553
+msgid "Animate results using PyDPF with .animate() method"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:554
+msgid ""
+"Use PyDPF method :func:`FieldsContainer.animate() "
+"<ansys.dpf.core.fields_container.FieldsContainer.animate>` to visualize the "
+"crack opening throughout the simulation as an animation."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:572
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/cyclic_static.rst:148
+msgid "Exit MAPDL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:589
+msgid ""
+":download:`Download Jupyter notebook: composite_dcb.ipynb "
+"<composite_dcb.ipynb>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:593
+msgid ""
+":download:`Download Python source code: composite_dcb.py <composite_dcb.py>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:597
+msgid ":download:`Download zipped: composite_dcb.zip <composite_dcb.zip>`"
+msgstr ""
+
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/contact_elements.rst:13
 msgid ""
 ":ref:`Go to the end <sphx_glr_download_examples_gallery_examples_00-mapdl-"
@@ -4454,10 +5016,6 @@ msgstr ""
 msgid "Plot the result using the legacy"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/cyclic_static.rst:148
-msgid "Exit MAPDL"
-msgstr ""
-
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/cyclic_static.rst:149
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:668
 msgid "Finally, exit MAPDL."
@@ -4776,87 +5334,92 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:162
 msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_contact_elements.py`"
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_composite_dcb.py`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:179
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_cyclic_analysis.py`"
+"examples_contact_elements.py`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:196
 msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_cyclic_static.py`"
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
+"examples_cyclic_analysis.py`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:213
+msgid ""
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_cyclic_static.py`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:230
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_exhaust_manifold_thermal_stress.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:230
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:247
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_geometry.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:247
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:264
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_lathe_cutter.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:264
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:281
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_mapdl_3d_beam.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:281
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:298
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_mapdl_beam.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:298
-msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_modal_beam.py`"
-msgstr ""
-
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:315
 msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_path_operations.py`"
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_modal_beam.py`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:332
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_pressure_vessel.py`"
+"examples_path_operations.py`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:349
 msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_pyvista_mesh.py`"
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
+"examples_pressure_vessel.py`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:366
+msgid ""
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_pyvista_mesh.py`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:383
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_slashmap_cfx_mapping.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:383
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:400
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_spotweld.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:400
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:417
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_torsional_load.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:417
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:434
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_transient_thermal.py`"
@@ -5047,10 +5610,6 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:322
 msgid "Set up the solution."
-msgstr ""
-
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:338
-msgid "Solve the model."
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:353
@@ -5590,7 +6149,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:9
 msgid ""
-"**00:00.000** total execution time for 24 files **from "
+"**00:00.000** total execution time for 25 files **from "
 "examples/gallery_examples/00-mapdl-examples**:"
 msgstr ""
 
@@ -5649,6 +6208,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:99
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:102
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:105
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:108
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/sg_execution_times.rst:36
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/sg_execution_times.rst:39
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/sg_execution_times.rst:42
@@ -5688,6 +6248,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:100
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:103
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:106
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:109
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/sg_execution_times.rst:37
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/sg_execution_times.rst:40
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/sg_execution_times.rst:43
@@ -5747,96 +6308,102 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:59
 msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_contact_elements.py` (``contact_elements.py``)"
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_composite_dcb.py`"
+" (``composite_dcb.py``)"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:62
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_cyclic_analysis.py` (``cyclic_analysis.py``)"
+"examples_contact_elements.py` (``contact_elements.py``)"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:65
+msgid ""
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
+"examples_cyclic_analysis.py` (``cyclic_analysis.py``)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:68
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_cyclic_static.py`"
 " (``cyclic_static.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:68
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:71
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_exhaust_manifold_thermal_stress.py` "
 "(``exhaust_manifold_thermal_stress.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:71
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:74
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_geometry.py` "
 "(``geometry.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:74
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:77
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_lathe_cutter.py` "
 "(``lathe_cutter.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:77
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:80
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_mapdl_3d_beam.py`"
 " (``mapdl_3d_beam.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:80
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:83
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_mapdl_beam.py` "
 "(``mapdl_beam.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:83
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:86
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_modal_beam.py` "
 "(``modal_beam.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:86
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:89
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_path_operations.py` (``path_operations.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:89
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:92
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_pressure_vessel.py` (``pressure_vessel.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:92
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:95
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_pyvista_mesh.py` "
 "(``pyvista_mesh.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:95
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:98
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_slashmap_cfx_mapping.py` (``slashmap_cfx_mapping.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:98
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:101
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_spotweld.py` "
 "(``spotweld.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:101
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:104
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_torsional_load.py` (``torsional_load.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:104
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:107
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_transient_thermal.py` (``transient_thermal.py``)"
