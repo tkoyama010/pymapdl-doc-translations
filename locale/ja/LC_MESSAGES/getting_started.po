@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.70.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-16 00:22+0000\n"
+"POT-Creation-Date: 2025-07-02 20:46+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -2488,7 +2488,13 @@ msgid ""
 "Forum' question <paraview_question_read_rst_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:208
+#: ../../pymapdl/doc/source/getting_started/learning.rst:205
+msgid ""
+"APDL: The Language of Simulation. `Link to 'What is APDL?' article in Ansys "
+"Blog <what_is_apdl_ansys_blog_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:210
 msgid ""
 "Feel free to share any educational or learning resources by `opening an "
 "issue <pymapdl_issues_>`_ or `starting a discussion <pymapdl_discussions_>`_"
