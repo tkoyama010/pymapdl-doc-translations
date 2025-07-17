@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.70.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-05 00:20+0000\n"
+"POT-Creation-Date: 2025-07-17 00:22+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -503,7 +503,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.Mapdl.non_interactive:34
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.Mapdl.result:23
+#: ansys.mapdl.core.Mapdl.result:26
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.Mapdl.version:19
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
@@ -13198,17 +13198,24 @@ msgstr "ansys.mapdl.core.Mapdl.result"
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.Mapdl.result:2
 msgid ""
-"Binary interface to the result file using "
-":class:`ansys.mapdl.reader.rst.Result`."
+"Binary interface to the result file using ``ansys-dpf-core`` or ``ansys-"
+"mapdl-reader``."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.Mapdl.result:10
+#: ansys.mapdl.core.Mapdl.result:5
+msgid ""
+"If `ansys-dpf-core` is not installed, then a "
+":class:`ansys.mapdl.reader.rst.Result` object is returned."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
+#: ansys.mapdl.core.Mapdl.result:13
 msgid ":class:`ansys.mapdl.reader.rst.Result`."
 msgstr ":class:`ansys.mapdl.reader.rst.Result`."
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.Mapdl.result:11
+#: ansys.mapdl.core.Mapdl.result:14
 msgid ""
 "Result reader class.  See `Legacy PyMAPDL Reader "
 "<https://readerdocs.pyansys.com/>`."
