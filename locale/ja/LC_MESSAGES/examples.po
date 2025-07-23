@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.70.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-08 00:21+0000\n"
+"POT-Creation-Date: 2025-07-23 00:22+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -554,6 +554,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/examples/extended_examples/ex_01-gmsh_example/ex_01-gmsh_example.rst:13
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:33
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:31
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:35
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/slashmap_cfx_mapping.rst:31
 msgid "Description"
 msgstr ""
@@ -2591,6 +2592,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:63
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:266
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:151
 msgid "Loads and boundary conditions"
 msgstr ""
 
@@ -2602,6 +2604,7 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:71
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:49
 msgid "Import modules"
 msgstr ""
 
@@ -2618,6 +2621,7 @@ msgid "Launch MAPDL service"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:109
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:85
 msgid "Set up the FE model"
 msgstr ""
 
@@ -2633,10 +2637,12 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:129
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/cyclic_static.rst:78
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:104
 msgid "Set material properties"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:131
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:106
 msgid "Units are in the international unit system."
 msgstr ""
 
@@ -2650,10 +2656,12 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:180
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/modal_beam.rst:90
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:125
 msgid "Create geometry"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:182
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:127
 msgid "Create the model geometry."
 msgstr ""
 
@@ -2677,12 +2685,14 @@ msgid "Scale the model to be one meter in size."
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:268
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:153
 msgid "Define loads and boundary conditions."
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/2d_magnetostatic_solenoid-BodyFlux_Averaging.rst:289
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/acoustic_analysis.rst:147
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/modal_beam.rst:150
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:195
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/03-using_inline_functions_and_Query.rst:109
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/04-rotational-displacement.rst:90
 msgid "Solve the model"
@@ -4684,6 +4694,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:572
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/cyclic_static.rst:148
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:441
 msgid "Exit MAPDL"
 msgstr ""
 
@@ -5136,6 +5147,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/exhaust_manifold_thermal_stress.rst:205
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/modal_beam.rst:47
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:308
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/torsional_load.rst:176
 msgid "Post-processing"
 msgstr ""
@@ -5439,25 +5451,30 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:366
 msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_pyvista_mesh.py`"
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_psd-vm203.py`"
 msgstr ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_pyvista_mesh.py`"
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:383
 msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_slashmap_cfx_mapping.py`"
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_pyvista_mesh.py`"
 msgstr ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_slashmap_cfx_mapping.py`"
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_pyvista_mesh.py`"
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:400
 msgid ""
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
+"examples_slashmap_cfx_mapping.py`"
+msgstr ""
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
+"examples_slashmap_cfx_mapping.py`"
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:417
+msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_spotweld.py`"
 msgstr ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_spotweld.py`"
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:417
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:434
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_torsional_load.py`"
@@ -5465,7 +5482,7 @@ msgstr ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_torsional_load.py`"
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:434
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:451
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_transient_thermal.py`"
@@ -6136,6 +6153,157 @@ msgstr ""
 msgid ":download:`Download zipped: pressure_vessel.zip <pressure_vessel.zip>`"
 msgstr ""
 
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:13
+msgid ""
+":ref:`Go to the end <sphx_glr_download_examples_gallery_examples_00-mapdl-"
+"examples_psd-vm203.py>` to download the full example code."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:25
+msgid "Dynamic Load Effect on a Supported Thick Plate"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:27
+msgid ""
+"This example demonstrates how to perform a random vibration analysis using "
+"PyMAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:31
+msgid ""
+"This example is based on the ANSYS Verification Manual, problem 203 (VM203)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:37
+msgid ""
+"A simply-supported thick square plate of length L, thickness t, and mass per"
+" unit area m is subject to random uniform pressure power spectral density. "
+"Determine the peak one-sigma displacement at undamped natural frequency."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:42
+msgid ""
+"A frequency range of 1.0 Hz to 80 Hz is used as an approximation of the "
+"white noise PSD forcing function frequency.  The PSD curve is a constant "
+"$$(1E6 N/m^2)^2 / Hz$$."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:46
+msgid "The model is solved using SHELL281 elements and generic materials."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:70
+msgid "Parameters"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:72
+msgid "Loading parameters"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:87
+msgid ""
+"Set the element type to SHELL281, which is a 3D structural high-order shell "
+"element."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:155
+msgid "Apply a uniform pressure load of 1,000,000 N/m^2"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:166
+msgid "Apply constraints UX, UY, ROTZ DOFs all fixed"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:178
+msgid "Simply supported on the four corners"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:197
+msgid ""
+"Solve the modal analysis using the PCG Lanczos solver to find and expand the"
+" first two modes of the model."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:220
+msgid "PSD Spectrum analysis"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:222
+msgid "Now let's perform PSD spectrum analysis using the two solved modes:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:236
+msgid "Define the PSD spectrum"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:248
+msgid "Applying proportional damping"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:260
+msgid "PSD frequency value table 1 to 80 Hz"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:276
+msgid "Define the PSD load vector generated at modal analysis"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:290
+msgid "Write out the displacement result"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:310
+msgid ""
+"Now we can plot the results of the one-sigma displacement solution. We will "
+"plot the Z displacement of the nodes."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:326
+msgid "Use post26 to capture then plot the response psd and the max value"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:344
+msgid ""
+"While you can use the `extrem` command to get the maximum and minimum "
+"values:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:355
+msgid ""
+"You can also use Numpy methods to find the max value of the response psd."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:379
+msgid ""
+"To get the maximum value of the response psd you can use the `get_value` ( "
+"wrapper of `*GET`) method with the `EXTREM` option:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:391
+msgid "However, you can also use the numpy methods here as well:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:402
+msgid "plot the response psd"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:422
+msgid "Compare and print results to manual values"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:458
+msgid ""
+":download:`Download Jupyter notebook: psd-vm203.ipynb <psd-vm203.ipynb>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:462
+msgid ":download:`Download Python source code: psd-vm203.py <psd-vm203.py>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:466
+msgid ":download:`Download zipped: psd-vm203.zip <psd-vm203.zip>`"
+msgstr ""
+
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/pyvista_mesh.rst:13
 msgid ""
 ":ref:`Go to the end <sphx_glr_download_examples_gallery_examples_00-mapdl-"
@@ -6197,7 +6365,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:9
 msgid ""
-"**00:00.000** total execution time for 25 files **from "
+"**00:00.000** total execution time for 26 files **from "
 "examples/gallery_examples/00-mapdl-examples**:"
 msgstr ""
 
@@ -6257,6 +6425,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:102
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:105
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:108
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:111
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/sg_execution_times.rst:36
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/sg_execution_times.rst:39
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/sg_execution_times.rst:42
@@ -6297,6 +6466,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:103
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:106
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:109
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:112
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/sg_execution_times.rst:37
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/sg_execution_times.rst:40
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/sg_execution_times.rst:43
@@ -6429,29 +6599,35 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:95
 msgid ""
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_psd-vm203.py` "
+"(``psd-vm203.py``)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:98
+msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_pyvista_mesh.py` "
 "(``pyvista_mesh.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:98
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:101
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_slashmap_cfx_mapping.py` (``slashmap_cfx_mapping.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:101
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:104
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_spotweld.py` "
 "(``spotweld.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:104
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:107
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_torsional_load.py` (``torsional_load.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:107
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:110
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_transient_thermal.py` (``transient_thermal.py``)"
