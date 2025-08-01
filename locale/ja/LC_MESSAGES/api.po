@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.70.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-22 00:22+0000\n"
+"POT-Creation-Date: 2025-08-01 00:25+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -36,6 +36,8 @@ msgstr "mapdlログにファイルハンドラを追加します。 これによ
 #: ../../pymapdl/src/ansys/mapdl/core/_commands/apdl/parameter_definition.pydocstring
 #: of
 #: ansys.mapdl.core._commands.apdl.parameter_definition.ParameterDefinition.get:0
+#: ../../pymapdl/src/ansys/mapdl/core/_commands/post1/set_up.pydocstring of
+#: ansys.mapdl.core._commands.post1.set_up.SetUp.file:0
 #: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
 #: ansys.mapdl.core.component.Component:0
 #: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
@@ -166,8 +168,6 @@ msgstr "mapdlログにファイルハンドラを追加します。 これによ
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
 #: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.eplot:0
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.file:0
-#: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
 #: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.kplot:0
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
 #: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.lplot:0
@@ -246,6 +246,10 @@ msgstr "**filepath** : :class:`python:str`"
 #: ../../pymapdl/src/ansys/mapdl/core/_commands/apdl/parameter_definition.pydocstring
 #: of
 #: ansys.mapdl.core._commands.apdl.parameter_definition.ParameterDefinition.get:31
+#: ../../pymapdl/src/ansys/mapdl/core/_commands/post1/set_up.pydocstring of
+#: ansys.mapdl.core._commands.post1.set_up.SetUp.file:7
+#: ../../pymapdl/src/ansys/mapdl/core/_commands/post1/set_up.pydocstring of
+#: ansys.mapdl.core._commands.post1.set_up.SetUp.file:12
 #: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
 #: ansys.mapdl.core.component.Component:7
 #: ../../pymapdl/src/ansys/mapdl/core/convert.pydocstring of
@@ -266,8 +270,6 @@ msgstr "**filepath** : :class:`python:str`"
 #: ansys.mapdl.core.mapdl_core._MapdlCore.run_as_routine:7
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
 #: ansys.mapdl.core.mapdl_core._MapdlCore.run_multiline:13
-#: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.file:7
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
 #: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_value:17
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
@@ -472,8 +474,6 @@ msgstr ""
 #: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.aplot:79
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
 #: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.eplot:90
-#: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.file:37
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
 #: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.lplot:54
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
@@ -1042,6 +1042,8 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/_commands/apdl/parameter_definition.pydocstring
 #: of
 #: ansys.mapdl.core._commands.apdl.parameter_definition.ParameterDefinition.get:47
+#: ../../pymapdl/src/ansys/mapdl/core/_commands/post1/set_up.pydocstring of
+#: ansys.mapdl.core._commands.post1.set_up.SetUp.file:31
 #: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
 #: ansys.mapdl.core.component.ComponentManager:17
 #: ../../pymapdl/src/ansys/mapdl/core/krylov.pydocstring of
@@ -1050,8 +1052,6 @@ msgstr ""
 #: ansys.mapdl.core.launcher.launch_mapdl:280
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
 #: ansys.mapdl.core.mapdl_core._MapdlCore.run:47
-#: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.file:31
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
 #: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.kplot:42
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
@@ -4686,7 +4686,7 @@ msgstr ""
 #: ansys.mapdl.core._commands.apdl.parameter_definition.ParameterDefinition.get:721
 msgid ""
 "``Item2`` = 0 or blank; ``IT2NUM`` = ``Sect2``. Material ID to be used for "
-"general contact between ``Sect1`` and ``Sect2``. Alternative get function: "
+"general contact between ``Sect1`` and ``Sect2`` . Alternative get function: "
 "SECTOMAT( ``Sect1``, ``Sect2`` )."
 msgstr ""
 
@@ -11166,7 +11166,6 @@ msgstr ""
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.launch_mapdl.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mapdl_grpc.MapdlGrpc.download_project.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mapdl_grpc.MapdlGrpc.download_result.rst:0
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mapdl_grpc.MapdlGrpc.file.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mapdl_grpc.MapdlGrpc.list_files.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mapdl_grpc.MapdlGrpc.upload.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.tools.path.change_default_ansys_path.rst:0
@@ -12252,8 +12251,6 @@ msgstr ""
 #: ansys.mapdl.core.mapdl_core._MapdlCore.input_strings:29
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
 #: ansys.mapdl.core.mapdl_core._MapdlCore.run:44
-#: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.file:28
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.download_result:31
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
@@ -18621,57 +18618,77 @@ msgid "ansys.mapdl.core.mapdl\\_grpc.MapdlGrpc.file"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/mapdl.rst:114:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.file:2
+#: ../../pymapdl/src/ansys/mapdl/core/_commands/post1/set_up.pydocstring of
+#: ansys.mapdl.core._commands.post1.set_up.SetUp.file:2
 msgid "Specifies the data file where results are to be found."
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.file:4
-msgid "APDL Command: FILE"
+#: ../../pymapdl/src/ansys/mapdl/core/_commands/post1/set_up.pydocstring of
+#: ansys.mapdl.core._commands.post1.set_up.SetUp.file:4
+msgid ""
+"Mechanical APDL Command: `FILE "
+"<https://ansyshelp.ansys.com/Views/Secured/corp/v232/en//ans_cmd/Hlp_C_FILE.html>`_"
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.file:8
+#: ../../pymapdl/src/ansys/mapdl/core/_commands/post1/set_up.pydocstring of
+#: ansys.mapdl.core._commands.post1.set_up.SetUp.file:8
 msgid "**fname** : :class:`python:str`"
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.file:9
+#: ../../pymapdl/src/ansys/mapdl/core/_commands/post1/set_up.pydocstring of
+#: ansys.mapdl.core._commands.post1.set_up.SetUp.file:9
 msgid ""
 "File name and directory path (248 characters maximum, including the "
-"characters needed for the directory path).  An unspecified directory path "
+"characters needed for the directory path). An unspecified directory path "
 "defaults to the working directory; in this case, you can use all 248 "
-"characters for the file name."
+"characters for the file name. The file name defaults to :file:`Jobname`."
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.file:14
-msgid "**ext** : :class:`python:str`, default: \"rst\""
+#: ../../pymapdl/src/ansys/mapdl/core/_commands/post1/set_up.pydocstring of
+#: ansys.mapdl.core._commands.post1.set_up.SetUp.file:13
+msgid "**ext** : :class:`python:str`"
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.file:13
-msgid "python:str, default: \"rst\""
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.file:15
+#: ../../pymapdl/src/ansys/mapdl/core/_commands/post1/set_up.pydocstring of
+#: ansys.mapdl.core._commands.post1.set_up.SetUp.file:14
 msgid ""
-"Filename extension (eight-character maximum). If ``fname`` has an extension "
-"this is ignored."
+"Filename extension (eight-character maximum). If ``Fname`` is blank, the "
+"extension defaults to RST (for structural, fluid, or coupled-field "
+"analyses), to RTH (for thermal or electrical analyses), or to RMG (for "
+"magnetic analyses). For postprocessing contact results corresponding to the "
+"initial contact state in POST1, use the RCN extension. For postprocessing "
+"modal coordinates results in POST1, use the RDSP or RFRQ extension."
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.file:32
+#: ../../pymapdl/src/ansys/mapdl/core/_commands/post1/set_up.pydocstring of
+#: ansys.mapdl.core._commands.post1.set_up.SetUp.file:34
 msgid ""
-"Specifies the Ansys data file where the results are to be found for "
-"postprocessing."
+"Specifies the Mechanical APDL data file where the results are to be found "
+"for postprocessing."
 msgstr ""
 
-#: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.file:38
-msgid "Load a result file that is outside of the current working directory."
+#: ../../pymapdl/src/ansys/mapdl/core/_commands/post1/set_up.pydocstring of
+#: ansys.mapdl.core._commands.post1.set_up.SetUp.file:36
+msgid ""
+"Issuing the :ref:`file` command with ``Ext`` = RSDP or RFRQ in POST1 "
+"specifies the :file:`.rsdp` or :file:`.rfrq` file used by the :ref:`prmc` "
+"and :ref:`plmc` commands. (See :ref:`POST1 example below.) "
+"<FILE_POST1example>`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/_commands/post1/set_up.pydocstring of
+#: ansys.mapdl.core._commands.post1.set_up.SetUp.file:40
+msgid "**Example Usage**"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/_commands/post1/set_up.pydocstring of
+#: ansys.mapdl.core._commands.post1.set_up.SetUp.file:47
+msgid "POST1"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/_commands/post1/set_up.pydocstring of
+#: ansys.mapdl.core._commands.post1.set_up.SetUp.file:62
+msgid "POST26"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mapdl_grpc.MapdlGrpc.ip.rst:2
