@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.70.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-23 00:22+0000\n"
+"POT-Creation-Date: 2025-08-05 00:23+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -450,6 +450,620 @@ msgstr ""
 msgid "``userhyper.py`` file"
 msgstr ""
 
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:5
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:24
+msgid "I-Beam Analysis with Automated Report Generation"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:7
+msgid ""
+"This comprehensive example demonstrates how to perform a complete structural"
+" analysis of an I-beam using PyMAPDL and automatically generate detailed "
+"engineering reports. The example showcases advanced PyMAPDL capabilities "
+"including parameterized modeling, result extraction, and automated "
+"documentation generation."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:12
+msgid "**What this example demonstrates:**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:14
+msgid "Parameterized I-beam geometry creation"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:15
+msgid "Material property definition and assignment"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:16
+msgid "Fully constrained beam at both ends"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:17
+msgid "Distributed load applied using nodal forces"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:18
+msgid "Comprehensive result extraction and postprocessing"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:19
+msgid "Automated report generation in Markdown and Word formats"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:20
+msgid "Analytical verification of finite element results"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:23
+#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:15
+#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:81
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:11
+msgid "Introduction"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:25
+msgid ""
+"Engineering analysis often requires not only obtaining results but also "
+"documenting the analysis process, assumptions, and findings in a "
+"professional report format. This example shows how PyMAPDL can be used to "
+"create a complete analysis workflow that includes automated report "
+"generation."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:30
+msgid ""
+"The analysis focuses on a fully constrained I-beam subjected to a uniformly "
+"distributed load, a fundamental structural engineering problem. The results "
+"are verified against analytical solutions and presented in professional "
+"report formats."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:35
+msgid "Problem Definition"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:37
+msgid "Analyze a I-beam with the following characteristics:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:39
+msgid "**Geometry:**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:41
+msgid "Length: 5.0 meters"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:42
+msgid "I-section with typical structural steel proportions"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:43
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:39
+msgid "Fully constrained at both ends"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:45
+msgid "**Loading:**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:47
+msgid "Uniformly distributed load of 50 kN/m (downward)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:48
+msgid "Static analysis (no dynamic effects)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:50
+msgid "**Material:**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:52
+msgid "Structural steel (S355 grade)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:53
+msgid "Linear elastic behavior assumed"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:55
+msgid "**Objectives:**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:57
+msgid "Determine maximum displacement and location"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:58
+msgid "Calculate maximum bending stress"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:59
+msgid "Verify safety against yielding"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:60
+msgid "Generate comprehensive documentation"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:63
+msgid "Model Setup and Parametrization"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:65
+msgid ""
+"The example begins by defining all analysis parameters in dictionaries for "
+"easy modification and reuse:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:74
+msgid "This parameterized approach allows for:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:76
+msgid "Easy modification of beam dimensions"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:77
+msgid "Material property changes"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:78
+msgid "Load case variations"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:79
+msgid "Design optimization studies"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:82
+msgid "Preprocessing - Geometry and Meshing"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:85
+msgid "Element Type Selection"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:87
+msgid "The analysis uses BEAM188 elements, which are:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:89
+msgid "3D linear finite strain beam elements"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:90
+msgid "Suitable for thin to moderately thick beam structures"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:91
+msgid "Capable of handling large deflection effects (if needed)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:92
+msgid "Provide comprehensive stress output"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:101
+msgid "Cross-Section Definition"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:103
+msgid "The I-beam cross-section is defined using PyMAPDL's section commands:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:111
+msgid "The ``SECDATA`` command defines the I-beam geometry where:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:113
+msgid "First two parameters: top and bottom flange widths"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:114
+msgid "Third parameter: total beam height"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:115
+msgid "Fourth and fifth parameters: flange thicknesses"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:116
+msgid "Sixth parameter: web thickness"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:119
+msgid "Node and Element Generation"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:121
+msgid "Nodes are created along the beam length with uniform spacing:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:129
+msgid ""
+"The mesh uses 20 elements along the beam length, providing sufficient "
+"resolution for accurate results while maintaining computational efficiency."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:133
+msgid "Boundary Conditions and Loading"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:136
+msgid "Fully Constrained End Conditions"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:138
+msgid "Fully clamped boundary conditions on the ends are implemented as:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:147
+msgid "Distributed Load Application"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:149
+msgid "The uniformly distributed load is applied as equivalent nodal forces:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:157
+msgid "This approach:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:159
+msgid "Converts the continuous load to discrete nodal forces"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:160
+msgid "Maintains load equilibrium"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:161
+msgid "Provides accurate representation of the distributed loading"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:163
+msgid ""
+"Alternatively, the load can be applied using the ``SFBEAM`` command for "
+"surface loads on BEAM and PIPE elements."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:166
+msgid "Solution Process"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:168
+msgid "The static structural solution is configured and executed:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:176
+msgid "The solution uses:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:178
+msgid "Static analysis type (no time-dependent effects)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:179
+msgid "Linear analysis (small deflection theory)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:180
+msgid "Direct solver for optimal accuracy"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:183
+msgid "Post-Processing and Result Extraction"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:186
+msgid "Displacement Results"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:188
+msgid ""
+"The maximum displacement is extracted using the `post_processing` module:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:197
+msgid "Moment Results"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:199
+msgid ""
+"The moment at both nodes are extracted using ``ETABLE`` command, with "
+"``SMISC`` items:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:208
+msgid "Bending Stress Results"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:210
+msgid "Again ``ETABLE`` is used to retrieve MAPDL values:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:219
+msgid "Bending Strain Results"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:228
+msgid "Report Generation Features"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:231
+msgid "Markdown Report"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:233
+msgid "The Markdown report includes:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:235
+msgid "Executive summary with key results"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:236
+msgid "Detailed model description with parameter tables"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:237
+msgid "Comprehensive results presentation"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:238
+msgid "Analytical verification section"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:239
+msgid "Professional formatting with tables and equations"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:247
+msgid "Word Document Report"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:249
+msgid "The Word document report provides:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:251
+msgid "Professional document formatting"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:252
+msgid "Tables for organized data presentation"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:253
+msgid "Structured sections and headings"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:254
+msgid "Executive summary format"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:261
+msgid "**Note:** Word report generation requires the ``python-docx`` package:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:268
+msgid "Plot Generation"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:270
+msgid "The example includes the capability to generate analysis plots:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:277
+msgid "Generated plots include:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:279
+msgid "Displacement contours showing deformed shape"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:280
+msgid "Stress contours highlighting critical regions"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:281
+msgid "Node and element plots for model verification"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:284
+msgid "Running the Example"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:287
+msgid "Basic Execution"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:289
+msgid "To run the complete analysis and generate reports:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:298
+msgid "Or execute the script directly:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:305
+msgid "Output Files"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:307
+msgid ""
+"The analysis generates several output files in the ``beam_analysis_output`` "
+"directory:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:309
+msgid "``ibeam_analysis_report.md`` - Markdown report"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:310
+msgid "``ibeam_analysis_report.docx`` - Word document"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:311
+msgid "``displacement_plot.png`` - Displacement visualization"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:312
+msgid "``stress_plot.png`` - Stress visualization"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:315
+msgid "Customization Options"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:318
+msgid "Parameter Modification"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:320
+msgid "Easily modify analysis parameters by changing the dictionaries:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:335
+msgid "Multiple Load Cases"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:337
+msgid "The framework can be extended for multiple load cases:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:352
+msgid "This parameterized approach enables design optimization studies."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:356
+msgid "Advanced Analysis Options"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:358
+msgid "The example can be extended for more sophisticated analyses."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:361
+msgid "Nonlinear Analysis"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:372
+msgid "Dynamic Analysis"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:382
+msgid "Additional Report Features"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:385
+msgid "PDF Generation"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:387
+msgid ""
+"If you install `pandoc <https://pandoc.org>`_, you can convert the Markdown "
+"report to a PDF file as follows:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:399
+msgid "Excel Export"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:401
+msgid ""
+"You can export results to Excel using `pandas`. This is quite useful when "
+"reporting parametric studies:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:442
+msgid "Email Reports"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:444
+msgid "Using Python you can send the generated reports via email:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:542
+msgid "Conclusion"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:544
+msgid ""
+"This example demonstrates a complete PyMAPDL workflow that goes beyond "
+"simple analysis to include professional documentation and reporting. It "
+"provides a foundation for developing robust engineering analysis tools and "
+"workflows using PyMAPDL by combining:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:549
+msgid "Parameterized modeling"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:550
+msgid "Comprehensive result extraction"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:551
+msgid "Analytical verification"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:552
+msgid "Automated report generation"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:554
+msgid ""
+"The approach shown here can be adapted for various structural analysis "
+"problems and extended with additional features as needed for specific "
+"engineering applications."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:558
+#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:431
+msgid "References"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:560
+msgid "PyMAPDL Documentation: https://mapdl.docs.pyansys.com/"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:561
+msgid "Ansys Mechanical APDL Element Reference"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:564
+#: ../../pymapdl/doc/source/examples/extended_examples/executable/executable.rst:238
+#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:153
+msgid "Additional files"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:566
+msgid ""
+":download:`beam_with_report.py <ref_beam_report_example_>`: Complete Python "
+"script."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:568
+msgid "Examples of the generated report files are:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:570
+msgid ""
+":download:`ibeam_analysis_report.md <ibeam_analysis_report.md>`: Markdown "
+"report file."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:571
+msgid ""
+":download:`ibeam_analysis_report.docx <ibeam_analysis_report.docx>`: Word "
+"document file."
+msgstr ""
+
 #: ../../pymapdl/doc/source/examples/extended_examples/dash/dash_example.rst:4
 msgid "Use Dash to build a PyMAPDL web app"
 msgstr ""
@@ -855,11 +1469,6 @@ msgid ""
 "this approach (non-tested):"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/executable/executable.rst:238
-#: ../../pymapdl/doc/source/examples/extended_examples/gui/executable.rst:153
-msgid "Additional files"
-msgstr ""
-
 #: ../../pymapdl/doc/source/examples/extended_examples/executable/executable.rst:240
 msgid "You can use these links to download the example files:"
 msgstr ""
@@ -1001,12 +1610,6 @@ msgid ""
 "population solutions. To manage multiple MAPDL instances, you should use the"
 " :class:`~ansys.mapdl.core.pool.MapdlPool` class, which allows you to run "
 "multiple jobs in the background."
-msgstr ""
-
-#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:15
-#: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:81
-#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:11
-msgid "Introduction"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/extended_examples/hpc/hpc_ml_ga.rst:17
@@ -1321,7 +1924,7 @@ msgid ""
 "that the :class:`~ansys.mapdl.core.pool.MapdlPool` instance is creating."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:35
+#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:37
 msgid "Cart-Pole Simulation"
 msgstr ""
 
@@ -1437,6 +2040,16 @@ msgstr ""
 msgid ""
 "Demonstrates using PyMAPDL and PyDPF to generate training data for an Ansys "
 "Twin Builder static reduced order model (ROM)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:33
+msgid ":ref:`beam_analysis_report_example`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:33
+msgid ""
+"Demonstrates using PyMAPDL for beam analysis with automated report "
+"generation."
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:4
@@ -2190,10 +2803,6 @@ msgstr ""
 msgid ""
 "Ensure there are enough licenses available to run multiple MAPDL instances "
 "concurrently."
-msgstr ""
-
-#: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:431
-msgid "References"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/extended_examples/sfem/stochastic_fem.rst:432
@@ -3658,6 +4267,150 @@ msgid ""
 ":download:`Download zipped: basic_dpf_example.zip <basic_dpf_example.zip>`"
 msgstr ""
 
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:13
+msgid ""
+":ref:`Go to the end <sphx_glr_download_examples_gallery_examples_00-mapdl-"
+"examples_beam_with_report.py>` to download the full example code."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:26
+msgid ""
+"This file is complimentary material of `I-Beam Analysis with Automated "
+"Report Generation <beam_analysis_report_example_>`_ example."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:30
+msgid ""
+"This example demonstrates a comprehensive structural analysis of a fully "
+"constrained I-beam using PyMAPDL. The script creates a parameterized I-beam "
+"model, applies loads, solves for structural response, and generates a "
+"detailed engineering report in both Markdown and Microsoft Word formats."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:35
+msgid "The example showcases:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:37
+msgid "Parameterized I-beam geometry definition"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:38
+msgid "Material property assignment"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:40
+msgid "Distributed load application"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:41
+msgid "Result extraction and post-processing"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:42
+msgid "Automated report generation with plots and tables"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:44
+msgid "This example requires the following imports:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:63
+msgid "Workflow design"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:65
+msgid ""
+"The main function defines the workflow for creating the I-beam analysis and "
+"generating reports."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:170
+msgid "Generate and solve the finite element model"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:172
+msgid ""
+"A complete structural analysis of an I-beam is generated and solved. The "
+"output is a dictionary with the desired results:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:175
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/spotweld.rst:69
+msgid "Displacements"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:176
+msgid "Bending moments"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:177
+msgid "Bending stresses"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:178
+msgid "Bending strains"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:180
+msgid ""
+"This model uses 20 BEAM188 elements to create the beam. The material "
+"properties, load parameters and geometry are taken from the function inputs."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:423
+msgid "Preparing plots"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:425
+msgid ""
+"The plots needs to be saved to a PNG and passed later to the report creation"
+" functions."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:504
+msgid "Generate Markdown report"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:506
+msgid ""
+"The following function uses a Markdown template to generate a Markdown file."
+" You can customize the following function to accept a different template."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:663
+msgid "Generate Word report"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:665
+msgid ""
+"Generate a simple Word report, with some tables and images to demonstrate "
+"the reporting capabilities."
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:668
+msgid ""
+"You need to have installed the library ``python-docx``. You can install it "
+"with:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:888
+msgid ""
+":download:`Download Jupyter notebook: beam_with_report.ipynb "
+"<beam_with_report.ipynb>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:892
+msgid ""
+":download:`Download Python source code: beam_with_report.py "
+"<beam_with_report.py>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/beam_with_report.rst:896
+msgid ""
+":download:`Download zipped: beam_with_report.zip <beam_with_report.zip>`"
+msgstr ""
+
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:13
 msgid ""
 ":ref:`Go to the end <sphx_glr_download_examples_gallery_examples_00-mapdl-"
@@ -3764,7 +4517,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/bracket_static.rst:67
 msgid ""
 "The dimensions of the corner bracket are shown in the following figure. The "
-"bracket is made of A36 steel with a Young's modulus of :math:`3\\cdot10^7` "
+"bracket is made of A36 steel with a Young's modulus of :math:`3\\cdot 10^7` "
 "psi and Poisson's ratio of :math:`0.27`."
 msgstr ""
 
@@ -5363,118 +6116,124 @@ msgstr ""
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:145
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
+"examples_beam_with_report.py`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:162
+msgid ""
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_bracket_static.py`"
 msgstr ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_bracket_static.py`"
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:162
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:179
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_composite_dcb.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:179
-msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_contact_elements.py`"
-msgstr ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_contact_elements.py`"
-
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:196
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_cyclic_analysis.py`"
+"examples_contact_elements.py`"
 msgstr ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_cyclic_analysis.py`"
+"examples_contact_elements.py`"
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:213
 msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_cyclic_static.py`"
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
+"examples_cyclic_analysis.py`"
 msgstr ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_cyclic_static.py`"
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
+"examples_cyclic_analysis.py`"
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:230
 msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_exhaust_manifold_thermal_stress.py`"
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_cyclic_static.py`"
 msgstr ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_exhaust_manifold_thermal_stress.py`"
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_cyclic_static.py`"
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:247
 msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_geometry.py`"
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
+"examples_exhaust_manifold_thermal_stress.py`"
 msgstr ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_geometry.py`"
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
+"examples_exhaust_manifold_thermal_stress.py`"
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:264
 msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_lathe_cutter.py`"
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_geometry.py`"
 msgstr ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_lathe_cutter.py`"
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_geometry.py`"
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:281
 msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_mapdl_3d_beam.py`"
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_lathe_cutter.py`"
 msgstr ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_mapdl_3d_beam.py`"
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_lathe_cutter.py`"
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:298
 msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_mapdl_beam.py`"
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_mapdl_3d_beam.py`"
 msgstr ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_mapdl_beam.py`"
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_mapdl_3d_beam.py`"
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:315
 msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_modal_beam.py`"
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_mapdl_beam.py`"
 msgstr ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_modal_beam.py`"
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_mapdl_beam.py`"
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:332
 msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_path_operations.py`"
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_modal_beam.py`"
 msgstr ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_path_operations.py`"
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_modal_beam.py`"
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:349
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
+"examples_path_operations.py`"
+msgstr ""
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
+"examples_path_operations.py`"
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:366
+msgid ""
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_pressure_vessel.py`"
 msgstr ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_pressure_vessel.py`"
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:366
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:383
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_psd-vm203.py`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:383
-msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_pyvista_mesh.py`"
-msgstr ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_pyvista_mesh.py`"
-
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:400
 msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_slashmap_cfx_mapping.py`"
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_pyvista_mesh.py`"
 msgstr ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_slashmap_cfx_mapping.py`"
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_pyvista_mesh.py`"
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:417
 msgid ""
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
+"examples_slashmap_cfx_mapping.py`"
+msgstr ""
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
+"examples_slashmap_cfx_mapping.py`"
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:434
+msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_spotweld.py`"
 msgstr ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_spotweld.py`"
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:434
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:451
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_torsional_load.py`"
@@ -5482,7 +6241,7 @@ msgstr ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_torsional_load.py`"
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:451
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:468
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_transient_thermal.py`"
@@ -6365,7 +7124,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:9
 msgid ""
-"**00:00.000** total execution time for 26 files **from "
+"**00:00.000** total execution time for 27 files **from "
 "examples/gallery_examples/00-mapdl-examples**:"
 msgstr ""
 
@@ -6426,6 +7185,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:105
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:108
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:111
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:114
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/sg_execution_times.rst:36
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/sg_execution_times.rst:39
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/sg_execution_times.rst:42
@@ -6467,6 +7227,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:106
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:109
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:112
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:115
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/sg_execution_times.rst:37
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/sg_execution_times.rst:40
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/sg_execution_times.rst:43
@@ -6521,113 +7282,119 @@ msgstr ""
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:56
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_bracket_static.py` (``bracket_static.py``)"
+"examples_beam_with_report.py` (``beam_with_report.py``)"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:59
+msgid ""
+":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
+"examples_bracket_static.py` (``bracket_static.py``)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:62
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_composite_dcb.py`"
 " (``composite_dcb.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:62
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:65
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_contact_elements.py` (``contact_elements.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:65
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:68
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_cyclic_analysis.py` (``cyclic_analysis.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:68
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:71
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_cyclic_static.py`"
 " (``cyclic_static.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:71
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:74
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_exhaust_manifold_thermal_stress.py` "
 "(``exhaust_manifold_thermal_stress.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:74
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:77
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_geometry.py` "
 "(``geometry.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:77
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:80
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_lathe_cutter.py` "
 "(``lathe_cutter.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:80
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:83
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_mapdl_3d_beam.py`"
 " (``mapdl_3d_beam.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:83
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:86
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_mapdl_beam.py` "
 "(``mapdl_beam.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:86
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:89
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_modal_beam.py` "
 "(``modal_beam.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:89
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:92
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_path_operations.py` (``path_operations.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:92
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:95
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_pressure_vessel.py` (``pressure_vessel.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:95
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:98
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_psd-vm203.py` "
 "(``psd-vm203.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:98
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:101
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_pyvista_mesh.py` "
 "(``pyvista_mesh.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:101
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:104
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_slashmap_cfx_mapping.py` (``slashmap_cfx_mapping.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:104
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:107
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_spotweld.py` "
 "(``spotweld.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:107
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:110
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_torsional_load.py` (``torsional_load.py``)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:110
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/sg_execution_times.rst:113
 msgid ""
 ":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
 "examples_transient_thermal.py` (``transient_thermal.py``)"
@@ -6741,10 +7508,6 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/spotweld.rst:53
 msgid "Download and run an MAPDL script"
-msgstr ""
-
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/spotweld.rst:69
-msgid "Displacements"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/spotweld.rst:92
