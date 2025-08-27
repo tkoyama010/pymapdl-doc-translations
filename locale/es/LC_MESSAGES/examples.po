@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.70.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-26 00:20+0000\n"
+"POT-Creation-Date: 2025-08-27 00:20+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -367,81 +367,6 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/examples/extended_examples/Krylov/krylov_example.rst:420
 msgid "Plot the frequency response function for the selected node."
-msgstr ""
-
-#: ../../pymapdl/doc/source/examples/extended_examples/Python_UPF/python_upf_examples.rst:5
-msgid "UPF in PyMAPDL"
-msgstr ""
-
-#: ../../pymapdl/doc/source/examples/extended_examples/Python_UPF/python_upf_examples.rst:7
-msgid "The following Python UPF examples are available:"
-msgstr ""
-
-#: ../../pymapdl/doc/source/examples/extended_examples/Python_UPF/python_upf_examples.rst:9
-msgid "`Python UserMat subroutine`_"
-msgstr ""
-
-#: ../../pymapdl/doc/source/examples/extended_examples/Python_UPF/python_upf_examples.rst:10
-msgid "`Python UsrShift subroutine`_"
-msgstr ""
-
-#: ../../pymapdl/doc/source/examples/extended_examples/Python_UPF/python_upf_examples.rst:11
-msgid "`Python UserHyper subroutine`_"
-msgstr ""
-
-#: ../../pymapdl/doc/source/examples/extended_examples/Python_UPF/python_upf_examples.rst:15
-msgid "Python ``UserMat`` subroutine"
-msgstr ""
-
-#: ../../pymapdl/doc/source/examples/extended_examples/Python_UPF/python_upf_examples.rst:17
-msgid ""
-"This example simulates a block modeled with 3D elements. The user material "
-"in the ``usermat.py`` file is equivalent to linear elastic. The block is "
-"under uniaxial compression. The final deformation is compared with the "
-"theoretical result."
-msgstr ""
-
-#: ../../pymapdl/doc/source/examples/extended_examples/Python_UPF/python_upf_examples.rst:24
-#: ../../pymapdl/doc/source/examples/extended_examples/Python_UPF/python_upf_examples.rst:230
-#: ../../pymapdl/doc/source/examples/extended_examples/Python_UPF/python_upf_examples.rst:390
-msgid "Input data"
-msgstr ""
-
-#: ../../pymapdl/doc/source/examples/extended_examples/Python_UPF/python_upf_examples.rst:84
-msgid "``usermat.py`` file"
-msgstr ""
-
-#: ../../pymapdl/doc/source/examples/extended_examples/Python_UPF/python_upf_examples.rst:220
-msgid "Python ``UsrShift`` subroutine"
-msgstr ""
-
-#: ../../pymapdl/doc/source/examples/extended_examples/Python_UPF/python_upf_examples.rst:222
-msgid ""
-"This example describes a block of Prony viscoplastic material with a user-"
-"defined shift function following a Tool-Narayanaswamy shift function. "
-"Uniaxial tension is applied on one end and held for 15 seconds with a "
-"constant 280 K uniform temperature. The final stress is obtained to verify "
-"stress relaxation."
-msgstr ""
-
-#: ../../pymapdl/doc/source/examples/extended_examples/Python_UPF/python_upf_examples.rst:330
-msgid "``usrshift.py`` file"
-msgstr ""
-
-#: ../../pymapdl/doc/source/examples/extended_examples/Python_UPF/python_upf_examples.rst:381
-msgid "Python ``UserHyper`` subroutine"
-msgstr ""
-
-#: ../../pymapdl/doc/source/examples/extended_examples/Python_UPF/python_upf_examples.rst:383
-msgid ""
-"This example models a block under simple uniaxial tension. The block is made"
-" of a user-defined hyper material that is identical to Arruda-Boyce "
-"hyperelasticity. Large deformation effects are included. The final stress is"
-" printed for comparison against the reference."
-msgstr ""
-
-#: ../../pymapdl/doc/source/examples/extended_examples/Python_UPF/python_upf_examples.rst:455
-msgid "``userhyper.py`` file"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:5
@@ -1918,7 +1843,7 @@ msgid ""
 "that the :class:`~ansys.mapdl.core.pool.MapdlPool` instance is creating."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:37
+#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:35
 msgid "Cart-Pole Simulation"
 msgstr ""
 
@@ -1962,85 +1887,75 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/extended_examples/index.rst:16
-msgid ":ref:`python_upf_examples`"
-msgstr ""
-
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:16
-msgid ""
-"Demonstrates the interoperability between user-programmable functions in "
-"MAPDL and Python."
-msgstr ""
-
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:18
 msgid ":ref:`krylov_example`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:18
+#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:16
 msgid ""
 "Demonstrates the usage of the Krylov method for solving a customized "
 "harmonic analysis."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:20
+#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:18
 msgid ":ref:`dash_example`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:20
+#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:18
 msgid "Demonstrates the use of PyMAPDL with Dash."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:22
+#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:20
 msgid ":ref:`executable_example`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:22
+#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:20
 msgid ""
 "Demonstrates how to create your own Python app with a command-line "
 "interface."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:24
+#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:22
 msgid ":ref:`gui_example`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:24
+#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:22
 msgid "Demonstrates how to create your own GUI app with Python and PySide6."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:26
+#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:24
 msgid ":ref:`hpc_ml_ga_example`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:26
+#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:24
 msgid ""
 "Demonstrates how to use PyMAPDL in a high-performance computing system "
 "managed by SLURM."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:28
+#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:26
 msgid ":ref:`stochastic_fem_example`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:28
+#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:26
 msgid ""
 "Demonstrates using PyMAPDL for stochastic FEA using Monte Carlo simulation."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:30
+#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:28
 msgid ":ref:`static_rom_data_generation`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:30
+#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:28
 msgid ""
 "Demonstrates using PyMAPDL and PyDPF to generate training data for an Ansys "
 "Twin Builder static reduced order model (ROM)."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:33
+#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:31
 msgid ":ref:`beam_analysis_report_example`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:33
+#: ../../pymapdl/doc/source/examples/extended_examples/index.rst:31
 msgid ""
 "Demonstrates using PyMAPDL for beam analysis with automated report "
 "generation."
