@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.70.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-26 00:20+0000\n"
+"POT-Creation-Date: 2025-08-29 00:20+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -11130,6 +11130,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.Mapdl.open_apdl_log.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.Mapdl.run.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.Mapdl.scalar_param.rst:0
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.Mapdl.screenshot.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.Mapdl.set_log_level.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.convert.convert_apdl_block.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.convert.convert_script.rst:0
@@ -12251,6 +12252,8 @@ msgstr ""
 #: ansys.mapdl.core.mapdl_core._MapdlCore.input_strings:29
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
 #: ansys.mapdl.core.mapdl_core._MapdlCore.run:44
+#: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
+#: ansys.mapdl.core.mapdl_core._MapdlCore.screenshot:35
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.download_result:31
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
@@ -23345,7 +23348,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/api/mapdl.rst:81:<autosummary>:1
 msgid ""
 ":py:obj:`Mapdl.screenshot <ansys.mapdl.core.Mapdl.screenshot>`\\ "
-"\\(\\[savefig\\]\\)"
+"\\(\\[savefig\\, default\\_name\\]\\)"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/mapdl.rst:81:<autosummary>:1
