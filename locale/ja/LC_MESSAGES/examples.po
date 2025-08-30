@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.70.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-27 00:20+0000\n"
+"POT-Creation-Date: 2025-08-30 00:19+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -5362,7 +5362,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:572
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/cyclic_static.rst:148
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:441
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:470
 msgid "Exit MAPDL"
 msgstr ""
 
@@ -6958,23 +6958,27 @@ msgid "However, you can also use the numpy methods here as well:"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:402
-msgid "plot the response psd"
+msgid "You can plot the response psd using MAPDL methods:"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:422
+msgid "or use matplotlib:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:451
 msgid "Compare and print results to manual values"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:458
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:487
 msgid ""
 ":download:`Download Jupyter notebook: psd-vm203.ipynb <psd-vm203.ipynb>`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:462
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:491
 msgid ":download:`Download Python source code: psd-vm203.py <psd-vm203.py>`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:466
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:495
 msgid ":download:`Download zipped: psd-vm203.zip <psd-vm203.zip>`"
 msgstr ""
 
