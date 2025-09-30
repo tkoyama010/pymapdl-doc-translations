@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.70.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-19 00:19+0000\n"
+"POT-Creation-Date: 2025-09-29 18:23+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -18589,7 +18589,7 @@ msgstr ""
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.check_status:2
 msgid ""
 "Return MAPDL status. * 'exited' if MAPDL is exited * 'exiting' if MAPDL is "
-"exiting * Otherwise returns 'OK'."
+"exiting * Otherwise returns 'running'."
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mapdl_grpc.MapdlGrpc.connection.rst:2
