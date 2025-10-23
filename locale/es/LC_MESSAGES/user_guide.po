@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.70.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-07 00:19+0000\n"
+"POT-Creation-Date: 2025-10-23 00:20+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -4417,9 +4417,9 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:276
 msgid ""
-"If there are not enough licenses available, you might see an error similar "
-"to the above one. In these cases you should contact your Ansys license "
-"administrator at your organization."
+"This means that there are not enough licenses available to start MAPDL. In "
+"these cases you should contact your Ansys license administrator at your "
+"organization."
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:279
@@ -4838,7 +4838,7 @@ msgstr ""
 msgid ""
 "When connecting to an instance of MAPDL using gRPC (default), there are some"
 " cases where the MAPDL server might exit unexpectedly. There are several "
-"ways to improve MADPL performance and stability:"
+"ways to improve MAPDL performance and stability:"
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/troubleshoot.rst:809
