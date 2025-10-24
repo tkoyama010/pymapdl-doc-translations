@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.70.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-23 00:20+0000\n"
+"POT-Creation-Date: 2025-10-24 00:18+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -461,7 +461,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
 #: ansys.mapdl.core.mapdl_core._MapdlCore.open_apdl_log:29
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
-#: ansys.mapdl.core.mapdl_core._MapdlCore.open_gui:30
+#: ansys.mapdl.core.mapdl_core._MapdlCore.open_gui:36
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
 #: ansys.mapdl.core.mapdl_core._MapdlCore.run:63
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
@@ -13421,21 +13421,36 @@ msgstr ""
 msgid ""
 "Open the GUI on the current MAPDL working directory, instead of creating a "
 "new temporary directory and coping the results files over there.  If "
-"``True``, ignores ``include_result`` parameter.  By default, this ``False``."
+"``True``, ignores ``include_result`` parameter. By default, this ``False``."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
-#: ansys.mapdl.core.mapdl_core._MapdlCore.open_gui:34
+#: ansys.mapdl.core.mapdl_core._MapdlCore.open_gui:17
+#: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
+#: ansys.mapdl.core.pool.MapdlPool:79
+msgid "**exec_file: str, optional**"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
+#: ansys.mapdl.core.mapdl_core._MapdlCore.open_gui:18
+msgid ""
+"Path to the MAPDL executable. If not provided, it will try to obtain it "
+"using the `ansys.tools.path` package. If this package is not available, it "
+"will use the same executable as the current MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
+#: ansys.mapdl.core.mapdl_core._MapdlCore.open_gui:40
 msgid "Create a square area using keypoints."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
-#: ansys.mapdl.core.mapdl_core._MapdlCore.open_gui:47
+#: ansys.mapdl.core.mapdl_core._MapdlCore.open_gui:53
 msgid "Open up the gui."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
-#: ansys.mapdl.core.mapdl_core._MapdlCore.open_gui:51
+#: ansys.mapdl.core.mapdl_core._MapdlCore.open_gui:57
 msgid "Resume where you left off."
 msgstr ""
 
@@ -20777,11 +20792,6 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
-#: ansys.mapdl.core.pool.MapdlPool:79
-msgid "**exec_file: str, optional**"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
 #: ansys.mapdl.core.pool.MapdlPool:80
 msgid ""
 "The location of the MAPDL executable.  Will use the cached location when "
@@ -23676,10 +23686,8 @@ msgstr ""
 #: ../../pymapdl/doc/source/api/mapdl.rst:81:<autosummary>:1
 msgid ""
 ":py:obj:`Mapdl.open_gui <ansys.mapdl.core.Mapdl.open_gui>`\\ "
-"\\(\\[include\\_result\\, inplace\\]\\)"
+"\\(\\[include\\_result\\, inplace\\, ...\\]\\)"
 msgstr ""
-":py:obj:`Mapdl.open_gui <ansys.mapdl.core.Mapdl.open_gui>`\\ "
-"\\(\\[include\\_result\\, inplace\\]\\)"
 
 #: ../../pymapdl/doc/source/api/mapdl.rst:81:<autosummary>:1
 msgid ":py:obj:`Mapdl.platform <ansys.mapdl.core.Mapdl.platform>`\\"
