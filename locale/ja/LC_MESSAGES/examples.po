@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.70.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 00:20+0000\n"
+"POT-Creation-Date: 2025-10-25 00:20+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -5345,39 +5345,39 @@ msgid ""
 "animation."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:517
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:519
 msgid "Plot the reaction force at the bottom nodes"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:553
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:555
 msgid "Animate results using PyDPF with .animate() method"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:554
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:556
 msgid ""
 "Use PyDPF method :func:`FieldsContainer.animate() "
 "<ansys.dpf.core.fields_container.FieldsContainer.animate>` to visualize the "
 "crack opening throughout the simulation as an animation."
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:572
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:574
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/cyclic_static.rst:148
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/psd-vm203.rst:470
 msgid "Exit MAPDL"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:589
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:591
 msgid ""
 ":download:`Download Jupyter notebook: composite_dcb.ipynb "
 "<composite_dcb.ipynb>`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:593
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:595
 msgid ""
 ":download:`Download Python source code: composite_dcb.py <composite_dcb.py>`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:597
+#: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/composite_dcb.rst:599
 msgid ":download:`Download zipped: composite_dcb.zip <composite_dcb.zip>`"
 msgstr ""
 
