@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.70.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-23 00:20+0000\n"
+"POT-Creation-Date: 2025-10-29 00:21+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -2320,164 +2320,171 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/learning.rst:46
 msgid ""
+"Download the complete `PyMAPDL documentation as PDF "
+"<pymapdl_latest_pdf_doc_>`_ from the latest GitHub release for offline "
+"access."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/learning.rst:49
+msgid ""
 "Visit :ref:`ref_examples` to learn how PyMAPDL can be used to solve "
 "different real problems."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:50
+#: ../../pymapdl/doc/source/getting_started/learning.rst:53
 msgid "Courses"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:52
+#: ../../pymapdl/doc/source/getting_started/learning.rst:55
 msgid ""
 "Ansys has prepared high quality courses to guide you through the learning "
 "process."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:58
+#: ../../pymapdl/doc/source/getting_started/learning.rst:61
 msgid "Intro to Python"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:60
+#: ../../pymapdl/doc/source/getting_started/learning.rst:63
 msgid ""
 "The `Intro to Python <course_intro_python_>`_ course teaches you the basis "
 "of the Python programming language."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:65
-#: ../../pymapdl/doc/source/getting_started/learning.rst:91
-#: ../../pymapdl/doc/source/getting_started/learning.rst:109
+#: ../../pymapdl/doc/source/getting_started/learning.rst:68
+#: ../../pymapdl/doc/source/getting_started/learning.rst:94
+#: ../../pymapdl/doc/source/getting_started/learning.rst:112
 msgid "Course content"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:67
+#: ../../pymapdl/doc/source/getting_started/learning.rst:70
 msgid "Prerequisites - Installation of Python"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:68
+#: ../../pymapdl/doc/source/getting_started/learning.rst:71
 msgid "Fundamentals of Python - Lesson 1"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:69
+#: ../../pymapdl/doc/source/getting_started/learning.rst:72
 msgid "Analyzing Radiance Data - Lesson 2"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:70
+#: ../../pymapdl/doc/source/getting_started/learning.rst:73
 msgid "Repeating Actions with Loops - Lesson 3"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:71
+#: ../../pymapdl/doc/source/getting_started/learning.rst:74
 msgid "Storing Multiple Values in Lists - Lesson 4"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:72
+#: ../../pymapdl/doc/source/getting_started/learning.rst:75
 msgid "Making Choices - Lesson 5"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:73
+#: ../../pymapdl/doc/source/getting_started/learning.rst:76
 msgid "Analyzing Data from Multiple Files - Lesson 6"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:74
+#: ../../pymapdl/doc/source/getting_started/learning.rst:77
 msgid "Creating Functions - Lesson 7"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:75
+#: ../../pymapdl/doc/source/getting_started/learning.rst:78
 msgid "Defensive Programming - Lesson 8"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:76
+#: ../../pymapdl/doc/source/getting_started/learning.rst:79
 msgid "Debugging - Lesson 9"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:77
+#: ../../pymapdl/doc/source/getting_started/learning.rst:80
 msgid "Command Line Programs - Lesson 10"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:78
-#: ../../pymapdl/doc/source/getting_started/learning.rst:97
-#: ../../pymapdl/doc/source/getting_started/learning.rst:118
+#: ../../pymapdl/doc/source/getting_started/learning.rst:81
+#: ../../pymapdl/doc/source/getting_started/learning.rst:100
+#: ../../pymapdl/doc/source/getting_started/learning.rst:121
 msgid "Post Completion Survey"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:79
+#: ../../pymapdl/doc/source/getting_started/learning.rst:82
 msgid "Meet the Instructor"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:85
+#: ../../pymapdl/doc/source/getting_started/learning.rst:88
 msgid "Getting started with PyMAPDL"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:87
+#: ../../pymapdl/doc/source/getting_started/learning.rst:90
 msgid ""
 "The `Getting started with PyMAPDL <course_getting_started_pymapdl_>`_ course"
 " teaches you about PyMAPDL, the Pythonic way to access Ansys MAPDL."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:93
+#: ../../pymapdl/doc/source/getting_started/learning.rst:96
 msgid "Overview of PyMAPDL - Lesson 1"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:94
+#: ../../pymapdl/doc/source/getting_started/learning.rst:97
 msgid "PyMAPDL Language and Usage - Lesson 2"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:95
+#: ../../pymapdl/doc/source/getting_started/learning.rst:98
 msgid "PyMAPDL Categories - Lesson 3"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:96
+#: ../../pymapdl/doc/source/getting_started/learning.rst:99
 msgid "Getting Help - Lesson 4"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:98
-#: ../../pymapdl/doc/source/getting_started/learning.rst:119
+#: ../../pymapdl/doc/source/getting_started/learning.rst:101
+#: ../../pymapdl/doc/source/getting_started/learning.rst:122
 msgid "Meet the Instructors"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:103
+#: ../../pymapdl/doc/source/getting_started/learning.rst:106
 msgid "Intro to Ansys Mechanical APDL scripting"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:105
+#: ../../pymapdl/doc/source/getting_started/learning.rst:108
 msgid ""
 "The `Intro to Ansys Mechanical APDL scripting <course_intro_apdl_>`_ course "
 "teaches you how APDL, the Mechanical solver syntax language, works."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:111
+#: ../../pymapdl/doc/source/getting_started/learning.rst:114
 msgid "Overview of MAPDL (Lesson 1)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:112
+#: ../../pymapdl/doc/source/getting_started/learning.rst:115
 msgid "Basics of APDL Language (Lesson 2)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:113
+#: ../../pymapdl/doc/source/getting_started/learning.rst:116
 msgid "Solid Modeling & Meshing (Lesson 3)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:114
+#: ../../pymapdl/doc/source/getting_started/learning.rst:117
 msgid "Defining Loads, BCs, and Solver Controls (Lesson 4)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:115
+#: ../../pymapdl/doc/source/getting_started/learning.rst:118
 msgid "General Postprocessing (Lesson 5)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:116
+#: ../../pymapdl/doc/source/getting_started/learning.rst:119
 msgid "Selection Logic (Lesson 6)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:117
+#: ../../pymapdl/doc/source/getting_started/learning.rst:120
 msgid "More on Parameters (Arrays, \\*GET) (Lesson 7)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:124
+#: ../../pymapdl/doc/source/getting_started/learning.rst:127
 msgid "Ansys Innovation Space"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:128
+#: ../../pymapdl/doc/source/getting_started/learning.rst:131
 msgid ""
 "You can find more courses for different Ansys product organized in different"
 " categories such as `structures <ansys_innovation_space_structures_>`_, "
@@ -2486,30 +2493,30 @@ msgid ""
 "<ansys_innovation_space_geometry_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:135
+#: ../../pymapdl/doc/source/getting_started/learning.rst:138
 msgid ""
 "You can find all the categories in `https://courses.ansys.com "
 "<ansys_innovation_space_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:137
-#: ../../pymapdl/doc/source/getting_started/learning.rst:173
+#: ../../pymapdl/doc/source/getting_started/learning.rst:140
+#: ../../pymapdl/doc/source/getting_started/learning.rst:176
 msgid ""
 "**NOTE**: You might need to create a free Ansys account to access these "
 "resources."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:140
+#: ../../pymapdl/doc/source/getting_started/learning.rst:143
 msgid "Ansys help"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:142
+#: ../../pymapdl/doc/source/getting_started/learning.rst:145
 msgid ""
 "`Ansys Help <ansys_help_>`_ is the official Ansys website for documentation,"
 " tutorials and videos."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:145
+#: ../../pymapdl/doc/source/getting_started/learning.rst:148
 msgid ""
 "An `MAPDL introductory tutorials guide <ansys_introductory_mapdl_courses_>`_"
 " which cover different topics such as `Structural tutorial "
@@ -2520,7 +2527,7 @@ msgid ""
 "<ansys_introtut_modal_>`_"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:154
+#: ../../pymapdl/doc/source/getting_started/learning.rst:157
 msgid ""
 "You can find documentation such as the `Command reference guide "
 "<ansys_command_reference_guide_>`_, `Verification manual guide "
@@ -2528,7 +2535,7 @@ msgid ""
 "<ansys_techdemo_guide_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:159
+#: ../../pymapdl/doc/source/getting_started/learning.rst:162
 msgid ""
 "The `Technology showcase guide <ansys_techdemo_guide_>`_ is a comprehensive "
 "guide with real-world example problems which present the broad simulation "
@@ -2544,11 +2551,11 @@ msgid ""
 " <ansys_techdemo_guide_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:177
+#: ../../pymapdl/doc/source/getting_started/learning.rst:180
 msgid "Additional resources"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:179
+#: ../../pymapdl/doc/source/getting_started/learning.rst:182
 msgid ""
 "Ansys has prepared multiple resources to help you to learn and use PyMAPDL. "
 "You can access them from the `Ansys Learning Resources "
@@ -2556,30 +2563,30 @@ msgid ""
 "the available resources for MAPDL and PyMAPDL."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:185
+#: ../../pymapdl/doc/source/getting_started/learning.rst:188
 msgid "Recommended articles"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:189
+#: ../../pymapdl/doc/source/getting_started/learning.rst:192
 msgid ""
 "Ansys Gets Into Open Source With GitHub. `Link to article in Ansys Blog "
 "<ansys_open_source_article_>`_"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:191
+#: ../../pymapdl/doc/source/getting_started/learning.rst:194
 msgid ""
 "Access the Power of Ansys from the Python World. `Link to article in Ansys "
 "blog <ansys_python_power_article_>`_"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:193
+#: ../../pymapdl/doc/source/getting_started/learning.rst:196
 msgid ""
 "Using Ansys Scripting with pyMAPDL, pyDPF-Post, and More - Part 1 *Running "
 "and Post-Processing an Ansys Model Outside Ansys*. `Link to article in PADT "
 "Inc Blog <padt_post_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:196
+#: ../../pymapdl/doc/source/getting_started/learning.rst:199
 msgid ""
 "ANSYS in a Python Web App, Part 1: Post Processing with PyDPF: *Integrating "
 "PyAnsys with Plotly's Dash and the Dash-VTK component to build an Ansys "
@@ -2587,7 +2594,7 @@ msgid ""
 " Science' article in Medium <tds_article_web_app_1_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:200
+#: ../../pymapdl/doc/source/getting_started/learning.rst:203
 msgid ""
 "ANSYS in a Python Web App, Part 2: Pre Processing & Solving with PyMAPDL: "
 "*ANSYS in a Python Web App, Part 2: Pre Processing & Solving with PyMAPDL*. "
@@ -2595,19 +2602,19 @@ msgid ""
 "<tds_article_web_app_2_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:203
+#: ../../pymapdl/doc/source/getting_started/learning.rst:206
 msgid ""
 "Paraview: Reading ANSYS APDL (RST) results in Paraview. `Link to 'Paraview "
 "Forum' question <paraview_question_read_rst_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:205
+#: ../../pymapdl/doc/source/getting_started/learning.rst:208
 msgid ""
 "APDL: The Language of Simulation. `Link to 'What is APDL?' article in Ansys "
 "Blog <what_is_apdl_ansys_blog_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/learning.rst:210
+#: ../../pymapdl/doc/source/getting_started/learning.rst:213
 msgid ""
 "Feel free to share any educational or learning resources by `opening an "
 "issue <pymapdl_issues_>`_ or `starting a discussion <pymapdl_discussions_>`_"
