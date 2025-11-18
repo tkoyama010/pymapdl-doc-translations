@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.70.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-15 00:20+0000\n"
+"POT-Creation-Date: 2025-11-17 18:36+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -11493,10 +11493,10 @@ msgstr ""
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mapdl_grpc.MapdlGrpc.list_error_file.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mapdl_grpc.MapdlGrpc.list_files.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mapdl_grpc.MapdlGrpc.upload.rst:0
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.tools.path.change_default_ansys_path.rst:0
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.tools.path.find_mapdl.rst:0
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.tools.path.get_available_ansys_installations.rst:0
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.tools.path.save_ansys_path.rst:0
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.tools.common.path.change_default_ansys_path.rst:0
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.tools.common.path.find_mapdl.rst:0
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.tools.common.path.get_available_ansys_installations.rst:0
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.tools.common.path.save_ansys_path.rst:0
 msgid "Return type"
 msgstr ""
 
@@ -13435,8 +13435,8 @@ msgstr ""
 #: ansys.mapdl.core.mapdl_core._MapdlCore.open_gui:18
 msgid ""
 "Path to the MAPDL executable. If not provided, it will try to obtain it "
-"using the `ansys.tools.path` package. If this package is not available, it "
-"will use the same executable as the current MAPDL instance."
+"using the `ansys.tools.common` package. If this package is not available, it"
+" will use the same executable as the current MAPDL instance."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
@@ -17590,8 +17590,8 @@ msgid ""
 "Version of MAPDL to launch. Versions can be provided as integers (i.e. "
 "``version=222``) or floats (i.e. ``version=22.2``). To retrieve the "
 "available installed versions, use the function "
-":func:`ansys.tools.path.get_available_ansys_installations`. You can also "
-"provide this value through the environment variable "
+":func:`ansys.tools.common.path.get_available_ansys_installations`. You can "
+"also provide this value through the environment variable "
 ":envvar:`PYMAPDL_MAPDL_VERSION`. For instance:"
 msgstr ""
 
@@ -22334,8 +22334,8 @@ msgstr ""
 msgid "Check if a file is currently open."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.tools.path.change_default_ansys_path.rst:2
-msgid "ansys.tools.path.change\\_default\\_ansys\\_path"
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.tools.common.path.change_default_ansys_path.rst:2
+msgid "ansys.tools.common.path.change\\_default\\_ansys\\_path"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/ansys/tools/common/path/path.pydocstring
@@ -22343,8 +22343,8 @@ msgstr ""
 msgid "Deprecated. Use ``change_default_mapdl_path`` instead."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.tools.path.find_mapdl.rst:2
-msgid "ansys.tools.path.find\\_mapdl"
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.tools.common.path.find_mapdl.rst:2
+msgid "ansys.tools.common.path.find\\_mapdl"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/launcher.rst:33:<autosummary>:1
@@ -22384,8 +22384,8 @@ msgstr ""
 msgid "Version float.  For example, 25.1 corresponds to 2025R1."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.tools.path.get_available_ansys_installations.rst:2
-msgid "ansys.tools.path.get\\_available\\_ansys\\_installations"
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.tools.common.path.get_available_ansys_installations.rst:2
+msgid "ansys.tools.common.path.get\\_available\\_ansys\\_installations"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/launcher.rst:33:<autosummary>:1
@@ -22430,8 +22430,8 @@ msgstr ""
 msgid "Return all installed Ansys paths in Linux."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.tools.path.save_ansys_path.rst:2
-msgid "ansys.tools.path.save\\_ansys\\_path"
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.tools.common.path.save_ansys_path.rst:2
+msgid "ansys.tools.common.path.save\\_ansys\\_path"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/ansys/tools/common/path/path.pydocstring
@@ -23298,7 +23298,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/api/launcher.rst:5
 msgid ""
 "Various PyMAPDL specific launcher commands. Most of these commands are "
-"called from the library `ansys-tools-path <ansys_tools_path_>`_."
+"called from the library `ansys-tools-common.path <ansys_tools_common_>`_."
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/launcher.rst:20:<autosummary>:1
@@ -23344,16 +23344,14 @@ msgstr ""
 "\\(\\[port\\_range\\]\\)"
 
 #: ../../pymapdl/doc/source/api/launcher.rst:22
-msgid "``ansys-tools-path`` functions"
+msgid "``ansys-tools-common.path`` functions"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/launcher.rst:33:<autosummary>:1
 msgid ""
 ":py:obj:`change_default_ansys_path "
-"<ansys.tools.path.change_default_ansys_path>`\\ \\(exe\\_loc\\)"
+"<ansys.tools.common.path.change_default_ansys_path>`\\ \\(exe\\_loc\\)"
 msgstr ""
-":py:obj:`change_default_ansys_path "
-"<ansys.tools.path.change_default_ansys_path>`\\ \\(exe\\_loc\\)"
 
 #: ../../pymapdl/doc/source/api/launcher.rst:33:<autosummary>:1
 msgid "Deprecated."
@@ -23361,25 +23359,22 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/api/launcher.rst:33:<autosummary>:1
 msgid ""
-":py:obj:`find_mapdl <ansys.tools.path.find_mapdl>`\\ \\(\\[version\\, "
-"supported\\_versions\\]\\)"
+":py:obj:`find_mapdl <ansys.tools.common.path.find_mapdl>`\\ \\(\\[version\\,"
+" supported\\_versions\\]\\)"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/launcher.rst:33:<autosummary>:1
 msgid ""
-":py:obj:`save_ansys_path <ansys.tools.path.save_ansys_path>`\\ "
+":py:obj:`save_ansys_path <ansys.tools.common.path.save_ansys_path>`\\ "
 "\\(\\[exe\\_loc\\, allow\\_prompt\\]\\)"
 msgstr ""
-":py:obj:`save_ansys_path <ansys.tools.path.save_ansys_path>`\\ "
-"\\(\\[exe\\_loc\\, allow\\_prompt\\]\\)"
 
 #: ../../pymapdl/doc/source/api/launcher.rst:33:<autosummary>:1
 msgid ""
 ":py:obj:`get_available_ansys_installations "
-"<ansys.tools.path.get_available_ansys_installations>`\\ \\(\\[...\\]\\)"
+"<ansys.tools.common.path.get_available_ansys_installations>`\\ "
+"\\(\\[...\\]\\)"
 msgstr ""
-":py:obj:`get_available_ansys_installations "
-"<ansys.tools.path.get_available_ansys_installations>`\\ \\(\\[...\\]\\)"
 
 #: ../../pymapdl/doc/source/api/logging.rst:4
 msgid "Logging"
