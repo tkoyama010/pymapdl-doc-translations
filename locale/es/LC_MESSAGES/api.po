@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.70.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-17 18:36+0000\n"
+"POT-Creation-Date: 2025-11-29 00:20+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -12398,8 +12398,6 @@ msgstr ""
 #: ansys.mapdl.core.mapdl_core._MapdlCore.run:34
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
 #: ansys.mapdl.core.mapdl_core._MapdlCore.run_multiline:21
-#: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
-#: ansys.mapdl.core.mapdl_core._MapdlCore.screenshot:15
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.Mapdl.hostname:10
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
@@ -12499,8 +12497,6 @@ msgstr ""
 #: ansys.mapdl.core.mapdl_core._MapdlCore.input_strings:29
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
 #: ansys.mapdl.core.mapdl_core._MapdlCore.run:44
-#: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
-#: ansys.mapdl.core.mapdl_core._MapdlCore.screenshot:35
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.download_result:35
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
@@ -12760,6 +12756,8 @@ msgstr ""
 msgid "Contents of the error file or None if not found."
 msgstr ""
 
+#: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
+#: ansys.mapdl.core.mapdl_core._MapdlCore.screenshot:35
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.list_error_file:23
 msgid ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`str\\` \\| \\:py\\:obj\\:\\`None\\``"
@@ -13860,8 +13858,15 @@ msgid "Name of or path to the screenshot file. The default is ``None``."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
+#: ansys.mapdl.core.mapdl_core._MapdlCore.screenshot:15
+msgid ":class:`python:str` | :data:`python:None`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
 #: ansys.mapdl.core.mapdl_core._MapdlCore.screenshot:16
-msgid "File name."
+msgid ""
+"Returns the file name if ``savefig`` is provided. Otherwise, it returns "
+"None."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
