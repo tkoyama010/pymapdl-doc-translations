@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) (c) 2025 ANSYS, Inc. All rights reserved
+# Copyright (C) (c) 2026 ANSYS, Inc. All rights reserved
 # This file is distributed under the same license as the ansys-mapdl-core package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.70.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-24 00:22+0000\n"
+"POT-Creation-Date: 2026-01-03 00:21+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -5967,153 +5967,116 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:26
 msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_2d_magnetostatic_solenoid-BodyFlux_Averaging.py`"
+":doc:`/examples/gallery_examples/00-mapdl-"
+"examples/2d_magnetostatic_solenoid-BodyFlux_Averaging`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:43
 msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_2d_plate_with_a_hole.py`"
+":doc:`/examples/gallery_examples/00-mapdl-examples/2d_plate_with_a_hole`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:60
-msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_2d_pressure_vessel.py`"
+msgid ":doc:`/examples/gallery_examples/00-mapdl-examples/2d_pressure_vessel`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:77
-msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_3d_notch.py`"
+msgid ":doc:`/examples/gallery_examples/00-mapdl-examples/3d_notch`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:94
-msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_3d_plate_thermal.py`"
+msgid ":doc:`/examples/gallery_examples/00-mapdl-examples/3d_plate_thermal`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:111
-msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_acoustic_analysis.py`"
+msgid ":doc:`/examples/gallery_examples/00-mapdl-examples/acoustic_analysis`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:128
-msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_basic_dpf_example.py`"
+msgid ":doc:`/examples/gallery_examples/00-mapdl-examples/basic_dpf_example`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:145
-msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_beam_with_report.py`"
+msgid ":doc:`/examples/gallery_examples/00-mapdl-examples/beam_with_report`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:162
-msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_bracket_static.py`"
+msgid ":doc:`/examples/gallery_examples/00-mapdl-examples/bracket_static`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:179
-msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_composite_dcb.py`"
+msgid ":doc:`/examples/gallery_examples/00-mapdl-examples/composite_dcb`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:196
-msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_contact_elements.py`"
+msgid ":doc:`/examples/gallery_examples/00-mapdl-examples/contact_elements`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:213
-msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_cyclic_analysis.py`"
+msgid ":doc:`/examples/gallery_examples/00-mapdl-examples/cyclic_analysis`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:230
-msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_cyclic_static.py`"
+msgid ":doc:`/examples/gallery_examples/00-mapdl-examples/cyclic_static`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:247
 msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_exhaust_manifold_thermal_stress.py`"
+":doc:`/examples/gallery_examples/00-mapdl-"
+"examples/exhaust_manifold_thermal_stress`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:264
-msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_geometry.py`"
+msgid ":doc:`/examples/gallery_examples/00-mapdl-examples/geometry`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:281
-msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_lathe_cutter.py`"
+msgid ":doc:`/examples/gallery_examples/00-mapdl-examples/lathe_cutter`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:298
-msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_mapdl_3d_beam.py`"
+msgid ":doc:`/examples/gallery_examples/00-mapdl-examples/mapdl_3d_beam`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:315
-msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_mapdl_beam.py`"
+msgid ":doc:`/examples/gallery_examples/00-mapdl-examples/mapdl_beam`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:332
-msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_modal_beam.py`"
+msgid ":doc:`/examples/gallery_examples/00-mapdl-examples/modal_beam`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:349
-msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_path_operations.py`"
+msgid ":doc:`/examples/gallery_examples/00-mapdl-examples/path_operations`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:366
-msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_pressure_vessel.py`"
+msgid ":doc:`/examples/gallery_examples/00-mapdl-examples/pressure_vessel`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:383
-msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_psd-vm203.py`"
+msgid ":doc:`/examples/gallery_examples/00-mapdl-examples/psd-vm203`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:400
-msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_pyvista_mesh.py`"
+msgid ":doc:`/examples/gallery_examples/00-mapdl-examples/pyvista_mesh`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:417
 msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_slashmap_cfx_mapping.py`"
+":doc:`/examples/gallery_examples/00-mapdl-examples/slashmap_cfx_mapping`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:434
-msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-examples_spotweld.py`"
+msgid ":doc:`/examples/gallery_examples/00-mapdl-examples/spotweld`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:451
-msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_torsional_load.py`"
+msgid ":doc:`/examples/gallery_examples/00-mapdl-examples/torsional_load`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/index.rst:468
-msgid ""
-":ref:`sphx_glr_examples_gallery_examples_00-mapdl-"
-"examples_transient_thermal.py`"
+msgid ":doc:`/examples/gallery_examples/00-mapdl-examples/transient_thermal`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/00-mapdl-examples/lathe_cutter.rst:13
@@ -8642,23 +8605,23 @@ msgid "These examples demonstrate using PyMAPDL to create basic geometry."
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/index.rst:26
-msgid ":ref:`sphx_glr_examples_gallery_examples_01-geometry_00-keypoints.py`"
+msgid ":doc:`/examples/gallery_examples/01-geometry/00-keypoints`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/index.rst:43
-msgid ":ref:`sphx_glr_examples_gallery_examples_01-geometry_01-lines.py`"
+msgid ":doc:`/examples/gallery_examples/01-geometry/01-lines`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/index.rst:60
-msgid ":ref:`sphx_glr_examples_gallery_examples_01-geometry_02-areas.py`"
+msgid ":doc:`/examples/gallery_examples/01-geometry/02-areas`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/index.rst:77
-msgid ":ref:`sphx_glr_examples_gallery_examples_01-geometry_03-volumes.py`"
+msgid ":doc:`/examples/gallery_examples/01-geometry/03-volumes`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/index.rst:94
-msgid ":ref:`sphx_glr_examples_gallery_examples_01-geometry_04-primitives.py`"
+msgid ":doc:`/examples/gallery_examples/01-geometry/04-primitives`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/01-geometry/sg_execution_times.rst:9
@@ -9646,39 +9609,36 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/index.rst:26
-msgid ""
-":ref:`sphx_glr_examples_gallery_examples_02-tips-n-tricks_00-example-"
-"template.py`"
+msgid ":doc:`/examples/gallery_examples/02-tips-n-tricks/00-example-template`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/index.rst:43
 msgid ""
-":ref:`sphx_glr_examples_gallery_examples_02-tips-n-tricks_01-smoothing-"
-"element-size-transitions.py`"
+":doc:`/examples/gallery_examples/02-tips-n-tricks/01-smoothing-element-size-"
+"transitions`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/index.rst:60
 msgid ""
-":ref:`sphx_glr_examples_gallery_examples_02-tips-n-"
-"tricks_03-using_inline_functions_and_Query.py`"
+":doc:`/examples/gallery_examples/02-tips-n-"
+"tricks/03-using_inline_functions_and_Query`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/index.rst:77
 msgid ""
-":ref:`sphx_glr_examples_gallery_examples_02-tips-n-tricks_04-rotational-"
-"displacement.py`"
+":doc:`/examples/gallery_examples/02-tips-n-tricks/04-rotational-"
+"displacement`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/index.rst:94
 msgid ""
-":ref:`sphx_glr_examples_gallery_examples_02-tips-n-"
-"tricks_05-explore_mapdl_files.py`"
+":doc:`/examples/gallery_examples/02-tips-n-tricks/05-explore_mapdl_files`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/index.rst:111
 msgid ""
-":ref:`sphx_glr_examples_gallery_examples_02-tips-n-tricks_06-convert-apdl-"
-"to-pymapdl.py`"
+":doc:`/examples/gallery_examples/02-tips-n-tricks/06-convert-apdl-to-"
+"pymapdl`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/02-tips-n-tricks/sg_execution_times.rst:9
@@ -10380,8 +10340,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/03-general-fea/index.rst:28
 msgid ""
-":ref:`sphx_glr_examples_gallery_examples_03-general-"
-"fea_00-how_finite_element_works.py`"
+":doc:`/examples/gallery_examples/03-general-fea/00-how_finite_element_works`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/gallery_examples/03-general-fea/sg_execution_times.rst:9
