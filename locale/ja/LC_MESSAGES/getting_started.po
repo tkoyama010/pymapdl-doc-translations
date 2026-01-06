@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) (c) 2025 ANSYS, Inc. All rights reserved
+# Copyright (C) (c) 2026 ANSYS, Inc. All rights reserved
 # This file is distributed under the same license as the ansys-mapdl-core package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.70.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-28 00:25+0000\n"
+"POT-Creation-Date: 2026-01-06 00:23+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -1282,7 +1282,7 @@ msgid ""
 "installation to connect to this instance."
 msgstr ""
 
-#: ../../pymapdl/docker/make_container.rst:16
+#: ../../pymapdl/docker/build/README.rst:16
 #: ../../pymapdl/doc/source/getting_started/docker.rst:23
 msgid "Requirements"
 msgstr "必要条件"
@@ -2770,17 +2770,17 @@ msgid ""
 ":ref:`connect_grpc_mapdl_session`."
 msgstr ""
 
-#: ../../pymapdl/docker/make_container.rst:3
+#: ../../pymapdl/docker/build/README.rst:3
 msgid "Create your own MAPDL docker container"
 msgstr "独自のMAPDL dockerコンテナを作成する"
 
-#: ../../pymapdl/docker/make_container.rst:5
+#: ../../pymapdl/docker/build/README.rst:5
 msgid ""
 "You need a valid Ansys license and an Ansys account to follow the steps "
 "detailed in this section."
 msgstr "このセクションで説明する手順を実行するには、有効な Ansys ライセンスと Ansys アカウントが必要です。"
 
-#: ../../pymapdl/docker/make_container.rst:8
+#: ../../pymapdl/docker/build/README.rst:8
 msgid ""
 "You can create your own MAPDL docker container following the steps given in "
 "this page. This guide will use a local Ubuntu machine to generate the needed"
@@ -2790,57 +2790,57 @@ msgstr ""
 "このページに記載されている手順に従って、独自の MAPDL docker コンテナを作成することができます。このガイドでは、ローカルの Ubuntu "
 "マシンを使用して、最初に Ansys 製品をインストールして MAPDL コンテナに必要なファイルを生成し、生成されたファイルをコンテナにコピーします。"
 
-#: ../../pymapdl/docker/make_container.rst:18
+#: ../../pymapdl/docker/build/README.rst:18
 msgid ""
 "A linux machine, preferable with Ubuntu 20.04 or later. CentOS Linux "
 "distribution is not supported anymore. This machine needs to have `Docker "
 "<https://www.docker.com>`_ installed."
 msgstr ""
 
-#: ../../pymapdl/docker/make_container.rst:22
+#: ../../pymapdl/docker/build/README.rst:22
 msgid ""
 "A valid Ansys account. Your Ansys reseller should have provide you with one."
 msgstr ""
 
-#: ../../pymapdl/docker/make_container.rst:25
+#: ../../pymapdl/docker/build/README.rst:25
 msgid "The following provided files:"
 msgstr ""
 
-#: ../../pymapdl/docker/make_container.rst:27
+#: ../../pymapdl/docker/build/README.rst:27
 msgid ""
 "`Dockerfile <https://github.com/ansys/pymapdl/tree/main/docker/Dockerfile>`_"
 msgstr ""
 
-#: ../../pymapdl/docker/make_container.rst:28
+#: ../../pymapdl/docker/build/README.rst:28
 msgid ""
 "`.dockerignore "
 "<https://github.com/ansys/pymapdl/tree/main/docker/.dockerignore>`_"
 msgstr ""
 
-#: ../../pymapdl/docker/make_container.rst:32
+#: ../../pymapdl/docker/build/README.rst:32
 msgid "Procedure"
 msgstr "プロシージャー"
 
-#: ../../pymapdl/docker/make_container.rst:35
+#: ../../pymapdl/docker/build/README.rst:35
 msgid "Download Ansys MAPDL installation files"
 msgstr "Ansys MAPDLインストールファイルのダウンロード"
 
-#: ../../pymapdl/docker/make_container.rst:37
+#: ../../pymapdl/docker/build/README.rst:37
 msgid ""
 "Download latest Ansys MAPDL version from the customer portal (`Current "
 "Release <ansys_current_release_>`_). You need to have a valid Ansys account "
 "with access to products downloads."
 msgstr ""
 
-#: ../../pymapdl/docker/make_container.rst:42
+#: ../../pymapdl/docker/build/README.rst:42
 msgid "If you lack of an Ansys account, please contact your IT manager."
 msgstr "Ansysのアカウントがない場合は、IT管理者にお問い合わせください。"
 
-#: ../../pymapdl/docker/make_container.rst:47
+#: ../../pymapdl/docker/build/README.rst:47
 msgid "Install Ansys MAPDL product"
 msgstr ""
 
-#: ../../pymapdl/docker/make_container.rst:49
+#: ../../pymapdl/docker/build/README.rst:49
 msgid ""
 "To install Ansys MAPDL product on an Ubuntu machine you can follow "
 ":ref:`install_mapdl` if you are using the graphical user interface or "
@@ -2849,86 +2849,86 @@ msgid ""
 "workflow."
 msgstr ""
 
-#: ../../pymapdl/docker/make_container.rst:55
+#: ../../pymapdl/docker/build/README.rst:55
 msgid ""
 "To reduce the size of the final image, you might want to install the minimal"
 " files by using:"
 msgstr ""
 
-#: ../../pymapdl/docker/make_container.rst:64
+#: ../../pymapdl/docker/build/README.rst:64
 msgid ""
 "This command install Mechanical MAPDL (``-mechapdl``) and the custom "
 "routines (``-ansyscust``) such as UPF."
 msgstr ""
 
-#: ../../pymapdl/docker/make_container.rst:67
+#: ../../pymapdl/docker/build/README.rst:67
 msgid ""
 "Please take note of where you are installing ANSYS because the directory "
 "path is need in the following section."
 msgstr ""
 
-#: ../../pymapdl/docker/make_container.rst:71
+#: ../../pymapdl/docker/build/README.rst:71
 msgid "Build Docker image"
 msgstr ""
 
-#: ../../pymapdl/docker/make_container.rst:73
+#: ../../pymapdl/docker/build/README.rst:73
 msgid ""
 "To build the Docker image, you need to create a directory and copy all the "
 "files you need in the image."
 msgstr ""
 
-#: ../../pymapdl/docker/make_container.rst:76
+#: ../../pymapdl/docker/build/README.rst:76
 msgid ""
 "The steps to copy those files and build the image are detailed in the "
 "following script, which you should modify to adapt it to your needs."
 msgstr ""
 
-#: ../../pymapdl/docker/make_container.rst:97
+#: ../../pymapdl/docker/build/README.rst:97
 msgid "Please notice that:"
 msgstr ""
 
-#: ../../pymapdl/docker/make_container.rst:99
+#: ../../pymapdl/docker/build/README.rst:99
 msgid "``path-to-pymapdl`` is the path where PyMAPDL repository is located."
 msgstr ""
 
-#: ../../pymapdl/docker/make_container.rst:100
+#: ../../pymapdl/docker/build/README.rst:100
 msgid ""
 "``path_to_mapdl_installation`` is the path to where you have locally "
 "installed ANSYS MAPDL."
 msgstr ""
 
-#: ../../pymapdl/docker/make_container.rst:102
+#: ../../pymapdl/docker/build/README.rst:102
 msgid ""
 "Not all the installation files are copied, in fact, the files ignored during"
 " the copying are detailed in the file `.dockerignore "
 "<https://github.com/ansys/pymapdl/tree/main/docker/.dockerignore>`_."
 msgstr ""
 
-#: ../../pymapdl/docker/make_container.rst:105
+#: ../../pymapdl/docker/build/README.rst:105
 msgid ""
 "The Docker container configuration needed to build the container is detailed"
 " in the `Dockerfile "
 "<https://github.com/ansys/pymapdl/tree/main/docker/Dockerfile>`_."
 msgstr ""
 
-#: ../../pymapdl/docker/make_container.rst:110
+#: ../../pymapdl/docker/build/README.rst:110
 msgid "Summary"
 msgstr "まとめ"
 
-#: ../../pymapdl/docker/make_container.rst:113
+#: ../../pymapdl/docker/build/README.rst:113
 msgid ""
 "**Step 1:** Download latest Ansys MAPDL version from the customer portal "
 "(`Current Release <ansys_current_release_>`_)."
 msgstr ""
 
-#: ../../pymapdl/docker/make_container.rst:116
+#: ../../pymapdl/docker/build/README.rst:116
 msgid ""
 "**Step 2:** Install Ansys MAPDL in a known folder. You can reuse your local "
 "installation if it is updated and the machine is running the same Ubuntu "
 "version as the targe Ubuntu docker version."
 msgstr ""
 
-#: ../../pymapdl/docker/make_container.rst:120
+#: ../../pymapdl/docker/build/README.rst:120
 msgid ""
 "**Step 3:** Build the docker image with the provided Docker configuration "
 "files and script."
