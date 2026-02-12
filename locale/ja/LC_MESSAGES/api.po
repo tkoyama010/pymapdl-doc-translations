@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: ansys-mapdl-core 0.70.dev0\n"
+"Project-Id-Version: ansys-mapdl-core 0.72.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-24 00:22+0000\n"
+"POT-Creation-Date: 2026-02-12 00:27+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -349,6 +349,8 @@ msgstr ""
 #: ansys.mapdl.core.database.elems.DbElems:19
 #: ../../pymapdl/src/ansys/mapdl/core/database/nodes.pydocstring of
 #: ansys.mapdl.core.database.nodes.DbNodes:19
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.units:26
 #: ../../pymapdl/src/ansys/mapdl/core/inline_functions/component_queries.pydocstring
 #: of
 #: ansys.mapdl.core.inline_functions.component_queries._ComponentQueries.centrx:32
@@ -12400,8 +12402,6 @@ msgstr ""
 #: ansys.mapdl.core.information.Information.title:10
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
 #: ansys.mapdl.core.information.Information.titles:10
-#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
-#: ansys.mapdl.core.information.Information.units:10
 #: ../../pymapdl/src/ansys/mapdl/core/launcher.pydocstring of
 #: ansys.mapdl.core.launcher.get_default_ansys_path:11
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
@@ -15509,8 +15509,17 @@ msgid "Retrieve the units from the MAPDL instance."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.units:10
+msgid ":obj:`UnitsDict`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
 #: ansys.mapdl.core.information.Information.units:11
-msgid "The units from the MAPDL instance."
+msgid ""
+"A dictionary-like object containing the units from the MAPDL instance. "
+"Supports both full names (e.g., 'LENGTH') and short names (e.g., 'l') with "
+"case-insensitive access. Printing the object returns the original formatted "
+"string."
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.inline_functions.Query.asel.rst:2
