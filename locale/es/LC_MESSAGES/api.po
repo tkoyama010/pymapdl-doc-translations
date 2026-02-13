@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.72.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-12 00:27+0000\n"
+"POT-Creation-Date: 2026-02-13 00:30+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -14179,7 +14179,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.parameters.Parameters.rst:27
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:28
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:33
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:30
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:33
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.post.PostProcessing.rst:85
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.solution.Solution.rst:23
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:39
@@ -20658,89 +20658,113 @@ msgid ""
 "Create a pool of instances in multiple instances and with different ports:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:28:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:31:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
 #: ansys.mapdl.core.pool.MapdlPool.__init__:2
 msgid "Initialize several instances of mapdl"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:28:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:31:<autosummary>:1
 msgid ""
 ":py:obj:`__init__ <ansys.mapdl.core.pool.MapdlPool.__init__>`\\ "
 "\\(\\[n\\_instances\\, wait\\, run\\_location\\, ...\\]\\)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:28:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:31:<autosummary>:1
+msgid ":py:obj:`add <ansys.mapdl.core.pool.MapdlPool.add>`\\ \\(mapdl\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:31:<autosummary>:1
+msgid "Add an existing MAPDL instance to the pool."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:31:<autosummary>:1
 msgid ":py:obj:`exit <ansys.mapdl.core.pool.MapdlPool.exit>`\\ \\(\\[block\\]\\)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:28:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:31:<autosummary>:1
 msgid "Close out all instances in the pool."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:28:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:31:<autosummary>:1
+msgid ":py:obj:`increase <ansys.mapdl.core.pool.MapdlPool.increase>`\\ \\(\\[n\\]\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:31:<autosummary>:1
+msgid "Add instances to the pool."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:31:<autosummary>:1
 msgid ""
 ":py:obj:`is_initialized <ansys.mapdl.core.pool.MapdlPool.is_initialized>`\\ "
 "\\(index\\)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:28:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:31:<autosummary>:1
 msgid "Check if the instance is initialized"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:28:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:31:<autosummary>:1
 msgid ""
 ":py:obj:`map <ansys.mapdl.core.pool.MapdlPool.map>`\\ \\(func\\[\\, "
 "iterable\\, progress\\_bar\\, ...\\]\\)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:28:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:31:<autosummary>:1
 msgid "Run a function for each instance of mapdl within the pool."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:28:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:31:<autosummary>:1
 msgid ":py:obj:`next <ansys.mapdl.core.pool.MapdlPool.next>`\\ \\(\\[return\\_index\\]\\)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:28:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:31:<autosummary>:1
 msgid "Return a context manager that returns available instances."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:28:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:31:<autosummary>:1
 msgid ""
 ":py:obj:`next_available <ansys.mapdl.core.pool.MapdlPool.next_available>`\\ "
 "\\(\\[return\\_index\\, as\\_ctx\\]\\)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:28:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:31:<autosummary>:1
 msgid "Wait until an instance of MAPDL is available and return that instance."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:28:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:31:<autosummary>:1
+msgid ":py:obj:`reduce <ansys.mapdl.core.pool.MapdlPool.reduce>`\\ \\(\\[n\\]\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:31:<autosummary>:1
+msgid "Remove instances from the pool."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:31:<autosummary>:1
 msgid ""
 ":py:obj:`run_batch <ansys.mapdl.core.pool.MapdlPool.run_batch>`\\ "
 "\\(files\\[\\, clear\\_at\\_start\\, ...\\]\\)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:28:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:31:<autosummary>:1
 msgid "Run a batch of input files on the pool."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:28:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:31:<autosummary>:1
 msgid ""
 ":py:obj:`wait_for_ready <ansys.mapdl.core.pool.MapdlPool.wait_for_ready>`\\ "
 "\\(\\[timeout\\]\\)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:28:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:31:<autosummary>:1
 msgid "Wait until pool is ready."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:33:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:36:<autosummary>:1
 msgid ":py:obj:`ready <ansys.mapdl.core.pool.MapdlPool.ready>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:33:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:36:<autosummary>:1
 msgid "Return true if all the instances are ready (not exited)"
 msgstr ""
 
