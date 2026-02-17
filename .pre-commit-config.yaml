@@ -14,7 +14,7 @@ repos:
       - id: mixed-line-ending
         exclude: ^(locale)
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.34.0
+    rev: 0.36.2
     hooks:
       - id: check-github-workflows
   - repo: https://github.com/pre-commit/mirrors-prettier
@@ -23,6 +23,6 @@ repos:
       - id: prettier
         types_or: [yaml, markdown]
   - repo: https://github.com/woodruffw/zizmor-pre-commit
-    rev: v1.5.2
+    rev: v1.22.0
     hooks:
       - id: zizmor
