@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.72.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-05 00:28+0000\n"
+"POT-Creation-Date: 2026-03-06 00:31+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -16,6 +16,134 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../pymapdl/doc/source/getting_started/ai_agents.rst:5
+msgid "AI Agents for Development"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/ai_agents.rst:8
+msgid ""
+"This section is a work in progress and may be updated frequently as the AI "
+"agent strategy and implementation is refined."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/ai_agents.rst:11
+msgid ""
+"PyMAPDL uses structured AI agents to automate and improve development, "
+"testing, documentation, and code review. These agents are available in any "
+"LLM-enabled IDE (GitHub Copilot, Cursor, JetBrains AI, etc.) and are "
+"configured in the `.github/agents/` directory."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/ai_agents.rst:17
+msgid "Available Agents"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/ai_agents.rst:19
+msgid ""
+"**Developer**: Implements features, fixes bugs, optimizes performance, and "
+"designs APIs."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/ai_agents.rst:20
+msgid ""
+"**Documentation Specialist**: Reviews and improves documentation, validates "
+"docstrings, checks spelling and style."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/ai_agents.rst:21
+msgid ""
+"**Tester**: Maintains test coverage, implements mocking strategies, and "
+"ensures test infrastructure quality."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/ai_agents.rst:22
+msgid ""
+"**Reviewer**: Performs comprehensive PR reviews and enforces quality gates "
+"before merging."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/ai_agents.rst:25
+msgid "Workflow"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/ai_agents.rst:27
+msgid "The typical workflow is:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/ai_agents.rst:29
+msgid "**Developer** implements code and features"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/ai_agents.rst:30
+msgid "**Tester** adds or updates tests, ensuring ≥90% coverage"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/ai_agents.rst:31
+msgid ""
+"**Documentation Specialist** reviews and improves documentation and "
+"docstrings"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/ai_agents.rst:32
+msgid ""
+"**Reviewer** checks code quality, documentation, and tests before merge"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/ai_agents.rst:35
+msgid "Agent Usage"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/ai_agents.rst:37
+msgid ""
+"You can invoke agents by referencing their names in prompts or using slash "
+"commands in supported IDEs. See :file:`.github/HOW_TO_USE_AGENTS.md` for "
+"detailed instructions and examples for each IDE."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/ai_agents.rst:42
+msgid "Agent Guidelines"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/ai_agents.rst:44
+msgid ""
+"Each agent follows a detailed specification in `.github/agents/` and "
+"summarized in :file:`AGENTS.md`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/ai_agents.rst:46
+msgid ""
+"Agents enforce project standards for code style, documentation, testing, and"
+" review."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/ai_agents.rst:47
+msgid ""
+"See :file:`AGENTS.md` and :file:`.github/HOW_TO_USE_AGENTS.md` for full "
+"details and usage tips."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/ai_agents.rst:49
+msgid "For more information, see:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/ai_agents.rst:51
+msgid ":file:`.github/HOW_TO_USE_AGENTS.md`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/ai_agents.rst:52
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:20
+msgid ":ref:`write_documentation`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/ai_agents.rst:53
+#: ../../pymapdl/doc/source/getting_started/contribution.rst:21
+msgid ":ref:`developing_pymapdl`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/ai_agents.rst:54
+msgid ":file:`AGENTS.md`"
+msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/contribution.rst:5
 msgid "Contributing"
@@ -31,14 +159,6 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/contribution.rst:19
 msgid "`Post issues`_"
-msgstr ""
-
-#: ../../pymapdl/doc/source/getting_started/contribution.rst:20
-msgid ":ref:`write_documentation`"
-msgstr ""
-
-#: ../../pymapdl/doc/source/getting_started/contribution.rst:21
-msgid ":ref:`developing_pymapdl`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/contribution.rst:23
@@ -1819,18 +1939,23 @@ msgid "Getting started"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/index.rst:43
-msgid "To use PyMAPDL you must follow the next three steps:"
+msgid ""
+"For information on using AI agents for development, see :ref:`ai_agents`."
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/index.rst:45
-msgid ":ref:`ref_using_standard_install`"
-msgstr ""
-
-#: ../../pymapdl/doc/source/getting_started/index.rst:46
-msgid ":ref:`ref_pymapdl_installation`"
+msgid "To use PyMAPDL you must follow the next three steps:"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/index.rst:47
+msgid ":ref:`ref_using_standard_install`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/index.rst:48
+msgid ":ref:`ref_pymapdl_installation`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/index.rst:49
 msgid ":ref:`ref_launch_pymapdl`"
 msgstr ""
 
