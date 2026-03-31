@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.72.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-11 00:25+0000\n"
+"POT-Creation-Date: 2026-03-30 18:36+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -51,90 +51,99 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/cli.rst:59
 msgid ""
-"This ``pymapdl start`` command aims to replicate the function "
-":func:`ansys.mapdl.core.launcher.launch_mapdl`. Hence, you can use some of "
-"the arguments which this function allows. For instance, you could specify "
-"the working directory:"
+"This ``pymapdl start`` command uses the "
+":func:`ansys.mapdl.core.launcher.launch_mapdl_process` function internally "
+"to start MAPDL without creating a client connection. The command returns the"
+" connection information (IP, port, and PID) that you can use to connect "
+"later."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/cli.rst:83
+#: ../../pymapdl/doc/source/user_guide/cli.rst:64
 msgid ""
-"For more information, see :func:`ansys.mapdl.core.launcher.launch_mapdl`."
+"Some of the arguments that :func:`ansys.mapdl.core.launcher.launch_mapdl` "
+"allows are also available in the CLI. For instance, you could specify the "
+"working directory:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/cli.rst:87
+#: ../../pymapdl/doc/source/user_guide/cli.rst:86
+msgid ""
+"For more information about the underlying function, see "
+":func:`ansys.mapdl.core.launcher.launch_mapdl_process`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:91
 msgid "Stop MAPDL instances"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/cli.rst:88
+#: ../../pymapdl/doc/source/user_guide/cli.rst:92
 msgid ""
 "You can use the ``pymapdl stop`` command to stop MAPDL instances like this:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/cli.rst:110
+#: ../../pymapdl/doc/source/user_guide/cli.rst:114
 msgid "By default, the instance running on the port `50052` is stopped."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/cli.rst:112
+#: ../../pymapdl/doc/source/user_guide/cli.rst:116
 msgid ""
 "You can specify the instance running on a different port using `--port` "
 "argument:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/cli.rst:134
+#: ../../pymapdl/doc/source/user_guide/cli.rst:138
 msgid "Or an instance with a given process id (PID):"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/cli.rst:156
+#: ../../pymapdl/doc/source/user_guide/cli.rst:160
 msgid "Alternatively, you can stop all the running instances by using:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/cli.rst:179
+#: ../../pymapdl/doc/source/user_guide/cli.rst:183
 msgid "List MAPDL instances and processes"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/cli.rst:181
+#: ../../pymapdl/doc/source/user_guide/cli.rst:185
 msgid ""
 "You can also list MAPDL instances and processes. If you want to list MAPDL "
 "process, just use the following command:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/cli.rst:212
+#: ../../pymapdl/doc/source/user_guide/cli.rst:216
 msgid ""
 "If you want, to just list the instances (avoiding listing children MAPDL "
 "processes), just type:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/cli.rst:239
+#: ../../pymapdl/doc/source/user_guide/cli.rst:243
 msgid ""
 "You can also print other fields like the working directory (using `--cwd`) "
 "or the command line (using `-c`). Additionally, you can also print all the "
 "available information by using the argument `--long` or `-l`:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/cli.rst:272
+#: ../../pymapdl/doc/source/user_guide/cli.rst:276
 msgid ""
 "The converter module has its own command line interface to convert MAPDL "
 "files to PyMAPDL. For more information, see :ref:`ref_cli_converter`."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/cli.rst:281
+#: ../../pymapdl/doc/source/user_guide/cli.rst:285
 msgid "Convert APDL code"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/cli.rst:283
+#: ../../pymapdl/doc/source/user_guide/cli.rst:287
 msgid ""
 "After you have activated and installed the package as described in "
 ":ref:`installation`, you can use the converter from your terminal. Here is "
 "how you use the ``pymapdl convert`` command:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/cli.rst:309
+#: ../../pymapdl/doc/source/user_guide/cli.rst:313
 msgid ""
 "To obtain help on converter usage, options, and examples, type this command:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/cli.rst:347
+#: ../../pymapdl/doc/source/user_guide/cli.rst:351
 msgid ""
 "The ``pymapdl convert`` command uses the :func:`convert_script() "
 "<ansys.mapdl.core.convert_script>` function. Hence, this command accepts "
