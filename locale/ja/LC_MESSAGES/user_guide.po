@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.72.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-30 18:36+0000\n"
+"POT-Creation-Date: 2026-04-07 00:33+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -28,9 +28,9 @@ msgstr "PyMAPDL コマンドラインインターフェイス."
 #: ../../pymapdl/doc/source/user_guide/cli.rst:8
 msgid ""
 "For your convenience, PyMAPDL package includes a command line interface "
-"which allows you to launch, stop and list local MAPDL instances."
+"which allows you to launch, stop, list, and execute commands on MAPDL "
+"instances."
 msgstr ""
-"便利なように、PyMAPDLパッケージには、ローカルのMAPDLインスタンスを起動、停止、一覧表示できるコマンドラインインターフェイスが含まれています。"
 
 #: ../../pymapdl/doc/source/user_guide/cli.rst:13
 msgid "Launch MAPDL instances"
@@ -132,23 +132,80 @@ msgid ""
 "files to PyMAPDL. For more information, see :ref:`ref_cli_converter`."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/cli.rst:285
+#: ../../pymapdl/doc/source/user_guide/cli.rst:284
+msgid "Execute MAPDL commands"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:286
+msgid ""
+"Use ``pymapdl exec`` to send APDL commands to a running MAPDL instance and "
+"print the output to stdout. The command always connects to an existing "
+"instance, it never starts a new one. Use ``pymapdl start`` first if needed."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:290
+msgid ""
+"There are three mutually exclusive ways to supply commands. The recommended "
+"approach is to use the ``-c`` / ``--command`` option, which can be repeated."
+" Each ``-c`` value is one APDL command; all commands are sent as a single "
+"block:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:312
+msgid ""
+"You can also read commands from an APDL script file using ``--file`` / "
+"``-f``:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:332
+msgid ""
+"To pipe commands from another program, pass ``-`` as a positional argument "
+"to read from stdin:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:353
+msgid ""
+"By default, ``pymapdl exec`` connects without clearing the MAPDL database, "
+"so successive calls share the same model state. Use the ``--clear-on-"
+"connect`` flag to clear the database before sending commands:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:375
+msgid ""
+"A common workflow is to start MAPDL once, send one or more command blocks, "
+"and then stop the instance:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:408
+msgid ""
+"``pymapdl exec`` writes command output to stdout and errors to stderr, "
+"making it suitable for use in shell scripts and pipelines. The process exits"
+" with code ``0`` on success and ``1`` on failure."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:412
+msgid ""
+"To convert an existing APDL script to Python instead of executing it, see "
+":ref:`ref_cli_converter`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:419
 msgid "Convert APDL code"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/cli.rst:287
+#: ../../pymapdl/doc/source/user_guide/cli.rst:421
 msgid ""
 "After you have activated and installed the package as described in "
 ":ref:`installation`, you can use the converter from your terminal. Here is "
 "how you use the ``pymapdl convert`` command:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/cli.rst:313
+#: ../../pymapdl/doc/source/user_guide/cli.rst:447
 msgid ""
 "To obtain help on converter usage, options, and examples, type this command:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/cli.rst:351
+#: ../../pymapdl/doc/source/user_guide/cli.rst:485
 msgid ""
 "The ``pymapdl convert`` command uses the :func:`convert_script() "
 "<ansys.mapdl.core.convert_script>` function. Hence, this command accepts "
