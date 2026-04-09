@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.72.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-30 18:36+0000\n"
+"POT-Creation-Date: 2026-04-09 00:27+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -555,7 +555,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.Mapdl.version:19
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc:89
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc:84
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.download:64
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
@@ -24574,8 +24574,6 @@ msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc:56
-#: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc:64
 msgid "python:str | python:None"
 msgstr ""
 
@@ -24595,7 +24593,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc:60
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc:69
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc:64
 msgid "Path | python:str | python:None"
 msgstr ""
 
@@ -24608,25 +24606,12 @@ msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc:65
-msgid "**uds_id** : :class:`python:str` | :data:`python:None`"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc:66
-msgid ""
-"Optional ID to use for the UDS socket filename. By default `None` and thus "
-"it will use \"aposdas_socket.sock\". Otherwise, the socket filename will be "
-"\"aposdas_socket-<uds_id>.sock\"."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc:70
 msgid ""
 "**certs_dir** : :obj:`Path` | :class:`python:str` | :data:`python:None`"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc:71
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc:66
 msgid ""
 "Directory to use for TLS certificates. By default `None` and thus search for"
 " the \"ANSYS_GRPC_CERTIFICATES\" environment variable. If not found, it will"
@@ -24634,25 +24619,25 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc:90
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc:85
 msgid ""
 "Connect to an instance of MAPDL already running on locally on the default "
 "port 50052."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc:96
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc:91
 msgid "Connect to an instance of MAPDL running on the LAN on a default port."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc:100
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc:95
 msgid ""
 "Connect to an instance of MAPDL running on the LAN on a non-default port."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc:104
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc:99
 msgid ""
 "If you wish to customize the channel, you can also directly connect directly"
 " to gRPC channels. For example, if you wanted to create an insecure channel "
