@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.72.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-29 00:43+0000\n"
+"POT-Creation-Date: 2026-05-03 00:43+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -20156,7 +20156,7 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:26:<autosummary>:1
-msgid "Create from a dictionary."
+msgid "Create an instance from a dictionary of attribute values."
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:26:<autosummary>:1
@@ -20192,519 +20192,538 @@ msgid ":py:obj:`to_dict <ansys.mapdl.core.plotting.MapdlTheme.to_dict>`\\ \\(\\)
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:26:<autosummary>:1
-msgid "Return theme config parameters as a dictionary."
+msgid "Return config parameters as a dictionary."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`above_range_color "
 "<ansys.mapdl.core.plotting.MapdlTheme.above_range_color>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default above range color."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`allow_empty_mesh "
 "<ansys.mapdl.core.plotting.MapdlTheme.allow_empty_mesh>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set whether to allow plotting empty meshes."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`anti_aliasing "
 "<ansys.mapdl.core.plotting.MapdlTheme.anti_aliasing>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Enable or disable anti-aliasing."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ":py:obj:`auto_close <ansys.mapdl.core.plotting.MapdlTheme.auto_close>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Automatically close the figures when finished plotting."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ":py:obj:`axes <ansys.mapdl.core.plotting.MapdlTheme.axes>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default ``axes`` configuration."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ":py:obj:`background <ansys.mapdl.core.plotting.MapdlTheme.background>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default background color of pyvista plots."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`before_close_callback "
 "<ansys.mapdl.core.plotting.MapdlTheme.before_close_callback>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return the default before_close_callback function for Plotter."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`below_range_color "
 "<ansys.mapdl.core.plotting.MapdlTheme.below_range_color>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default below range color."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ":py:obj:`camera <ansys.mapdl.core.plotting.MapdlTheme.camera>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default camera position."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ":py:obj:`cmap <ansys.mapdl.core.plotting.MapdlTheme.cmap>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default colormap of pyvista."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ":py:obj:`color <ansys.mapdl.core.plotting.MapdlTheme.color>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default color of meshes in pyvista."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`color_cycler <ansys.mapdl.core.plotting.MapdlTheme.color_cycler>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default color cycler used to color meshes."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`colorbar_horizontal "
 "<ansys.mapdl.core.plotting.MapdlTheme.colorbar_horizontal>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default parameters of a horizontal colorbar."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`colorbar_orientation "
 "<ansys.mapdl.core.plotting.MapdlTheme.colorbar_orientation>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default colorbar orientation."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`colorbar_vertical "
 "<ansys.mapdl.core.plotting.MapdlTheme.colorbar_vertical>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default parameters of a vertical colorbar."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`depth_peeling "
 "<ansys.mapdl.core.plotting.MapdlTheme.depth_peeling>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default depth peeling parameters."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ":py:obj:`edge_color <ansys.mapdl.core.plotting.MapdlTheme.edge_color>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default edge color."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`edge_opacity <ansys.mapdl.core.plotting.MapdlTheme.edge_opacity>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the edges opacity."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`enable_camera_orientation_widget "
 "<ansys.mapdl.core.plotting.MapdlTheme.enable_camera_orientation_widget>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Enable the camera orientation widget in all plotters."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`floor_color <ansys.mapdl.core.plotting.MapdlTheme.floor_color>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default floor color."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ":py:obj:`font <ansys.mapdl.core.plotting.MapdlTheme.font>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default font size, family, and/or color."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`full_screen <ansys.mapdl.core.plotting.MapdlTheme.full_screen>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return if figures are shown in full screen."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`hidden_line_removal "
 "<ansys.mapdl.core.plotting.MapdlTheme.hidden_line_removal>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set hidden line removal."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`image_scale <ansys.mapdl.core.plotting.MapdlTheme.image_scale>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default image scale factor."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`interactive <ansys.mapdl.core.plotting.MapdlTheme.interactive>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default ``interactive`` parameter."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
+msgid ""
+":py:obj:`interactor_style "
+"<ansys.mapdl.core.plotting.MapdlTheme.interactor_style>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
+msgid "Return or set the default interactor style."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`interpolate_before_map "
 "<ansys.mapdl.core.plotting.MapdlTheme.interpolate_before_map>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set whether to interpolate colors before mapping."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`jupyter_backend "
 "<ansys.mapdl.core.plotting.MapdlTheme.jupyter_backend>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the jupyter notebook plotting backend."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ":py:obj:`lighting <ansys.mapdl.core.plotting.MapdlTheme.lighting>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default ``lighting``."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`lighting_params "
 "<ansys.mapdl.core.plotting.MapdlTheme.lighting_params>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default lighting configuration."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ":py:obj:`line_width <ansys.mapdl.core.plotting.MapdlTheme.line_width>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default line width."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ":py:obj:`logo_file <ansys.mapdl.core.plotting.MapdlTheme.logo_file>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the logo file."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`multi_rendering_splitting_position "
 "<ansys.mapdl.core.plotting.MapdlTheme.multi_rendering_splitting_position>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 "Return or set the default ``multi_rendering_splitting_position`` parameter."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`multi_samples "
 "<ansys.mapdl.core.plotting.MapdlTheme.multi_samples>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default ``multi_samples`` parameter."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ":py:obj:`name <ansys.mapdl.core.plotting.MapdlTheme.name>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the name of the theme."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ":py:obj:`nan_color <ansys.mapdl.core.plotting.MapdlTheme.nan_color>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default NaN color."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ":py:obj:`notebook <ansys.mapdl.core.plotting.MapdlTheme.notebook>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the state of notebook plotting."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ":py:obj:`opacity <ansys.mapdl.core.plotting.MapdlTheme.opacity>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the opacity."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`outline_color "
 "<ansys.mapdl.core.plotting.MapdlTheme.outline_color>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default outline color."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
+msgid ""
+":py:obj:`point_shape <ansys.mapdl.core.plotting.MapdlTheme.point_shape>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
+msgid "Return or set the default point sprite shape."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ":py:obj:`point_size <ansys.mapdl.core.plotting.MapdlTheme.point_size>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default point size."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`render_lines_as_tubes "
 "<ansys.mapdl.core.plotting.MapdlTheme.render_lines_as_tubes>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default ``render_lines_as_tubes`` parameter."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`render_points_as_spheres "
 "<ansys.mapdl.core.plotting.MapdlTheme.render_points_as_spheres>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default ``render_points_as_spheres`` parameter."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`resample_environment_texture "
 "<ansys.mapdl.core.plotting.MapdlTheme.resample_environment_texture>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Set or return resampling environment texture."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`return_cpos <ansys.mapdl.core.plotting.MapdlTheme.return_cpos>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default behavior of returning the camera position."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`sharp_edges_feature_angle "
 "<ansys.mapdl.core.plotting.MapdlTheme.sharp_edges_feature_angle>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Set or return the angle of the sharp edges feature angle."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ":py:obj:`show_edges <ansys.mapdl.core.plotting.MapdlTheme.show_edges>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default edge visibility."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`show_scalar_bar "
 "<ansys.mapdl.core.plotting.MapdlTheme.show_scalar_bar>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default color bar visibility."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`show_vertices "
 "<ansys.mapdl.core.plotting.MapdlTheme.show_vertices>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default vertex visibility."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ":py:obj:`silhouette <ansys.mapdl.core.plotting.MapdlTheme.silhouette>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default ``silhouette`` configuration."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`slider_styles "
 "<ansys.mapdl.core.plotting.MapdlTheme.slider_styles>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return the default slider style configurations."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`smooth_shading "
 "<ansys.mapdl.core.plotting.MapdlTheme.smooth_shading>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default ``smooth_shading`` parameter."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`split_sharp_edges "
 "<ansys.mapdl.core.plotting.MapdlTheme.split_sharp_edges>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Set or return splitting sharp edges."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ":py:obj:`title <ansys.mapdl.core.plotting.MapdlTheme.title>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default ``title`` parameter."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ":py:obj:`trame <ansys.mapdl.core.plotting.MapdlTheme.trame>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default trame parameters."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`transparent_background "
 "<ansys.mapdl.core.plotting.MapdlTheme.transparent_background>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default ``transparent_background`` parameter."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`volume_mapper "
 "<ansys.mapdl.core.plotting.MapdlTheme.volume_mapper>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default ``volume_mapper`` parameter."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid ""
 ":py:obj:`window_size <ansys.mapdl.core.plotting.MapdlTheme.window_size>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:86:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:88:<autosummary>:1
 msgid "Return or set the default render window size."
 msgstr ""
 
