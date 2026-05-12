@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.72.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-27 00:39+0000\n"
+"POT-Creation-Date: 2026-05-12 00:41+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -140,68 +140,101 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/cli.rst:290
-msgid ""
-"There are three mutually exclusive ways to supply commands. The recommended "
-"approach is to use the ``-c`` / ``--command`` option, which can be repeated."
-" Each ``-c`` value is one APDL command; all commands are sent as a single "
-"block:"
+msgid "There are three mutually exclusive sources for commands:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/cli.rst:312
-msgid ""
-"You can also read commands from an APDL script file using ``--file`` / "
-"``-f``:"
+#: ../../pymapdl/doc/source/user_guide/cli.rst:292
+msgid "**1.** ``-c`` / ``--command`` **options**"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/cli.rst:332
+#: ../../pymapdl/doc/source/user_guide/cli.rst:294
 msgid ""
-"To pipe commands from another program, pass ``-`` as a positional argument "
-"to read from stdin:"
+"Each ``-c`` value is one APDL command; all commands are joined and sent as a"
+" single block. You can pass multiple ``-c`` flags:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/cli.rst:353
+#: ../../pymapdl/doc/source/user_guide/cli.rst:315
+msgid ""
+"Or embed multiple commands in a single ``-c`` value using your shell's "
+"quoting to produce real newlines:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:0
+msgid "Windows (PowerShell)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:0
+msgid "Linux (bash/zsh)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:336
+msgid "**2. Script file**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:338
+msgid "Read commands from an APDL script file using ``--file`` / ``-f``:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:358
+msgid "**3. Stdin**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:360
+msgid ""
+"Pipe commands in from another program. The ``-`` marker is optional, when "
+"stdin is a pipe ``pymapdl exec`` detects it automatically:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:385
+msgid ""
+"``pymapdl exec`` auto-reads stdin only when it detects a pipe (that is stdin"
+" is not a terminal).  Running ``pymapdl exec`` interactively with no "
+"arguments still produces an error rather than hanging."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:390
 msgid ""
 "By default, ``pymapdl exec`` connects without clearing the MAPDL database, "
 "so successive calls share the same model state. Use the ``--clear-on-"
 "connect`` flag to clear the database before sending commands:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/cli.rst:375
+#: ../../pymapdl/doc/source/user_guide/cli.rst:412
 msgid ""
 "A common workflow is to start MAPDL once, send one or more command blocks, "
 "and then stop the instance:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/cli.rst:408
+#: ../../pymapdl/doc/source/user_guide/cli.rst:445
 msgid ""
 "``pymapdl exec`` writes command output to stdout and errors to stderr, "
 "making it suitable for use in shell scripts and pipelines. The process exits"
 " with code ``0`` on success and ``1`` on failure."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/cli.rst:412
+#: ../../pymapdl/doc/source/user_guide/cli.rst:449
 msgid ""
 "To convert an existing APDL script to Python instead of executing it, see "
 ":ref:`ref_cli_converter`."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/cli.rst:419
+#: ../../pymapdl/doc/source/user_guide/cli.rst:456
 msgid "Convert APDL code"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/cli.rst:421
+#: ../../pymapdl/doc/source/user_guide/cli.rst:458
 msgid ""
 "After you have activated and installed the package as described in "
 ":ref:`installation`, you can use the converter from your terminal. Here is "
 "how you use the ``pymapdl convert`` command:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/cli.rst:447
+#: ../../pymapdl/doc/source/user_guide/cli.rst:484
 msgid ""
 "To obtain help on converter usage, options, and examples, type this command:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/cli.rst:485
+#: ../../pymapdl/doc/source/user_guide/cli.rst:522
 msgid ""
 "The ``pymapdl convert`` command uses the :func:`convert_script() "
 "<ansys.mapdl.core.convert_script>` function. Hence, this command accepts "
