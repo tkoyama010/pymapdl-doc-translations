@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.72.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-22 00:48+0000\n"
+"POT-Creation-Date: 2026-05-25 20:33+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -1813,7 +1813,7 @@ msgstr ""
 msgid "Advanced"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:48
+#: ../../pymapdl/doc/source/user_guide/index.rst:49
 msgid "High performance computing"
 msgstr ""
 
@@ -1826,11 +1826,11 @@ msgid ""
 "This section provides a general overview of PyMAPDL and how you use it."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:61
+#: ../../pymapdl/doc/source/user_guide/index.rst:62
 msgid "PyMAPDL overview"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:62
+#: ../../pymapdl/doc/source/user_guide/index.rst:63
 msgid ""
 "The :func:`launch_mapdl() <ansys.mapdl.core.launcher.launch_mapdl>` function"
 " within the ``ansys-mapdl-core`` library creates an instance of the "
@@ -1840,7 +1840,7 @@ msgid ""
 "about it functioning correctly when deployed in batch mode."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:70
+#: ../../pymapdl/doc/source/user_guide/index.rst:71
 msgid ""
 "MAPDL can be started from Python in gRPC mode using the "
 ":func:`launch_mapdl() <ansys.mapdl.core.launcher.launch_mapdl>` method. This"
@@ -1848,21 +1848,21 @@ msgid ""
 "your current directory with this code:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:83
+#: ../../pymapdl/doc/source/user_guide/index.rst:84
 msgid ""
 "MAPDL is now active, and you can send commands to it as a genuine Python "
 "class. For example, if you wanted to create a surface using key points, you "
 "could run:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:100
+#: ../../pymapdl/doc/source/user_guide/index.rst:101
 msgid ""
 "MAPDL interactively returns the result of each command, which is stored to "
 "the logging module. Errors are caught immediately. For example, if you input"
 " an invalid command:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:119
+#: ../../pymapdl/doc/source/user_guide/index.rst:120
 msgid ""
 "This ``MapdlRuntimeError`` was caught immediately. This means that you can "
 "write your MAPDL scripts in Python, run them interactively, and then run "
@@ -1870,7 +1870,7 @@ msgid ""
 "had instead outputted it to a script file."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:124
+#: ../../pymapdl/doc/source/user_guide/index.rst:125
 msgid ""
 "The :class:`Mapdl <ansys.mapdl.core.mapdl.MapdlBase>` class supports much "
 "more than just sending text to MAPDL. It includes higher-level wrapping, "
@@ -1879,11 +1879,11 @@ msgid ""
 " see :ref:`ref_examples`."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:132
+#: ../../pymapdl/doc/source/user_guide/index.rst:133
 msgid "Calling MAPDL Pythonically"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:134
+#: ../../pymapdl/doc/source/user_guide/index.rst:135
 msgid ""
 "MAPDL functions can be called directly from an instance of :class:`Mapdl "
 "<ansys.mapdl.core.mapdl.MapdlBase>` in a Pythonic manner. This is to "
@@ -1891,24 +1891,24 @@ msgid ""
 "For example, the following two commands are equivalent:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:144
+#: ../../pymapdl/doc/source/user_guide/index.rst:145
 msgid ""
 "This approach has some obvious advantages. Chiefly, it's easier to script "
 "because ``ansys-mapdl-core`` takes care of the string formatting for you. "
 "For example, you can input points from a numpy array with:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:155
+#: ../../pymapdl/doc/source/user_guide/index.rst:156
 msgid "Additionally, exceptions are caught and handled within Python."
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:173
+#: ../../pymapdl/doc/source/user_guide/index.rst:174
 msgid ""
 "For longer scripts, instead of sending commands to MAPDL as in the area "
 "creation example, you can instead run:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:194
+#: ../../pymapdl/doc/source/user_guide/index.rst:195
 msgid ""
 "This approach has some obvious advantages, chiefly that it's a bit easier to"
 " script as :class:`Mapdl <ansys.mapdl.core.mapdl.MapdlBase>` takes care of "
@@ -1916,13 +1916,13 @@ msgid ""
 "array:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:208
+#: ../../pymapdl/doc/source/user_guide/index.rst:209
 msgid ""
 "Additionally, each function with the MAPDL class has help associated with "
 "it. For example:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/user_guide/index.rst:252
+#: ../../pymapdl/doc/source/user_guide/index.rst:253
 msgid ""
 "For stability considerations, see :ref:`PyMAPDL stability "
 "<ref_pymapdl_stability>`."
@@ -4107,6 +4107,110 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/plotting.rst:211
 msgid "**Boundary conditions demonstration**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plugins.rst:4
+msgid "Plugin manager overview"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plugins.rst:6
+msgid ""
+"MAPDL plugins extend the solver with additional commands at runtime. The "
+":class:`ansPlugin <ansys.mapdl.core.plugin.ansPlugin>` class, accessed via "
+"``mapdl.plugins``, lets you load, inspect, and unload plugins from a running"
+" MAPDL session without leaving Python."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plugins.rst:12
+msgid "Plugin support requires MAPDL 25.2 or later."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plugins.rst:15
+msgid ""
+"To create your own plugins, visit MAPDL documentation or contact ANSYS "
+"support."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plugins.rst:18
+msgid "Accessing the plugin manager"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plugins.rst:20
+msgid ""
+"The plugin manager is available as a property on every :class:`Mapdl "
+"<ansys.mapdl.core.mapdl.MapdlBase>` instance:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plugins.rst:34
+msgid "Loading a plugin"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plugins.rst:36
+msgid ""
+"Use :meth:`load() <ansys.mapdl.core.plugin.ansPlugin.load>` with the plugin "
+"name and an optional feature string:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plugins.rst:43
+msgid ""
+"After loading, each command that the plugin registers is injected as an "
+"attribute on the ``mapdl`` object. Characters that are not valid Python "
+"identifiers are transformed: ``*`` becomes ``star`` and ``/`` becomes "
+"``slash``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plugins.rst:49
+msgid "Listing loaded plugins"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plugins.rst:51
+msgid ""
+":meth:`list() <ansys.mapdl.core.plugin.ansPlugin.list>` returns the names of"
+" all currently loaded plugins:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plugins.rst:60
+msgid ""
+"Plugin tracking is session-scoped. :meth:`list() "
+"<ansys.mapdl.core.plugin.ansPlugin.list>` first tries ``*PLUG,LIST`` on the "
+"MAPDL server. When the server returns no output, for example, after "
+"reconnecting to an already-running MAPDL instance, it falls back to the "
+"internal state that was built up during the current Python session."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plugins.rst:67
+msgid "Inspecting plugin commands"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plugins.rst:69
+msgid ""
+":meth:`commands() <ansys.mapdl.core.plugin.ansPlugin.commands>` returns the "
+"attribute names that a plugin registered on the ``mapdl`` object:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plugins.rst:78
+msgid "Printing a summary"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plugins.rst:80
+msgid ""
+"Printing ``mapdl.plugins`` (or calling :func:`str() <str>` on it) shows a "
+"table with each loaded plugin, its feature string, and how many commands it "
+"registered:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plugins.rst:92
+msgid "Unloading a plugin"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plugins.rst:94
+msgid ""
+"Use :meth:`unload() <ansys.mapdl.core.plugin.ansPlugin.unload>` to remove a "
+"plugin and clean up all the commands it added:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/plugins.rst:103
+msgid "For the full API reference, see :ref:`ref_plugin_api`."
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/pool.rst:4

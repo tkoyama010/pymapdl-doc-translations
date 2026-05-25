@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.72.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-23 00:46+0000\n"
+"POT-Creation-Date: 2026-05-25 20:33+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -568,6 +568,8 @@ msgstr ""
 #: ansys.mapdl.core.parameters.Parameters:22
 #: ../../pymapdl/src/ansys/mapdl/core/plotting/theme.pydocstring of
 #: ansys.mapdl.core.plotting.theme.MapdlTheme:24
+#: ../../pymapdl/src/ansys/mapdl/core/plugin.pydocstring of
+#: ansys.mapdl.core.plugin.ansPlugin:28
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
 #: ansys.mapdl.core.pool.MapdlPool:101
 #: ../../pymapdl/src/ansys/mapdl/core/post.pydocstring of
@@ -14120,6 +14122,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.parameters.Parameters.rst:13
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:13
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plugin.ansPlugin.rst:13
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:13
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.post.PostProcessing.rst:13
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.solution.Solution.rst:13
@@ -21238,6 +21241,106 @@ msgstr ""
 msgid "Return the scene."
 msgstr ""
 
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plugin.ansPlugin.rst:2
+msgid "ansys.mapdl.core.plugin.ansPlugin"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/plugin.rst:11:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/plugin.pydocstring of
+#: ansys.mapdl.core.plugin.ansPlugin:2
+msgid "MAPDL plugin manager."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/plugin.pydocstring of
+#: ansys.mapdl.core.plugin.ansPlugin:4
+msgid ""
+"Provides an interface for loading, inspecting, and unloading MAPDL plugins "
+"at runtime. Access it through the ``plugins`` property on a :class:`Mapdl "
+"<ansys.mapdl.core.mapdl.MapdlBase>` instance."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/plugin.pydocstring of
+#: ansys.mapdl.core.plugin.ansPlugin:9
+msgid ""
+"Plugin support requires MAPDL 25.2 or later. Plugin tracking is session-"
+"scoped: if the Python process reconnects to an already-running MAPDL "
+"instance, ``list()`` returns an empty list until the server-side "
+"``*PLUG,LIST`` response is available."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/plugin.pydocstring of
+#: ansys.mapdl.core.plugin.ansPlugin:29
+msgid "Create a MAPDL instance and access the plugin manager."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/plugin.pydocstring of
+#: ansys.mapdl.core.plugin.ansPlugin:35
+msgid "Load a plugin and inspect the commands it registers."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/plugin.pydocstring of
+#: ansys.mapdl.core.plugin.ansPlugin:43
+msgid "Print a summary table of all loaded plugins."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/plugin.pydocstring of
+#: ansys.mapdl.core.plugin.ansPlugin:50
+msgid "Unload the plugin and confirm it is no longer listed."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plugin.ansPlugin.rst:20:<autosummary>:1
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/plugin.pydocstring of
+#: ansys.mapdl.core.plugin.ansPlugin.__init__:2
+#: ../../pymapdl/src/ansys/mapdl/core/xpl.pydocstring of
+#: ansys.mapdl.core.xpl.ansXpl.__init__:2
+msgid "Initialize the class."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plugin.ansPlugin.rst:20:<autosummary>:1
+msgid ""
+":py:obj:`__init__ <ansys.mapdl.core.plugin.ansPlugin.__init__>`\\ "
+"\\(mapdl\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plugin.ansPlugin.rst:20:<autosummary>:1
+msgid ""
+":py:obj:`commands <ansys.mapdl.core.plugin.ansPlugin.commands>`\\ "
+"\\(plugin\\_name\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plugin.ansPlugin.rst:20:<autosummary>:1
+msgid "Return the attribute names registered by a plugin."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plugin.ansPlugin.rst:20:<autosummary>:1
+msgid ":py:obj:`list <ansys.mapdl.core.plugin.ansPlugin.list>`\\ \\(\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plugin.ansPlugin.rst:20:<autosummary>:1
+msgid "List all currently loaded plugins."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plugin.ansPlugin.rst:20:<autosummary>:1
+msgid ""
+":py:obj:`load <ansys.mapdl.core.plugin.ansPlugin.load>`\\ "
+"\\(plugin\\_name\\[\\, feature\\]\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plugin.ansPlugin.rst:20:<autosummary>:1
+msgid "Loads a plugin into MAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plugin.ansPlugin.rst:20:<autosummary>:1
+msgid ""
+":py:obj:`unload <ansys.mapdl.core.plugin.ansPlugin.unload>`\\ "
+"\\(plugin\\_name\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plugin.ansPlugin.rst:20:<autosummary>:1
+msgid "Unloads a plugin from MAPDL."
+msgstr ""
+
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:2
 msgid "ansys.mapdl.core.pool.MapdlPool"
 msgstr ""
@@ -22833,12 +22936,6 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/xpl.pydocstring of
 #: ansys.mapdl.core.xpl.ansXpl:24
 msgid "Open a mode file and extract a vector."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/xpl.pydocstring of
-#: ansys.mapdl.core.xpl.ansXpl.__init__:2
-msgid "Initialize the class."
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:37:<autosummary>:1
@@ -24901,6 +24998,14 @@ msgid ""
 msgstr ""
 ":py:obj:`Mapdl.vplot <ansys.mapdl.core.Mapdl.vplot>`\\ \\(\\[nv1\\, nv2\\, "
 "ninc\\, degen\\, scale\\, ...\\]\\)"
+
+#: ../../pymapdl/doc/source/api/plugin.rst:4
+msgid "Plugin manager"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/plugin.rst:11:<autosummary>:1
+msgid ":py:obj:`plugin.ansPlugin <ansys.mapdl.core.plugin.ansPlugin>`\\ \\(mapdl\\)"
+msgstr ""
 
 #: ../../pymapdl/doc/source/api/pool.rst:4
 msgid "MAPDL pool"
