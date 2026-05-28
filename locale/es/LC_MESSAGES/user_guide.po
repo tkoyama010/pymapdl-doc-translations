@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.72.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-25 20:33+0000\n"
+"POT-Creation-Date: 2026-05-28 00:44+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -4571,6 +4571,262 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/post.rst:155
 msgid "Here's a simple example that demonstrates usage:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:5
+msgid "Securing connections with mTLS"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:7
+msgid ""
+"Mutual TLS (mTLS) is the recommended transport mode when connecting to MAPDL"
+" over a network, particularly in remote. Unlike plain TLS, mTLS requires "
+"**both** the server and the client to present a valid certificate signed by "
+"a shared Certificate Authority (CA). This mutual authentication guarantees "
+"that:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:13
+msgid "PyMAPDL only connects to a trusted MAPDL server."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:14
+msgid "MAPDL only accepts connections from trusted clients."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:15
+msgid "All gRPC traffic is encrypted in transit."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:19
+msgid "Certificate files"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:21
+msgid ""
+"An mTLS setup requires three pairs of files: one for the CA, one for the "
+"server, and one for the client. All files use PEM encoding."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:28
+msgid "Party"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:29
+msgid "Files"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:30
+msgid "Purpose"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:31
+msgid "Certificate Authority"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:32
+msgid "``ca.key``, ``ca.crt``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:33
+msgid ""
+"Root of trust. The CA signs both the server and client certificates. "
+"``ca.key`` must be kept secret; ``ca.crt`` is distributed to all parties."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:35
+msgid "Server (MAPDL)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:36
+msgid "``server.key``, ``server.crt``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:37
+msgid ""
+"Presented by MAPDL to prove its identity. The certificate carries "
+"``SERVER_AUTH`` extended key usage and Subject Alternative Names (SANs) "
+"matching the hostname or IP address that clients use to connect."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:40
+msgid "Client (PyMAPDL)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:41
+msgid "``client.key``, ``client.crt``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:42
+msgid ""
+"Presented by PyMAPDL to prove its identity. The certificate carries "
+"``CLIENT_AUTH`` extended key usage."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:47
+msgid ""
+"The server and client certificates must be signed by the same CA so that "
+"each party can verify the other."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:52
+msgid "Generating certificates"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:54
+msgid ""
+"The following Python script generates a complete set of self-signed "
+"certificates using the ``cryptography`` package (RSA 4096-bit keys, SHA-256 "
+"signing). It produces the full CA → server → client chain and writes all "
+"files to a ``certs/`` output directory."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:59
+msgid "First, install the required dependency:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:65
+msgid ""
+"Then run the script below, adjusting ``SERVER_HOSTS`` and ``CLIENT_NAME`` as"
+" needed:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:266
+msgid "After running the script, the output directory contains:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:278
+msgid ""
+"For multiple servers (HPC), each node gets its own ``<hostname>.key`` / "
+"``<hostname>.crt`` pair alongside the shared ``ca.crt``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:283
+msgid ""
+"Self-signed certificates are suitable for testing and private deployments "
+"but should not be used in production without a proper PKI review. Keep all "
+"``.key`` files private and never commit them to a repository."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:289
+msgid "Launching MAPDL with mTLS"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:291
+msgid ""
+"MAPDL reads its server certificate and key from the directory pointed to by "
+"the ``ANSYS_MAPDL_CERTS_PATH`` environment variable. The directory must "
+"contain ``server.crt``, ``server.key``, and ``ca.crt``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:295
+msgid ""
+"Set this variable before starting MAPDL, or pass it through ``add_env_vars``"
+" when using :func:`launch_mapdl() <ansys.mapdl.core.launcher.launch_mapdl>`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:298
+msgid "**Option 1: Shell environment (manual MAPDL launch):**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:305
+msgid "**Option 2: Pass via PyMAPDL** (let PyMAPDL start the MAPDL process):"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:319
+msgid ""
+"The ``add_env_vars`` dictionary is merged on top of the current shell "
+"environment, so existing variables (license server, MPI settings, etc.) are "
+"preserved."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:325
+msgid "Connecting PyMAPDL to an existing mTLS-enabled MAPDL instance"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:327
+msgid ""
+"When connecting to an already-running MAPDL instance, set the transport mode"
+" and certificate directory either in code or via environment variables."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:330
+msgid ""
+"**Using** :func:`launch_mapdl() <ansys.mapdl.core.launcher.launch_mapdl>` "
+"**(connect only):**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:344
+msgid "**Using environment variables** (no code changes required):"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:358
+msgid "The relevant environment variables are summarised below."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:364
+msgid "Environment variable"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:365
+msgid "Description"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:366
+msgid "``PYMAPDL_GRPC_TRANSPORT`` or ``ANSYS_MAPDL_GRPC_TRANSPORT``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:367
+msgid ""
+"Sets the gRPC transport mode for PyMAPDL. Set to ``mtls`` to enable mutual "
+"TLS. ``PYMAPDL_GRPC_TRANSPORT`` takes precedence if both are set."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:370
+msgid "``ANSYS_GRPC_CERTIFICATES``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:371
+msgid ""
+"Path to the directory containing the **client** certificates (``ca.crt``, "
+"``client.crt``, ``client.key``) used by PyMAPDL."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:373
+msgid "``ANSYS_MAPDL_CERTS_PATH``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:374
+msgid ""
+"Path to the directory containing the **server** certificates (``ca.crt``, "
+"``server.crt``, ``server.key``) read by the MAPDL process."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:379
+msgid "End-to-end example"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:381
+msgid "The following example shows a complete workflow on a single machine."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:383
+msgid "**Step 1: Generate certificates**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:385
+msgid ""
+"Run the script from the `Generating certificates`_ section with the default "
+"``SERVER_HOSTS = [(\"localhost\", [\"127.0.0.1\"])]`` setting. This creates "
+"the ``certs/`` directory in the current working directory."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:389
+msgid "**Step 2: Launch MAPDL with mTLS**"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/tls.rst:404
+msgid "**Step 3: Verify the connection and run commands**"
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/xpl.rst:4
