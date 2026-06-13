@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: ansys-mapdl-core 0.72.dev0\n"
+"Project-Id-Version: ansys-mapdl-core 0.74.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-03 01:00+0000\n"
+"POT-Creation-Date: 2026-06-13 00:55+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -947,11 +947,76 @@ msgid ""
 "to ensure that they all work together."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:236
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:235
+msgid "``local`` vs ``remote`` testing"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:237
+msgid ""
+"The PyMAPDL test suite is designed to run when MAPDL is installed on the "
+"local machine (``local`` testing) and when it is not (``remote`` testing). "
+"When working in ``local`` MAPDL is launched by the test suite, and it has "
+"access to the local resources, while in ``remote`` it is expected to be "
+"running on a remote server or container and it does not have access to the "
+"local filesystem."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:244
+msgid "Key differences between ``local`` and ``remote`` testing"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:247
+msgid "Mode"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:248
+msgid "``Local`` testing"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:249
+msgid "``Remote`` testing"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:250
+msgid "Launching MAPDL"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:251
+msgid ""
+"PyMAPDL finds the local MAPDL installation and launches a MAPDL instance "
+"with the specified configuration. Use :envvar:`PYMAPDL_PORT` to specify the "
+"port."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:253
+msgid ""
+"PyMAPDL connects to a running instance of MAPDL that is expected to be "
+"running on a remote server or container. Set "
+":envvar:`PYMAPDL_START_INSTANCE` to ``False`` so PyMAPDL connects instead of"
+" launching a local instance. You need to start MAPDL before running the "
+"tests, and use :envvar:`PYMAPDL_PORT` and :envvar:`PYMAPDL_IP` environment "
+"variables to configure the connection to the running instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:257
+msgid "Access to local resources"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:258
+msgid "Has access to the local filesystem and resources."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:259
+msgid ""
+"Does not have access to the local filesystem and resources. PyMAPDL "
+"uploads/downloads files to the remote instance as needed."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:263
 msgid "Creation of a unit test"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:238
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:265
 msgid ""
 "The name of a ``pytest`` file must be in the form ``test_XXX.py``, where "
 "``XXX`` is either the function, method, or class that you are testing or "
@@ -960,43 +1025,43 @@ msgid ""
 " <pytest_usage_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:243
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:270
 msgid "Here are some guidelines for creating good unit tests:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:245
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:272
 msgid "Assign long and descriptive names to tests."
 msgstr "テストに長くて分かりやすい名前を付ける。"
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:246
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:273
 msgid ""
 "Use the `Codecov <codecov_>`_ tool to ensure that all implemented code is "
 "tested."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:247
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:274
 msgid "Check that tests return the same results each time."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:248
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:275
 msgid "Verify that tests are independent."
 msgstr "テストが独立していることを確認する。"
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:249
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:276
 msgid "Write tests that verify only one part of the code at a time."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:250
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:277
 msgid "Make tests as short and fast as possible."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:252
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:279
 msgid ""
 "`What makes a good unit test? <article_good_unit_test_>`_ is an exhaustive "
 "list of tips for creating good unit tests."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:255
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:282
 msgid ""
 "Most PyMAPDL tests require a connection to a running instance of MAPDL, "
 "which makes them integration tests. If your test requires a running MAPDL "
@@ -1005,109 +1070,109 @@ msgid ""
 "tests."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:269
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:296
 msgid ""
 "Passing the ``cleared`` fixture is also useful since it clears up the MAPDL "
 "database and configuration before performing the test."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:273
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:300
 msgid "Running PyMAPDL tests"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:275
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:302
 msgid "To run all the unit tests use the following command:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:281
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:308
 msgid ""
 "If you just want to run a specific test file, you can provide the path to "
 "the file:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:287
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:314
 msgid ""
 "In case you want to run only a certain subset of tests, you can use the "
 "``-k`` argument to filter the tests using booleans:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:306
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:333
 msgid ""
 "If you are running on a **Linux machine without display** (for example "
 "running from a container), you must install ``xvfb`` OS library and run the "
 "preceding command with the ``xvfb-run`` command as prefix."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:315
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:342
 msgid "Configuring the test suite"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:317
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:344
 msgid ""
 "PyMAPDL can operate in multiple situations, or configurations. To test these"
 " different configurations, you can use the `pytest` framework with specific "
 "environment variables."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:320
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:347
 msgid "The list of environment variables that can be set includes:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:323
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:350
 msgid "Environment variable"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:323
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:350
 msgid "Values"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:323
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:350
 msgid "Default"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:323
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:350
 #: ../../pymapdl/doc/source/getting_started/write_documentation.rst:162
 msgid "Usage"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:325
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:352
 msgid ":envvar:`ON_CI`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:325
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:327
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:329
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:331
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:333
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:335
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:337
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:341
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:352
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:354
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:356
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:358
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:360
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:362
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:364
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:368
 msgid "`True`/`False`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:325
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:331
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:333
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:337
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:352
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:358
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:360
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:364
 msgid "`False`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:325
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:352
 msgid "Tell Pytest it is running on GitHub Actions"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:327
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:354
 msgid ":envvar:`ON_LOCAL`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:327
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:329
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:335
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:341
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:354
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:356
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:362
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:368
 msgid "Detected"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:327
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:354
 msgid ""
 "Tell Pytest that PyMAPDL is running on local, and the test should match "
 "that. The default is to detect whether MAPDL is installed or not. If the "
@@ -1115,97 +1180,97 @@ msgid ""
 ":envvar:`ON_LOCAL` is `False`."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:329
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:356
 msgid ":envvar:`ON_UBUNTU`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:329
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:356
 msgid ""
 "Tell Pytest that PyMAPDL is running on Ubuntu, and the test should match "
 "that."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:331
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:358
 msgid ":envvar:`TESTING_MINIMAL`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:331
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:358
 msgid ""
 "Tell Pytest that PyMAPDL is installed with the minimal requirements, hence "
 "it won't run tests that requires libraries like Pyvista, DPF, etc."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:333
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:360
 msgid ":envvar:`PYMAPDL_DEBUG_TESTING`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:333
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:360
 msgid ""
 "Tell PyMAPDL to enable debug while testing. This means that the APDL "
 "commands are recorded to the file `pymapdl.apdl` and the debug calls are "
 "logged into the file `pymapdl.log`."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:335
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:362
 msgid ":envvar:`HAS_GRPC`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:335
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:362
 msgid ""
 "Tell PyMAPDL that the gRPC interface is available for testing. If "
 "`TESTING_MINIMAL` is `True`, then this is `True` by default."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:337
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:364
 msgid ":envvar:`HAS_DPF`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:337
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:364
 msgid "Tell Pytest that DPF should be tested."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:339
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:366
 msgid ":envvar:`DISTRIBUTED_MODE`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:339
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:366
 msgid "`SMP`/`DMP`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:339
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:366
 msgid "`SMP`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:339
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:366
 msgid "Tell Pytest that MAPDL is running a given distributed mode."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:341
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:368
 msgid ":envvar:`SUPPORT_PLOTTING`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:341
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:368
 msgid "Tell Pytest that the machine supports plotting (it has a display)."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:343
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:370
 msgid ":envvar:`TEST_DPF_BACKEND`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:343
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:370
 msgid "`Yes`/`No`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:343
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:370
 msgid "`NO`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:343
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:370
 msgid ""
 "Tell Pytest that the module `Result` with DPF backend should be tested."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:346
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:373
 msgid ""
 "Additionally, you can use any :ref:`ref_environment_variables` like the "
 ":envvar:`PYMAPDL_MAPDL_EXEC` and :envvar:`PYMAPDL_MAPDL_VERSION` environment"
@@ -1213,11 +1278,150 @@ msgid ""
 "(if multiple versions of MAPDL are installed)."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:352
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:379
+msgid "Running CI-like tests with tox docker envs"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:381
+msgid ""
+"The project provides tox environments that start Docker services, build "
+"images if necessary, and run the test matrix similarly to the CI pipeline. "
+"These are useful for reproducing CI behavior locally."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:385
+msgid "Common tox envs and quick explanation:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:387
+msgid "**Run MAPDL containers**:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:389
+msgid ""
+"``docker-run-mapdl``: Start a MAPDL Docker container (background). Useful to"
+" start MAPDL and connect local services to it (i.e. ``pytest`` which "
+"requires a running container)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:392
+msgid ""
+"``docker-run-mapdl-dpf``: Start MAPDL and DPF containers required for DPF-"
+"enabled tests."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:394
+msgid ""
+"``docker-stop-mapdl``: Stop and remove MAPDL containers started by ``docker-"
+"run-mapdl``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:396
+msgid ""
+"``docker-stop-mapdl-dpf``: Stop and remove MAPDL+DPF containers started by "
+"``docker-run-mapdl-dpf``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:399
+msgid "**Testing**:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:401
+msgid ""
+"``docker-test-local-build``: Rebuild the local-host Docker image (``local`` "
+"profile) without running tests."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:403
+msgid ""
+"``docker-test-remote-build``: Rebuild the remote-host Docker image "
+"(``remote`` profile) without running tests."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:405
+msgid ""
+"``docker-test-local``: Run tests using local Docker images/containers (CI-"
+"like behavior on your machine)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:407
+msgid ""
+"``docker-test-remote``: Run tests against remote images/environment (mirrors"
+" CI environment closely)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:410
+msgid "Typical usage:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:426
+msgid "Note about uv/uvx"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:428
+msgid ""
+"The repository's CI uses the uvx wrapper to run tox inside the pinned "
+"virtual environment. Developers are encouraged to use uv or uvx too. Example"
+" (CI-like remote test run):"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:435
+msgid "Or for local runs:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:442
+msgid "Environment variable files"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:444
+msgid ""
+"Required environment variables for the tox Docker envs are provided in "
+"``docker/run/example.env`` and ``docker/testing/example.env``. Copy each "
+"``example.env`` to a ``.env`` file in the same directory and update the "
+"values to match your environment. For example: ``cp "
+"docker/testing/example.env docker/testing/.env``. The tox envs read these "
+"``.env`` files when present."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:449
+msgid "Windows PowerShell example:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:455
+msgid "Environment variables that influence behaviour:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:457
+msgid ""
+":envvar:`PYMAPDL_START_INSTANCE`: When True, tox envs start MAPDL/Dpf "
+"containers; set to False to reuse existing instances."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:458
+msgid ""
+":envvar:`PYMAPDL_PORT` / :envvar:`PYMAPDL_IP`: Connection address/port used "
+"by tests."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:459
+msgid ""
+":envvar:`TOX_TEST_MODE`: \"local\" or \"remote\" to select the test/build "
+"flow used by the tox envs."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:462
+msgid ""
+"The tox docker envs are intended to mirror CI steps. Ensure Docker is "
+"running and you have sufficient permissions. For long-running or repeated "
+"work, prefer starting containers with ``docker-run-mapdl`` and stopping them"
+" later with ``docker-stop-mapdl`` to reduce rebuild time."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:467
 msgid "Continuous integration and continuous deployment"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:354
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:469
 msgid ""
 "Unit tests and integration tests are part of continuous integration (CI). "
 "The automation of testing, monitoring, and deployment of newly added code "
@@ -1225,11 +1429,11 @@ msgid ""
 "comprehensive CI/CD approach."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:369
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:484
 msgid "Example"
 msgstr "例"
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:371
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:486
 msgid ""
 "The `test_component.py <pymapdl_test_component_>`_ file contains the unit "
 "tests and integration tests for the :class:`ComponentManager "
@@ -1237,21 +1441,21 @@ msgid ""
 "some of the many in the `test directory <pymapdl_tests_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:376
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:491
 msgid "Here are some examples of how you use ``pytest``:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:406
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:521
 msgid ""
 "For further ``pytest`` configuration details, see the `pytest documentation "
 "<pytest_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:410
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:525
 msgid "Code coverage"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:412
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:527
 msgid ""
 "To verify that all code is properly tested, you must ensure that every piece"
 " of code is used (covered) in at least one unit test. In this repository, "
@@ -1261,71 +1465,71 @@ msgid ""
 " merge code changes."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:424
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:539
 msgid "Coverage example"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:426
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:541
 msgid "To show how the coverage works, assume that you have this library:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:429
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:544
 msgid "**Awesome library**"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:443
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:558
 msgid "**Tests**"
 msgstr "**テスト**"
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:445
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:560
 msgid "You can opt to run the tests with this configuration:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:455
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:570
 msgid ""
 "Or, if a method is a bit more complex, you can split the case in different "
 "tests:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:471
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:586
 msgid ""
 "While the code coverage in either case is 100% for the function, the second "
 "case is more useful for debugging the function."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:474
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:589
 msgid ""
 "You can also use `parametrize (pytest.mark.parametrize) "
 "<pytest_parametrize_>`_ to make the code more readable, and easier to reuse."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:494
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:609
 msgid "For further explanations, see the `pytest documentation <pytest_>`_ ."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:497
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:612
 msgid "Code style"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:499
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:614
 msgid ""
 "PyMAPDL follows the PEP8 standard as outlined in the `PyAnsys Development "
 "Guide <dev_guide_pyansys_>`_ and implements style checking using `pre-commit"
 " <precommit_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:503
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:618
 msgid ""
 "To ensure your code meets minimum code styling standards, run these "
 "commands:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:510
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:625
 msgid ""
 "You can also install this as a pre-commit hook by running this command:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:516
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:631
 msgid ""
 "Since you have installed ``pre-commit`` as a hook, ``git`` automatically "
 "runs these hooks before committing, failing if it find any format issues and"
@@ -1334,13 +1538,13 @@ msgid ""
 "commit successfully."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:538
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:653
 msgid ""
 "This way, it's not possible for you to push code that fails the style "
 "checks. For example:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:561
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:676
 msgid ""
 "First time you run ``pre-commit`` (using ``git commit`` or ``pre-commit``), "
 "the command might take a bit of time (2-3 minutes) to download the specified"
@@ -1348,7 +1552,7 @@ msgid ""
 "should take seconds."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:565
+#: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:680
 msgid ""
 "``pre-commit`` hooks can also be updated, added or removed. For more "
 "information, visit `pre-commit <precommit_>`_ website."
@@ -2088,29 +2292,40 @@ msgstr "PyMAPDLをインストールする."
 msgid "Python module"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:11
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:13
+msgid ""
+"These instructions assume you are working on Windows/macOS/Linux and are "
+"familiar with ``pip`` and the command line. If they are new to you, you "
+"should read the `Python Packaging User Guide Tutorial on pip "
+"<python_installing_packages>` before proceeding."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:18
 msgid ""
 "The ``ansys.mapdl.core`` package currently supports Python 3.10 through "
 "Python 3.13 on Windows, macOS, and Linux."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:14
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:21
 msgid ""
-"Install the latest release from `PyPi <pymapdl_pypi_>`_ with this command:"
-msgstr "以下のコマンドで `PyPi <pymapdl_pypi_>`_ から最新リリースをインストールします:"
-
-#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:20
-msgid ""
-"Alternatively, install the latest from `PyMAPDL GitHub <pymapdl_issues_>`_ "
-"with this command:"
+"Install the latest release from `PyPi <pymapdl_pypi_>`_ with this command on"
+" the command line, terminal, or in PowerShell:"
 msgstr ""
-"あるいは、以下のコマンドで PyMAPDL GitHub <pymapdl_issues_>`_ から最新のものをインストールしてください:"
 
 #: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:28
-msgid "For a local *development* version, install with these commands:"
+msgid ""
+"Alternatively, install the latest release from `PyMAPDL GitHub "
+"<pymapdl_issues_>`_ with this command:"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:36
+msgid ""
+"For a local *development* version, install with the following commands. If "
+"you are unfamiliar with git or do not have it installed, see the "
+"`contributing to PyMAPDL guide <_developing_pymapdl>` for more information."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:46
 msgid ""
 "After installing a development version, you can modify the ``ansys-mapdl-"
 "core`` package locally and have the changes reflected in your setup after "
@@ -2119,11 +2334,11 @@ msgstr ""
 "開発版をインストールした後、ローカルで ``ansys-mapdl-core`` パッケージを変更し、Python "
 "カーネルを再起動すると変更がセットアップに反映されます。"
 
-#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:41
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:51
 msgid "Offline installation"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:42
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:52
 msgid ""
 "If you lack an internet connection on your installation machine, the "
 "recommended way of installing PyMAPDL is downloading the wheelhouse archive "
@@ -2131,7 +2346,7 @@ msgid ""
 " architecture."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:47
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:57
 msgid ""
 "Each wheelhouse archive contains all the Python wheels necessary to install "
 "PyMAPDL from scratch on Windows and Linux. You can install this on an "
@@ -2141,48 +2356,48 @@ msgstr ""
 "各 wheelhouse アーカイブには、Windows と Linux に PyMAPDL をゼロからインストールするために必要な Python "
 "wheel がすべて含まれています。新しいPythonがインストールされた隔離されたシステムや仮想環境にインストールすることができます。"
 
-#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:51
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:61
 msgid ""
 "For example, on Linux with Python 3.10, unzip the wheelhouse archive and "
 "install it with these commands:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:59
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:69
 msgid ""
 "If you're on Windows with Python 3.10, unzip to a ``wheelhouse`` directory "
 "and install using the preceding command."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:62
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:72
 msgid "Consider installing using a `virtual environment <using_venv_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:65
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:75
 msgid "Verify your installation"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:68
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:78
 msgid ""
 "To use PyMAPDL, you must have a local installation of Ansys. The version of "
 "Ansys installed dictates the interface and features available to you."
 msgstr ""
 "PyMAPDLを使用するには、Ansysがローカルにインストールされている必要があります。インストールされているAnsysのバージョンによって、使用できるインターフェイスや機能が異なります。"
 
-#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:72
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:82
 msgid ""
 "For more information on getting a licensed copy of Ansys, visit `Ansys "
 "<ansys_>`_."
 msgstr "ANSYSのライセンスコピーの入手に関する詳細は、 `Ansys <ansys_>`_ をご覧ください。"
 
-#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:76
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:86
 msgid ""
 "Check that you have installed the package correctly by importing the module:"
 msgstr "モジュールをインポートして、パッケージが正しくインストールされていることを確認してください:"
 
-#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:83
+#: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:93
 msgid ""
 "For information on launching PyMAPDL and connecting it to an MAPDL instance,"
-" see:ref:`ref_launch_pymapdl`."
+" see :ref:`_ref_launch_pymapdl`."
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/launcher.rst:7
@@ -4054,34 +4269,73 @@ msgid ""
 "<ansys.mapdl.core.Mapdl.eread>` methods."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/troubleshoot.rst:937
-msgid "More help needed?"
+#: ../../pymapdl/doc/source/getting_started/troubleshoot.rst:936
+msgid "Ansys developer ecosystem resources"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/troubleshoot.rst:938
+msgid ""
+"Ansys has an extensive developer ecosystem where you can find assistance for"
+" a variety of issues."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/troubleshoot.rst:940
+msgid ""
+"`Developer Portal <_developer_portal>`: Blog posts, documentation, and guide"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/troubleshoot.rst:941
+msgid ""
+"`Developer Forum <_developer_forum>`: Scripting and usage support for "
+"PyAnsys and other Ansys developer tools"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/troubleshoot.rst:942
+msgid ""
+"`Ansys Innovation Space <_ansys_innovation_space>`: Product support forum "
+"and training materials"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/troubleshoot.rst:943
+msgid ""
+"`GitHub <_pymapdl_repo>`: Development support, bug reporting, feature "
+"requests, and more."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/troubleshoot.rst:944
+msgid ""
+"`Ansys Learning Hub <_ansys_learning_hub>`: Training, courses and learning "
+"plans"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/troubleshoot.rst:948
+msgid "More help needed?"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/troubleshoot.rst:954
 msgid "*\"What do I do if an issue is not listed here?\"*"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/troubleshoot.rst:947
+#: ../../pymapdl/doc/source/getting_started/troubleshoot.rst:958
 msgid ""
 "To see if your issue is already posted, search the `PyMAPDL Issues "
 "<pymapdl_issues_>`_ page. If not, do one of the following:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/troubleshoot.rst:949
+#: ../../pymapdl/doc/source/getting_started/troubleshoot.rst:960
 msgid ""
 "If you are not sure of the cause or would like some explanation about the "
 "usage of the function or its documentation, create a discussion on the "
 "`PyMAPDL Discussions <pymapdl_discussions_>`_ page."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/troubleshoot.rst:953
+#: ../../pymapdl/doc/source/getting_started/troubleshoot.rst:964
 msgid ""
 "If you believe you have found a bug or want to create a feature request, "
 "create an issue on the `PyMAPDL Issues <pymapdl_issues_>`_ page."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/troubleshoot.rst:956
+#: ../../pymapdl/doc/source/getting_started/troubleshoot.rst:967
 msgid ""
 "For more complex issues or queries, contact the `PyAnsys Core team "
 "<pyansys_core_>`_."
