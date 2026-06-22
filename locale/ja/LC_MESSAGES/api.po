@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: ansys-mapdl-core 0.72.dev0\n"
+"Project-Id-Version: ansys-mapdl-core 0.74.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-03 01:00+0000\n"
+"POT-Creation-Date: 2026-06-22 00:56+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -11532,12 +11532,8 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:38
 msgid ""
-":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~numpy.ndarray\\`\\\\ "
-"\\\\\\[\\:py\\:class\\:\\`tuple\\`\\\\ "
-"\\\\\\[\\:py\\:data\\:\\`\\~typing.Any\\`\\, "
-"\\:py\\:data\\:\\`...\\<Ellipsis\\>\\`\\]\\, "
-"\\:py\\:class\\:\\`\\~numpy.dtype\\`\\\\ "
-"\\\\\\[\\:py\\:class\\:\\`\\~numpy.float64\\`\\]\\]`"
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~numpy.\\_typing.\\_array\\_like.GenericAlias\\`\\\\"
+" \\\\\\[\\:py\\:class\\:\\`\\~numpy.float64\\`\\]`"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
