@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.74.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 00:33+0000\n"
+"POT-Creation-Date: 2026-08-01 02:37+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -172,9 +172,9 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/contribution.rst:29
 msgid ""
-"In order to have a nice :ref:`ref_release_notes` section, it is important to"
-" follow the branch and commit names conventions as described in the *PyAnsys"
-" Developer's Guide* `branch <dev_guide_branch_names_>`_ and `commit "
+"To have a nice :ref:`ref_release_notes` section, it is important to follow "
+"the branch and commit names conventions as described in the *PyAnsys "
+"Developer's Guide* `branch <dev_guide_branch_names_>`_ and `commit "
 "<dev_guide_commit_names_>`_ naming sections."
 msgstr ""
 
@@ -2304,7 +2304,7 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/install_pymapdl.rst:61
 msgid ""
-"For example, on Linux with Python 3.10, unzip the wheelhouse archive and "
+"For example, on Linux with Python 3.10, unzip the wheelhouse archive, and "
 "install it with these commands:"
 msgstr ""
 
@@ -2889,7 +2889,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/getting_started/learning.rst:145
 msgid ""
 "`Ansys Help <ansys_help_>`_ is the official Ansys website for documentation,"
-" tutorials and videos."
+" tutorials, and videos."
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/learning.rst:148
@@ -4926,9 +4926,9 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/write_documentation.rst:145
 msgid ""
-"On the GitHub repository, the CI/CD runs `Vale <vale_>`_, a powerful and "
-"extensible linting tool for checking the writing of each pull request. If "
-"you want to verify locally as well, you must install Vale locally:"
+"On the GitHub repository, the CI/CD runs `Vale <vale_>`_, a powerful, and "
+"extensible linting tool that checks the writing of each pull request. If you"
+" want to verify locally as well, you must install Vale locally:"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/write_documentation.rst:150
@@ -5248,9 +5248,9 @@ msgid ""
 "``-<product_flag>`` : Specifies the one or more products to install. If you "
 "omit this argument, all products are installed. The *Ansys, Inc. "
 "Installation Guides* in the Ansys Help provides a list of valid values for "
-"the ``product_flags`` argument in `Chapter 6 "
+"the ``product_flags`` argument in `section 6 "
 "<https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v241/en/installation/unix_silent.html>`_"
-" of the *Linux Installation Guide* and `Chapter 7 "
+" of the *Linux Installation Guide* and `section 7 "
 "<https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v241/en/installation/win_silent.html>`_"
 " of the *Windows Installation Guide*."
 msgstr ""
@@ -5309,7 +5309,7 @@ msgid ""
 " If you are having problems after setting the firewall rules, you might have"
 " to turn off the Windows firewall for the WSL ethernet virtual interface. "
 "This might pose some unknown side effects and security risk so use it with "
-"caution. For more information, see :ref:`Disable firewall on WSL ethernet "
+"caution. For more information, see :ref:`Turn off firewall on WSL ethernet "
 "<disable_firewall_on_wsl_ethernet_section>`."
 msgstr ""
 
@@ -5381,8 +5381,8 @@ msgstr ""
 #: ../../pymapdl/doc/source/getting_started/wsl.rst:257
 msgid ""
 "You might need to turn off the Microsoft Firewall completely or at least for"
-" the WSL network connection. To do so, follow :ref:`Disable firewall on WSL "
-"ethernet <disable_firewall_on_wsl_ethernet_section>`."
+" the WSL network connection. To do so, follow :ref:`Turn off firewall on WSL"
+" ethernet <disable_firewall_on_wsl_ethernet_section>`."
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/wsl.rst:263
@@ -5520,11 +5520,12 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/wsl.rst:382
-msgid "Disable firewall on WSL ethernet"
+msgid "Turn off firewall on WSL ethernet"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/wsl.rst:383
-msgid "There are two methods for disabling the firewall on the WSL ethernet."
+msgid ""
+"There are two methods for turning off the firewall on the WSL ethernet."
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/wsl.rst:388
