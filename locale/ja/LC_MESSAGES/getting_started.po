@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.74.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-01 02:37+0000\n"
+"POT-Creation-Date: 2026-08-05 02:22+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -322,6 +322,7 @@ msgstr "Windows"
 #: ../../pymapdl/doc/source/getting_started/devcontainer.rst:0
 #: ../../pymapdl/doc/source/getting_started/docker.rst:0
 #: ../../pymapdl/doc/source/getting_started/launcher.rst:0
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:533
 #: ../../pymapdl/doc/source/getting_started/troubleshoot.rst:0
 #: ../../pymapdl/doc/source/getting_started/write_documentation.rst:0
 msgid "Linux"
@@ -966,6 +967,7 @@ msgid "Key differences between ``local`` and ``remote`` testing"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:247
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:521
 msgid "Mode"
 msgstr ""
 
@@ -2411,41 +2413,51 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/launcher.rst:12
-msgid "`Launch PyMAPDL with a local MAPDL instance`_"
+msgid ":ref:`launch_pymapdl_local` * :ref:`launching_pymapdl_without_client`"
 msgstr ""
-
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:13
-msgid "`Connect PyMAPDL to a local MAPDL instance`_"
-msgstr "`Connect PyMAPDL to a local MAPDL instance`_"
 
 #: ../../pymapdl/doc/source/getting_started/launcher.rst:14
-msgid "`Connect PyMAPDL to a remote MAPDL instance`_"
+msgid ""
+":ref:`connect_pymapdl_to_a_local_mapdl_instance` * "
+":ref:`launch_grpc_mapdl_session` * :ref:`connect_grpc_mapdl_session`"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:16
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:17
+msgid ":ref:`connect_grpc_remote_mapdl_session`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:18
+msgid ":ref:`setting_mapdl_location`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:19
+msgid ":ref:`securing_pymapdl_connection`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:21
 msgid ""
 "If you have any problem launching PyMAPDL, see :ref:`Launching issues "
 "<ref_launching_issue>`."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:20
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:27
 msgid "Launch PyMAPDL with a local MAPDL instance"
 msgstr "ローカルのMAPDLインスタンスでPyMAPDLを起動する"
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:22
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:29
 msgid ""
 "You can use the :func:`launch_mapdl() "
 "<ansys.mapdl.core.launcher.launch_mapdl>` function to start MAPDL and "
 "automatically connect to it:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:35
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:42
 msgid ""
 "While this is the easiest and fastest way to get PyMAPDL up and running. you"
 " must be able to launch MAPDL locally."
 msgstr "これはPyMAPDLを起動して実行する最も簡単で速い方法ですが、MAPDLをローカルで起動できなければなりません。"
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:38
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:45
 msgid ""
 "If PyMAPDL cannot find your local installation, see `Setting the MAPDL "
 "location in PyMAPDL`_."
@@ -2453,7 +2465,7 @@ msgstr ""
 "PyMAPDL がローカルのインストールを見つけられない場合は、 `Setting MAPDL location in PyMAPDL`_ "
 "を参照してください。"
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:41
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:48
 msgid ""
 "For more information on controlling how MAPDL launches locally, see the "
 "description of the :func:`launch_mapdl() "
@@ -2462,48 +2474,48 @@ msgstr ""
 "MAPDLをローカルで起動する方法の詳細については、 :func:`launch_mapdl() "
 "<ansys.mapdl.core.launcher.launch_mapdl>` 関数の説明を参照してください。"
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:46
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:55
 msgid "Launch MAPDL process without creating a client"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:48
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:57
 msgid ""
 "Sometimes you may want to launch a MAPDL process without immediately "
 "creating a client connection. This is useful for:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:51
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:60
 msgid "Starting MAPDL from the command-line interface"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:52
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:61
 msgid "Managing multiple MAPDL instances programmatically"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:53
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:62
 msgid "Launching MAPDL in a separate process for later connection"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:55
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:64
 msgid ""
 "For these scenarios, you can use the :func:`launch_mapdl_process() "
 "<ansys.mapdl.core.launcher.launch_mapdl_process>` function, which starts "
 "MAPDL and returns connection information without creating a client:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:65
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:74
 msgid ""
 "You can later connect to this instance using the :class:`Mapdl "
 "<ansys.mapdl.core.Mapdl>` class:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:72
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:81
 msgid ""
 "This approach gives you more control over the MAPDL process lifecycle and "
 "allows you to manage the process independently from the client connection."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:76
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:85
 msgid ""
 "The :func:`launch_mapdl_process() "
 "<ansys.mapdl.core.launcher.launch_mapdl_process>` function always starts a "
@@ -2512,30 +2524,30 @@ msgid ""
 "``start_instance=False`` for that purpose."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:83
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:94
 msgid "Connect PyMAPDL to a local MAPDL instance"
 msgstr "PyMAPDL をローカルの MAPDL インスタンスに接続する"
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:85
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:96
 msgid ""
 "Connect to a local MAPDL instance requires two steps: launching a local "
 "MAPDL session and connect to it."
 msgstr ""
 "ローカルのMAPDLインスタンスに接続するには、ローカルのMAPDLセッションを起動し、そのインスタンスに接続するという2つのステップが必要です。"
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:91
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:102
 msgid "Launch a local gRPC MAPDL session"
 msgstr "ローカルのgRPC MAPDLセッションを起動する"
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:93
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:104
 msgid "You can start MAPDL from the command line and then connect to it."
 msgstr "コマンドラインからMAPDLを起動し、接続することができる。"
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:95
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:106
 msgid "To launch MAPDL, use this command:"
 msgstr "MAPDLを起動するには、次のコマンドを使用する:"
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:113
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:124
 msgid ""
 "When launching MAPDL on Windows, it is assumed that Ansys is installed in "
 "the :file:`C:/Program Files/ANSYS Inc/v241` directory and, on Linux, it is "
@@ -2544,40 +2556,40 @@ msgstr ""
 "Windows で MAPDL を起動する場合、ANSYS が :file:`C:/Program Files/ANSYS Inc/v241` "
 "ディレクトリに、Linux では :file:`/usr/ansys_inc` ディレクトリにインストールされているものとします。"
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:117
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:128
 msgid "This starts MAPDL in gRPC mode. MAPDL should display this output:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:130
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:141
 msgid ""
 "You can configure the port that MAPDL starts on with the ``-port`` argument."
 " For example, you can start the server to listen for connections at port "
 "50005 with this command:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:151
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:162
 msgid ""
 "From version v0.68, you can use a command line interface to launch, stop, "
 "and list local MAPDL instances. For more information, see :ref:`ref_cli`."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:158
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:170
 msgid "Connect to the local MAPDL instance"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:160
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:172
 msgid ""
 "An MAPDL gRPC server can be connected to from the same host by using this "
 "code:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:168
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:180
 msgid ""
 "The preceding code assumes that your MAPDL service is running locally on the"
 " default IP address (``127.0.0.1``) and on the default port (``50052``)."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:171
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:183
 msgid ""
 "You can also use the :func:`launch_mapdl() "
 "<ansys.mapdl.core.launcher.launch_mapdl>` method to connect to an already "
@@ -2585,18 +2597,18 @@ msgid ""
 "``False``:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:178
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:190
 msgid ""
 "If you are connecting to an MAPDL Docker image, the procedure is the same. "
 "Just make sure that you specify the mapped port instead of the internal "
 "MAPDL port. For more information, see :ref:`pymapdl_docker`."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:186
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:198
 msgid "Connect PyMAPDL to a remote MAPDL instance"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:188
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:200
 msgid ""
 "If you want to connect to a **remote** MAPDL instance, you must know the IP "
 "address of that instance. For example, if on your local network at IP "
@@ -2604,22 +2616,22 @@ msgid ""
 "``50052``, you can connect to it with this code:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:197
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:209
 msgid "Alternatively, you can use a hostname:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:203
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:215
 msgid ""
 "Note that you must have started an MAPDL instance in gRPC mode on the "
 "computer with the referenced IP address and hostname for this to work "
 "because PyMAPDL cannot launch remote instances."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:208
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:222
 msgid "Setting the MAPDL location in PyMAPDL"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:210
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:224
 msgid ""
 "To run, PyMAPDL must know the location of the MAPDL binary. Most of the time"
 " this can be automatically determined, but the location of MAPDL must be "
@@ -2628,20 +2640,20 @@ msgid ""
 "automatically find it."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:216
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:230
 msgid ""
 "You can test your installation of PyMAPDL and set it up by running the "
 ":func:`launch_mapdl() <ansys.mapdl.core.launcher.launch_mapdl>` function:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:225
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:239
 msgid ""
 "Python automatically attempts to detect your MAPDL binary based on "
 "environmental variables. You can specify an MAPDL installation using one of "
 "two environment variables:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:230
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:244
 msgid ""
 "``AWP_ROOTXXX``, where ``XXX``` is the three-digit version. This environment"
 " variable contains the path of the Ansys installation with the version "
@@ -2649,51 +2661,288 @@ msgid ""
 "to an Ansys 2024 R1 installation."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:234
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:248
 msgid ""
 "``PYMAPDL_MAPDL_EXEC`` contains the path to the Ansys MAPDL executable file."
 " For example, ``PYMAPDL_MAPDL_EXEC=/ansys_inc/v241/ansys/bin/ansys241``."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:237
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:251
 msgid ""
 "If PyMAPDL is unable to find a copy of MAPDL, you are prompted for the "
 "location of the MAPDL executable."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:240
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:254
 msgid "Here is the prompt with an example response for Windows:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:246
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:260
 msgid "Here is the prompt with an example response for Linux:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:252
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:266
 msgid ""
 "The settings file is stored locally, which means that you are not prompted "
 "to enter the path again. If you must change the default Ansys path (meaning "
 "change the default version of MAPDL), run this code:"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:263
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:277
 msgid ""
 "For more information, see the :func:`change_default_ansys_path() "
 "<ansys.mapdl.core.change_default_ansys_path>` method and the "
 ":func:`find_mapdl() <ansys.mapdl.core.find_mapdl>` method."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:265
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:279
 msgid ""
 "Additionally, it is possible to specify the executable in each PyMAPDL "
 "script using the ``exec_file`` keyword argument."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:291
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:305
 msgid ""
 "You could also specify a custom executable made from a custom MAPDL "
 "compilation by adding the correspondent flag (``-custom``) to the "
 "``additional_switches`` keyword argument:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:338
+msgid "Securing your PyMAPDL connection"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:340
+msgid ""
+"PyMAPDL supports four gRPC transport modes: ``insecure``, ``uds``, ``wnua``,"
+" and ``mtls``. When no transport mode is specified, PyMAPDL selects the most"
+" secure available mode automatically based on the operating system:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:344
+msgid "**Linux** → ``uds`` (Unix Domain Socket)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:345
+msgid "**Windows** → ``wnua`` (Windows Named User Authentication)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:346
+msgid "**macOS and other platforms** → ``insecure`` (with a warning)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:348
+msgid ""
+"To override the automatic selection, pass the ``transport_mode`` argument to"
+" :func:`launch_mapdl() <ansys.mapdl.core.launcher.launch_mapdl>`, or set the"
+" :envvar:`PYMAPDL_GRPC_TRANSPORT` environment variable before starting "
+"Python."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:354
+msgid "Insecure"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:356
+msgid ""
+"The ``insecure`` transport mode sends gRPC traffic without any encryption or"
+" authentication. It is supported on all platforms and can be used for both "
+"local and remote connections."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:360
+msgid ""
+"This is the default transport mode on older MAPDL versions, before Ansys "
+"MAPDL 2024 R2."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:364
+msgid ""
+"Do not use insecure mode over untrusted or remote networks. All traffic "
+"between PyMAPDL and MAPDL is sent in plain text and can be intercepted. For "
+"local connections, prefer ``uds`` on Linux/macOS or ``wnua`` on Windows. For"
+" remote connections, use ``mtls``."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:375
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:456
+msgid ""
+"Alternatively, set the environment variable before running your script:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:0
+msgid "Linux/macOS"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:395
+msgid "Unix Domain Socket (UDS)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:397
+msgid ""
+"The ``uds`` transport mode uses a Unix domain socket file instead of a TCP "
+"connection. Because the socket lives only on the local filesystem, no "
+"network traffic is exposed and the connection cannot be accessed from "
+"outside the machine. This mode is the default on Linux."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:402
+msgid "This mode is not supported on Windows."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:404
+msgid ""
+"MAPDL names its socket file ``mapdl-<PORT>.sock`` and places it in the "
+"directory pointed to by the :envvar:`ANSYS_MAPDL_UDS_PATH` environment "
+"variable. If that variable is not set, PyMAPDL uses ``~/.conn`` by default."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:414
+msgid "To use a custom socket directory, pass the ``uds_dir`` argument:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:422
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:490
+msgid ""
+"Alternatively, set the environment variables before running your script:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:436
+msgid ""
+"UDS does not support remote connections. For remote connections, use "
+"``mtls`` instead."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:441
+msgid "Windows Named User Authentication (WNUA)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:443
+msgid ""
+"The ``wnua`` transport mode authenticates the connection using the identity "
+"of the logged-in Windows user. Only the same user who launched the MAPDL "
+"process can connect to it, providing access control without requiring "
+"certificates or any additional configuration. This mode is the default on "
+"Windows."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:448
+msgid "This mode is only supported on Windows."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:469
+msgid ""
+"WNUA does not support remote connections. For remote connections, use "
+"``mtls`` instead."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:474
+msgid "Mutual Transport Layer Security (mTLS)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:476
+msgid ""
+"The ``mtls`` transport mode encrypts all gRPC traffic and requires both "
+"PyMAPDL and MAPDL to present certificates signed by a shared Certificate "
+"Authority (CA). This mutual authentication ensures that only trusted clients"
+" can connect to trusted servers. It is the recommended mode for remote "
+"connections and production deployments."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:510
+msgid ""
+"For full setup instructions, including certificate generation and launching "
+"MAPDL with mTLS enabled, see :ref:`ref_tls_guide`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:515
+msgid "Transport mode comparison"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:522
+msgid "Encryption"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:523
+msgid "OS support"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:524
+msgid "Remote support"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:525
+msgid "Recommended use case"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:526
+msgid "``insecure``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:527
+msgid "None"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:528
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:543
+msgid "All"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:529
+msgid "Yes (discouraged)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:530
+msgid "Testing and development on trusted local networks only"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:531
+msgid "``uds``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:532
+msgid "Filesystem isolation"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:534
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:539
+msgid "No"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:535
+msgid "Default local mode on Linux; same-machine connections"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:536
+msgid "``wnua``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:537
+msgid "User authentication"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:538
+msgid "Windows only"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:540
+msgid "Default local mode on Windows; same-machine connections"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:541
+msgid "``mtls``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:542
+msgid "TLS + mutual auth"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:544
+msgid "Yes"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:545
+msgid "Production deployments, remote connections, and HPC"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/learning.rst:5
