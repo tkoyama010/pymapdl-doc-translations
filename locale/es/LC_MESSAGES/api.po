@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.74.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-05 02:22+0000\n"
+"POT-Creation-Date: 2026-08-13 00:25+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -570,7 +570,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc:84
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.download:64
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.download:67
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.download_result:38
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
@@ -19741,34 +19741,42 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.download:56
 msgid ""
+"You can download a specific file located in a subdirectory of the MAPDL "
+"working directory by giving its relative path, for example "
+"``'subdir/file.rst'``."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.download:59
+msgid ""
 "In a remote instance, it is not possible to list or download files in "
 "different locations than the MAPDL working directory."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.download:58
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.download:61
 msgid ""
 "If you are in local and provide a file path, downloading files from a "
 "different folder is allowed. However it is not a recommended approach."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.download:65
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.download:68
 msgid "Download a single file:"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.download:69
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.download:72
 msgid "Download all the files starting with `'file'`:"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.download:73
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.download:76
 msgid "Download every single file in the MAPDL working directory:"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.download:77
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.download:80
 msgid ""
 "Alternatively, you can download all the files using "
 ":func:`Mapdl.download_project "
