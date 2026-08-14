@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.74.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-13 00:25+0000\n"
+"POT-Creation-Date: 2026-08-14 00:25+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -596,7 +596,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/ansys/tools/common/path/path.pydocstring
 #: of ansys.tools.common.path.path.find_mapdl:40
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/ansys/tools/common/path/path.pydocstring
-#: of ansys.tools.common.path.path.get_available_ansys_installations:31
+#: of ansys.tools.common.path.path.get_available_ansys_installations:34
 msgid "Examples"
 msgstr ""
 
@@ -14507,160 +14507,11 @@ msgstr ""
 msgid "Plot while displaying area numbers."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.Component.rst:2
-msgid "ansys.mapdl.core.component.Component"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.Component.rst:23:<autosummary>:1
-#: ../../pymapdl/doc/source/api/components.rst:13:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
-#: ansys.mapdl.core.component.Component:2
-#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
-#: ansys.mapdl.core.component.Component.__init__:2
-msgid "Component object"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
-#: ansys.mapdl.core.component.Component:4
-msgid "Object which contain the definition of a component."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
-#: ansys.mapdl.core.component.Component:8
-msgid "**type_** : :class:`python:str`"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
-#: ansys.mapdl.core.component.Component:9
-msgid "The entity type. For instance \"NODES\", \"KP\", \"VOLU\", etc"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
-#: ansys.mapdl.core.component.Component:11
-msgid ""
-"**items_** : :data:`python:None`, :class:`python:str`, :class:`python:int`, "
-":obj:`List`\\[:class:`python:int`], :obj:`np.array`\\[:class:`python:int`]]"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
-#: ansys.mapdl.core.component.Component:10
-msgid ""
-"python:None, python:str, python:int, List[python:int], np.array[python:int]]"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
-#: ansys.mapdl.core.component.Component:12
-msgid "Item ids contained in the component."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
-#: ansys.mapdl.core.component.Component:28
-msgid "To create a component object"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
-#: ansys.mapdl.core.component.Component:34
-msgid "To index the content of the component object:"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
-#: ansys.mapdl.core.component.Component:41
-msgid "To access the type of the entities:"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
-#: ansys.mapdl.core.component.Component:46
-msgid "Convert to list:"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.Component.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.ComponentManager.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.database.MapdlDb.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.database.elems.DbElems.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.database.nodes.DbNodes.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.krylov.KrylovSolver.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.logging.Logger.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mapdl_geometry.Geometry.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mapdl_geometry.LegacyGeometry.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mesh_grpc.MeshGrpc.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.parameters.Parameters.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plugin.ansPlugin.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.post.PostProcessing.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.solution.Solution.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:13
-msgid "Methods"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.Component.rst:23:<autosummary>:1
-msgid ""
-":py:obj:`__init__ <ansys.mapdl.core.component.Component.__init__>`\\ "
-"\\(\\*args\\, \\*\\*kwargs\\)"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.Component.rst:23:<autosummary>:1
-msgid ""
-":py:obj:`count <ansys.mapdl.core.component.Component.count>`\\ \\(value\\, "
-"\\/\\)"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.Component.rst:23:<autosummary>:1
-msgid "Return number of occurrences of value."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.Component.rst:23:<autosummary>:1
-msgid ""
-":py:obj:`index <ansys.mapdl.core.component.Component.index>`\\ "
-"\\(value\\[\\, start\\, stop\\]\\)"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.Component.rst:23:<autosummary>:1
-msgid "Return first index of value."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.Component.rst:25
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.ComponentManager.rst:25
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.database.MapdlDb.rst:28
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.database.elems.DbElems.rst:29
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.database.nodes.DbNodes.rst:30
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.krylov.KrylovSolver.rst:27
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.logging.Logger.rst:29
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mapdl_geometry.Geometry.rst:33
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mapdl_geometry.LegacyGeometry.rst:36
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mesh_grpc.MeshGrpc.rst:25
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.parameters.Parameters.rst:27
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:28
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:38
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:33
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.post.PostProcessing.rst:85
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.solution.Solution.rst:23
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:39
-msgid "Attributes"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.Component.rst:29:<autosummary>:1
-msgid ":py:obj:`items <ansys.mapdl.core.component.Component.items>`\\"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.Component.rst:29:<autosummary>:1
-msgid "Return the ids of the entities in the component."
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.Component.rst:29:<autosummary>:1
-msgid ":py:obj:`type <ansys.mapdl.core.component.Component.type>`\\"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.Component.rst:29:<autosummary>:1
-msgid "Return the type of the component."
-msgstr ""
-
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.ComponentManager.rst:2
 msgid "ansys.mapdl.core.component.ComponentManager"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/components.rst:13:<autosummary>:1
+#: ../../pymapdl/doc/source/api/components.rst:12:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
 #: ansys.mapdl.core.component.ComponentManager:2
 msgid "Collection of MAPDL components."
@@ -14783,6 +14634,26 @@ msgstr ""
 msgid "Mapdl instance which this class references to."
 msgstr ""
 
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.ComponentManager.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.database.MapdlDb.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.database.elems.DbElems.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.database.nodes.DbNodes.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.krylov.KrylovSolver.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.logging.Logger.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mapdl_geometry.Geometry.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mapdl_geometry.LegacyGeometry.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mesh_grpc.MeshGrpc.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.parameters.Parameters.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plugin.ansPlugin.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.post.PostProcessing.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.solution.Solution.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:13
+msgid "Methods"
+msgstr ""
+
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.ComponentManager.rst:23:<autosummary>:1
 msgid ""
 ":py:obj:`__init__ <ansys.mapdl.core.component.ComponentManager.__init__>`\\ "
@@ -14806,6 +14677,25 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.ComponentManager.rst:23:<autosummary>:1
 msgid "Select Select components given their names"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.ComponentManager.rst:25
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.database.MapdlDb.rst:28
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.database.elems.DbElems.rst:29
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.database.nodes.DbNodes.rst:30
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.krylov.KrylovSolver.rst:27
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.logging.Logger.rst:29
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mapdl_geometry.Geometry.rst:33
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mapdl_geometry.LegacyGeometry.rst:36
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mesh_grpc.MeshGrpc.rst:25
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.parameters.Parameters.rst:27
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:28
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:38
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:33
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.post.PostProcessing.rst:85
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.solution.Solution.rst:23
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:39
+msgid "Attributes"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.ComponentManager.rst:32:<autosummary>:1
@@ -17402,7 +17292,7 @@ msgstr ""
 msgid "ansys.mapdl.core.launcher.close\\_all\\_local\\_instances"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/launcher.rst:21:<autosummary>:1
+#: ../../pymapdl/doc/source/api/launcher.rst:18:<autosummary>:1
 #: ../../pymapdl/doc/source/api/mapdl.rst:134:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/connection.pydocstring of
 #: ansys.mapdl.core.launcher.connection.close_all_local_instances:2
@@ -17441,7 +17331,7 @@ msgstr ""
 msgid "ansys.mapdl.core.launcher.launch\\_mapdl"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/launcher.rst:21:<autosummary>:1
+#: ../../pymapdl/doc/source/api/launcher.rst:18:<autosummary>:1
 #: ../../pymapdl/doc/source/api/mapdl.rst:134:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl:2
@@ -18570,7 +18460,7 @@ msgstr ""
 msgid "ansys.mapdl.core.launcher.launch\\_mapdl\\_process"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/launcher.rst:21:<autosummary>:1
+#: ../../pymapdl/doc/source/api/launcher.rst:18:<autosummary>:1
 #: ../../pymapdl/doc/source/api/mapdl.rst:134:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl_process:2
@@ -23080,7 +22970,7 @@ msgstr ""
 msgid "ansys.tools.common.path.find\\_mapdl"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/launcher.rst:34:<autosummary>:1
+#: ../../pymapdl/doc/source/api/launcher.rst:31:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/ansys/tools/common/path/path.pydocstring
 #: of ansys.tools.common.path.path.find_mapdl:2
 msgid "Search for the Ansys MAPDL path within the standard install location."
@@ -23158,7 +23048,7 @@ msgstr ""
 msgid "ansys.tools.common.path.get\\_available\\_ansys\\_installations"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/launcher.rst:34:<autosummary>:1
+#: ../../pymapdl/doc/source/api/launcher.rst:31:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/ansys/tools/common/path/path.pydocstring
 #: of ansys.tools.common.path.path.get_available_ansys_installations:2
 msgid ""
@@ -23185,18 +23075,25 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/ansys/tools/common/path/path.pydocstring
 #: of ansys.tools.common.path.path.get_available_ansys_installations:24
-msgid "On Windows, It uses the environment variable ``AWP_ROOTXXX``."
+msgid "On Windows, it uses the environment variable ``AWP_ROOTXXX``."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/ansys/tools/common/path/path.pydocstring
 #: of ansys.tools.common.path.path.get_available_ansys_installations:26
+msgid ""
+"On Linux, it scans the default installation roots and merges in any "
+"installation paths provided through ``AWP_ROOTXXX``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/ansys/tools/common/path/path.pydocstring
+#: of ansys.tools.common.path.path.get_available_ansys_installations:29
 msgid ""
 "The student versions are returned at the end of the dict and with negative "
 "value for the version."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/ansys/tools/common/path/path.pydocstring
-#: of ansys.tools.common.path.path.get_available_ansys_installations:38
+#: of ansys.tools.common.path.path.get_available_ansys_installations:41
 msgid "Return all installed Ansys paths in Linux."
 msgstr ""
 
@@ -23354,16 +23251,96 @@ msgstr ""
 msgid "Components"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/components.rst:13:<autosummary>:1
+#: ../../pymapdl/doc/source/api/components.rst:12:<autosummary>:1
 msgid ""
 ":py:obj:`component.ComponentManager "
 "<ansys.mapdl.core.component.ComponentManager>`\\ \\(mapdl\\)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/components.rst:13:<autosummary>:1
+#: ../../pymapdl/doc/source/api/components.rst:13
 msgid ""
-":py:obj:`component.Component <ansys.mapdl.core.component.Component>`\\ "
-"\\(\\*args\\, \\*\\*kwargs\\)"
+"The :class:`~ansys.mapdl.core.component.Component` class represents a single"
+" named component and subclasses the built-in ``tuple`` type to store the "
+"selected entity IDs. Because it inherits directly from ``tuple``, it also "
+"exposes the standard ``tuple`` API (such as ``count()`` and ``index()``), "
+"which is documented in the Python standard library and isn't duplicated "
+"here. The ``type`` and ``items`` properties are specific to this class and "
+"are documented on this page instead of being generated as separate pages."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.Component:1
+msgid "Bases: :py:class:`tuple`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.Component:2
+msgid "Component object"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.Component:4
+msgid "Object which contain the definition of a component."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.Component:8
+msgid "**type\\_** : :class:`python:str`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.Component:9
+msgid "The entity type. For instance \"NODES\", \"KP\", \"VOLU\", etc"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.Component:11
+msgid ""
+"**items\\_** : :data:`python:None`, :class:`python:str`, "
+":class:`python:int`, :obj:`Component`, :obj:`List`\\[:class:`python:int`], "
+":obj:`Tuple`\\[:class:`python:int`, ...], :obj:`np.ndarray <numpy.ndarray>`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.Component:10
+msgid ""
+"python:None, python:str, python:int, Component, List[python:int], "
+"Tuple[python:int, ...], np.ndarray"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.Component:12
+msgid "Item ids contained in the component."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.Component:28
+msgid "To create a component object"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.Component:34
+msgid "To index the content of the component object:"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.Component:41
+msgid "To access the type of the entities:"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.Component:46
+msgid "Convert to list:"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.Component.items:2
+msgid "Return the ids of the entities in the component."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.Component.type:2
+msgid "Return the type of the component. For instance \"NODES\", \"KP\", etc."
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/database.rst:4
@@ -24007,53 +23984,53 @@ msgid ""
 "called from the library `ansys-tools-common.path <ansys_tools_common_>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/launcher.rst:21:<autosummary>:1
+#: ../../pymapdl/doc/source/api/launcher.rst:18:<autosummary>:1
 msgid ""
 ":py:obj:`launch_mapdl <ansys.mapdl.core.launcher.launch_mapdl>`\\ "
 "\\(\\[exec\\_file\\, run\\_location\\, ...\\]\\)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/launcher.rst:21:<autosummary>:1
+#: ../../pymapdl/doc/source/api/launcher.rst:18:<autosummary>:1
 msgid ""
 ":py:obj:`launch_mapdl_process "
 "<ansys.mapdl.core.launcher.launch_mapdl_process>`\\ \\(\\[exec\\_file\\, "
 "...\\]\\)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/launcher.rst:21:<autosummary>:1
+#: ../../pymapdl/doc/source/api/launcher.rst:18:<autosummary>:1
 msgid ""
 ":py:obj:`close_all_local_instances "
 "<ansys.mapdl.core.launcher.close_all_local_instances>`\\ "
 "\\(\\[port\\_range\\]\\)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/launcher.rst:23
+#: ../../pymapdl/doc/source/api/launcher.rst:20
 msgid "``ansys-tools-common.path`` functions"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/launcher.rst:34:<autosummary>:1
+#: ../../pymapdl/doc/source/api/launcher.rst:31:<autosummary>:1
 msgid ""
 ":py:obj:`change_default_ansys_path "
 "<ansys.tools.common.path.change_default_ansys_path>`\\ \\(exe\\_loc\\)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/launcher.rst:34:<autosummary>:1
+#: ../../pymapdl/doc/source/api/launcher.rst:31:<autosummary>:1
 msgid "Deprecated."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/launcher.rst:34:<autosummary>:1
+#: ../../pymapdl/doc/source/api/launcher.rst:31:<autosummary>:1
 msgid ""
 ":py:obj:`find_mapdl <ansys.tools.common.path.find_mapdl>`\\ \\(\\[version\\,"
 " supported\\_versions\\]\\)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/launcher.rst:34:<autosummary>:1
+#: ../../pymapdl/doc/source/api/launcher.rst:31:<autosummary>:1
 msgid ""
 ":py:obj:`save_ansys_path <ansys.tools.common.path.save_ansys_path>`\\ "
 "\\(\\[exe\\_loc\\, allow\\_prompt\\]\\)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/launcher.rst:34:<autosummary>:1
+#: ../../pymapdl/doc/source/api/launcher.rst:31:<autosummary>:1
 msgid ""
 ":py:obj:`get_available_ansys_installations "
 "<ansys.tools.common.path.get_available_ansys_installations>`\\ "

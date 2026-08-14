@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.74.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 00:33+0000\n"
+"POT-Creation-Date: 2026-08-14 00:25+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -98,28 +98,38 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/doc/source/index.rst:88
+msgid "Try PyMAPDL MCP"
+msgstr ""
+
+#: ../../pymapdl/doc/source/index.rst:91
+msgid ""
+"If you want to use AI agents and code editors with PyMAPDL, see the `PyMAPDL"
+" MCP documentation <pymapdl_mcp_docs_>`_."
+msgstr ""
+
+#: ../../pymapdl/doc/source/index.rst:94
 msgid "Contribute to PyMAPDL"
 msgstr ""
 
-#: ../../pymapdl/doc/source/index.rst:92
+#: ../../pymapdl/doc/source/index.rst:98
 msgid "If you want to contribute to PyMAPDL, see :ref:`ref_contributing`."
 msgstr ""
 
-#: ../../pymapdl/doc/source/index.rst:95
+#: ../../pymapdl/doc/source/index.rst:101
 msgid "Improve documentation or add an example"
 msgstr ""
 
-#: ../../pymapdl/doc/source/index.rst:99
+#: ../../pymapdl/doc/source/index.rst:105
 msgid ""
 "If you want to improve documentation or add an example, see "
 ":ref:`write_documentation`."
 msgstr ""
 
-#: ../../pymapdl/doc/source/index.rst:102
+#: ../../pymapdl/doc/source/index.rst:108
 msgid "Develop PyMAPDL"
 msgstr "PyMAPDL を開発する"
 
-#: ../../pymapdl/doc/source/index.rst:106
+#: ../../pymapdl/doc/source/index.rst:112
 msgid ""
 "If you want to fix a bug or build a new feature, see "
 ":ref:`developing_pymapdl`."

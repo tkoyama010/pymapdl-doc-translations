@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.74.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-01 02:37+0000\n"
+"POT-Creation-Date: 2026-08-14 00:25+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -969,8 +969,8 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:566
 msgid ""
-":download:`beam_with_report.py <ref_beam_report_example_>`: Complete Python "
-"script."
+":download:`beam_with_report.py <../../../../../examples/00-mapdl-"
+"examples/beam_with_report.py>`: Complete Python script."
 msgstr ""
 
 #: ../../pymapdl/doc/source/examples/extended_examples/beam_analysis_with_reporting/beam_analysis_report.rst:568
