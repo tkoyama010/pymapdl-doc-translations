@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.74.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-14 00:25+0000\n"
+"POT-Creation-Date: 2026-08-18 00:13+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -578,7 +578,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.download_result:38
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.exit:38
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.exit:47
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.mute:24
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
@@ -1802,7 +1802,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.exit:25
 msgid ""
-"If Mapdl didn't start the instance, then this will be ignored unless "
+"If Mapdl didn't start the instance, then MAPDL is kept alive unless "
 "``force=True``."
 msgstr ""
 
@@ -1810,13 +1810,25 @@ msgstr ""
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.exit:28
 msgid ""
 "If ``PYMAPDL_START_INSTANCE`` is set to ``False`` (generally set in remote "
-"testing or documentation build), then this will be ignored. Override this "
+"testing or documentation build), then MAPDL is kept alive. Override this "
 "behavior with ``force=True`` to always force exiting MAPDL regardless of "
 "your local environment."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.exit:33
+msgid ""
+"On every path where MAPDL itself is left running (the ones above, an "
+"instance that has already exited, or an instance built while "
+"``pymapdl.BUILDING_GALLERY`` is set), the client side of the connection — "
+"the gRPC channel and the PIPE-drainer threads — is still released, because "
+"closing a gRPC channel is a purely client-side operation that does not stop "
+"the MAPDL server. Call :meth:`reconnect_to_mapdl` to build a fresh channel "
+"and resume driving the same MAPDL session."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.exit:42
 msgid ""
 "If ``Mapdl.finish_job_on_exit`` is set to ``True`` and there is a valid "
 "JobID in ``Mapdl.jobid``, then the SLURM job will be canceled."
