@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.74.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-14 00:25+0000\n"
+"POT-Creation-Date: 2026-08-21 00:14+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -254,9 +254,9 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/devcontainer.rst:7
 msgid ""
-"This guide describes how to develop PyMAPDL features or fix bugs using a "
-"`remote container <vscode_devcontainers_containers_>`_. The files for "
-"setting up the container can be found in the `.devcontainer directory "
+"This guide describes how to develop PyMAPDL features or fix bugs in a "
+"`development container <vscode_devcontainers_containers_>`_. The container "
+"configurations are in the `.devcontainer directory "
 "<pymapdl_devcontainer_directory_>`_."
 msgstr ""
 
@@ -266,145 +266,116 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/devcontainer.rst:16
 msgid ""
-"Because MAPDL software is not open source, the GPL license does not allow to"
-" distribute a docker container to users. Having a docker container with "
-"MAPDL installed is a requirement to use any of the development methods "
-"mentioned on this section. If you want to build your own docker image, visit"
-" the following link :ref:`ref_make_container`."
+"The local development container is based on an Ansys MAPDL image. MAPDL "
+"images cannot be made publicly available because of licensing restrictions. "
+"Each person or organization must create and maintain its own image and have "
+"a valid MAPDL license. To create an image, see :ref:`ref_make_container`."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:25
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:23
 msgid "License"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:27
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:25
 msgid ""
-"As mentioned before, you must have a valid license to run MAPDL. When you "
-"launch the container, the file :file:`script.sh` automatically checks if the"
-" environment variable :envvar:`ANSYSLMD_LICENSE_FILE` exists. This "
-"environment variable sets the port and IP address of the license server. If "
-"you do not have set this environment variable before launching the "
-"container, you are prompt to enter your license server port and address."
+"Configure the image to reach your license server before starting the "
+"container. Do not commit license-server addresses or other site-specific "
+"settings."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:34
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:33
+msgid "Use a local development container"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:35
+msgid "To use the local container, install the following software:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:37
+msgid "`Visual Studio Code <vscode_>`_"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:38
+msgid "`Docker <docker_main_>`_ or an equivalent container runtime"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:39
 msgid ""
-"You can set the :envvar:`ANSYSLMD_LICENSE_FILE` environment variable from "
-"the terminal before launching VS Code. For example, if you have a license "
-"server at the address ``123.45.67.89``, you can set the license using:"
+"The `Dev Containers extension <vscode_devcontainers_remote_extension_>`_"
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:0
-#: ../../pymapdl/doc/source/getting_started/docker.rst:0
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:0
-#: ../../pymapdl/doc/source/getting_started/troubleshoot.rst:0
-#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:0
-msgid "Windows"
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:41
+msgid ""
+"Clone the PyMAPDL repository and open it in Visual Studio Code. Open the "
+"Command Palette with :kbd:`Ctrl` + :kbd:`Shift` + :kbd:`P` on Windows and "
+"Linux, or :kbd:`Cmd` + :kbd:`Shift` + :kbd:`P` on macOS. Select **Dev "
+"Containers: Open Folder in Container** and then select **PyMAPDL-"
+"DevContainer (Local)**."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:0
-#: ../../pymapdl/doc/source/getting_started/docker.rst:0
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:0
-#: ../../pymapdl/doc/source/getting_started/launcher.rst:533
-#: ../../pymapdl/doc/source/getting_started/troubleshoot.rst:0
-#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:0
-msgid "Linux"
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:47
+msgid ""
+"The configuration is in the `local devcontainer configuration "
+"<pymapdl_devcontainer_configuration_>`_. It builds the `Dockerfile "
+"<pymapdl_devcontainer_dockerfile_>`_ from the same directory and mounts the "
+"repository according to its `docker-compose.yml "
+"<pymapdl_build_docker_compose_>`_ file. The initial build can take several "
+"minutes while Docker downloads the base image and installs dependencies."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:56
+msgid "Customize the local development container"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/devcontainer.rst:58
-msgid "And then open the folder in the container using the `Command palette`."
-msgstr ""
-
-#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:64
-msgid "Develop on a remote container"
-msgstr ""
-
-#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:66
 msgid ""
-"This approach requires you have a Docker image with MAPDL installed. The "
-"Docker image listed in the `repository development container configuration "
-"files <pymapdl_devcontainer_configuration_>`_ is not for public use due to "
-"licensing issues. However, you can `create your own Docker image "
-"<ref_make_container_>` and use this file as a template for setting your own "
-"local development container."
+"To use a custom MAPDL image, update the ``FROM`` instruction in the "
+"`Dockerfile <pymapdl_devcontainer_dockerfile_>`_. Update `docker-compose.yml"
+" <pymapdl_build_docker_compose_>`_ when your image requires different "
+"volumes, ports, environment variables, or other Docker settings."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:63
+msgid ""
+"Keep site-specific changes outside your pull request. The development "
+"container files are shared project configuration."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:67
+msgid "Use GitHub Codespaces"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:69
+msgid ""
+"GitHub Codespaces is disabled for the PyMAPDL repository. The repository "
+"includes separate configurations for development and documentation that you "
+"can use when setting up Codespaces in a fork or another repository:"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/devcontainer.rst:73
 msgid ""
-"To use a `remote container <vscode_devcontainers_containers_>`_, you must "
-"install this software:"
+":file:`.devcontainer/codespaces-dev/devcontainer.json` builds the "
+"development container, including its test dependencies."
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/devcontainer.rst:75
-msgid "`Visual Studio Code <vscode_>`_"
+msgid ""
+":file:`.devcontainer/codespaces-docs/devcontainer.json` builds the "
+"documentation container, including its documentation dependencies."
 msgstr ""
 
-#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:76
+#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:78
 msgid ""
-"`Docker software <docker_main_>`_ or equivalent. To run Linux Docker "
-"containers, you should use the Windows Subsystem Linux (WSL) backend. For "
-"more information, see `Developing inside a Container - Getting started "
-"<vscode_devcontainers_containers_getting_started_>`_."
-msgstr ""
-
-#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:80
-msgid ""
-"`Remove Development VS Code extension pack "
-"<vscode_devcontainers_remote_extension_>`_"
+"Each configuration uses the Dockerfile in its own directory. Ensure that its"
+" base image is available to your repository and is configured for your MAPDL"
+" license before creating the codespace."
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/devcontainer.rst:82
 msgid ""
-"As mentioned before, you must have your own Docker image with MAPDL "
-"installed locally available or hosted in an online registry, such as GitHub "
-"`ghcr.io <ghcr_>`_. For the purpose of this document, assume your image is "
-"hosted at ``ghcr.io/myaccount/mapdlimage:mytag``."
-msgstr ""
-
-#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:87
-msgid ""
-"You must then modify the `docker-compose.yml "
-"<pymapdl_build_docker_compose_>`_ file with your custom image:"
-msgstr ""
-
-#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:100
-msgid ""
-"You might also need to change some environment variables or Docker options "
-"to adjust to your image configuration. For example, you might need to change"
-" the :envvar:`AWP_ROOT222` environment variable if your MAPDL container does"
-" not have the installation in the default directory. Be careful that you do "
-"not commit those changes in your PRs."
-msgstr ""
-
-#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:106
-msgid ""
-"You can now open the current folder (or PyMAPDL repository) using "
-":kbd:`ctr/cmd` + :kbd:`shift` + :kbd:`p` to open the Visual Studio Code "
-"**Command palette**. Then select **Dev Containers: Open Folder in "
-"Container**. When you are prompted to select one of the multiple "
-"devcontainer configurations, select **PyMAPDL-DevContainer (Local)**. "
-"Because the configuration is available in the "
-":file:`.devcontainer/devcontainer-local` directory, Visual Studio Code "
-"automatically launches the MAPDL container with the desired configuration."
-msgstr ""
-
-#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:114
-msgid ""
-"The first time that you launch the devcontainer, it might take a long time "
-"before it is ready, This is because the container image must be pulled from "
-"the registry."
-msgstr ""
-
-#: ../../pymapdl/doc/source/getting_started/devcontainer.rst:117
-msgid ""
-"You can now work normally, but you would be, in fact, working from inside "
-"the container. Because Visual Studio Code mount the local directory into the"
-" Docker container, you don't lose your changes if you accidentally delete "
-"your container. However, this mounting process might have a significant "
-"impact on the container performance, especially noticeable if you are using "
-"MacOS. You can avoid this by cloning the repository inside the container. "
-"For more information, see `Quick start: Open a Git repository or GitHub PR "
-"in an isolated container volume <vscode_open_a_repository_in_container_>`_."
+"Select the appropriate configuration when you create a codespace in your "
+"fork or repository. See `the Visual Studio Code Dev Containers documentation"
+" <vscode_devcontainers_containers_getting_started_>`_ for more information."
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:6
@@ -1646,6 +1617,21 @@ msgid ""
 "To instantiate an MAPDL Docker container from an image hosted at "
 "``ghcr.io/myuser/myrepo/mymapdldockerimage``, use code like in the following"
 " examples."
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:0
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:0
+#: ../../pymapdl/doc/source/getting_started/troubleshoot.rst:0
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:0
+msgid "Windows"
+msgstr ""
+
+#: ../../pymapdl/doc/source/getting_started/docker.rst:0
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:0
+#: ../../pymapdl/doc/source/getting_started/launcher.rst:533
+#: ../../pymapdl/doc/source/getting_started/troubleshoot.rst:0
+#: ../../pymapdl/doc/source/getting_started/write_documentation.rst:0
+msgid "Linux"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/docker.rst:112
