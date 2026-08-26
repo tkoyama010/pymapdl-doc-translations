@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.74.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-21 00:14+0000\n"
+"POT-Creation-Date: 2026-08-26 00:14+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -283,6 +283,139 @@ msgid ""
 "The ``pymapdl convert`` command uses the :func:`convert_script() "
 "<ansys.mapdl.core.convert_script>` function. Hence, this command accepts "
 "most of this function's arguments."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:586
+msgid "Use the commands from Python"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:588
+msgid ""
+"Every ``pymapdl`` sub-command is a thin Click wrapper, named ``<name>_cli``,"
+" around a plain function named ``<name>`` that lives in the same module, for"
+" example :func:`ansys.mapdl.core.cli.stop.stop`. Import the plain function "
+"to get the same behavior from Python, which avoids spawning a shell and "
+"parsing text output:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:604
+msgid ""
+"The mapping between commands and functions is direct. Each function takes "
+"the long form of the command options as keyword arguments:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:611
+msgid "Command"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:612
+msgid "Function"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:613
+msgid "``pymapdl start``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:614
+msgid ":func:`start() <ansys.mapdl.core.cli.start.start>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:615
+msgid "``pymapdl stop``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:616
+msgid ":func:`stop() <ansys.mapdl.core.cli.stop.stop>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:617
+msgid "``pymapdl list``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:618
+msgid ""
+":func:`list_instances() "
+"<ansys.mapdl.core.cli.list_instances.list_instances>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:619
+msgid "``pymapdl check``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:620
+msgid ":func:`check() <ansys.mapdl.core.cli.check.check>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:621
+msgid "``pymapdl exec``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:622
+msgid ":func:`exec_commands() <ansys.mapdl.core.cli.exec.exec_commands>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:623
+msgid "``pymapdl convert``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:624
+msgid ":func:`convert() <ansys.mapdl.core.cli.convert.convert>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:625
+msgid "``pymapdl help``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:626
+msgid ":func:`help_command() <ansys.mapdl.core.cli.help.help_command>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:627
+msgid "``pymapdl skills list``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:628
+msgid ":func:`list_skills() <ansys.mapdl.core.cli.skills.list_skills>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:629
+msgid "``pymapdl skills show``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:630
+msgid ":func:`show_skill() <ansys.mapdl.core.cli.skills.show_skill>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:631
+msgid "``pymapdl skills install``"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:632
+msgid ":func:`install_skill() <ansys.mapdl.core.cli.skills.install_skill>`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:634
+msgid ""
+"These functions return data and raise exceptions, they never print to stdout"
+" nor exit the interpreter. Rendering and exit codes are the responsibility "
+"of the Click wrapper. So a failure surfaces as a regular Python exception "
+"that you can handle:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:651
+msgid ""
+"Two functions return a string that is meant to be printed rather than "
+"parsed: :func:`list_instances() "
+"<ansys.mapdl.core.cli.list_instances.list_instances>` returns the rendered "
+"table, and :func:`help_command() <ansys.mapdl.core.cli.help.help_command>` "
+"returns the docstring with the ANSI escape sequences of a color terminal. To"
+" get the instances as data instead of a table, use "
+":func:`get_mapdl_instances() "
+"<ansys.mapdl.core.cli.helpers.get_mapdl_instances>`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/user_guide/cli.rst:659
+msgid "For the full signatures, see :ref:`ref_cli_api`."
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/components.rst:6
