@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.74.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-15 00:31+0000\n"
+"POT-Creation-Date: 2026-09-19 00:29+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -60106,9 +60106,9 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/_commands/aux15/iges.pydocstring of
 #: ansys.mapdl.core._commands.aux15.iges.Iges.ioptn:68
 msgid ""
-"The SMALL,YES option (default) delete small areas and can cause geometrical "
-"inconsistencies that could cause the import process to abort. Retaining the "
-"small areas increases processor time and memory usage."
+"The SMALL,YES option (default) deletes small areas and can cause geometrical"
+" inconsistencies that could cause the import process to abort. Retaining the"
+" small areas increases processor time and memory usage."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/_commands/aux15/iges.pydocstring of
