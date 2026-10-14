@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.74.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-09 00:34+0000\n"
+"POT-Creation-Date: 2026-10-14 00:27+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -77,12 +77,22 @@ msgstr "mapdlログにファイルハンドラを追加します。 これによ
 #: ansys.mapdl.core.component.Component:0
 #: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
 #: ansys.mapdl.core.component.ComponentManager.__init__:0
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.ComponentManager.select:0
 #: ../../pymapdl/src/ansys/mapdl/core/convert.pydocstring of
 #: ansys.mapdl.core.convert.convert_apdl_block:0
 #: ../../pymapdl/src/ansys/mapdl/core/convert.pydocstring of
 #: ansys.mapdl.core.convert.convert_script:0
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information:0
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.__init__:0
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
 #: ansys.mapdl.core.information.Information.stitles:0
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.UnitsDict:0
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.get_mapdl_info:0
 #: ../../pymapdl/src/ansys/mapdl/core/inline_functions/component_queries.pydocstring
 #: of
 #: ansys.mapdl.core.inline_functions.component_queries._ComponentQueries.centrx:0
@@ -180,6 +190,18 @@ msgstr "mapdlログにファイルハンドラを追加します。 これによ
 #: ansys.mapdl.core.launcher.connection.close_all_local_instances:0
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/connection.pydocstring of
 #: ansys.mapdl.core.launcher.connection.stop:0
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.EnvironmentConfig:0
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.HPCJobInfo:0
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:0
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.PortStatus:0
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ProcessInfo:0
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ValidationResult:0
 #: ../../pymapdl/src/ansys/mapdl/core/logging.pydocstring of
 #: ansys.mapdl.core.logging.Logger:0
 #: ../../pymapdl/src/ansys/mapdl/core/logging.pydocstring of
@@ -262,6 +284,8 @@ msgstr "mapdlログにファイルハンドラを追加します。 これによ
 #: ansys.mapdl.core.plotting.visualizer.MapdlPlotter:0
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
 #: ansys.mapdl.core.pool.MapdlPool:0
+#: ../../pymapdl/src/ansys/mapdl/core/report.pydocstring of
+#: ansys.mapdl.core.report.Report.__init__:0
 #: ../../pymapdl/src/ansys/mapdl/core/solution.pydocstring of
 #: ansys.mapdl.core.solution.Solution.__init__:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/ansys/tools/common/path/path.pydocstring
@@ -327,6 +351,8 @@ msgstr "**filepath** : :class:`python:str`"
 #: ansys.mapdl.core.convert.convert_apdl_block:6
 #: ../../pymapdl/src/ansys/mapdl/core/convert.pydocstring of
 #: ansys.mapdl.core.convert.convert_script:6
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.UnitsDict:9
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl:32
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
@@ -339,6 +365,38 @@ msgstr "**filepath** : :class:`python:str`"
 #: ansys.mapdl.core.launcher.launch_mapdl_process:99
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl_process:120
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.HPCJobInfo:11
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.HPCJobInfo:14
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.HPCJobInfo:17
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:9
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:12
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:15
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:24
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:57
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:72
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchMode:8
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchMode:11
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ProcessInfo:14
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.TransportMode:8
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.TransportMode:11
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.TransportMode:14
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.TransportMode:17
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
 #: ansys.mapdl.core.mapdl_core._MapdlCore.add_file_handler:7
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
@@ -428,12 +486,38 @@ msgstr "**append** : :ref:`bool <python:bltin-boolean-values>`"
 #: ansys.mapdl.core.launcher.launch_mapdl_process:160
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl_process:164
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:33
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:42
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:45
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:48
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:51
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:54
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:63
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:66
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:78
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.PortStatus:11
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.PortStatus:14
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ValidationResult:8
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
 #: ansys.mapdl.core.mapdl_core._MapdlCore.add_file_handler:10
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
 #: ansys.mapdl.core.mapdl_core._MapdlCore.run:20
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
 #: ansys.mapdl.core.mapdl_core._MapdlCore.run:25
+#: ../../pymapdl/src/ansys/mapdl/core/report.pydocstring of
+#: ansys.mapdl.core.report.Report.__init__:19
 msgid "bool"
 msgstr "bool"
 
@@ -505,7 +589,13 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/database/nodes.pydocstring of
 #: ansys.mapdl.core.database.nodes.DbNodes:19
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information:34
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
 #: ansys.mapdl.core.information.Information.units:26
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.UnitsDict:26
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.get_mapdl_info:56
 #: ../../pymapdl/src/ansys/mapdl/core/inline_functions/component_queries.pydocstring
 #: of
 #: ansys.mapdl.core.inline_functions.component_queries._ComponentQueries.centrx:32
@@ -605,6 +695,18 @@ msgstr ""
 #: ansys.mapdl.core.launcher.connection.close_all_local_instances:28
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/connection.pydocstring of
 #: ansys.mapdl.core.launcher.connection.stop:46
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.EnvironmentConfig:35
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.HPCJobInfo:39
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:142
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.PortStatus:40
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ProcessInfo:46
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ValidationResult:44
 #: ../../pymapdl/src/ansys/mapdl/core/logging.pydocstring of
 #: ansys.mapdl.core.logging.Logger:37
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
@@ -819,6 +921,10 @@ msgstr ""
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:24
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
 #: ansys.mapdl.core.pool.MapdlPool:8
+#: ../../pymapdl/src/ansys/mapdl/core/report.pydocstring of
+#: ansys.mapdl.core.report.Report.__init__:9
+#: ../../pymapdl/src/ansys/mapdl/core/report.pydocstring of
+#: ansys.mapdl.core.report.Report.__init__:13
 msgid "python:int, optional"
 msgstr ""
 
@@ -954,6 +1060,8 @@ msgid ""
 ":obj:`optional`"
 msgstr ""
 
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.ComponentManager.select:10
 #: ../../pymapdl/src/ansys/mapdl/core/convert.pydocstring of
 #: ansys.mapdl.core.convert.convert_apdl_block:12
 #: ../../pymapdl/src/ansys/mapdl/core/convert.pydocstring of
@@ -1082,6 +1190,8 @@ msgstr ""
 #: ansys.mapdl.core.pool.MapdlPool:51
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
 #: ansys.mapdl.core.pool.MapdlPool:73
+#: ../../pymapdl/src/ansys/mapdl/core/report.pydocstring of
+#: ansys.mapdl.core.report.Report.__init__:16
 msgid "bool, optional"
 msgstr ""
 
@@ -1195,10 +1305,20 @@ msgstr ""
 #: ansys.mapdl.core.cli.skills.show_skill:0
 #: ../../pymapdl/src/ansys/mapdl/core/cli/start.pydocstring of
 #: ansys.mapdl.core.cli.start.start:0
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.ComponentManager.items:0
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.ComponentManager.names:0
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.ComponentManager.types:0
 #: ../../pymapdl/src/ansys/mapdl/core/convert.pydocstring of
 #: ansys.mapdl.core.convert.convert_apdl_block:0
 #: ../../pymapdl/src/ansys/mapdl/core/convert.pydocstring of
 #: ansys.mapdl.core.convert.convert_script:0
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information:0
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.__init__:0
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
 #: ansys.mapdl.core.information.Information.aux_capabilities:0
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
@@ -1243,6 +1363,8 @@ msgstr ""
 #: ansys.mapdl.core.information.Information.titles:0
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
 #: ansys.mapdl.core.information.Information.units:0
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.get_mapdl_info:0
 #: ../../pymapdl/src/ansys/mapdl/core/inline_functions/component_queries.pydocstring
 #: of
 #: ansys.mapdl.core.inline_functions.component_queries._ComponentQueries.centrx:0
@@ -1422,6 +1544,8 @@ msgstr ""
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.scalar_param:0
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.upload:0
+#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
+#: ansys.mapdl.core.misc.check_has_mapdl:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/ansys/tools/common/path/path.pydocstring
 #: of ansys.tools.common.path.path.find_mapdl:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/ansys/tools/common/path/path.pydocstring
@@ -1503,6 +1627,8 @@ msgstr ""
 #: ansys.mapdl.core.Mapdl.process_is_alive:10
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.mute:11
+#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
+#: ansys.mapdl.core.misc.check_has_mapdl:10
 msgid ":ref:`bool <python:bltin-boolean-values>`"
 msgstr ""
 
@@ -1558,6 +1684,8 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
 #: ansys.mapdl.core.component.ComponentManager:17
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information:27
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
 #: ansys.mapdl.core.information.Information.stitles:27
 #: ../../pymapdl/src/ansys/mapdl/core/krylov.pydocstring of
 #: ansys.mapdl.core.krylov.KrylovSolver:17
@@ -1565,6 +1693,18 @@ msgstr ""
 #: ansys.mapdl.core.launcher.launch_mapdl:234
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl_process:204
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.EnvironmentConfig:27
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.HPCJobInfo:32
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:134
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.PortStatus:32
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ProcessInfo:38
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ValidationResult:37
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
 #: ansys.mapdl.core.mapdl_core._MapdlCore.run:47
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
@@ -1942,6 +2082,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.Mapdl.scalar_param.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.Mapdl.screenshot.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.Mapdl.set_log_level.rst:0
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.check_has_mapdl.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.cli.check.check.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.cli.check.format_info.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.cli.convert.convert.rst:0
@@ -1959,8 +2100,11 @@ msgstr ""
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.cli.skills.plan_skill_install.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.cli.skills.show_skill.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.cli.start.start.rst:0
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.ComponentManager.items.rst:0
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.ComponentManager.select.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.convert.convert_apdl_block.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.convert.convert_script.rst:0
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.get_mapdl_info.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.inline_functions.Query.asel.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.inline_functions.Query.centrx.rst:0
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.inline_functions.Query.centry.rst:0
@@ -12276,6 +12420,18 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/inline_functions/selection_queries.pydocstring
 #: of
 #: ansys.mapdl.core.inline_functions.selection_queries._SelectionStatusQueries.vsel:14
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.HPCJobInfo:8
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:18
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:21
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:39
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.PortStatus:8
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ProcessInfo:11
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_esol:7
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
@@ -13690,6 +13846,8 @@ msgstr ""
 msgid "Kill a job given its identifier."
 msgstr ""
 
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.HPCJobInfo:9
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.kill_job:8
 msgid "**jobid** : :class:`python:int`"
@@ -13702,6 +13860,8 @@ msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/cli/helpers.pydocstring of
 #: ansys.mapdl.core.cli.helpers.silence_logging:21
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.ComponentManager.select:27
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/connection.pydocstring of
 #: ansys.mapdl.core.launcher.connection.close_all_local_instances:25
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_core.pydocstring of
@@ -14967,6 +15127,8 @@ msgstr ""
 #: ansys.mapdl.core.cli.skills.show_skill:0
 #: ../../pymapdl/src/ansys/mapdl/core/cli/start.pydocstring of
 #: ansys.mapdl.core.cli.start.start:0
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.__init__:0
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl:0
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
@@ -15162,6 +15324,199 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
 #: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.vplot:65
 msgid "Plot while displaying area numbers."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.Report.rst:2
+msgid "ansys.mapdl.core.Report"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/report.rst:17:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/report.pydocstring of
+#: ansys.mapdl.core.report.Report:2
+msgid "A class for custom scooby.Report."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.Report.rst:18:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/report.pydocstring of
+#: ansys.mapdl.core.report.Report.__init__:2
+msgid "Generate a :class:`scooby.Report` instance."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/report.pydocstring of
+#: ansys.mapdl.core.report.Report.__init__:7
+msgid ""
+"**additional** : :class:`python:list`\\(:obj:`ModuleType`), "
+":class:`python:list`\\(:class:`python:str`)"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/report.pydocstring of
+#: ansys.mapdl.core.report.Report.__init__:6
+msgid "python:list(ModuleType), python:list(python:str)"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/report.pydocstring of
+#: ansys.mapdl.core.report.Report.__init__:8
+msgid "List of packages or package names to add to output information."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/report.pydocstring of
+#: ansys.mapdl.core.report.Report.__init__:10
+msgid "**ncol** : :class:`python:int`, :obj:`optional`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/report.pydocstring of
+#: ansys.mapdl.core.report.Report.__init__:11
+msgid ""
+"Number of package-columns in html table; only has effect if ``mode='HTML'`` "
+"or ``mode='html'``. Defaults to 3."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/report.pydocstring of
+#: ansys.mapdl.core.report.Report.__init__:14
+msgid "**text_width** : :class:`python:int`, :obj:`optional`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/report.pydocstring of
+#: ansys.mapdl.core.report.Report.__init__:15
+msgid "The text width for non-HTML display modes"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/report.pydocstring of
+#: ansys.mapdl.core.report.Report.__init__:17
+msgid "**sort** : :ref:`bool <python:bltin-boolean-values>`, :obj:`optional`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/report.pydocstring of
+#: ansys.mapdl.core.report.Report.__init__:18
+msgid "Alphabetically sort the packages"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/report.pydocstring of
+#: ansys.mapdl.core.report.Report.__init__:20
+msgid "**gpu** : :ref:`bool <python:bltin-boolean-values>`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/report.pydocstring of
+#: ansys.mapdl.core.report.Report.__init__:21
+msgid ""
+"Gather information about the GPU. Defaults to ``True`` but if experiencing "
+"rendering issues, pass ``False`` to safely generate a report."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/report.pydocstring of
+#: ansys.mapdl.core.report.Report.__init__:25
+msgid ""
+"**ansys_vars** : :class:`python:list` :obj:`of` :class:`python:str`, "
+":obj:`optional`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/report.pydocstring of
+#: ansys.mapdl.core.report.Report.__init__:24
+msgid "python:list of python:str, optional"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/report.pydocstring of
+#: ansys.mapdl.core.report.Report.__init__:26
+msgid ""
+"List containing the Ansys environment variables to be reported. (e.g. "
+"[\"MYVAR_1\", \"MYVAR_2\" ...]). Defaults to ``None``. Only used for the "
+"`pyansys-tools-report` package."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/report.pydocstring of
+#: ansys.mapdl.core.report.Report.__init__:30
+msgid ""
+"**ansys_libs** : :class:`python:dict` {:class:`python:str` : "
+":class:`python:str`}, :obj:`optional`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/report.pydocstring of
+#: ansys.mapdl.core.report.Report.__init__:29
+msgid "python:dict {python:str"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/report.pydocstring of
+#: ansys.mapdl.core.report.Report.__init__:29
+msgid "python:str}, optional"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/report.pydocstring of
+#: ansys.mapdl.core.report.Report.__init__:31
+msgid ""
+"Dictionary containing the Ansys libraries and versions to be reported. (e.g."
+" {\"MyLib\" : \"v1.2\", ...}). Defaults to ``None``. Only used for the "
+"`pyansys-tools-report` package."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.Report.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.ComponentManager.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.database.MapdlDb.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.database.elems.DbElems.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.database.nodes.DbNodes.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.UnitsDict.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.krylov.KrylovSolver.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.EnvironmentConfig.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.HPCJobInfo.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.PortStatus.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.ProcessInfo.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.ValidationResult.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.logging.Logger.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mapdl_geometry.Geometry.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mapdl_geometry.LegacyGeometry.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mesh_grpc.MeshGrpc.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.parameters.Parameters.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plugin.ansPlugin.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.post.PostProcessing.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.solution.Solution.rst:13
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:13
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ValidationResult:22
+msgid "Methods"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.Report.rst:18:<autosummary>:1
+msgid ""
+":py:obj:`__init__ <ansys.mapdl.core.Report.__init__>`\\ \\(\\[additional\\, "
+"ncol\\, text\\_width\\, ...\\]\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.Report.rst:18:<autosummary>:1
+msgid ":py:obj:`get_version <ansys.mapdl.core.Report.get_version>`\\ \\(package\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.Report.rst:18:<autosummary>:1
+msgid ":py:obj:`mapdl_info <ansys.mapdl.core.Report.mapdl_info>`\\ \\(\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.Report.rst:18:<autosummary>:1
+msgid "Return information regarding the ansys environment and installation."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.check_has_mapdl.rst:2
+msgid "ansys.mapdl.core.check\\_has\\_mapdl"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/helper.rst:26:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
+#: ansys.mapdl.core.misc.check_has_mapdl:2
+msgid "Check whether a local MAPDL installation is available."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
+#: ansys.mapdl.core.misc.check_has_mapdl:11
+msgid ""
+"True when this local installation has ANSYS installed in a standard "
+"location."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/misc.pydocstring of
+#: ansys.mapdl.core.misc.check_has_mapdl:24
+msgid ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`bool\\``"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.cli.check.check.rst:2
@@ -15380,6 +15735,8 @@ msgstr ""
 #: ansys.mapdl.core.cli.convert.convert:40
 #: ../../pymapdl/src/ansys/mapdl/core/cli/convert.pydocstring of
 #: ansys.mapdl.core.cli.convert.convert:48
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:119
 msgid "bool, default: python:True"
 msgstr ""
 
@@ -15480,6 +15837,12 @@ msgstr ""
 #: ansys.mapdl.core.cli.start.start:26
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/connection.pydocstring of
 #: ansys.mapdl.core.launcher.connection.stop:15
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.EnvironmentConfig:11
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:103
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:106
 msgid "bool, default: python:False"
 msgstr ""
 
@@ -16708,26 +17071,6 @@ msgstr "ansys.mapdl.core.Mapdl"
 msgid "Mapdl instance which this class references to."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.ComponentManager.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.database.MapdlDb.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.database.elems.DbElems.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.database.nodes.DbNodes.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.krylov.KrylovSolver.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.logging.Logger.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mapdl_geometry.Geometry.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mapdl_geometry.LegacyGeometry.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mesh_grpc.MeshGrpc.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.parameters.Parameters.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.MapdlTheme.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plotting.visualizer.MapdlPlotter.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.plugin.ansPlugin.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.pool.MapdlPool.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.post.PostProcessing.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.solution.Solution.rst:13
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:13
-msgid "Methods"
-msgstr ""
-
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.ComponentManager.rst:23:<autosummary>:1
 msgid ""
 ":py:obj:`__init__ <ansys.mapdl.core.component.ComponentManager.__init__>`\\ "
@@ -16742,6 +17085,11 @@ msgstr ""
 ":py:obj:`items <ansys.mapdl.core.component.ComponentManager.items>`\\ \\(\\)"
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.ComponentManager.rst:23:<autosummary>:1
+#: ../../pymapdl/doc/source/api/components.rst:28:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.ComponentManager.items:2
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.ComponentManager.items:11
 msgid ""
 "Return a view object that contains the name-type pairs for each component."
 msgstr ""
@@ -16755,6 +17103,9 @@ msgstr ""
 "\\(names\\[\\, mute\\]\\)"
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.ComponentManager.rst:23:<autosummary>:1
+#: ../../pymapdl/doc/source/api/components.rst:28:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.ComponentManager.select:2
 msgid "Select Select components given their names"
 msgstr ""
 
@@ -16762,7 +17113,16 @@ msgstr ""
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.database.MapdlDb.rst:28
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.database.elems.DbElems.rst:29
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.database.nodes.DbNodes.rst:30
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:23
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.krylov.KrylovSolver.rst:27
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.EnvironmentConfig.rst:23
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.HPCJobInfo.rst:23
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:23
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchMode.rst:17
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.PortStatus.rst:23
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.ProcessInfo.rst:23
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.TransportMode.rst:17
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.ValidationResult.rst:25
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.logging.Logger.rst:29
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mapdl_geometry.Geometry.rst:33
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.mapdl_geometry.LegacyGeometry.rst:36
@@ -16774,6 +17134,10 @@ msgstr ""
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.post.PostProcessing.rst:85
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.solution.Solution.rst:23
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.xpl.ansXpl.rst:39
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchMode:0
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.TransportMode:0
 msgid "Attributes"
 msgstr ""
 
@@ -16786,6 +17150,9 @@ msgstr ""
 "<ansys.mapdl.core.component.ComponentManager.default_entity>`\\"
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.ComponentManager.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/components.rst:28:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.ComponentManager.default_entity:2
 msgid "Default entity for component creation."
 msgstr ""
 
@@ -16798,6 +17165,9 @@ msgstr ""
 "<ansys.mapdl.core.component.ComponentManager.default_entity_warning>`\\"
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.ComponentManager.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/components.rst:28:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.ComponentManager.default_entity_warning:2
 msgid ""
 "Enables the warning when creating components other than node components "
 "without specifying its type."
@@ -16808,6 +17178,9 @@ msgid ":py:obj:`logger <ansys.mapdl.core.component.ComponentManager.logger>`\\"
 msgstr ":py:obj:`logger <ansys.mapdl.core.component.ComponentManager.logger>`\\"
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.ComponentManager.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/components.rst:28:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.ComponentManager.logger:2
 msgid "Access to the logger."
 msgstr ""
 
@@ -16816,6 +17189,9 @@ msgid ":py:obj:`names <ansys.mapdl.core.component.ComponentManager.names>`\\"
 msgstr ":py:obj:`names <ansys.mapdl.core.component.ComponentManager.names>`\\"
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.ComponentManager.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/components.rst:28:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.ComponentManager.names:2
 msgid "Return a tuple that contains the components."
 msgstr ""
 
@@ -16824,7 +17200,106 @@ msgid ":py:obj:`types <ansys.mapdl.core.component.ComponentManager.types>`\\"
 msgstr ":py:obj:`types <ansys.mapdl.core.component.ComponentManager.types>`\\"
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.ComponentManager.rst:32:<autosummary>:1
+#: ../../pymapdl/doc/source/api/components.rst:28:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.ComponentManager.types:2
 msgid "Return the types of the components."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.ComponentManager.default_entity.rst:2
+msgid "ansys.mapdl.core.component.ComponentManager.default\\_entity"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.ComponentManager.default_entity_warning.rst:2
+msgid "ansys.mapdl.core.component.ComponentManager.default\\_entity\\_warning"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.ComponentManager.items.rst:2
+msgid "ansys.mapdl.core.component.ComponentManager.items"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.ComponentManager.items:10
+msgid ":obj:`dict_items`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.ComponentManager.items:23
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~typing.Dict\\`\\\\ "
+"\\\\\\[\\:py\\:class\\:\\`str\\`\\, \\:py\\:data\\:\\`\\~typing.Union\\`\\\\"
+" \\\\\\[\\:py\\:class\\:\\`str\\`\\, \\:py\\:class\\:\\`int\\`\\, "
+"\\:py\\:class\\:\\`\\~typing.List\\`\\\\ "
+"\\\\\\[\\:py\\:class\\:\\`int\\`\\]\\, "
+"\\:py\\:class\\:\\`\\~numpy.\\_typing.\\_array\\_like.GenericAlias\\`\\\\ "
+"\\\\\\[\\:py\\:data\\:\\`\\~typing.Any\\`\\]\\, "
+"\\:py\\:obj\\:\\`None\\`\\]\\]`"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.ComponentManager.logger.rst:2
+msgid "ansys.mapdl.core.component.ComponentManager.logger"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.ComponentManager.names.rst:2
+msgid "ansys.mapdl.core.component.ComponentManager.names"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.ComponentManager.names:10
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.ComponentManager.types:10
+msgid ":class:`python:tuple`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.ComponentManager.names:11
+msgid "Return a tuple that contains the component names."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.ComponentManager.select.rst:2
+msgid "ansys.mapdl.core.component.ComponentManager.select"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.ComponentManager.select:4
+msgid "Select components given their names."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.ComponentManager.select:8
+msgid ""
+"**names** : :obj:`Union`\\[:class:`python:str`, "
+":class:`python:list`\\[:class:`python:str`], "
+":class:`python:tuple`\\[:class:`python:str`]]"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.ComponentManager.select:7
+msgid "Union[python:str, python:list[python:str], python:tuple[python:str]]"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.ComponentManager.select:9
+msgid "Name(s) of the components"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.ComponentManager.select:11
+msgid "**mute** : :ref:`bool <python:bltin-boolean-values>`, :obj:`optional`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.ComponentManager.select:12
+msgid "Whether to mute the `/CMSEL` command output or not, by default False."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.component.ComponentManager.types.rst:2
+msgid "ansys.mapdl.core.component.ComponentManager.types"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/component.pydocstring of
+#: ansys.mapdl.core.component.ComponentManager.types:11
+msgid "Return a tuple that contains the types of the components."
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.convert.convert_apdl_block.rst:2
@@ -17530,14 +18005,403 @@ msgstr ":py:obj:`max_num <ansys.mapdl.core.database.nodes.DbNodes.max_num>`\\"
 msgid "Return the maximum node number."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.aux_capabilities.rst:2
-msgid "ansys.mapdl.core.information.Information.aux\\_capabilities"
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:2
+msgid "ansys.mapdl.core.information.Information"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:14:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information:2
+msgid ""
+"This class provide some MAPDL information from ``/STATUS`` MAPDL command."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information:4
+msgid ""
+"It is also the object that is called when you issue ``print(mapdl)``, which "
+"means ``print`` calls ``mapdl.info.__str__()``."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information:9
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.__init__:7
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.get_mapdl_info:14
+msgid "**mapdl** : :obj:`Mapdl`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information:8
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.__init__:6
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.get_mapdl_info:13
+msgid "Mapdl"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information:10
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.__init__:8
+msgid "An instance of the MAPDL class."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information:16
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.__init__:14
+msgid ":obj:`Mapdl`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information:17
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.__init__:15
+msgid "An MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information:28
+msgid "You cannot directly modify the values of this class."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information:30
+msgid "Some of the results are cached for later calls."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:21:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.__init__:2
+msgid "Class Initializer"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.__init__:22
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/connection.pydocstring of
+#: ansys.mapdl.core.launcher.connection.stop:35
+msgid ":obj:`TypeError`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.__init__:23
+msgid "If the provided `mapdl` object is not an instance of `MapdlBase`."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:21:<autosummary>:1
+msgid ""
+":py:obj:`__init__ <ansys.mapdl.core.information.Information.__init__>`\\ "
+"\\(mapdl\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+msgid ""
+":py:obj:`aux_capabilities "
+"<ansys.mapdl.core.information.Information.aux_capabilities>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
 #: ansys.mapdl.core.information.Information.aux_capabilities:2
 msgid "Retrieve the aux capabilities from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+msgid ""
+":py:obj:`boundary_condition_information "
+"<ansys.mapdl.core.information.Information.boundary_condition_information>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.boundary_condition_information:2
+msgid "Retrieve the boundary condition information from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+msgid ""
+":py:obj:`config_values "
+"<ansys.mapdl.core.information.Information.config_values>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.config_values:2
+msgid "Retrieve the config values from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+msgid ""
+":py:obj:`database_status "
+"<ansys.mapdl.core.information.Information.database_status>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.database_status:2
+msgid "Retrieve the database status from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+msgid ""
+":py:obj:`global_status "
+"<ansys.mapdl.core.information.Information.global_status>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.global_status:2
+msgid "Retrieve the global status from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+msgid ""
+":py:obj:`job_information "
+"<ansys.mapdl.core.information.Information.job_information>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.job_information:2
+msgid "Retrieve the job information from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+msgid ""
+":py:obj:`load_step_options "
+"<ansys.mapdl.core.information.Information.load_step_options>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.load_step_options:2
+msgid "Retrieve the load step options from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+msgid ""
+":py:obj:`mapdl_version "
+"<ansys.mapdl.core.information.Information.mapdl_version>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.mapdl_version:2
+msgid "Retrieve the MAPDL version from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+msgid ""
+":py:obj:`mapdl_version_build "
+"<ansys.mapdl.core.information.Information.mapdl_version_build>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+msgid "Retrieve the MAPDL version build from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+msgid ""
+":py:obj:`mapdl_version_release "
+"<ansys.mapdl.core.information.Information.mapdl_version_release>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+msgid "Retrieve the MAPDL version release from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+msgid ""
+":py:obj:`mapdl_version_update "
+"<ansys.mapdl.core.information.Information.mapdl_version_update>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+msgid "Retrieve the MAPDL version update from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+msgid ""
+":py:obj:`model_information "
+"<ansys.mapdl.core.information.Information.model_information>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.model_information:2
+msgid "Retrieve the model information from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+msgid ""
+":py:obj:`post_capabilities "
+"<ansys.mapdl.core.information.Information.post_capabilities>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.post_capabilities:2
+msgid "Retrieve the post capabilities from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+msgid ""
+":py:obj:`preprocessing_capabilities "
+"<ansys.mapdl.core.information.Information.preprocessing_capabilities>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.preprocessing_capabilities:2
+msgid "Retrieve the preprocessing capabilities from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+msgid ":py:obj:`product <ansys.mapdl.core.information.Information.product>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.product:2
+msgid "Retrieve the product from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+msgid ":py:obj:`products <ansys.mapdl.core.information.Information.products>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.products:2
+msgid "Retrieve the products from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+msgid ""
+":py:obj:`pymapdl_version "
+"<ansys.mapdl.core.information.Information.pymapdl_version>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.pymapdl_version:2
+msgid "Retrieve the PyMAPDL version from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+msgid ""
+":py:obj:`routine_information "
+"<ansys.mapdl.core.information.Information.routine_information>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.routine_information:2
+msgid "Retrieve the routine information from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+msgid ""
+":py:obj:`scratch_memory_status "
+"<ansys.mapdl.core.information.Information.scratch_memory_status>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.scratch_memory_status:2
+msgid "Retrieve the scratch memory status from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+msgid ""
+":py:obj:`solution_options "
+"<ansys.mapdl.core.information.Information.solution_options>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.solution_options:2
+msgid "Retrieve the solution options from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+msgid ""
+":py:obj:`solution_options_configuration "
+"<ansys.mapdl.core.information.Information.solution_options_configuration>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.solution_options_configuration:2
+msgid "Retrieve the solution options configuration from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+msgid ":py:obj:`stitles <ansys.mapdl.core.information.Information.stitles>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.stitles:2
+msgid "Retrieve or set the value for the MAPDL stitle (subtitles)."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+msgid ":py:obj:`title <ansys.mapdl.core.information.Information.title>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.title:2
+msgid "Retrieve and set the title from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+msgid ":py:obj:`titles <ansys.mapdl.core.information.Information.titles>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.titles:2
+msgid "Retrieve the titles from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+msgid ":py:obj:`units <ansys.mapdl.core.information.Information.units>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.rst:50:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.Information.units:2
+msgid "Retrieve the units from the MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.aux_capabilities.rst:2
+msgid "ansys.mapdl.core.information.Information.aux\\_capabilities"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
@@ -17550,12 +18414,6 @@ msgid ""
 "ansys.mapdl.core.information.Information.boundary\\_condition\\_information"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
-#: ansys.mapdl.core.information.Information.boundary_condition_information:2
-msgid "Retrieve the boundary condition information from the MAPDL instance."
-msgstr ""
-
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
 #: ansys.mapdl.core.information.Information.boundary_condition_information:11
 msgid "The boundary condition information from the MAPDL instance."
@@ -17563,12 +18421,6 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.config_values.rst:2
 msgid "ansys.mapdl.core.information.Information.config\\_values"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
-#: ansys.mapdl.core.information.Information.config_values:2
-msgid "Retrieve the config values from the MAPDL instance."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
@@ -17580,12 +18432,6 @@ msgstr ""
 msgid "ansys.mapdl.core.information.Information.database\\_status"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
-#: ansys.mapdl.core.information.Information.database_status:2
-msgid "Retrieve the database status from the MAPDL instance."
-msgstr ""
-
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
 #: ansys.mapdl.core.information.Information.database_status:11
 msgid "The database status from the MAPDL instance."
@@ -17593,12 +18439,6 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.global_status.rst:2
 msgid "ansys.mapdl.core.information.Information.global\\_status"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
-#: ansys.mapdl.core.information.Information.global_status:2
-msgid "Retrieve the global status from the MAPDL instance."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
@@ -17610,12 +18450,6 @@ msgstr ""
 msgid "ansys.mapdl.core.information.Information.job\\_information"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
-#: ansys.mapdl.core.information.Information.job_information:2
-msgid "Retrieve the job information from the MAPDL instance."
-msgstr ""
-
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
 #: ansys.mapdl.core.information.Information.job_information:11
 msgid "The job information from the MAPDL instance."
@@ -17623,12 +18457,6 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.load_step_options.rst:2
 msgid "ansys.mapdl.core.information.Information.load\\_step\\_options"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
-#: ansys.mapdl.core.information.Information.load_step_options:2
-msgid "Retrieve the load step options from the MAPDL instance."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
@@ -17640,12 +18468,6 @@ msgstr ""
 msgid "ansys.mapdl.core.information.Information.mapdl\\_version"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
-#: ansys.mapdl.core.information.Information.mapdl_version:2
-msgid "Retrieve the MAPDL version from the MAPDL instance."
-msgstr ""
-
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
 #: ansys.mapdl.core.information.Information.mapdl_version:11
 msgid "The MAPDL version from the MAPDL instance."
@@ -17653,12 +18475,6 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.model_information.rst:2
 msgid "ansys.mapdl.core.information.Information.model\\_information"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
-#: ansys.mapdl.core.information.Information.model_information:2
-msgid "Retrieve the model information from the MAPDL instance."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
@@ -17670,12 +18486,6 @@ msgstr ""
 msgid "ansys.mapdl.core.information.Information.post\\_capabilities"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
-#: ansys.mapdl.core.information.Information.post_capabilities:2
-msgid "Retrieve the post capabilities from the MAPDL instance."
-msgstr ""
-
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
 #: ansys.mapdl.core.information.Information.post_capabilities:11
 msgid "The post capabilities from the MAPDL instance."
@@ -17683,12 +18493,6 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.preprocessing_capabilities.rst:2
 msgid "ansys.mapdl.core.information.Information.preprocessing\\_capabilities"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
-#: ansys.mapdl.core.information.Information.preprocessing_capabilities:2
-msgid "Retrieve the preprocessing capabilities from the MAPDL instance."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
@@ -17700,12 +18504,6 @@ msgstr ""
 msgid "ansys.mapdl.core.information.Information.product"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
-#: ansys.mapdl.core.information.Information.product:2
-msgid "Retrieve the product from the MAPDL instance."
-msgstr ""
-
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
 #: ansys.mapdl.core.information.Information.product:11
 msgid "The product name from the MAPDL instance."
@@ -17713,12 +18511,6 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.products.rst:2
 msgid "ansys.mapdl.core.information.Information.products"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
-#: ansys.mapdl.core.information.Information.products:2
-msgid "Retrieve the products from the MAPDL instance."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
@@ -17730,12 +18522,6 @@ msgstr ""
 msgid "ansys.mapdl.core.information.Information.pymapdl\\_version"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
-#: ansys.mapdl.core.information.Information.pymapdl_version:2
-msgid "Retrieve the PyMAPDL version from the MAPDL instance."
-msgstr ""
-
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
 #: ansys.mapdl.core.information.Information.pymapdl_version:11
 msgid "Returns the PyMAPDL version."
@@ -17743,12 +18529,6 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.routine_information.rst:2
 msgid "ansys.mapdl.core.information.Information.routine\\_information"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
-#: ansys.mapdl.core.information.Information.routine_information:2
-msgid "Retrieve the routine information from the MAPDL instance."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
@@ -17760,12 +18540,6 @@ msgstr ""
 msgid "ansys.mapdl.core.information.Information.scratch\\_memory\\_status"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
-#: ansys.mapdl.core.information.Information.scratch_memory_status:2
-msgid "Retrieve the scratch memory status from the MAPDL instance."
-msgstr ""
-
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
 #: ansys.mapdl.core.information.Information.scratch_memory_status:11
 msgid "The scratch memory status from the MAPDL instance."
@@ -17773,12 +18547,6 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.solution_options.rst:2
 msgid "ansys.mapdl.core.information.Information.solution\\_options"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
-#: ansys.mapdl.core.information.Information.solution_options:2
-msgid "Retrieve the solution options from the MAPDL instance."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
@@ -17791,12 +18559,6 @@ msgid ""
 "ansys.mapdl.core.information.Information.solution\\_options\\_configuration"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
-#: ansys.mapdl.core.information.Information.solution_options_configuration:2
-msgid "Retrieve the solution options configuration from the MAPDL instance."
-msgstr ""
-
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
 #: ansys.mapdl.core.information.Information.solution_options_configuration:11
 msgid "The solution options configuration from the MAPDL instance."
@@ -17804,12 +18566,6 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.stitles.rst:2
 msgid "ansys.mapdl.core.information.Information.stitles"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
-#: ansys.mapdl.core.information.Information.stitles:2
-msgid "Retrieve or set the value for the MAPDL stitle (subtitles)."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
@@ -17855,12 +18611,6 @@ msgstr ""
 msgid "ansys.mapdl.core.information.Information.title"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
-#: ansys.mapdl.core.information.Information.title:2
-msgid "Retrieve and set the title from the MAPDL instance."
-msgstr ""
-
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
 #: ansys.mapdl.core.information.Information.title:11
 msgid "The title from the MAPDL instance."
@@ -17870,12 +18620,6 @@ msgstr ""
 msgid "ansys.mapdl.core.information.Information.titles"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
-#: ansys.mapdl.core.information.Information.titles:2
-msgid "Retrieve the titles from the MAPDL instance."
-msgstr ""
-
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
 #: ansys.mapdl.core.information.Information.titles:11
 msgid "The titles from the MAPDL instance."
@@ -17883,12 +18627,6 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.Information.units.rst:2
 msgid "ansys.mapdl.core.information.Information.units"
-msgstr ""
-
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
-#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
-#: ansys.mapdl.core.information.Information.units:2
-msgid "Retrieve the units from the MAPDL instance."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
@@ -17903,6 +18641,240 @@ msgid ""
 "Supports both full names (e.g., 'LENGTH') and short names (e.g., 'l') with "
 "case-insensitive access. Printing the object returns the original formatted "
 "string."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.UnitsDict.rst:2
+msgid "ansys.mapdl.core.information.UnitsDict"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/information.rst:14:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.UnitsDict:2
+msgid ""
+"A dictionary-like class for storing unit information with case-insensitive "
+"access."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.UnitsDict:4
+msgid ""
+"This class stores unit mappings and supports access by both full names "
+"(e.g., \"LENGTH\") and short names (e.g., \"l\"). It also provides pretty "
+"printing via __repr__ and __str__ that returns the original formatted "
+"string."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.UnitsDict:10
+msgid "**units_string** : :class:`python:str`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.UnitsDict:11
+msgid "The raw units string from MAPDL output."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.UnitsDict.rst:27:<autosummary>:1
+msgid ""
+":py:obj:`__init__ <ansys.mapdl.core.information.UnitsDict.__init__>`\\ "
+"\\(units\\_string\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.UnitsDict.rst:27:<autosummary>:1
+msgid ":py:obj:`clear <ansys.mapdl.core.information.UnitsDict.clear>`\\ \\(\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.UnitsDict.rst:27:<autosummary>:1
+msgid ":py:obj:`copy <ansys.mapdl.core.information.UnitsDict.copy>`\\ \\(\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.UnitsDict.rst:27:<autosummary>:1
+msgid ""
+":py:obj:`fromkeys <ansys.mapdl.core.information.UnitsDict.fromkeys>`\\ "
+"\\(iterable\\[\\, value\\]\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.UnitsDict.rst:27:<autosummary>:1
+msgid ""
+"Create a new dictionary with keys from iterable and values set to value."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.UnitsDict.rst:27:<autosummary>:1
+msgid ""
+":py:obj:`get <ansys.mapdl.core.information.UnitsDict.get>`\\ \\(key\\[\\, "
+"default\\]\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.UnitsDict.rst:27:<autosummary>:1
+msgid "Get item with case-insensitive key and default value."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.UnitsDict.rst:27:<autosummary>:1
+msgid ":py:obj:`items <ansys.mapdl.core.information.UnitsDict.items>`\\ \\(\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.UnitsDict.rst:27:<autosummary>:1
+msgid ":py:obj:`keys <ansys.mapdl.core.information.UnitsDict.keys>`\\ \\(\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.UnitsDict.rst:27:<autosummary>:1
+msgid ""
+":py:obj:`pop <ansys.mapdl.core.information.UnitsDict.pop>`\\ \\(key\\[\\, "
+"default\\]\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.UnitsDict.rst:27:<autosummary>:1
+msgid ""
+"If the key is not found, return the default if given; otherwise, raise a "
+"KeyError."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.UnitsDict.rst:27:<autosummary>:1
+msgid ":py:obj:`popitem <ansys.mapdl.core.information.UnitsDict.popitem>`\\ \\(\\/\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.UnitsDict.rst:27:<autosummary>:1
+msgid "Remove and return a (key, value) pair as a 2-tuple."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.UnitsDict.rst:27:<autosummary>:1
+msgid ""
+":py:obj:`setdefault <ansys.mapdl.core.information.UnitsDict.setdefault>`\\ "
+"\\(key\\[\\, default\\]\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.UnitsDict.rst:27:<autosummary>:1
+msgid "Insert key with a value of default if key is not in the dictionary."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.UnitsDict.rst:27:<autosummary>:1
+msgid ""
+":py:obj:`update <ansys.mapdl.core.information.UnitsDict.update>`\\ "
+"\\(\\[E\\, \\]\\*\\*F\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.UnitsDict.rst:27:<autosummary>:1
+msgid ""
+"If E is present and has a .keys() method, then does:  for k in E.keys(): "
+"D[k] = E[k] If E is present and lacks a .keys() method, then does:  for k, v"
+" in E: D[k] = v In either case, this is followed by: for k in F:  D[k] = "
+"F[k]"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.UnitsDict.rst:27:<autosummary>:1
+msgid ":py:obj:`values <ansys.mapdl.core.information.UnitsDict.values>`\\ \\(\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.information.get_mapdl_info.rst:2
+msgid "ansys.mapdl.core.information.get\\_mapdl\\_info"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/information.rst:14:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.get_mapdl_info:2
+msgid "Return diagnostic information from a connected MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.get_mapdl_info:4
+msgid ""
+"Collects connection details, version/product information, model geometry, "
+"mesh statistics, and post-processing state from a live MAPDL instance and "
+"returns them as a nested dictionary.  Each top-level section is collected "
+"independently so a failure in one section never blocks the others."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.get_mapdl_info:9
+msgid ""
+"This is the canonical implementation shared by the ``pymapdl check`` CLI "
+"command and external consumers such as the ``pymapdl-mcp`` package."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.get_mapdl_info:15
+msgid "A connected MAPDL gRPC instance."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.get_mapdl_info:21
+msgid ":class:`python:dict`\\[:class:`python:str`, :obj:`Any`]"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.get_mapdl_info:22
+msgid "Nested dictionary with the following top-level keys:"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.get_mapdl_info:24
+msgid "``\"connection\"``"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.get_mapdl_info:25
+msgid ""
+"Basic connection details: ``name``, ``ip``, ``port``, ``version``, "
+"``directory``, ``status``, ``is_local``, ``jobname``, ``platform``."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.get_mapdl_info:28
+msgid "``\"information\"``"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.get_mapdl_info:29
+msgid ""
+"Product and version info extracted from ``mapdl.info``: ``product``, "
+"``mapdl_version``, ``mapdl_version_build``, ``mapdl_version_update``, "
+"``pymapdl_version``, ``title``, ``units``."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.get_mapdl_info:33
+msgid "``\"geometry\"``"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.get_mapdl_info:34
+msgid ""
+"Current model geometry entity counts: ``n_keypoint``, ``n_line``, "
+"``n_area``, ``n_volu``."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.get_mapdl_info:36
+msgid "``\"mesh\"``"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.get_mapdl_info:37
+msgid "Current mesh statistics: ``n_node``, ``n_elem``."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.get_mapdl_info:38
+msgid "``\"post_processing\"``"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.get_mapdl_info:39
+msgid "Post-processing state: ``available``, ``nsets``."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.get_mapdl_info:41
+msgid ""
+"If a section cannot be retrieved, it will contain an ``\"error\"`` key with "
+"the exception message instead of the normal fields."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/information.pydocstring of
+#: ansys.mapdl.core.information.get_mapdl_info:53
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`dict\\`\\\\ "
+"\\\\\\[\\:py\\:class\\:\\`str\\`\\, \\:py\\:data\\:\\`\\~typing.Any\\`\\]`"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.inline_functions.Query.asel.rst:2
@@ -19399,7 +20371,7 @@ msgstr ""
 msgid "ansys.mapdl.core.launcher.close\\_all\\_local\\_instances"
 msgstr "ansys.mapdl.core.launcher.close\\_all\\_local\\_instances"
 
-#: ../../pymapdl/doc/source/api/launcher.rst:18:<autosummary>:1
+#: ../../pymapdl/doc/source/api/launcher.rst:19:<autosummary>:1
 #: ../../pymapdl/doc/source/api/mapdl.rst:142:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/connection.pydocstring of
 #: ansys.mapdl.core.launcher.connection.close_all_local_instances:2
@@ -19439,7 +20411,7 @@ msgid "ansys.mapdl.core.launcher.connection.stop"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/cli.rst:42:<autosummary>:1
-#: ../../pymapdl/doc/source/api/launcher.rst:18:<autosummary>:1
+#: ../../pymapdl/doc/source/api/launcher.rst:19:<autosummary>:1
 #: ../../pymapdl/doc/source/api/launcher.rst:33:<autosummary>:1
 #: ../../pymapdl/doc/source/api/mapdl.rst:142:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/connection.pydocstring of
@@ -19499,11 +20471,6 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/connection.pydocstring of
-#: ansys.mapdl.core.launcher.connection.stop:35
-msgid ":obj:`TypeError`"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/launcher/connection.pydocstring of
 #: ansys.mapdl.core.launcher.connection.stop:36
 msgid "When *pid* is given but is not an int."
 msgstr ""
@@ -19529,7 +20496,7 @@ msgstr ""
 msgid "ansys.mapdl.core.launcher.launch\\_mapdl"
 msgstr "ansys.mapdl.core.launcher.launch\\_mapdl"
 
-#: ../../pymapdl/doc/source/api/launcher.rst:18:<autosummary>:1
+#: ../../pymapdl/doc/source/api/launcher.rst:19:<autosummary>:1
 #: ../../pymapdl/doc/source/api/mapdl.rst:142:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl:2
@@ -19604,6 +20571,18 @@ msgstr ""
 #: ansys.mapdl.core.launcher.launch_mapdl_process:143
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl_process:168
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:60
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:75
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:81
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:87
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:90
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:109
 msgid "Optional[python:str]"
 msgstr ""
 
@@ -19664,6 +20643,8 @@ msgstr ""
 #: ansys.mapdl.core.launcher.launch_mapdl:33
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl_process:38
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:16
 msgid "**jobname** : :class:`python:str`"
 msgstr ""
 
@@ -19705,6 +20686,12 @@ msgstr ""
 #: ansys.mapdl.core.launcher.launch_mapdl_process:77
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl_process:171
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:30
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:36
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:116
 msgid "Optional[python:int]"
 msgstr ""
 
@@ -19795,6 +20782,8 @@ msgstr ""
 #: ansys.mapdl.core.launcher.launch_mapdl:61
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl_process:62
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:31
 msgid "**version** : :obj:`Optional`\\[:class:`python:int`]"
 msgstr ""
 
@@ -19835,6 +20824,8 @@ msgstr ""
 #: ansys.mapdl.core.launcher.launch_mapdl:72
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl_process:74
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:37
 msgid "**ram** : :obj:`Optional`\\[:class:`python:int`]"
 msgstr ""
 
@@ -19864,6 +20855,8 @@ msgstr ""
 #: ansys.mapdl.core.launcher.launch_mapdl:81
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl_process:82
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:43
 msgid "**cleanup_on_exit** : :ref:`bool <python:bltin-boolean-values>`"
 msgstr ""
 
@@ -19878,6 +20871,8 @@ msgstr ""
 #: ansys.mapdl.core.launcher.launch_mapdl:85
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl_process:85
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:46
 msgid "**clear_on_connect** : :ref:`bool <python:bltin-boolean-values>`"
 msgstr ""
 
@@ -19892,6 +20887,8 @@ msgstr ""
 #: ansys.mapdl.core.launcher.launch_mapdl:89
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl_process:88
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:49
 msgid "**override** : :ref:`bool <python:bltin-boolean-values>`"
 msgstr ""
 
@@ -19906,6 +20903,8 @@ msgstr ""
 #: ansys.mapdl.core.launcher.launch_mapdl:94
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl_process:92
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:52
 msgid ""
 "**remove_temp_dir_on_exit** : :ref:`bool <python:bltin-boolean-values>`"
 msgstr ""
@@ -19921,6 +20920,8 @@ msgstr ""
 #: ansys.mapdl.core.launcher.launch_mapdl:98
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl_process:96
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:55
 msgid "**set_no_abort** : :ref:`bool <python:bltin-boolean-values>`"
 msgstr ""
 
@@ -19935,6 +20936,8 @@ msgstr ""
 #: ansys.mapdl.core.launcher.launch_mapdl:102
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl_process:100
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:58
 msgid "**additional_switches** : :class:`python:str`"
 msgstr ""
 
@@ -19985,6 +20988,8 @@ msgstr ""
 #: ansys.mapdl.core.launcher.launch_mapdl:116
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl_process:105
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:61
 msgid "**license_type** : :obj:`Optional`\\[:class:`python:str`]"
 msgstr ""
 
@@ -20001,6 +21006,8 @@ msgstr ""
 #: ansys.mapdl.core.launcher.launch_mapdl:122
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl_process:109
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:64
 msgid "**launch_on_hpc** : :ref:`bool <python:bltin-boolean-values>`"
 msgstr ""
 
@@ -20016,6 +21023,8 @@ msgstr ""
 #: ansys.mapdl.core.launcher.launch_mapdl:127
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl_process:113
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:67
 msgid "**running_on_hpc** : :ref:`bool <python:bltin-boolean-values>`"
 msgstr ""
 
@@ -20031,6 +21040,8 @@ msgstr ""
 #: ansys.mapdl.core.launcher.launch_mapdl:133
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl_process:118
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:70
 msgid ""
 "**scheduler_options** : :obj:`Optional`\\[:obj:`Dict`\\[:class:`python:str`,"
 " :obj:`Any`]]"
@@ -20040,6 +21051,8 @@ msgstr ""
 #: ansys.mapdl.core.launcher.launch_mapdl:132
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl_process:117
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:69
 msgid "Optional[Dict[python:str, Any]]"
 msgstr ""
 
@@ -20054,6 +21067,8 @@ msgstr ""
 #: ansys.mapdl.core.launcher.launch_mapdl:137
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl_process:121
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:73
 msgid "**loglevel** : :class:`python:str`"
 msgstr ""
 
@@ -20091,6 +21106,8 @@ msgstr ""
 #: ansys.mapdl.core.launcher.launch_mapdl:147
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl_process:125
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:76
 msgid "**log_apdl** : :obj:`Optional`\\[:class:`python:str`]"
 msgstr ""
 
@@ -20106,6 +21123,8 @@ msgstr ""
 #: ansys.mapdl.core.launcher.launch_mapdl:153
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl_process:129
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:79
 msgid "**print_com** : :ref:`bool <python:bltin-boolean-values>`"
 msgstr ""
 
@@ -20120,6 +21139,8 @@ msgstr ""
 #: ansys.mapdl.core.launcher.launch_mapdl:157
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl_process:132
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:82
 msgid "**mapdl_output** : :obj:`Optional`\\[:class:`python:str`]"
 msgstr ""
 
@@ -20148,6 +21169,8 @@ msgstr ""
 #: ansys.mapdl.core.launcher.launch_mapdl:167
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl_process:140
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:88
 msgid "**uds_dir** : :obj:`Optional`\\[:class:`python:str`]"
 msgstr ""
 
@@ -20162,6 +21185,8 @@ msgstr ""
 #: ansys.mapdl.core.launcher.launch_mapdl:171
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl_process:144
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:91
 msgid "**certs_dir** : :obj:`Optional`\\[:class:`python:str`]"
 msgstr ""
 
@@ -20261,6 +21286,8 @@ msgstr ""
 #: ansys.mapdl.core.launcher.launch_mapdl:197
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl_process:169
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:110
 msgid "**graphics_backend** : :obj:`Optional`\\[:class:`python:str`]"
 msgstr ""
 
@@ -20651,7 +21678,7 @@ msgstr ""
 msgid "ansys.mapdl.core.launcher.launch\\_mapdl\\_process"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/launcher.rst:18:<autosummary>:1
+#: ../../pymapdl/doc/source/api/launcher.rst:19:<autosummary>:1
 #: ../../pymapdl/doc/source/api/mapdl.rst:142:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl_process:2
@@ -20991,6 +22018,1275 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/launcher/__init__.pydocstring of
 #: ansys.mapdl.core.launcher.launch_mapdl_process:241
 msgid "Launch on HPC and get connection info:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.EnvironmentConfig.rst:2
+msgid "ansys.mapdl.core.launcher.models.EnvironmentConfig"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/launcher.rst:51:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.EnvironmentConfig:2
+msgid "Environment variable configuration for MAPDL process."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.EnvironmentConfig:4
+msgid ""
+"Specifies which environment variables to use when launching MAPDL process "
+"and whether to replace or extend the current environment."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.EnvironmentConfig:9
+msgid "**variables** : :obj:`Dict`\\[:class:`python:str`, :class:`python:str`]"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.EnvironmentConfig:8
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:93
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:97
+msgid "Dict[python:str, python:str]"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.EnvironmentConfig:10
+msgid "Environment variables as key-value pairs"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.EnvironmentConfig:12
+msgid ""
+"**replace_all** : :ref:`bool <python:bltin-boolean-values>`, default: "
+":data:`python:False`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.EnvironmentConfig:13
+msgid ""
+"Whether to replace all system environment variables (True) or extend system "
+"environment with these variables (False)"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.EnvironmentConfig:28
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.HPCJobInfo:33
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.PortStatus:33
+msgid "Frozen dataclass for immutability"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.EnvironmentConfig:29
+msgid "Set replace_all=False for extending system environment (safer)"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.EnvironmentConfig:30
+msgid "Set replace_all=True when user explicitly provides env_vars"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.EnvironmentConfig:31
+msgid "MAPDL-specific variables like ANS_CMD are typically needed"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.EnvironmentConfig:36
+msgid "Extend system environment:"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.EnvironmentConfig:44
+msgid "Replace entire environment:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.EnvironmentConfig.rst:21:<autosummary>:1
+msgid ""
+":py:obj:`__init__ "
+"<ansys.mapdl.core.launcher.models.EnvironmentConfig.__init__>`\\ "
+"\\(variables\\[\\, replace\\_all\\]\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.EnvironmentConfig.rst:27:<autosummary>:1
+msgid ""
+":py:obj:`replace_all "
+"<ansys.mapdl.core.launcher.models.EnvironmentConfig.replace_all>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.EnvironmentConfig.rst:27:<autosummary>:1
+msgid ""
+":py:obj:`variables "
+"<ansys.mapdl.core.launcher.models.EnvironmentConfig.variables>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.HPCJobInfo.rst:2
+msgid "ansys.mapdl.core.launcher.models.HPCJobInfo"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/launcher.rst:51:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.HPCJobInfo:2
+msgid "Information about an HPC job running MAPDL."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.HPCJobInfo:4
+msgid ""
+"Represents the current state and location of a MAPDL instance running on an "
+"HPC cluster through SLURM scheduler."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.HPCJobInfo:10
+msgid "Unique job ID assigned by SLURM scheduler"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.HPCJobInfo:12
+msgid "**state** : :class:`python:str`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.HPCJobInfo:13
+msgid "Current job state (e.g., 'PENDING', 'RUNNING', 'COMPLETED')"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.HPCJobInfo:15
+msgid "**hostname** : :class:`python:str`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.HPCJobInfo:16
+msgid "Batch host name where job is allocated"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.HPCJobInfo:18
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:25
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ProcessInfo:15
+msgid "**ip** : :class:`python:str`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.HPCJobInfo:19
+msgid "IP address of batch host for connection"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.HPCJobInfo:34
+msgid "Job state comes from SLURM scontrol output"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.HPCJobInfo:35
+msgid "Hostname is resolved to IP via socket.gethostbyname()"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.HPCJobInfo:40
+msgid "Create HPC job info:"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.HPCJobInfo:50
+msgid "Use for connection:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.HPCJobInfo.rst:21:<autosummary>:1
+msgid ""
+":py:obj:`__init__ <ansys.mapdl.core.launcher.models.HPCJobInfo.__init__>`\\ "
+"\\(jobid\\, state\\, hostname\\, ip\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.HPCJobInfo.rst:29:<autosummary>:1
+msgid ":py:obj:`jobid <ansys.mapdl.core.launcher.models.HPCJobInfo.jobid>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.HPCJobInfo.rst:29:<autosummary>:1
+msgid ":py:obj:`state <ansys.mapdl.core.launcher.models.HPCJobInfo.state>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.HPCJobInfo.rst:29:<autosummary>:1
+msgid ""
+":py:obj:`hostname <ansys.mapdl.core.launcher.models.HPCJobInfo.hostname>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.HPCJobInfo.rst:29:<autosummary>:1
+msgid ":py:obj:`ip <ansys.mapdl.core.launcher.models.HPCJobInfo.ip>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:2
+msgid "ansys.mapdl.core.launcher.models.LaunchConfig"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/launcher.rst:51:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:2
+msgid "Complete configuration for launching MAPDL instance."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:4
+msgid ""
+"All fields are resolved from arguments, environment variables, and defaults."
+" This immutable snapshot captures the complete launch intent and is used to "
+"drive all downstream launch and connection operations."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:10
+msgid "**exec_file** : :class:`python:str`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:11
+msgid "Full path to MAPDL executable"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:13
+msgid "**run_location** : :class:`python:str`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:14
+msgid "Working directory for MAPDL process"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:17
+msgid "MAPDL job name (used for result files, etc.)"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:19
+msgid "**nproc** : :class:`python:int`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:20
+msgid "Number of parallel processors to allocate"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:22
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.PortStatus:9
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ProcessInfo:12
+msgid "**port** : :class:`python:int`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:23
+msgid "gRPC server port number"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:26
+msgid "IP address to bind/connect to (127.0.0.1 for local, IP for remote)"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:28
+msgid "**mode** : :obj:`LaunchMode`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:27
+msgid "LaunchMode"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:29
+msgid "Launch communication mode (GRPC or CONSOLE)"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:32
+msgid "MAPDL version number (e.g., 222 for 2022R2)"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:34
+msgid "**start_instance** : :ref:`bool <python:bltin-boolean-values>`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:35
+msgid "Whether to start new instance (True) or connect to existing (False)"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:38
+msgid "RAM allocation in MB"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:40
+msgid "**timeout** : :class:`python:int`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:41
+msgid "Timeout for launch operations in seconds"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:44
+msgid "Whether to clean up MAPDL files on exit"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:47
+msgid "Whether to clear MAPDL database on connection"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:50
+msgid "Whether to override existing instance on same port"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:53
+msgid "Whether to remove temporary directory on exit"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:56
+msgid "Whether to set MAPDL NO_ABORT flag"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:59
+msgid "Additional MAPDL command line switches"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:62
+msgid "License type to use (e.g., 'research', 'academic')"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:65
+msgid "Whether to launch on HPC cluster via SLURM"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:68
+msgid "Whether currently running within HPC environment"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:71
+msgid "HPC scheduler options (e.g., nodes, cpus-per-task)"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:74
+msgid "Logging level (e.g., 'DEBUG', 'INFO', 'WARNING')"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:77
+msgid "Path to APDL command log file"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:80
+msgid "Whether to print APDL commands to console"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:83
+msgid "Path to redirect MAPDL stdout/stderr"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:85
+msgid "**transport_mode** : :obj:`Optional`\\[:obj:`TransportMode`]"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:84
+msgid "Optional[TransportMode]"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:86
+msgid "gRPC transport mechanism (INSECURE, UDS, WNUA, MTLS)"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:89
+msgid "Unix domain socket directory path"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:92
+msgid "Directory containing mTLS certificates"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:94
+msgid "**env_vars** : :obj:`Dict`\\[:class:`python:str`, :class:`python:str`]"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:95
+msgid ""
+"Environment variables that **replace** all system environment variables. Use"
+" with caution: MPI and license variables must be re-injected manually."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:98
+msgid ""
+"**add_env_vars** : :obj:`Dict`\\[:class:`python:str`, :class:`python:str`]"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:99
+msgid ""
+"Environment variables to **extend** the system environment. These are merged"
+" on top of ``os.environ``; existing system variables are preserved. Mutually"
+" exclusive with ``env_vars`` in practice — when ``env_vars`` is non-empty it"
+" takes priority."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:104
+msgid ""
+"**license_server_check** : :ref:`bool <python:bltin-boolean-values>`, "
+"default: :data:`python:False`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:105
+msgid "Whether to check license server availability"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:107
+msgid ""
+"**force_intel** : :ref:`bool <python:bltin-boolean-values>`, default: "
+":data:`python:False`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:108
+msgid "Force use of Intel MPI"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:111
+msgid "Graphics backend to use"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:113
+msgid "**channel** : :obj:`Optional`\\[:obj:`grpc.Channel`]"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:112
+msgid "Optional[grpc.Channel]"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:114
+msgid ""
+"Pre-built gRPC channel to reuse for the connection. Mutually exclusive with "
+"``ip`` and ``port``; forces ``start_instance=False``."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:117
+msgid "**jobid** : :obj:`Optional`\\[:class:`python:int`]"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:118
+msgid "HPC job ID (set after a successful ``launch_on_hpc`` submission)."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:120
+msgid ""
+"**finish_job_on_exit** : :ref:`bool <python:bltin-boolean-values>`, default:"
+" :data:`python:True`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:121
+msgid "Cancel the HPC job when the MAPDL object is closed."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:135
+msgid "This is an immutable dataclass for thread-safety"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:136
+msgid "All paths should be absolute for clarity"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:137
+msgid "Validation should be performed before creating MAPDL instance"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:138
+msgid "Different fields apply depending on mode and launch location"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:143
+msgid "Create basic local launch configuration:"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchConfig:159
+msgid "Create HPC launch configuration:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:21:<autosummary>:1
+msgid ""
+":py:obj:`__init__ "
+"<ansys.mapdl.core.launcher.models.LaunchConfig.__init__>`\\ "
+"\\(exec\\_file\\, run\\_location\\, jobname\\, ...\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`channel <ansys.mapdl.core.launcher.models.LaunchConfig.channel>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`finish_job_on_exit "
+"<ansys.mapdl.core.launcher.models.LaunchConfig.finish_job_on_exit>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`force_intel "
+"<ansys.mapdl.core.launcher.models.LaunchConfig.force_intel>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`graphics_backend "
+"<ansys.mapdl.core.launcher.models.LaunchConfig.graphics_backend>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ":py:obj:`jobid <ansys.mapdl.core.launcher.models.LaunchConfig.jobid>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`license_server_check "
+"<ansys.mapdl.core.launcher.models.LaunchConfig.license_server_check>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`exec_file "
+"<ansys.mapdl.core.launcher.models.LaunchConfig.exec_file>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`run_location "
+"<ansys.mapdl.core.launcher.models.LaunchConfig.run_location>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`jobname <ansys.mapdl.core.launcher.models.LaunchConfig.jobname>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ":py:obj:`nproc <ansys.mapdl.core.launcher.models.LaunchConfig.nproc>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ":py:obj:`port <ansys.mapdl.core.launcher.models.LaunchConfig.port>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ":py:obj:`ip <ansys.mapdl.core.launcher.models.LaunchConfig.ip>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ":py:obj:`mode <ansys.mapdl.core.launcher.models.LaunchConfig.mode>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`version <ansys.mapdl.core.launcher.models.LaunchConfig.version>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`start_instance "
+"<ansys.mapdl.core.launcher.models.LaunchConfig.start_instance>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ":py:obj:`ram <ansys.mapdl.core.launcher.models.LaunchConfig.ram>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`timeout <ansys.mapdl.core.launcher.models.LaunchConfig.timeout>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`cleanup_on_exit "
+"<ansys.mapdl.core.launcher.models.LaunchConfig.cleanup_on_exit>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`clear_on_connect "
+"<ansys.mapdl.core.launcher.models.LaunchConfig.clear_on_connect>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`override "
+"<ansys.mapdl.core.launcher.models.LaunchConfig.override>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`remove_temp_dir_on_exit "
+"<ansys.mapdl.core.launcher.models.LaunchConfig.remove_temp_dir_on_exit>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`set_no_abort "
+"<ansys.mapdl.core.launcher.models.LaunchConfig.set_no_abort>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`additional_switches "
+"<ansys.mapdl.core.launcher.models.LaunchConfig.additional_switches>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`license_type "
+"<ansys.mapdl.core.launcher.models.LaunchConfig.license_type>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`launch_on_hpc "
+"<ansys.mapdl.core.launcher.models.LaunchConfig.launch_on_hpc>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`running_on_hpc "
+"<ansys.mapdl.core.launcher.models.LaunchConfig.running_on_hpc>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`scheduler_options "
+"<ansys.mapdl.core.launcher.models.LaunchConfig.scheduler_options>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`loglevel "
+"<ansys.mapdl.core.launcher.models.LaunchConfig.loglevel>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`log_apdl "
+"<ansys.mapdl.core.launcher.models.LaunchConfig.log_apdl>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`print_com "
+"<ansys.mapdl.core.launcher.models.LaunchConfig.print_com>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`mapdl_output "
+"<ansys.mapdl.core.launcher.models.LaunchConfig.mapdl_output>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`transport_mode "
+"<ansys.mapdl.core.launcher.models.LaunchConfig.transport_mode>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`uds_dir <ansys.mapdl.core.launcher.models.LaunchConfig.uds_dir>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`certs_dir "
+"<ansys.mapdl.core.launcher.models.LaunchConfig.certs_dir>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`env_vars "
+"<ansys.mapdl.core.launcher.models.LaunchConfig.env_vars>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchConfig.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`add_env_vars "
+"<ansys.mapdl.core.launcher.models.LaunchConfig.add_env_vars>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchMode.rst:2
+msgid "ansys.mapdl.core.launcher.models.LaunchMode"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/launcher.rst:51:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchMode:2
+msgid "MAPDL launch communication modes."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchMode:4
+msgid "Enumeration of supported MAPDL launch and communication modes."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchMode:9
+msgid "**GRPC** : :class:`python:str`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchMode:10
+msgid ""
+"Use gRPC protocol for communication (recommended, requires MAPDL 2021R1+)"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchMode:12
+msgid "**CONSOLE** : :class:`python:str`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.LaunchMode:13
+msgid "Use legacy console interface (older MAPDL versions, Linux only)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchMode.rst:21:<autosummary>:1
+msgid ":py:obj:`GRPC <ansys.mapdl.core.launcher.models.LaunchMode.GRPC>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.LaunchMode.rst:21:<autosummary>:1
+msgid ""
+":py:obj:`CONSOLE <ansys.mapdl.core.launcher.models.LaunchMode.CONSOLE>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.PortStatus.rst:2
+msgid "ansys.mapdl.core.launcher.models.PortStatus"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/launcher.rst:51:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.PortStatus:2
+msgid "Status of a network port for MAPDL connection."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.PortStatus:4
+msgid ""
+"Represents the current state of a specific port including whether it's "
+"available for binding and if it's used by a MAPDL process."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.PortStatus:10
+msgid "Port number being checked"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.PortStatus:12
+msgid "**available** : :ref:`bool <python:bltin-boolean-values>`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.PortStatus:13
+msgid "Whether port is available for binding (not in use)"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.PortStatus:15
+msgid "**used_by_mapdl** : :ref:`bool <python:bltin-boolean-values>`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.PortStatus:16
+msgid "Whether port is currently used by a MAPDL process"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.PortStatus:18
+msgid ""
+"**process** : :obj:`Optional`\\[:obj:`Any`], default: :data:`python:None`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.PortStatus:17
+msgid "Optional[Any], default: python:None"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.PortStatus:19
+msgid "psutil.Process object if port is in use, None otherwise"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.PortStatus:34
+msgid "available=False and used_by_mapdl=True means MAPDL owns port"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.PortStatus:35
+msgid "available=False and used_by_mapdl=False means other process owns port"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.PortStatus:36
+msgid "Process information may have limited detail due to permissions"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.PortStatus:41
+msgid "Check port status:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.PortStatus.rst:21:<autosummary>:1
+msgid ""
+":py:obj:`__init__ <ansys.mapdl.core.launcher.models.PortStatus.__init__>`\\ "
+"\\(port\\, available\\, used\\_by\\_mapdl\\[\\, ...\\]\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.PortStatus.rst:29:<autosummary>:1
+msgid ""
+":py:obj:`process <ansys.mapdl.core.launcher.models.PortStatus.process>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.PortStatus.rst:29:<autosummary>:1
+msgid ":py:obj:`port <ansys.mapdl.core.launcher.models.PortStatus.port>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.PortStatus.rst:29:<autosummary>:1
+msgid ""
+":py:obj:`available "
+"<ansys.mapdl.core.launcher.models.PortStatus.available>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.PortStatus.rst:29:<autosummary>:1
+msgid ""
+":py:obj:`used_by_mapdl "
+"<ansys.mapdl.core.launcher.models.PortStatus.used_by_mapdl>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.ProcessInfo.rst:2
+msgid "ansys.mapdl.core.launcher.models.ProcessInfo"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/launcher.rst:51:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ProcessInfo:2
+msgid "Information about a launched or running MAPDL process."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ProcessInfo:4
+msgid ""
+"Represents connection details and process handle for an active MAPDL "
+"instance, whether launched locally or on a remote/HPC system."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ProcessInfo:9
+msgid "**process** : :obj:`Optional`\\[:obj:`subprocess.Popen`\\[:obj:`bytes`]]"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ProcessInfo:8
+msgid "Optional[subprocess.Popen[bytes]]"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ProcessInfo:10
+msgid "Subprocess handle for local process, None for remote/HPC instances"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ProcessInfo:13
+msgid "gRPC server port number that MAPDL is listening on"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ProcessInfo:16
+msgid "IP address where MAPDL is bound/accessible"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ProcessInfo:18
+msgid ""
+"**pid** : :obj:`Optional`\\[:class:`python:int`], default: "
+":data:`python:None`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ProcessInfo:17
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ProcessInfo:20
+msgid "Optional[python:int], default: python:None"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ProcessInfo:19
+msgid "Operating system process ID (None for remote/HPC)"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ProcessInfo:21
+msgid ""
+"**jobid** : :obj:`Optional`\\[:class:`python:int`], default: "
+":data:`python:None`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ProcessInfo:22
+msgid "HPC job ID from scheduler (None for local instances)"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ProcessInfo:24
+msgid ""
+"**hostname** : :obj:`Optional`\\[:class:`python:str`], default: "
+":data:`python:None`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ProcessInfo:23
+msgid "Optional[python:str], default: python:None"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ProcessInfo:25
+msgid "Hostname where process is running (useful for HPC)"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ProcessInfo:39
+msgid "For remote instances, process is None"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ProcessInfo:40
+msgid "For HPC instances, pid is None but jobid is set"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ProcessInfo:41
+msgid "Use pid/process for local instance control (signals, termination)"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ProcessInfo:42
+msgid "Use jobid with scheduler commands for HPC instances"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ProcessInfo:47
+msgid "Create ProcessInfo for local instance:"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ProcessInfo:59
+msgid "Create ProcessInfo for HPC instance:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.ProcessInfo.rst:21:<autosummary>:1
+msgid ""
+":py:obj:`__init__ <ansys.mapdl.core.launcher.models.ProcessInfo.__init__>`\\"
+" \\(process\\, port\\, ip\\[\\, pid\\, jobid\\, ...\\]\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.ProcessInfo.rst:31:<autosummary>:1
+msgid ""
+":py:obj:`hostname <ansys.mapdl.core.launcher.models.ProcessInfo.hostname>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.ProcessInfo.rst:31:<autosummary>:1
+msgid ":py:obj:`jobid <ansys.mapdl.core.launcher.models.ProcessInfo.jobid>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.ProcessInfo.rst:31:<autosummary>:1
+msgid ":py:obj:`pid <ansys.mapdl.core.launcher.models.ProcessInfo.pid>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.ProcessInfo.rst:31:<autosummary>:1
+msgid ""
+":py:obj:`process <ansys.mapdl.core.launcher.models.ProcessInfo.process>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.ProcessInfo.rst:31:<autosummary>:1
+msgid ":py:obj:`port <ansys.mapdl.core.launcher.models.ProcessInfo.port>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.ProcessInfo.rst:31:<autosummary>:1
+msgid ":py:obj:`ip <ansys.mapdl.core.launcher.models.ProcessInfo.ip>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.TransportMode.rst:2
+msgid "ansys.mapdl.core.launcher.models.TransportMode"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/launcher.rst:51:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.TransportMode:2
+msgid "GRPC transport communication modes."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.TransportMode:4
+msgid "Enumeration of transport mechanisms for gRPC communication with MAPDL."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.TransportMode:9
+msgid "**INSECURE** : :class:`python:str`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.TransportMode:10
+msgid "Unencrypted TCP connection (for testing only)"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.TransportMode:12
+msgid "**UDS** : :class:`python:str`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.TransportMode:13
+msgid "Unix domain socket (Linux only, higher performance on local systems)"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.TransportMode:15
+msgid "**WNUA** : :class:`python:str`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.TransportMode:16
+msgid "Windows named pipe or Unix socket abstraction"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.TransportMode:18
+msgid "**MTLS** : :class:`python:str`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.TransportMode:19
+msgid "Encrypted connection using mutual TLS certificates"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.TransportMode.rst:23:<autosummary>:1
+msgid ""
+":py:obj:`INSECURE "
+"<ansys.mapdl.core.launcher.models.TransportMode.INSECURE>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.TransportMode.rst:23:<autosummary>:1
+msgid ":py:obj:`UDS <ansys.mapdl.core.launcher.models.TransportMode.UDS>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.TransportMode.rst:23:<autosummary>:1
+msgid ":py:obj:`WNUA <ansys.mapdl.core.launcher.models.TransportMode.WNUA>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.TransportMode.rst:23:<autosummary>:1
+msgid ":py:obj:`MTLS <ansys.mapdl.core.launcher.models.TransportMode.MTLS>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.ValidationResult.rst:2
+msgid "ansys.mapdl.core.launcher.models.ValidationResult"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/launcher.rst:51:<autosummary>:1
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ValidationResult:2
+msgid "Result of configuration validation with errors and warnings."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ValidationResult:4
+msgid ""
+"Collected during validation, provides comprehensive feedback on "
+"configuration validity without raising exceptions."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ValidationResult:9
+msgid "**valid** : :ref:`bool <python:bltin-boolean-values>`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ValidationResult:10
+msgid "Whether configuration passed all validation checks"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ValidationResult:12
+msgid ""
+"**errors** : :obj:`List`\\[:class:`python:str`], default_factory: "
+":class:`python:list`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ValidationResult:11
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ValidationResult:14
+msgid "List[python:str], default_factory: python:list"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ValidationResult:13
+msgid "Fatal errors that prevent launch"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ValidationResult:15
+msgid ""
+"**warnings** : :obj:`List`\\[:class:`python:str`], default_factory: "
+":class:`python:list`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ValidationResult:16
+msgid "Non-fatal warnings that allow launch to proceed"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ValidationResult:24
+msgid "**add_error(message**"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ValidationResult:24
+msgid "(str) -> None) Add error message and mark configuration as invalid"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ValidationResult:25
+msgid "**add_warning(message**"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ValidationResult:25
+msgid "(str) -> None) Add warning message (doesn't affect valid flag)"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ValidationResult:38
+msgid "All validation checks are accumulated in a single result"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ValidationResult:39
+msgid "Errors prevent launch, warnings allow launch"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ValidationResult:40
+msgid "Multiple errors/warnings can be present"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ValidationResult:45
+msgid "Create and populate validation result:"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/launcher/models.pydocstring of
+#: ansys.mapdl.core.launcher.models.ValidationResult:58
+msgid "Check validation results:"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.ValidationResult.rst:23:<autosummary>:1
+msgid ""
+":py:obj:`__init__ "
+"<ansys.mapdl.core.launcher.models.ValidationResult.__init__>`\\ "
+"\\(valid\\[\\, errors\\, warnings\\]\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.ValidationResult.rst:23:<autosummary>:1
+msgid ""
+":py:obj:`add_error "
+"<ansys.mapdl.core.launcher.models.ValidationResult.add_error>`\\ "
+"\\(message\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.ValidationResult.rst:23:<autosummary>:1
+msgid "Add an error message and mark configuration as invalid."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.ValidationResult.rst:23:<autosummary>:1
+msgid ""
+":py:obj:`add_warning "
+"<ansys.mapdl.core.launcher.models.ValidationResult.add_warning>`\\ "
+"\\(message\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.ValidationResult.rst:23:<autosummary>:1
+msgid "Add a warning message without affecting valid flag."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.ValidationResult.rst:30:<autosummary>:1
+msgid ""
+":py:obj:`valid <ansys.mapdl.core.launcher.models.ValidationResult.valid>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.ValidationResult.rst:30:<autosummary>:1
+msgid ""
+":py:obj:`errors "
+"<ansys.mapdl.core.launcher.models.ValidationResult.errors>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.models.ValidationResult.rst:30:<autosummary>:1
+msgid ""
+":py:obj:`warnings "
+"<ansys.mapdl.core.launcher.models.ValidationResult.warnings>`\\"
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.launcher.stop.rst:2
@@ -25577,7 +27873,7 @@ msgstr ""
 msgid "ansys.tools.common.path.find\\_mapdl"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/launcher.rst:46:<autosummary>:1
+#: ../../pymapdl/doc/source/api/launcher.rst:64:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/ansys/tools/common/path/path.pydocstring
 #: of ansys.tools.common.path.path.find_mapdl:2
 msgid "Search for the Ansys MAPDL path within the standard install location."
@@ -25655,7 +27951,7 @@ msgstr ""
 msgid "ansys.tools.common.path.get\\_available\\_ansys\\_installations"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/launcher.rst:46:<autosummary>:1
+#: ../../pymapdl/doc/source/api/launcher.rst:64:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/ansys/tools/common/path/path.pydocstring
 #: of ansys.tools.common.path.path.get_available_ansys_installations:2
 msgid ""
@@ -26035,7 +28331,54 @@ msgstr ""
 ":py:obj:`component.ComponentManager "
 "<ansys.mapdl.core.component.ComponentManager>`\\ \\(mapdl\\)"
 
-#: ../../pymapdl/doc/source/api/components.rst:13
+#: ../../pymapdl/doc/source/api/components.rst:14
+msgid "``ComponentManager`` members"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/components.rst:28:<autosummary>:1
+msgid ""
+":py:obj:`ComponentManager.default_entity "
+"<ansys.mapdl.core.component.ComponentManager.default_entity>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/components.rst:28:<autosummary>:1
+msgid ""
+":py:obj:`ComponentManager.default_entity_warning "
+"<ansys.mapdl.core.component.ComponentManager.default_entity_warning>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/components.rst:28:<autosummary>:1
+msgid ""
+":py:obj:`ComponentManager.logger "
+"<ansys.mapdl.core.component.ComponentManager.logger>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/components.rst:28:<autosummary>:1
+msgid ""
+":py:obj:`ComponentManager.names "
+"<ansys.mapdl.core.component.ComponentManager.names>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/components.rst:28:<autosummary>:1
+msgid ""
+":py:obj:`ComponentManager.types "
+"<ansys.mapdl.core.component.ComponentManager.types>`\\"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/components.rst:28:<autosummary>:1
+msgid ""
+":py:obj:`ComponentManager.items "
+"<ansys.mapdl.core.component.ComponentManager.items>`\\ \\(\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/components.rst:28:<autosummary>:1
+msgid ""
+":py:obj:`ComponentManager.select "
+"<ansys.mapdl.core.component.ComponentManager.select>`\\ \\(names\\[\\, "
+"mute\\]\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/components.rst:29
 msgid ""
 "The :class:`~ansys.mapdl.core.component.Component` class represents a single"
 " named component and subclasses the built-in ``tuple`` type to store the "
@@ -26189,6 +28532,14 @@ msgstr ""
 ":py:obj:`convert_script <ansys.mapdl.core.convert.convert_script>`\\ "
 "\\(filename\\_in\\[\\, filename\\_out\\, ...\\]\\)"
 
+#: ../../pymapdl/doc/source/api/helper.rst:18
+msgid "MAPDL availability"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/helper.rst:26:<autosummary>:1
+msgid ":py:obj:`check_has_mapdl <ansys.mapdl.core.check_has_mapdl>`\\ \\(\\)"
+msgstr ""
+
 #: ../../pymapdl/doc/source/api/index.rst:17
 msgid "Pyansys Math"
 msgstr ""
@@ -26215,137 +28566,155 @@ msgstr ""
 msgid "``Information`` module"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:7
+#: ../../pymapdl/doc/source/api/information.rst:14:<autosummary>:1
+msgid ""
+":py:obj:`Information <ansys.mapdl.core.information.Information>`\\ "
+"\\(mapdl\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/information.rst:14:<autosummary>:1
+msgid ""
+":py:obj:`UnitsDict <ansys.mapdl.core.information.UnitsDict>`\\ "
+"\\(units\\_string\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/information.rst:14:<autosummary>:1
+msgid ""
+":py:obj:`get_mapdl_info <ansys.mapdl.core.information.get_mapdl_info>`\\ "
+"\\(mapdl\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/information.rst:16
 msgid "``Information`` class attributes"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
 msgid ""
 ":py:obj:`Information.aux_capabilities "
 "<ansys.mapdl.core.information.Information.aux_capabilities>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
 msgid ""
 ":py:obj:`Information.boundary_condition_information "
 "<ansys.mapdl.core.information.Information.boundary_condition_information>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
 msgid ""
 ":py:obj:`Information.config_values "
 "<ansys.mapdl.core.information.Information.config_values>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
 msgid ""
 ":py:obj:`Information.database_status "
 "<ansys.mapdl.core.information.Information.database_status>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
 msgid ""
 ":py:obj:`Information.global_status "
 "<ansys.mapdl.core.information.Information.global_status>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
 msgid ""
 ":py:obj:`Information.job_information "
 "<ansys.mapdl.core.information.Information.job_information>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
 msgid ""
 ":py:obj:`Information.load_step_options "
 "<ansys.mapdl.core.information.Information.load_step_options>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
 msgid ""
 ":py:obj:`Information.mapdl_version "
 "<ansys.mapdl.core.information.Information.mapdl_version>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
 msgid ""
 ":py:obj:`Information.model_information "
 "<ansys.mapdl.core.information.Information.model_information>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
 msgid ""
 ":py:obj:`Information.post_capabilities "
 "<ansys.mapdl.core.information.Information.post_capabilities>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
 msgid ""
 ":py:obj:`Information.preprocessing_capabilities "
 "<ansys.mapdl.core.information.Information.preprocessing_capabilities>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
 msgid ""
 ":py:obj:`Information.product "
 "<ansys.mapdl.core.information.Information.product>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
 msgid ""
 ":py:obj:`Information.products "
 "<ansys.mapdl.core.information.Information.products>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
 msgid ""
 ":py:obj:`Information.pymapdl_version "
 "<ansys.mapdl.core.information.Information.pymapdl_version>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
 msgid ""
 ":py:obj:`Information.routine_information "
 "<ansys.mapdl.core.information.Information.routine_information>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
 msgid ""
 ":py:obj:`Information.scratch_memory_status "
 "<ansys.mapdl.core.information.Information.scratch_memory_status>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
 msgid ""
 ":py:obj:`Information.solution_options "
 "<ansys.mapdl.core.information.Information.solution_options>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
 msgid ""
 ":py:obj:`Information.solution_options_configuration "
 "<ansys.mapdl.core.information.Information.solution_options_configuration>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
 msgid ""
 ":py:obj:`Information.stitles "
 "<ansys.mapdl.core.information.Information.stitles>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
 msgid ""
 ":py:obj:`Information.title "
 "<ansys.mapdl.core.information.Information.title>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
 msgid ""
 ":py:obj:`Information.titles "
 "<ansys.mapdl.core.information.Information.titles>`\\"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/information.rst:36:<autosummary>:1
+#: ../../pymapdl/doc/source/api/information.rst:43:<autosummary>:1
 msgid ""
 ":py:obj:`Information.units "
 "<ansys.mapdl.core.information.Information.units>`\\"
@@ -26811,10 +29180,11 @@ msgstr ""
 #: ../../pymapdl/doc/source/api/launcher.rst:5
 msgid ""
 "Various PyMAPDL specific launcher commands. Most of these commands are "
-"called from the library `ansys-tools-common.path <ansys_tools_common_>`_."
+"called from the library `ansys-tools-common.path "
+"<https://tools.docs.pyansys.com/version/stable/api/path.html>`_."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/launcher.rst:18:<autosummary>:1
+#: ../../pymapdl/doc/source/api/launcher.rst:19:<autosummary>:1
 msgid ""
 ":py:obj:`launch_mapdl <ansys.mapdl.core.launcher.launch_mapdl>`\\ "
 "\\(\\[exec\\_file\\, run\\_location\\, ...\\]\\)"
@@ -26822,14 +29192,14 @@ msgstr ""
 ":py:obj:`launch_mapdl <ansys.mapdl.core.launcher.launch_mapdl>`\\ "
 "\\(\\[exec\\_file\\, run\\_location\\, ...\\]\\)"
 
-#: ../../pymapdl/doc/source/api/launcher.rst:18:<autosummary>:1
+#: ../../pymapdl/doc/source/api/launcher.rst:19:<autosummary>:1
 msgid ""
 ":py:obj:`launch_mapdl_process "
 "<ansys.mapdl.core.launcher.launch_mapdl_process>`\\ \\(\\[exec\\_file\\, "
 "...\\]\\)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/launcher.rst:18:<autosummary>:1
+#: ../../pymapdl/doc/source/api/launcher.rst:19:<autosummary>:1
 msgid ""
 ":py:obj:`close_all_local_instances "
 "<ansys.mapdl.core.launcher.close_all_local_instances>`\\ "
@@ -26839,11 +29209,11 @@ msgstr ""
 "<ansys.mapdl.core.launcher.close_all_local_instances>`\\ "
 "\\(\\[port\\_range\\]\\)"
 
-#: ../../pymapdl/doc/source/api/launcher.rst:18:<autosummary>:1
+#: ../../pymapdl/doc/source/api/launcher.rst:19:<autosummary>:1
 msgid ":py:obj:`stop <ansys.mapdl.core.launcher.stop>`\\ \\(\\[port\\, pid\\, all\\]\\)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/launcher.rst:21
+#: ../../pymapdl/doc/source/api/launcher.rst:22
 msgid ""
 ":func:`stop() <ansys.mapdl.core.launcher.stop>` is also exposed at the top "
 "level of the package as :func:`stop_mapdl() <ansys.mapdl.core.stop_mapdl>`, "
@@ -26857,32 +29227,86 @@ msgid ":py:obj:`stop_mapdl <ansys.mapdl.core.stop_mapdl>`\\ \\(\\[port\\, pid\\,
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/launcher.rst:35
+msgid "Launcher configuration models"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/launcher.rst:51:<autosummary>:1
+msgid ""
+":py:obj:`LaunchMode <ansys.mapdl.core.launcher.models.LaunchMode>`\\ "
+"\\(\\*values\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/launcher.rst:51:<autosummary>:1
+msgid ""
+":py:obj:`TransportMode <ansys.mapdl.core.launcher.models.TransportMode>`\\ "
+"\\(\\*values\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/launcher.rst:51:<autosummary>:1
+msgid ""
+":py:obj:`LaunchConfig <ansys.mapdl.core.launcher.models.LaunchConfig>`\\ "
+"\\(exec\\_file\\, run\\_location\\, ...\\[\\, ...\\]\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/launcher.rst:51:<autosummary>:1
+msgid ""
+":py:obj:`ProcessInfo <ansys.mapdl.core.launcher.models.ProcessInfo>`\\ "
+"\\(process\\, port\\, ip\\[\\, pid\\, jobid\\, ...\\]\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/launcher.rst:51:<autosummary>:1
+msgid ""
+":py:obj:`ValidationResult "
+"<ansys.mapdl.core.launcher.models.ValidationResult>`\\ \\(valid\\[\\, "
+"errors\\, warnings\\]\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/launcher.rst:51:<autosummary>:1
+msgid ""
+":py:obj:`PortStatus <ansys.mapdl.core.launcher.models.PortStatus>`\\ "
+"\\(port\\, available\\, used\\_by\\_mapdl\\[\\, ...\\]\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/launcher.rst:51:<autosummary>:1
+msgid ""
+":py:obj:`HPCJobInfo <ansys.mapdl.core.launcher.models.HPCJobInfo>`\\ "
+"\\(jobid\\, state\\, hostname\\, ip\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/launcher.rst:51:<autosummary>:1
+msgid ""
+":py:obj:`EnvironmentConfig "
+"<ansys.mapdl.core.launcher.models.EnvironmentConfig>`\\ \\(variables\\[\\, "
+"replace\\_all\\]\\)"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/launcher.rst:53
 msgid "``ansys-tools-common.path`` functions"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/launcher.rst:46:<autosummary>:1
+#: ../../pymapdl/doc/source/api/launcher.rst:64:<autosummary>:1
 msgid ""
 ":py:obj:`change_default_ansys_path "
 "<ansys.tools.common.path.change_default_ansys_path>`\\ \\(exe\\_loc\\)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/launcher.rst:46:<autosummary>:1
+#: ../../pymapdl/doc/source/api/launcher.rst:64:<autosummary>:1
 msgid "Deprecated."
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/launcher.rst:46:<autosummary>:1
+#: ../../pymapdl/doc/source/api/launcher.rst:64:<autosummary>:1
 msgid ""
 ":py:obj:`find_mapdl <ansys.tools.common.path.find_mapdl>`\\ \\(\\[version\\,"
 " supported\\_versions\\]\\)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/launcher.rst:46:<autosummary>:1
+#: ../../pymapdl/doc/source/api/launcher.rst:64:<autosummary>:1
 msgid ""
 ":py:obj:`save_ansys_path <ansys.tools.common.path.save_ansys_path>`\\ "
 "\\(\\[exe\\_loc\\, allow\\_prompt\\]\\)"
 msgstr ""
 
-#: ../../pymapdl/doc/source/api/launcher.rst:46:<autosummary>:1
+#: ../../pymapdl/doc/source/api/launcher.rst:64:<autosummary>:1
 msgid ""
 ":py:obj:`get_available_ansys_installations "
 "<ansys.tools.common.path.get_available_ansys_installations>`\\ "
@@ -27862,6 +30286,24 @@ msgid ""
 msgstr ""
 ":py:obj:`post.PostProcessing <ansys.mapdl.core.post.PostProcessing>`\\ "
 "\\(mapdl\\)"
+
+#: ../../pymapdl/doc/source/api/report.rst:4
+msgid "Report"
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/report.rst:6
+msgid ""
+"The :class:`ansys.mapdl.core.Report` class creates a report describing the "
+"PyMAPDL installation, optional dependencies, Ansys environment, and "
+"available graphics hardware. The class uses ``ansys-tools-report`` when it "
+"is installed and falls back to a plain-text report otherwise."
+msgstr ""
+
+#: ../../pymapdl/doc/source/api/report.rst:17:<autosummary>:1
+msgid ""
+":py:obj:`Report <ansys.mapdl.core.Report>`\\ \\(\\[additional\\, ncol\\, "
+"text\\_width\\, sort\\, ...\\]\\)"
+msgstr ""
 
 #: ../../pymapdl/doc/source/api/solution.rst:4
 msgid "Solution"
