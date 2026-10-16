@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.74.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-14 00:27+0000\n"
+"POT-Creation-Date: 2026-10-16 00:27+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -756,7 +756,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.Mapdl.chain_commands:34
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.Mapdl.directory:19
+#: ansys.mapdl.core.Mapdl.directory:30
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.Mapdl.ignore_errors:26
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
@@ -1497,6 +1497,8 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.Mapdl.busy:0
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
+#: ansys.mapdl.core.Mapdl.directory:0
+#: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.Mapdl.exiting:0
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.Mapdl.hostname:0
@@ -1718,6 +1720,8 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.Mapdl.chain_commands:28
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
+#: ansys.mapdl.core.Mapdl.directory:23
+#: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.Mapdl.non_interactive:24
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.channel_state:21
@@ -1824,29 +1828,38 @@ msgstr "ansys.mapdl.core.Mapdl.directory"
 #: ../../pymapdl/doc/source/api/mapdl.rst:88:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.Mapdl.directory:2
-msgid "Current MAPDL directory."
+msgid "Current MAPDL working directory."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.Mapdl.directory:20
-msgid "Directory on Linux"
+#: ansys.mapdl.core.Mapdl.directory:10
+msgid ":obj:`pathlib.PurePath`"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.Mapdl.directory:25
-msgid "Directory on Windows"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.Mapdl.directory:30
-msgid "Setting the directory"
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.Mapdl.directory:35
+#: ansys.mapdl.core.Mapdl.directory:11
 msgid ""
-"In case the directory does not exist or it is not accessible, ``cwd`` "
-"(:func:`MapdlBase.cwd`) will raise a warning."
+"MAPDL-aware path using the connected MAPDL instance's path syntax. Direct "
+"child paths provide an ``is_file()`` method that checks the MAPDL working "
+"directory, including for remote instances."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
+#: ansys.mapdl.core.Mapdl.directory:24
+msgid ""
+"The ``is_file()`` method supports files directly in the current MAPDL "
+"working directory. It raises ``ValueError`` for nested paths or paths "
+"outside that directory."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
+#: ansys.mapdl.core.Mapdl.directory:31
+msgid "Join a filename and check whether it is a MAPDL file."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
+#: ansys.mapdl.core.Mapdl.directory:37
+msgid "Change the MAPDL working directory."
 msgstr ""
 
 #: ../../pymapdl/doc/source/api/_autosummary/ansys.mapdl.core.Mapdl.do.rst:2
