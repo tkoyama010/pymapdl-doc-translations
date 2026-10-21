@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.74.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-19 19:26+0000\n"
+"POT-Creation-Date: 2026-10-21 00:27+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/192978/ja/)\n"
@@ -742,7 +742,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
 #: ansys.mapdl.core.mapdl_extended._MapdlExtended.dowhile:55
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:81
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:89
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
 #: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_etable:69
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
@@ -780,7 +780,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.exit:47
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:51
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:55
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.mute:24
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
@@ -916,9 +916,9 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_nsol:22
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:12
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:14
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:24
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:26
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
 #: ansys.mapdl.core.pool.MapdlPool:8
 #: ../../pymapdl/src/ansys/mapdl/core/report.pydocstring of
@@ -983,7 +983,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc:13
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:19
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:21
 #: ../../pymapdl/src/ansys/mapdl/core/pool.pydocstring of
 #: ansys.mapdl.core.pool.MapdlPool:82
 msgid "python:float, optional"
@@ -1714,7 +1714,7 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
 #: ansys.mapdl.core.mapdl_extended._MapdlCommandExtended.lplot:49
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:66
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:74
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
 #: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_etable:60
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
@@ -12158,12 +12158,22 @@ msgstr "ansys.mapdl.core.Mapdl.get\\_array"
 #: ../../pymapdl/doc/source/api/mapdl.rst:88:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
 #: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:2
-msgid ""
-"Uses the ``*VGET`` command to Return an array from ANSYS as a Python array."
+msgid "Use ``*VGET`` to retrieve an array from MAPDL."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:5
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:4
+msgid ""
+"On gRPC connections, the returned :class:`LazyArray "
+"<ansys.mapdl.core.lazy_array.LazyArray>` downloads its values when it is "
+"first used. The ``*VGET`` command itself runs immediately, so the result "
+"reflects the selection at call time even if the selection changes afterward."
+" Element-table (``ETAB``) values are retrieved eagerly instead. Other "
+"connection types return a :class:`numpy.ndarray` immediately."
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:12
 msgid ""
 "Selection behavior depends on the requested entity and item. For example, "
 "retrieving an ``ETAB`` item for ``ELEM`` returns values at sequential "
@@ -12173,7 +12183,7 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:11
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:18
 msgid ""
 "See `*VGET "
 "<https://ansyshelp.ansys.com/Views/Secured/corp/v252/en/ans_cmd/Hlp_C_VGET_st.html>`"
@@ -12181,45 +12191,45 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:17
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:24
 msgid "**entity**"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:18
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:25
 msgid ""
 "Entity keyword.  Valid keywords are NODE, ELEM, KP, LINE, AREA, VOLU, etc"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:21
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:28
 msgid "**entnum**"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:22
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:29
 msgid "The number of the entity."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:24
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:31
 msgid "**item1**"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:25
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:32
 msgid ""
 "The name of a particular item for the given entity.  Valid items are as "
 "shown in the Item1 columns of the tables below."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:29
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:36
 msgid "**it1num**"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:30
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:37
 msgid ""
 "The number (or label) for the specified Item1 (if any). Valid IT1NUM values "
 "are as shown in the IT1NUM columns of the tables below.  Some Item1 labels "
@@ -12227,12 +12237,12 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:35
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:42
 msgid "**item2, it2num**"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:36
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:43
 msgid ""
 "A second set of item labels and numbers to further qualify the item for "
 "which data is to be retrieved.  Most items do not require this level of "
@@ -12240,78 +12250,72 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:40
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:47
 msgid "**kloop**"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:41
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:48
 msgid "Field to be looped on:"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:43
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:50
 msgid "0 or 2 : Loop on the ENTNUM field (default)."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:44
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:51
 msgid "3 : Loop on the Item1 field."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:45
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:52
 msgid ""
 "4 : Loop on the IT1NUM field. Successive items are as shown with IT1NUM."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:46
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:53
 msgid "5 : Loop on the Item2 field."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:47
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:54
 msgid ""
 "6 : Loop on the IT2NUM field. Successive items are as shown with IT2NUM."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:53
-#: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_etable:41
-msgid ":obj:`numpy.ndarray`"
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:60
+msgid ":obj:`numpy.ndarray` or :obj:`LazyArray`"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:54
-msgid "Array from MAPDL."
-msgstr ""
-
-#: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:63
-#: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_etable:57
-#: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_esol:54
-#: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_nsol:41
-#: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:48
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:61
 msgid ""
-":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~numpy.\\_typing.\\_array\\_like.GenericAlias\\`\\\\"
-" \\\\\\[\\:py\\:class\\:\\`\\~numpy.float64\\`\\]`"
+"Array from MAPDL. A gRPC ``LazyArray`` transfers its values only when first "
+"used."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:67
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:71
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:py\\:data\\:\\`\\~typing.Union\\`\\\\ "
+"\\\\\\[\\:py\\:class\\:\\`\\~numpy.\\_typing.\\_array\\_like.GenericAlias\\`\\\\"
+" \\\\\\[\\:py\\:class\\:\\`\\~numpy.float64\\`\\]\\, "
+"\\:py\\:class\\:\\`\\~ansys.mapdl.core.lazy\\_array.LazyArray\\`\\]`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:75
 msgid ""
 "Please reference your Ansys help manual ``*VGET`` command tables for all the"
 " available ``*VGET`` values."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:70
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:78
 msgid ""
 "This method cannot be used while inside a :func:`Mapdl.non_interactive "
 "<ansys.mapdl.core.Mapdl.non_interactive>` context because it must retrieve "
@@ -12323,12 +12327,12 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:82
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:90
 msgid "List the current selected node numbers"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
-#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:89
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_array:97
 msgid "List the displacement in the X direction for the first result"
 msgstr ""
 
@@ -12539,31 +12543,31 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_esol:34
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:26
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:28
 msgid "Complex number key:"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_esol:36
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:28
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:30
 msgid "``0`` - Use the real part of the IR data. Default."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_esol:38
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:30
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:32
 msgid "``1`` - Use the imaginary part of the IR data."
 msgstr ""
 
+#: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_etable:41
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_esol:44
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_nsol:31
-#: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:36
-msgid ":obj:`np.array`"
+msgid ":obj:`numpy.ndarray`"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
@@ -12571,6 +12575,17 @@ msgstr ""
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_nsol:32
 msgid "Variable values"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/mapdl_extended.pydocstring of
+#: ansys.mapdl.core.mapdl_extended._MapdlExtended.get_etable:57
+#: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_esol:54
+#: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_nsol:41
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~numpy.\\_typing.\\_array\\_like.GenericAlias\\`\\\\"
+" \\\\\\[\\:py\\:class\\:\\`\\~numpy.float64\\`\\]`"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
@@ -13136,7 +13151,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/api/mapdl.rst:88:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:2
-msgid "Obtain the POST26 time-history variable values as an array."
+msgid "Obtain the POST26 time-history variable values lazily."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
@@ -13144,18 +13159,19 @@ msgstr ""
 msgid ""
 "This method uses the ``VGET`` command to copy a POST26 variable (for "
 "example, one created with :func:`Mapdl.nsol() <ansys.mapdl.core.Mapdl.nsol>`"
-" or :func:`Mapdl.esol() <ansys.mapdl.core.Mapdl.esol>`) into a temporary "
-"MAPDL array parameter. It returns that parameter as a NumPy array and then "
-"deletes the temporary parameter."
+" or :func:`Mapdl.esol() <ansys.mapdl.core.Mapdl.esol>`) into a private MAPDL"
+" array parameter. On gRPC connections, the returned :class:`LazyArray "
+"<ansys.mapdl.core.lazy_array.LazyArray>` downloads its values, and releases "
+"that private parameter, only when it is first used."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:13
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:15
 msgid "**ir** : :class:`python:int`, :obj:`optional`"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:14
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:16
 msgid ""
 "Reference number of the variable (1 to NV [NUMVAR]). This is the same "
 "``nvar`` reference number used when defining the variable, for example with "
@@ -13164,29 +13180,43 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:20
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:22
 msgid "**tstrt** : :class:`python:float`, :obj:`optional`"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:21
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:23
 msgid ""
 "Time (or frequency) corresponding to start of IR data.  If between values, "
 "the nearer value is used. By default, retrieval starts at 0.0."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:25
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:27
 msgid "**kcplx** : :class:`python:int`, :obj:`optional`"
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:37
-msgid "Variable values as array."
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:38
+msgid ":obj:`LazyArray`"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:39
+msgid ""
+"Variable values downloaded from MAPDL when first used. Use "
+":func:`numpy.asarray` or :meth:`LazyArray.resolve` to materialize the values"
+" explicitly."
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
 #: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:52
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~ansys.mapdl.core.lazy\\_array.LazyArray\\``"
+msgstr ""
+
+#: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:56
 msgid ""
 "Define a POST26 variable with :func:`Mapdl.nsol() "
 "<ansys.mapdl.core.Mapdl.nsol>` for the ``UX`` displacement of node 1, and "
@@ -13194,7 +13224,7 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/src/ansys/mapdl/core/mapdl_grpc.pydocstring of
-#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:62
+#: ansys.mapdl.core.mapdl_grpc.MapdlGrpc.get_variable:66
 msgid ""
 "The same works for element results defined with :func:`Mapdl.esol() "
 "<ansys.mapdl.core.Mapdl.esol>`, using ``tstrt`` to skip the initial time (or"
