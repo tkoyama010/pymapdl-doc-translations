@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.74.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-30 00:22+0000\n"
+"POT-Creation-Date: 2026-11-07 00:17+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -83108,6 +83108,7 @@ msgstr ""
 msgid "ansys.mapdl.core.\\_commands.post1.\\_fatigue.Fatigue.fp"
 msgstr ""
 
+#: ../../pymapdl/doc/source/mapdl_commands/post1/_fatigue.rst:32:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/_commands/post1/_fatigue.pydocstring of
 #: ansys.mapdl.core._commands.post1._fatigue.Fatigue.fp:2
 msgid "Defines the fatigue S vs. N and Sm vs. T tables."
@@ -113142,10 +113143,6 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/doc/source/mapdl_commands/post1/_fatigue.rst:32:<autosummary>:1
-msgid "Defines the fatigue S vs."
-msgstr ""
-
-#: ../../pymapdl/doc/source/mapdl_commands/post1/_fatigue.rst:32:<autosummary>:1
 msgid ""
 ":py:obj:`Fatigue.fplist "
 "<ansys.mapdl.core._commands.post1._fatigue.Fatigue.fplist>`\\ "
@@ -115470,6 +115467,7 @@ msgstr ""
 msgid "ansys.mapdl.core.\\_commands.post26.listing.Listing.prvar"
 msgstr ""
 
+#: ../../pymapdl/doc/source/mapdl_commands/post26/listing.rst:24:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/_commands/post26/listing.pydocstring of
 #: ansys.mapdl.core._commands.post26.listing.Listing.prvar:2
 msgid "Lists variables vs. time (or frequency)."
@@ -119362,10 +119360,6 @@ msgid ""
 ":py:obj:`Listing.prvar "
 "<ansys.mapdl.core._commands.post26.listing.Listing.prvar>`\\ \\(\\[nvar1\\, "
 "nvar2\\, nvar3\\, nvar4\\, ...\\]\\)"
-msgstr ""
-
-#: ../../pymapdl/doc/source/mapdl_commands/post26/listing.rst:24:<autosummary>:1
-msgid "Lists variables vs."
 msgstr ""
 
 #: ../../pymapdl/doc/source/mapdl_commands/post26/operations.rst:6
@@ -126235,6 +126229,7 @@ msgid ""
 "ansys.mapdl.core.\\_commands.prep7.constraint\\_equations.ConstraintEquations.ceims"
 msgstr ""
 
+#: ../../pymapdl/doc/source/mapdl_commands/prep7/constraint_equations.rst:28:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/_commands/prep7/constraint_equations.pydocstring
 #: of
 #: ansys.mapdl.core._commands.prep7.constraint_equations.ConstraintEquations.ceims:2
@@ -162242,6 +162237,7 @@ msgstr ""
 msgid "ansys.mapdl.core.\\_commands.prep7.materials.Materials.tbft"
 msgstr ""
 
+#: ../../pymapdl/doc/source/mapdl_commands/prep7/materials.rst:41:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/_commands/prep7/materials.pydocstring of
 #: ansys.mapdl.core._commands.prep7.materials.Materials.tbft:2
 msgid ""
@@ -190517,6 +190513,7 @@ msgid ""
 "ansys.mapdl.core.\\_commands.solution.additive\\_manufacturing.AdditiveManufacturing.ambuild"
 msgstr ""
 
+#: ../../pymapdl/doc/source/mapdl_commands/solution/additive_manufacturing.rst:27:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/_commands/solution/additive_manufacturing.pydocstring
 #: of
 #: ansys.mapdl.core._commands.solution.additive_manufacturing.AdditiveManufacturing.ambuild:2
@@ -190738,6 +190735,7 @@ msgid ""
 "ansys.mapdl.core.\\_commands.solution.additive\\_manufacturing.AdditiveManufacturing.amenv"
 msgstr ""
 
+#: ../../pymapdl/doc/source/mapdl_commands/solution/additive_manufacturing.rst:27:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/_commands/solution/additive_manufacturing.pydocstring
 #: of
 #: ansys.mapdl.core._commands.solution.additive_manufacturing.AdditiveManufacturing.amenv:2
@@ -190810,6 +190808,7 @@ msgid ""
 "ansys.mapdl.core.\\_commands.solution.additive\\_manufacturing.AdditiveManufacturing.ammat"
 msgstr ""
 
+#: ../../pymapdl/doc/source/mapdl_commands/solution/additive_manufacturing.rst:27:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/_commands/solution/additive_manufacturing.pydocstring
 #: of
 #: ansys.mapdl.core._commands.solution.additive_manufacturing.AdditiveManufacturing.ammat:2
@@ -190905,6 +190904,7 @@ msgid ""
 "ansys.mapdl.core.\\_commands.solution.additive\\_manufacturing.AdditiveManufacturing.ampowder"
 msgstr ""
 
+#: ../../pymapdl/doc/source/mapdl_commands/solution/additive_manufacturing.rst:27:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/_commands/solution/additive_manufacturing.pydocstring
 #: of
 #: ansys.mapdl.core._commands.solution.additive_manufacturing.AdditiveManufacturing.ampowder:2
@@ -190996,6 +190996,7 @@ msgid ""
 "ansys.mapdl.core.\\_commands.solution.additive\\_manufacturing.AdditiveManufacturing.amresult"
 msgstr ""
 
+#: ../../pymapdl/doc/source/mapdl_commands/solution/additive_manufacturing.rst:27:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/_commands/solution/additive_manufacturing.pydocstring
 #: of
 #: ansys.mapdl.core._commands.solution.additive_manufacturing.AdditiveManufacturing.amresult:2
@@ -191390,6 +191391,7 @@ msgid ""
 "ansys.mapdl.core.\\_commands.solution.additive\\_manufacturing.AdditiveManufacturing.amsupports"
 msgstr ""
 
+#: ../../pymapdl/doc/source/mapdl_commands/solution/additive_manufacturing.rst:27:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/_commands/solution/additive_manufacturing.pydocstring
 #: of
 #: ansys.mapdl.core._commands.solution.additive_manufacturing.AdditiveManufacturing.amsupports:2
@@ -191472,6 +191474,7 @@ msgid ""
 "ansys.mapdl.core.\\_commands.solution.additive\\_manufacturing.AdditiveManufacturing.amtype"
 msgstr ""
 
+#: ../../pymapdl/doc/source/mapdl_commands/solution/additive_manufacturing.rst:27:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/_commands/solution/additive_manufacturing.pydocstring
 #: of
 #: ansys.mapdl.core._commands.solution.additive_manufacturing.AdditiveManufacturing.amtype:2
@@ -234864,6 +234867,7 @@ msgid ""
 "ansys.mapdl.core.\\_commands.solution.spectrum\\_options.SpectrumOptions.freq"
 msgstr ""
 
+#: ../../pymapdl/doc/source/mapdl_commands/solution/spectrum_options.rst:52:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/_commands/solution/spectrum_options.pydocstring
 #: of
 #: ansys.mapdl.core._commands.solution.spectrum_options.SpectrumOptions.freq:2
@@ -235475,6 +235479,7 @@ msgid ""
 "ansys.mapdl.core.\\_commands.solution.spectrum\\_options.SpectrumOptions.psdfrq"
 msgstr ""
 
+#: ../../pymapdl/doc/source/mapdl_commands/solution/spectrum_options.rst:52:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/_commands/solution/spectrum_options.pydocstring
 #: of
 #: ansys.mapdl.core._commands.solution.spectrum_options.SpectrumOptions.psdfrq:2
@@ -236580,6 +236585,7 @@ msgid ""
 "ansys.mapdl.core.\\_commands.solution.spectrum\\_options.SpectrumOptions.spfreq"
 msgstr ""
 
+#: ../../pymapdl/doc/source/mapdl_commands/solution/spectrum_options.rst:52:<autosummary>:1
 #: ../../pymapdl/src/ansys/mapdl/core/_commands/solution/spectrum_options.pydocstring
 #: of
 #: ansys.mapdl.core._commands.solution.spectrum_options.SpectrumOptions.spfreq:2
@@ -240098,10 +240104,6 @@ msgid ""
 msgstr ""
 
 #: ../../pymapdl/doc/source/mapdl_commands/solution/spectrum_options.rst:52:<autosummary>:1
-msgid "Defines the frequency points for the :ref:`sv` vs."
-msgstr ""
-
-#: ../../pymapdl/doc/source/mapdl_commands/solution/spectrum_options.rst:52:<autosummary>:1
 msgid ""
 ":py:obj:`SpectrumOptions.grp "
 "<ansys.mapdl.core._commands.solution.spectrum_options.SpectrumOptions.grp>`\\"
@@ -240141,10 +240143,6 @@ msgid ""
 ":py:obj:`SpectrumOptions.psdfrq "
 "<ansys.mapdl.core._commands.solution.spectrum_options.SpectrumOptions.psdfrq>`\\"
 " \\(\\[tblno1\\, tblno2\\, ...\\]\\)"
-msgstr ""
-
-#: ../../pymapdl/doc/source/mapdl_commands/solution/spectrum_options.rst:52:<autosummary>:1
-msgid "Defines the frequency points for the input spectrum tables PSDVAL vs."
 msgstr ""
 
 #: ../../pymapdl/doc/source/mapdl_commands/solution/spectrum_options.rst:52:<autosummary>:1
@@ -240236,11 +240234,6 @@ msgid ""
 ":py:obj:`SpectrumOptions.spfreq "
 "<ansys.mapdl.core._commands.solution.spectrum_options.SpectrumOptions.spfreq>`\\"
 " \\(\\[tblno\\, freq1\\, ...\\]\\)"
-msgstr ""
-
-#: ../../pymapdl/doc/source/mapdl_commands/solution/spectrum_options.rst:52:<autosummary>:1
-msgid ""
-"Defines the frequency points for the input spectrum tables :ref:`spval` vs."
 msgstr ""
 
 #: ../../pymapdl/doc/source/mapdl_commands/solution/spectrum_options.rst:52:<autosummary>:1
