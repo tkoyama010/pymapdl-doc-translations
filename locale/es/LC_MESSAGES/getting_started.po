@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.74.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 00:19+0000\n"
+"POT-Creation-Date: 2026-11-11 00:19+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -462,7 +462,7 @@ msgid "Develop PyMAPDL"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:79
-msgid "*Now it is time to develop PyMAPDL!*"
+msgid "*Now it is time to develop PyMAPDL.*"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:81
@@ -720,7 +720,7 @@ msgid ""
 "**Ask for help**: To ensure code quality, identify issues, and share "
 "knowledge, ask PyMAPDL developers to assist you and review your code. If you"
 " need help or guidance, mention ``@ansys/pymapdl-maintainers`` in a comment "
-"so they they are notified."
+"so they are notified."
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:192
@@ -1178,7 +1178,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:388
 msgid ""
 "Tell Pytest that PyMAPDL is installed with the minimal requirements, hence "
-"it won't run tests that requires libraries like Pyvista, DPF, etc."
+"it won't run tests that requires libraries like PyVista, DPF, etc."
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:390
@@ -1281,7 +1281,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/getting_started/develop_pymapdl.rst:419
 msgid ""
 "``docker-run-mapdl``: Start a MAPDL Docker container (background). Useful to"
-" start MAPDL and connect local services to it (i.e. ``pytest`` which "
+" start MAPDL and connect local services to it (that is, ``pytest`` which "
 "requires a running container)."
 msgstr ""
 

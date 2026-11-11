@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.74.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-28 00:22+0000\n"
+"POT-Creation-Date: 2026-11-11 00:19+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -54,7 +54,7 @@ msgstr ""
 #: ../../pymapdl/doc/source/user_guide/cli.rst:40
 msgid ""
 "If you want to specify an argument, for instance the port, then you need to "
-"call `launch_mapdl start`:"
+"call ``launch_mapdl start``:"
 msgstr ""
 
 #: ../../pymapdl/doc/source/user_guide/cli.rst:63
