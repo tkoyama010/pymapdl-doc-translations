@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ansys-mapdl-core 0.74.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-19 00:19+0000\n"
+"POT-Creation-Date: 2026-11-20 00:17+0000\n"
 "PO-Revision-Date: 2024-05-21 13:45+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/tkoyama010/teams/192978/es/)\n"
 "MIME-Version: 1.0\n"
@@ -3906,30 +3906,31 @@ msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/troubleshoot.rst:154
 msgid ""
-"`Developer Portal <_developer_portal>`: Blog posts, documentation, and guide"
+"`Developer Portal <developer_portal_>`_: Blog posts, documentation, and "
+"guide"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/troubleshoot.rst:155
 msgid ""
-"`Developer Forum <_developer_forum>`: Scripting and usage support for "
+"`Developer Forum <developer_forum_>`_: Scripting and usage support for "
 "PyAnsys and other Ansys developer tools"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/troubleshoot.rst:156
 msgid ""
-"`Ansys Innovation Space <_ansys_innovation_space>`: Product support forum "
+"`Ansys Innovation Space <ansys_innovation_space_>`_: Product support forum "
 "and training materials"
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/troubleshoot.rst:157
 msgid ""
-"`GitHub <_pymapdl_repo>`: Development support, bug reporting, feature "
+"`GitHub <pymapdl_repo_>`_: Development support, bug reporting, feature "
 "requests, and more."
 msgstr ""
 
 #: ../../pymapdl/doc/source/getting_started/troubleshoot.rst:158
 msgid ""
-"`Ansys Learning Hub <_ansys_learning_hub>`: Training, courses and learning "
+"`Ansys Learning Hub <ansys_learning_hub_>`_: Training, courses and learning "
 "plans"
 msgstr ""
 
